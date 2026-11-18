@@ -1,0 +1,6122 @@
+{
+ "no": 22,
+ "source_path": "documents/Планирование/Тарифы новый.xlsx",
+ "doc_id": "plan-capabilities",
+ "title": "Что доступно в тарифах",
+ "title_ru": null,
+ "lang": "ru",
+ "format": "xlsx",
+ "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+ "decision": {
+  "no": 22,
+  "path": "documents/Планирование/Тарифы новый.xlsx",
+  "doc_id": "plan-capabilities",
+  "title": "Что доступно в тарифах",
+  "lang": "ru",
+  "owner": "",
+  "version": "2026-09-01",
+  "updated": "2026-09-09",
+  "doc_type": "register",
+  "status": "include",
+  "rule": "R1",
+  "reason": "«Коммерческие возможности ниже подтверждены с 1 сентября»; копия для встречи 9.09.2026; владелец не указан, но подтверждение явное; значения совпадают с №17 и №21.",
+  "access": "all",
+  "trust": "confirmed",
+  "related": [
+   17,
+   21,
+   28
+  ],
+  "notes": "Административный экспорт указан только у Team; №28 даёт лимит для Starter — не разрешено."
+ },
+ "fragments": [
+  {
+   "fragment_id": "22-001",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "sheet_title",
+   "locator": {
+    "sheet": "Возможности",
+    "range": "A1:D2"
+   },
+   "locator_text": "лист «Возможности», объединённые ячейки A1:D2",
+   "segment_sha": "54981742ba2f",
+   "section": "Возможности",
+   "section_ru": "Возможности",
+   "text_ru": "Что доступно в тарифах",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-002",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "sheet_note",
+   "locator": {
+    "sheet": "Возможности",
+    "range": "A3:D5"
+   },
+   "locator_text": "лист «Возможности», объединённые ячейки A3:D5",
+   "segment_sha": "f95ae50a730f",
+   "section": "Возможности",
+   "section_ru": "Возможности",
+   "text_ru": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-003",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "table_header",
+   "locator": {
+    "sheet": "Возможности",
+    "row": 7,
+    "range": "A7:D7"
+   },
+   "locator_text": "лист «Возможности», строка 7, ячейки A7:D7",
+   "segment_sha": "8080755aeef1",
+   "cells": [
+    {
+     "ref": "A7",
+     "value": "Тариф или предмет",
+     "value_ru": "Тариф или предмет"
+    },
+    {
+     "ref": "B7",
+     "value": "Возможность",
+     "value_ru": "Возможность"
+    },
+    {
+     "ref": "C7",
+     "value": "Единица",
+     "value_ru": "Единица"
+    },
+    {
+     "ref": "D7",
+     "value": "Граница",
+     "value_ru": "Граница"
+    }
+   ],
+   "section": "Возможности",
+   "section_ru": "Возможности",
+   "text_ru": "Тариф или предмет | Возможность | Единица | Граница",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-004",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Возможности",
+    "row": 8,
+    "range": "A8:D8"
+   },
+   "locator_text": "лист «Возможности», строка 8, ячейки A8:D8",
+   "segment_sha": "8da0867017aa",
+   "cells": [
+    {
+     "ref": "A8",
+     "header": "Тариф или предмет",
+     "value": "Starter",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Starter"
+    },
+    {
+     "ref": "B8",
+     "header": "Возможность",
+     "value": "Базовые пространства",
+     "header_ru": "Возможность",
+     "value_ru": "Базовые пространства"
+    },
+    {
+     "ref": "C8",
+     "header": "Единица",
+     "value": "функция",
+     "header_ru": "Единица",
+     "value_ru": "функция"
+    },
+    {
+     "ref": "D8",
+     "header": "Граница",
+     "value": "SAML и гостевой доступ недоступны",
+     "header_ru": "Граница",
+     "value_ru": "SAML и гостевой доступ недоступны"
+    }
+   ],
+   "context": {
+    "sheet": "Возможности",
+    "sheet_ru": "Возможности",
+    "title": "Что доступно в тарифах",
+    "title_ru": "Что доступно в тарифах",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+      "text_ru": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header_ru": [
+     "Тариф или предмет",
+     "Возможность",
+     "Единица",
+     "Граница"
+    ]
+   },
+   "section": "Возможности",
+   "section_ru": "Возможности",
+   "text_ru": "Тариф или предмет: Starter; Возможность: Базовые пространства; Единица: функция; Граница: SAML и гостевой доступ недоступны",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-005",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Возможности",
+    "row": 9,
+    "range": "A9:D9"
+   },
+   "locator_text": "лист «Возможности», строка 9, ячейки A9:D9",
+   "segment_sha": "bb74fc69efdb",
+   "cells": [
+    {
+     "ref": "A9",
+     "header": "Тариф или предмет",
+     "value": "Team",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Team"
+    },
+    {
+     "ref": "B9",
+     "header": "Возможность",
+     "value": "Гости и административный экспорт",
+     "header_ru": "Возможность",
+     "value_ru": "Гости и административный экспорт"
+    },
+    {
+     "ref": "C9",
+     "header": "Единица",
+     "value": "функция",
+     "header_ru": "Единица",
+     "value_ru": "функция"
+    },
+    {
+     "ref": "D9",
+     "header": "Граница",
+     "value": "До 20 активных гостей",
+     "header_ru": "Граница",
+     "value_ru": "До 20 активных гостей"
+    }
+   ],
+   "context": {
+    "sheet": "Возможности",
+    "sheet_ru": "Возможности",
+    "title": "Что доступно в тарифах",
+    "title_ru": "Что доступно в тарифах",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+      "text_ru": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header_ru": [
+     "Тариф или предмет",
+     "Возможность",
+     "Единица",
+     "Граница"
+    ]
+   },
+   "section": "Возможности",
+   "section_ru": "Возможности",
+   "text_ru": "Тариф или предмет: Team; Возможность: Гости и административный экспорт; Единица: функция; Граница: До 20 активных гостей",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-006",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Возможности",
+    "row": 10,
+    "range": "A10:D10"
+   },
+   "locator_text": "лист «Возможности», строка 10, ячейки A10:D10",
+   "segment_sha": "7df17e92dc0e",
+   "cells": [
+    {
+     "ref": "A10",
+     "header": "Тариф или предмет",
+     "value": "Enterprise",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Enterprise"
+    },
+    {
+     "ref": "B10",
+     "header": "Возможность",
+     "value": "SAML и аудит",
+     "header_ru": "Возможность",
+     "value_ru": "SAML и аудит"
+    },
+    {
+     "ref": "C10",
+     "header": "Единица",
+     "value": "функция",
+     "header_ru": "Единица",
+     "value_ru": "функция"
+    },
+    {
+     "ref": "D10",
+     "header": "Граница",
+     "value": "До 100 активных гостей",
+     "header_ru": "Граница",
+     "value_ru": "До 100 активных гостей"
+    }
+   ],
+   "context": {
+    "sheet": "Возможности",
+    "sheet_ru": "Возможности",
+    "title": "Что доступно в тарифах",
+    "title_ru": "Что доступно в тарифах",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+      "text_ru": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header_ru": [
+     "Тариф или предмет",
+     "Возможность",
+     "Единица",
+     "Граница"
+    ]
+   },
+   "section": "Возможности",
+   "section_ru": "Возможности",
+   "text_ru": "Тариф или предмет: Enterprise; Возможность: SAML и аудит; Единица: функция; Граница: До 100 активных гостей",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-007",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Возможности",
+    "row": 11,
+    "range": "A11:D11"
+   },
+   "locator_text": "лист «Возможности», строка 11, ячейки A11:D11",
+   "segment_sha": "b4d3e1ab7f02",
+   "cells": [
+    {
+     "ref": "A11",
+     "header": "Тариф или предмет",
+     "value": "История Starter",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "История Starter"
+    },
+    {
+     "ref": "B11",
+     "header": "Возможность",
+     "value": "14",
+     "header_ru": "Возможность",
+     "value_ru": "14"
+    },
+    {
+     "ref": "C11",
+     "header": "Единица",
+     "value": "дней",
+     "header_ru": "Единица",
+     "value_ru": "дней"
+    },
+    {
+     "ref": "D11",
+     "header": "Граница",
+     "value": "Журнал активности",
+     "header_ru": "Граница",
+     "value_ru": "Журнал активности"
+    }
+   ],
+   "context": {
+    "sheet": "Возможности",
+    "sheet_ru": "Возможности",
+    "title": "Что доступно в тарифах",
+    "title_ru": "Что доступно в тарифах",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+      "text_ru": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header_ru": [
+     "Тариф или предмет",
+     "Возможность",
+     "Единица",
+     "Граница"
+    ]
+   },
+   "section": "Возможности",
+   "section_ru": "Возможности",
+   "text_ru": "Тариф или предмет: История Starter; Возможность: 14; Единица: дней; Граница: Журнал активности",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-008",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Возможности",
+    "row": 12,
+    "range": "A12:D12"
+   },
+   "locator_text": "лист «Возможности», строка 12, ячейки A12:D12",
+   "segment_sha": "74e5440f1c58",
+   "cells": [
+    {
+     "ref": "A12",
+     "header": "Тариф или предмет",
+     "value": "История Team",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "История Team"
+    },
+    {
+     "ref": "B12",
+     "header": "Возможность",
+     "value": "90",
+     "header_ru": "Возможность",
+     "value_ru": "90"
+    },
+    {
+     "ref": "C12",
+     "header": "Единица",
+     "value": "дней",
+     "header_ru": "Единица",
+     "value_ru": "дней"
+    },
+    {
+     "ref": "D12",
+     "header": "Граница",
+     "value": "Журнал активности",
+     "header_ru": "Граница",
+     "value_ru": "Журнал активности"
+    }
+   ],
+   "context": {
+    "sheet": "Возможности",
+    "sheet_ru": "Возможности",
+    "title": "Что доступно в тарифах",
+    "title_ru": "Что доступно в тарифах",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+      "text_ru": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header_ru": [
+     "Тариф или предмет",
+     "Возможность",
+     "Единица",
+     "Граница"
+    ]
+   },
+   "section": "Возможности",
+   "section_ru": "Возможности",
+   "text_ru": "Тариф или предмет: История Team; Возможность: 90; Единица: дней; Граница: Журнал активности",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-009",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Возможности",
+    "row": 13,
+    "range": "A13:D13"
+   },
+   "locator_text": "лист «Возможности», строка 13, ячейки A13:D13",
+   "segment_sha": "cf2e8c70cc29",
+   "cells": [
+    {
+     "ref": "A13",
+     "header": "Тариф или предмет",
+     "value": "История Enterprise",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "История Enterprise"
+    },
+    {
+     "ref": "B13",
+     "header": "Возможность",
+     "value": "365",
+     "header_ru": "Возможность",
+     "value_ru": "365"
+    },
+    {
+     "ref": "C13",
+     "header": "Единица",
+     "value": "дней",
+     "header_ru": "Единица",
+     "value_ru": "дней"
+    },
+    {
+     "ref": "D13",
+     "header": "Граница",
+     "value": "Журнал аудита",
+     "header_ru": "Граница",
+     "value_ru": "Журнал аудита"
+    }
+   ],
+   "context": {
+    "sheet": "Возможности",
+    "sheet_ru": "Возможности",
+    "title": "Что доступно в тарифах",
+    "title_ru": "Что доступно в тарифах",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+      "text_ru": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header_ru": [
+     "Тариф или предмет",
+     "Возможность",
+     "Единица",
+     "Граница"
+    ]
+   },
+   "section": "Возможности",
+   "section_ru": "Возможности",
+   "text_ru": "Тариф или предмет: История Enterprise; Возможность: 365; Единица: дней; Граница: Журнал аудита",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-010",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Возможности",
+    "row": 14,
+    "range": "A14:D14"
+   },
+   "locator_text": "лист «Возможности», строка 14, ячейки A14:D14",
+   "segment_sha": "7b6d59916442",
+   "cells": [
+    {
+     "ref": "A14",
+     "header": "Тариф или предмет",
+     "value": "Повышение",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Повышение"
+    },
+    {
+     "ref": "B14",
+     "header": "Возможность",
+     "value": "После подтверждения оплаты",
+     "header_ru": "Возможность",
+     "value_ru": "После подтверждения оплаты"
+    },
+    {
+     "ref": "C14",
+     "header": "Единица",
+     "value": "момент",
+     "header_ru": "Единица",
+     "value_ru": "момент"
+    },
+    {
+     "ref": "D14",
+     "header": "Граница",
+     "value": "Новые лимиты начинают действовать в течение 15 минут",
+     "header_ru": "Граница",
+     "value_ru": "Новые лимиты начинают действовать в течение 15 минут"
+    }
+   ],
+   "context": {
+    "sheet": "Возможности",
+    "sheet_ru": "Возможности",
+    "title": "Что доступно в тарифах",
+    "title_ru": "Что доступно в тарифах",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+      "text_ru": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header_ru": [
+     "Тариф или предмет",
+     "Возможность",
+     "Единица",
+     "Граница"
+    ]
+   },
+   "section": "Возможности",
+   "section_ru": "Возможности",
+   "text_ru": "Тариф или предмет: Повышение; Возможность: После подтверждения оплаты; Единица: момент; Граница: Новые лимиты начинают действовать в течение 15 минут",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-011",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Возможности",
+    "row": 15,
+    "range": "A15:D15"
+   },
+   "locator_text": "лист «Возможности», строка 15, ячейки A15:D15",
+   "segment_sha": "dc292352d12a",
+   "cells": [
+    {
+     "ref": "A15",
+     "header": "Тариф или предмет",
+     "value": "Понижение",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Понижение"
+    },
+    {
+     "ref": "B15",
+     "header": "Возможность",
+     "value": "Начало следующего периода",
+     "header_ru": "Возможность",
+     "value_ru": "Начало следующего периода"
+    },
+    {
+     "ref": "C15",
+     "header": "Единица",
+     "value": "момент",
+     "header_ru": "Единица",
+     "value_ru": "момент"
+    },
+    {
+     "ref": "D15",
+     "header": "Граница",
+     "value": "Существующие данные доступны для чтения",
+     "header_ru": "Граница",
+     "value_ru": "Существующие данные доступны для чтения"
+    }
+   ],
+   "context": {
+    "sheet": "Возможности",
+    "sheet_ru": "Возможности",
+    "title": "Что доступно в тарифах",
+    "title_ru": "Что доступно в тарифах",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+      "text_ru": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header_ru": [
+     "Тариф или предмет",
+     "Возможность",
+     "Единица",
+     "Граница"
+    ]
+   },
+   "section": "Возможности",
+   "section_ru": "Возможности",
+   "text_ru": "Тариф или предмет: Понижение; Возможность: Начало следующего периода; Единица: момент; Граница: Существующие данные доступны для чтения",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-012",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Возможности",
+    "row": 16,
+    "range": "A16:D16"
+   },
+   "locator_text": "лист «Возможности», строка 16, ячейки A16:D16",
+   "segment_sha": "388530d4e41a",
+   "cells": [
+    {
+     "ref": "A16",
+     "header": "Тариф или предмет",
+     "value": "Подтверждение",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Подтверждение"
+    },
+    {
+     "ref": "B16",
+     "header": "Возможность",
+     "value": "Billing account ID",
+     "header_ru": "Возможность",
+     "value_ru": "Billing account ID"
+    },
+    {
+     "ref": "C16",
+     "header": "Единица",
+     "value": "поле",
+     "header_ru": "Единица",
+     "value_ru": "поле"
+    },
+    {
+     "ref": "D16",
+     "header": "Граница",
+     "value": "Поддержка проверяет тариф в карточке договора",
+     "header_ru": "Граница",
+     "value_ru": "Поддержка проверяет тариф в карточке договора"
+    }
+   ],
+   "context": {
+    "sheet": "Возможности",
+    "sheet_ru": "Возможности",
+    "title": "Что доступно в тарифах",
+    "title_ru": "Что доступно в тарифах",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+      "text_ru": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header_ru": [
+     "Тариф или предмет",
+     "Возможность",
+     "Единица",
+     "Граница"
+    ]
+   },
+   "section": "Возможности",
+   "section_ru": "Возможности",
+   "text_ru": "Тариф или предмет: Подтверждение; Возможность: Billing account ID; Единица: поле; Граница: Поддержка проверяет тариф в карточке договора",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-013",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "sheet_title",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "range": "A1:D2"
+   },
+   "locator_text": "лист «Разбор запросов», объединённые ячейки A1:D2",
+   "segment_sha": "3afa723411ec",
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Вопросы для команды внедрения",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-014",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "table_header",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 5,
+    "range": "A5:D5"
+   },
+   "locator_text": "лист «Разбор запросов», строка 5, ячейки A5:D5",
+   "segment_sha": "0b7ae5076b5b",
+   "cells": [
+    {
+     "ref": "A5",
+     "value": "Организация",
+     "value_ru": "Организация"
+    },
+    {
+     "ref": "B5",
+     "value": "Текущий тариф",
+     "value_ru": "Текущий тариф"
+    },
+    {
+     "ref": "C5",
+     "value": "Запрос",
+     "value_ru": "Запрос"
+    },
+    {
+     "ref": "D5",
+     "value": "Результат разбора",
+     "value_ru": "Результат разбора"
+    }
+   ],
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация | Текущий тариф | Запрос | Результат разбора",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-015",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 6,
+    "range": "A6:D6"
+   },
+   "locator_text": "лист «Разбор запросов», строка 6, ячейки A6:D6",
+   "segment_sha": "2a31b07f6e08",
+   "cells": [
+    {
+     "ref": "A6",
+     "header": "Организация",
+     "value": "Маяк / команда 1",
+     "header_ru": "Организация",
+     "value_ru": "Маяк / команда 1"
+    },
+    {
+     "ref": "B6",
+     "header": "Текущий тариф",
+     "value": "Starter",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Starter"
+    },
+    {
+     "ref": "C6",
+     "header": "Запрос",
+     "value": "Подключить SAML",
+     "header_ru": "Запрос",
+     "value_ru": "Подключить SAML"
+    },
+    {
+     "ref": "D6",
+     "header": "Результат разбора",
+     "value": "Недоступно на текущем тарифе",
+     "header_ru": "Результат разбора",
+     "value_ru": "Недоступно на текущем тарифе"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Маяк / команда 1; Текущий тариф: Starter; Запрос: Подключить SAML; Результат разбора: Недоступно на текущем тарифе",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-016",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 7,
+    "range": "A7:D7"
+   },
+   "locator_text": "лист «Разбор запросов», строка 7, ячейки A7:D7",
+   "segment_sha": "ea9872668ff3",
+   "cells": [
+    {
+     "ref": "A7",
+     "header": "Организация",
+     "value": "Север / команда 1",
+     "header_ru": "Организация",
+     "value_ru": "Север / команда 1"
+    },
+    {
+     "ref": "B7",
+     "header": "Текущий тариф",
+     "value": "Team",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Team"
+    },
+    {
+     "ref": "C7",
+     "header": "Запрос",
+     "value": "Подключить SAML",
+     "header_ru": "Запрос",
+     "value_ru": "Подключить SAML"
+    },
+    {
+     "ref": "D7",
+     "header": "Результат разбора",
+     "value": "Недоступно на текущем тарифе",
+     "header_ru": "Результат разбора",
+     "value_ru": "Недоступно на текущем тарифе"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Север / команда 1; Текущий тариф: Team; Запрос: Подключить SAML; Результат разбора: Недоступно на текущем тарифе",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-017",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 8,
+    "range": "A8:D8"
+   },
+   "locator_text": "лист «Разбор запросов», строка 8, ячейки A8:D8",
+   "segment_sha": "0417b3fb17b9",
+   "cells": [
+    {
+     "ref": "A8",
+     "header": "Организация",
+     "value": "Орбита / команда 1",
+     "header_ru": "Организация",
+     "value_ru": "Орбита / команда 1"
+    },
+    {
+     "ref": "B8",
+     "header": "Текущий тариф",
+     "value": "Enterprise",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "ref": "C8",
+     "header": "Запрос",
+     "value": "Подключить SAML",
+     "header_ru": "Запрос",
+     "value_ru": "Подключить SAML"
+    },
+    {
+     "ref": "D8",
+     "header": "Результат разбора",
+     "value": "Доступно; проверить настройку IdP",
+     "header_ru": "Результат разбора",
+     "value_ru": "Доступно; проверить настройку IdP"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Орбита / команда 1; Текущий тариф: Enterprise; Запрос: Подключить SAML; Результат разбора: Доступно; проверить настройку IdP",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-018",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 9,
+    "range": "A9:D9"
+   },
+   "locator_text": "лист «Разбор запросов», строка 9, ячейки A9:D9",
+   "segment_sha": "429f79127f69",
+   "cells": [
+    {
+     "ref": "A9",
+     "header": "Организация",
+     "value": "Ателье / команда 1",
+     "header_ru": "Организация",
+     "value_ru": "Ателье / команда 1"
+    },
+    {
+     "ref": "B9",
+     "header": "Текущий тариф",
+     "value": "Starter",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Starter"
+    },
+    {
+     "ref": "C9",
+     "header": "Запрос",
+     "value": "Пригласить гостей",
+     "header_ru": "Запрос",
+     "value_ru": "Пригласить гостей"
+    },
+    {
+     "ref": "D9",
+     "header": "Результат разбора",
+     "value": "Гостевой доступ недоступен",
+     "header_ru": "Результат разбора",
+     "value_ru": "Гостевой доступ недоступен"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Ателье / команда 1; Текущий тариф: Starter; Запрос: Пригласить гостей; Результат разбора: Гостевой доступ недоступен",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-019",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 10,
+    "range": "A10:D10"
+   },
+   "locator_text": "лист «Разбор запросов», строка 10, ячейки A10:D10",
+   "segment_sha": "21bf6961c673",
+   "cells": [
+    {
+     "ref": "A10",
+     "header": "Организация",
+     "value": "Речной порт / команда 1",
+     "header_ru": "Организация",
+     "value_ru": "Речной порт / команда 1"
+    },
+    {
+     "ref": "B10",
+     "header": "Текущий тариф",
+     "value": "Team",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Team"
+    },
+    {
+     "ref": "C10",
+     "header": "Запрос",
+     "value": "Пригласить гостей",
+     "header_ru": "Запрос",
+     "value_ru": "Пригласить гостей"
+    },
+    {
+     "ref": "D10",
+     "header": "Результат разбора",
+     "value": "До 20 активных гостей",
+     "header_ru": "Результат разбора",
+     "value_ru": "До 20 активных гостей"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Речной порт / команда 1; Текущий тариф: Team; Запрос: Пригласить гостей; Результат разбора: До 20 активных гостей",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-020",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 11,
+    "range": "A11:D11"
+   },
+   "locator_text": "лист «Разбор запросов», строка 11, ячейки A11:D11",
+   "segment_sha": "96577a649424",
+   "cells": [
+    {
+     "ref": "A11",
+     "header": "Организация",
+     "value": "Кедр / команда 1",
+     "header_ru": "Организация",
+     "value_ru": "Кедр / команда 1"
+    },
+    {
+     "ref": "B11",
+     "header": "Текущий тариф",
+     "value": "Enterprise",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "ref": "C11",
+     "header": "Запрос",
+     "value": "Пригласить гостей",
+     "header_ru": "Запрос",
+     "value_ru": "Пригласить гостей"
+    },
+    {
+     "ref": "D11",
+     "header": "Результат разбора",
+     "value": "До 100 активных гостей",
+     "header_ru": "Результат разбора",
+     "value_ru": "До 100 активных гостей"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Кедр / команда 1; Текущий тариф: Enterprise; Запрос: Пригласить гостей; Результат разбора: До 100 активных гостей",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-021",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 12,
+    "range": "A12:D12"
+   },
+   "locator_text": "лист «Разбор запросов», строка 12, ячейки A12:D12",
+   "segment_sha": "624bbd8307c6",
+   "cells": [
+    {
+     "ref": "A12",
+     "header": "Организация",
+     "value": "Кварц / команда 1",
+     "header_ru": "Организация",
+     "value_ru": "Кварц / команда 1"
+    },
+    {
+     "ref": "B12",
+     "header": "Текущий тариф",
+     "value": "Starter",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Starter"
+    },
+    {
+     "ref": "C12",
+     "header": "Запрос",
+     "value": "Открыть журнал активности",
+     "header_ru": "Запрос",
+     "value_ru": "Открыть журнал активности"
+    },
+    {
+     "ref": "D12",
+     "header": "Результат разбора",
+     "value": "Проверить срок истории текущего тарифа",
+     "header_ru": "Результат разбора",
+     "value_ru": "Проверить срок истории текущего тарифа"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Кварц / команда 1; Текущий тариф: Starter; Запрос: Открыть журнал активности; Результат разбора: Проверить срок истории текущего тарифа",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-022",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 13,
+    "range": "A13:D13"
+   },
+   "locator_text": "лист «Разбор запросов», строка 13, ячейки A13:D13",
+   "segment_sha": "2f4ca56f64d0",
+   "cells": [
+    {
+     "ref": "A13",
+     "header": "Организация",
+     "value": "Полоса / команда 1",
+     "header_ru": "Организация",
+     "value_ru": "Полоса / команда 1"
+    },
+    {
+     "ref": "B13",
+     "header": "Текущий тариф",
+     "value": "Team",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Team"
+    },
+    {
+     "ref": "C13",
+     "header": "Запрос",
+     "value": "Открыть журнал активности",
+     "header_ru": "Запрос",
+     "value_ru": "Открыть журнал активности"
+    },
+    {
+     "ref": "D13",
+     "header": "Результат разбора",
+     "value": "Проверить срок истории текущего тарифа",
+     "header_ru": "Результат разбора",
+     "value_ru": "Проверить срок истории текущего тарифа"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Полоса / команда 1; Текущий тариф: Team; Запрос: Открыть журнал активности; Результат разбора: Проверить срок истории текущего тарифа",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-023",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 14,
+    "range": "A14:D14"
+   },
+   "locator_text": "лист «Разбор запросов», строка 14, ячейки A14:D14",
+   "segment_sha": "0adc580a97db",
+   "cells": [
+    {
+     "ref": "A14",
+     "header": "Организация",
+     "value": "Маяк / команда 2",
+     "header_ru": "Организация",
+     "value_ru": "Маяк / команда 2"
+    },
+    {
+     "ref": "B14",
+     "header": "Текущий тариф",
+     "value": "Enterprise",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "ref": "C14",
+     "header": "Запрос",
+     "value": "Открыть журнал активности",
+     "header_ru": "Запрос",
+     "value_ru": "Открыть журнал активности"
+    },
+    {
+     "ref": "D14",
+     "header": "Результат разбора",
+     "value": "Проверить срок истории текущего тарифа",
+     "header_ru": "Результат разбора",
+     "value_ru": "Проверить срок истории текущего тарифа"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Маяк / команда 2; Текущий тариф: Enterprise; Запрос: Открыть журнал активности; Результат разбора: Проверить срок истории текущего тарифа",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-024",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 15,
+    "range": "A15:D15"
+   },
+   "locator_text": "лист «Разбор запросов», строка 15, ячейки A15:D15",
+   "segment_sha": "9e9644cd3f00",
+   "cells": [
+    {
+     "ref": "A15",
+     "header": "Организация",
+     "value": "Север / команда 2",
+     "header_ru": "Организация",
+     "value_ru": "Север / команда 2"
+    },
+    {
+     "ref": "B15",
+     "header": "Текущий тариф",
+     "value": "Starter",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Starter"
+    },
+    {
+     "ref": "C15",
+     "header": "Запрос",
+     "value": "Подключить SAML",
+     "header_ru": "Запрос",
+     "value_ru": "Подключить SAML"
+    },
+    {
+     "ref": "D15",
+     "header": "Результат разбора",
+     "value": "Недоступно на текущем тарифе",
+     "header_ru": "Результат разбора",
+     "value_ru": "Недоступно на текущем тарифе"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Север / команда 2; Текущий тариф: Starter; Запрос: Подключить SAML; Результат разбора: Недоступно на текущем тарифе",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-025",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 16,
+    "range": "A16:D16"
+   },
+   "locator_text": "лист «Разбор запросов», строка 16, ячейки A16:D16",
+   "segment_sha": "78ec424464bc",
+   "cells": [
+    {
+     "ref": "A16",
+     "header": "Организация",
+     "value": "Орбита / команда 2",
+     "header_ru": "Организация",
+     "value_ru": "Орбита / команда 2"
+    },
+    {
+     "ref": "B16",
+     "header": "Текущий тариф",
+     "value": "Team",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Team"
+    },
+    {
+     "ref": "C16",
+     "header": "Запрос",
+     "value": "Подключить SAML",
+     "header_ru": "Запрос",
+     "value_ru": "Подключить SAML"
+    },
+    {
+     "ref": "D16",
+     "header": "Результат разбора",
+     "value": "Недоступно на текущем тарифе",
+     "header_ru": "Результат разбора",
+     "value_ru": "Недоступно на текущем тарифе"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Орбита / команда 2; Текущий тариф: Team; Запрос: Подключить SAML; Результат разбора: Недоступно на текущем тарифе",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-026",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 17,
+    "range": "A17:D17"
+   },
+   "locator_text": "лист «Разбор запросов», строка 17, ячейки A17:D17",
+   "segment_sha": "8b7d452cfe0f",
+   "cells": [
+    {
+     "ref": "A17",
+     "header": "Организация",
+     "value": "Ателье / команда 2",
+     "header_ru": "Организация",
+     "value_ru": "Ателье / команда 2"
+    },
+    {
+     "ref": "B17",
+     "header": "Текущий тариф",
+     "value": "Enterprise",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "ref": "C17",
+     "header": "Запрос",
+     "value": "Подключить SAML",
+     "header_ru": "Запрос",
+     "value_ru": "Подключить SAML"
+    },
+    {
+     "ref": "D17",
+     "header": "Результат разбора",
+     "value": "Доступно; проверить настройку IdP",
+     "header_ru": "Результат разбора",
+     "value_ru": "Доступно; проверить настройку IdP"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Ателье / команда 2; Текущий тариф: Enterprise; Запрос: Подключить SAML; Результат разбора: Доступно; проверить настройку IdP",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-027",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 18,
+    "range": "A18:D18"
+   },
+   "locator_text": "лист «Разбор запросов», строка 18, ячейки A18:D18",
+   "segment_sha": "28e98e0b6c2a",
+   "cells": [
+    {
+     "ref": "A18",
+     "header": "Организация",
+     "value": "Речной порт / команда 2",
+     "header_ru": "Организация",
+     "value_ru": "Речной порт / команда 2"
+    },
+    {
+     "ref": "B18",
+     "header": "Текущий тариф",
+     "value": "Starter",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Starter"
+    },
+    {
+     "ref": "C18",
+     "header": "Запрос",
+     "value": "Пригласить гостей",
+     "header_ru": "Запрос",
+     "value_ru": "Пригласить гостей"
+    },
+    {
+     "ref": "D18",
+     "header": "Результат разбора",
+     "value": "Гостевой доступ недоступен",
+     "header_ru": "Результат разбора",
+     "value_ru": "Гостевой доступ недоступен"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Речной порт / команда 2; Текущий тариф: Starter; Запрос: Пригласить гостей; Результат разбора: Гостевой доступ недоступен",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-028",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 19,
+    "range": "A19:D19"
+   },
+   "locator_text": "лист «Разбор запросов», строка 19, ячейки A19:D19",
+   "segment_sha": "a707a21b3dc6",
+   "cells": [
+    {
+     "ref": "A19",
+     "header": "Организация",
+     "value": "Кедр / команда 2",
+     "header_ru": "Организация",
+     "value_ru": "Кедр / команда 2"
+    },
+    {
+     "ref": "B19",
+     "header": "Текущий тариф",
+     "value": "Team",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Team"
+    },
+    {
+     "ref": "C19",
+     "header": "Запрос",
+     "value": "Пригласить гостей",
+     "header_ru": "Запрос",
+     "value_ru": "Пригласить гостей"
+    },
+    {
+     "ref": "D19",
+     "header": "Результат разбора",
+     "value": "До 20 активных гостей",
+     "header_ru": "Результат разбора",
+     "value_ru": "До 20 активных гостей"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Кедр / команда 2; Текущий тариф: Team; Запрос: Пригласить гостей; Результат разбора: До 20 активных гостей",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-029",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 20,
+    "range": "A20:D20"
+   },
+   "locator_text": "лист «Разбор запросов», строка 20, ячейки A20:D20",
+   "segment_sha": "1339c5de91d4",
+   "cells": [
+    {
+     "ref": "A20",
+     "header": "Организация",
+     "value": "Кварц / команда 2",
+     "header_ru": "Организация",
+     "value_ru": "Кварц / команда 2"
+    },
+    {
+     "ref": "B20",
+     "header": "Текущий тариф",
+     "value": "Enterprise",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "ref": "C20",
+     "header": "Запрос",
+     "value": "Пригласить гостей",
+     "header_ru": "Запрос",
+     "value_ru": "Пригласить гостей"
+    },
+    {
+     "ref": "D20",
+     "header": "Результат разбора",
+     "value": "До 100 активных гостей",
+     "header_ru": "Результат разбора",
+     "value_ru": "До 100 активных гостей"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Кварц / команда 2; Текущий тариф: Enterprise; Запрос: Пригласить гостей; Результат разбора: До 100 активных гостей",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-030",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 21,
+    "range": "A21:D21"
+   },
+   "locator_text": "лист «Разбор запросов», строка 21, ячейки A21:D21",
+   "segment_sha": "56cbfa6923ee",
+   "cells": [
+    {
+     "ref": "A21",
+     "header": "Организация",
+     "value": "Полоса / команда 2",
+     "header_ru": "Организация",
+     "value_ru": "Полоса / команда 2"
+    },
+    {
+     "ref": "B21",
+     "header": "Текущий тариф",
+     "value": "Starter",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Starter"
+    },
+    {
+     "ref": "C21",
+     "header": "Запрос",
+     "value": "Открыть журнал активности",
+     "header_ru": "Запрос",
+     "value_ru": "Открыть журнал активности"
+    },
+    {
+     "ref": "D21",
+     "header": "Результат разбора",
+     "value": "Проверить срок истории текущего тарифа",
+     "header_ru": "Результат разбора",
+     "value_ru": "Проверить срок истории текущего тарифа"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Полоса / команда 2; Текущий тариф: Starter; Запрос: Открыть журнал активности; Результат разбора: Проверить срок истории текущего тарифа",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-031",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 22,
+    "range": "A22:D22"
+   },
+   "locator_text": "лист «Разбор запросов», строка 22, ячейки A22:D22",
+   "segment_sha": "bd3c7977c935",
+   "cells": [
+    {
+     "ref": "A22",
+     "header": "Организация",
+     "value": "Маяк / команда 3",
+     "header_ru": "Организация",
+     "value_ru": "Маяк / команда 3"
+    },
+    {
+     "ref": "B22",
+     "header": "Текущий тариф",
+     "value": "Team",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Team"
+    },
+    {
+     "ref": "C22",
+     "header": "Запрос",
+     "value": "Открыть журнал активности",
+     "header_ru": "Запрос",
+     "value_ru": "Открыть журнал активности"
+    },
+    {
+     "ref": "D22",
+     "header": "Результат разбора",
+     "value": "Проверить срок истории текущего тарифа",
+     "header_ru": "Результат разбора",
+     "value_ru": "Проверить срок истории текущего тарифа"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Маяк / команда 3; Текущий тариф: Team; Запрос: Открыть журнал активности; Результат разбора: Проверить срок истории текущего тарифа",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-032",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 23,
+    "range": "A23:D23"
+   },
+   "locator_text": "лист «Разбор запросов», строка 23, ячейки A23:D23",
+   "segment_sha": "4a9cf9ecbf89",
+   "cells": [
+    {
+     "ref": "A23",
+     "header": "Организация",
+     "value": "Север / команда 3",
+     "header_ru": "Организация",
+     "value_ru": "Север / команда 3"
+    },
+    {
+     "ref": "B23",
+     "header": "Текущий тариф",
+     "value": "Enterprise",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "ref": "C23",
+     "header": "Запрос",
+     "value": "Открыть журнал активности",
+     "header_ru": "Запрос",
+     "value_ru": "Открыть журнал активности"
+    },
+    {
+     "ref": "D23",
+     "header": "Результат разбора",
+     "value": "Проверить срок истории текущего тарифа",
+     "header_ru": "Результат разбора",
+     "value_ru": "Проверить срок истории текущего тарифа"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Север / команда 3; Текущий тариф: Enterprise; Запрос: Открыть журнал активности; Результат разбора: Проверить срок истории текущего тарифа",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-033",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 24,
+    "range": "A24:D24"
+   },
+   "locator_text": "лист «Разбор запросов», строка 24, ячейки A24:D24",
+   "segment_sha": "a5ac3e01fe2f",
+   "cells": [
+    {
+     "ref": "A24",
+     "header": "Организация",
+     "value": "Орбита / команда 3",
+     "header_ru": "Организация",
+     "value_ru": "Орбита / команда 3"
+    },
+    {
+     "ref": "B24",
+     "header": "Текущий тариф",
+     "value": "Starter",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Starter"
+    },
+    {
+     "ref": "C24",
+     "header": "Запрос",
+     "value": "Подключить SAML",
+     "header_ru": "Запрос",
+     "value_ru": "Подключить SAML"
+    },
+    {
+     "ref": "D24",
+     "header": "Результат разбора",
+     "value": "Недоступно на текущем тарифе",
+     "header_ru": "Результат разбора",
+     "value_ru": "Недоступно на текущем тарифе"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Орбита / команда 3; Текущий тариф: Starter; Запрос: Подключить SAML; Результат разбора: Недоступно на текущем тарифе",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-034",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 25,
+    "range": "A25:D25"
+   },
+   "locator_text": "лист «Разбор запросов», строка 25, ячейки A25:D25",
+   "segment_sha": "42e004021455",
+   "cells": [
+    {
+     "ref": "A25",
+     "header": "Организация",
+     "value": "Ателье / команда 3",
+     "header_ru": "Организация",
+     "value_ru": "Ателье / команда 3"
+    },
+    {
+     "ref": "B25",
+     "header": "Текущий тариф",
+     "value": "Team",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Team"
+    },
+    {
+     "ref": "C25",
+     "header": "Запрос",
+     "value": "Подключить SAML",
+     "header_ru": "Запрос",
+     "value_ru": "Подключить SAML"
+    },
+    {
+     "ref": "D25",
+     "header": "Результат разбора",
+     "value": "Недоступно на текущем тарифе",
+     "header_ru": "Результат разбора",
+     "value_ru": "Недоступно на текущем тарифе"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Ателье / команда 3; Текущий тариф: Team; Запрос: Подключить SAML; Результат разбора: Недоступно на текущем тарифе",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-035",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 26,
+    "range": "A26:D26"
+   },
+   "locator_text": "лист «Разбор запросов», строка 26, ячейки A26:D26",
+   "segment_sha": "32646fda7a93",
+   "cells": [
+    {
+     "ref": "A26",
+     "header": "Организация",
+     "value": "Речной порт / команда 3",
+     "header_ru": "Организация",
+     "value_ru": "Речной порт / команда 3"
+    },
+    {
+     "ref": "B26",
+     "header": "Текущий тариф",
+     "value": "Enterprise",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "ref": "C26",
+     "header": "Запрос",
+     "value": "Подключить SAML",
+     "header_ru": "Запрос",
+     "value_ru": "Подключить SAML"
+    },
+    {
+     "ref": "D26",
+     "header": "Результат разбора",
+     "value": "Доступно; проверить настройку IdP",
+     "header_ru": "Результат разбора",
+     "value_ru": "Доступно; проверить настройку IdP"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Речной порт / команда 3; Текущий тариф: Enterprise; Запрос: Подключить SAML; Результат разбора: Доступно; проверить настройку IdP",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-036",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 27,
+    "range": "A27:D27"
+   },
+   "locator_text": "лист «Разбор запросов», строка 27, ячейки A27:D27",
+   "segment_sha": "30f80d20dda8",
+   "cells": [
+    {
+     "ref": "A27",
+     "header": "Организация",
+     "value": "Кедр / команда 3",
+     "header_ru": "Организация",
+     "value_ru": "Кедр / команда 3"
+    },
+    {
+     "ref": "B27",
+     "header": "Текущий тариф",
+     "value": "Starter",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Starter"
+    },
+    {
+     "ref": "C27",
+     "header": "Запрос",
+     "value": "Пригласить гостей",
+     "header_ru": "Запрос",
+     "value_ru": "Пригласить гостей"
+    },
+    {
+     "ref": "D27",
+     "header": "Результат разбора",
+     "value": "Гостевой доступ недоступен",
+     "header_ru": "Результат разбора",
+     "value_ru": "Гостевой доступ недоступен"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Кедр / команда 3; Текущий тариф: Starter; Запрос: Пригласить гостей; Результат разбора: Гостевой доступ недоступен",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-037",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 28,
+    "range": "A28:D28"
+   },
+   "locator_text": "лист «Разбор запросов», строка 28, ячейки A28:D28",
+   "segment_sha": "a846aed1d65d",
+   "cells": [
+    {
+     "ref": "A28",
+     "header": "Организация",
+     "value": "Кварц / команда 3",
+     "header_ru": "Организация",
+     "value_ru": "Кварц / команда 3"
+    },
+    {
+     "ref": "B28",
+     "header": "Текущий тариф",
+     "value": "Team",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Team"
+    },
+    {
+     "ref": "C28",
+     "header": "Запрос",
+     "value": "Пригласить гостей",
+     "header_ru": "Запрос",
+     "value_ru": "Пригласить гостей"
+    },
+    {
+     "ref": "D28",
+     "header": "Результат разбора",
+     "value": "До 20 активных гостей",
+     "header_ru": "Результат разбора",
+     "value_ru": "До 20 активных гостей"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Кварц / команда 3; Текущий тариф: Team; Запрос: Пригласить гостей; Результат разбора: До 20 активных гостей",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-038",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 29,
+    "range": "A29:D29"
+   },
+   "locator_text": "лист «Разбор запросов», строка 29, ячейки A29:D29",
+   "segment_sha": "37f040c89ff7",
+   "cells": [
+    {
+     "ref": "A29",
+     "header": "Организация",
+     "value": "Полоса / команда 3",
+     "header_ru": "Организация",
+     "value_ru": "Полоса / команда 3"
+    },
+    {
+     "ref": "B29",
+     "header": "Текущий тариф",
+     "value": "Enterprise",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "ref": "C29",
+     "header": "Запрос",
+     "value": "Пригласить гостей",
+     "header_ru": "Запрос",
+     "value_ru": "Пригласить гостей"
+    },
+    {
+     "ref": "D29",
+     "header": "Результат разбора",
+     "value": "До 100 активных гостей",
+     "header_ru": "Результат разбора",
+     "value_ru": "До 100 активных гостей"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Полоса / команда 3; Текущий тариф: Enterprise; Запрос: Пригласить гостей; Результат разбора: До 100 активных гостей",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-039",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 30,
+    "range": "A30:D30"
+   },
+   "locator_text": "лист «Разбор запросов», строка 30, ячейки A30:D30",
+   "segment_sha": "3c76828753b7",
+   "cells": [
+    {
+     "ref": "A30",
+     "header": "Организация",
+     "value": "Маяк / команда 4",
+     "header_ru": "Организация",
+     "value_ru": "Маяк / команда 4"
+    },
+    {
+     "ref": "B30",
+     "header": "Текущий тариф",
+     "value": "Starter",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Starter"
+    },
+    {
+     "ref": "C30",
+     "header": "Запрос",
+     "value": "Открыть журнал активности",
+     "header_ru": "Запрос",
+     "value_ru": "Открыть журнал активности"
+    },
+    {
+     "ref": "D30",
+     "header": "Результат разбора",
+     "value": "Проверить срок истории текущего тарифа",
+     "header_ru": "Результат разбора",
+     "value_ru": "Проверить срок истории текущего тарифа"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Маяк / команда 4; Текущий тариф: Starter; Запрос: Открыть журнал активности; Результат разбора: Проверить срок истории текущего тарифа",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-040",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 31,
+    "range": "A31:D31"
+   },
+   "locator_text": "лист «Разбор запросов», строка 31, ячейки A31:D31",
+   "segment_sha": "2a4039626d69",
+   "cells": [
+    {
+     "ref": "A31",
+     "header": "Организация",
+     "value": "Север / команда 4",
+     "header_ru": "Организация",
+     "value_ru": "Север / команда 4"
+    },
+    {
+     "ref": "B31",
+     "header": "Текущий тариф",
+     "value": "Team",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Team"
+    },
+    {
+     "ref": "C31",
+     "header": "Запрос",
+     "value": "Открыть журнал активности",
+     "header_ru": "Запрос",
+     "value_ru": "Открыть журнал активности"
+    },
+    {
+     "ref": "D31",
+     "header": "Результат разбора",
+     "value": "Проверить срок истории текущего тарифа",
+     "header_ru": "Результат разбора",
+     "value_ru": "Проверить срок истории текущего тарифа"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Север / команда 4; Текущий тариф: Team; Запрос: Открыть журнал активности; Результат разбора: Проверить срок истории текущего тарифа",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "22-041",
+   "doc_no": 22,
+   "doc_id": "plan-capabilities",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Тарифы новый.xlsx",
+   "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+   "source_lang": "ru",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Разбор запросов",
+    "row": 32,
+    "range": "A32:D32"
+   },
+   "locator_text": "лист «Разбор запросов», строка 32, ячейки A32:D32",
+   "segment_sha": "64af2c3ce8b3",
+   "cells": [
+    {
+     "ref": "A32",
+     "header": "Организация",
+     "value": "Орбита / команда 4",
+     "header_ru": "Организация",
+     "value_ru": "Орбита / команда 4"
+    },
+    {
+     "ref": "B32",
+     "header": "Текущий тариф",
+     "value": "Enterprise",
+     "header_ru": "Текущий тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "ref": "C32",
+     "header": "Запрос",
+     "value": "Открыть журнал активности",
+     "header_ru": "Запрос",
+     "value_ru": "Открыть журнал активности"
+    },
+    {
+     "ref": "D32",
+     "header": "Результат разбора",
+     "value": "Проверить срок истории текущего тарифа",
+     "header_ru": "Результат разбора",
+     "value_ru": "Проверить срок истории текущего тарифа"
+    }
+   ],
+   "context": {
+    "sheet": "Разбор запросов",
+    "sheet_ru": "Разбор запросов",
+    "title": "Вопросы для команды внедрения",
+    "title_ru": "Вопросы для команды внедрения",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header_ru": [
+     "Организация",
+     "Текущий тариф",
+     "Запрос",
+     "Результат разбора"
+    ]
+   },
+   "section": "Разбор запросов",
+   "section_ru": "Разбор запросов",
+   "text_ru": "Организация: Орбита / команда 4; Текущий тариф: Enterprise; Запрос: Открыть журнал активности; Результат разбора: Проверить срок истории текущего тарифа",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  }
+ ],
+ "_base": {
+  "no": 22,
+  "source_path": "documents/Планирование/Тарифы новый.xlsx",
+  "doc_id": "plan-capabilities",
+  "title": "Что доступно в тарифах",
+  "title_ru": null,
+  "lang": "ru",
+  "format": "xlsx",
+  "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+  "decision": {
+   "no": 22,
+   "path": "documents/Планирование/Тарифы новый.xlsx",
+   "doc_id": "plan-capabilities",
+   "title": "Что доступно в тарифах",
+   "lang": "ru",
+   "owner": "",
+   "version": "2026-09-01",
+   "updated": "2026-09-09",
+   "doc_type": "register",
+   "status": "include",
+   "rule": "R1",
+   "reason": "«Коммерческие возможности ниже подтверждены с 1 сентября»; копия для встречи 9.09.2026; владелец не указан, но подтверждение явное; значения совпадают с №17 и №21.",
+   "access": "all",
+   "trust": "confirmed",
+   "related": [
+    17,
+    21,
+    28
+   ],
+   "notes": "Административный экспорт указан только у Team; №28 даёт лимит для Starter — не разрешено."
+  },
+  "fragments": [
+   {
+    "fragment_id": "22-001",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "sheet_title",
+    "locator": {
+     "sheet": "Возможности",
+     "range": "A1:D2"
+    },
+    "locator_text": "лист «Возможности», объединённые ячейки A1:D2",
+    "segment_sha": "54981742ba2f",
+    "section": "Возможности",
+    "section_ru": "Возможности",
+    "text_ru": "Что доступно в тарифах",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-002",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "sheet_note",
+    "locator": {
+     "sheet": "Возможности",
+     "range": "A3:D5"
+    },
+    "locator_text": "лист «Возможности», объединённые ячейки A3:D5",
+    "segment_sha": "f95ae50a730f",
+    "section": "Возможности",
+    "section_ru": "Возможности",
+    "text_ru": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-003",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "table_header",
+    "locator": {
+     "sheet": "Возможности",
+     "row": 7,
+     "range": "A7:D7"
+    },
+    "locator_text": "лист «Возможности», строка 7, ячейки A7:D7",
+    "segment_sha": "8080755aeef1",
+    "cells": [
+     {
+      "ref": "A7",
+      "value": "Тариф или предмет",
+      "value_ru": "Тариф или предмет"
+     },
+     {
+      "ref": "B7",
+      "value": "Возможность",
+      "value_ru": "Возможность"
+     },
+     {
+      "ref": "C7",
+      "value": "Единица",
+      "value_ru": "Единица"
+     },
+     {
+      "ref": "D7",
+      "value": "Граница",
+      "value_ru": "Граница"
+     }
+    ],
+    "section": "Возможности",
+    "section_ru": "Возможности",
+    "text_ru": "Тариф или предмет | Возможность | Единица | Граница",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-004",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Возможности",
+     "row": 8,
+     "range": "A8:D8"
+    },
+    "locator_text": "лист «Возможности», строка 8, ячейки A8:D8",
+    "segment_sha": "8da0867017aa",
+    "cells": [
+     {
+      "ref": "A8",
+      "header": "Тариф или предмет",
+      "value": "Starter",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Starter"
+     },
+     {
+      "ref": "B8",
+      "header": "Возможность",
+      "value": "Базовые пространства",
+      "header_ru": "Возможность",
+      "value_ru": "Базовые пространства"
+     },
+     {
+      "ref": "C8",
+      "header": "Единица",
+      "value": "функция",
+      "header_ru": "Единица",
+      "value_ru": "функция"
+     },
+     {
+      "ref": "D8",
+      "header": "Граница",
+      "value": "SAML и гостевой доступ недоступны",
+      "header_ru": "Граница",
+      "value_ru": "SAML и гостевой доступ недоступны"
+     }
+    ],
+    "context": {
+     "sheet": "Возможности",
+     "sheet_ru": "Возможности",
+     "title": "Что доступно в тарифах",
+     "title_ru": "Что доступно в тарифах",
+     "title_range": "A1:D2",
+     "notes": [
+      {
+       "text": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+       "text_ru": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+       "range": "A3:D5"
+      }
+     ],
+     "header_range": "A7:D7",
+     "header_ru": [
+      "Тариф или предмет",
+      "Возможность",
+      "Единица",
+      "Граница"
+     ]
+    },
+    "section": "Возможности",
+    "section_ru": "Возможности",
+    "text_ru": "Тариф или предмет: Starter; Возможность: Базовые пространства; Единица: функция; Граница: SAML и гостевой доступ недоступны",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-005",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Возможности",
+     "row": 9,
+     "range": "A9:D9"
+    },
+    "locator_text": "лист «Возможности», строка 9, ячейки A9:D9",
+    "segment_sha": "bb74fc69efdb",
+    "cells": [
+     {
+      "ref": "A9",
+      "header": "Тариф или предмет",
+      "value": "Team",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Team"
+     },
+     {
+      "ref": "B9",
+      "header": "Возможность",
+      "value": "Гости и административный экспорт",
+      "header_ru": "Возможность",
+      "value_ru": "Гости и административный экспорт"
+     },
+     {
+      "ref": "C9",
+      "header": "Единица",
+      "value": "функция",
+      "header_ru": "Единица",
+      "value_ru": "функция"
+     },
+     {
+      "ref": "D9",
+      "header": "Граница",
+      "value": "До 20 активных гостей",
+      "header_ru": "Граница",
+      "value_ru": "До 20 активных гостей"
+     }
+    ],
+    "context": {
+     "sheet": "Возможности",
+     "sheet_ru": "Возможности",
+     "title": "Что доступно в тарифах",
+     "title_ru": "Что доступно в тарифах",
+     "title_range": "A1:D2",
+     "notes": [
+      {
+       "text": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+       "text_ru": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+       "range": "A3:D5"
+      }
+     ],
+     "header_range": "A7:D7",
+     "header_ru": [
+      "Тариф или предмет",
+      "Возможность",
+      "Единица",
+      "Граница"
+     ]
+    },
+    "section": "Возможности",
+    "section_ru": "Возможности",
+    "text_ru": "Тариф или предмет: Team; Возможность: Гости и административный экспорт; Единица: функция; Граница: До 20 активных гостей",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-006",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Возможности",
+     "row": 10,
+     "range": "A10:D10"
+    },
+    "locator_text": "лист «Возможности», строка 10, ячейки A10:D10",
+    "segment_sha": "7df17e92dc0e",
+    "cells": [
+     {
+      "ref": "A10",
+      "header": "Тариф или предмет",
+      "value": "Enterprise",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Enterprise"
+     },
+     {
+      "ref": "B10",
+      "header": "Возможность",
+      "value": "SAML и аудит",
+      "header_ru": "Возможность",
+      "value_ru": "SAML и аудит"
+     },
+     {
+      "ref": "C10",
+      "header": "Единица",
+      "value": "функция",
+      "header_ru": "Единица",
+      "value_ru": "функция"
+     },
+     {
+      "ref": "D10",
+      "header": "Граница",
+      "value": "До 100 активных гостей",
+      "header_ru": "Граница",
+      "value_ru": "До 100 активных гостей"
+     }
+    ],
+    "context": {
+     "sheet": "Возможности",
+     "sheet_ru": "Возможности",
+     "title": "Что доступно в тарифах",
+     "title_ru": "Что доступно в тарифах",
+     "title_range": "A1:D2",
+     "notes": [
+      {
+       "text": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+       "text_ru": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+       "range": "A3:D5"
+      }
+     ],
+     "header_range": "A7:D7",
+     "header_ru": [
+      "Тариф или предмет",
+      "Возможность",
+      "Единица",
+      "Граница"
+     ]
+    },
+    "section": "Возможности",
+    "section_ru": "Возможности",
+    "text_ru": "Тариф или предмет: Enterprise; Возможность: SAML и аудит; Единица: функция; Граница: До 100 активных гостей",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-007",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Возможности",
+     "row": 11,
+     "range": "A11:D11"
+    },
+    "locator_text": "лист «Возможности», строка 11, ячейки A11:D11",
+    "segment_sha": "b4d3e1ab7f02",
+    "cells": [
+     {
+      "ref": "A11",
+      "header": "Тариф или предмет",
+      "value": "История Starter",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "История Starter"
+     },
+     {
+      "ref": "B11",
+      "header": "Возможность",
+      "value": "14",
+      "header_ru": "Возможность",
+      "value_ru": "14"
+     },
+     {
+      "ref": "C11",
+      "header": "Единица",
+      "value": "дней",
+      "header_ru": "Единица",
+      "value_ru": "дней"
+     },
+     {
+      "ref": "D11",
+      "header": "Граница",
+      "value": "Журнал активности",
+      "header_ru": "Граница",
+      "value_ru": "Журнал активности"
+     }
+    ],
+    "context": {
+     "sheet": "Возможности",
+     "sheet_ru": "Возможности",
+     "title": "Что доступно в тарифах",
+     "title_ru": "Что доступно в тарифах",
+     "title_range": "A1:D2",
+     "notes": [
+      {
+       "text": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+       "text_ru": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+       "range": "A3:D5"
+      }
+     ],
+     "header_range": "A7:D7",
+     "header_ru": [
+      "Тариф или предмет",
+      "Возможность",
+      "Единица",
+      "Граница"
+     ]
+    },
+    "section": "Возможности",
+    "section_ru": "Возможности",
+    "text_ru": "Тариф или предмет: История Starter; Возможность: 14; Единица: дней; Граница: Журнал активности",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-008",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Возможности",
+     "row": 12,
+     "range": "A12:D12"
+    },
+    "locator_text": "лист «Возможности», строка 12, ячейки A12:D12",
+    "segment_sha": "74e5440f1c58",
+    "cells": [
+     {
+      "ref": "A12",
+      "header": "Тариф или предмет",
+      "value": "История Team",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "История Team"
+     },
+     {
+      "ref": "B12",
+      "header": "Возможность",
+      "value": "90",
+      "header_ru": "Возможность",
+      "value_ru": "90"
+     },
+     {
+      "ref": "C12",
+      "header": "Единица",
+      "value": "дней",
+      "header_ru": "Единица",
+      "value_ru": "дней"
+     },
+     {
+      "ref": "D12",
+      "header": "Граница",
+      "value": "Журнал активности",
+      "header_ru": "Граница",
+      "value_ru": "Журнал активности"
+     }
+    ],
+    "context": {
+     "sheet": "Возможности",
+     "sheet_ru": "Возможности",
+     "title": "Что доступно в тарифах",
+     "title_ru": "Что доступно в тарифах",
+     "title_range": "A1:D2",
+     "notes": [
+      {
+       "text": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+       "text_ru": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+       "range": "A3:D5"
+      }
+     ],
+     "header_range": "A7:D7",
+     "header_ru": [
+      "Тариф или предмет",
+      "Возможность",
+      "Единица",
+      "Граница"
+     ]
+    },
+    "section": "Возможности",
+    "section_ru": "Возможности",
+    "text_ru": "Тариф или предмет: История Team; Возможность: 90; Единица: дней; Граница: Журнал активности",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-009",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Возможности",
+     "row": 13,
+     "range": "A13:D13"
+    },
+    "locator_text": "лист «Возможности», строка 13, ячейки A13:D13",
+    "segment_sha": "cf2e8c70cc29",
+    "cells": [
+     {
+      "ref": "A13",
+      "header": "Тариф или предмет",
+      "value": "История Enterprise",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "История Enterprise"
+     },
+     {
+      "ref": "B13",
+      "header": "Возможность",
+      "value": "365",
+      "header_ru": "Возможность",
+      "value_ru": "365"
+     },
+     {
+      "ref": "C13",
+      "header": "Единица",
+      "value": "дней",
+      "header_ru": "Единица",
+      "value_ru": "дней"
+     },
+     {
+      "ref": "D13",
+      "header": "Граница",
+      "value": "Журнал аудита",
+      "header_ru": "Граница",
+      "value_ru": "Журнал аудита"
+     }
+    ],
+    "context": {
+     "sheet": "Возможности",
+     "sheet_ru": "Возможности",
+     "title": "Что доступно в тарифах",
+     "title_ru": "Что доступно в тарифах",
+     "title_range": "A1:D2",
+     "notes": [
+      {
+       "text": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+       "text_ru": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+       "range": "A3:D5"
+      }
+     ],
+     "header_range": "A7:D7",
+     "header_ru": [
+      "Тариф или предмет",
+      "Возможность",
+      "Единица",
+      "Граница"
+     ]
+    },
+    "section": "Возможности",
+    "section_ru": "Возможности",
+    "text_ru": "Тариф или предмет: История Enterprise; Возможность: 365; Единица: дней; Граница: Журнал аудита",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-010",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Возможности",
+     "row": 14,
+     "range": "A14:D14"
+    },
+    "locator_text": "лист «Возможности», строка 14, ячейки A14:D14",
+    "segment_sha": "7b6d59916442",
+    "cells": [
+     {
+      "ref": "A14",
+      "header": "Тариф или предмет",
+      "value": "Повышение",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Повышение"
+     },
+     {
+      "ref": "B14",
+      "header": "Возможность",
+      "value": "После подтверждения оплаты",
+      "header_ru": "Возможность",
+      "value_ru": "После подтверждения оплаты"
+     },
+     {
+      "ref": "C14",
+      "header": "Единица",
+      "value": "момент",
+      "header_ru": "Единица",
+      "value_ru": "момент"
+     },
+     {
+      "ref": "D14",
+      "header": "Граница",
+      "value": "Новые лимиты начинают действовать в течение 15 минут",
+      "header_ru": "Граница",
+      "value_ru": "Новые лимиты начинают действовать в течение 15 минут"
+     }
+    ],
+    "context": {
+     "sheet": "Возможности",
+     "sheet_ru": "Возможности",
+     "title": "Что доступно в тарифах",
+     "title_ru": "Что доступно в тарифах",
+     "title_range": "A1:D2",
+     "notes": [
+      {
+       "text": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+       "text_ru": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+       "range": "A3:D5"
+      }
+     ],
+     "header_range": "A7:D7",
+     "header_ru": [
+      "Тариф или предмет",
+      "Возможность",
+      "Единица",
+      "Граница"
+     ]
+    },
+    "section": "Возможности",
+    "section_ru": "Возможности",
+    "text_ru": "Тариф или предмет: Повышение; Возможность: После подтверждения оплаты; Единица: момент; Граница: Новые лимиты начинают действовать в течение 15 минут",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-011",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Возможности",
+     "row": 15,
+     "range": "A15:D15"
+    },
+    "locator_text": "лист «Возможности», строка 15, ячейки A15:D15",
+    "segment_sha": "dc292352d12a",
+    "cells": [
+     {
+      "ref": "A15",
+      "header": "Тариф или предмет",
+      "value": "Понижение",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Понижение"
+     },
+     {
+      "ref": "B15",
+      "header": "Возможность",
+      "value": "Начало следующего периода",
+      "header_ru": "Возможность",
+      "value_ru": "Начало следующего периода"
+     },
+     {
+      "ref": "C15",
+      "header": "Единица",
+      "value": "момент",
+      "header_ru": "Единица",
+      "value_ru": "момент"
+     },
+     {
+      "ref": "D15",
+      "header": "Граница",
+      "value": "Существующие данные доступны для чтения",
+      "header_ru": "Граница",
+      "value_ru": "Существующие данные доступны для чтения"
+     }
+    ],
+    "context": {
+     "sheet": "Возможности",
+     "sheet_ru": "Возможности",
+     "title": "Что доступно в тарифах",
+     "title_ru": "Что доступно в тарифах",
+     "title_range": "A1:D2",
+     "notes": [
+      {
+       "text": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+       "text_ru": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+       "range": "A3:D5"
+      }
+     ],
+     "header_range": "A7:D7",
+     "header_ru": [
+      "Тариф или предмет",
+      "Возможность",
+      "Единица",
+      "Граница"
+     ]
+    },
+    "section": "Возможности",
+    "section_ru": "Возможности",
+    "text_ru": "Тариф или предмет: Понижение; Возможность: Начало следующего периода; Единица: момент; Граница: Существующие данные доступны для чтения",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-012",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Возможности",
+     "row": 16,
+     "range": "A16:D16"
+    },
+    "locator_text": "лист «Возможности», строка 16, ячейки A16:D16",
+    "segment_sha": "388530d4e41a",
+    "cells": [
+     {
+      "ref": "A16",
+      "header": "Тариф или предмет",
+      "value": "Подтверждение",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Подтверждение"
+     },
+     {
+      "ref": "B16",
+      "header": "Возможность",
+      "value": "Billing account ID",
+      "header_ru": "Возможность",
+      "value_ru": "Billing account ID"
+     },
+     {
+      "ref": "C16",
+      "header": "Единица",
+      "value": "поле",
+      "header_ru": "Единица",
+      "value_ru": "поле"
+     },
+     {
+      "ref": "D16",
+      "header": "Граница",
+      "value": "Поддержка проверяет тариф в карточке договора",
+      "header_ru": "Граница",
+      "value_ru": "Поддержка проверяет тариф в карточке договора"
+     }
+    ],
+    "context": {
+     "sheet": "Возможности",
+     "sheet_ru": "Возможности",
+     "title": "Что доступно в тарифах",
+     "title_ru": "Что доступно в тарифах",
+     "title_range": "A1:D2",
+     "notes": [
+      {
+       "text": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+       "text_ru": "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID.",
+       "range": "A3:D5"
+      }
+     ],
+     "header_range": "A7:D7",
+     "header_ru": [
+      "Тариф или предмет",
+      "Возможность",
+      "Единица",
+      "Граница"
+     ]
+    },
+    "section": "Возможности",
+    "section_ru": "Возможности",
+    "text_ru": "Тариф или предмет: Подтверждение; Возможность: Billing account ID; Единица: поле; Граница: Поддержка проверяет тариф в карточке договора",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-013",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "sheet_title",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "range": "A1:D2"
+    },
+    "locator_text": "лист «Разбор запросов», объединённые ячейки A1:D2",
+    "segment_sha": "3afa723411ec",
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Вопросы для команды внедрения",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-014",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "table_header",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 5,
+     "range": "A5:D5"
+    },
+    "locator_text": "лист «Разбор запросов», строка 5, ячейки A5:D5",
+    "segment_sha": "0b7ae5076b5b",
+    "cells": [
+     {
+      "ref": "A5",
+      "value": "Организация",
+      "value_ru": "Организация"
+     },
+     {
+      "ref": "B5",
+      "value": "Текущий тариф",
+      "value_ru": "Текущий тариф"
+     },
+     {
+      "ref": "C5",
+      "value": "Запрос",
+      "value_ru": "Запрос"
+     },
+     {
+      "ref": "D5",
+      "value": "Результат разбора",
+      "value_ru": "Результат разбора"
+     }
+    ],
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация | Текущий тариф | Запрос | Результат разбора",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-015",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 6,
+     "range": "A6:D6"
+    },
+    "locator_text": "лист «Разбор запросов», строка 6, ячейки A6:D6",
+    "segment_sha": "2a31b07f6e08",
+    "cells": [
+     {
+      "ref": "A6",
+      "header": "Организация",
+      "value": "Маяк / команда 1",
+      "header_ru": "Организация",
+      "value_ru": "Маяк / команда 1"
+     },
+     {
+      "ref": "B6",
+      "header": "Текущий тариф",
+      "value": "Starter",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Starter"
+     },
+     {
+      "ref": "C6",
+      "header": "Запрос",
+      "value": "Подключить SAML",
+      "header_ru": "Запрос",
+      "value_ru": "Подключить SAML"
+     },
+     {
+      "ref": "D6",
+      "header": "Результат разбора",
+      "value": "Недоступно на текущем тарифе",
+      "header_ru": "Результат разбора",
+      "value_ru": "Недоступно на текущем тарифе"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Маяк / команда 1; Текущий тариф: Starter; Запрос: Подключить SAML; Результат разбора: Недоступно на текущем тарифе",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-016",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 7,
+     "range": "A7:D7"
+    },
+    "locator_text": "лист «Разбор запросов», строка 7, ячейки A7:D7",
+    "segment_sha": "ea9872668ff3",
+    "cells": [
+     {
+      "ref": "A7",
+      "header": "Организация",
+      "value": "Север / команда 1",
+      "header_ru": "Организация",
+      "value_ru": "Север / команда 1"
+     },
+     {
+      "ref": "B7",
+      "header": "Текущий тариф",
+      "value": "Team",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Team"
+     },
+     {
+      "ref": "C7",
+      "header": "Запрос",
+      "value": "Подключить SAML",
+      "header_ru": "Запрос",
+      "value_ru": "Подключить SAML"
+     },
+     {
+      "ref": "D7",
+      "header": "Результат разбора",
+      "value": "Недоступно на текущем тарифе",
+      "header_ru": "Результат разбора",
+      "value_ru": "Недоступно на текущем тарифе"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Север / команда 1; Текущий тариф: Team; Запрос: Подключить SAML; Результат разбора: Недоступно на текущем тарифе",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-017",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 8,
+     "range": "A8:D8"
+    },
+    "locator_text": "лист «Разбор запросов», строка 8, ячейки A8:D8",
+    "segment_sha": "0417b3fb17b9",
+    "cells": [
+     {
+      "ref": "A8",
+      "header": "Организация",
+      "value": "Орбита / команда 1",
+      "header_ru": "Организация",
+      "value_ru": "Орбита / команда 1"
+     },
+     {
+      "ref": "B8",
+      "header": "Текущий тариф",
+      "value": "Enterprise",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "ref": "C8",
+      "header": "Запрос",
+      "value": "Подключить SAML",
+      "header_ru": "Запрос",
+      "value_ru": "Подключить SAML"
+     },
+     {
+      "ref": "D8",
+      "header": "Результат разбора",
+      "value": "Доступно; проверить настройку IdP",
+      "header_ru": "Результат разбора",
+      "value_ru": "Доступно; проверить настройку IdP"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Орбита / команда 1; Текущий тариф: Enterprise; Запрос: Подключить SAML; Результат разбора: Доступно; проверить настройку IdP",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-018",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 9,
+     "range": "A9:D9"
+    },
+    "locator_text": "лист «Разбор запросов», строка 9, ячейки A9:D9",
+    "segment_sha": "429f79127f69",
+    "cells": [
+     {
+      "ref": "A9",
+      "header": "Организация",
+      "value": "Ателье / команда 1",
+      "header_ru": "Организация",
+      "value_ru": "Ателье / команда 1"
+     },
+     {
+      "ref": "B9",
+      "header": "Текущий тариф",
+      "value": "Starter",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Starter"
+     },
+     {
+      "ref": "C9",
+      "header": "Запрос",
+      "value": "Пригласить гостей",
+      "header_ru": "Запрос",
+      "value_ru": "Пригласить гостей"
+     },
+     {
+      "ref": "D9",
+      "header": "Результат разбора",
+      "value": "Гостевой доступ недоступен",
+      "header_ru": "Результат разбора",
+      "value_ru": "Гостевой доступ недоступен"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Ателье / команда 1; Текущий тариф: Starter; Запрос: Пригласить гостей; Результат разбора: Гостевой доступ недоступен",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-019",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 10,
+     "range": "A10:D10"
+    },
+    "locator_text": "лист «Разбор запросов», строка 10, ячейки A10:D10",
+    "segment_sha": "21bf6961c673",
+    "cells": [
+     {
+      "ref": "A10",
+      "header": "Организация",
+      "value": "Речной порт / команда 1",
+      "header_ru": "Организация",
+      "value_ru": "Речной порт / команда 1"
+     },
+     {
+      "ref": "B10",
+      "header": "Текущий тариф",
+      "value": "Team",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Team"
+     },
+     {
+      "ref": "C10",
+      "header": "Запрос",
+      "value": "Пригласить гостей",
+      "header_ru": "Запрос",
+      "value_ru": "Пригласить гостей"
+     },
+     {
+      "ref": "D10",
+      "header": "Результат разбора",
+      "value": "До 20 активных гостей",
+      "header_ru": "Результат разбора",
+      "value_ru": "До 20 активных гостей"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Речной порт / команда 1; Текущий тариф: Team; Запрос: Пригласить гостей; Результат разбора: До 20 активных гостей",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-020",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 11,
+     "range": "A11:D11"
+    },
+    "locator_text": "лист «Разбор запросов», строка 11, ячейки A11:D11",
+    "segment_sha": "96577a649424",
+    "cells": [
+     {
+      "ref": "A11",
+      "header": "Организация",
+      "value": "Кедр / команда 1",
+      "header_ru": "Организация",
+      "value_ru": "Кедр / команда 1"
+     },
+     {
+      "ref": "B11",
+      "header": "Текущий тариф",
+      "value": "Enterprise",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "ref": "C11",
+      "header": "Запрос",
+      "value": "Пригласить гостей",
+      "header_ru": "Запрос",
+      "value_ru": "Пригласить гостей"
+     },
+     {
+      "ref": "D11",
+      "header": "Результат разбора",
+      "value": "До 100 активных гостей",
+      "header_ru": "Результат разбора",
+      "value_ru": "До 100 активных гостей"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Кедр / команда 1; Текущий тариф: Enterprise; Запрос: Пригласить гостей; Результат разбора: До 100 активных гостей",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-021",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 12,
+     "range": "A12:D12"
+    },
+    "locator_text": "лист «Разбор запросов», строка 12, ячейки A12:D12",
+    "segment_sha": "624bbd8307c6",
+    "cells": [
+     {
+      "ref": "A12",
+      "header": "Организация",
+      "value": "Кварц / команда 1",
+      "header_ru": "Организация",
+      "value_ru": "Кварц / команда 1"
+     },
+     {
+      "ref": "B12",
+      "header": "Текущий тариф",
+      "value": "Starter",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Starter"
+     },
+     {
+      "ref": "C12",
+      "header": "Запрос",
+      "value": "Открыть журнал активности",
+      "header_ru": "Запрос",
+      "value_ru": "Открыть журнал активности"
+     },
+     {
+      "ref": "D12",
+      "header": "Результат разбора",
+      "value": "Проверить срок истории текущего тарифа",
+      "header_ru": "Результат разбора",
+      "value_ru": "Проверить срок истории текущего тарифа"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Кварц / команда 1; Текущий тариф: Starter; Запрос: Открыть журнал активности; Результат разбора: Проверить срок истории текущего тарифа",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-022",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 13,
+     "range": "A13:D13"
+    },
+    "locator_text": "лист «Разбор запросов», строка 13, ячейки A13:D13",
+    "segment_sha": "2f4ca56f64d0",
+    "cells": [
+     {
+      "ref": "A13",
+      "header": "Организация",
+      "value": "Полоса / команда 1",
+      "header_ru": "Организация",
+      "value_ru": "Полоса / команда 1"
+     },
+     {
+      "ref": "B13",
+      "header": "Текущий тариф",
+      "value": "Team",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Team"
+     },
+     {
+      "ref": "C13",
+      "header": "Запрос",
+      "value": "Открыть журнал активности",
+      "header_ru": "Запрос",
+      "value_ru": "Открыть журнал активности"
+     },
+     {
+      "ref": "D13",
+      "header": "Результат разбора",
+      "value": "Проверить срок истории текущего тарифа",
+      "header_ru": "Результат разбора",
+      "value_ru": "Проверить срок истории текущего тарифа"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Полоса / команда 1; Текущий тариф: Team; Запрос: Открыть журнал активности; Результат разбора: Проверить срок истории текущего тарифа",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-023",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 14,
+     "range": "A14:D14"
+    },
+    "locator_text": "лист «Разбор запросов», строка 14, ячейки A14:D14",
+    "segment_sha": "0adc580a97db",
+    "cells": [
+     {
+      "ref": "A14",
+      "header": "Организация",
+      "value": "Маяк / команда 2",
+      "header_ru": "Организация",
+      "value_ru": "Маяк / команда 2"
+     },
+     {
+      "ref": "B14",
+      "header": "Текущий тариф",
+      "value": "Enterprise",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "ref": "C14",
+      "header": "Запрос",
+      "value": "Открыть журнал активности",
+      "header_ru": "Запрос",
+      "value_ru": "Открыть журнал активности"
+     },
+     {
+      "ref": "D14",
+      "header": "Результат разбора",
+      "value": "Проверить срок истории текущего тарифа",
+      "header_ru": "Результат разбора",
+      "value_ru": "Проверить срок истории текущего тарифа"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Маяк / команда 2; Текущий тариф: Enterprise; Запрос: Открыть журнал активности; Результат разбора: Проверить срок истории текущего тарифа",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-024",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 15,
+     "range": "A15:D15"
+    },
+    "locator_text": "лист «Разбор запросов», строка 15, ячейки A15:D15",
+    "segment_sha": "9e9644cd3f00",
+    "cells": [
+     {
+      "ref": "A15",
+      "header": "Организация",
+      "value": "Север / команда 2",
+      "header_ru": "Организация",
+      "value_ru": "Север / команда 2"
+     },
+     {
+      "ref": "B15",
+      "header": "Текущий тариф",
+      "value": "Starter",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Starter"
+     },
+     {
+      "ref": "C15",
+      "header": "Запрос",
+      "value": "Подключить SAML",
+      "header_ru": "Запрос",
+      "value_ru": "Подключить SAML"
+     },
+     {
+      "ref": "D15",
+      "header": "Результат разбора",
+      "value": "Недоступно на текущем тарифе",
+      "header_ru": "Результат разбора",
+      "value_ru": "Недоступно на текущем тарифе"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Север / команда 2; Текущий тариф: Starter; Запрос: Подключить SAML; Результат разбора: Недоступно на текущем тарифе",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-025",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 16,
+     "range": "A16:D16"
+    },
+    "locator_text": "лист «Разбор запросов», строка 16, ячейки A16:D16",
+    "segment_sha": "78ec424464bc",
+    "cells": [
+     {
+      "ref": "A16",
+      "header": "Организация",
+      "value": "Орбита / команда 2",
+      "header_ru": "Организация",
+      "value_ru": "Орбита / команда 2"
+     },
+     {
+      "ref": "B16",
+      "header": "Текущий тариф",
+      "value": "Team",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Team"
+     },
+     {
+      "ref": "C16",
+      "header": "Запрос",
+      "value": "Подключить SAML",
+      "header_ru": "Запрос",
+      "value_ru": "Подключить SAML"
+     },
+     {
+      "ref": "D16",
+      "header": "Результат разбора",
+      "value": "Недоступно на текущем тарифе",
+      "header_ru": "Результат разбора",
+      "value_ru": "Недоступно на текущем тарифе"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Орбита / команда 2; Текущий тариф: Team; Запрос: Подключить SAML; Результат разбора: Недоступно на текущем тарифе",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-026",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 17,
+     "range": "A17:D17"
+    },
+    "locator_text": "лист «Разбор запросов», строка 17, ячейки A17:D17",
+    "segment_sha": "8b7d452cfe0f",
+    "cells": [
+     {
+      "ref": "A17",
+      "header": "Организация",
+      "value": "Ателье / команда 2",
+      "header_ru": "Организация",
+      "value_ru": "Ателье / команда 2"
+     },
+     {
+      "ref": "B17",
+      "header": "Текущий тариф",
+      "value": "Enterprise",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "ref": "C17",
+      "header": "Запрос",
+      "value": "Подключить SAML",
+      "header_ru": "Запрос",
+      "value_ru": "Подключить SAML"
+     },
+     {
+      "ref": "D17",
+      "header": "Результат разбора",
+      "value": "Доступно; проверить настройку IdP",
+      "header_ru": "Результат разбора",
+      "value_ru": "Доступно; проверить настройку IdP"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Ателье / команда 2; Текущий тариф: Enterprise; Запрос: Подключить SAML; Результат разбора: Доступно; проверить настройку IdP",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-027",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 18,
+     "range": "A18:D18"
+    },
+    "locator_text": "лист «Разбор запросов», строка 18, ячейки A18:D18",
+    "segment_sha": "28e98e0b6c2a",
+    "cells": [
+     {
+      "ref": "A18",
+      "header": "Организация",
+      "value": "Речной порт / команда 2",
+      "header_ru": "Организация",
+      "value_ru": "Речной порт / команда 2"
+     },
+     {
+      "ref": "B18",
+      "header": "Текущий тариф",
+      "value": "Starter",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Starter"
+     },
+     {
+      "ref": "C18",
+      "header": "Запрос",
+      "value": "Пригласить гостей",
+      "header_ru": "Запрос",
+      "value_ru": "Пригласить гостей"
+     },
+     {
+      "ref": "D18",
+      "header": "Результат разбора",
+      "value": "Гостевой доступ недоступен",
+      "header_ru": "Результат разбора",
+      "value_ru": "Гостевой доступ недоступен"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Речной порт / команда 2; Текущий тариф: Starter; Запрос: Пригласить гостей; Результат разбора: Гостевой доступ недоступен",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-028",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 19,
+     "range": "A19:D19"
+    },
+    "locator_text": "лист «Разбор запросов», строка 19, ячейки A19:D19",
+    "segment_sha": "a707a21b3dc6",
+    "cells": [
+     {
+      "ref": "A19",
+      "header": "Организация",
+      "value": "Кедр / команда 2",
+      "header_ru": "Организация",
+      "value_ru": "Кедр / команда 2"
+     },
+     {
+      "ref": "B19",
+      "header": "Текущий тариф",
+      "value": "Team",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Team"
+     },
+     {
+      "ref": "C19",
+      "header": "Запрос",
+      "value": "Пригласить гостей",
+      "header_ru": "Запрос",
+      "value_ru": "Пригласить гостей"
+     },
+     {
+      "ref": "D19",
+      "header": "Результат разбора",
+      "value": "До 20 активных гостей",
+      "header_ru": "Результат разбора",
+      "value_ru": "До 20 активных гостей"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Кедр / команда 2; Текущий тариф: Team; Запрос: Пригласить гостей; Результат разбора: До 20 активных гостей",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-029",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 20,
+     "range": "A20:D20"
+    },
+    "locator_text": "лист «Разбор запросов», строка 20, ячейки A20:D20",
+    "segment_sha": "1339c5de91d4",
+    "cells": [
+     {
+      "ref": "A20",
+      "header": "Организация",
+      "value": "Кварц / команда 2",
+      "header_ru": "Организация",
+      "value_ru": "Кварц / команда 2"
+     },
+     {
+      "ref": "B20",
+      "header": "Текущий тариф",
+      "value": "Enterprise",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "ref": "C20",
+      "header": "Запрос",
+      "value": "Пригласить гостей",
+      "header_ru": "Запрос",
+      "value_ru": "Пригласить гостей"
+     },
+     {
+      "ref": "D20",
+      "header": "Результат разбора",
+      "value": "До 100 активных гостей",
+      "header_ru": "Результат разбора",
+      "value_ru": "До 100 активных гостей"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Кварц / команда 2; Текущий тариф: Enterprise; Запрос: Пригласить гостей; Результат разбора: До 100 активных гостей",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-030",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 21,
+     "range": "A21:D21"
+    },
+    "locator_text": "лист «Разбор запросов», строка 21, ячейки A21:D21",
+    "segment_sha": "56cbfa6923ee",
+    "cells": [
+     {
+      "ref": "A21",
+      "header": "Организация",
+      "value": "Полоса / команда 2",
+      "header_ru": "Организация",
+      "value_ru": "Полоса / команда 2"
+     },
+     {
+      "ref": "B21",
+      "header": "Текущий тариф",
+      "value": "Starter",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Starter"
+     },
+     {
+      "ref": "C21",
+      "header": "Запрос",
+      "value": "Открыть журнал активности",
+      "header_ru": "Запрос",
+      "value_ru": "Открыть журнал активности"
+     },
+     {
+      "ref": "D21",
+      "header": "Результат разбора",
+      "value": "Проверить срок истории текущего тарифа",
+      "header_ru": "Результат разбора",
+      "value_ru": "Проверить срок истории текущего тарифа"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Полоса / команда 2; Текущий тариф: Starter; Запрос: Открыть журнал активности; Результат разбора: Проверить срок истории текущего тарифа",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-031",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 22,
+     "range": "A22:D22"
+    },
+    "locator_text": "лист «Разбор запросов», строка 22, ячейки A22:D22",
+    "segment_sha": "bd3c7977c935",
+    "cells": [
+     {
+      "ref": "A22",
+      "header": "Организация",
+      "value": "Маяк / команда 3",
+      "header_ru": "Организация",
+      "value_ru": "Маяк / команда 3"
+     },
+     {
+      "ref": "B22",
+      "header": "Текущий тариф",
+      "value": "Team",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Team"
+     },
+     {
+      "ref": "C22",
+      "header": "Запрос",
+      "value": "Открыть журнал активности",
+      "header_ru": "Запрос",
+      "value_ru": "Открыть журнал активности"
+     },
+     {
+      "ref": "D22",
+      "header": "Результат разбора",
+      "value": "Проверить срок истории текущего тарифа",
+      "header_ru": "Результат разбора",
+      "value_ru": "Проверить срок истории текущего тарифа"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Маяк / команда 3; Текущий тариф: Team; Запрос: Открыть журнал активности; Результат разбора: Проверить срок истории текущего тарифа",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-032",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 23,
+     "range": "A23:D23"
+    },
+    "locator_text": "лист «Разбор запросов», строка 23, ячейки A23:D23",
+    "segment_sha": "4a9cf9ecbf89",
+    "cells": [
+     {
+      "ref": "A23",
+      "header": "Организация",
+      "value": "Север / команда 3",
+      "header_ru": "Организация",
+      "value_ru": "Север / команда 3"
+     },
+     {
+      "ref": "B23",
+      "header": "Текущий тариф",
+      "value": "Enterprise",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "ref": "C23",
+      "header": "Запрос",
+      "value": "Открыть журнал активности",
+      "header_ru": "Запрос",
+      "value_ru": "Открыть журнал активности"
+     },
+     {
+      "ref": "D23",
+      "header": "Результат разбора",
+      "value": "Проверить срок истории текущего тарифа",
+      "header_ru": "Результат разбора",
+      "value_ru": "Проверить срок истории текущего тарифа"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Север / команда 3; Текущий тариф: Enterprise; Запрос: Открыть журнал активности; Результат разбора: Проверить срок истории текущего тарифа",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-033",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 24,
+     "range": "A24:D24"
+    },
+    "locator_text": "лист «Разбор запросов», строка 24, ячейки A24:D24",
+    "segment_sha": "a5ac3e01fe2f",
+    "cells": [
+     {
+      "ref": "A24",
+      "header": "Организация",
+      "value": "Орбита / команда 3",
+      "header_ru": "Организация",
+      "value_ru": "Орбита / команда 3"
+     },
+     {
+      "ref": "B24",
+      "header": "Текущий тариф",
+      "value": "Starter",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Starter"
+     },
+     {
+      "ref": "C24",
+      "header": "Запрос",
+      "value": "Подключить SAML",
+      "header_ru": "Запрос",
+      "value_ru": "Подключить SAML"
+     },
+     {
+      "ref": "D24",
+      "header": "Результат разбора",
+      "value": "Недоступно на текущем тарифе",
+      "header_ru": "Результат разбора",
+      "value_ru": "Недоступно на текущем тарифе"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Орбита / команда 3; Текущий тариф: Starter; Запрос: Подключить SAML; Результат разбора: Недоступно на текущем тарифе",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-034",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 25,
+     "range": "A25:D25"
+    },
+    "locator_text": "лист «Разбор запросов», строка 25, ячейки A25:D25",
+    "segment_sha": "42e004021455",
+    "cells": [
+     {
+      "ref": "A25",
+      "header": "Организация",
+      "value": "Ателье / команда 3",
+      "header_ru": "Организация",
+      "value_ru": "Ателье / команда 3"
+     },
+     {
+      "ref": "B25",
+      "header": "Текущий тариф",
+      "value": "Team",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Team"
+     },
+     {
+      "ref": "C25",
+      "header": "Запрос",
+      "value": "Подключить SAML",
+      "header_ru": "Запрос",
+      "value_ru": "Подключить SAML"
+     },
+     {
+      "ref": "D25",
+      "header": "Результат разбора",
+      "value": "Недоступно на текущем тарифе",
+      "header_ru": "Результат разбора",
+      "value_ru": "Недоступно на текущем тарифе"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Ателье / команда 3; Текущий тариф: Team; Запрос: Подключить SAML; Результат разбора: Недоступно на текущем тарифе",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-035",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 26,
+     "range": "A26:D26"
+    },
+    "locator_text": "лист «Разбор запросов», строка 26, ячейки A26:D26",
+    "segment_sha": "32646fda7a93",
+    "cells": [
+     {
+      "ref": "A26",
+      "header": "Организация",
+      "value": "Речной порт / команда 3",
+      "header_ru": "Организация",
+      "value_ru": "Речной порт / команда 3"
+     },
+     {
+      "ref": "B26",
+      "header": "Текущий тариф",
+      "value": "Enterprise",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "ref": "C26",
+      "header": "Запрос",
+      "value": "Подключить SAML",
+      "header_ru": "Запрос",
+      "value_ru": "Подключить SAML"
+     },
+     {
+      "ref": "D26",
+      "header": "Результат разбора",
+      "value": "Доступно; проверить настройку IdP",
+      "header_ru": "Результат разбора",
+      "value_ru": "Доступно; проверить настройку IdP"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Речной порт / команда 3; Текущий тариф: Enterprise; Запрос: Подключить SAML; Результат разбора: Доступно; проверить настройку IdP",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-036",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 27,
+     "range": "A27:D27"
+    },
+    "locator_text": "лист «Разбор запросов», строка 27, ячейки A27:D27",
+    "segment_sha": "30f80d20dda8",
+    "cells": [
+     {
+      "ref": "A27",
+      "header": "Организация",
+      "value": "Кедр / команда 3",
+      "header_ru": "Организация",
+      "value_ru": "Кедр / команда 3"
+     },
+     {
+      "ref": "B27",
+      "header": "Текущий тариф",
+      "value": "Starter",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Starter"
+     },
+     {
+      "ref": "C27",
+      "header": "Запрос",
+      "value": "Пригласить гостей",
+      "header_ru": "Запрос",
+      "value_ru": "Пригласить гостей"
+     },
+     {
+      "ref": "D27",
+      "header": "Результат разбора",
+      "value": "Гостевой доступ недоступен",
+      "header_ru": "Результат разбора",
+      "value_ru": "Гостевой доступ недоступен"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Кедр / команда 3; Текущий тариф: Starter; Запрос: Пригласить гостей; Результат разбора: Гостевой доступ недоступен",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-037",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 28,
+     "range": "A28:D28"
+    },
+    "locator_text": "лист «Разбор запросов», строка 28, ячейки A28:D28",
+    "segment_sha": "a846aed1d65d",
+    "cells": [
+     {
+      "ref": "A28",
+      "header": "Организация",
+      "value": "Кварц / команда 3",
+      "header_ru": "Организация",
+      "value_ru": "Кварц / команда 3"
+     },
+     {
+      "ref": "B28",
+      "header": "Текущий тариф",
+      "value": "Team",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Team"
+     },
+     {
+      "ref": "C28",
+      "header": "Запрос",
+      "value": "Пригласить гостей",
+      "header_ru": "Запрос",
+      "value_ru": "Пригласить гостей"
+     },
+     {
+      "ref": "D28",
+      "header": "Результат разбора",
+      "value": "До 20 активных гостей",
+      "header_ru": "Результат разбора",
+      "value_ru": "До 20 активных гостей"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Кварц / команда 3; Текущий тариф: Team; Запрос: Пригласить гостей; Результат разбора: До 20 активных гостей",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-038",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 29,
+     "range": "A29:D29"
+    },
+    "locator_text": "лист «Разбор запросов», строка 29, ячейки A29:D29",
+    "segment_sha": "37f040c89ff7",
+    "cells": [
+     {
+      "ref": "A29",
+      "header": "Организация",
+      "value": "Полоса / команда 3",
+      "header_ru": "Организация",
+      "value_ru": "Полоса / команда 3"
+     },
+     {
+      "ref": "B29",
+      "header": "Текущий тариф",
+      "value": "Enterprise",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "ref": "C29",
+      "header": "Запрос",
+      "value": "Пригласить гостей",
+      "header_ru": "Запрос",
+      "value_ru": "Пригласить гостей"
+     },
+     {
+      "ref": "D29",
+      "header": "Результат разбора",
+      "value": "До 100 активных гостей",
+      "header_ru": "Результат разбора",
+      "value_ru": "До 100 активных гостей"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Полоса / команда 3; Текущий тариф: Enterprise; Запрос: Пригласить гостей; Результат разбора: До 100 активных гостей",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-039",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 30,
+     "range": "A30:D30"
+    },
+    "locator_text": "лист «Разбор запросов», строка 30, ячейки A30:D30",
+    "segment_sha": "3c76828753b7",
+    "cells": [
+     {
+      "ref": "A30",
+      "header": "Организация",
+      "value": "Маяк / команда 4",
+      "header_ru": "Организация",
+      "value_ru": "Маяк / команда 4"
+     },
+     {
+      "ref": "B30",
+      "header": "Текущий тариф",
+      "value": "Starter",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Starter"
+     },
+     {
+      "ref": "C30",
+      "header": "Запрос",
+      "value": "Открыть журнал активности",
+      "header_ru": "Запрос",
+      "value_ru": "Открыть журнал активности"
+     },
+     {
+      "ref": "D30",
+      "header": "Результат разбора",
+      "value": "Проверить срок истории текущего тарифа",
+      "header_ru": "Результат разбора",
+      "value_ru": "Проверить срок истории текущего тарифа"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Маяк / команда 4; Текущий тариф: Starter; Запрос: Открыть журнал активности; Результат разбора: Проверить срок истории текущего тарифа",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-040",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 31,
+     "range": "A31:D31"
+    },
+    "locator_text": "лист «Разбор запросов», строка 31, ячейки A31:D31",
+    "segment_sha": "2a4039626d69",
+    "cells": [
+     {
+      "ref": "A31",
+      "header": "Организация",
+      "value": "Север / команда 4",
+      "header_ru": "Организация",
+      "value_ru": "Север / команда 4"
+     },
+     {
+      "ref": "B31",
+      "header": "Текущий тариф",
+      "value": "Team",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Team"
+     },
+     {
+      "ref": "C31",
+      "header": "Запрос",
+      "value": "Открыть журнал активности",
+      "header_ru": "Запрос",
+      "value_ru": "Открыть журнал активности"
+     },
+     {
+      "ref": "D31",
+      "header": "Результат разбора",
+      "value": "Проверить срок истории текущего тарифа",
+      "header_ru": "Результат разбора",
+      "value_ru": "Проверить срок истории текущего тарифа"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Север / команда 4; Текущий тариф: Team; Запрос: Открыть журнал активности; Результат разбора: Проверить срок истории текущего тарифа",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "22-041",
+    "doc_no": 22,
+    "doc_id": "plan-capabilities",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "source_lang": "ru",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Разбор запросов",
+     "row": 32,
+     "range": "A32:D32"
+    },
+    "locator_text": "лист «Разбор запросов», строка 32, ячейки A32:D32",
+    "segment_sha": "64af2c3ce8b3",
+    "cells": [
+     {
+      "ref": "A32",
+      "header": "Организация",
+      "value": "Орбита / команда 4",
+      "header_ru": "Организация",
+      "value_ru": "Орбита / команда 4"
+     },
+     {
+      "ref": "B32",
+      "header": "Текущий тариф",
+      "value": "Enterprise",
+      "header_ru": "Текущий тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "ref": "C32",
+      "header": "Запрос",
+      "value": "Открыть журнал активности",
+      "header_ru": "Запрос",
+      "value_ru": "Открыть журнал активности"
+     },
+     {
+      "ref": "D32",
+      "header": "Результат разбора",
+      "value": "Проверить срок истории текущего тарифа",
+      "header_ru": "Результат разбора",
+      "value_ru": "Проверить срок истории текущего тарифа"
+     }
+    ],
+    "context": {
+     "sheet": "Разбор запросов",
+     "sheet_ru": "Разбор запросов",
+     "title": "Вопросы для команды внедрения",
+     "title_ru": "Вопросы для команды внедрения",
+     "title_range": "A1:D2",
+     "notes": [],
+     "header_range": "A5:D5",
+     "header_ru": [
+      "Организация",
+      "Текущий тариф",
+      "Запрос",
+      "Результат разбора"
+     ]
+    },
+    "section": "Разбор запросов",
+    "section_ru": "Разбор запросов",
+    "text_ru": "Организация: Орбита / команда 4; Текущий тариф: Enterprise; Запрос: Открыть журнал активности; Результат разбора: Проверить срок истории текущего тарифа",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   }
+  ]
+ }
+}

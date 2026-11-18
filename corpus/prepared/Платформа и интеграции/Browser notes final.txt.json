@@ -1,0 +1,1280 @@
+{
+ "no": 24,
+ "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+ "doc_id": "browser-support",
+ "title": "Browser conversations: questions worth asking",
+ "title_ru": "Разговоры о браузере: вопросы, которые стоит задать",
+ "lang": "en",
+ "format": "txt",
+ "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+ "decision": {
+  "no": 24,
+  "path": "documents/Платформа и интеграции/Browser notes final.txt",
+  "doc_id": "browser-support",
+  "title": "Browser conversations: questions worth asking",
+  "lang": "en",
+  "owner": "Client Platform",
+  "version": "2026-09-01",
+  "updated": "2026-09-01",
+  "doc_type": "rule",
+  "status": "include",
+  "rule": "R1",
+  "reason": "Client Platform обсудила с поддержкой 1.09.2026.",
+  "access": "all",
+  "trust": "confirmed"
+ },
+ "fragments": [
+  {
+   "fragment_id": "24-001",
+   "doc_no": 24,
+   "doc_id": "browser-support",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+   "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "title",
+   "locator": {
+    "lines": [
+     1,
+     1
+    ]
+   },
+   "locator_text": "строка 1",
+   "segment_sha": "93a496ea3a26",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Разговоры о браузере: вопросы, которые стоит задать",
+   "text_orig": "Browser conversations: questions worth asking",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "24-002",
+   "doc_no": 24,
+   "doc_id": "browser-support",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+   "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     3,
+     3
+    ]
+   },
+   "locator_text": "строка 3",
+   "segment_sha": "99f652a3e0cd",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Client Platform обсудила эту копию с поддержкой 1 сентября 2026 года. Она предназначена для обычной ситуации, когда клиент может описать проблему с браузером, но ещё не знает, относится ли она к клиентскому приложению, к его сети или к конкретной рабочей сессии. LumenDesk поддерживает стабильные выпуски браузеров с обновлениями безопасности. Начните с определения фактически используемых браузера и операционной системы. Одного названия продукта недостаточно, чтобы установить, использует ли клиент поддерживаемый выпуск.",
+   "text_orig": "Client Platform discussed this copy with support on September 1, 2026. It is meant for the ordinary situation in which a customer can describe a browser problem but does not yet know whether the issue belongs to the client, their network, or a particular working session. LumenDesk supports stable browser releases with security updates. Begin by identifying the actual browser and operating system in use. A product name by itself is not enough to establish whether the customer is using a supported release.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "24-003",
+   "doc_no": 24,
+   "doc_id": "browser-support",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+   "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     5,
+     5
+    ]
+   },
+   "locator_text": "строка 5",
+   "segment_sha": "e07dd32b7be9",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Какие выпуски Chrome и Edge поддерживаются?",
+   "text_orig": "Which Chrome and Edge releases are supported?",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "24-004",
+   "doc_no": 24,
+   "doc_id": "browser-support",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+   "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     7,
+     7
+    ]
+   },
+   "locator_text": "строка 7",
+   "segment_sha": "46f8dcc7c592",
+   "section": "Which Chrome and Edge releases are supported?",
+   "section_ru": "Какие выпуски Chrome и Edge поддерживаются?",
+   "text_ru": "Поддерживаются два последних стабильных выпуска Chrome и два последних стабильных выпуска Edge. В разговоре спрашивайте фактическую версию, а не записывайте значение «самая последняя». Человек может обоснованно считать, что обновления устанавливаются автоматически, а его управляемый компьютер при этом остаётся на другом выпуске. Полезная запись — то, что у него фактически работает, а не спор о том, почему, по его мнению, версия уже должна быть актуальной. Указывайте название браузера рядом с версией, чтобы следующему сотруднику не пришлось угадывать его по снимку экрана.",
+   "text_orig": "The latest two stable Chrome releases and the latest two stable Edge releases are supported. In a conversation, ask for the actual version rather than accepting “the latest one” as a recorded value. A person may reasonably believe that updates are automatic while their managed computer remains on another release. The useful note is what they are running, not an argument about why they think it should already be current. Keep the browser name beside the version so the next agent does not have to infer it from a screenshot.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "24-005",
+   "doc_no": 24,
+   "doc_id": "browser-support",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+   "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     9,
+     9
+    ]
+   },
+   "locator_text": "строка 9",
+   "segment_sha": "a016d2269396",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Что говорить о Firefox и Safari?",
+   "text_orig": "What should we say about Firefox and Safari?",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "24-006",
+   "doc_no": 24,
+   "doc_id": "browser-support",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+   "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     11,
+     11
+    ]
+   },
+   "locator_text": "строка 11",
+   "segment_sha": "c584d3cd866e",
+   "section": "What should we say about Firefox and Safari?",
+   "section_ru": "Что говорить о Firefox и Safari?",
+   "text_ru": "Для Firefox поддерживаются последний стабильный выпуск и текущий ESR. Safari поддерживается на двух последних основных выпусках macOS. Это разные способы описания поддерживаемых клиентов, поэтому не сводите их к единому правилу о двух версиях каждого браузера. Спросите, какую операционную систему использует пользователь Safari. Для Firefox при записи сообщения клиента отличайте контекст ESR от обычного стабильного выпуска. Это не позволит при последующей передаче принять название поддерживаемого канала за непонятную ошибку браузера.",
+   "text_orig": "For Firefox, the latest stable release and the current ESR are supported. Safari is supported on the latest two major macOS releases. These are different ways of describing supported clients, so do not flatten them into a single rule about two versions of every browser. Ask which operating system the Safari user is running. For Firefox, distinguish the ESR context from the ordinary stable release when recording what the customer reports. This prevents a later handover from treating a supported channel name as a confusing browser error.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "24-007",
+   "doc_no": 24,
+   "doc_id": "browser-support",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+   "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     13,
+     13
+    ]
+   },
+   "locator_text": "строка 13",
+   "segment_sha": "829013de5809",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Может ли приватное окно объяснить, почему сессия не сохраняется?",
+   "text_orig": "Could a private window explain why a session does not persist?",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "24-008",
+   "doc_no": 24,
+   "doc_id": "browser-support",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+   "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     15,
+     15
+    ]
+   },
+   "locator_text": "строка 15",
+   "segment_sha": "8934131c4315",
+   "section": "Could a private window explain why a session does not persist?",
+   "section_ru": "Может ли приватное окно объяснить, почему сессия не сохраняется?",
+   "text_ru": "Приватный просмотр может мешать сохранению сессий, если заблокировано стороннее хранилище. Рассматривайте это как контекст для проверки, а не утверждайте, что у каждого сообщения о приватном окне одна и та же причина. Спросите, в чём проблема: человек не может выполнить задачу сейчас или его сессия не сохраняется так, как ожидалось. Это разные описания. Если клиент уже сравнил обычный и приватный режимы, сохраните, какое наблюдение к какому режиму относится, вместо расплывчатого вывода «пробовали другой браузер».",
+   "text_orig": "Private browsing may prevent persistent sessions when third-party storage is blocked. Treat that as context to investigate, rather than claiming that every private-window report has the same cause. Ask whether the problem is that the person cannot complete a task now or that their session is not retained as expected. Those are different descriptions. If the customer has already compared ordinary and private browsing, preserve which observation belongs to which mode instead of writing the vague conclusion “tried another browser.”",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "24-009",
+   "doc_no": 24,
+   "doc_id": "browser-support",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+   "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     17,
+     17
+    ]
+   },
+   "locator_text": "строка 17",
+   "segment_sha": "c2b1bb6dee05",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Что должна разрешать среда?",
+   "text_orig": "What does the environment need to allow?",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "24-010",
+   "doc_no": 24,
+   "doc_id": "browser-support",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+   "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     19,
+     19
+    ]
+   },
+   "locator_text": "строка 19",
+   "segment_sha": "76b2225e9a35",
+   "section": "What does the environment need to allow?",
+   "section_ru": "Что должна разрешать среда?",
+   "text_ru": "Cookie первой стороны должны быть включены. Сеть должна разрешать защищённые соединения WebSocket на порту 443. Разговор может запутаться, если каждый называет «соединением» что-то своё. Появление страницы на экране само по себе не говорит о том, разрешено ли требуемое защищённое соединение WebSocket. Точно так же наличие каких-то cookie не отвечает на вопрос, включены ли cookie первой стороны в соответствующем контексте браузера. Держите вопрос привязанным к фактическому требованию, а не собирайте общие утверждения, которые звучат обнадёживающе, но его не подтверждают.",
+   "text_orig": "First-party cookies must be enabled. The network must allow secure WebSocket connections on port 443. The conversation can become tangled if everyone uses the word “connection” for a different thing. A page appearing on screen does not by itself describe whether the required secure WebSocket connection is allowed. Likewise, the fact that some cookies exist does not answer whether first-party cookies are enabled in the relevant browser context. Keep the question tied to the actual requirement instead of collecting broad statements that sound reassuring but do not establish it.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "24-011",
+   "doc_no": 24,
+   "doc_id": "browser-support",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+   "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     21,
+     21
+    ]
+   },
+   "locator_text": "строка 21",
+   "segment_sha": "232ef2e95ed1",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Как подходить к проблеме отображения?",
+   "text_orig": "How do we approach a display problem?",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "24-012",
+   "doc_no": 24,
+   "doc_id": "browser-support",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+   "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     23,
+     23
+    ]
+   },
+   "locator_text": "строка 23",
+   "segment_sha": "237b686b2fa7",
+   "section": "How do we approach a display problem?",
+   "section_ru": "Как подходить к проблеме отображения?",
+   "text_ru": "Воспроизводите проблемы отображения с отключёнными расширениями. Это даёт команде более ясное наблюдение для обсуждения. Спросите, что изменилось при сравнении и сохраняется ли та же видимая проблема. «Мы что-то отключили» не так полезно, как знание того, что клиент повторил нужное действие с отключёнными расширениями. Не позволяйте длинному списку установленных расширений заменить сравнение. Цель — понять описанное поведение в определённом контексте, а не заставить клиента проводить инвентаризацию не относящихся к делу частей его компьютера.",
+   "text_orig": "Reproduce display issues with extensions disabled. This gives the team a clearer observation to discuss. Ask what changed in the comparison, and whether the same visible issue is still present. “We disabled something” is not as useful as knowing that the customer repeated the relevant action with extensions disabled. Do not let a long list of installed extensions become a replacement for the comparison. The goal is to understand the reported behaviour in a defined context, not to make the customer inventory unrelated parts of their computer.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "24-013",
+   "doc_no": 24,
+   "doc_id": "browser-support",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+   "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     25,
+     25
+    ]
+   },
+   "locator_text": "строка 25",
+   "segment_sha": "b1001735c54b",
+   "section": "How do we approach a display problem?",
+   "section_ru": "Как подходить к проблеме отображения?",
+   "text_ru": "Для устаревшего ресурса достаточно жёсткого обновления; не удаляйте сначала локальные черновики. Это предупреждение практическое, потому что люди часто переходят от вида устаревшей страницы к очистке всех видов данных браузера. Если клиент описывает устаревшее содержимое или ресурсы интерфейса, первое действие должно быть соразмерно этому наблюдению. Прямо скажите, что удалять локальные черновики первым шагом не нужно. Разговор с поддержкой не должен приводить к потере незавершённой работы клиента при попытке сделать старый ресурс актуальным.",
+   "text_orig": "For a stale asset, a hard refresh is sufficient; do not erase local drafts first. This warning is practical because people often jump from a page looking old to clearing every kind of browser data. If the customer is describing stale content or interface assets, keep the first action proportional to that observation. Be explicit that local drafts should not be erased as the opening move. A support conversation should not lose the customer's unfinished work while trying to make an old asset appear current.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "24-014",
+   "doc_no": 24,
+   "doc_id": "browser-support",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+   "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     27,
+     27
+    ]
+   },
+   "locator_text": "строка 27",
+   "segment_sha": "5dc6cf4a6c51",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Какие доказательства делают эскалацию полезной?",
+   "text_orig": "What evidence makes an escalation useful?",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "24-015",
+   "doc_no": 24,
+   "doc_id": "browser-support",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+   "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     29,
+     29
+    ]
+   },
+   "locator_text": "строка 29",
+   "segment_sha": "017d3dd46d11",
+   "section": "What evidence makes an escalation useful?",
+   "section_ru": "Какие доказательства делают эскалацию полезной?",
+   "text_ru": "Соберите версию браузера, операционную систему, время UTC и очищенные ошибки консоли. Эти сведения помогают другому человеку сопоставить сообщение с конкретной средой и событием. Очищенные ошибки должны сохранять нужную информацию об ошибке, не раскрывая постороннего конфиденциального материала. Не просите клиента выгрузить в сообщение всю сессию просмотра только потому, что консоль открыта. Небольшое описание, явно связанное с описанным действием, понять легче, чем очень большой журнал с событиями нескольких не связанных задач.",
+   "text_orig": "Collect browser version, operating system, UTC time, and sanitized console errors. These details help another person compare the report with a specific environment and event. Sanitized errors should preserve the relevant error information without exposing unrelated sensitive material. Do not ask the customer to dump an entire browsing session into a message simply because the console is open. A smaller account that clearly relates to the reported action is easier to understand than a very large log containing events from several unrelated tasks.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "24-016",
+   "doc_no": 24,
+   "doc_id": "browser-support",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+   "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     31,
+     31
+    ]
+   },
+   "locator_text": "строка 31",
+   "segment_sha": "99d232849cd9",
+   "section": "What evidence makes an escalation useful?",
+   "section_ru": "Какие доказательства делают эскалацию полезной?",
+   "text_ru": "Запрашивая время, указывайте в запросе UTC или явно уточняйте часовой пояс в разговоре. «Это случилось днём» — полезный человеческий контекст, но он не может служить опорой для точного сравнения между людьми в разных офисах. Разделяйте фактическое наблюдение и описание клиента. Аналогично снимок экрана с текущей версией браузера не устанавливает, какая версия работала во время более раннего события, если клиент не может связать эти моменты. Нам следует писать то, что мы знаем, а не тихо заполнять пробелы, чтобы сообщение выглядело полным.",
+   "text_orig": "When asking for time, say UTC in the request or make the timezone explicit in the conversation. “This happened in the afternoon” is useful human context but cannot anchor a precise comparison between people in different offices. Keep the actual observation and the customer's description separate. Similarly, a screenshot showing the current browser version does not establish what version was running during an earlier event unless the customer can connect those moments. We should write what we know rather than quietly filling gaps to make the report look complete.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "24-017",
+   "doc_no": 24,
+   "doc_id": "browser-support",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+   "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     33,
+     33
+    ]
+   },
+   "locator_text": "строка 33",
+   "segment_sha": "1ab3fbee67e2",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Как должна звучать передача?",
+   "text_orig": "What should the handover sound like?",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "24-018",
+   "doc_no": 24,
+   "doc_id": "browser-support",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+   "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     35,
+     35
+    ]
+   },
+   "locator_text": "строка 35",
+   "segment_sha": "c6a9e0b99d07",
+   "section": "What should the handover sound like?",
+   "section_ru": "Как должна звучать передача?",
+   "text_ru": "Напишите короткое описание среды, действия, видимой проблемы и уже выполненного сравнения. Укажите соответствующую версию браузера и операционную систему, воспроизводилась ли проблема отображения с отключёнными расширениями, а также время UTC обсуждаемого примера. Используйте только фактически проверенные части. Если вопрос касается сохранения сессий, сохраните контекст приватного просмотра и хранилища. Если вопрос касался устаревшего ресурса, укажите, пробовали ли жёсткое обновление без удаления локальных черновиков. Это даёт следующему коллеге понятное продолжение вместо просьбы повторить каждый общий приём диагностики.",
+   "text_orig": "Write a short narrative of the environment, the action, the visible issue, and the comparison already tried. Mention the relevant browser version and operating system, whether the display issue was reproduced with extensions disabled, and the UTC time of the example under discussion. Use only the parts actually checked. If persistent sessions are the question, preserve the private-browsing and storage context. If a stale asset was the question, say whether the hard refresh was tried without erasing local drafts. This gives the next colleague a clear continuation instead of a request to repeat every generic troubleshooting idea.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  }
+ ],
+ "_base": {
+  "no": 24,
+  "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+  "doc_id": "browser-support",
+  "title": "Browser conversations: questions worth asking",
+  "title_ru": "Разговоры о браузере: вопросы, которые стоит задать",
+  "lang": "en",
+  "format": "txt",
+  "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+  "decision": {
+   "no": 24,
+   "path": "documents/Платформа и интеграции/Browser notes final.txt",
+   "doc_id": "browser-support",
+   "title": "Browser conversations: questions worth asking",
+   "lang": "en",
+   "owner": "Client Platform",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "doc_type": "rule",
+   "status": "include",
+   "rule": "R1",
+   "reason": "Client Platform обсудила с поддержкой 1.09.2026.",
+   "access": "all",
+   "trust": "confirmed"
+  },
+  "fragments": [
+   {
+    "fragment_id": "24-001",
+    "doc_no": 24,
+    "doc_id": "browser-support",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+    "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "title",
+    "locator": {
+     "lines": [
+      1,
+      1
+     ]
+    },
+    "locator_text": "строка 1",
+    "segment_sha": "93a496ea3a26",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Разговоры о браузере: вопросы, которые стоит задать",
+    "text_orig": "Browser conversations: questions worth asking",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "24-002",
+    "doc_no": 24,
+    "doc_id": "browser-support",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+    "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      3,
+      3
+     ]
+    },
+    "locator_text": "строка 3",
+    "segment_sha": "99f652a3e0cd",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Client Platform обсудила эту копию с поддержкой 1 сентября 2026 года. Она предназначена для обычной ситуации, когда клиент может описать проблему с браузером, но ещё не знает, относится ли она к клиентскому приложению, к его сети или к конкретной рабочей сессии. LumenDesk поддерживает стабильные выпуски браузеров с обновлениями безопасности. Начните с определения фактически используемых браузера и операционной системы. Одного названия продукта недостаточно, чтобы установить, использует ли клиент поддерживаемый выпуск.",
+    "text_orig": "Client Platform discussed this copy with support on September 1, 2026. It is meant for the ordinary situation in which a customer can describe a browser problem but does not yet know whether the issue belongs to the client, their network, or a particular working session. LumenDesk supports stable browser releases with security updates. Begin by identifying the actual browser and operating system in use. A product name by itself is not enough to establish whether the customer is using a supported release.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "24-003",
+    "doc_no": 24,
+    "doc_id": "browser-support",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+    "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      5,
+      5
+     ]
+    },
+    "locator_text": "строка 5",
+    "segment_sha": "e07dd32b7be9",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Какие выпуски Chrome и Edge поддерживаются?",
+    "text_orig": "Which Chrome and Edge releases are supported?",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "24-004",
+    "doc_no": 24,
+    "doc_id": "browser-support",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+    "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      7,
+      7
+     ]
+    },
+    "locator_text": "строка 7",
+    "segment_sha": "46f8dcc7c592",
+    "section": "Which Chrome and Edge releases are supported?",
+    "section_ru": "Какие выпуски Chrome и Edge поддерживаются?",
+    "text_ru": "Поддерживаются два последних стабильных выпуска Chrome и два последних стабильных выпуска Edge. В разговоре спрашивайте фактическую версию, а не записывайте значение «самая последняя». Человек может обоснованно считать, что обновления устанавливаются автоматически, а его управляемый компьютер при этом остаётся на другом выпуске. Полезная запись — то, что у него фактически работает, а не спор о том, почему, по его мнению, версия уже должна быть актуальной. Указывайте название браузера рядом с версией, чтобы следующему сотруднику не пришлось угадывать его по снимку экрана.",
+    "text_orig": "The latest two stable Chrome releases and the latest two stable Edge releases are supported. In a conversation, ask for the actual version rather than accepting “the latest one” as a recorded value. A person may reasonably believe that updates are automatic while their managed computer remains on another release. The useful note is what they are running, not an argument about why they think it should already be current. Keep the browser name beside the version so the next agent does not have to infer it from a screenshot.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "24-005",
+    "doc_no": 24,
+    "doc_id": "browser-support",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+    "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      9,
+      9
+     ]
+    },
+    "locator_text": "строка 9",
+    "segment_sha": "a016d2269396",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Что говорить о Firefox и Safari?",
+    "text_orig": "What should we say about Firefox and Safari?",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "24-006",
+    "doc_no": 24,
+    "doc_id": "browser-support",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+    "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      11,
+      11
+     ]
+    },
+    "locator_text": "строка 11",
+    "segment_sha": "c584d3cd866e",
+    "section": "What should we say about Firefox and Safari?",
+    "section_ru": "Что говорить о Firefox и Safari?",
+    "text_ru": "Для Firefox поддерживаются последний стабильный выпуск и текущий ESR. Safari поддерживается на двух последних основных выпусках macOS. Это разные способы описания поддерживаемых клиентов, поэтому не сводите их к единому правилу о двух версиях каждого браузера. Спросите, какую операционную систему использует пользователь Safari. Для Firefox при записи сообщения клиента отличайте контекст ESR от обычного стабильного выпуска. Это не позволит при последующей передаче принять название поддерживаемого канала за непонятную ошибку браузера.",
+    "text_orig": "For Firefox, the latest stable release and the current ESR are supported. Safari is supported on the latest two major macOS releases. These are different ways of describing supported clients, so do not flatten them into a single rule about two versions of every browser. Ask which operating system the Safari user is running. For Firefox, distinguish the ESR context from the ordinary stable release when recording what the customer reports. This prevents a later handover from treating a supported channel name as a confusing browser error.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "24-007",
+    "doc_no": 24,
+    "doc_id": "browser-support",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+    "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      13,
+      13
+     ]
+    },
+    "locator_text": "строка 13",
+    "segment_sha": "829013de5809",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Может ли приватное окно объяснить, почему сессия не сохраняется?",
+    "text_orig": "Could a private window explain why a session does not persist?",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "24-008",
+    "doc_no": 24,
+    "doc_id": "browser-support",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+    "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      15,
+      15
+     ]
+    },
+    "locator_text": "строка 15",
+    "segment_sha": "8934131c4315",
+    "section": "Could a private window explain why a session does not persist?",
+    "section_ru": "Может ли приватное окно объяснить, почему сессия не сохраняется?",
+    "text_ru": "Приватный просмотр может мешать сохранению сессий, если заблокировано стороннее хранилище. Рассматривайте это как контекст для проверки, а не утверждайте, что у каждого сообщения о приватном окне одна и та же причина. Спросите, в чём проблема: человек не может выполнить задачу сейчас или его сессия не сохраняется так, как ожидалось. Это разные описания. Если клиент уже сравнил обычный и приватный режимы, сохраните, какое наблюдение к какому режиму относится, вместо расплывчатого вывода «пробовали другой браузер».",
+    "text_orig": "Private browsing may prevent persistent sessions when third-party storage is blocked. Treat that as context to investigate, rather than claiming that every private-window report has the same cause. Ask whether the problem is that the person cannot complete a task now or that their session is not retained as expected. Those are different descriptions. If the customer has already compared ordinary and private browsing, preserve which observation belongs to which mode instead of writing the vague conclusion “tried another browser.”",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "24-009",
+    "doc_no": 24,
+    "doc_id": "browser-support",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+    "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      17,
+      17
+     ]
+    },
+    "locator_text": "строка 17",
+    "segment_sha": "c2b1bb6dee05",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Что должна разрешать среда?",
+    "text_orig": "What does the environment need to allow?",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "24-010",
+    "doc_no": 24,
+    "doc_id": "browser-support",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+    "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      19,
+      19
+     ]
+    },
+    "locator_text": "строка 19",
+    "segment_sha": "76b2225e9a35",
+    "section": "What does the environment need to allow?",
+    "section_ru": "Что должна разрешать среда?",
+    "text_ru": "Cookie первой стороны должны быть включены. Сеть должна разрешать защищённые соединения WebSocket на порту 443. Разговор может запутаться, если каждый называет «соединением» что-то своё. Появление страницы на экране само по себе не говорит о том, разрешено ли требуемое защищённое соединение WebSocket. Точно так же наличие каких-то cookie не отвечает на вопрос, включены ли cookie первой стороны в соответствующем контексте браузера. Держите вопрос привязанным к фактическому требованию, а не собирайте общие утверждения, которые звучат обнадёживающе, но его не подтверждают.",
+    "text_orig": "First-party cookies must be enabled. The network must allow secure WebSocket connections on port 443. The conversation can become tangled if everyone uses the word “connection” for a different thing. A page appearing on screen does not by itself describe whether the required secure WebSocket connection is allowed. Likewise, the fact that some cookies exist does not answer whether first-party cookies are enabled in the relevant browser context. Keep the question tied to the actual requirement instead of collecting broad statements that sound reassuring but do not establish it.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "24-011",
+    "doc_no": 24,
+    "doc_id": "browser-support",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+    "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      21,
+      21
+     ]
+    },
+    "locator_text": "строка 21",
+    "segment_sha": "232ef2e95ed1",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Как подходить к проблеме отображения?",
+    "text_orig": "How do we approach a display problem?",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "24-012",
+    "doc_no": 24,
+    "doc_id": "browser-support",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+    "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      23,
+      23
+     ]
+    },
+    "locator_text": "строка 23",
+    "segment_sha": "237b686b2fa7",
+    "section": "How do we approach a display problem?",
+    "section_ru": "Как подходить к проблеме отображения?",
+    "text_ru": "Воспроизводите проблемы отображения с отключёнными расширениями. Это даёт команде более ясное наблюдение для обсуждения. Спросите, что изменилось при сравнении и сохраняется ли та же видимая проблема. «Мы что-то отключили» не так полезно, как знание того, что клиент повторил нужное действие с отключёнными расширениями. Не позволяйте длинному списку установленных расширений заменить сравнение. Цель — понять описанное поведение в определённом контексте, а не заставить клиента проводить инвентаризацию не относящихся к делу частей его компьютера.",
+    "text_orig": "Reproduce display issues with extensions disabled. This gives the team a clearer observation to discuss. Ask what changed in the comparison, and whether the same visible issue is still present. “We disabled something” is not as useful as knowing that the customer repeated the relevant action with extensions disabled. Do not let a long list of installed extensions become a replacement for the comparison. The goal is to understand the reported behaviour in a defined context, not to make the customer inventory unrelated parts of their computer.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "24-013",
+    "doc_no": 24,
+    "doc_id": "browser-support",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+    "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      25,
+      25
+     ]
+    },
+    "locator_text": "строка 25",
+    "segment_sha": "b1001735c54b",
+    "section": "How do we approach a display problem?",
+    "section_ru": "Как подходить к проблеме отображения?",
+    "text_ru": "Для устаревшего ресурса достаточно жёсткого обновления; не удаляйте сначала локальные черновики. Это предупреждение практическое, потому что люди часто переходят от вида устаревшей страницы к очистке всех видов данных браузера. Если клиент описывает устаревшее содержимое или ресурсы интерфейса, первое действие должно быть соразмерно этому наблюдению. Прямо скажите, что удалять локальные черновики первым шагом не нужно. Разговор с поддержкой не должен приводить к потере незавершённой работы клиента при попытке сделать старый ресурс актуальным.",
+    "text_orig": "For a stale asset, a hard refresh is sufficient; do not erase local drafts first. This warning is practical because people often jump from a page looking old to clearing every kind of browser data. If the customer is describing stale content or interface assets, keep the first action proportional to that observation. Be explicit that local drafts should not be erased as the opening move. A support conversation should not lose the customer's unfinished work while trying to make an old asset appear current.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "24-014",
+    "doc_no": 24,
+    "doc_id": "browser-support",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+    "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      27,
+      27
+     ]
+    },
+    "locator_text": "строка 27",
+    "segment_sha": "5dc6cf4a6c51",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Какие доказательства делают эскалацию полезной?",
+    "text_orig": "What evidence makes an escalation useful?",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "24-015",
+    "doc_no": 24,
+    "doc_id": "browser-support",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+    "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      29,
+      29
+     ]
+    },
+    "locator_text": "строка 29",
+    "segment_sha": "017d3dd46d11",
+    "section": "What evidence makes an escalation useful?",
+    "section_ru": "Какие доказательства делают эскалацию полезной?",
+    "text_ru": "Соберите версию браузера, операционную систему, время UTC и очищенные ошибки консоли. Эти сведения помогают другому человеку сопоставить сообщение с конкретной средой и событием. Очищенные ошибки должны сохранять нужную информацию об ошибке, не раскрывая постороннего конфиденциального материала. Не просите клиента выгрузить в сообщение всю сессию просмотра только потому, что консоль открыта. Небольшое описание, явно связанное с описанным действием, понять легче, чем очень большой журнал с событиями нескольких не связанных задач.",
+    "text_orig": "Collect browser version, operating system, UTC time, and sanitized console errors. These details help another person compare the report with a specific environment and event. Sanitized errors should preserve the relevant error information without exposing unrelated sensitive material. Do not ask the customer to dump an entire browsing session into a message simply because the console is open. A smaller account that clearly relates to the reported action is easier to understand than a very large log containing events from several unrelated tasks.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "24-016",
+    "doc_no": 24,
+    "doc_id": "browser-support",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+    "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      31,
+      31
+     ]
+    },
+    "locator_text": "строка 31",
+    "segment_sha": "99d232849cd9",
+    "section": "What evidence makes an escalation useful?",
+    "section_ru": "Какие доказательства делают эскалацию полезной?",
+    "text_ru": "Запрашивая время, указывайте в запросе UTC или явно уточняйте часовой пояс в разговоре. «Это случилось днём» — полезный человеческий контекст, но он не может служить опорой для точного сравнения между людьми в разных офисах. Разделяйте фактическое наблюдение и описание клиента. Аналогично снимок экрана с текущей версией браузера не устанавливает, какая версия работала во время более раннего события, если клиент не может связать эти моменты. Нам следует писать то, что мы знаем, а не тихо заполнять пробелы, чтобы сообщение выглядело полным.",
+    "text_orig": "When asking for time, say UTC in the request or make the timezone explicit in the conversation. “This happened in the afternoon” is useful human context but cannot anchor a precise comparison between people in different offices. Keep the actual observation and the customer's description separate. Similarly, a screenshot showing the current browser version does not establish what version was running during an earlier event unless the customer can connect those moments. We should write what we know rather than quietly filling gaps to make the report look complete.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "24-017",
+    "doc_no": 24,
+    "doc_id": "browser-support",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+    "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      33,
+      33
+     ]
+    },
+    "locator_text": "строка 33",
+    "segment_sha": "1ab3fbee67e2",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Как должна звучать передача?",
+    "text_orig": "What should the handover sound like?",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "24-018",
+    "doc_no": 24,
+    "doc_id": "browser-support",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+    "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      35,
+      35
+     ]
+    },
+    "locator_text": "строка 35",
+    "segment_sha": "c6a9e0b99d07",
+    "section": "What should the handover sound like?",
+    "section_ru": "Как должна звучать передача?",
+    "text_ru": "Напишите короткое описание среды, действия, видимой проблемы и уже выполненного сравнения. Укажите соответствующую версию браузера и операционную систему, воспроизводилась ли проблема отображения с отключёнными расширениями, а также время UTC обсуждаемого примера. Используйте только фактически проверенные части. Если вопрос касается сохранения сессий, сохраните контекст приватного просмотра и хранилища. Если вопрос касался устаревшего ресурса, укажите, пробовали ли жёсткое обновление без удаления локальных черновиков. Это даёт следующему коллеге понятное продолжение вместо просьбы повторить каждый общий приём диагностики.",
+    "text_orig": "Write a short narrative of the environment, the action, the visible issue, and the comparison already tried. Mention the relevant browser version and operating system, whether the display issue was reproduced with extensions disabled, and the UTC time of the example under discussion. Use only the parts actually checked. If persistent sessions are the question, preserve the private-browsing and storage context. If a stale asset was the question, say whether the hard refresh was tried without erasing local drafts. This gives the next colleague a clear continuation instead of a request to repeat every generic troubleshooting idea.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   }
+  ]
+ }
+}

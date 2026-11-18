@@ -1,0 +1,853 @@
+{
+ "totals": {
+  "checked": 793,
+  "flag_negation": 15,
+  "kept_as_is": 28,
+  "flag_conditions": 15,
+  "flag_numbers": 2,
+  "flag_length": 1
+ },
+ "documents": {
+  "documents/Выгрузки/Downloads/SAML cutover - September.md": {
+   "lang": "en",
+   "units": 16,
+   "missing": 0,
+   "flagged": 1,
+   "reviewed": 1,
+   "items": [
+    {
+     "sha": "695530efbf8c",
+     "where": "{\"lines\": [5, 5]}",
+     "issues": {
+      "negation": {
+       "orig": 0,
+       "ru": 1
+      }
+     },
+     "orig": "The most useful preparation is surprisingly mundane: keep an existing administrator session open until sign in succeeds. Do this before changing the path people use to enter the workspace. During a call, someone will naturally want to close extra tabs or start again in a clean browser. Make sure they understand which session is their working administrative session and why it is still needed while the new route is being tested. A neat desktop is less useful than a clear way to continue the setup conversation.",
+     "ru": "Самая полезная подготовка удивительно проста: держите существующую сессию администратора открытой, пока вход не будет успешным. Сделайте это до изменения пути, по которому люди входят в workspace. Во время звонка кому-нибудь естественно захочется закрыть лишние вкладки или начать заново в чистом браузере. Убедитесь, что участники понимают, какая сессия является их рабочей административной сессией и почему она всё ещё нужна, пока проверяется новый маршрут. Аккуратный рабочий стол менее полезен, чем понятный способ продолжить разговор о настройке.",
+     "review": {
+      "checks": [
+       "negation"
+      ],
+      "decision": "accepted",
+      "note": "«until sign in succeeds» → «пока вход не будет успешным»: русская конструкция «пока … не» передаёт until, отрицания по смыслу нет."
+     }
+    }
+   ]
+  },
+  "documents/Выгрузки/September incident register.xlsx": {
+   "lang": "en",
+   "units": 55,
+   "missing": 0,
+   "flagged": 0,
+   "reviewed": 0,
+   "items": []
+  },
+  "documents/Выгрузки/hosting regions export.csv": {
+   "lang": "en",
+   "units": 46,
+   "missing": 0,
+   "flagged": 0,
+   "reviewed": 0,
+   "items": []
+  },
+  "documents/Выгрузки/webhooks-reprises.csv": {
+   "lang": "fr",
+   "units": 36,
+   "missing": 0,
+   "flagged": 0,
+   "reviewed": 0,
+   "items": []
+  },
+  "documents/Клиентский сервис/Customer handover.docx": {
+   "lang": "en",
+   "units": 33,
+   "missing": 0,
+   "flagged": 0,
+   "reviewed": 0,
+   "items": []
+  },
+  "documents/Клиентский сервис/Team service credits.docx": {
+   "lang": "en",
+   "units": 26,
+   "missing": 0,
+   "flagged": 3,
+   "reviewed": 3,
+   "items": [
+    {
+     "sha": "556a44553158",
+     "where": "{\"paragraph\": 2, \"style\": \"Normal\"}",
+     "issues": {
+      "negation": {
+       "orig": 0,
+       "ru": 1
+      }
+     },
+     "orig": "Support Operations issue effective 15 September 2026. This is the operating schedule for a confirmed Team P1 service outage, approved for the support review process. Finance and Support Operations share responsibility for reviewing the claim evidence. The support reviewer prepares the impact record and the calculation before sending a complete claim to the joint review. Keep the existing request open until the agreed outcome has been communicated to the billing owner.",
+     "ru": "Выпуск Support Operations, действует с 15 сентября 2026 года. Это операционный график для подтверждённого сбоя сервиса P1 на Team, утверждённый для процесса проверки в поддержке. Finance и Support Operations совместно отвечают за проверку доказательств по заявке. Проверяющий из поддержки готовит запись о влиянии и расчёт, прежде чем направить полную заявку на совместную проверку. Держите существующий запрос открытым, пока согласованный результат не будет сообщён billing owner.",
+     "review": {
+      "checks": [
+       "negation"
+      ],
+      "decision": "accepted",
+      "note": "«until the agreed outcome has been communicated» → «пока … не будет сообщён» — та же конструкция until."
+     }
+    },
+    {
+     "sha": "7dc81f1557f2",
+     "where": "{\"paragraph\": 13, \"style\": \"Normal\"}",
+     "issues": {
+      "negation": {
+       "orig": 0,
+       "ru": 1
+      }
+     },
+     "orig": "Finance and Support Operations jointly review incomplete or disputed claims.",
+     "ru": "Неполные или оспариваемые заявки Finance и Support Operations проверяют совместно.",
+     "review": {
+      "checks": [
+       "negation"
+      ],
+      "decision": "accepted",
+      "note": "«incomplete» → «неполные»: лексическое отрицание сохранено."
+     }
+    },
+    {
+     "sha": "ad29f732d159",
+     "where": "{\"paragraph\": 19, \"style\": \"Normal\"}",
+     "issues": {
+      "conditions": [
+       "before"
+      ]
+     },
+     "orig": "For a monthly Team subscription fee of 400 EUR before tax, this Support Operations schedule calculates an eligible service credit at 20 percent, giving 80 EUR. The base excludes tax and usage add-ons. The same base is used when testing the monthly cap. Record the base, percentage and result separately so that a reviewer can see whether a difference came from the chosen fee or from the applied rate. Rounding or invoice display should never conceal the underlying percentage.",
+     "ru": "При ежемесячной плате за подписку Team 400 EUR без налога этот график Support Operations рассчитывает подходящий сервисный кредит по ставке 20 процентов, что даёт 80 EUR. База не включает налог и дополнения за использование. Та же база используется при проверке месячного предела. Записывайте базу, процент и результат отдельно, чтобы проверяющий видел, вызвана ли разница выбранной платой или применённой ставкой. Округление или отображение в счёте никогда не должны скрывать исходный процент.",
+     "review": {
+      "checks": [
+       "conditions"
+      ],
+      "decision": "accepted",
+      "note": "«400 EUR before tax» — не временное условие; «без налога» точно передаёт базу до налога. Числа 400/20/80 сохранены."
+     }
+    }
+   ]
+  },
+  "documents/Клиентский сервис/response targets final.xlsx": {
+   "lang": "en",
+   "units": 88,
+   "missing": 0,
+   "flagged": 1,
+   "reviewed": 1,
+   "items": [
+    {
+     "sha": "1edae88c2e8a",
+     "where": "Queue review!F10",
+     "issues": {
+      "negation": {
+       "orig": 0,
+       "ru": 1
+      }
+     },
+     "orig": "Report names an error but omits affected workflow",
+     "ru": "В сообщении названа ошибка, но не указан затронутый рабочий процесс",
+     "review": {
+      "checks": [
+       "negation"
+      ],
+      "decision": "accepted",
+      "note": "«omits affected workflow» → «не указан затронутый рабочий процесс»."
+     }
+    }
+   ]
+  },
+  "documents/Планирование/Procédures - publication copie.docx": {
+   "lang": "fr",
+   "units": 15,
+   "missing": 0,
+   "flagged": 4,
+   "reviewed": 4,
+   "items": [
+    {
+     "sha": "bfdf56ef02a3",
+     "where": "{\"paragraph\": 3, \"style\": \"Normal\"}",
+     "issues": {
+      "negation": {
+       "orig": 0,
+       "ru": 2
+      }
+     },
+     "orig": "Avant de commencer, l’auteur décrit le besoin auquel la fiche répond et le public qui l’utilisera. Il rassemble les noms des commandes, les conditions nécessaires et le résultat attendu de la procédure. Une fiche sur une tâche courante doit permettre au lecteur de comprendre quand commencer et comment vérifier la fin de l’action. Si le périmètre couvre plusieurs tâches indépendantes, l’auteur en discute avec le responsable de domaine avant de produire un long document difficile à maintenir.",
+     "ru": "Перед началом автор описывает потребность, на которую отвечает карточка, и аудиторию, которая будет ею пользоваться. Он собирает названия команд, необходимые условия и ожидаемый результат процедуры. Карточка по повседневной задаче должна позволять читателю понять, когда начинать и как проверить завершение действия. Если охват включает несколько независимых задач, автор обсуждает это с ответственным за предметную область, прежде чем создавать длинный документ, который трудно поддерживать.",
+     "review": {
+      "checks": [
+       "negation"
+      ],
+      "decision": "accepted",
+      "note": "«indépendantes» → «независимых», «difficile à maintenir» → «трудно поддерживать»: префикс не- в «независимых» — не отрицание условия."
+     }
+    },
+    {
+     "sha": "c16a4f8bba3d",
+     "where": "{\"paragraph\": 5, \"style\": \"Normal\"}",
+     "issues": {
+      "negation": {
+       "orig": 0,
+       "ru": 1
+      }
+     },
+     "orig": "L’auteur envoie sa proposition au responsable du domaine concerné et signale les points qui demandent une vérification technique. Le relecteur essaie la procédure sur un espace de travail approprié, vérifie les noms de commandes et relève les étapes où un prérequis manque. Il renvoie des remarques précises: passage concerné, difficulté observée et résultat attendu. L’auteur corrige puis confirme la prise en compte des remarques avant de transmettre le document à Knowledge Operations.",
+     "ru": "Автор отправляет предложение ответственному за соответствующую предметную область и отмечает места, требующие технической проверки. Проверяющий пробует процедуру в подходящем рабочем пространстве, проверяет названия команд и отмечает шаги, в которых не хватает предварительного условия. Он возвращает точные замечания: затронутый фрагмент, замеченная трудность и ожидаемый результат. Автор исправляет текст и подтверждает учёт замечаний, прежде чем передать документ в Knowledge Operations.",
+     "review": {
+      "checks": [
+       "negation"
+      ],
+      "decision": "accepted",
+      "note": "«un prérequis manque» → «не хватает предварительного условия»."
+     }
+    },
+    {
+     "sha": "63498a5e6be8",
+     "where": "{\"paragraph\": 8, \"style\": \"Normal\"}",
+     "issues": {
+      "conditions": [
+       "within"
+      ]
+     },
+     "orig": "Knowledge Operations vérifie le titre, les niveaux de sous-titres, la lisibilité des listes et les liens de navigation. Chaque lien est ouvert avec le compte approprié pour confirmer qu’il mène au contenu annoncé. Si une page a changé d’adresse, corriger le lien dans les fiches qui y renvoient. Un lien vers une recherche générale ne remplace pas une référence à la page utile lorsque le lecteur a besoin d’une étape précise.",
+     "ru": "Knowledge Operations проверяет заголовок, уровни подзаголовков, читаемость списков и навигационные ссылки. Каждая ссылка открывается под подходящей учётной записью, чтобы подтвердить, что она ведёт к заявленному содержимому. Если адрес страницы изменился, исправьте ссылку в карточках, которые на неё ведут. Ссылка на общий поиск не заменяет ссылку на нужную страницу, когда читателю нужен конкретный шаг.",
+     "review": {
+      "checks": [
+       "conditions"
+      ],
+      "decision": "accepted",
+      "note": "«dans les fiches» — «в карточках» (место), а не срок «в течение»."
+     }
+    },
+    {
+     "sha": "8be598371f85",
+     "where": "{\"paragraph\": 11, \"style\": \"Normal\"}",
+     "issues": {
+      "negation": {
+       "orig": 0,
+       "ru": 1
+      }
+     },
+     "orig": "Après accord de l’auteur et du responsable de domaine, Knowledge Operations publie la fiche dans la rubrique convenue. Le message d’annonce indique la tâche couverte et les collègues concernés, puis fournit le lien d’accès. Pour une modification qui change une habitude de travail, l’annonce décrit brièvement l’action à adopter. Une information très ponctuelle peut être présentée lors de la relève, mais le lien publié doit rester disponible pour les équipes absentes.",
+     "ru": "После согласия автора и ответственного за предметную область Knowledge Operations публикует карточку в согласованном разделе. Сообщение-объявление указывает охваченную задачу и затронутых коллег, а затем даёт ссылку для доступа. Для изменения, которое меняет рабочую привычку, объявление кратко описывает действие, которое нужно принять. Очень разовую информацию можно представить на передаче смены, но опубликованная ссылка должна оставаться доступной для отсутствующих команд.",
+     "review": {
+      "checks": [
+       "negation"
+      ],
+      "decision": "accepted",
+      "note": "«équipes absentes» → «отсутствующих команд»."
+     }
+    }
+   ]
+  },
+  "documents/Планирование/assistant-hypotheses.csv": {
+   "lang": "fr",
+   "units": 62,
+   "missing": 0,
+   "flagged": 1,
+   "reviewed": 1,
+   "items": [
+    {
+     "sha": "129993f46cb5",
+     "where": "строка 20, столбец 4",
+     "issues": {
+      "negation": {
+       "orig": 0,
+       "ru": 1
+      }
+     },
+     "orig": "Demander un résumé anonymisé plutôt qu’un export",
+     "ru": "Запросить обезличенное резюме, а не выгрузку",
+     "review": {
+      "checks": [
+       "negation"
+      ],
+      "decision": "accepted",
+      "note": "«plutôt qu’un export» → «а не выгрузку» — противопоставление сохранено."
+     }
+    }
+   ]
+  },
+  "documents/Платформа и интеграции/Browser notes final.txt": {
+   "lang": "en",
+   "units": 18,
+   "missing": 0,
+   "flagged": 0,
+   "reviewed": 0,
+   "items": []
+  },
+  "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md": {
+   "lang": "en",
+   "units": 16,
+   "missing": 0,
+   "flagged": 1,
+   "reviewed": 1,
+   "items": [
+    {
+     "sha": "f2437632c213",
+     "where": "{\"lines\": [23, 23]}",
+     "issues": {
+      "conditions": [
+       "only"
+      ]
+     },
+     "orig": "Then revoke the service key and remove the app installation. In a handover, name both actions rather than compressing them into “cleaned up access.” The shorthand can conceal whether the app was removed from the workspace, whether its service key was revoked, or whether the speaker only closed a browser tab. The procedure has a concrete end state, so use concrete verbs. Clear descriptions are especially helpful when different administrators are responsible for the connected app and its service credential.",
+     "ru": "Затем отзовите сервисный ключ и удалите установку приложения. При передаче называйте оба действия, а не сжимайте их до «доступ почистили». Такое сокращение может скрыть, было ли приложение удалено из workspace, был ли отозван его сервисный ключ или говорящий просто закрыл вкладку браузера. У процедуры есть конкретное конечное состояние, поэтому используйте конкретные глаголы. Ясные описания особенно полезны, когда за подключённое приложение и его сервисные учётные данные отвечают разные администраторы.",
+     "review": {
+      "checks": [
+       "conditions"
+      ],
+      "decision": "accepted",
+      "note": "«only closed a browser tab» в значении «всего лишь» → «просто закрыл вкладку»."
+     }
+    }
+   ]
+  },
+  "documents/Платформа и интеграции/SAML incident handling.docx": {
+   "lang": "en",
+   "units": 31,
+   "missing": 0,
+   "flagged": 3,
+   "reviewed": 3,
+   "items": [
+    {
+     "sha": "40ed9c53f210",
+     "where": "{\"paragraph\": 16, \"style\": \"Normal\"}",
+     "issues": {
+      "negation": {
+       "orig": 0,
+       "ru": 1
+      }
+     },
+     "orig": "Confirm the Enterprise workspace and the affected identity provider. Ask whether the failure affects all users or a particular account, whether a certificate change just occurred, and whether the emergency administrator session still works. Keep the customer's original error message and the UTC time of each failure. The user-facing error may be translated, while the underlying issuer and request identifiers remain the same. A screenshot alone may omit the timestamp needed to relate the failure to a configuration change.",
+     "ru": "Подтвердите Enterprise workspace и затронутый провайдер идентификации. Спросите, затрагивает ли сбой всех пользователей или конкретную учётную запись, была ли только что смена сертификата и работает ли ещё сессия аварийного администратора. Сохраните исходное сообщение об ошибке клиента и время UTC каждой неудачи. Ошибка, которую видит пользователь, может быть переведена, тогда как исходные идентификаторы issuer и запроса остаются теми же. На одном снимке экрана может не быть отметки времени, нужной для связи сбоя с изменением конфигурации.",
+     "review": {
+      "checks": [
+       "negation"
+      ],
+      "decision": "accepted",
+      "note": "«may omit the timestamp» → «может не быть отметки времени»."
+     }
+    },
+    {
+     "sha": "2f7352c2b751",
+     "where": "{\"paragraph\": 18, \"style\": \"Normal\"}",
+     "issues": {
+      "numbers": {
+       "orig": {
+        "2": 1
+       },
+       "ru": {}
+      }
+     },
+     "orig": "A repeated test can create more failed sign-ins without improving the evidence. Before asking the customer to try again, say what the test will establish and which result the team needs. Keep the account category clear so that a privileged lockout is not mistaken for an ordinary pilot problem. If a customer reports both an administrator lockout and several ordinary user failures, the privileged event already requires immediate involvement of the lead.",
+     "ru": "Повторная проверка может создать новые неудачные входы, не улучшив доказательств. Прежде чем просить клиента попробовать снова, скажите, что установит проверка и какой результат нужен команде. Чётко различайте категории учётных записей, чтобы блокировку привилегированной учётной записи не приняли за обычную проблему пилота. Если клиент сообщает и о блокировке администратора, и о нескольких неудачах обычных пользователей, привилегированное событие уже требует немедленного участия руководителя.",
+     "review": {
+      "checks": [
+       "numbers"
+      ],
+      "decision": "accepted",
+      "note": "«both … and …» — союз «и …, и …», а не количество 2."
+     }
+    },
+    {
+     "sha": "ccb6498c620d",
+     "where": "{\"paragraph\": 20, \"style\": \"Normal\"}",
+     "issues": {
+      "conditions": [
+       "within"
+      ]
+     },
+     "orig": "Compare the pending certificate activation with the operating parameters before revoking anything. Preserve the fingerprint of the certificate being checked, not its private key. The old certificate may still be within the permitted overlap window, so a successful sign-in by one user is not proof that every consumer has switched. Ask the identity-provider administrator which certificate signed the failed attempt and compare it with the configuration for this particular workspace.",
+     "ru": "Прежде чем что-либо отзывать, сравните активацию ожидающего сертификата с операционными параметрами. Сохраните отпечаток проверяемого сертификата, а не его закрытый ключ. Старый сертификат может ещё находиться в допустимом окне перекрытия, поэтому успешный вход одного пользователя не доказывает, что переключились все потребители. Спросите администратора провайдера идентификации, каким сертификатом подписана неудачная попытка, и сравните его с конфигурацией именно этого workspace.",
+     "review": {
+      "checks": [
+       "conditions"
+      ],
+      "decision": "accepted",
+      "note": "«within the permitted overlap window» → «находиться в допустимом окне перекрытия» — нахождение внутри окна, смысл сохранён."
+     }
+    }
+   ]
+  },
+  "documents/Платформа и интеграции/marketplace capabilities.xlsx": {
+   "lang": "en",
+   "units": 54,
+   "missing": 0,
+   "flagged": 0,
+   "reviewed": 0,
+   "items": []
+  },
+  "documents/Рабочие копии/Downloads/Export security final.pdf": {
+   "lang": "en",
+   "units": 24,
+   "missing": 0,
+   "flagged": 0,
+   "reviewed": 0,
+   "items": []
+  },
+  "documents/Рабочие копии/Downloads/notification-events sept.csv": {
+   "lang": "en",
+   "units": 44,
+   "missing": 0,
+   "flagged": 1,
+   "reviewed": 1,
+   "items": [
+    {
+     "sha": "56f9e831b8b5",
+     "where": "строка 3, столбец 3",
+     "issues": {
+      "conditions": [
+       "after"
+      ]
+     },
+     "orig": "Mention email is sent after a 5 minute delay if the item remains unread.",
+     "ru": "Email об упоминании отправляется с задержкой 5 минут, если элемент остаётся непрочитанным.",
+     "review": {
+      "checks": [
+       "conditions"
+      ],
+      "decision": "accepted",
+      "note": "«sent after a 5 minute delay» → «отправляется с задержкой 5 минут»: эквивалентно, число 5 сохранено."
+     }
+    }
+   ]
+  },
+  "documents/Рабочие копии/Notifications final.md": {
+   "lang": "en",
+   "units": 16,
+   "missing": 0,
+   "flagged": 2,
+   "reviewed": 2,
+   "items": [
+    {
+     "sha": "a4cb7df72e30",
+     "where": "{\"lines\": [3, 3]}",
+     "issues": {
+      "negation": {
+       "orig": 0,
+       "ru": 1
+      }
+     },
+     "orig": "Messaging Platform circulated these notes on September 1, 2026 after reviewing a set of delivery questions with support. The word “notification” is doing too much work in our conversations. A customer may mean the item inside LumenDesk, an email in their inbox, a push on a device, or the daily digest. Before deciding that delivery failed, ask which one they expected and what they actually saw. An immediate in-app event and a delayed email can be correct parts of the same sequence.",
+     "ru": "Messaging Platform разослала эти заметки 1 сентября 2026 года после разбора с поддержкой ряда вопросов о доставке. Слово «уведомление» в наших разговорах несёт слишком большую нагрузку. Клиент может иметь в виду элемент внутри LumenDesk, письмо во входящих, push на устройстве или ежедневный дайджест. Прежде чем решить, что доставка не удалась, спросите, что именно он ожидал и что фактически увидел. Немедленное событие в приложении и отложенное письмо могут быть правильными частями одной последовательности.",
+     "review": {
+      "checks": [
+       "negation"
+      ],
+      "decision": "accepted",
+      "note": "«delivery failed» → «доставка не удалась»."
+     }
+    },
+    {
+     "sha": "7616390ffd1e",
+     "where": "{\"lines\": [5, 5]}",
+     "issues": {
+      "conditions": [
+       "after"
+      ]
+     },
+     "orig": "Consider an ordinary direct mention. It creates an in-app notification immediately. The mention email is sent after a 5 minute delay if the item remains unread. A read event before that delay expires cancels the email. This explains a common report from people who are actively working in the workspace: they see the mention, open it, and later wonder why there was no matching email. The absence of the email can be the intended consequence of their earlier read, rather than evidence that the message disappeared in transit.",
+     "ru": "Возьмём обычное прямое упоминание. Оно немедленно создаёт уведомление в приложении. Email об упоминании отправляется с задержкой 5 минут, если элемент остаётся непрочитанным. Событие прочтения до истечения этой задержки отменяет письмо. Это объясняет частое сообщение от людей, активно работающих в workspace: они видят упоминание, открывают его, а потом удивляются, почему не было соответствующего письма. Отсутствие письма может быть задуманным следствием того, что они прочитали упоминание раньше, а не доказательством того, что сообщение потерялось при передаче.",
+     "review": {
+      "checks": [
+       "conditions"
+      ],
+      "decision": "accepted",
+      "note": "То же: «after a 5 minute delay» → «с задержкой 5 минут»; условие «если элемент остаётся непрочитанным» сохранено."
+     }
+    }
+   ]
+  },
+  "documents/Рабочие копии/Relais français 2026-09.txt": {
+   "lang": "fr",
+   "units": 12,
+   "missing": 0,
+   "flagged": 0,
+   "reviewed": 0,
+   "items": []
+  },
+  "documents/Рабочие копии/recovery-notes.txt": {
+   "lang": "en",
+   "units": 17,
+   "missing": 0,
+   "flagged": 1,
+   "reviewed": 1,
+   "items": [
+    {
+     "sha": "3b13875beb70",
+     "where": "{\"lines\": [3, 3]}",
+     "issues": {
+      "numbers": {
+       "orig": {
+        "1": 1,
+        "2026": 1,
+        "2": 1
+       },
+       "ru": {
+        "1": 1,
+        "2026": 1
+       }
+      }
+     },
+     "orig": "From September 1, 2026, Workspace Platform uses this procedure for LumenDesk cards and documents. Both frontline specialists and support leads refer to it when a customer reports an accidental deletion. People often begin with “everything was there yesterday,” but the decision requires more precise information. Before promising to return an item, establish the workspace plan and the deletion time. Do not start by assuming that an administrator will definitely find the card in Trash: that possibility depends on the time window.",
+     "ru": "С 1 сентября 2026 года команда Workspace Platform использует этот порядок для карточек и документов LumenDesk. К нему обращаются и специалисты первой линии, и руководители поддержки, когда клиент сообщает об ошибочном удалении. Чаще всего человек начинает с фразы «вчера всё было на месте», однако для решения нужны более точные сведения. До обещания вернуть объект выясните тариф рабочего пространства и время удаления. Не стоит начинать разговор с предположения, что администратор обязательно найдёт карточку в Корзине: наличие такой возможности зависит от срока.",
+     "review": {
+      "checks": [
+       "numbers"
+      ],
+      "decision": "accepted",
+      "note": "№37↔№13: «Both frontline specialists and support leads» → «и специалисты первой линии, и руководители поддержки» — союз, не количество. Дата 1.09.2026 совпадает."
+     }
+    }
+   ]
+  },
+  "documents/Финансы/Contrats France/Résidence Paris.pdf": {
+   "lang": "fr",
+   "units": 24,
+   "missing": 0,
+   "flagged": 2,
+   "reviewed": 2,
+   "items": [
+    {
+     "sha": "76ae70edf2c7",
+     "where": "{\"page\": 1, \"page_end\": 1, \"block\": 17}",
+     "issues": {
+      "conditions": [
+       "only"
+      ]
+     },
+     "orig": "L’option décrit le stockage principal à Paris et des sauvegardes qui restent dans l’Union européenne. Elle ne signifie pas que chaque échange réseau ou chaque notification email reste physiquement à Paris. Pour une question sur le prestataire de messagerie, consulter l’accord de sous-traitance et les informations déclarées. Ne pas transformer une explication de résidence principale en promesse générale sur tous les traitements effectués autour du service.",
+     "ru": "Опция описывает основное хранение в Париже и резервные копии, которые остаются в Европейском союзе. Она не означает, что каждый сетевой обмен или каждое уведомление по email физически остаётся в Париже. По вопросу о почтовом поставщике обращайтесь к соглашению о субподряде и заявленным сведениям. Не превращайте объяснение основной резидентности в общее обещание обо всех операциях обработки, выполняемых вокруг сервиса.",
+     "review": {
+      "checks": [
+       "conditions"
+      ],
+      "decision": "accepted",
+      "note": "Ложное «only»: «ne signifie pas que» — отрицание с союзом que, а не ограничение ne…que; отрицание передано («не означает, что»)."
+     }
+    },
+    {
+     "sha": "e79a77ffd851",
+     "where": "{\"page\": 2, \"page_end\": 2, \"block\": 7}",
+     "issues": {
+      "negation": {
+       "orig": 0,
+       "ru": 1
+      }
+     },
+     "orig": "Lors de la revue de septembre, plusieurs demandes mélangeaient le calendrier des jours fériés français avec le choix de région. Le calendrier sert à organiser les rappels, tandis que le stockage suit la commande et la configuration du workspace. Conserver cette distinction dans la transmission au support évite une réponse plausible mais fausse. Pour toute réserve sur le contrat, joindre la question au dossier existant et demander une clarification avant d’élargir l’engagement communiqué.",
+     "ru": "На сентябрьском ревью несколько запросов смешивали французский календарь праздников с выбором региона. Календарь служит для организации обратных звонков, а хранение следует заказу и конфигурации workspace. Сохранение этого различия при передаче в поддержку позволяет избежать правдоподобного, но неверного ответа. При любой оговорке по договору прикладывайте вопрос к существующему досье и запрашивайте уточнение, прежде чем расширять сообщённое обязательство.",
+     "review": {
+      "checks": [
+       "negation"
+      ],
+      "decision": "accepted",
+      "note": "«plausible mais fausse» → «правдоподобного, но неверного»."
+     }
+    }
+   ]
+  },
+  "documents/Финансы/Invoice correction - mail copy.txt": {
+   "lang": "en",
+   "units": 17,
+   "missing": 0,
+   "flagged": 0,
+   "reviewed": 0,
+   "items": []
+  },
+  "documents/Финансы/Team service credits.pdf": {
+   "lang": "en",
+   "units": 25,
+   "missing": 0,
+   "flagged": 2,
+   "reviewed": 2,
+   "items": [
+    {
+     "sha": "9bc3f1207ce3",
+     "where": "{\"page\": 1, \"page_end\": 1, \"block\": 13}",
+     "issues": {
+      "negation": {
+       "orig": 0,
+       "ru": 1
+      }
+     },
+     "orig": "Review. Finance and Support Operations jointly review incomplete or disputed claims.",
+     "ru": "Проверка. Неполные или оспариваемые заявки Finance и Support Operations проверяют совместно.",
+     "review": {
+      "checks": [
+       "negation"
+      ],
+      "decision": "accepted",
+      "note": "«incomplete» → «неполные»."
+     }
+    },
+    {
+     "sha": "f40115eef0cd",
+     "where": "{\"page\": 2, \"page_end\": 2, \"block\": 2}",
+     "issues": {
+      "conditions": [
+       "before"
+      ]
+     },
+     "orig": "Consider a Team workspace whose monthly subscription fee is 400 EUR before tax and whose eligible P1 outage lasted 120 consecutive minutes. Under this Finance schedule the credit calculation uses 15 percent of 400 EUR, or 60 EUR. Tax and an optional usage add-on are outside that base. The example shows how to calculate the amount once eligibility is established. It is not an instruction to pay a customer merely because a conversation contains the number 120.",
+     "ru": "Возьмём Team workspace с ежемесячной платой за подписку 400 EUR без налога, подходящий сбой P1 в котором длился 120 минут подряд. По этому графику Finance при расчёте кредита берутся 15 процентов от 400 EUR, то есть 60 EUR. Налог и необязательное дополнение за использование в эту базу не входят. Пример показывает, как рассчитать сумму после того, как право на кредит установлено. Это не указание выплатить клиенту что-либо только потому, что в переписке встречается число 120.",
+     "review": {
+      "checks": [
+       "conditions"
+      ],
+      "decision": "accepted",
+      "note": "«before tax» → «без налога»; 400/120/15/60 сохранены."
+     }
+    }
+   ]
+  },
+  "documents/Франция/Accessibilité septembre.pdf": {
+   "lang": "fr",
+   "units": 24,
+   "missing": 0,
+   "flagged": 2,
+   "reviewed": 2,
+   "items": [
+    {
+     "sha": "b18fe812d3b3",
+     "where": "{\"page\": 2, \"page_end\": 2, \"block\": 3}",
+     "issues": {
+      "conditions": [
+       "only"
+      ]
+     },
+     "orig": "Laisser une place aux questions et éviter de terminer les phrases du client. Si une étape n’est pas claire, reformuler son objectif et ses conséquences plutôt que répéter seulement le même emplacement visuel. Un changement de canal doit rester convenu; ne transférez pas spontanément une conversation écrite vers un appel parce que le dossier semble complexe. La personne qui reprend la demande doit retrouver le canal choisi sans avoir à redemander au client d’expliquer sa situation.",
+     "ru": "Оставляйте место для вопросов и не заканчивайте фразы за клиента. Если шаг непонятен, переформулируйте его цель и последствия, а не просто повторяйте то же визуальное расположение. Смена канала должна оставаться согласованной; не переводите самовольно письменный разговор в звонок из-за того, что дело кажется сложным. Человек, принимающий запрос, должен находить выбранный канал, не прося клиента снова объяснять свою ситуацию.",
+     "review": {
+      "checks": [
+       "conditions"
+      ],
+      "decision": "accepted",
+      "note": "«plutôt que répéter seulement» → «а не просто повторяйте»."
+     }
+    },
+    {
+     "sha": "bbc3e357fd1a",
+     "where": "{\"page\": 2, \"page_end\": 2, \"block\": 7}",
+     "issues": {
+      "conditions": [
+       "only"
+      ]
+     },
+     "orig": "Au terme de la demande, demander si le résultat et la prochaine action sont compréhensibles. Un acquiescement rapide pendant un appel ne prouve pas que toutes les étapes ont été comprises. Le compte rendu doit permettre au client de retrouver l’action convenue et à l’équipe de poursuivre sans inventer ses préférences. Les propositions d’amélioration de la documentation sont transmises au responsable de domaine avec un exemple anonymisé du passage difficile.",
+     "ru": "По завершении запроса спросите, понятны ли результат и следующее действие. Быстрое согласие во время звонка не доказывает, что все шаги поняты. Отчёт должен позволять клиенту найти согласованное действие, а команде — продолжить работу, не придумывая его предпочтения. Предложения по улучшению документации передаются ответственному за предметную область вместе с обезличенным примером трудного фрагмента.",
+     "review": {
+      "checks": [
+       "conditions"
+      ],
+      "decision": "accepted",
+      "note": "Ложное «only»: «ne prouve pas que» → «не доказывает, что»."
+     }
+    }
+   ]
+  },
+  "documents/Франция/Assistant abonnement.xlsx": {
+   "lang": "fr",
+   "units": 58,
+   "missing": 0,
+   "flagged": 0,
+   "reviewed": 0,
+   "items": []
+  },
+  "documents/Франция/Atelier équipe septembre.md": {
+   "lang": "fr",
+   "units": 16,
+   "missing": 0,
+   "flagged": 4,
+   "reviewed": 4,
+   "items": [
+    {
+     "sha": "7d408e0ff741",
+     "where": "{\"lines\": [7, 7]}",
+     "issues": {
+      "conditions": [
+       "only"
+      ]
+     },
+     "orig": "La présentation et les questions se déroulent entièrement en français. C'est utile de le préciser dès le premier échange, notamment lorsque le contact organise la séance pour des collègues qu'il connaît encore peu. Nous pouvons ainsi parler de leur manière de travailler sans laisser planer un doute sur la langue de l'animation. Cette note porte sur l'organisation de l'atelier; elle ne transforme pas tous les documents que le client utilise en versions françaises et ne nécessite pas de lui faire traduire ses propres données pour préparer la démonstration.",
+     "ru": "Презентация и вопросы проходят полностью на французском. Это полезно уточнить с первого обмена сообщениями, особенно когда контакт организует сессию для коллег, которых он пока мало знает. Так мы можем говорить об их способе работы, не оставляя сомнений относительно языка ведения. Эта заметка касается организации воркшопа; она не превращает все документы, которыми пользуется клиент, во французские версии и не требует от него переводить собственные данные для подготовки демонстрации.",
+     "review": {
+      "checks": [
+       "conditions"
+      ],
+      "decision": "accepted",
+      "note": "Ложное «only»: «ne transforme pas … et ne nécessite pas» — оба отрицания переданы."
+     }
+    },
+    {
+     "sha": "d6615416d0c5",
+     "where": "{\"lines\": [11, 11]}",
+     "issues": {
+      "conditions": [
+       "only"
+      ]
+     },
+     "orig": "Les séances ont lieu le mardi ou le jeudi à 10:00 Europe/Paris. Lorsque le client propose une heure, reprenez le fuseau dans votre réponse au lieu d'écrire seulement «10 heures». Une équipe répartie entre plusieurs bureaux peut tout à fait comprendre la même invitation de façons différentes. Le créneau indiqué ici est celui de Paris. Il vaut mieux clarifier cela dans le premier message que découvrir au début de la séance qu'une partie du groupe attendait une autre heure.",
+     "ru": "Сессии проходят во вторник или четверг в 10:00 Europe/Paris. Когда клиент предлагает время, повторите часовой пояс в ответе, а не пишите просто «в 10 часов». Команда, распределённая по нескольким офисам, вполне может по-разному понять одно и то же приглашение. Указанный здесь интервал — по парижскому времени. Лучше прояснить это в первом сообщении, чем обнаружить в начале сессии, что часть группы ожидала другое время.",
+     "review": {
+      "checks": [
+       "conditions"
+      ],
+      "decision": "accepted",
+      "note": "«au lieu d'écrire seulement «10 heures»» → «а не пишите просто «в 10 часов»»; 10:00 Europe/Paris сохранено."
+     }
+    },
+    {
+     "sha": "9e691a1a2037",
+     "where": "{\"lines\": [21, 21]}",
+     "issues": {
+      "conditions": [
+       "within"
+      ]
+     },
+     "orig": "Dans la conversation de préparation, résumez le besoin de l'équipe avec ses propres mots: par exemple, se repérer dans les espaces partagés ou comprendre une procédure courante. Ce résumé n'ajoute pas une prestation au contrat; il donne un fil conducteur à la séance. Si plusieurs collègues apportent des attentes différentes, rendez-les visibles avant le rendez-vous. Un contact peut parler d'accueil des nouveaux utilisateurs alors qu'un autre imagine déjà une revue complète de son organisation. Mieux vaut découvrir cette différence dans le courriel de préparation.",
+     "ru": "В переписке о подготовке изложите потребность команды её собственными словами: например, ориентироваться в общих пространствах или понять повседневную процедуру. Это изложение не добавляет услугу в договор; оно задаёт сессии сквозную линию. Если у нескольких коллег разные ожидания, сделайте их видимыми до встречи. Один контакт может говорить о вводном знакомстве новых пользователей, а другой уже представлять полный разбор своей организации. Лучше обнаружить это различие в письме о подготовке.",
+     "review": {
+      "checks": [
+       "conditions"
+      ],
+      "decision": "accepted",
+      "note": "«Dans la conversation» — место («в переписке»), не срок."
+     }
+    },
+    {
+     "sha": "3c97233e1519",
+     "where": "{\"lines\": [29, 29]}",
+     "issues": {
+      "conditions": [
+       "only"
+      ]
+     },
+     "orig": "Le résumé de l'atelier est envoyé au contact du contrat dans les 2 jours ouvrés. Dites-le lorsque vous expliquez le déroulement, car certains participants souhaitent se concentrer sur les échanges plutôt que prendre des notes à toute vitesse. Le destinataire prévu est le contact du contrat. Ne supposez pas que toutes les personnes ajoutées à un ancien fil sont devenues ce contact. Le résumé doit revenir vers la relation contractuelle que le client et nous avons identifiée, puis le client peut organiser sa propre circulation interne.",
+     "ru": "Резюме воркшопа отправляется контакту по договору в течение 2 рабочих дней. Скажите об этом, объясняя ход сессии, потому что некоторые участники хотят сосредоточиться на обсуждении, а не торопливо записывать. Предусмотренный получатель — контакт по договору. Не считайте, что все люди, добавленные в старую переписку, стали этим контактом. Резюме должно вернуться к договорным отношениям, которые мы с клиентом определили, а затем клиент может организовать собственное внутреннее распространение.",
+     "review": {
+      "checks": [
+       "conditions"
+      ],
+      "decision": "accepted",
+      "note": "Ложное «only»: «Ne supposez pas que» → «Не считайте, что»; срок «dans les 2 jours ouvrés» → «в течение 2 рабочих дней» сохранён."
+     }
+    }
+   ]
+  },
+  "documents/Франция/Rappels et jours fériés.pdf": {
+   "lang": "fr",
+   "units": 24,
+   "missing": 0,
+   "flagged": 0,
+   "reviewed": 0,
+   "items": []
+  },
+  "documents/Франция/organisation/Calendrier support 2026.docx": {
+   "lang": "fr",
+   "units": 24,
+   "missing": 0,
+   "flagged": 5,
+   "reviewed": 5,
+   "items": [
+    {
+     "sha": "2f4cafdc5e40",
+     "where": "{\"paragraph\": 2, \"style\": \"Normal\"}",
+     "issues": {
+      "conditions": [
+       "only"
+      ]
+     },
+     "orig": "Note de Support France pour l’organisation du calendrier 2026, relue le 1er septembre. Elle explique comment proposer ou reporter un rappel ordinaire lorsque le contrat relève de la France. Les engagements d’urgence Enterprise continuent selon le contrat et les consignes de permanence. La présence d’un jour férié dans ce calendrier ne signifie donc pas que toute demande ou tout incident est laissé sans orientation.",
+     "ru": "Записка Support France по организации календаря на 2026 год, перечитана 1 сентября. Она объясняет, как предложить или перенести обычный обратный звонок, когда договор относится к Франции. Срочные обязательства Enterprise продолжают действовать согласно договору и указаниям для дежурства. Поэтому наличие праздника в этом календаре не означает, что любой запрос или любой инцидент остаётся без маршрута.",
+     "review": {
+      "checks": [
+       "conditions"
+      ],
+      "decision": "accepted",
+      "note": "Ложное «only»: «ne signifie donc pas que» → «не означает, что»."
+     }
+    },
+    {
+     "sha": "005421ebe424",
+     "where": "{\"paragraph\": 5, \"style\": \"Normal\"}",
+     "issues": {
+      "negation": {
+       "orig": 0,
+       "ru": 1
+      }
+     },
+     "orig": "Les rappels ordinaires sont fermés le 14 juillet.",
+     "ru": "Обычные обратные звонки не проводятся 14 июля.",
+     "review": {
+      "checks": [
+       "negation"
+      ],
+      "decision": "accepted",
+      "note": "«sont fermés le 14 juillet» → «не проводятся 14 июля»: закрытие канала передано как непроведение; дата сохранена."
+     }
+    },
+    {
+     "sha": "ab3d81c9215b",
+     "where": "{\"paragraph\": 6, \"style\": \"Normal\"}",
+     "issues": {
+      "negation": {
+       "orig": 0,
+       "ru": 1
+      }
+     },
+     "orig": "Les rappels ordinaires sont fermés le 25 décembre.",
+     "ru": "Обычные обратные звонки не проводятся 25 декабря.",
+     "review": {
+      "checks": [
+       "negation"
+      ],
+      "decision": "accepted",
+      "note": "То же для 25 декабря."
+     }
+    },
+    {
+     "sha": "c06e91610731",
+     "where": "{\"paragraph\": 11, \"style\": \"Normal\"}",
+     "issues": {
+      "length": 0.74
+     },
+     "orig": "Le fuseau horaire est affiché dans la confirmation du rendez-vous.",
+     "ru": "Часовой пояс указывается в подтверждении встречи.",
+     "review": {
+      "checks": [
+       "length"
+      ],
+      "decision": "accepted",
+      "note": "Короткое предложение; перевод полный: «Часовой пояс указывается в подтверждении встречи»."
+     }
+    },
+    {
+     "sha": "264eb90c9d9f",
+     "where": "{\"paragraph\": 24, \"style\": \"Normal\"}",
+     "issues": {
+      "negation": {
+       "orig": 0,
+       "ru": 1
+      }
+     },
+     "orig": "Avant les congés, chaque responsable de plage vérifie les demandes à reprendre et le collègue de relais. Les notes personnelles peuvent aider à préparer la relève, mais la prochaine action doit être inscrite dans la demande accessible à l’équipe. Si une ancienne invitation subsiste dans le calendrier du client, la corriger explicitement pour éviter deux horaires concurrents. Le suivi est terminé lorsque le client sait quel canal utiliser et à quel moment la suite est attendue.",
+     "ru": "Перед отпусками каждый ответственный за смену проверяет запросы, которые нужно будет подхватить, и коллегу на замене. Личные заметки могут помочь подготовить передачу, но следующее действие должно быть записано в запросе, доступном команде. Если в календаре клиента осталось старое приглашение, явно исправьте его, чтобы не было двух конкурирующих времён. Сопровождение завершено, когда клиент знает, каким каналом пользоваться и когда ожидать продолжения.",
+     "review": {
+      "checks": [
+       "negation"
+      ],
+      "decision": "accepted",
+      "note": "«pour éviter deux horaires concurrents» → «чтобы не было двух конкурирующих времён»; число 2 сохранено."
+     }
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,1072 @@
+{
+ "no": 18,
+ "source_path": "documents/Планирование/Procédures - publication copie.docx",
+ "doc_id": "support-procedure-publishing",
+ "title": "Publication des procédures de support",
+ "title_ru": "Публикация процедур поддержки",
+ "lang": "fr",
+ "format": "docx",
+ "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+ "decision": {
+  "no": 18,
+  "path": "documents/Планирование/Procédures - publication copie.docx",
+  "doc_id": "support-procedure-publishing",
+  "title": "Publication des procédures de support",
+  "lang": "fr",
+  "owner": "Knowledge Operations",
+  "version": "2026-09-11",
+  "updated": "2026-09-11",
+  "doc_type": "internal_process",
+  "status": "exclude",
+  "rule": "R7",
+  "reason": "Внутренний порядок публикации справочных карточек; вне круга вопросов помощника. Оригинал «copie» в корпусе не найден.",
+  "access": "all",
+  "trust": "confirmed"
+ },
+ "fragments": [
+  {
+   "fragment_id": "18-001",
+   "doc_no": 18,
+   "doc_id": "support-procedure-publishing",
+   "doc_version": "2026-09-11",
+   "source_path": "documents/Планирование/Procédures - publication copie.docx",
+   "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "title",
+   "locator": {
+    "paragraph": 1,
+    "style": "Title"
+   },
+   "locator_text": "абзац 1 (w:p, стиль Title)",
+   "segment_sha": "4593973e04a2",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Публикация процедур поддержки",
+   "text_orig": "Publication des procédures de support",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Вне круга вопросов помощника; в поиск не включается."
+  },
+  {
+   "fragment_id": "18-002",
+   "doc_no": 18,
+   "doc_id": "support-procedure-publishing",
+   "doc_version": "2026-09-11",
+   "source_path": "documents/Планирование/Procédures - publication copie.docx",
+   "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 2,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 2 (w:p, стиль Normal)",
+   "segment_sha": "8daccb046225",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Knowledge Operations согласовала этот порядок с авторами Support France 11 сентября 2026 года. Он применяется к справочным карточкам, подготовленным для коллег, отвечающих клиентам. Автор остаётся ответственным за точность своего предметного содержания; Knowledge Operations координирует вычитку, оформление и объявление о публикации. Цель — чтобы каждой карточкой мог пользоваться человек, не участвовавший в её написании.",
+   "text_orig": "Knowledge Operations a convenu de ce circuit avec les auteurs de Support France le 11 septembre 2026. Il s’applique aux fiches d’aide préparées pour les collègues qui répondent aux clients. L’auteur reste responsable de l’exactitude de son contenu métier; Knowledge Operations coordonne la relecture, la mise en forme et l’annonce de publication. L’objectif est que chaque fiche soit utilisable par une personne qui n’a pas participé à sa rédaction.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Вне круга вопросов помощника; в поиск не включается."
+  },
+  {
+   "fragment_id": "18-003",
+   "doc_no": 18,
+   "doc_id": "support-procedure-publishing",
+   "doc_version": "2026-09-11",
+   "source_path": "documents/Планирование/Procédures - publication copie.docx",
+   "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 3,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 3 (w:p, стиль Normal)",
+   "segment_sha": "bfdf56ef02a3",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Перед началом автор описывает потребность, на которую отвечает карточка, и аудиторию, которая будет ею пользоваться. Он собирает названия команд, необходимые условия и ожидаемый результат процедуры. Карточка по повседневной задаче должна позволять читателю понять, когда начинать и как проверить завершение действия. Если охват включает несколько независимых задач, автор обсуждает это с ответственным за предметную область, прежде чем создавать длинный документ, который трудно поддерживать.",
+   "text_orig": "Avant de commencer, l’auteur décrit le besoin auquel la fiche répond et le public qui l’utilisera. Il rassemble les noms des commandes, les conditions nécessaires et le résultat attendu de la procédure. Une fiche sur une tâche courante doit permettre au lecteur de comprendre quand commencer et comment vérifier la fin de l’action. Si le périmètre couvre plusieurs tâches indépendantes, l’auteur en discute avec le responsable de domaine avant de produire un long document difficile à maintenir.",
+   "translation": "translated",
+   "translation_review": {
+    "checks": [
+     "negation"
+    ],
+    "decision": "accepted",
+    "note": "«indépendantes» → «независимых», «difficile à maintenir» → «трудно поддерживать»: префикс не- в «независимых» — не отрицание условия."
+   },
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Вне круга вопросов помощника; в поиск не включается."
+  },
+  {
+   "fragment_id": "18-004",
+   "doc_no": 18,
+   "doc_id": "support-procedure-publishing",
+   "doc_version": "2026-09-11",
+   "source_path": "documents/Планирование/Procédures - publication copie.docx",
+   "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "heading",
+   "locator": {
+    "paragraph": 4,
+    "style": "Heading1"
+   },
+   "locator_text": "абзац 4 (w:p, стиль Heading1)",
+   "segment_sha": "0a1b3ca11a9d",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вычитка в предметной области",
+   "text_orig": "Relecture par le domaine",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Вне круга вопросов помощника; в поиск не включается."
+  },
+  {
+   "fragment_id": "18-005",
+   "doc_no": 18,
+   "doc_id": "support-procedure-publishing",
+   "doc_version": "2026-09-11",
+   "source_path": "documents/Планирование/Procédures - publication copie.docx",
+   "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 5,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 5 (w:p, стиль Normal)",
+   "segment_sha": "c16a4f8bba3d",
+   "section": "Relecture par le domaine",
+   "section_ru": "Вычитка в предметной области",
+   "text_ru": "Автор отправляет предложение ответственному за соответствующую предметную область и отмечает места, требующие технической проверки. Проверяющий пробует процедуру в подходящем рабочем пространстве, проверяет названия команд и отмечает шаги, в которых не хватает предварительного условия. Он возвращает точные замечания: затронутый фрагмент, замеченная трудность и ожидаемый результат. Автор исправляет текст и подтверждает учёт замечаний, прежде чем передать документ в Knowledge Operations.",
+   "text_orig": "L’auteur envoie sa proposition au responsable du domaine concerné et signale les points qui demandent une vérification technique. Le relecteur essaie la procédure sur un espace de travail approprié, vérifie les noms de commandes et relève les étapes où un prérequis manque. Il renvoie des remarques précises: passage concerné, difficulté observée et résultat attendu. L’auteur corrige puis confirme la prise en compte des remarques avant de transmettre le document à Knowledge Operations.",
+   "translation": "translated",
+   "translation_review": {
+    "checks": [
+     "negation"
+    ],
+    "decision": "accepted",
+    "note": "«un prérequis manque» → «не хватает предварительного условия»."
+   },
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Вне круга вопросов помощника; в поиск не включается."
+  },
+  {
+   "fragment_id": "18-006",
+   "doc_no": 18,
+   "doc_id": "support-procedure-publishing",
+   "doc_version": "2026-09-11",
+   "source_path": "documents/Планирование/Procédures - publication copie.docx",
+   "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 6,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 6 (w:p, стиль Normal)",
+   "segment_sha": "def7a2dcdc1a",
+   "section": "Relecture par le domaine",
+   "section_ru": "Вычитка в предметной области",
+   "text_ru": "Когда снимок экрана полезен, он сопровождает объяснение, но не заменяет его. Текст должен называть команды и уточнять видимый результат. Снимки обрезаются до нужной области и не содержат ни секретов, ни реальных данных клиента. Проверьте, что примеры имён файлов, диакритические знаки и специальные символы отображаются правильно. Переведённую процедуру вычитывает человек, способный проверить и термины продукта.",
+   "text_orig": "Lorsqu’une capture d’écran est utile, elle accompagne l’explication sans la remplacer. Le texte doit nommer les commandes et préciser le résultat visible. Les captures sont recadrées sur la zone nécessaire et ne contiennent ni secrets ni données réelles d’un client. Vérifier que les exemples de noms de fichiers, les accents et les caractères spéciaux s’affichent correctement. Une procédure traduite est relue par une personne capable de vérifier aussi les termes du produit.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Вне круга вопросов помощника; в поиск не включается."
+  },
+  {
+   "fragment_id": "18-007",
+   "doc_no": 18,
+   "doc_id": "support-procedure-publishing",
+   "doc_version": "2026-09-11",
+   "source_path": "documents/Планирование/Procédures - publication copie.docx",
+   "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "heading",
+   "locator": {
+    "paragraph": 7,
+    "style": "Heading1"
+   },
+   "locator_text": "абзац 7 (w:p, стиль Heading1)",
+   "segment_sha": "5a6d54e54118",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Оформление и ссылки",
+   "text_orig": "Mise en forme et liens",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Вне круга вопросов помощника; в поиск не включается."
+  },
+  {
+   "fragment_id": "18-008",
+   "doc_no": 18,
+   "doc_id": "support-procedure-publishing",
+   "doc_version": "2026-09-11",
+   "source_path": "documents/Планирование/Procédures - publication copie.docx",
+   "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 8,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 8 (w:p, стиль Normal)",
+   "segment_sha": "63498a5e6be8",
+   "section": "Mise en forme et liens",
+   "section_ru": "Оформление и ссылки",
+   "text_ru": "Knowledge Operations проверяет заголовок, уровни подзаголовков, читаемость списков и навигационные ссылки. Каждая ссылка открывается под подходящей учётной записью, чтобы подтвердить, что она ведёт к заявленному содержимому. Если адрес страницы изменился, исправьте ссылку в карточках, которые на неё ведут. Ссылка на общий поиск не заменяет ссылку на нужную страницу, когда читателю нужен конкретный шаг.",
+   "text_orig": "Knowledge Operations vérifie le titre, les niveaux de sous-titres, la lisibilité des listes et les liens de navigation. Chaque lien est ouvert avec le compte approprié pour confirmer qu’il mène au contenu annoncé. Si une page a changé d’adresse, corriger le lien dans les fiches qui y renvoient. Un lien vers une recherche générale ne remplace pas une référence à la page utile lorsque le lecteur a besoin d’une étape précise.",
+   "translation": "translated",
+   "translation_review": {
+    "checks": [
+     "conditions"
+    ],
+    "decision": "accepted",
+    "note": "«dans les fiches» — «в карточках» (место), а не срок «в течение»."
+   },
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Вне круга вопросов помощника; в поиск не включается."
+  },
+  {
+   "fragment_id": "18-009",
+   "doc_no": 18,
+   "doc_id": "support-procedure-publishing",
+   "doc_version": "2026-09-11",
+   "source_path": "documents/Планирование/Procédures - publication copie.docx",
+   "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 9,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 9 (w:p, стиль Normal)",
+   "segment_sha": "090b89d58de7",
+   "section": "Mise en forme et liens",
+   "section_ru": "Оформление и ссылки",
+   "text_ru": "Таблицы должны сохранять заголовки и единицы измерения. Для длинной карточки проверьте чтение на экране обычного размера и разрывы страниц в версии для печати. Названия кнопок и сообщения об ошибках сверяются с интерфейсом. Если языковая правка может изменить смысл действия, Knowledge Operations возвращает фрагмент автору, а не решает самостоятельно о новой формулировке.",
+   "text_orig": "Les tableaux doivent conserver leurs en-têtes et leurs unités. Pour une fiche longue, tester la lecture sur un écran de taille ordinaire et vérifier les sauts de page de la version imprimable. Les noms de boutons et les messages d’erreur sont comparés à l’interface. En cas de correction de langue qui pourrait changer le sens d’une action, Knowledge Operations renvoie le passage à l’auteur plutôt que de décider seul de la nouvelle formulation.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Вне круга вопросов помощника; в поиск не включается."
+  },
+  {
+   "fragment_id": "18-010",
+   "doc_no": 18,
+   "doc_id": "support-procedure-publishing",
+   "doc_version": "2026-09-11",
+   "source_path": "documents/Планирование/Procédures - publication copie.docx",
+   "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "heading",
+   "locator": {
+    "paragraph": 10,
+    "style": "Heading1"
+   },
+   "locator_text": "абзац 10 (w:p, стиль Heading1)",
+   "segment_sha": "e03b4b9c6973",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Публикация и объявление",
+   "text_orig": "Publication et annonce",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Вне круга вопросов помощника; в поиск не включается."
+  },
+  {
+   "fragment_id": "18-011",
+   "doc_no": 18,
+   "doc_id": "support-procedure-publishing",
+   "doc_version": "2026-09-11",
+   "source_path": "documents/Планирование/Procédures - publication copie.docx",
+   "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 11,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 11 (w:p, стиль Normal)",
+   "segment_sha": "8be598371f85",
+   "section": "Publication et annonce",
+   "section_ru": "Публикация и объявление",
+   "text_ru": "После согласия автора и ответственного за предметную область Knowledge Operations публикует карточку в согласованном разделе. Сообщение-объявление указывает охваченную задачу и затронутых коллег, а затем даёт ссылку для доступа. Для изменения, которое меняет рабочую привычку, объявление кратко описывает действие, которое нужно принять. Очень разовую информацию можно представить на передаче смены, но опубликованная ссылка должна оставаться доступной для отсутствующих команд.",
+   "text_orig": "Après accord de l’auteur et du responsable de domaine, Knowledge Operations publie la fiche dans la rubrique convenue. Le message d’annonce indique la tâche couverte et les collègues concernés, puis fournit le lien d’accès. Pour une modification qui change une habitude de travail, l’annonce décrit brièvement l’action à adopter. Une information très ponctuelle peut être présentée lors de la relève, mais le lien publié doit rester disponible pour les équipes absentes.",
+   "translation": "translated",
+   "translation_review": {
+    "checks": [
+     "negation"
+    ],
+    "decision": "accepted",
+    "note": "«équipes absentes» → «отсутствующих команд»."
+   },
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Вне круга вопросов помощника; в поиск не включается."
+  },
+  {
+   "fragment_id": "18-012",
+   "doc_no": 18,
+   "doc_id": "support-procedure-publishing",
+   "doc_version": "2026-09-11",
+   "source_path": "documents/Планирование/Procédures - publication copie.docx",
+   "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 12,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 12 (w:p, стиль Normal)",
+   "segment_sha": "98f852c83dac",
+   "section": "Publication et annonce",
+   "section_ru": "Публикация и объявление",
+   "text_ru": "После публикации автор проверяет документ, включая ссылки и вложения. Если проблема оформления мешает чтению, он сообщает о ней в Knowledge Operations для исправления. Если обнаружена ошибка содержания, ответственный за предметную область определяет фрагмент для исправления и коллег, которых нужно предупредить. Сообщение об исправлении конкретно объясняет, что изменилось, чтобы команды могли вернуться к затронутым запросам.",
+   "text_orig": "L’auteur vérifie le document après publication, y compris les liens et les pièces jointes. Si un problème de mise en page empêche la lecture, il le signale à Knowledge Operations pour correction. Si une erreur de contenu est découverte, le responsable de domaine détermine le passage à corriger et les collègues à prévenir. Le message de correction explique concrètement ce qui a changé afin que les équipes puissent reprendre les demandes concernées.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Вне круга вопросов помощника; в поиск не включается."
+  },
+  {
+   "fragment_id": "18-013",
+   "doc_no": 18,
+   "doc_id": "support-procedure-publishing",
+   "doc_version": "2026-09-11",
+   "source_path": "documents/Планирование/Procédures - publication copie.docx",
+   "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "heading",
+   "locator": {
+    "paragraph": 13,
+    "style": "Heading1"
+   },
+   "locator_text": "абзац 13 (w:p, стиль Heading1)",
+   "segment_sha": "d13e636968d2",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Поддержание карточек",
+   "text_orig": "Entretien des fiches",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Вне круга вопросов помощника; в поиск не включается."
+  },
+  {
+   "fragment_id": "18-014",
+   "doc_no": 18,
+   "doc_id": "support-procedure-publishing",
+   "doc_version": "2026-09-11",
+   "source_path": "documents/Планирование/Procédures - publication copie.docx",
+   "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 14,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 14 (w:p, стиль Normal)",
+   "segment_sha": "5bc8b3a6c0c5",
+   "section": "Entretien des fiches",
+   "section_ru": "Поддержание карточек",
+   "text_ru": "Действующие процедуры пересматриваются не реже одного раза в сто восемьдесят дней. Ответственный за предметную область изучает отзывы коллег, изменения интерфейса и ссылки, ставшие непригодными. Редко просматриваемая карточка всё равно может быть нужна для редкой задачи; частоты просмотров недостаточно, чтобы решить вопрос о её снятии. Пересмотр должен проверить, что человек всё ещё может пройти шаги и получить описанный результат.",
+   "text_orig": "Les procédures en service sont revues au moins tous les cent quatre-vingts jours. Le responsable de domaine examine les retours des collègues, les changements d’interface et les liens devenus inutilisables. Une fiche peu consultée peut toujours être nécessaire pour une tâche rare; sa fréquence de consultation ne suffit pas à décider de son retrait. La revue doit vérifier qu’une personne peut encore suivre les étapes et obtenir le résultat décrit.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Вне круга вопросов помощника; в поиск не включается."
+  },
+  {
+   "fragment_id": "18-015",
+   "doc_no": 18,
+   "doc_id": "support-procedure-publishing",
+   "doc_version": "2026-09-11",
+   "source_path": "documents/Планирование/Procédures - publication copie.docx",
+   "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 15,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 15 (w:p, стиль Normal)",
+   "segment_sha": "bffaafdcc229",
+   "section": "Entretien des fiches",
+   "section_ru": "Поддержание карточек",
+   "text_ru": "К следующей встрече каждая предметная область принесёт пример исправленной ссылки и фрагмент, который вызвал трудности понимания. Отзывы обезличиваются. Knowledge Operations объединяет общие запросы на оформление, а авторы берут на себя исправления, относящиеся к их теме. В конце встречи у каждого действия есть ответственный и следующая точка контроля, чтобы отмеченная карточка не осталась без ответа.",
+   "text_orig": "Pour la prochaine réunion, chaque domaine apportera un exemple de lien corrigé et un passage qui a posé une difficulté de compréhension. Les retours sont anonymisés. Knowledge Operations regroupe les demandes de mise en forme communes, tandis que les auteurs reprennent les corrections propres à leur sujet. À la fin de la réunion, chaque action a un responsable et un prochain point de suivi pour éviter qu’une fiche signalée reste sans réponse.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Вне круга вопросов помощника; в поиск не включается."
+  }
+ ],
+ "_base": {
+  "no": 18,
+  "source_path": "documents/Планирование/Procédures - publication copie.docx",
+  "doc_id": "support-procedure-publishing",
+  "title": "Publication des procédures de support",
+  "title_ru": "Публикация процедур поддержки",
+  "lang": "fr",
+  "format": "docx",
+  "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+  "decision": {
+   "no": 18,
+   "path": "documents/Планирование/Procédures - publication copie.docx",
+   "doc_id": "support-procedure-publishing",
+   "title": "Publication des procédures de support",
+   "lang": "fr",
+   "owner": "Knowledge Operations",
+   "version": "2026-09-11",
+   "updated": "2026-09-11",
+   "doc_type": "internal_process",
+   "status": "exclude",
+   "rule": "R7",
+   "reason": "Внутренний порядок публикации справочных карточек; вне круга вопросов помощника. Оригинал «copie» в корпусе не найден.",
+   "access": "all",
+   "trust": "confirmed"
+  },
+  "fragments": [
+   {
+    "fragment_id": "18-001",
+    "doc_no": 18,
+    "doc_id": "support-procedure-publishing",
+    "doc_version": "2026-09-11",
+    "source_path": "documents/Планирование/Procédures - publication copie.docx",
+    "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "title",
+    "locator": {
+     "paragraph": 1,
+     "style": "Title"
+    },
+    "locator_text": "абзац 1 (w:p, стиль Title)",
+    "segment_sha": "4593973e04a2",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Публикация процедур поддержки",
+    "text_orig": "Publication des procédures de support",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "18-002",
+    "doc_no": 18,
+    "doc_id": "support-procedure-publishing",
+    "doc_version": "2026-09-11",
+    "source_path": "documents/Планирование/Procédures - publication copie.docx",
+    "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 2,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 2 (w:p, стиль Normal)",
+    "segment_sha": "8daccb046225",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Knowledge Operations согласовала этот порядок с авторами Support France 11 сентября 2026 года. Он применяется к справочным карточкам, подготовленным для коллег, отвечающих клиентам. Автор остаётся ответственным за точность своего предметного содержания; Knowledge Operations координирует вычитку, оформление и объявление о публикации. Цель — чтобы каждой карточкой мог пользоваться человек, не участвовавший в её написании.",
+    "text_orig": "Knowledge Operations a convenu de ce circuit avec les auteurs de Support France le 11 septembre 2026. Il s’applique aux fiches d’aide préparées pour les collègues qui répondent aux clients. L’auteur reste responsable de l’exactitude de son contenu métier; Knowledge Operations coordonne la relecture, la mise en forme et l’annonce de publication. L’objectif est que chaque fiche soit utilisable par une personne qui n’a pas participé à sa rédaction.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "18-003",
+    "doc_no": 18,
+    "doc_id": "support-procedure-publishing",
+    "doc_version": "2026-09-11",
+    "source_path": "documents/Планирование/Procédures - publication copie.docx",
+    "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 3,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 3 (w:p, стиль Normal)",
+    "segment_sha": "bfdf56ef02a3",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Перед началом автор описывает потребность, на которую отвечает карточка, и аудиторию, которая будет ею пользоваться. Он собирает названия команд, необходимые условия и ожидаемый результат процедуры. Карточка по повседневной задаче должна позволять читателю понять, когда начинать и как проверить завершение действия. Если охват включает несколько независимых задач, автор обсуждает это с ответственным за предметную область, прежде чем создавать длинный документ, который трудно поддерживать.",
+    "text_orig": "Avant de commencer, l’auteur décrit le besoin auquel la fiche répond et le public qui l’utilisera. Il rassemble les noms des commandes, les conditions nécessaires et le résultat attendu de la procédure. Une fiche sur une tâche courante doit permettre au lecteur de comprendre quand commencer et comment vérifier la fin de l’action. Si le périmètre couvre plusieurs tâches indépendantes, l’auteur en discute avec le responsable de domaine avant de produire un long document difficile à maintenir.",
+    "translation": "translated",
+    "translation_review": {
+     "checks": [
+      "negation"
+     ],
+     "decision": "accepted",
+     "note": "«indépendantes» → «независимых», «difficile à maintenir» → «трудно поддерживать»: префикс не- в «независимых» — не отрицание условия."
+    },
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "18-004",
+    "doc_no": 18,
+    "doc_id": "support-procedure-publishing",
+    "doc_version": "2026-09-11",
+    "source_path": "documents/Планирование/Procédures - publication copie.docx",
+    "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "heading",
+    "locator": {
+     "paragraph": 4,
+     "style": "Heading1"
+    },
+    "locator_text": "абзац 4 (w:p, стиль Heading1)",
+    "segment_sha": "0a1b3ca11a9d",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вычитка в предметной области",
+    "text_orig": "Relecture par le domaine",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "18-005",
+    "doc_no": 18,
+    "doc_id": "support-procedure-publishing",
+    "doc_version": "2026-09-11",
+    "source_path": "documents/Планирование/Procédures - publication copie.docx",
+    "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 5,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 5 (w:p, стиль Normal)",
+    "segment_sha": "c16a4f8bba3d",
+    "section": "Relecture par le domaine",
+    "section_ru": "Вычитка в предметной области",
+    "text_ru": "Автор отправляет предложение ответственному за соответствующую предметную область и отмечает места, требующие технической проверки. Проверяющий пробует процедуру в подходящем рабочем пространстве, проверяет названия команд и отмечает шаги, в которых не хватает предварительного условия. Он возвращает точные замечания: затронутый фрагмент, замеченная трудность и ожидаемый результат. Автор исправляет текст и подтверждает учёт замечаний, прежде чем передать документ в Knowledge Operations.",
+    "text_orig": "L’auteur envoie sa proposition au responsable du domaine concerné et signale les points qui demandent une vérification technique. Le relecteur essaie la procédure sur un espace de travail approprié, vérifie les noms de commandes et relève les étapes où un prérequis manque. Il renvoie des remarques précises: passage concerné, difficulté observée et résultat attendu. L’auteur corrige puis confirme la prise en compte des remarques avant de transmettre le document à Knowledge Operations.",
+    "translation": "translated",
+    "translation_review": {
+     "checks": [
+      "negation"
+     ],
+     "decision": "accepted",
+     "note": "«un prérequis manque» → «не хватает предварительного условия»."
+    },
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "18-006",
+    "doc_no": 18,
+    "doc_id": "support-procedure-publishing",
+    "doc_version": "2026-09-11",
+    "source_path": "documents/Планирование/Procédures - publication copie.docx",
+    "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 6,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 6 (w:p, стиль Normal)",
+    "segment_sha": "def7a2dcdc1a",
+    "section": "Relecture par le domaine",
+    "section_ru": "Вычитка в предметной области",
+    "text_ru": "Когда снимок экрана полезен, он сопровождает объяснение, но не заменяет его. Текст должен называть команды и уточнять видимый результат. Снимки обрезаются до нужной области и не содержат ни секретов, ни реальных данных клиента. Проверьте, что примеры имён файлов, диакритические знаки и специальные символы отображаются правильно. Переведённую процедуру вычитывает человек, способный проверить и термины продукта.",
+    "text_orig": "Lorsqu’une capture d’écran est utile, elle accompagne l’explication sans la remplacer. Le texte doit nommer les commandes et préciser le résultat visible. Les captures sont recadrées sur la zone nécessaire et ne contiennent ni secrets ni données réelles d’un client. Vérifier que les exemples de noms de fichiers, les accents et les caractères spéciaux s’affichent correctement. Une procédure traduite est relue par une personne capable de vérifier aussi les termes du produit.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "18-007",
+    "doc_no": 18,
+    "doc_id": "support-procedure-publishing",
+    "doc_version": "2026-09-11",
+    "source_path": "documents/Планирование/Procédures - publication copie.docx",
+    "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "heading",
+    "locator": {
+     "paragraph": 7,
+     "style": "Heading1"
+    },
+    "locator_text": "абзац 7 (w:p, стиль Heading1)",
+    "segment_sha": "5a6d54e54118",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Оформление и ссылки",
+    "text_orig": "Mise en forme et liens",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "18-008",
+    "doc_no": 18,
+    "doc_id": "support-procedure-publishing",
+    "doc_version": "2026-09-11",
+    "source_path": "documents/Планирование/Procédures - publication copie.docx",
+    "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 8,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 8 (w:p, стиль Normal)",
+    "segment_sha": "63498a5e6be8",
+    "section": "Mise en forme et liens",
+    "section_ru": "Оформление и ссылки",
+    "text_ru": "Knowledge Operations проверяет заголовок, уровни подзаголовков, читаемость списков и навигационные ссылки. Каждая ссылка открывается под подходящей учётной записью, чтобы подтвердить, что она ведёт к заявленному содержимому. Если адрес страницы изменился, исправьте ссылку в карточках, которые на неё ведут. Ссылка на общий поиск не заменяет ссылку на нужную страницу, когда читателю нужен конкретный шаг.",
+    "text_orig": "Knowledge Operations vérifie le titre, les niveaux de sous-titres, la lisibilité des listes et les liens de navigation. Chaque lien est ouvert avec le compte approprié pour confirmer qu’il mène au contenu annoncé. Si une page a changé d’adresse, corriger le lien dans les fiches qui y renvoient. Un lien vers une recherche générale ne remplace pas une référence à la page utile lorsque le lecteur a besoin d’une étape précise.",
+    "translation": "translated",
+    "translation_review": {
+     "checks": [
+      "conditions"
+     ],
+     "decision": "accepted",
+     "note": "«dans les fiches» — «в карточках» (место), а не срок «в течение»."
+    },
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "18-009",
+    "doc_no": 18,
+    "doc_id": "support-procedure-publishing",
+    "doc_version": "2026-09-11",
+    "source_path": "documents/Планирование/Procédures - publication copie.docx",
+    "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 9,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 9 (w:p, стиль Normal)",
+    "segment_sha": "090b89d58de7",
+    "section": "Mise en forme et liens",
+    "section_ru": "Оформление и ссылки",
+    "text_ru": "Таблицы должны сохранять заголовки и единицы измерения. Для длинной карточки проверьте чтение на экране обычного размера и разрывы страниц в версии для печати. Названия кнопок и сообщения об ошибках сверяются с интерфейсом. Если языковая правка может изменить смысл действия, Knowledge Operations возвращает фрагмент автору, а не решает самостоятельно о новой формулировке.",
+    "text_orig": "Les tableaux doivent conserver leurs en-têtes et leurs unités. Pour une fiche longue, tester la lecture sur un écran de taille ordinaire et vérifier les sauts de page de la version imprimable. Les noms de boutons et les messages d’erreur sont comparés à l’interface. En cas de correction de langue qui pourrait changer le sens d’une action, Knowledge Operations renvoie le passage à l’auteur plutôt que de décider seul de la nouvelle formulation.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "18-010",
+    "doc_no": 18,
+    "doc_id": "support-procedure-publishing",
+    "doc_version": "2026-09-11",
+    "source_path": "documents/Планирование/Procédures - publication copie.docx",
+    "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "heading",
+    "locator": {
+     "paragraph": 10,
+     "style": "Heading1"
+    },
+    "locator_text": "абзац 10 (w:p, стиль Heading1)",
+    "segment_sha": "e03b4b9c6973",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Публикация и объявление",
+    "text_orig": "Publication et annonce",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "18-011",
+    "doc_no": 18,
+    "doc_id": "support-procedure-publishing",
+    "doc_version": "2026-09-11",
+    "source_path": "documents/Планирование/Procédures - publication copie.docx",
+    "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 11,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 11 (w:p, стиль Normal)",
+    "segment_sha": "8be598371f85",
+    "section": "Publication et annonce",
+    "section_ru": "Публикация и объявление",
+    "text_ru": "После согласия автора и ответственного за предметную область Knowledge Operations публикует карточку в согласованном разделе. Сообщение-объявление указывает охваченную задачу и затронутых коллег, а затем даёт ссылку для доступа. Для изменения, которое меняет рабочую привычку, объявление кратко описывает действие, которое нужно принять. Очень разовую информацию можно представить на передаче смены, но опубликованная ссылка должна оставаться доступной для отсутствующих команд.",
+    "text_orig": "Après accord de l’auteur et du responsable de domaine, Knowledge Operations publie la fiche dans la rubrique convenue. Le message d’annonce indique la tâche couverte et les collègues concernés, puis fournit le lien d’accès. Pour une modification qui change une habitude de travail, l’annonce décrit brièvement l’action à adopter. Une information très ponctuelle peut être présentée lors de la relève, mais le lien publié doit rester disponible pour les équipes absentes.",
+    "translation": "translated",
+    "translation_review": {
+     "checks": [
+      "negation"
+     ],
+     "decision": "accepted",
+     "note": "«équipes absentes» → «отсутствующих команд»."
+    },
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "18-012",
+    "doc_no": 18,
+    "doc_id": "support-procedure-publishing",
+    "doc_version": "2026-09-11",
+    "source_path": "documents/Планирование/Procédures - publication copie.docx",
+    "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 12,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 12 (w:p, стиль Normal)",
+    "segment_sha": "98f852c83dac",
+    "section": "Publication et annonce",
+    "section_ru": "Публикация и объявление",
+    "text_ru": "После публикации автор проверяет документ, включая ссылки и вложения. Если проблема оформления мешает чтению, он сообщает о ней в Knowledge Operations для исправления. Если обнаружена ошибка содержания, ответственный за предметную область определяет фрагмент для исправления и коллег, которых нужно предупредить. Сообщение об исправлении конкретно объясняет, что изменилось, чтобы команды могли вернуться к затронутым запросам.",
+    "text_orig": "L’auteur vérifie le document après publication, y compris les liens et les pièces jointes. Si un problème de mise en page empêche la lecture, il le signale à Knowledge Operations pour correction. Si une erreur de contenu est découverte, le responsable de domaine détermine le passage à corriger et les collègues à prévenir. Le message de correction explique concrètement ce qui a changé afin que les équipes puissent reprendre les demandes concernées.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "18-013",
+    "doc_no": 18,
+    "doc_id": "support-procedure-publishing",
+    "doc_version": "2026-09-11",
+    "source_path": "documents/Планирование/Procédures - publication copie.docx",
+    "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "heading",
+    "locator": {
+     "paragraph": 13,
+     "style": "Heading1"
+    },
+    "locator_text": "абзац 13 (w:p, стиль Heading1)",
+    "segment_sha": "d13e636968d2",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Поддержание карточек",
+    "text_orig": "Entretien des fiches",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "18-014",
+    "doc_no": 18,
+    "doc_id": "support-procedure-publishing",
+    "doc_version": "2026-09-11",
+    "source_path": "documents/Планирование/Procédures - publication copie.docx",
+    "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 14,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 14 (w:p, стиль Normal)",
+    "segment_sha": "5bc8b3a6c0c5",
+    "section": "Entretien des fiches",
+    "section_ru": "Поддержание карточек",
+    "text_ru": "Действующие процедуры пересматриваются не реже одного раза в сто восемьдесят дней. Ответственный за предметную область изучает отзывы коллег, изменения интерфейса и ссылки, ставшие непригодными. Редко просматриваемая карточка всё равно может быть нужна для редкой задачи; частоты просмотров недостаточно, чтобы решить вопрос о её снятии. Пересмотр должен проверить, что человек всё ещё может пройти шаги и получить описанный результат.",
+    "text_orig": "Les procédures en service sont revues au moins tous les cent quatre-vingts jours. Le responsable de domaine examine les retours des collègues, les changements d’interface et les liens devenus inutilisables. Une fiche peu consultée peut toujours être nécessaire pour une tâche rare; sa fréquence de consultation ne suffit pas à décider de son retrait. La revue doit vérifier qu’une personne peut encore suivre les étapes et obtenir le résultat décrit.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "18-015",
+    "doc_no": 18,
+    "doc_id": "support-procedure-publishing",
+    "doc_version": "2026-09-11",
+    "source_path": "documents/Планирование/Procédures - publication copie.docx",
+    "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 15,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 15 (w:p, стиль Normal)",
+    "segment_sha": "bffaafdcc229",
+    "section": "Entretien des fiches",
+    "section_ru": "Поддержание карточек",
+    "text_ru": "К следующей встрече каждая предметная область принесёт пример исправленной ссылки и фрагмент, который вызвал трудности понимания. Отзывы обезличиваются. Knowledge Operations объединяет общие запросы на оформление, а авторы берут на себя исправления, относящиеся к их теме. В конце встречи у каждого действия есть ответственный и следующая точка контроля, чтобы отмеченная карточка не осталась без ответа.",
+    "text_orig": "Pour la prochaine réunion, chaque domaine apportera un exemple de lien corrigé et un passage qui a posé une difficulté de compréhension. Les retours sont anonymisés. Knowledge Operations regroupe les demandes de mise en forme communes, tandis que les auteurs reprennent les corrections propres à leur sujet. À la fin de la réunion, chaque action a un responsable et un prochain point de suivi pour éviter qu’une fiche signalée reste sans réponse.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   }
+  ]
+ }
+}

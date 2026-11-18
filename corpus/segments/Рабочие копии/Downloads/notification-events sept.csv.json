@@ -1,0 +1,1975 @@
+{
+ "source_path": "documents/Рабочие копии/Downloads/notification-events sept.csv",
+ "source_sha256": "f7c1f9ef5df46e4412b12370d8af3fda98f6bce39d5e0f3f2f0d49894001a907",
+ "segmenter": "segment-2",
+ "segments": [
+  {
+   "kind": "table_header",
+   "text": "Trigger | Channel or rule | Delay or explanation | Observed at | Member timezone | Outcome",
+   "sha": "144c9d107741",
+   "section": null,
+   "locator": {
+    "csv_row": 1
+   },
+   "cells": [
+    {
+     "col": 1,
+     "value": "Trigger"
+    },
+    {
+     "col": 2,
+     "value": "Channel or rule"
+    },
+    {
+     "col": 3,
+     "value": "Delay or explanation"
+    },
+    {
+     "col": 4,
+     "value": "Observed at"
+    },
+    {
+     "col": 5,
+     "value": "Member timezone"
+    },
+    {
+     "col": 6,
+     "value": "Outcome"
+    }
+   ],
+   "seg": 1
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: Mention; Channel or rule: rule; Delay or explanation: A direct mention creates an in-app notification immediately.",
+   "sha": "bf89410faf1e",
+   "section": null,
+   "locator": {
+    "csv_row": 2
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "Mention"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "rule"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "A direct mention creates an in-app notification immediately."
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 2
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: Email; Channel or rule: rule; Delay or explanation: Mention email is sent after a 5 minute delay if the item remains unread.",
+   "sha": "8276a512c861",
+   "section": null,
+   "locator": {
+    "csv_row": 3
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "Email"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "rule"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "Mention email is sent after a 5 minute delay if the item remains unread."
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 3
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: Digest; Channel or rule: rule; Delay or explanation: The daily digest is delivered at 08:00 in the member timezone.",
+   "sha": "d1f3aa3152ec",
+   "section": null,
+   "locator": {
+    "csv_row": 4
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "Digest"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "rule"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "The daily digest is delivered at 08:00 in the member timezone."
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 4
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: Quiet hours; Channel or rule: rule; Delay or explanation: Quiet hours suppress email and push between 22:00 and 08:00 local time.",
+   "sha": "ae7e1cd58075",
+   "section": null,
+   "locator": {
+    "csv_row": 5
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "Quiet hours"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "rule"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "Quiet hours suppress email and push between 22:00 and 08:00 local time."
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 5
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: Critical notices; Channel or rule: rule; Delay or explanation: Security sign-in alerts ignore quiet hours.",
+   "sha": "7a98b9ad32cd",
+   "section": null,
+   "locator": {
+    "csv_row": 6
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "Critical notices"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "rule"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "Security sign-in alerts ignore quiet hours."
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 6
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: Muted thread; Channel or rule: rule; Delay or explanation: A muted thread suppresses ordinary replies but still allows direct mentions.",
+   "sha": "17c0a73461d5",
+   "section": null,
+   "locator": {
+    "csv_row": 7
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "Muted thread"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "rule"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "A muted thread suppresses ordinary replies but still allows direct mentions."
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 7
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: Membership; Channel or rule: rule; Delay or explanation: Removed members receive no new workspace notifications.",
+   "sha": "75d3bda0b6d0",
+   "section": null,
+   "locator": {
+    "csv_row": 8
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "Membership"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "rule"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "Removed members receive no new workspace notifications."
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 8
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: Troubleshooting; Channel or rule: rule; Delay or explanation: Check user preferences, timezone and spam folder before escalating.",
+   "sha": "37491625827b",
+   "section": null,
+   "locator": {
+    "csv_row": 9
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "Troubleshooting"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "rule"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "Check user preferences, timezone and spam folder before escalating."
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 9
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: Evidence; Channel or rule: rule; Delay or explanation: Collect notification ID and delivery timestamp, never a mailbox password.",
+   "sha": "06f6f6dedea7",
+   "section": null,
+   "locator": {
+    "csv_row": 10
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "Evidence"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "rule"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "Collect notification ID and delivery timestamp, never a mailbox password."
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 10
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: direct mention; Channel or rule: in-app; Delay or explanation: immediate; Observed at: 2026-09-07 07:00 UTC; Member timezone: Europe/Berlin; Outcome: unread",
+   "sha": "7903d086ef6b",
+   "section": null,
+   "locator": {
+    "csv_row": 11
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "direct mention"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "in-app"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "immediate"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-07 07:00 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "Europe/Berlin"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "unread"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 11
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: direct mention; Channel or rule: email; Delay or explanation: 5 minutes; Observed at: 2026-09-07 07:07 UTC; Member timezone: Europe/Paris; Outcome: read before delay; email cancelled",
+   "sha": "15c08e8f5c47",
+   "section": null,
+   "locator": {
+    "csv_row": 12
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "direct mention"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "email"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "5 minutes"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-07 07:07 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "Europe/Paris"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "read before delay; email cancelled"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 12
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: thread reply; Channel or rule: email; Delay or explanation: suppressed; Observed at: 2026-09-07 07:14 UTC; Member timezone: America/Toronto; Outcome: muted thread",
+   "sha": "176b63894b11",
+   "section": null,
+   "locator": {
+    "csv_row": 13
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "thread reply"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "email"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "suppressed"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-07 07:14 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "America/Toronto"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "muted thread"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 13
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: security sign-in; Channel or rule: email; Delay or explanation: immediate; Observed at: 2026-09-07 07:21 UTC; Member timezone: Europe/Berlin; Outcome: quiet hours do not suppress security",
+   "sha": "027b667d20a0",
+   "section": null,
+   "locator": {
+    "csv_row": 14
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "security sign-in"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "email"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "immediate"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-07 07:21 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "Europe/Berlin"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "quiet hours do not suppress security"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 14
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: daily digest; Channel or rule: email; Delay or explanation: 08:00 local; Observed at: 2026-09-07 07:28 UTC; Member timezone: Europe/Paris; Outcome: member timezone",
+   "sha": "153074107d2b",
+   "section": null,
+   "locator": {
+    "csv_row": 15
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "daily digest"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "email"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "08:00 local"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-07 07:28 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "Europe/Paris"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "member timezone"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 15
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: removed member; Channel or rule: all; Delay or explanation: none; Observed at: 2026-09-07 07:35 UTC; Member timezone: America/Toronto; Outcome: membership ended",
+   "sha": "21cef86397f5",
+   "section": null,
+   "locator": {
+    "csv_row": 16
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "removed member"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "all"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "none"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-07 07:35 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "America/Toronto"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "membership ended"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 16
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: direct mention; Channel or rule: in-app; Delay or explanation: immediate; Observed at: 2026-09-08 07:00 UTC; Member timezone: Europe/Berlin; Outcome: unread",
+   "sha": "a30886684c70",
+   "section": null,
+   "locator": {
+    "csv_row": 17
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "direct mention"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "in-app"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "immediate"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-08 07:00 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "Europe/Berlin"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "unread"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 17
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: direct mention; Channel or rule: email; Delay or explanation: 5 minutes; Observed at: 2026-09-08 07:07 UTC; Member timezone: Europe/Paris; Outcome: read before delay; email cancelled",
+   "sha": "838c73f2559e",
+   "section": null,
+   "locator": {
+    "csv_row": 18
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "direct mention"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "email"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "5 minutes"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-08 07:07 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "Europe/Paris"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "read before delay; email cancelled"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 18
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: thread reply; Channel or rule: email; Delay or explanation: suppressed; Observed at: 2026-09-08 07:14 UTC; Member timezone: America/Toronto; Outcome: muted thread",
+   "sha": "769a92e0e38e",
+   "section": null,
+   "locator": {
+    "csv_row": 19
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "thread reply"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "email"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "suppressed"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-08 07:14 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "America/Toronto"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "muted thread"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 19
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: security sign-in; Channel or rule: email; Delay or explanation: immediate; Observed at: 2026-09-08 07:21 UTC; Member timezone: Europe/Berlin; Outcome: quiet hours do not suppress security",
+   "sha": "a5626c2e02eb",
+   "section": null,
+   "locator": {
+    "csv_row": 20
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "security sign-in"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "email"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "immediate"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-08 07:21 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "Europe/Berlin"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "quiet hours do not suppress security"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 20
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: daily digest; Channel or rule: email; Delay or explanation: 08:00 local; Observed at: 2026-09-08 07:28 UTC; Member timezone: Europe/Paris; Outcome: member timezone",
+   "sha": "5da7a0904542",
+   "section": null,
+   "locator": {
+    "csv_row": 21
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "daily digest"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "email"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "08:00 local"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-08 07:28 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "Europe/Paris"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "member timezone"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 21
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: removed member; Channel or rule: all; Delay or explanation: none; Observed at: 2026-09-08 07:35 UTC; Member timezone: America/Toronto; Outcome: membership ended",
+   "sha": "5d0e5253a84e",
+   "section": null,
+   "locator": {
+    "csv_row": 22
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "removed member"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "all"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "none"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-08 07:35 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "America/Toronto"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "membership ended"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 22
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: direct mention; Channel or rule: in-app; Delay or explanation: immediate; Observed at: 2026-09-09 07:00 UTC; Member timezone: Europe/Berlin; Outcome: unread",
+   "sha": "8aba59a310fa",
+   "section": null,
+   "locator": {
+    "csv_row": 23
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "direct mention"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "in-app"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "immediate"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-09 07:00 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "Europe/Berlin"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "unread"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 23
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: direct mention; Channel or rule: email; Delay or explanation: 5 minutes; Observed at: 2026-09-09 07:07 UTC; Member timezone: Europe/Paris; Outcome: read before delay; email cancelled",
+   "sha": "5ed223294ad2",
+   "section": null,
+   "locator": {
+    "csv_row": 24
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "direct mention"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "email"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "5 minutes"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-09 07:07 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "Europe/Paris"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "read before delay; email cancelled"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 24
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: thread reply; Channel or rule: email; Delay or explanation: suppressed; Observed at: 2026-09-09 07:14 UTC; Member timezone: America/Toronto; Outcome: muted thread",
+   "sha": "9915867f9619",
+   "section": null,
+   "locator": {
+    "csv_row": 25
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "thread reply"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "email"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "suppressed"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-09 07:14 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "America/Toronto"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "muted thread"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 25
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: security sign-in; Channel or rule: email; Delay or explanation: immediate; Observed at: 2026-09-09 07:21 UTC; Member timezone: Europe/Berlin; Outcome: quiet hours do not suppress security",
+   "sha": "c058f1ef1393",
+   "section": null,
+   "locator": {
+    "csv_row": 26
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "security sign-in"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "email"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "immediate"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-09 07:21 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "Europe/Berlin"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "quiet hours do not suppress security"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 26
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: daily digest; Channel or rule: email; Delay or explanation: 08:00 local; Observed at: 2026-09-09 07:28 UTC; Member timezone: Europe/Paris; Outcome: member timezone",
+   "sha": "61d0e5a2f5cd",
+   "section": null,
+   "locator": {
+    "csv_row": 27
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "daily digest"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "email"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "08:00 local"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-09 07:28 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "Europe/Paris"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "member timezone"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 27
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: removed member; Channel or rule: all; Delay or explanation: none; Observed at: 2026-09-09 07:35 UTC; Member timezone: America/Toronto; Outcome: membership ended",
+   "sha": "43406016318b",
+   "section": null,
+   "locator": {
+    "csv_row": 28
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "removed member"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "all"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "none"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-09 07:35 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "America/Toronto"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "membership ended"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 28
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: direct mention; Channel or rule: in-app; Delay or explanation: immediate; Observed at: 2026-09-10 07:00 UTC; Member timezone: Europe/Berlin; Outcome: unread",
+   "sha": "d9c84b55edca",
+   "section": null,
+   "locator": {
+    "csv_row": 29
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "direct mention"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "in-app"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "immediate"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-10 07:00 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "Europe/Berlin"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "unread"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 29
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: direct mention; Channel or rule: email; Delay or explanation: 5 minutes; Observed at: 2026-09-10 07:07 UTC; Member timezone: Europe/Paris; Outcome: read before delay; email cancelled",
+   "sha": "27042e602d4a",
+   "section": null,
+   "locator": {
+    "csv_row": 30
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "direct mention"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "email"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "5 minutes"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-10 07:07 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "Europe/Paris"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "read before delay; email cancelled"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 30
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: thread reply; Channel or rule: email; Delay or explanation: suppressed; Observed at: 2026-09-10 07:14 UTC; Member timezone: America/Toronto; Outcome: muted thread",
+   "sha": "d76158b181e1",
+   "section": null,
+   "locator": {
+    "csv_row": 31
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "thread reply"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "email"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "suppressed"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-10 07:14 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "America/Toronto"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "muted thread"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 31
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: security sign-in; Channel or rule: email; Delay or explanation: immediate; Observed at: 2026-09-10 07:21 UTC; Member timezone: Europe/Berlin; Outcome: quiet hours do not suppress security",
+   "sha": "ac82ff62c275",
+   "section": null,
+   "locator": {
+    "csv_row": 32
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "security sign-in"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "email"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "immediate"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-10 07:21 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "Europe/Berlin"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "quiet hours do not suppress security"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 32
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: daily digest; Channel or rule: email; Delay or explanation: 08:00 local; Observed at: 2026-09-10 07:28 UTC; Member timezone: Europe/Paris; Outcome: member timezone",
+   "sha": "81a516961f5c",
+   "section": null,
+   "locator": {
+    "csv_row": 33
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "daily digest"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "email"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "08:00 local"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-10 07:28 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "Europe/Paris"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "member timezone"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 33
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: removed member; Channel or rule: all; Delay or explanation: none; Observed at: 2026-09-10 07:35 UTC; Member timezone: America/Toronto; Outcome: membership ended",
+   "sha": "b276befaaf0d",
+   "section": null,
+   "locator": {
+    "csv_row": 34
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "removed member"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "all"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "none"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-10 07:35 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "America/Toronto"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "membership ended"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 34
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: direct mention; Channel or rule: in-app; Delay or explanation: immediate; Observed at: 2026-09-11 07:00 UTC; Member timezone: Europe/Berlin; Outcome: unread",
+   "sha": "0a3f80f59a6d",
+   "section": null,
+   "locator": {
+    "csv_row": 35
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "direct mention"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "in-app"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "immediate"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-11 07:00 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "Europe/Berlin"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "unread"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 35
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: direct mention; Channel or rule: email; Delay or explanation: 5 minutes; Observed at: 2026-09-11 07:07 UTC; Member timezone: Europe/Paris; Outcome: read before delay; email cancelled",
+   "sha": "8c1824e4b655",
+   "section": null,
+   "locator": {
+    "csv_row": 36
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "direct mention"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "email"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "5 minutes"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-11 07:07 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "Europe/Paris"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "read before delay; email cancelled"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 36
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: thread reply; Channel or rule: email; Delay or explanation: suppressed; Observed at: 2026-09-11 07:14 UTC; Member timezone: America/Toronto; Outcome: muted thread",
+   "sha": "3b3b09f5c53a",
+   "section": null,
+   "locator": {
+    "csv_row": 37
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "thread reply"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "email"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "suppressed"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-11 07:14 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "America/Toronto"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "muted thread"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 37
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: security sign-in; Channel or rule: email; Delay or explanation: immediate; Observed at: 2026-09-11 07:21 UTC; Member timezone: Europe/Berlin; Outcome: quiet hours do not suppress security",
+   "sha": "562279204a5e",
+   "section": null,
+   "locator": {
+    "csv_row": 38
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "security sign-in"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "email"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "immediate"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-11 07:21 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "Europe/Berlin"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "quiet hours do not suppress security"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 38
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: daily digest; Channel or rule: email; Delay or explanation: 08:00 local; Observed at: 2026-09-11 07:28 UTC; Member timezone: Europe/Paris; Outcome: member timezone",
+   "sha": "a430ee46bcbd",
+   "section": null,
+   "locator": {
+    "csv_row": 39
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "daily digest"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "email"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "08:00 local"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-11 07:28 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "Europe/Paris"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "member timezone"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 39
+  },
+  {
+   "kind": "record",
+   "text": "Trigger: removed member; Channel or rule: all; Delay or explanation: none; Observed at: 2026-09-11 07:35 UTC; Member timezone: America/Toronto; Outcome: membership ended",
+   "sha": "86d7a92ecdb2",
+   "section": null,
+   "locator": {
+    "csv_row": 40
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Trigger",
+     "value": "removed member"
+    },
+    {
+     "col": 2,
+     "header": "Channel or rule",
+     "value": "all"
+    },
+    {
+     "col": 3,
+     "header": "Delay or explanation",
+     "value": "none"
+    },
+    {
+     "col": 4,
+     "header": "Observed at",
+     "value": "2026-09-11 07:35 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Member timezone",
+     "value": "America/Toronto"
+    },
+    {
+     "col": 6,
+     "header": "Outcome",
+     "value": "membership ended"
+    }
+   ],
+   "context": {
+    "header": [
+     "Trigger",
+     "Channel or rule",
+     "Delay or explanation",
+     "Observed at",
+     "Member timezone",
+     "Outcome"
+    ],
+    "delimiter": ","
+   },
+   "seg": 40
+  }
+ ]
+}

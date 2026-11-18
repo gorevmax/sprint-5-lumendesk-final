@@ -1,0 +1,922 @@
+[
+  {
+    "source_path": "documents/Архив 2025/экспорт-карточек.txt",
+    "output": "corpus/extracted/Архив 2025/экспорт-карточек.txt.md",
+    "format": "txt",
+    "source_sha256": "fb3f9ff49ff3d6fe9bd7af703279c6398887f3a53da684291cdc7f5a55a05aa3",
+    "crlf_normalized": true
+  },
+  {
+    "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+    "output": "corpus/extracted/Выгрузки/Downloads/SAML cutover - September.md.md",
+    "format": "md",
+    "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+    "crlf_normalized": true
+  },
+  {
+    "source_path": "documents/Выгрузки/Downloads/Поиск - заметки 01 09.txt",
+    "output": "corpus/extracted/Выгрузки/Downloads/Поиск - заметки 01 09.txt.md",
+    "format": "txt",
+    "source_sha256": "8b6143d1f8710a11f5257ed33d97511c3aea19ff4de344dfb2caf1386b03e733",
+    "crlf_normalized": true
+  },
+  {
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "output": "corpus/extracted/Выгрузки/hosting regions export.csv.md",
+    "format": "csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "delimiter": ",",
+    "header": [
+      "Region or subject",
+      "Location or workspace",
+      "Plan",
+      "Created or rule",
+      "Operations note"
+    ],
+    "records": 37
+  },
+  {
+    "source_path": "documents/Выгрузки/September incident register.xlsx",
+    "output": "corpus/extracted/Выгрузки/September incident register.xlsx.md",
+    "format": "xlsx",
+    "source_sha256": "5f9c0edfdb1e6e84f19dbae37655ccf2858d06315233545ee345d839ccd3c163",
+    "sheets": [
+      {
+        "sheet": "September",
+        "title": "Customer-visible incident milestones",
+        "notes": [
+          "Infrastructure working register, September 2026. Observed durations describe impact; they are not a credit decision. Region scope must be checked before communicating with a customer."
+        ],
+        "header_row": 7,
+        "header": [
+          "Incident",
+          "Impact",
+          "Started UTC",
+          "Resolved UTC"
+        ],
+        "records": 18,
+        "formulas": 0,
+        "hidden": false
+      },
+      {
+        "sheet": "Updates",
+        "title": "Publication handover for confirmed incidents",
+        "notes": [],
+        "header_row": 5,
+        "header": [
+          "Incident",
+          "Milestone",
+          "UTC time",
+          "Audience note"
+        ],
+        "records": 28,
+        "formulas": 0,
+        "hidden": false
+      },
+      {
+        "sheet": "Reporting notes",
+        "title": "Rules for communicating the register",
+        "notes": [],
+        "header_row": 5,
+        "header": [
+          "Subject",
+          "Value",
+          "Unit",
+          "Interpretation"
+        ],
+        "records": 5,
+        "formulas": 0,
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "output": "corpus/extracted/Выгрузки/webhooks-reprises.csv.md",
+    "format": "csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "delimiter": ";",
+    "header": [
+      "Nature",
+      "Étape ou livraison",
+      "Minutes depuis envoi initial",
+      "Événement",
+      "HTTP",
+      "Observation"
+    ],
+    "records": 35
+  },
+  {
+    "source_path": "documents/Выгрузки/параметры-входа.csv",
+    "output": "corpus/extracted/Выгрузки/параметры-входа.csv.md",
+    "format": "csv",
+    "source_sha256": "2ed3d3c89e33a8ea6354df612fce64de73667eec0cd2c3a8a34468b6757f2ac7",
+    "delimiter": ";",
+    "header": [
+      "Параметр или операция",
+      "Значение или результат",
+      "Применение",
+      "Запись"
+    ],
+    "records": 33
+  },
+  {
+    "source_path": "documents/Клиентский сервис/Customer handover.docx",
+    "output": "corpus/extracted/Клиентский сервис/Customer handover.docx.md",
+    "format": "docx",
+    "source_sha256": "66ed56338ce2dbb916ebfaa2d836675c99aa73c82f9799d3584532cd35112b82",
+    "headings": [
+      "Required fields",
+      "Supporting notes",
+      "What the receiving team needs to understand",
+      "Progress and evidence",
+      "Example reviewed in the onboarding meeting",
+      "Incoming text retained with the request",
+      "Keeping the record useful after transfer"
+    ]
+  },
+  {
+    "source_path": "documents/Клиентский сервис/Privacy/Обращения о данных.pdf",
+    "output": "corpus/extracted/Клиентский сервис/Privacy/Обращения о данных.pdf.md",
+    "format": "pdf",
+    "source_sha256": "1dbcdf2c96b843fbca9156d48cf2cab3fa1581adde0428ac12da92278aaef86d",
+    "pages": 2,
+    "dropped_page_numbers": [
+      "1",
+      "2"
+    ],
+    "pdf_title": "Обработка запросов о персональных данных",
+    "headings": [
+      "Регистрация",
+      "Исполнение",
+      "Первый ответ заявителю",
+      "Разбор двух обращений на планёрке",
+      "Как передать и закрыть"
+    ]
+  },
+  {
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "output": "corpus/extracted/Клиентский сервис/response targets final.xlsx.md",
+    "format": "xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "sheets": [
+      {
+        "sheet": "Targets",
+        "title": "First human response",
+        "notes": [
+          "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time."
+        ],
+        "header_row": 7,
+        "header": [
+          "Case",
+          "Target",
+          "Unit",
+          "When it applies"
+        ],
+        "records": 10,
+        "formulas": 0,
+        "hidden": false
+      },
+      {
+        "sheet": "Queue review",
+        "title": "September queue samples",
+        "notes": [],
+        "header_row": 5,
+        "header": [
+          "Received UTC",
+          "Plan",
+          "Priority",
+          "Complete context",
+          "Owner action",
+          "Observation"
+        ],
+        "records": 16,
+        "formulas": 0,
+        "hidden": false
+      },
+      {
+        "sheet": "Shift discussion",
+        "title": "Questions from the rota meeting",
+        "notes": [],
+        "header_row": 5,
+        "header": [
+          "Topic",
+          "Agreed interpretation"
+        ],
+        "records": 6,
+        "formulas": 0,
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "source_path": "documents/Клиентский сервис/Team service credits.docx",
+    "output": "corpus/extracted/Клиентский сервис/Team service credits.docx.md",
+    "format": "docx",
+    "source_sha256": "091f85550fa9c189884d324dfcc1e1824229c090593ea8a29f3ceea5dd549a18",
+    "headings": [
+      "Eligibility",
+      "Settlement",
+      "Building a review that another shift can continue",
+      "Calculating an eligible claim",
+      "Cases discussed at the September handover",
+      "Confirming the outcome"
+    ]
+  },
+  {
+    "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+    "output": "corpus/extracted/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md.md",
+    "format": "md",
+    "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+    "crlf_normalized": true
+  },
+  {
+    "source_path": "documents/Клиентский сервис/Корзина и восстановление.md",
+    "output": "corpus/extracted/Клиентский сервис/Корзина и восстановление.md.md",
+    "format": "md",
+    "source_sha256": "82f502144cfaf2925f8ebd9dfe4fc04e056dccf07851b95c485e2bac81b8663e",
+    "crlf_normalized": true
+  },
+  {
+    "source_path": "documents/Клиентский сервис/Письма/Пароль, письмо не пришло.txt",
+    "output": "corpus/extracted/Клиентский сервис/Письма/Пароль, письмо не пришло.txt.md",
+    "format": "txt",
+    "source_sha256": "f311aab56db0e01248bb0d0d787419e9592d06f47533183eb1c0dc91a183eef8",
+    "crlf_normalized": true
+  },
+  {
+    "source_path": "documents/Клиентский сервис/Сбой сервиса - рассылка.pdf",
+    "output": "corpus/extracted/Клиентский сервис/Сбой сервиса - рассылка.pdf.md",
+    "format": "pdf",
+    "source_sha256": "a8ef6769c4fee77c1afbf0e60e93b26ab9cb11f062d4e3e5ab17c99e8a7337ab",
+    "pages": 2,
+    "dropped_page_numbers": [
+      "1",
+      "2"
+    ],
+    "pdf_title": "Коммуникация при недоступности сервиса",
+    "headings": [
+      "Первое сообщение",
+      "Обновления",
+      "Что считать подтверждённым",
+      "Сообщения во время расследования",
+      "Пример передачи между сменами"
+    ]
+  },
+  {
+    "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+    "output": "corpus/extracted/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md.md",
+    "format": "md",
+    "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+    "crlf_normalized": true
+  },
+  {
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "output": "corpus/extracted/Клиентский сервис/хранение - сверка сентября.csv.md",
+    "format": "csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "delimiter": ";",
+    "header": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+    ],
+    "records": 26
+  },
+  {
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "output": "corpus/extracted/Планирование/assistant-hypotheses.csv.md",
+    "format": "csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "delimiter": ";",
+    "header": [
+      "Partie du travail",
+      "Sujet",
+      "Hypothèse ou commentaire",
+      "À discuter"
+    ],
+    "records": 21
+  },
+  {
+    "source_path": "documents/Планирование/Procédures - publication copie.docx",
+    "output": "corpus/extracted/Планирование/Procédures - publication copie.docx.md",
+    "format": "docx",
+    "source_sha256": "803e6b8fe92934744348594d726be834bb84fceb25d8da634b25e20f43aaf0f4",
+    "headings": [
+      "Relecture par le domaine",
+      "Mise en forme et liens",
+      "Publication et annonce",
+      "Entretien des fiches"
+    ]
+  },
+  {
+    "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+    "output": "corpus/extracted/Планирование/Team Flex — новый вариант.txt.md",
+    "format": "txt",
+    "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+    "crlf_normalized": true
+  },
+  {
+    "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+    "output": "corpus/extracted/Планирование/Клиенты/Гости — новый порядок.md.md",
+    "format": "md",
+    "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+    "crlf_normalized": true
+  },
+  {
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "output": "corpus/extracted/Планирование/Тарифы новый.xlsx.md",
+    "format": "xlsx",
+    "source_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "sheets": [
+      {
+        "sheet": "Возможности",
+        "title": "Что доступно в тарифах",
+        "notes": [
+          "Копия для продуктовой встречи от 9 сентября 2026 года. Коммерческие возможности ниже подтверждены с 1 сентября; индивидуальное дополнение к договору проверяют отдельно по contract ID."
+        ],
+        "header_row": 7,
+        "header": [
+          "Тариф или предмет",
+          "Возможность",
+          "Единица",
+          "Граница"
+        ],
+        "records": 9,
+        "formulas": 0,
+        "hidden": false
+      },
+      {
+        "sheet": "Разбор запросов",
+        "title": "Вопросы для команды внедрения",
+        "notes": [],
+        "header_row": 5,
+        "header": [
+          "Организация",
+          "Текущий тариф",
+          "Запрос",
+          "Результат разбора"
+        ],
+        "records": 27,
+        "formulas": 0,
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "output": "corpus/extracted/Платформа и интеграции/API/ответы api новый.csv.md",
+    "format": "csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "delimiter": ",",
+    "header": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+    ],
+    "records": 41
+  },
+  {
+    "source_path": "documents/Платформа и интеграции/Browser notes final.txt",
+    "output": "corpus/extracted/Платформа и интеграции/Browser notes final.txt.md",
+    "format": "txt",
+    "source_sha256": "607ae0541273f5fe39bc593ff37aebdd4780bd67b8fb878f04c49c1637f03141",
+    "crlf_normalized": true
+  },
+  {
+    "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+    "output": "corpus/extracted/Платформа и интеграции/Marketplace/Approval and removal - копия.md.md",
+    "format": "md",
+    "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+    "crlf_normalized": true
+  },
+  {
+    "source_path": "documents/Платформа и интеграции/marketplace capabilities.xlsx",
+    "output": "corpus/extracted/Платформа и интеграции/marketplace capabilities.xlsx.md",
+    "format": "xlsx",
+    "source_sha256": "bfe2848e167218e3cb65533c3313f17bf2dccbcab02a748e82fd04ad1f85a247",
+    "sheets": [
+      {
+        "sheet": "Capabilities",
+        "title": "Marketplace integration capabilities",
+        "notes": [
+          "Integrations reviewed this catalogue for the September release. Customer-hosted middleware remains the customer responsibility. A link never grants access to a private resource."
+        ],
+        "header_row": 7,
+        "header": [
+          "Integration or subject",
+          "Capability",
+          "Availability",
+          "Boundary"
+        ],
+        "records": 9,
+        "formulas": 0,
+        "hidden": false
+      },
+      {
+        "sheet": "Vendor checks",
+        "title": "Connector review observations",
+        "notes": [],
+        "header_row": 5,
+        "header": [
+          "Connector",
+          "Check",
+          "Account condition",
+          "Result or follow-up"
+        ],
+        "records": 30,
+        "formulas": 0,
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "source_path": "documents/Платформа и интеграции/SAML incident handling.docx",
+    "output": "corpus/extracted/Платформа и интеграции/SAML incident handling.docx.md",
+    "format": "docx",
+    "source_sha256": "f9db7727c20305a90dc68f28f2fc889f67075b8420ebb8aad31ff0510f0db054",
+    "headings": [
+      "Trigger and route",
+      "Evidence and recovery",
+      "Establish the impact before changing settings",
+      "Certificate and clock checks",
+      "Evidence that is safe to share",
+      "Walkthrough from a certificate-change incident",
+      "Close and hand over"
+    ]
+  },
+  {
+    "source_path": "documents/Платформа и интеграции/Выгрузка карточек.md",
+    "output": "corpus/extracted/Платформа и интеграции/Выгрузка карточек.md.md",
+    "format": "md",
+    "source_sha256": "0968041b5df1f1ef741fe6e20eeeba82feff8c6aa16ce8e80ff971b6e00c2c95",
+    "crlf_normalized": true
+  },
+  {
+    "source_path": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+    "output": "corpus/extracted/Платформа и интеграции/Лимиты файлов.xlsx.md",
+    "format": "xlsx",
+    "source_sha256": "737b259e9b39a9312331ee1b0d9a9e412d77098276b5ef63f17ab9ff829febac",
+    "sheets": [
+      {
+        "sheet": "Тарифы",
+        "title": "Размер одного вложения",
+        "notes": [
+          "Workspace Platform подтвердил эти значения 1 сентября 2026 года. Сначала уточните тариф рабочего пространства. Размер хранилища и размер одного файла — разные ограничения."
+        ],
+        "header_row": 7,
+        "header": [
+          "Тариф",
+          "Предел файла",
+          "Единица",
+          "Применение"
+        ],
+        "records": 10,
+        "formulas": 0,
+        "hidden": false
+      },
+      {
+        "sheet": "Загрузки",
+        "title": "Проверка обращений за сентябрь",
+        "notes": [
+          "Журнал безопасных примеров команды поддержки. Значение в байтах рассчитывается из размера в MiB; это размер отдельного файла."
+        ],
+        "header_row": 7,
+        "header": [
+          "Файл",
+          "Тариф",
+          "Размер MiB",
+          "Размер байт",
+          "Результат"
+        ],
+        "records": 36,
+        "formulas": 36,
+        "hidden": false
+      },
+      {
+        "sheet": "Обсуждение",
+        "title": "Вопросы из обращений",
+        "notes": [],
+        "header_row": 5,
+        "header": [
+          "Ситуация",
+          "Что выяснили",
+          "Следующее действие"
+        ],
+        "records": 6,
+        "formulas": 0,
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "source_path": "documents/Платформа и интеграции/Передача владельца копия.docx",
+    "output": "corpus/extracted/Платформа и интеграции/Передача владельца копия.docx.md",
+    "format": "docx",
+    "source_sha256": "dd866b868a25fe5d3027c22c2490491f1880cd77a36c9aa9afccd330b39fdb68",
+    "headings": [
+      "До передачи",
+      "После передачи",
+      "Подготовить участников",
+      "Что меняется после принятия",
+      "Проверка на примере проекта",
+      "Если передача не состоялась"
+    ]
+  },
+  {
+    "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+    "output": "corpus/extracted/Платформа и интеграции/Ротация ключей.md.md",
+    "format": "md",
+    "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+    "crlf_normalized": true
+  },
+  {
+    "source_path": "documents/Рабочие копии/Downloads/Export security final.pdf",
+    "output": "corpus/extracted/Рабочие копии/Downloads/Export security final.pdf.md",
+    "format": "pdf",
+    "source_sha256": "fe510a9819443c2c597b87c00d9cd893431b018eb6418596782173a1dc4ba0e0",
+    "pages": 2,
+    "dropped_page_numbers": [
+      "1",
+      "2"
+    ],
+    "pdf_title": "Administrative export security checks",
+    "headings": [
+      "Preparation",
+      "Delivery",
+      "Scoping before generation",
+      "Handling the delivered archive",
+      "Notes from the operations review"
+    ]
+  },
+  {
+    "source_path": "documents/Рабочие копии/Downloads/notification-events sept.csv",
+    "output": "corpus/extracted/Рабочие копии/Downloads/notification-events sept.csv.md",
+    "format": "csv",
+    "source_sha256": "f7c1f9ef5df46e4412b12370d8af3fda98f6bce39d5e0f3f2f0d49894001a907",
+    "delimiter": ",",
+    "header": [
+      "Trigger",
+      "Channel or rule",
+      "Delay or explanation",
+      "Observed at",
+      "Member timezone",
+      "Outcome"
+    ],
+    "records": 39
+  },
+  {
+    "source_path": "documents/Рабочие копии/Downloads/Домен финальный.docx",
+    "output": "corpus/extracted/Рабочие копии/Downloads/Домен финальный.docx.md",
+    "format": "docx",
+    "source_sha256": "7331f6d1f9c357a2823f8cf4265cea4911e203261f0f129f83f0128ba9fa5c9b",
+    "headings": [
+      "Проверка",
+      "Политика",
+      "Подготовить запись",
+      "Пример обсуждения с администратором",
+      "После подтверждения"
+    ]
+  },
+  {
+    "source_path": "documents/Рабочие копии/Notifications final.md",
+    "output": "corpus/extracted/Рабочие копии/Notifications final.md.md",
+    "format": "md",
+    "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+    "crlf_normalized": true
+  },
+  {
+    "source_path": "documents/Рабочие копии/recovery-notes.txt",
+    "output": "corpus/extracted/Рабочие копии/recovery-notes.txt.md",
+    "format": "txt",
+    "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+    "crlf_normalized": true
+  },
+  {
+    "source_path": "documents/Рабочие копии/Relais français 2026-09.txt",
+    "output": "corpus/extracted/Рабочие копии/Relais français 2026-09.txt.md",
+    "format": "txt",
+    "source_sha256": "624aaec9748354cbe53b3f8b7c6727d75d1a7d3535e30c56b1946e448ee3a593",
+    "crlf_normalized": true
+  },
+  {
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "output": "corpus/extracted/Рабочие копии/квоты для презентации.csv.md",
+    "format": "csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "delimiter": ";",
+    "header": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+    ],
+    "records": 36
+  },
+  {
+    "source_path": "documents/Рабочие копии/Миграция/Приёмка - 18 сентября.xlsx",
+    "output": "corpus/extracted/Рабочие копии/Миграция/Приёмка - 18 сентября.xlsx.md",
+    "format": "xlsx",
+    "source_sha256": "973e36bed935644ace1ed0502df9a974ddfcf7769c47ba41b72999e789456ba0",
+    "sheets": [
+      {
+        "sheet": "Приёмка",
+        "title": "Перенос данных — рабочий лист",
+        "notes": [
+          "Результат сверки от 18 сентября 2026 года. Владелец миграции подписывает приёмку до переключения команды. Непроверенный пункт остаётся открытым, даже если основной импорт завершён."
+        ],
+        "header_row": 7,
+        "header": [
+          "Проверка",
+          "Критерий",
+          "Единица",
+          "Пояснение"
+        ],
+        "records": 9,
+        "formulas": 0,
+        "hidden": false
+      },
+      {
+        "sheet": "Вложения по разделам",
+        "title": "Сверка доступных исходных файлов",
+        "notes": [],
+        "header_row": 5,
+        "header": [
+          "Раздел",
+          "Доступно в источнике",
+          "Открылись после переноса",
+          "Не открылись",
+          "Пояснение"
+        ],
+        "records": 36,
+        "formulas": 0,
+        "hidden": false
+      },
+      {
+        "sheet": "Передача",
+        "title": "Люди и проверки переключения",
+        "notes": [],
+        "header_row": 5,
+        "header": [
+          "Участник",
+          "Роль проверки",
+          "Результат",
+          "Дальше"
+        ],
+        "records": 7,
+        "formulas": 0,
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+    "output": "corpus/extracted/Рабочие копии/Памятка ротации API.pdf.md",
+    "format": "pdf",
+    "source_sha256": "8cc6697a43b1a073945e9f318e100f57dfefa7aa34e88237058bca8c95be287c",
+    "pages": 2,
+    "dropped_page_numbers": [
+      "1",
+      "2"
+    ],
+    "pdf_title": "Ротация ключей API",
+    "headings": [
+      "Подготовить смену",
+      "Проверить до отзыва",
+      "Когда разговор становится инцидентом"
+    ]
+  },
+  {
+    "source_path": "documents/Финансы/Contrats France/Résidence Paris.pdf",
+    "output": "corpus/extracted/Финансы/Contrats France/Résidence Paris.pdf.md",
+    "format": "pdf",
+    "source_sha256": "973b37ca7f5ca41177bac237c21c64ded6f76f0a6589d24933ff7c52ae4a9c7e",
+    "pages": 2,
+    "dropped_page_numbers": [
+      "1",
+      "2"
+    ],
+    "pdf_title": "Résidence des données pour les contrats français",
+    "headings": [
+      "Stockage",
+      "Exploitation",
+      "Avant la création du workspace",
+      "Organiser une migration",
+      "Vérifier et confirmer"
+    ]
+  },
+  {
+    "source_path": "documents/Финансы/Invoice correction - mail copy.txt",
+    "output": "corpus/extracted/Финансы/Invoice correction - mail copy.txt.md",
+    "format": "txt",
+    "source_sha256": "c7776205e6d3ed6a009c3dac22ce118ee6cf4607b98ce335b721fa624af31170",
+    "crlf_normalized": true
+  },
+  {
+    "source_path": "documents/Финансы/Team service credits.pdf",
+    "output": "corpus/extracted/Финансы/Team service credits.pdf.md",
+    "format": "pdf",
+    "source_sha256": "ae701dbff1b426c42862300bff1a6fc190ed4a316b732347c48580ac66627dc0",
+    "pages": 2,
+    "dropped_page_numbers": [
+      "1",
+      "2"
+    ],
+    "pdf_title": "Team service credit schedule",
+    "headings": [
+      "Eligibility",
+      "Settlement",
+      "Preparing the claim file",
+      "Worked review notes",
+      "Settlement and communication"
+    ]
+  },
+  {
+    "source_path": "documents/Финансы/Для руководителей/Аудит сентябрь.xlsx",
+    "output": "corpus/extracted/Финансы/Для руководителей/Аудит сентябрь.xlsx.md",
+    "format": "xlsx",
+    "source_sha256": "81a264b7e023948e12692cb4460d00f5d9844b9fd7584b0bd2fe8c72108b9d9c",
+    "sheets": [
+      {
+        "sheet": "Обращение",
+        "title": "Проверка административных событий",
+        "notes": [
+          "Только руководителям поддержки. Security Operations передала эту копию для разбора сентябрьских запросов. Журнал Enterprise не выдают специалистам первой линии. Основание доступа фиксируют до просмотра."
+        ],
+        "header_row": 7,
+        "header": [
+          "Предмет",
+          "Описание",
+          "Вид",
+          "Условие"
+        ],
+        "records": 10,
+        "formulas": 0,
+        "hidden": false
+      },
+      {
+        "sheet": "События сентября",
+        "title": "Выборка для внутренней сверки",
+        "notes": [
+          "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations."
+        ],
+        "header_row": 7,
+        "header": [
+          "Время UTC",
+          "Workspace",
+          "Событие",
+          "Actor",
+          "Контекст"
+        ],
+        "records": 35,
+        "formulas": 0,
+        "hidden": false
+      },
+      {
+        "sheet": "Основания",
+        "title": "Вопросы для согласования доступа",
+        "notes": [],
+        "header_row": 5,
+        "header": [
+          "Запрос",
+          "Диапазон",
+          "Почему нужен",
+          "Решение смены"
+        ],
+        "records": 5,
+        "formulas": 0,
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "output": "corpus/extracted/Финансы/Для руководителей/Возвраты оплаты.docx.md",
+    "format": "docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "headings": [
+      "Допуск",
+      "Согласование",
+      "Подготовка карточки руководителем",
+      "Сумма и согласующий",
+      "Передача в платёжную команду"
+    ]
+  },
+  {
+    "source_path": "documents/Франция/Accessibilité septembre.pdf",
+    "output": "corpus/extracted/Франция/Accessibilité septembre.pdf.md",
+    "format": "pdf",
+    "source_sha256": "d37f1ba02744e914a59a352e70ad1583816021e447661f2cb2fad304ff9a6635",
+    "pages": 2,
+    "dropped_page_numbers": [
+      "1",
+      "2"
+    ],
+    "pdf_title": "Accompagnement des besoins d’accessibilité",
+    "headings": [
+      "Canaux",
+      "Traitement",
+      "Préparer des instructions utilisables",
+      "Conduire l’échange",
+      "Retour de la revue des dossiers"
+    ]
+  },
+  {
+    "source_path": "documents/Франция/Assistant abonnement.xlsx",
+    "output": "corpus/extracted/Франция/Assistant abonnement.xlsx.md",
+    "format": "xlsx",
+    "source_sha256": "a77d2d9dbdd1a09accbd0d6003ae19454ae15edc338b8730f732522f76945747",
+    "sheets": [
+      {
+        "sheet": "Abonnement",
+        "title": "Messages de l’assistant",
+        "notes": [
+          "Barème publié par Assistant Product pour les abonnements LumenDesk, applicable depuis le 1er septembre 2026. Ces quotas sont par workspace et par mois, et non par utilisateur."
+        ],
+        "header_row": 7,
+        "header": [
+          "Offre ou sujet",
+          "Valeur",
+          "Unité",
+          "Condition"
+        ],
+        "records": 9,
+        "formulas": 0,
+        "hidden": false
+      },
+      {
+        "sheet": "Exemples de comptage",
+        "title": "Contrôle des demandes de septembre",
+        "notes": [],
+        "header_row": 5,
+        "header": [
+          "Date UTC",
+          "Workspace",
+          "Demande",
+          "Réponse du service",
+          "Messages comptés"
+        ],
+        "records": 30,
+        "formulas": 0,
+        "hidden": false
+      },
+      {
+        "sheet": "Questions clients",
+        "title": "Réponses validées lors de la revue",
+        "notes": [],
+        "header_row": 5,
+        "header": [
+          "Question",
+          "Réponse"
+        ],
+        "records": 7,
+        "formulas": 0,
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "source_path": "documents/Франция/Atelier équipe septembre.md",
+    "output": "corpus/extracted/Франция/Atelier équipe septembre.md.md",
+    "format": "md",
+    "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+    "crlf_normalized": true
+  },
+  {
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "output": "corpus/extracted/Франция/organisation/Calendrier support 2026.docx.md",
+    "format": "docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "headings": [
+      "Jours et horaires",
+      "Coordination",
+      "Organiser le report",
+      "Ce qui reste ouvert",
+      "Exemples de la réunion de planning"
+    ]
+  },
+  {
+    "source_path": "documents/Франция/Rappels et jours fériés.pdf",
+    "output": "corpus/extracted/Франция/Rappels et jours fériés.pdf.md",
+    "format": "pdf",
+    "source_sha256": "4c0eb6beb4f2f85ee234682e72d84094b3addfdce064e99939a2c2b6aa9ca29c",
+    "pages": 2,
+    "dropped_page_numbers": [
+      "1",
+      "2"
+    ],
+    "pdf_title": "Rappels téléphoniques en France",
+    "headings": [
+      "Disponibilité",
+      "Préparation",
+      "Préparer un rendez-vous ordinaire",
+      "Le cas du 14 juillet",
+      "Pendant et après l’appel"
+    ]
+  }
+]

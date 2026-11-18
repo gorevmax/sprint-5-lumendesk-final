@@ -1,0 +1,990 @@
+{
+ "no": 16,
+ "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+ "doc_id": "incident-priority",
+ "title": "Разговор на передаче смены: почему это P1",
+ "title_ru": "Разговор на передаче смены: почему это P1",
+ "lang": "ru",
+ "format": "md",
+ "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+ "decision": {
+  "no": 16,
+  "path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+  "doc_id": "incident-priority",
+  "title": "Разговор на передаче смены: почему это P1",
+  "lang": "ru",
+  "owner": "Support Operations",
+  "version": "2026-09-01",
+  "updated": "2026-09-01",
+  "doc_type": "rule",
+  "status": "include",
+  "rule": "R1",
+  "reason": "Протокол встречи Support Operations 1.09.2026 о назначении приоритета.",
+  "access": "all",
+  "trust": "confirmed",
+  "related": [
+   11,
+   15,
+   36
+  ]
+ },
+ "fragments": [
+  {
+   "fragment_id": "16-001",
+   "doc_no": 16,
+   "doc_id": "incident-priority",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+   "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "title",
+   "locator": {
+    "lines": [
+     1,
+     1
+    ]
+   },
+   "locator_text": "строка 1",
+   "segment_sha": "0f016fc7d747",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "# Разговор на передаче смены: почему это P1",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "16-002",
+   "doc_no": 16,
+   "doc_id": "incident-priority",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+   "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     3,
+     3
+    ]
+   },
+   "locator_text": "строка 3",
+   "segment_sha": "06571a187bdf",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "На встрече Support Operations 1 сентября 2026 года разбирали, как мы назначаем срочность обращения об инциденте. Ниже сохранены выводы и характерные вопросы смены. Основная договорённость: приоритет отражает влияние на работу клиента. Тон письма, должность отправителя и количество восклицательных знаков не описывают это влияние. До назначения приоритета выясняем наличие обходного пути и число затронутых workspace. Иначе две смены будут оценивать одну ситуацию по разным впечатлениям от переписки.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "16-003",
+   "doc_no": 16,
+   "doc_id": "incident-priority",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+   "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     5,
+     5
+    ]
+   },
+   "locator_text": "строка 5",
+   "segment_sha": "29c6a12cda51",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "«Клиент пишет, что всё остановилось. Сразу P1?» Сначала выясняем, что именно остановилось и для кого. P1 — полная недоступность рабочего процесса без обходного пути для всех участников workspace. Вопрос о том, могут ли остальные участники продолжать работу, здесь существенен. Если мы его не задали, в передаче остаётся эмоциональная формулировка клиента, но не картина влияния. При этом не стоит заставлять человека повторять длинный рассказ: достаточно направить уточнение на рабочий процесс, участников и наличие способа продолжить работу.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "16-004",
+   "doc_no": 16,
+   "doc_id": "incident-priority",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+   "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     7,
+     7
+    ]
+   },
+   "locator_text": "строка 7",
+   "segment_sha": "0dd6b8200021",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "«А если главная функция сломана, но команда делает то же самое другим способом?» Это соответствует P2: критичная функция нарушена, но временный обходной путь доступен. Обходной путь нужно описать так, чтобы следующая смена понимала, что именно клиент может сделать. Само слово «есть» мало помогает. Но мы не должны придумывать удобство такого пути или считать любой теоретический совет подтверждением его существования. Важна возможность продолжить работу в конкретной ситуации, которую обсуждаем с клиентом.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "16-005",
+   "doc_no": 16,
+   "doc_id": "incident-priority",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+   "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     9,
+     9
+    ]
+   },
+   "locator_text": "строка 9",
+   "segment_sha": "08572662f78b",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "P3 применяем к проблеме отдельного участника, которая не останавливает команду. Такая проблема может быть неприятной и требовать внимания; её определение просто описывает иной масштаб влияния. P4 — вопрос настройки, улучшения или пояснения интерфейса. Если запрос начинался как «кнопка пропала», это ещё не позволяет выбрать между уровнями. Кнопка может быть частью остановившегося рабочего процесса, индивидуальной проблемы или вопроса о настройке. Мы классифицируем результат для клиента, а не знакомые слова из названия обращения.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "16-006",
+   "doc_no": 16,
+   "doc_id": "incident-priority",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+   "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     11,
+     11
+    ]
+   },
+   "locator_text": "строка 11",
+   "segment_sha": "b3b556794409",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "## Что должно остаться в истории",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "16-007",
+   "doc_no": 16,
+   "doc_id": "incident-priority",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+   "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     13,
+     13
+    ]
+   },
+   "locator_text": "строка 13",
+   "segment_sha": "9c8423f3960a",
+   "section": "Что должно остаться в истории",
+   "section_ru": "Что должно остаться в истории",
+   "text_ru": "Зафиксируйте workspace ID, время UTC, регион, число затронутых участников и request ID. Число workspace и число участников — разные сведения, не подменяйте одно другим. Когда клиент говорит «это у всех», уточните, относится ли это к одному рабочему пространству, нескольким командам или людям, с которыми он успел поговорить. Нужна честная граница известного, а не наиболее широкая трактовка. Следующий специалист должен видеть, какие сведения подтверждены и какой вопрос ещё остался открытым.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "16-008",
+   "doc_no": 16,
+   "doc_id": "incident-priority",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+   "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     15,
+     15
+    ]
+   },
+   "locator_text": "строка 15",
+   "segment_sha": "b6e3ba06878d",
+   "section": "Что должно остаться в истории",
+   "section_ru": "Что должно остаться в истории",
+   "text_ru": "Первой проверкой служат страница статуса и наличие активного incident ID. Если событие уже связано с известным инцидентом, это важно отразить в обращении. Не надо начинать каждую передачу с догадки о новой отдельной поломке. В то же время похожие слова в описании не доказывают, что речь об одном событии: сохраните контекст workspace, региона и времени. Смена должна иметь возможность понять, почему обращение было связано с конкретным инцидентом, а не только увидеть скопированный номер.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "16-009",
+   "doc_no": 16,
+   "doc_id": "incident-priority",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+   "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     17,
+     17
+    ]
+   },
+   "locator_text": "строка 17",
+   "segment_sha": "237854f72b3f",
+   "section": "Что должно остаться в истории",
+   "section_ru": "Что должно остаться в истории",
+   "text_ru": "Встреча показала, что мы часто хорошо сохраняем техническое наблюдение и плохо — его влияние. Запись «ошибка повторилась» не говорит, продолжают ли люди работать. Запись «обход подтверждён клиентом» без описания тоже быстро теряет смысл. Не нужно писать литературный отчёт: несколько связанных предложений о процессе, затронутой группе и проверках дадут коллеге больше, чем длинная лента несвязанных реплик. Оригинальный текст ошибки можно оставить рядом, чтобы не потерять точность наблюдения.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "16-010",
+   "doc_no": 16,
+   "doc_id": "incident-priority",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+   "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     19,
+     19
+    ]
+   },
+   "locator_text": "строка 19",
+   "segment_sha": "c3c5a3ad9569",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "## Обновления и смена приоритета",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "16-011",
+   "doc_no": 16,
+   "doc_id": "incident-priority",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+   "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     21,
+     21
+    ]
+   },
+   "locator_text": "строка 21",
+   "segment_sha": "001704e8101a",
+   "section": "Обновления и смена приоритета",
+   "section_ru": "Обновления и смена приоритета",
+   "text_ru": "Для P1 даём обновления каждые 30 минут до восстановления. Обновление требуется и тогда, когда нет нового объяснения причины: клиенту важно понимать, что обращение сопровождается. Не подменяйте сообщение клиенту внутренней активностью в чате команды. Можно долго обсуждать ситуацию между собой, а для клиента всё это время будет выглядеть как отсутствие связи. В передаче смены полезно ясно указать последнее данное обновление, чтобы коллега продолжил разговор, не заставляя клиента начинать сначала.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "16-012",
+   "doc_no": 16,
+   "doc_id": "incident-priority",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+   "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     23,
+     23
+    ]
+   },
+   "locator_text": "строка 23",
+   "segment_sha": "f60d4a4bfe0e",
+   "section": "Обновления и смена приоритета",
+   "section_ru": "Обновления и смена приоритета",
+   "text_ru": "«Появился обходной путь, могу я снять P1?» Приоритет P1 понижает руководитель поддержки после подтверждения обходного пути. Уточнение о подтверждении здесь принципиально: предложение попробовать действие не равно работающему обходу. Специалист собирает сведения и передаёт их руководителю, который принимает решение о понижении. В истории остаётся причина изменения, а не только новая буква и цифра. Это помогает объяснить клиенту, почему оценка влияния изменилась, хотя окончательная причина ещё может разбираться.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "16-013",
+   "doc_no": 16,
+   "doc_id": "incident-priority",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+   "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     25,
+     25
+    ]
+   },
+   "locator_text": "строка 25",
+   "segment_sha": "b659d20eb994",
+   "section": "Обновления и смена приоритета",
+   "section_ru": "Обновления и смена приоритета",
+   "text_ru": "Закрываем инцидент после проверки клиента либо двух подтверждённых проверок доступности. Не завершайте историю только потому, что в переписке стало тихо или смена подходит к концу. При передаче различайте «ждём проверку» и «проверка пройдена»: эти короткие слова определяют, нужно ли коллеге продолжать сопровождение. Нельзя считать обещание проверить одним из подтверждений. Если используем две проверки доступности, они должны быть именно подтверждёнными наблюдениями, а не двумя сообщениями об одном намерении.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "16-014",
+   "doc_no": 16,
+   "doc_id": "incident-priority",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+   "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     27,
+     27
+    ]
+   },
+   "locator_text": "строка 27",
+   "segment_sha": "deed8ae4c9ac",
+   "section": "Обновления и смена приоритета",
+   "section_ru": "Обновления и смена приоритета",
+   "text_ru": "В конце обсуждения вернулись к первому вопросу: зачем столько внимания формулировкам, если команда и так хочет помочь быстрее. Потому что приоритет — рабочая договорённость о влиянии. Когда в карточке есть масштаб, обходной путь, время и результаты проверок, следующая смена продолжает одну историю. Когда там только «очень срочно», ей приходится заново угадывать ситуацию и отвлекать клиента повторными вопросами. Нам нужна точная передача контекста, особенно в те минуты, когда кажется, что писать её некогда.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  }
+ ],
+ "_base": {
+  "no": 16,
+  "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+  "doc_id": "incident-priority",
+  "title": "Разговор на передаче смены: почему это P1",
+  "title_ru": "Разговор на передаче смены: почему это P1",
+  "lang": "ru",
+  "format": "md",
+  "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+  "decision": {
+   "no": 16,
+   "path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+   "doc_id": "incident-priority",
+   "title": "Разговор на передаче смены: почему это P1",
+   "lang": "ru",
+   "owner": "Support Operations",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "doc_type": "rule",
+   "status": "include",
+   "rule": "R1",
+   "reason": "Протокол встречи Support Operations 1.09.2026 о назначении приоритета.",
+   "access": "all",
+   "trust": "confirmed",
+   "related": [
+    11,
+    15,
+    36
+   ]
+  },
+  "fragments": [
+   {
+    "fragment_id": "16-001",
+    "doc_no": 16,
+    "doc_id": "incident-priority",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+    "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "title",
+    "locator": {
+     "lines": [
+      1,
+      1
+     ]
+    },
+    "locator_text": "строка 1",
+    "segment_sha": "0f016fc7d747",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "# Разговор на передаче смены: почему это P1",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "16-002",
+    "doc_no": 16,
+    "doc_id": "incident-priority",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+    "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      3,
+      3
+     ]
+    },
+    "locator_text": "строка 3",
+    "segment_sha": "06571a187bdf",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "На встрече Support Operations 1 сентября 2026 года разбирали, как мы назначаем срочность обращения об инциденте. Ниже сохранены выводы и характерные вопросы смены. Основная договорённость: приоритет отражает влияние на работу клиента. Тон письма, должность отправителя и количество восклицательных знаков не описывают это влияние. До назначения приоритета выясняем наличие обходного пути и число затронутых workspace. Иначе две смены будут оценивать одну ситуацию по разным впечатлениям от переписки.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "16-003",
+    "doc_no": 16,
+    "doc_id": "incident-priority",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+    "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      5,
+      5
+     ]
+    },
+    "locator_text": "строка 5",
+    "segment_sha": "29c6a12cda51",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "«Клиент пишет, что всё остановилось. Сразу P1?» Сначала выясняем, что именно остановилось и для кого. P1 — полная недоступность рабочего процесса без обходного пути для всех участников workspace. Вопрос о том, могут ли остальные участники продолжать работу, здесь существенен. Если мы его не задали, в передаче остаётся эмоциональная формулировка клиента, но не картина влияния. При этом не стоит заставлять человека повторять длинный рассказ: достаточно направить уточнение на рабочий процесс, участников и наличие способа продолжить работу.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "16-004",
+    "doc_no": 16,
+    "doc_id": "incident-priority",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+    "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      7,
+      7
+     ]
+    },
+    "locator_text": "строка 7",
+    "segment_sha": "0dd6b8200021",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "«А если главная функция сломана, но команда делает то же самое другим способом?» Это соответствует P2: критичная функция нарушена, но временный обходной путь доступен. Обходной путь нужно описать так, чтобы следующая смена понимала, что именно клиент может сделать. Само слово «есть» мало помогает. Но мы не должны придумывать удобство такого пути или считать любой теоретический совет подтверждением его существования. Важна возможность продолжить работу в конкретной ситуации, которую обсуждаем с клиентом.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "16-005",
+    "doc_no": 16,
+    "doc_id": "incident-priority",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+    "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      9,
+      9
+     ]
+    },
+    "locator_text": "строка 9",
+    "segment_sha": "08572662f78b",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "P3 применяем к проблеме отдельного участника, которая не останавливает команду. Такая проблема может быть неприятной и требовать внимания; её определение просто описывает иной масштаб влияния. P4 — вопрос настройки, улучшения или пояснения интерфейса. Если запрос начинался как «кнопка пропала», это ещё не позволяет выбрать между уровнями. Кнопка может быть частью остановившегося рабочего процесса, индивидуальной проблемы или вопроса о настройке. Мы классифицируем результат для клиента, а не знакомые слова из названия обращения.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "16-006",
+    "doc_no": 16,
+    "doc_id": "incident-priority",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+    "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      11,
+      11
+     ]
+    },
+    "locator_text": "строка 11",
+    "segment_sha": "b3b556794409",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "## Что должно остаться в истории",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "16-007",
+    "doc_no": 16,
+    "doc_id": "incident-priority",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+    "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      13,
+      13
+     ]
+    },
+    "locator_text": "строка 13",
+    "segment_sha": "9c8423f3960a",
+    "section": "Что должно остаться в истории",
+    "section_ru": "Что должно остаться в истории",
+    "text_ru": "Зафиксируйте workspace ID, время UTC, регион, число затронутых участников и request ID. Число workspace и число участников — разные сведения, не подменяйте одно другим. Когда клиент говорит «это у всех», уточните, относится ли это к одному рабочему пространству, нескольким командам или людям, с которыми он успел поговорить. Нужна честная граница известного, а не наиболее широкая трактовка. Следующий специалист должен видеть, какие сведения подтверждены и какой вопрос ещё остался открытым.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "16-008",
+    "doc_no": 16,
+    "doc_id": "incident-priority",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+    "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      15,
+      15
+     ]
+    },
+    "locator_text": "строка 15",
+    "segment_sha": "b6e3ba06878d",
+    "section": "Что должно остаться в истории",
+    "section_ru": "Что должно остаться в истории",
+    "text_ru": "Первой проверкой служат страница статуса и наличие активного incident ID. Если событие уже связано с известным инцидентом, это важно отразить в обращении. Не надо начинать каждую передачу с догадки о новой отдельной поломке. В то же время похожие слова в описании не доказывают, что речь об одном событии: сохраните контекст workspace, региона и времени. Смена должна иметь возможность понять, почему обращение было связано с конкретным инцидентом, а не только увидеть скопированный номер.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "16-009",
+    "doc_no": 16,
+    "doc_id": "incident-priority",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+    "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      17,
+      17
+     ]
+    },
+    "locator_text": "строка 17",
+    "segment_sha": "237854f72b3f",
+    "section": "Что должно остаться в истории",
+    "section_ru": "Что должно остаться в истории",
+    "text_ru": "Встреча показала, что мы часто хорошо сохраняем техническое наблюдение и плохо — его влияние. Запись «ошибка повторилась» не говорит, продолжают ли люди работать. Запись «обход подтверждён клиентом» без описания тоже быстро теряет смысл. Не нужно писать литературный отчёт: несколько связанных предложений о процессе, затронутой группе и проверках дадут коллеге больше, чем длинная лента несвязанных реплик. Оригинальный текст ошибки можно оставить рядом, чтобы не потерять точность наблюдения.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "16-010",
+    "doc_no": 16,
+    "doc_id": "incident-priority",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+    "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      19,
+      19
+     ]
+    },
+    "locator_text": "строка 19",
+    "segment_sha": "c3c5a3ad9569",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "## Обновления и смена приоритета",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "16-011",
+    "doc_no": 16,
+    "doc_id": "incident-priority",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+    "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      21,
+      21
+     ]
+    },
+    "locator_text": "строка 21",
+    "segment_sha": "001704e8101a",
+    "section": "Обновления и смена приоритета",
+    "section_ru": "Обновления и смена приоритета",
+    "text_ru": "Для P1 даём обновления каждые 30 минут до восстановления. Обновление требуется и тогда, когда нет нового объяснения причины: клиенту важно понимать, что обращение сопровождается. Не подменяйте сообщение клиенту внутренней активностью в чате команды. Можно долго обсуждать ситуацию между собой, а для клиента всё это время будет выглядеть как отсутствие связи. В передаче смены полезно ясно указать последнее данное обновление, чтобы коллега продолжил разговор, не заставляя клиента начинать сначала.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "16-012",
+    "doc_no": 16,
+    "doc_id": "incident-priority",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+    "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      23,
+      23
+     ]
+    },
+    "locator_text": "строка 23",
+    "segment_sha": "f60d4a4bfe0e",
+    "section": "Обновления и смена приоритета",
+    "section_ru": "Обновления и смена приоритета",
+    "text_ru": "«Появился обходной путь, могу я снять P1?» Приоритет P1 понижает руководитель поддержки после подтверждения обходного пути. Уточнение о подтверждении здесь принципиально: предложение попробовать действие не равно работающему обходу. Специалист собирает сведения и передаёт их руководителю, который принимает решение о понижении. В истории остаётся причина изменения, а не только новая буква и цифра. Это помогает объяснить клиенту, почему оценка влияния изменилась, хотя окончательная причина ещё может разбираться.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "16-013",
+    "doc_no": 16,
+    "doc_id": "incident-priority",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+    "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      25,
+      25
+     ]
+    },
+    "locator_text": "строка 25",
+    "segment_sha": "b659d20eb994",
+    "section": "Обновления и смена приоритета",
+    "section_ru": "Обновления и смена приоритета",
+    "text_ru": "Закрываем инцидент после проверки клиента либо двух подтверждённых проверок доступности. Не завершайте историю только потому, что в переписке стало тихо или смена подходит к концу. При передаче различайте «ждём проверку» и «проверка пройдена»: эти короткие слова определяют, нужно ли коллеге продолжать сопровождение. Нельзя считать обещание проверить одним из подтверждений. Если используем две проверки доступности, они должны быть именно подтверждёнными наблюдениями, а не двумя сообщениями об одном намерении.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "16-014",
+    "doc_no": 16,
+    "doc_id": "incident-priority",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+    "source_sha256": "0c25ba4c44f8f2d4417703484503afab47e06ba8c3212ebe5f605d883bb146e5",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      27,
+      27
+     ]
+    },
+    "locator_text": "строка 27",
+    "segment_sha": "deed8ae4c9ac",
+    "section": "Обновления и смена приоритета",
+    "section_ru": "Обновления и смена приоритета",
+    "text_ru": "В конце обсуждения вернулись к первому вопросу: зачем столько внимания формулировкам, если команда и так хочет помочь быстрее. Потому что приоритет — рабочая договорённость о влиянии. Когда в карточке есть масштаб, обходной путь, время и результаты проверок, следующая смена продолжает одну историю. Когда там только «очень срочно», ей приходится заново угадывать ситуацию и отвлекать клиента повторными вопросами. Нам нужна точная передача контекста, особенно в те минуты, когда кажется, что писать её некогда.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   }
+  ]
+ }
+}

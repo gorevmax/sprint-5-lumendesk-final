@@ -1,0 +1,1208 @@
+{
+ "no": 48,
+ "source_path": "documents/Франция/Atelier équipe septembre.md",
+ "doc_id": "workshop-fr",
+ "title": "Préparer un atelier en français avec une nouvelle équipe",
+ "title_ru": "Подготовка воркшопа на французском с новой командой",
+ "lang": "fr",
+ "format": "md",
+ "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+ "decision": {
+  "no": 48,
+  "path": "documents/Франция/Atelier équipe septembre.md",
+  "doc_id": "workshop-fr",
+  "title": "Préparer un atelier en français avec une nouvelle équipe",
+  "lang": "fr",
+  "owner": "Customer Enablement France",
+  "version": "2026-09-01",
+  "updated": "2026-09-01",
+  "doc_type": "rule",
+  "status": "include",
+  "rule": "R1",
+  "reason": "Customer Enablement France, 1.09.2026.",
+  "access": "all",
+  "trust": "confirmed",
+  "related": [
+   46,
+   50
+  ]
+ },
+ "fragments": [
+  {
+   "fragment_id": "48-001",
+   "doc_no": 48,
+   "doc_id": "workshop-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/Atelier équipe septembre.md",
+   "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+   "source_lang": "fr",
+   "format": "md",
+   "kind": "title",
+   "locator": {
+    "lines": [
+     1,
+     1
+    ]
+   },
+   "locator_text": "строка 1",
+   "segment_sha": "918d348329f7",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "# Подготовка воркшопа на французском с новой командой",
+   "text_orig": "# Préparer un atelier en français avec une nouvelle équipe",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "48-002",
+   "doc_no": 48,
+   "doc_id": "workshop-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/Atelier équipe septembre.md",
+   "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+   "source_lang": "fr",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     3,
+     3
+    ]
+   },
+   "locator_text": "строка 3",
+   "segment_sha": "d895c71c517d",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Здравствуйте, коллеги!",
+   "text_orig": "Bonjour à toutes et à tous,",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "48-003",
+   "doc_no": 48,
+   "doc_id": "workshop-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/Atelier équipe septembre.md",
+   "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+   "source_lang": "fr",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     5,
+     5
+    ]
+   },
+   "locator_text": "строка 5",
+   "segment_sha": "5db6df2733dc",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Мы пересмотрели условия вместе с Customer Enablement France 1 сентября 2026 года. Оставляю здесь развёрнутую версию пояснений, которые мы даём контакту по договору, потому что переписка о расписании быстро становится трудной для понимания. Воркшопы знакомят франкоязычные команды с общими пространствами и повседневными процедурами. Услуга включена в новые договоры Enterprise во Франции. Поэтому исходить нужно из соответствующего договора и потребности команды, а не объявлять сессию только на основании языка первого письма.",
+   "text_orig": "Nous avons repris les modalités avec Customer Enablement France le 1er septembre 2026. Je laisse ici une version développée des explications que nous donnons au contact du contrat, car les échanges de calendrier deviennent vite difficiles à suivre. Les ateliers présentent les espaces partagés et les procédures courantes aux équipes francophones. Le service est inclus pour les nouveaux contrats Enterprise en France. Il faut donc partir du contrat concerné et du besoin de l'équipe, plutôt que d'annoncer une séance sur la seule base de la langue utilisée dans un premier courriel.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "48-004",
+   "doc_no": 48,
+   "doc_id": "workshop-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/Atelier équipe septembre.md",
+   "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+   "source_lang": "fr",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     7,
+     7
+    ]
+   },
+   "locator_text": "строка 7",
+   "segment_sha": "7d408e0ff741",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Презентация и вопросы проходят полностью на французском. Это полезно уточнить с первого обмена сообщениями, особенно когда контакт организует сессию для коллег, которых он пока мало знает. Так мы можем говорить об их способе работы, не оставляя сомнений относительно языка ведения. Эта заметка касается организации воркшопа; она не превращает все документы, которыми пользуется клиент, во французские версии и не требует от него переводить собственные данные для подготовки демонстрации.",
+   "text_orig": "La présentation et les questions se déroulent entièrement en français. C'est utile de le préciser dès le premier échange, notamment lorsque le contact organise la séance pour des collègues qu'il connaît encore peu. Nous pouvons ainsi parler de leur manière de travailler sans laisser planer un doute sur la langue de l'animation. Cette note porte sur l'organisation de l'atelier; elle ne transforme pas tous les documents que le client utilise en versions françaises et ne nécessite pas de lui faire traduire ses propres données pour préparer la démonstration.",
+   "translation": "translated",
+   "translation_review": {
+    "checks": [
+     "conditions"
+    ],
+    "decision": "accepted",
+    "note": "Ложное «only»: «ne transforme pas … et ne nécessite pas» — оба отрицания переданы."
+   },
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "48-005",
+   "doc_no": 48,
+   "doc_id": "workshop-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/Atelier équipe septembre.md",
+   "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+   "source_lang": "fr",
+   "format": "md",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     9,
+     9
+    ]
+   },
+   "locator_text": "строка 9",
+   "segment_sha": "5372976093bd",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "## Как найти подходящую сессию",
+   "text_orig": "## Trouver une séance qui convient",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "48-006",
+   "doc_no": 48,
+   "doc_id": "workshop-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/Atelier équipe septembre.md",
+   "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+   "source_lang": "fr",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     11,
+     11
+    ]
+   },
+   "locator_text": "строка 11",
+   "segment_sha": "d6615416d0c5",
+   "section": "Trouver une séance qui convient",
+   "section_ru": "Как найти подходящую сессию",
+   "text_ru": "Сессии проходят во вторник или четверг в 10:00 Europe/Paris. Когда клиент предлагает время, повторите часовой пояс в ответе, а не пишите просто «в 10 часов». Команда, распределённая по нескольким офисам, вполне может по-разному понять одно и то же приглашение. Указанный здесь интервал — по парижскому времени. Лучше прояснить это в первом сообщении, чем обнаружить в начале сессии, что часть группы ожидала другое время.",
+   "text_orig": "Les séances ont lieu le mardi ou le jeudi à 10:00 Europe/Paris. Lorsque le client propose une heure, reprenez le fuseau dans votre réponse au lieu d'écrire seulement «10 heures». Une équipe répartie entre plusieurs bureaux peut tout à fait comprendre la même invitation de façons différentes. Le créneau indiqué ici est celui de Paris. Il vaut mieux clarifier cela dans le premier message que découvrir au début de la séance qu'une partie du groupe attendait une autre heure.",
+   "translation": "translated",
+   "translation_review": {
+    "checks": [
+     "conditions"
+    ],
+    "decision": "accepted",
+    "note": "«au lieu d'écrire seulement «10 heures»» → «а не пишите просто «в 10 часов»»; 10:00 Europe/Paris сохранено."
+   },
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "48-007",
+   "doc_no": 48,
+   "doc_id": "workshop-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/Atelier équipe septembre.md",
+   "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+   "source_lang": "fr",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     13,
+     13
+    ]
+   },
+   "locator_text": "строка 13",
+   "segment_sha": "ca0179452b75",
+   "section": "Trouver une séance qui convient",
+   "section_ru": "Как найти подходящую сессию",
+   "text_ru": "Запрос должен поступить к нам не менее чем за 5 рабочих дней до желаемой сессии. Этот срок даёт клиенту возможность подготовить подходящее пространство, а команде организации — собрать нужный контекст. Не представляйте поздно отправленный запрос как уже полученное подтверждение. В переписке разделяйте желаемую клиентом дату и фактически организованную сессию. Люди, добавленные в переписку позже, не должны делать вывод о бронировании только потому, что в теме письма упоминается вторник.",
+   "text_orig": "La demande doit nous parvenir au moins 5 jours ouvrés avant la séance souhaitée. Ce délai laisse au client la possibilité de préparer un espace convenable et à l'équipe d'organisation celle de réunir le bon contexte. Ne présentez pas une demande envoyée tardivement comme une confirmation déjà acquise. Dans le fil de discussion, distinguez la date souhaitée par le client de la séance effectivement organisée. Les personnes ajoutées plus tard à la conversation ne doivent pas déduire une réservation du seul fait qu'un mardi figure dans l'objet du courriel.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "48-008",
+   "doc_no": 48,
+   "doc_id": "workshop-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/Atelier équipe septembre.md",
+   "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+   "source_lang": "fr",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     15,
+     15
+    ]
+   },
+   "locator_text": "строка 15",
+   "segment_sha": "16bbc2bf5427",
+   "section": "Trouver une séance qui convient",
+   "section_ru": "Как найти подходящую сессию",
+   "text_ru": "Сессия принимает не более 12 участников, её стандартная продолжительность — 60 минут. Когда контакт пишет «вся команда», спросите, сколько это человек. Это уточнение — не способ отговорить от участия; оно позволяет подготовить сессию с понятными рамками. Также держите продолжительность видимой в переписке. Введение в общие пространства и повседневные процедуры не становится автоматически консультационным днём, посвящённым всем темам, которые организация могла бы захотеть затронуть.",
+   "text_orig": "Une séance accueille au maximum 12 participants et sa durée standard est de 60 minutes. Quand le contact écrit «toute l'équipe», demandez combien de personnes cela représente. Cette précision n'est pas une façon de décourager la participation; elle permet de préparer une séance dont le cadre est clair. Gardez aussi la durée visible dans la conversation. Une introduction aux espaces partagés et aux procédures courantes n'est pas automatiquement une journée de conseil consacrée à tous les sujets que l'organisation pourrait vouloir aborder.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "48-009",
+   "doc_no": 48,
+   "doc_id": "workshop-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/Atelier équipe septembre.md",
+   "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+   "source_lang": "fr",
+   "format": "md",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     17,
+     17
+    ]
+   },
+   "locator_text": "строка 17",
+   "segment_sha": "7e15f1e3531b",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "## Подготовка площадки для демонстрации",
+   "text_orig": "## Préparer un terrain de démonstration",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "48-010",
+   "doc_no": 48,
+   "doc_id": "workshop-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/Atelier équipe septembre.md",
+   "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+   "source_lang": "fr",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     19,
+     19
+    ]
+   },
+   "locator_text": "строка 19",
+   "segment_sha": "105b31cbace8",
+   "section": "Préparer un terrain de démonstration",
+   "section_ru": "Подготовка площадки для демонстрации",
+   "text_ru": "Клиент предоставляет демонстрационное пространство без конфиденциальных данных. Он не должен присылать нам чувствительный фрагмент, чтобы доказать, что его случай интересен. Лучше объясните, какую ситуацию он хочет показать, и попросите пространство, подходящее для этой демонстрации. Подготовка проще, когда контакт понимает, что достаточно узнаваемого примера, без копирования реальных сведений о его клиентах, сотрудниках или коммерческих обязательствах. Воркшоп должен сосредоточиться на действиях и процедурах.",
+   "text_orig": "Le client fournit un espace de démonstration sans données confidentielles. Il ne doit pas nous envoyer un extrait sensible pour prouver que son cas est intéressant. Expliquez plutôt le type de situation qu'il souhaite montrer et demandez un espace adapté à cette démonstration. La préparation est plus simple lorsque le contact comprend qu'un exemple reconnaissable suffit, sans recopier des informations réelles sur ses clients, ses salariés ou ses engagements commerciaux. L'atelier doit pouvoir se concentrer sur les gestes et les procédures.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "48-011",
+   "doc_no": 48,
+   "doc_id": "workshop-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/Atelier équipe septembre.md",
+   "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+   "source_lang": "fr",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     21,
+     21
+    ]
+   },
+   "locator_text": "строка 21",
+   "segment_sha": "9e691a1a2037",
+   "section": "Préparer un terrain de démonstration",
+   "section_ru": "Подготовка площадки для демонстрации",
+   "text_ru": "В переписке о подготовке изложите потребность команды её собственными словами: например, ориентироваться в общих пространствах или понять повседневную процедуру. Это изложение не добавляет услугу в договор; оно задаёт сессии сквозную линию. Если у нескольких коллег разные ожидания, сделайте их видимыми до встречи. Один контакт может говорить о вводном знакомстве новых пользователей, а другой уже представлять полный разбор своей организации. Лучше обнаружить это различие в письме о подготовке.",
+   "text_orig": "Dans la conversation de préparation, résumez le besoin de l'équipe avec ses propres mots: par exemple, se repérer dans les espaces partagés ou comprendre une procédure courante. Ce résumé n'ajoute pas une prestation au contrat; il donne un fil conducteur à la séance. Si plusieurs collègues apportent des attentes différentes, rendez-les visibles avant le rendez-vous. Un contact peut parler d'accueil des nouveaux utilisateurs alors qu'un autre imagine déjà une revue complète de son organisation. Mieux vaut découvrir cette différence dans le courriel de préparation.",
+   "translation": "translated",
+   "translation_review": {
+    "checks": [
+     "conditions"
+    ],
+    "decision": "accepted",
+    "note": "«Dans la conversation» — место («в переписке»), не срок."
+   },
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "48-012",
+   "doc_no": 48,
+   "doc_id": "workshop-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/Atelier équipe septembre.md",
+   "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+   "source_lang": "fr",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     23,
+     23
+    ]
+   },
+   "locator_text": "строка 23",
+   "segment_sha": "f9cb6867e3e8",
+   "section": "Préparer un terrain de démonstration",
+   "section_ru": "Подготовка площадки для демонстрации",
+   "text_ru": "Субтитры на французском доступны по предварительному запросу. Упомяните эту возможность достаточно рано, чтобы участники могли выразить свою потребность. Контакт по договору не всегда знает, кому они понадобятся, и может захотеть посоветоваться с командой перед ответом. Не нужно запрашивать в переписке личные обоснования. Организовать сессию нам помогает запрос субтитров, сделанный до воркшопа, а не подробное объяснение индивидуальной ситуации каждого участника.",
+   "text_orig": "Des sous-titres en français sont disponibles sur demande préalable. Mentionnez cette possibilité assez tôt pour que les participants puissent exprimer leur besoin. Le contact du contrat ne sait pas toujours qui en aura l'usage, et il peut vouloir consulter son équipe avant de répondre. Il n'est pas nécessaire de demander des justifications personnelles dans le fil. Ce qui nous aide à organiser la séance est la demande de sous-titres, formulée avant l'atelier, et non une explication détaillée de la situation individuelle de chaque participant.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "48-013",
+   "doc_no": 48,
+   "doc_id": "workshop-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/Atelier équipe septembre.md",
+   "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+   "source_lang": "fr",
+   "format": "md",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     25,
+     25
+    ]
+   },
+   "locator_text": "строка 25",
+   "segment_sha": "17a76f6c10e7",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "## Если расписание меняется",
+   "text_orig": "## Si le calendrier change",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "48-014",
+   "doc_no": 48,
+   "doc_id": "workshop-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/Atelier équipe septembre.md",
+   "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+   "source_lang": "fr",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     27,
+     27
+    ]
+   },
+   "locator_text": "строка 27",
+   "segment_sha": "7c18518aaaf3",
+   "section": "Si le calendrier change",
+   "section_ru": "Если расписание меняется",
+   "text_ru": "Бесплатный перенос возможен не позднее чем за 2 рабочих дня до сессии. Напоминайте это правило, когда клиент сообщает об изменении доступности. Фраза вроде «посмотрим накануне, смогут ли все прийти» не позволяет команде понять рамки переноса. Просьба перенести сессию и подтверждение новой встречи — тоже два разных события. В сообщении, завершающем переписку, ясно напишите, о чём договорились, чтобы сохранённые участниками приглашения не рассказывали несколько разных историй.",
+   "text_orig": "Un report sans frais est possible jusqu'à 2 jours ouvrés avant la séance. Reprenez cette règle lorsque le client annonce un changement de disponibilité. Une phrase comme «nous verrons la veille si tout le monde peut venir» ne permet pas à l'équipe de comprendre le cadre du report. La demande de déplacer une séance et la confirmation d'un nouveau rendez-vous sont aussi deux événements différents. Dans le message qui termine l'échange, écrivez clairement ce qui a été convenu, afin que les invitations conservées par les participants ne racontent pas plusieurs histoires.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "48-015",
+   "doc_no": 48,
+   "doc_id": "workshop-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/Atelier équipe septembre.md",
+   "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+   "source_lang": "fr",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     29,
+     29
+    ]
+   },
+   "locator_text": "строка 29",
+   "segment_sha": "3c97233e1519",
+   "section": "Si le calendrier change",
+   "section_ru": "Если расписание меняется",
+   "text_ru": "Резюме воркшопа отправляется контакту по договору в течение 2 рабочих дней. Скажите об этом, объясняя ход сессии, потому что некоторые участники хотят сосредоточиться на обсуждении, а не торопливо записывать. Предусмотренный получатель — контакт по договору. Не считайте, что все люди, добавленные в старую переписку, стали этим контактом. Резюме должно вернуться к договорным отношениям, которые мы с клиентом определили, а затем клиент может организовать собственное внутреннее распространение.",
+   "text_orig": "Le résumé de l'atelier est envoyé au contact du contrat dans les 2 jours ouvrés. Dites-le lorsque vous expliquez le déroulement, car certains participants souhaitent se concentrer sur les échanges plutôt que prendre des notes à toute vitesse. Le destinataire prévu est le contact du contrat. Ne supposez pas que toutes les personnes ajoutées à un ancien fil sont devenues ce contact. Le résumé doit revenir vers la relation contractuelle que le client et nous avons identifiée, puis le client peut organiser sa propre circulation interne.",
+   "translation": "translated",
+   "translation_review": {
+    "checks": [
+     "conditions"
+    ],
+    "decision": "accepted",
+    "note": "Ложное «only»: «Ne supposez pas que» → «Не считайте, что»; срок «dans les 2 jours ouvrés» → «в течение 2 рабочих дней» сохранён."
+   },
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "48-016",
+   "doc_no": 48,
+   "doc_id": "workshop-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/Atelier équipe septembre.md",
+   "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+   "source_lang": "fr",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     31,
+     31
+    ]
+   },
+   "locator_text": "строка 31",
+   "segment_sha": "2c820bd8354d",
+   "section": "Si le calendrier change",
+   "section_ru": "Если расписание меняется",
+   "text_ru": "Поэтому, готовясь к следующему обмену сообщениями, я перечитываю переписку так, как это сделал бы человек, не участвовавший ни в одном звонке: видит ли он соответствующий договор, желаемую сессию, число участников, часовой пояс и демонстрационное пространство, которое нужно подготовить? Такое перечитывание не заменяет приведённых выше условий, но выявляет подразумеваемое. Воркшоп проходит лучше, когда все приходят с одной и той же встречей в голове и с пригодным пространством. Пожалуйста, сохраняйте практические сведения в переписке, даже если контакт кажется вам уже хорошо знакомым с услугой.",
+   "text_orig": "Pour préparer un prochain échange, je relis donc le fil comme le ferait une personne qui n'a participé à aucun appel: voit-elle le contrat concerné, la séance souhaitée, le nombre de participants, le fuseau et l'espace de démonstration à préparer? Cette relecture ne remplace pas les modalités ci-dessus, mais elle fait ressortir les implicites. Un atelier se passe mieux lorsque tout le monde arrive avec le même rendez-vous en tête et un espace utilisable. Merci de garder les informations pratiques dans la conversation, même lorsque le contact vous paraît déjà très familier du service.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  }
+ ],
+ "_base": {
+  "no": 48,
+  "source_path": "documents/Франция/Atelier équipe septembre.md",
+  "doc_id": "workshop-fr",
+  "title": "Préparer un atelier en français avec une nouvelle équipe",
+  "title_ru": "Подготовка воркшопа на французском с новой командой",
+  "lang": "fr",
+  "format": "md",
+  "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+  "decision": {
+   "no": 48,
+   "path": "documents/Франция/Atelier équipe septembre.md",
+   "doc_id": "workshop-fr",
+   "title": "Préparer un atelier en français avec une nouvelle équipe",
+   "lang": "fr",
+   "owner": "Customer Enablement France",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "doc_type": "rule",
+   "status": "include",
+   "rule": "R1",
+   "reason": "Customer Enablement France, 1.09.2026.",
+   "access": "all",
+   "trust": "confirmed",
+   "related": [
+    46,
+    50
+   ]
+  },
+  "fragments": [
+   {
+    "fragment_id": "48-001",
+    "doc_no": 48,
+    "doc_id": "workshop-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/Atelier équipe septembre.md",
+    "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+    "source_lang": "fr",
+    "format": "md",
+    "kind": "title",
+    "locator": {
+     "lines": [
+      1,
+      1
+     ]
+    },
+    "locator_text": "строка 1",
+    "segment_sha": "918d348329f7",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "# Подготовка воркшопа на французском с новой командой",
+    "text_orig": "# Préparer un atelier en français avec une nouvelle équipe",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "48-002",
+    "doc_no": 48,
+    "doc_id": "workshop-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/Atelier équipe septembre.md",
+    "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+    "source_lang": "fr",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      3,
+      3
+     ]
+    },
+    "locator_text": "строка 3",
+    "segment_sha": "d895c71c517d",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Здравствуйте, коллеги!",
+    "text_orig": "Bonjour à toutes et à tous,",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "48-003",
+    "doc_no": 48,
+    "doc_id": "workshop-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/Atelier équipe septembre.md",
+    "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+    "source_lang": "fr",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      5,
+      5
+     ]
+    },
+    "locator_text": "строка 5",
+    "segment_sha": "5db6df2733dc",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Мы пересмотрели условия вместе с Customer Enablement France 1 сентября 2026 года. Оставляю здесь развёрнутую версию пояснений, которые мы даём контакту по договору, потому что переписка о расписании быстро становится трудной для понимания. Воркшопы знакомят франкоязычные команды с общими пространствами и повседневными процедурами. Услуга включена в новые договоры Enterprise во Франции. Поэтому исходить нужно из соответствующего договора и потребности команды, а не объявлять сессию только на основании языка первого письма.",
+    "text_orig": "Nous avons repris les modalités avec Customer Enablement France le 1er septembre 2026. Je laisse ici une version développée des explications que nous donnons au contact du contrat, car les échanges de calendrier deviennent vite difficiles à suivre. Les ateliers présentent les espaces partagés et les procédures courantes aux équipes francophones. Le service est inclus pour les nouveaux contrats Enterprise en France. Il faut donc partir du contrat concerné et du besoin de l'équipe, plutôt que d'annoncer une séance sur la seule base de la langue utilisée dans un premier courriel.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "48-004",
+    "doc_no": 48,
+    "doc_id": "workshop-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/Atelier équipe septembre.md",
+    "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+    "source_lang": "fr",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      7,
+      7
+     ]
+    },
+    "locator_text": "строка 7",
+    "segment_sha": "7d408e0ff741",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Презентация и вопросы проходят полностью на французском. Это полезно уточнить с первого обмена сообщениями, особенно когда контакт организует сессию для коллег, которых он пока мало знает. Так мы можем говорить об их способе работы, не оставляя сомнений относительно языка ведения. Эта заметка касается организации воркшопа; она не превращает все документы, которыми пользуется клиент, во французские версии и не требует от него переводить собственные данные для подготовки демонстрации.",
+    "text_orig": "La présentation et les questions se déroulent entièrement en français. C'est utile de le préciser dès le premier échange, notamment lorsque le contact organise la séance pour des collègues qu'il connaît encore peu. Nous pouvons ainsi parler de leur manière de travailler sans laisser planer un doute sur la langue de l'animation. Cette note porte sur l'organisation de l'atelier; elle ne transforme pas tous les documents que le client utilise en versions françaises et ne nécessite pas de lui faire traduire ses propres données pour préparer la démonstration.",
+    "translation": "translated",
+    "translation_review": {
+     "checks": [
+      "conditions"
+     ],
+     "decision": "accepted",
+     "note": "Ложное «only»: «ne transforme pas … et ne nécessite pas» — оба отрицания переданы."
+    },
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "48-005",
+    "doc_no": 48,
+    "doc_id": "workshop-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/Atelier équipe septembre.md",
+    "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+    "source_lang": "fr",
+    "format": "md",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      9,
+      9
+     ]
+    },
+    "locator_text": "строка 9",
+    "segment_sha": "5372976093bd",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "## Как найти подходящую сессию",
+    "text_orig": "## Trouver une séance qui convient",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "48-006",
+    "doc_no": 48,
+    "doc_id": "workshop-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/Atelier équipe septembre.md",
+    "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+    "source_lang": "fr",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      11,
+      11
+     ]
+    },
+    "locator_text": "строка 11",
+    "segment_sha": "d6615416d0c5",
+    "section": "Trouver une séance qui convient",
+    "section_ru": "Как найти подходящую сессию",
+    "text_ru": "Сессии проходят во вторник или четверг в 10:00 Europe/Paris. Когда клиент предлагает время, повторите часовой пояс в ответе, а не пишите просто «в 10 часов». Команда, распределённая по нескольким офисам, вполне может по-разному понять одно и то же приглашение. Указанный здесь интервал — по парижскому времени. Лучше прояснить это в первом сообщении, чем обнаружить в начале сессии, что часть группы ожидала другое время.",
+    "text_orig": "Les séances ont lieu le mardi ou le jeudi à 10:00 Europe/Paris. Lorsque le client propose une heure, reprenez le fuseau dans votre réponse au lieu d'écrire seulement «10 heures». Une équipe répartie entre plusieurs bureaux peut tout à fait comprendre la même invitation de façons différentes. Le créneau indiqué ici est celui de Paris. Il vaut mieux clarifier cela dans le premier message que découvrir au début de la séance qu'une partie du groupe attendait une autre heure.",
+    "translation": "translated",
+    "translation_review": {
+     "checks": [
+      "conditions"
+     ],
+     "decision": "accepted",
+     "note": "«au lieu d'écrire seulement «10 heures»» → «а не пишите просто «в 10 часов»»; 10:00 Europe/Paris сохранено."
+    },
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "48-007",
+    "doc_no": 48,
+    "doc_id": "workshop-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/Atelier équipe septembre.md",
+    "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+    "source_lang": "fr",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      13,
+      13
+     ]
+    },
+    "locator_text": "строка 13",
+    "segment_sha": "ca0179452b75",
+    "section": "Trouver une séance qui convient",
+    "section_ru": "Как найти подходящую сессию",
+    "text_ru": "Запрос должен поступить к нам не менее чем за 5 рабочих дней до желаемой сессии. Этот срок даёт клиенту возможность подготовить подходящее пространство, а команде организации — собрать нужный контекст. Не представляйте поздно отправленный запрос как уже полученное подтверждение. В переписке разделяйте желаемую клиентом дату и фактически организованную сессию. Люди, добавленные в переписку позже, не должны делать вывод о бронировании только потому, что в теме письма упоминается вторник.",
+    "text_orig": "La demande doit nous parvenir au moins 5 jours ouvrés avant la séance souhaitée. Ce délai laisse au client la possibilité de préparer un espace convenable et à l'équipe d'organisation celle de réunir le bon contexte. Ne présentez pas une demande envoyée tardivement comme une confirmation déjà acquise. Dans le fil de discussion, distinguez la date souhaitée par le client de la séance effectivement organisée. Les personnes ajoutées plus tard à la conversation ne doivent pas déduire une réservation du seul fait qu'un mardi figure dans l'objet du courriel.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "48-008",
+    "doc_no": 48,
+    "doc_id": "workshop-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/Atelier équipe septembre.md",
+    "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+    "source_lang": "fr",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      15,
+      15
+     ]
+    },
+    "locator_text": "строка 15",
+    "segment_sha": "16bbc2bf5427",
+    "section": "Trouver une séance qui convient",
+    "section_ru": "Как найти подходящую сессию",
+    "text_ru": "Сессия принимает не более 12 участников, её стандартная продолжительность — 60 минут. Когда контакт пишет «вся команда», спросите, сколько это человек. Это уточнение — не способ отговорить от участия; оно позволяет подготовить сессию с понятными рамками. Также держите продолжительность видимой в переписке. Введение в общие пространства и повседневные процедуры не становится автоматически консультационным днём, посвящённым всем темам, которые организация могла бы захотеть затронуть.",
+    "text_orig": "Une séance accueille au maximum 12 participants et sa durée standard est de 60 minutes. Quand le contact écrit «toute l'équipe», demandez combien de personnes cela représente. Cette précision n'est pas une façon de décourager la participation; elle permet de préparer une séance dont le cadre est clair. Gardez aussi la durée visible dans la conversation. Une introduction aux espaces partagés et aux procédures courantes n'est pas automatiquement une journée de conseil consacrée à tous les sujets que l'organisation pourrait vouloir aborder.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "48-009",
+    "doc_no": 48,
+    "doc_id": "workshop-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/Atelier équipe septembre.md",
+    "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+    "source_lang": "fr",
+    "format": "md",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      17,
+      17
+     ]
+    },
+    "locator_text": "строка 17",
+    "segment_sha": "7e15f1e3531b",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "## Подготовка площадки для демонстрации",
+    "text_orig": "## Préparer un terrain de démonstration",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "48-010",
+    "doc_no": 48,
+    "doc_id": "workshop-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/Atelier équipe septembre.md",
+    "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+    "source_lang": "fr",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      19,
+      19
+     ]
+    },
+    "locator_text": "строка 19",
+    "segment_sha": "105b31cbace8",
+    "section": "Préparer un terrain de démonstration",
+    "section_ru": "Подготовка площадки для демонстрации",
+    "text_ru": "Клиент предоставляет демонстрационное пространство без конфиденциальных данных. Он не должен присылать нам чувствительный фрагмент, чтобы доказать, что его случай интересен. Лучше объясните, какую ситуацию он хочет показать, и попросите пространство, подходящее для этой демонстрации. Подготовка проще, когда контакт понимает, что достаточно узнаваемого примера, без копирования реальных сведений о его клиентах, сотрудниках или коммерческих обязательствах. Воркшоп должен сосредоточиться на действиях и процедурах.",
+    "text_orig": "Le client fournit un espace de démonstration sans données confidentielles. Il ne doit pas nous envoyer un extrait sensible pour prouver que son cas est intéressant. Expliquez plutôt le type de situation qu'il souhaite montrer et demandez un espace adapté à cette démonstration. La préparation est plus simple lorsque le contact comprend qu'un exemple reconnaissable suffit, sans recopier des informations réelles sur ses clients, ses salariés ou ses engagements commerciaux. L'atelier doit pouvoir se concentrer sur les gestes et les procédures.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "48-011",
+    "doc_no": 48,
+    "doc_id": "workshop-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/Atelier équipe septembre.md",
+    "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+    "source_lang": "fr",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      21,
+      21
+     ]
+    },
+    "locator_text": "строка 21",
+    "segment_sha": "9e691a1a2037",
+    "section": "Préparer un terrain de démonstration",
+    "section_ru": "Подготовка площадки для демонстрации",
+    "text_ru": "В переписке о подготовке изложите потребность команды её собственными словами: например, ориентироваться в общих пространствах или понять повседневную процедуру. Это изложение не добавляет услугу в договор; оно задаёт сессии сквозную линию. Если у нескольких коллег разные ожидания, сделайте их видимыми до встречи. Один контакт может говорить о вводном знакомстве новых пользователей, а другой уже представлять полный разбор своей организации. Лучше обнаружить это различие в письме о подготовке.",
+    "text_orig": "Dans la conversation de préparation, résumez le besoin de l'équipe avec ses propres mots: par exemple, se repérer dans les espaces partagés ou comprendre une procédure courante. Ce résumé n'ajoute pas une prestation au contrat; il donne un fil conducteur à la séance. Si plusieurs collègues apportent des attentes différentes, rendez-les visibles avant le rendez-vous. Un contact peut parler d'accueil des nouveaux utilisateurs alors qu'un autre imagine déjà une revue complète de son organisation. Mieux vaut découvrir cette différence dans le courriel de préparation.",
+    "translation": "translated",
+    "translation_review": {
+     "checks": [
+      "conditions"
+     ],
+     "decision": "accepted",
+     "note": "«Dans la conversation» — место («в переписке»), не срок."
+    },
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "48-012",
+    "doc_no": 48,
+    "doc_id": "workshop-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/Atelier équipe septembre.md",
+    "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+    "source_lang": "fr",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      23,
+      23
+     ]
+    },
+    "locator_text": "строка 23",
+    "segment_sha": "f9cb6867e3e8",
+    "section": "Préparer un terrain de démonstration",
+    "section_ru": "Подготовка площадки для демонстрации",
+    "text_ru": "Субтитры на французском доступны по предварительному запросу. Упомяните эту возможность достаточно рано, чтобы участники могли выразить свою потребность. Контакт по договору не всегда знает, кому они понадобятся, и может захотеть посоветоваться с командой перед ответом. Не нужно запрашивать в переписке личные обоснования. Организовать сессию нам помогает запрос субтитров, сделанный до воркшопа, а не подробное объяснение индивидуальной ситуации каждого участника.",
+    "text_orig": "Des sous-titres en français sont disponibles sur demande préalable. Mentionnez cette possibilité assez tôt pour que les participants puissent exprimer leur besoin. Le contact du contrat ne sait pas toujours qui en aura l'usage, et il peut vouloir consulter son équipe avant de répondre. Il n'est pas nécessaire de demander des justifications personnelles dans le fil. Ce qui nous aide à organiser la séance est la demande de sous-titres, formulée avant l'atelier, et non une explication détaillée de la situation individuelle de chaque participant.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "48-013",
+    "doc_no": 48,
+    "doc_id": "workshop-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/Atelier équipe septembre.md",
+    "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+    "source_lang": "fr",
+    "format": "md",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      25,
+      25
+     ]
+    },
+    "locator_text": "строка 25",
+    "segment_sha": "17a76f6c10e7",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "## Если расписание меняется",
+    "text_orig": "## Si le calendrier change",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "48-014",
+    "doc_no": 48,
+    "doc_id": "workshop-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/Atelier équipe septembre.md",
+    "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+    "source_lang": "fr",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      27,
+      27
+     ]
+    },
+    "locator_text": "строка 27",
+    "segment_sha": "7c18518aaaf3",
+    "section": "Si le calendrier change",
+    "section_ru": "Если расписание меняется",
+    "text_ru": "Бесплатный перенос возможен не позднее чем за 2 рабочих дня до сессии. Напоминайте это правило, когда клиент сообщает об изменении доступности. Фраза вроде «посмотрим накануне, смогут ли все прийти» не позволяет команде понять рамки переноса. Просьба перенести сессию и подтверждение новой встречи — тоже два разных события. В сообщении, завершающем переписку, ясно напишите, о чём договорились, чтобы сохранённые участниками приглашения не рассказывали несколько разных историй.",
+    "text_orig": "Un report sans frais est possible jusqu'à 2 jours ouvrés avant la séance. Reprenez cette règle lorsque le client annonce un changement de disponibilité. Une phrase comme «nous verrons la veille si tout le monde peut venir» ne permet pas à l'équipe de comprendre le cadre du report. La demande de déplacer une séance et la confirmation d'un nouveau rendez-vous sont aussi deux événements différents. Dans le message qui termine l'échange, écrivez clairement ce qui a été convenu, afin que les invitations conservées par les participants ne racontent pas plusieurs histoires.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "48-015",
+    "doc_no": 48,
+    "doc_id": "workshop-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/Atelier équipe septembre.md",
+    "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+    "source_lang": "fr",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      29,
+      29
+     ]
+    },
+    "locator_text": "строка 29",
+    "segment_sha": "3c97233e1519",
+    "section": "Si le calendrier change",
+    "section_ru": "Если расписание меняется",
+    "text_ru": "Резюме воркшопа отправляется контакту по договору в течение 2 рабочих дней. Скажите об этом, объясняя ход сессии, потому что некоторые участники хотят сосредоточиться на обсуждении, а не торопливо записывать. Предусмотренный получатель — контакт по договору. Не считайте, что все люди, добавленные в старую переписку, стали этим контактом. Резюме должно вернуться к договорным отношениям, которые мы с клиентом определили, а затем клиент может организовать собственное внутреннее распространение.",
+    "text_orig": "Le résumé de l'atelier est envoyé au contact du contrat dans les 2 jours ouvrés. Dites-le lorsque vous expliquez le déroulement, car certains participants souhaitent se concentrer sur les échanges plutôt que prendre des notes à toute vitesse. Le destinataire prévu est le contact du contrat. Ne supposez pas que toutes les personnes ajoutées à un ancien fil sont devenues ce contact. Le résumé doit revenir vers la relation contractuelle que le client et nous avons identifiée, puis le client peut organiser sa propre circulation interne.",
+    "translation": "translated",
+    "translation_review": {
+     "checks": [
+      "conditions"
+     ],
+     "decision": "accepted",
+     "note": "Ложное «only»: «Ne supposez pas que» → «Не считайте, что»; срок «dans les 2 jours ouvrés» → «в течение 2 рабочих дней» сохранён."
+    },
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "48-016",
+    "doc_no": 48,
+    "doc_id": "workshop-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/Atelier équipe septembre.md",
+    "source_sha256": "4a4ea5e0e459771aec501344ea3ac727b4ee006ffbe5ed7d5fce708db521dc45",
+    "source_lang": "fr",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      31,
+      31
+     ]
+    },
+    "locator_text": "строка 31",
+    "segment_sha": "2c820bd8354d",
+    "section": "Si le calendrier change",
+    "section_ru": "Если расписание меняется",
+    "text_ru": "Поэтому, готовясь к следующему обмену сообщениями, я перечитываю переписку так, как это сделал бы человек, не участвовавший ни в одном звонке: видит ли он соответствующий договор, желаемую сессию, число участников, часовой пояс и демонстрационное пространство, которое нужно подготовить? Такое перечитывание не заменяет приведённых выше условий, но выявляет подразумеваемое. Воркшоп проходит лучше, когда все приходят с одной и той же встречей в голове и с пригодным пространством. Пожалуйста, сохраняйте практические сведения в переписке, даже если контакт кажется вам уже хорошо знакомым с услугой.",
+    "text_orig": "Pour préparer un prochain échange, je relis donc le fil comme le ferait une personne qui n'a participé à aucun appel: voit-elle le contrat concerné, la séance souhaitée, le nombre de participants, le fuseau et l'espace de démonstration à préparer? Cette relecture ne remplace pas les modalités ci-dessus, mais elle fait ressortir les implicites. Un atelier se passe mieux lorsque tout le monde arrive avec le même rendez-vous en tête et un espace utilisable. Merci de garder les informations pratiques dans la conversation, même lorsque le contact vous paraît déjà très familier du service.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   }
+  ]
+ }
+}

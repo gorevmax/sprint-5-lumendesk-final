@@ -1,0 +1,14 @@
+{
+ "version": "v2",
+ "description": "Поведение RAG-помощника LumenDesk: фильтр по роли до поиска, порог отсечения, четыре решения.",
+ "top_k": 8,
+ "retrieval_threshold": 0.20,
+ "retrieval_threshold_note": "косинусное расстояние; кандидаты с distance > 0.20 не входят в контекст. Исходная настройка, не вероятность ответа.",
+ "authorization_probe_distance": 0.35,
+ "authorization_probe_note": "диагностика: закрытый для роли фрагмент ближе 0.35 даёт context_state=forbidden, если разрешённого контекста нет. Права доступа не выдаёт.",
+ "roles": ["support_agent", "support_lead"],
+ "role_note": "параметр --role не является аутентификацией; соответствие документов ролям — access.csv",
+ "decisions": ["answer", "clarify", "escalate", "refuse"],
+ "context_states": ["available", "empty", "forbidden"],
+ "system_file": "behavior/system-v2.md"
+}

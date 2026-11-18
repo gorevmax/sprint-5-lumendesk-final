@@ -1,0 +1,1148 @@
+{
+ "no": 31,
+ "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+ "doc_id": "api-key-rotation",
+ "title": "Ротация сервисного ключа без потери контекста",
+ "title_ru": "Ротация сервисного ключа без потери контекста",
+ "lang": "ru",
+ "format": "md",
+ "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+ "decision": {
+  "no": 31,
+  "path": "documents/Платформа и интеграции/Ротация ключей.md",
+  "doc_id": "api-key-rotation",
+  "title": "Ротация сервисного ключа без потери контекста",
+  "lang": "ru",
+  "owner": "Security Operations",
+  "version": "2026-09-01",
+  "updated": "2026-09-01",
+  "doc_type": "rule",
+  "status": "include",
+  "rule": "R1+R4",
+  "reason": "Основной экземпляр группы DUP-api-key: исходный формат md в тематической папке; №39 — тот же текст в PDF.",
+  "access": "all",
+  "trust": "confirmed",
+  "dup_group": "DUP-api-key",
+  "dup_role": "main",
+  "related": [
+   26,
+   23,
+   25
+  ]
+ },
+ "fragments": [
+  {
+   "fragment_id": "31-001",
+   "doc_no": 31,
+   "doc_id": "api-key-rotation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "title",
+   "locator": {
+    "lines": [
+     1,
+     1
+    ]
+   },
+   "locator_text": "строка 1",
+   "segment_sha": "b32d3793b082",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "# Ротация сервисного ключа без потери контекста",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-api-key",
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "31-002",
+   "doc_no": 31,
+   "doc_id": "api-key-rotation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     3,
+     3
+    ]
+   },
+   "locator_text": "строка 3",
+   "segment_sha": "1ad0863826fb",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Записка Security Operations для коллег, которые сопровождают интеграции LumenDesk. После сверки 1 сентября 2026 года используем этот порядок для сервисных ключей REST API. Его основная трудность обычно не в создании новой строки в настройках, а в согласовании перехода: часть людей думает, что новый ключ уже используется, другая часть ещё смотрит на старую конфигурацию. Поэтому до начала работы договоритесь, кто создаёт ключ, кто меняет настройку интеграции и кто подтверждает проверку. Это описание не расширяет возможности ключа и не заменяет его scopes.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-api-key",
+   "conflict_group": null,
+   "also_in": [
+    {
+     "fragment_id": "39-002",
+     "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+     "locator_text": "стр. 1, блок 2",
+     "source_lang": "ru"
+    }
+   ],
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "31-003",
+   "doc_no": 31,
+   "doc_id": "api-key-rotation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     5,
+     5
+    ]
+   },
+   "locator_text": "строка 5",
+   "segment_sha": "d2468a7dfb52",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Ключ API ротируют не реже одного раза в 90 календарных дней. Отсчёт по календарю важен: обсуждение очередного обновления нельзя бесконечно переносить на удобную встречу команды. При этом сам факт появления нового ключа ещё не завершает ротацию. Переход закончен тогда, когда новый проверен, а старый отозван. Оставленный «на всякий случай» прежний ключ продолжает быть активным средством доступа, поэтому в разговоре с клиентом нужно различать создание, проверку и отзыв, даже если все действия входят в одну рабочую задачу.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-api-key",
+   "conflict_group": null,
+   "also_in": [
+    {
+     "fragment_id": "39-003",
+     "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+     "locator_text": "стр. 1, блок 3",
+     "source_lang": "ru"
+    }
+   ],
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "31-004",
+   "doc_no": 31,
+   "doc_id": "api-key-rotation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     7,
+     7
+    ]
+   },
+   "locator_text": "строка 7",
+   "segment_sha": "133498913a97",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "## Подготовить смену",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-api-key",
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "31-005",
+   "doc_no": 31,
+   "doc_id": "api-key-rotation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     9,
+     9
+    ]
+   },
+   "locator_text": "строка 9",
+   "segment_sha": "9f9578fc4b39",
+   "section": "Подготовить смену",
+   "section_ru": "Подготовить смену",
+   "text_ru": "Новый ключ создаёт администратор интеграции с минимальным набором scopes. Не копируйте расширенные права в новую конфигурацию лишь потому, что прежняя интеграция когда-то получила их для другого сценария. Для этой процедуры важно, чтобы проверка относилась к разрешённой работе интеграции. Если человек, запускающий переход, не понимает, какой запрос записи ей нужен, это следует прояснить до отзыва старого ключа, а не экспериментировать с произвольными изменениями клиентских данных.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-api-key",
+   "conflict_group": null,
+   "also_in": [
+    {
+     "fragment_id": "39-005",
+     "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+     "locator_text": "стр. 1, блок 5",
+     "source_lang": "ru"
+    }
+   ],
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "31-006",
+   "doc_no": 31,
+   "doc_id": "api-key-rotation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     11,
+     11
+    ]
+   },
+   "locator_text": "строка 11",
+   "segment_sha": "9e4f00a13ab9",
+   "section": "Подготовить смену",
+   "section_ru": "Подготовить смену",
+   "text_ru": "Одновременно допускаются два активных ключа в течение 24 часов. Это окно перекрытия предназначено для безопасного перехода. Оно даёт возможность проверить новый доступ, пока старый ещё обеспечивает работу, но не превращает пару ключей в постоянную схему эксплуатации. В плане перехода назовите начало окна и его окончание так, чтобы коллеги не принимали «сутки» за конец следующего рабочего дня. Занятость администратора и выходные не являются дополнительным разрешением оставить оба ключа активными за пределами этого окна.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-api-key",
+   "conflict_group": null,
+   "also_in": [
+    {
+     "fragment_id": "39-006",
+     "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+     "locator_text": "стр. 1, блок 6",
+     "source_lang": "ru"
+    }
+   ],
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "31-007",
+   "doc_no": 31,
+   "doc_id": "api-key-rotation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     13,
+     13
+    ]
+   },
+   "locator_text": "строка 13",
+   "segment_sha": "837ec24585b8",
+   "section": "Подготовить смену",
+   "section_ru": "Подготовить смену",
+   "text_ru": "Не стоит обсуждать смену через пересылку самих секретов. Полное значение ключа нельзя отправлять в поддержку, по почте или в чат. Это касается и внутреннего диалога, и ответа клиенту, и снимка экрана, если на нём виден весь ключ. Поддержке не нужен секрет, чтобы разобраться, о каком доступе идёт речь. Попросите человека остановиться, если он собирается вставить значение в сообщение, и объясните, какие диагностические сведения можно сообщить вместо него.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-api-key",
+   "conflict_group": null,
+   "also_in": [
+    {
+     "fragment_id": "39-007",
+     "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+     "locator_text": "стр. 1, блок 7",
+     "source_lang": "ru"
+    }
+   ],
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "31-008",
+   "doc_no": 31,
+   "doc_id": "api-key-rotation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     15,
+     15
+    ]
+   },
+   "locator_text": "строка 15",
+   "segment_sha": "8445984418b1",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "## Проверить до отзыва",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-api-key",
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "31-009",
+   "doc_no": 31,
+   "doc_id": "api-key-rotation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     17,
+     17
+    ]
+   },
+   "locator_text": "строка 17",
+   "segment_sha": "a8a300f72cff",
+   "section": "Проверить до отзыва",
+   "section_ru": "Проверить до отзыва",
+   "text_ru": "До отзыва старого ключа выполните с новым один запрос чтения и один разрешённый запрос записи. Успешное чтение само по себе не доказывает, что интеграция сможет продолжить все нужные ей операции. В то же время проверка записи должна соответствовать её разрешениям, а не служить способом попробовать любые действия в workspace. В записи о переходе полезно ясно отделить факт выполнения чтения от факта выполнения записи: иначе короткое «API отвечает» будет неоднозначным для следующего человека.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-api-key",
+   "conflict_group": null,
+   "also_in": [
+    {
+     "fragment_id": "39-009",
+     "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+     "locator_text": "стр. 1, блок 9",
+     "source_lang": "ru"
+    }
+   ],
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "31-010",
+   "doc_no": 31,
+   "doc_id": "api-key-rotation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     19,
+     19
+    ]
+   },
+   "locator_text": "строка 19",
+   "segment_sha": "a86f75100944",
+   "section": "Проверить до отзыва",
+   "section_ru": "Проверить до отзыва",
+   "text_ru": "Результаты проверки обсуждают через контекст запросов. В обращении допустимы key ID, время UTC, endpoint и request ID без заголовка Authorization. Такой набор позволяет говорить об одном событии и не переносить секрет в переписку. Если клиент копирует большой фрагмент сетевого журнала, попросите оставить только нужные сведения и убрать Authorization. Обилие строк в логе не делает диагностику точнее, когда из них нельзя понять, каким ключом и в какой момент выполнялась проверка.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-api-key",
+   "conflict_group": null,
+   "also_in": [
+    {
+     "fragment_id": "39-010",
+     "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+     "locator_text": "стр. 1–2, блок 10",
+     "source_lang": "ru"
+    }
+   ],
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "31-011",
+   "doc_no": 31,
+   "doc_id": "api-key-rotation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     21,
+     21
+    ]
+   },
+   "locator_text": "строка 21",
+   "segment_sha": "08df4a37e6ef",
+   "section": "Проверить до отзыва",
+   "section_ru": "Проверить до отзыва",
+   "text_ru": "После успешной проверки нового старый ключ отзывают. Это нужно сделать не позднее конца 24-часового окна перекрытия. Не откладывайте отзыв из-за того, что коллега ещё не прочитал сообщение об успешном тесте: договорённость о том, кто выполняет завершающее действие, должна быть частью самого перехода. Если в обсуждении сказано только «ключ заменили», уточните, означает ли это изменение настройки или также отзыв прежнего ключа. Это разные наблюдаемые действия, хотя в бытовом разговоре их часто сжимают в одно слово.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-api-key",
+   "conflict_group": null,
+   "also_in": [
+    {
+     "fragment_id": "39-011",
+     "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+     "locator_text": "стр. 2, блок 1",
+     "source_lang": "ru"
+    }
+   ],
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "31-012",
+   "doc_no": 31,
+   "doc_id": "api-key-rotation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     23,
+     23
+    ]
+   },
+   "locator_text": "строка 23",
+   "segment_sha": "5879ffa19843",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "## Когда разговор становится инцидентом",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-api-key",
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "31-013",
+   "doc_no": 31,
+   "doc_id": "api-key-rotation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     25,
+     25
+    ]
+   },
+   "locator_text": "строка 25",
+   "segment_sha": "18a095fd4755",
+   "section": "Когда разговор становится инцидентом",
+   "section_ru": "Когда разговор становится инцидентом",
+   "text_ru": "При подозрении на раскрытие ключ отзывают немедленно и передают incident ID руководителю поддержки. В этом случае нельзя воспринимать обычное окно перекрытия как разрешение продолжать использовать предположительно раскрытый секрет до удобного времени. Описывая ситуацию коллеге, назовите подозрение и связанный инцидент, а не включайте сам ключ в доказательства. Руководителю нужен контекст происшествия, но пересылка полного значения создаёт новое место его распространения и не помогает исполнить правило немедленного отзыва.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-api-key",
+   "conflict_group": null,
+   "also_in": [
+    {
+     "fragment_id": "39-013",
+     "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+     "locator_text": "стр. 2, блок 3",
+     "source_lang": "ru"
+    }
+   ],
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "31-014",
+   "doc_no": 31,
+   "doc_id": "api-key-rotation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     27,
+     27
+    ]
+   },
+   "locator_text": "строка 27",
+   "segment_sha": "6f2724048c20",
+   "section": "Когда разговор становится инцидентом",
+   "section_ru": "Когда разговор становится инцидентом",
+   "text_ru": "Создание и отзыв записываются в журнал аудита workspace. При сопровождении планового перехода это позволяет отличать намерение от выполненного действия. Сообщение администратора «сейчас отзову» не равно событию отзыва в журнале. Поддержка может обсуждать время и идентификаторы, не запрашивая доступ к секрету. Для клиента полезно такое же различие: смена настройки интеграции подтверждает её готовность работать с новым ключом, а запись отзыва относится к прекращению действия старого.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-api-key",
+   "conflict_group": null,
+   "also_in": [
+    {
+     "fragment_id": "39-014",
+     "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+     "locator_text": "стр. 2, блок 4",
+     "source_lang": "ru"
+    }
+   ],
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "31-015",
+   "doc_no": 31,
+   "doc_id": "api-key-rotation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     29,
+     29
+    ]
+   },
+   "locator_text": "строка 29",
+   "segment_sha": "7e9214ed6577",
+   "section": "Когда разговор становится инцидентом",
+   "section_ru": "Когда разговор становится инцидентом",
+   "text_ru": "В конце передачи между сменами оставляйте понятную историю: какой ключ обсуждался по его ID, в какое время UTC выполнялись запросы чтения и разрешённой записи, отозван ли прежний ключ. Содержание секретов в такой истории не нужно. Эта записка намеренно описывает только жизненный цикл сервисного ключа REST API: минимальные scopes при создании, проверку нового доступа и своевременное завершение перехода. По ней нельзя выводить дополнительные сроки хранения журналов, иные виды ключей или новые полномочия поддержки.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-api-key",
+   "conflict_group": null,
+   "also_in": [
+    {
+     "fragment_id": "39-015",
+     "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+     "locator_text": "стр. 2, блок 5",
+     "source_lang": "ru"
+    }
+   ],
+   "index": true,
+   "handling": "Действующий материал."
+  }
+ ],
+ "_base": {
+  "no": 31,
+  "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+  "doc_id": "api-key-rotation",
+  "title": "Ротация сервисного ключа без потери контекста",
+  "title_ru": "Ротация сервисного ключа без потери контекста",
+  "lang": "ru",
+  "format": "md",
+  "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+  "decision": {
+   "no": 31,
+   "path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "doc_id": "api-key-rotation",
+   "title": "Ротация сервисного ключа без потери контекста",
+   "lang": "ru",
+   "owner": "Security Operations",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "doc_type": "rule",
+   "status": "include",
+   "rule": "R1+R4",
+   "reason": "Основной экземпляр группы DUP-api-key: исходный формат md в тематической папке; №39 — тот же текст в PDF.",
+   "access": "all",
+   "trust": "confirmed",
+   "dup_group": "DUP-api-key",
+   "dup_role": "main",
+   "related": [
+    26,
+    23,
+    25
+   ]
+  },
+  "fragments": [
+   {
+    "fragment_id": "31-001",
+    "doc_no": 31,
+    "doc_id": "api-key-rotation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+    "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "title",
+    "locator": {
+     "lines": [
+      1,
+      1
+     ]
+    },
+    "locator_text": "строка 1",
+    "segment_sha": "b32d3793b082",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "# Ротация сервисного ключа без потери контекста",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-api-key",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "31-002",
+    "doc_no": 31,
+    "doc_id": "api-key-rotation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+    "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      3,
+      3
+     ]
+    },
+    "locator_text": "строка 3",
+    "segment_sha": "1ad0863826fb",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Записка Security Operations для коллег, которые сопровождают интеграции LumenDesk. После сверки 1 сентября 2026 года используем этот порядок для сервисных ключей REST API. Его основная трудность обычно не в создании новой строки в настройках, а в согласовании перехода: часть людей думает, что новый ключ уже используется, другая часть ещё смотрит на старую конфигурацию. Поэтому до начала работы договоритесь, кто создаёт ключ, кто меняет настройку интеграции и кто подтверждает проверку. Это описание не расширяет возможности ключа и не заменяет его scopes.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-api-key",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "31-003",
+    "doc_no": 31,
+    "doc_id": "api-key-rotation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+    "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      5,
+      5
+     ]
+    },
+    "locator_text": "строка 5",
+    "segment_sha": "d2468a7dfb52",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Ключ API ротируют не реже одного раза в 90 календарных дней. Отсчёт по календарю важен: обсуждение очередного обновления нельзя бесконечно переносить на удобную встречу команды. При этом сам факт появления нового ключа ещё не завершает ротацию. Переход закончен тогда, когда новый проверен, а старый отозван. Оставленный «на всякий случай» прежний ключ продолжает быть активным средством доступа, поэтому в разговоре с клиентом нужно различать создание, проверку и отзыв, даже если все действия входят в одну рабочую задачу.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-api-key",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "31-004",
+    "doc_no": 31,
+    "doc_id": "api-key-rotation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+    "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      7,
+      7
+     ]
+    },
+    "locator_text": "строка 7",
+    "segment_sha": "133498913a97",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "## Подготовить смену",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-api-key",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "31-005",
+    "doc_no": 31,
+    "doc_id": "api-key-rotation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+    "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      9,
+      9
+     ]
+    },
+    "locator_text": "строка 9",
+    "segment_sha": "9f9578fc4b39",
+    "section": "Подготовить смену",
+    "section_ru": "Подготовить смену",
+    "text_ru": "Новый ключ создаёт администратор интеграции с минимальным набором scopes. Не копируйте расширенные права в новую конфигурацию лишь потому, что прежняя интеграция когда-то получила их для другого сценария. Для этой процедуры важно, чтобы проверка относилась к разрешённой работе интеграции. Если человек, запускающий переход, не понимает, какой запрос записи ей нужен, это следует прояснить до отзыва старого ключа, а не экспериментировать с произвольными изменениями клиентских данных.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-api-key",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "31-006",
+    "doc_no": 31,
+    "doc_id": "api-key-rotation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+    "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      11,
+      11
+     ]
+    },
+    "locator_text": "строка 11",
+    "segment_sha": "9e4f00a13ab9",
+    "section": "Подготовить смену",
+    "section_ru": "Подготовить смену",
+    "text_ru": "Одновременно допускаются два активных ключа в течение 24 часов. Это окно перекрытия предназначено для безопасного перехода. Оно даёт возможность проверить новый доступ, пока старый ещё обеспечивает работу, но не превращает пару ключей в постоянную схему эксплуатации. В плане перехода назовите начало окна и его окончание так, чтобы коллеги не принимали «сутки» за конец следующего рабочего дня. Занятость администратора и выходные не являются дополнительным разрешением оставить оба ключа активными за пределами этого окна.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-api-key",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "31-007",
+    "doc_no": 31,
+    "doc_id": "api-key-rotation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+    "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      13,
+      13
+     ]
+    },
+    "locator_text": "строка 13",
+    "segment_sha": "837ec24585b8",
+    "section": "Подготовить смену",
+    "section_ru": "Подготовить смену",
+    "text_ru": "Не стоит обсуждать смену через пересылку самих секретов. Полное значение ключа нельзя отправлять в поддержку, по почте или в чат. Это касается и внутреннего диалога, и ответа клиенту, и снимка экрана, если на нём виден весь ключ. Поддержке не нужен секрет, чтобы разобраться, о каком доступе идёт речь. Попросите человека остановиться, если он собирается вставить значение в сообщение, и объясните, какие диагностические сведения можно сообщить вместо него.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-api-key",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "31-008",
+    "doc_no": 31,
+    "doc_id": "api-key-rotation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+    "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      15,
+      15
+     ]
+    },
+    "locator_text": "строка 15",
+    "segment_sha": "8445984418b1",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "## Проверить до отзыва",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-api-key",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "31-009",
+    "doc_no": 31,
+    "doc_id": "api-key-rotation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+    "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      17,
+      17
+     ]
+    },
+    "locator_text": "строка 17",
+    "segment_sha": "a8a300f72cff",
+    "section": "Проверить до отзыва",
+    "section_ru": "Проверить до отзыва",
+    "text_ru": "До отзыва старого ключа выполните с новым один запрос чтения и один разрешённый запрос записи. Успешное чтение само по себе не доказывает, что интеграция сможет продолжить все нужные ей операции. В то же время проверка записи должна соответствовать её разрешениям, а не служить способом попробовать любые действия в workspace. В записи о переходе полезно ясно отделить факт выполнения чтения от факта выполнения записи: иначе короткое «API отвечает» будет неоднозначным для следующего человека.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-api-key",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "31-010",
+    "doc_no": 31,
+    "doc_id": "api-key-rotation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+    "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      19,
+      19
+     ]
+    },
+    "locator_text": "строка 19",
+    "segment_sha": "a86f75100944",
+    "section": "Проверить до отзыва",
+    "section_ru": "Проверить до отзыва",
+    "text_ru": "Результаты проверки обсуждают через контекст запросов. В обращении допустимы key ID, время UTC, endpoint и request ID без заголовка Authorization. Такой набор позволяет говорить об одном событии и не переносить секрет в переписку. Если клиент копирует большой фрагмент сетевого журнала, попросите оставить только нужные сведения и убрать Authorization. Обилие строк в логе не делает диагностику точнее, когда из них нельзя понять, каким ключом и в какой момент выполнялась проверка.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-api-key",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "31-011",
+    "doc_no": 31,
+    "doc_id": "api-key-rotation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+    "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      21,
+      21
+     ]
+    },
+    "locator_text": "строка 21",
+    "segment_sha": "08df4a37e6ef",
+    "section": "Проверить до отзыва",
+    "section_ru": "Проверить до отзыва",
+    "text_ru": "После успешной проверки нового старый ключ отзывают. Это нужно сделать не позднее конца 24-часового окна перекрытия. Не откладывайте отзыв из-за того, что коллега ещё не прочитал сообщение об успешном тесте: договорённость о том, кто выполняет завершающее действие, должна быть частью самого перехода. Если в обсуждении сказано только «ключ заменили», уточните, означает ли это изменение настройки или также отзыв прежнего ключа. Это разные наблюдаемые действия, хотя в бытовом разговоре их часто сжимают в одно слово.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-api-key",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "31-012",
+    "doc_no": 31,
+    "doc_id": "api-key-rotation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+    "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      23,
+      23
+     ]
+    },
+    "locator_text": "строка 23",
+    "segment_sha": "5879ffa19843",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "## Когда разговор становится инцидентом",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-api-key",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "31-013",
+    "doc_no": 31,
+    "doc_id": "api-key-rotation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+    "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      25,
+      25
+     ]
+    },
+    "locator_text": "строка 25",
+    "segment_sha": "18a095fd4755",
+    "section": "Когда разговор становится инцидентом",
+    "section_ru": "Когда разговор становится инцидентом",
+    "text_ru": "При подозрении на раскрытие ключ отзывают немедленно и передают incident ID руководителю поддержки. В этом случае нельзя воспринимать обычное окно перекрытия как разрешение продолжать использовать предположительно раскрытый секрет до удобного времени. Описывая ситуацию коллеге, назовите подозрение и связанный инцидент, а не включайте сам ключ в доказательства. Руководителю нужен контекст происшествия, но пересылка полного значения создаёт новое место его распространения и не помогает исполнить правило немедленного отзыва.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-api-key",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "31-014",
+    "doc_no": 31,
+    "doc_id": "api-key-rotation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+    "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      27,
+      27
+     ]
+    },
+    "locator_text": "строка 27",
+    "segment_sha": "6f2724048c20",
+    "section": "Когда разговор становится инцидентом",
+    "section_ru": "Когда разговор становится инцидентом",
+    "text_ru": "Создание и отзыв записываются в журнал аудита workspace. При сопровождении планового перехода это позволяет отличать намерение от выполненного действия. Сообщение администратора «сейчас отзову» не равно событию отзыва в журнале. Поддержка может обсуждать время и идентификаторы, не запрашивая доступ к секрету. Для клиента полезно такое же различие: смена настройки интеграции подтверждает её готовность работать с новым ключом, а запись отзыва относится к прекращению действия старого.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-api-key",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "31-015",
+    "doc_no": 31,
+    "doc_id": "api-key-rotation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+    "source_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      29,
+      29
+     ]
+    },
+    "locator_text": "строка 29",
+    "segment_sha": "7e9214ed6577",
+    "section": "Когда разговор становится инцидентом",
+    "section_ru": "Когда разговор становится инцидентом",
+    "text_ru": "В конце передачи между сменами оставляйте понятную историю: какой ключ обсуждался по его ID, в какое время UTC выполнялись запросы чтения и разрешённой записи, отозван ли прежний ключ. Содержание секретов в такой истории не нужно. Эта записка намеренно описывает только жизненный цикл сервисного ключа REST API: минимальные scopes при создании, проверку нового доступа и своевременное завершение перехода. По ней нельзя выводить дополнительные сроки хранения журналов, иные виды ключей или новые полномочия поддержки.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-api-key",
+    "conflict_group": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,4218 @@
+{
+ "no": 17,
+ "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+ "doc_id": "retention-reconciliation",
+ "title": "",
+ "title_ru": null,
+ "lang": "ru",
+ "format": "csv",
+ "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+ "decision": {
+  "no": 17,
+  "path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+  "doc_id": "retention-reconciliation",
+  "title": "",
+  "lang": "ru",
+  "owner": "",
+  "version": "2026-09-01",
+  "updated": "2026-09-30",
+  "doc_type": "register",
+  "status": "include",
+  "rule": "R5",
+  "reason": "Владелец не указан; «Копия для проверки правил от 1 сентября 2026»; все сроки совпадают с №13, №22, №28, №44.",
+  "access": "all",
+  "trust": "unconfirmed_origin",
+  "related": [
+   13,
+   22,
+   28,
+   44
+  ]
+ },
+ "fragments": [
+  {
+   "fragment_id": "17-001",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "table_header",
+   "locator": {
+    "csv_row": 1
+   },
+   "locator_text": "строка 1",
+   "segment_sha": "d9f9adba00ac",
+   "cells": [
+    {
+     "col": 1,
+     "value": "Область",
+     "value_ru": "Область"
+    },
+    {
+     "col": 2,
+     "value": "Тариф или объект",
+     "value_ru": "Тариф или объект"
+    },
+    {
+     "col": 3,
+     "value": "Срок или действие",
+     "value_ru": "Срок или действие"
+    },
+    {
+     "col": 4,
+     "value": "Удалено",
+     "value_ru": "Удалено"
+    },
+    {
+     "col": 5,
+     "value": "Примечание проверки",
+     "value_ru": "Примечание проверки"
+    }
+   ],
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область | Тариф или объект | Срок или действие | Удалено | Примечание проверки",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-002",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 2
+   },
+   "locator_text": "строка 2",
+   "segment_sha": "12252b71e328",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Корзина",
+     "header_ru": "Область",
+     "value_ru": "Корзина"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Starter",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "Восстановление удалённых объектов: 7 дней.",
+     "header_ru": "Срок или действие",
+     "value_ru": "Восстановление удалённых объектов: 7 дней."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Корзина; Тариф или объект: Starter; Срок или действие: Восстановление удалённых объектов: 7 дней.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-003",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 3
+   },
+   "locator_text": "строка 3",
+   "segment_sha": "fdb07acea8fe",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Корзина",
+     "header_ru": "Область",
+     "value_ru": "Корзина"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Team",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Team"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "Восстановление удалённых объектов: 30 дней.",
+     "header_ru": "Срок или действие",
+     "value_ru": "Восстановление удалённых объектов: 30 дней."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Корзина; Тариф или объект: Team; Срок или действие: Восстановление удалённых объектов: 30 дней.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-004",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 4
+   },
+   "locator_text": "строка 4",
+   "segment_sha": "8aa59fe9e1d1",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Корзина",
+     "header_ru": "Область",
+     "value_ru": "Корзина"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Enterprise",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "Восстановление удалённых объектов: 90 дней.",
+     "header_ru": "Срок или действие",
+     "value_ru": "Восстановление удалённых объектов: 90 дней."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Корзина; Тариф или объект: Enterprise; Срок или действие: Восстановление удалённых объектов: 90 дней.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-005",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 5
+   },
+   "locator_text": "строка 5",
+   "segment_sha": "8ecc4e6cc9ef",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Журналы и выгрузки",
+     "header_ru": "Область",
+     "value_ru": "Журналы и выгрузки"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Активность Starter",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Активность Starter"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "Журнал активности доступен за последние 14 дней.",
+     "header_ru": "Срок или действие",
+     "value_ru": "Журнал активности доступен за последние 14 дней."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Журналы и выгрузки; Тариф или объект: Активность Starter; Срок или действие: Журнал активности доступен за последние 14 дней.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-006",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 6
+   },
+   "locator_text": "строка 6",
+   "segment_sha": "751cc79e349d",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Журналы и выгрузки",
+     "header_ru": "Область",
+     "value_ru": "Журналы и выгрузки"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Активность Team",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Активность Team"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "Журнал активности доступен за последние 90 дней.",
+     "header_ru": "Срок или действие",
+     "value_ru": "Журнал активности доступен за последние 90 дней."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Журналы и выгрузки; Тариф или объект: Активность Team; Срок или действие: Журнал активности доступен за последние 90 дней.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-007",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 7
+   },
+   "locator_text": "строка 7",
+   "segment_sha": "f128ea30c8fd",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Журналы и выгрузки",
+     "header_ru": "Область",
+     "value_ru": "Журналы и выгрузки"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Аудит Enterprise",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Аудит Enterprise"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "Журнал аудита доступен за последние 365 дней.",
+     "header_ru": "Срок или действие",
+     "value_ru": "Журнал аудита доступен за последние 365 дней."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Журналы и выгрузки; Тариф или объект: Аудит Enterprise; Срок или действие: Журнал аудита доступен за последние 365 дней.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-008",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 8
+   },
+   "locator_text": "строка 8",
+   "segment_sha": "236c1a99ae15",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Журналы и выгрузки",
+     "header_ru": "Область",
+     "value_ru": "Журналы и выгрузки"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "CSV экспорт",
+     "header_ru": "Тариф или объект",
+     "value_ru": "CSV экспорт"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "Готовый архив экспорта хранится 24 часа.",
+     "header_ru": "Срок или действие",
+     "value_ru": "Готовый архив экспорта хранится 24 часа."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Журналы и выгрузки; Тариф или объект: CSV экспорт; Срок или действие: Готовый архив экспорта хранится 24 часа.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-009",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 9
+   },
+   "locator_text": "строка 9",
+   "segment_sha": "fdf0f56f5548",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Журналы и выгрузки",
+     "header_ru": "Область",
+     "value_ru": "Журналы и выгрузки"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Диагностика",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Диагностика"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "Технический диагностический пакет хранится 7 дней.",
+     "header_ru": "Срок или действие",
+     "value_ru": "Технический диагностический пакет хранится 7 дней."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Журналы и выгрузки; Тариф или объект: Диагностика; Срок или действие: Технический диагностический пакет хранится 7 дней.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-010",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 10
+   },
+   "locator_text": "строка 10",
+   "segment_sha": "989668e1fa73",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Журналы и выгрузки",
+     "header_ru": "Область",
+     "value_ru": "Журналы и выгрузки"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Удержание",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Удержание"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "Индивидуальное удержание данных изменяет только сроки из подписанного дополнения.",
+     "header_ru": "Срок или действие",
+     "value_ru": "Индивидуальное удержание данных изменяет только сроки из подписанного дополнения."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Журналы и выгрузки; Тариф или объект: Удержание; Срок или действие: Индивидуальное удержание данных изменяет только сроки из подписанного дополнения.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-011",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 11
+   },
+   "locator_text": "строка 11",
+   "segment_sha": "7695fe289ed6",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Проверка корзины",
+     "header_ru": "Область",
+     "value_ru": "Проверка корзины"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Starter",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "7 календарных дней",
+     "header_ru": "Срок или действие",
+     "value_ru": "7 календарных дней"
+    },
+    {
+     "col": 4,
+     "header": "Удалено",
+     "value": "2026-09-02 10:00 UTC",
+     "header_ru": "Удалено",
+     "value_ru": "2026-09-02 10:00 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Примечание проверки",
+     "value": "2026-09-04 10:00 UTC; прошло 2 дней; администратор может восстановить",
+     "header_ru": "Примечание проверки",
+     "value_ru": "2026-09-04 10:00 UTC; прошло 2 дней; администратор может восстановить"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Проверка корзины; Тариф или объект: Starter; Срок или действие: 7 календарных дней; Удалено: 2026-09-02 10:00 UTC; Примечание проверки: 2026-09-04 10:00 UTC; прошло 2 дней; администратор может восстановить",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-012",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 12
+   },
+   "locator_text": "строка 12",
+   "segment_sha": "f959206de6c1",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Проверка корзины",
+     "header_ru": "Область",
+     "value_ru": "Проверка корзины"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Starter",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "7 календарных дней",
+     "header_ru": "Срок или действие",
+     "value_ru": "7 календарных дней"
+    },
+    {
+     "col": 4,
+     "header": "Удалено",
+     "value": "2026-07-01 10:00 UTC",
+     "header_ru": "Удалено",
+     "value_ru": "2026-07-01 10:00 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Примечание проверки",
+     "value": "2026-09-30 10:00 UTC; прошло 91 дней; окно истекло",
+     "header_ru": "Примечание проверки",
+     "value_ru": "2026-09-30 10:00 UTC; прошло 91 дней; окно истекло"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Проверка корзины; Тариф или объект: Starter; Срок или действие: 7 календарных дней; Удалено: 2026-07-01 10:00 UTC; Примечание проверки: 2026-09-30 10:00 UTC; прошло 91 дней; окно истекло",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-013",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 13
+   },
+   "locator_text": "строка 13",
+   "segment_sha": "de687ff420b9",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Проверка корзины",
+     "header_ru": "Область",
+     "value_ru": "Проверка корзины"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Starter",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "7 календарных дней",
+     "header_ru": "Срок или действие",
+     "value_ru": "7 календарных дней"
+    },
+    {
+     "col": 4,
+     "header": "Удалено",
+     "value": "2026-09-11 10:00 UTC",
+     "header_ru": "Удалено",
+     "value_ru": "2026-09-11 10:00 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Примечание проверки",
+     "value": "2026-09-16 10:00 UTC; прошло 5 дней; администратор может восстановить",
+     "header_ru": "Примечание проверки",
+     "value_ru": "2026-09-16 10:00 UTC; прошло 5 дней; администратор может восстановить"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Проверка корзины; Тариф или объект: Starter; Срок или действие: 7 календарных дней; Удалено: 2026-09-11 10:00 UTC; Примечание проверки: 2026-09-16 10:00 UTC; прошло 5 дней; администратор может восстановить",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-014",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 14
+   },
+   "locator_text": "строка 14",
+   "segment_sha": "d2bef6537153",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Проверка корзины",
+     "header_ru": "Область",
+     "value_ru": "Проверка корзины"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Starter",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "7 календарных дней",
+     "header_ru": "Срок или действие",
+     "value_ru": "7 календарных дней"
+    },
+    {
+     "col": 4,
+     "header": "Удалено",
+     "value": "2026-08-01 10:00 UTC",
+     "header_ru": "Удалено",
+     "value_ru": "2026-08-01 10:00 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Примечание проверки",
+     "value": "2026-09-11 10:00 UTC; прошло 41 дней; окно истекло",
+     "header_ru": "Примечание проверки",
+     "value_ru": "2026-09-11 10:00 UTC; прошло 41 дней; окно истекло"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Проверка корзины; Тариф или объект: Starter; Срок или действие: 7 календарных дней; Удалено: 2026-08-01 10:00 UTC; Примечание проверки: 2026-09-11 10:00 UTC; прошло 41 дней; окно истекло",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-015",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 15
+   },
+   "locator_text": "строка 15",
+   "segment_sha": "a71bda4afd09",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Проверка корзины",
+     "header_ru": "Область",
+     "value_ru": "Проверка корзины"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Starter",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "7 календарных дней",
+     "header_ru": "Срок или действие",
+     "value_ru": "7 календарных дней"
+    },
+    {
+     "col": 4,
+     "header": "Удалено",
+     "value": "2026-09-01 10:00 UTC",
+     "header_ru": "Удалено",
+     "value_ru": "2026-09-01 10:00 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Примечание проверки",
+     "value": "2026-09-20 10:00 UTC; прошло 19 дней; окно истекло",
+     "header_ru": "Примечание проверки",
+     "value_ru": "2026-09-20 10:00 UTC; прошло 19 дней; окно истекло"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Проверка корзины; Тариф или объект: Starter; Срок или действие: 7 календарных дней; Удалено: 2026-09-01 10:00 UTC; Примечание проверки: 2026-09-20 10:00 UTC; прошло 19 дней; окно истекло",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-016",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 16
+   },
+   "locator_text": "строка 16",
+   "segment_sha": "7cc7e1e2a61c",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Проверка корзины",
+     "header_ru": "Область",
+     "value_ru": "Проверка корзины"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Team",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Team"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "30 календарных дней",
+     "header_ru": "Срок или действие",
+     "value_ru": "30 календарных дней"
+    },
+    {
+     "col": 4,
+     "header": "Удалено",
+     "value": "2026-09-02 10:00 UTC",
+     "header_ru": "Удалено",
+     "value_ru": "2026-09-02 10:00 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Примечание проверки",
+     "value": "2026-09-04 10:00 UTC; прошло 2 дней; администратор может восстановить",
+     "header_ru": "Примечание проверки",
+     "value_ru": "2026-09-04 10:00 UTC; прошло 2 дней; администратор может восстановить"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Проверка корзины; Тариф или объект: Team; Срок или действие: 30 календарных дней; Удалено: 2026-09-02 10:00 UTC; Примечание проверки: 2026-09-04 10:00 UTC; прошло 2 дней; администратор может восстановить",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-017",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 17
+   },
+   "locator_text": "строка 17",
+   "segment_sha": "af4825abcb2e",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Проверка корзины",
+     "header_ru": "Область",
+     "value_ru": "Проверка корзины"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Team",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Team"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "30 календарных дней",
+     "header_ru": "Срок или действие",
+     "value_ru": "30 календарных дней"
+    },
+    {
+     "col": 4,
+     "header": "Удалено",
+     "value": "2026-07-01 10:00 UTC",
+     "header_ru": "Удалено",
+     "value_ru": "2026-07-01 10:00 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Примечание проверки",
+     "value": "2026-09-30 10:00 UTC; прошло 91 дней; окно истекло",
+     "header_ru": "Примечание проверки",
+     "value_ru": "2026-09-30 10:00 UTC; прошло 91 дней; окно истекло"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Проверка корзины; Тариф или объект: Team; Срок или действие: 30 календарных дней; Удалено: 2026-07-01 10:00 UTC; Примечание проверки: 2026-09-30 10:00 UTC; прошло 91 дней; окно истекло",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-018",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 18
+   },
+   "locator_text": "строка 18",
+   "segment_sha": "ea041ea27b65",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Проверка корзины",
+     "header_ru": "Область",
+     "value_ru": "Проверка корзины"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Team",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Team"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "30 календарных дней",
+     "header_ru": "Срок или действие",
+     "value_ru": "30 календарных дней"
+    },
+    {
+     "col": 4,
+     "header": "Удалено",
+     "value": "2026-09-11 10:00 UTC",
+     "header_ru": "Удалено",
+     "value_ru": "2026-09-11 10:00 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Примечание проверки",
+     "value": "2026-09-16 10:00 UTC; прошло 5 дней; администратор может восстановить",
+     "header_ru": "Примечание проверки",
+     "value_ru": "2026-09-16 10:00 UTC; прошло 5 дней; администратор может восстановить"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Проверка корзины; Тариф или объект: Team; Срок или действие: 30 календарных дней; Удалено: 2026-09-11 10:00 UTC; Примечание проверки: 2026-09-16 10:00 UTC; прошло 5 дней; администратор может восстановить",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-019",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 19
+   },
+   "locator_text": "строка 19",
+   "segment_sha": "18ec0d7d5555",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Проверка корзины",
+     "header_ru": "Область",
+     "value_ru": "Проверка корзины"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Team",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Team"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "30 календарных дней",
+     "header_ru": "Срок или действие",
+     "value_ru": "30 календарных дней"
+    },
+    {
+     "col": 4,
+     "header": "Удалено",
+     "value": "2026-08-01 10:00 UTC",
+     "header_ru": "Удалено",
+     "value_ru": "2026-08-01 10:00 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Примечание проверки",
+     "value": "2026-09-11 10:00 UTC; прошло 41 дней; окно истекло",
+     "header_ru": "Примечание проверки",
+     "value_ru": "2026-09-11 10:00 UTC; прошло 41 дней; окно истекло"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Проверка корзины; Тариф или объект: Team; Срок или действие: 30 календарных дней; Удалено: 2026-08-01 10:00 UTC; Примечание проверки: 2026-09-11 10:00 UTC; прошло 41 дней; окно истекло",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-020",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 20
+   },
+   "locator_text": "строка 20",
+   "segment_sha": "5e6c7e5810ce",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Проверка корзины",
+     "header_ru": "Область",
+     "value_ru": "Проверка корзины"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Team",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Team"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "30 календарных дней",
+     "header_ru": "Срок или действие",
+     "value_ru": "30 календарных дней"
+    },
+    {
+     "col": 4,
+     "header": "Удалено",
+     "value": "2026-09-01 10:00 UTC",
+     "header_ru": "Удалено",
+     "value_ru": "2026-09-01 10:00 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Примечание проверки",
+     "value": "2026-09-20 10:00 UTC; прошло 19 дней; администратор может восстановить",
+     "header_ru": "Примечание проверки",
+     "value_ru": "2026-09-20 10:00 UTC; прошло 19 дней; администратор может восстановить"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Проверка корзины; Тариф или объект: Team; Срок или действие: 30 календарных дней; Удалено: 2026-09-01 10:00 UTC; Примечание проверки: 2026-09-20 10:00 UTC; прошло 19 дней; администратор может восстановить",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-021",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 21
+   },
+   "locator_text": "строка 21",
+   "segment_sha": "42e8cd8be807",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Проверка корзины",
+     "header_ru": "Область",
+     "value_ru": "Проверка корзины"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Enterprise",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "90 календарных дней",
+     "header_ru": "Срок или действие",
+     "value_ru": "90 календарных дней"
+    },
+    {
+     "col": 4,
+     "header": "Удалено",
+     "value": "2026-09-02 10:00 UTC",
+     "header_ru": "Удалено",
+     "value_ru": "2026-09-02 10:00 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Примечание проверки",
+     "value": "2026-09-04 10:00 UTC; прошло 2 дней; администратор может восстановить",
+     "header_ru": "Примечание проверки",
+     "value_ru": "2026-09-04 10:00 UTC; прошло 2 дней; администратор может восстановить"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Проверка корзины; Тариф или объект: Enterprise; Срок или действие: 90 календарных дней; Удалено: 2026-09-02 10:00 UTC; Примечание проверки: 2026-09-04 10:00 UTC; прошло 2 дней; администратор может восстановить",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-022",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 22
+   },
+   "locator_text": "строка 22",
+   "segment_sha": "38d9369ffc3b",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Проверка корзины",
+     "header_ru": "Область",
+     "value_ru": "Проверка корзины"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Enterprise",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "90 календарных дней",
+     "header_ru": "Срок или действие",
+     "value_ru": "90 календарных дней"
+    },
+    {
+     "col": 4,
+     "header": "Удалено",
+     "value": "2026-07-01 10:00 UTC",
+     "header_ru": "Удалено",
+     "value_ru": "2026-07-01 10:00 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Примечание проверки",
+     "value": "2026-09-30 10:00 UTC; прошло 91 дней; окно истекло",
+     "header_ru": "Примечание проверки",
+     "value_ru": "2026-09-30 10:00 UTC; прошло 91 дней; окно истекло"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Проверка корзины; Тариф или объект: Enterprise; Срок или действие: 90 календарных дней; Удалено: 2026-07-01 10:00 UTC; Примечание проверки: 2026-09-30 10:00 UTC; прошло 91 дней; окно истекло",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-023",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 23
+   },
+   "locator_text": "строка 23",
+   "segment_sha": "15f218ba0d0f",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Проверка корзины",
+     "header_ru": "Область",
+     "value_ru": "Проверка корзины"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Enterprise",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "90 календарных дней",
+     "header_ru": "Срок или действие",
+     "value_ru": "90 календарных дней"
+    },
+    {
+     "col": 4,
+     "header": "Удалено",
+     "value": "2026-09-11 10:00 UTC",
+     "header_ru": "Удалено",
+     "value_ru": "2026-09-11 10:00 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Примечание проверки",
+     "value": "2026-09-16 10:00 UTC; прошло 5 дней; администратор может восстановить",
+     "header_ru": "Примечание проверки",
+     "value_ru": "2026-09-16 10:00 UTC; прошло 5 дней; администратор может восстановить"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Проверка корзины; Тариф или объект: Enterprise; Срок или действие: 90 календарных дней; Удалено: 2026-09-11 10:00 UTC; Примечание проверки: 2026-09-16 10:00 UTC; прошло 5 дней; администратор может восстановить",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-024",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 24
+   },
+   "locator_text": "строка 24",
+   "segment_sha": "e20d92157e2f",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Проверка корзины",
+     "header_ru": "Область",
+     "value_ru": "Проверка корзины"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Enterprise",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "90 календарных дней",
+     "header_ru": "Срок или действие",
+     "value_ru": "90 календарных дней"
+    },
+    {
+     "col": 4,
+     "header": "Удалено",
+     "value": "2026-08-01 10:00 UTC",
+     "header_ru": "Удалено",
+     "value_ru": "2026-08-01 10:00 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Примечание проверки",
+     "value": "2026-09-11 10:00 UTC; прошло 41 дней; администратор может восстановить",
+     "header_ru": "Примечание проверки",
+     "value_ru": "2026-09-11 10:00 UTC; прошло 41 дней; администратор может восстановить"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Проверка корзины; Тариф или объект: Enterprise; Срок или действие: 90 календарных дней; Удалено: 2026-08-01 10:00 UTC; Примечание проверки: 2026-09-11 10:00 UTC; прошло 41 дней; администратор может восстановить",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-025",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 25
+   },
+   "locator_text": "строка 25",
+   "segment_sha": "027fd29e9ebb",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Проверка корзины",
+     "header_ru": "Область",
+     "value_ru": "Проверка корзины"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Enterprise",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "90 календарных дней",
+     "header_ru": "Срок или действие",
+     "value_ru": "90 календарных дней"
+    },
+    {
+     "col": 4,
+     "header": "Удалено",
+     "value": "2026-09-01 10:00 UTC",
+     "header_ru": "Удалено",
+     "value_ru": "2026-09-01 10:00 UTC"
+    },
+    {
+     "col": 5,
+     "header": "Примечание проверки",
+     "value": "2026-09-20 10:00 UTC; прошло 19 дней; администратор может восстановить",
+     "header_ru": "Примечание проверки",
+     "value_ru": "2026-09-20 10:00 UTC; прошло 19 дней; администратор может восстановить"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Проверка корзины; Тариф или объект: Enterprise; Срок или действие: 90 календарных дней; Удалено: 2026-09-01 10:00 UTC; Примечание проверки: 2026-09-20 10:00 UTC; прошло 19 дней; администратор может восстановить",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-026",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 26
+   },
+   "locator_text": "строка 26",
+   "segment_sha": "2159d1e1f0f3",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Разбор договора",
+     "header_ru": "Область",
+     "value_ru": "Разбор договора"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Личный архив",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Личный архив"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "Копия для проверки правил от 1 сентября 2026",
+     "header_ru": "Срок или действие",
+     "value_ru": "Копия для проверки правил от 1 сентября 2026"
+    },
+    {
+     "col": 5,
+     "header": "Примечание проверки",
+     "value": "Отдельное удержание применяется только к подписанному дополнению",
+     "header_ru": "Примечание проверки",
+     "value_ru": "Отдельное удержание применяется только к подписанному дополнению"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Разбор договора; Тариф или объект: Личный архив; Срок или действие: Копия для проверки правил от 1 сентября 2026; Примечание проверки: Отдельное удержание применяется только к подписанному дополнению",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "17-027",
+   "doc_no": 17,
+   "doc_id": "retention-reconciliation",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 27
+   },
+   "locator_text": "строка 27",
+   "segment_sha": "296d85e29dfa",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Область",
+     "value": "Разбор договора",
+     "header_ru": "Область",
+     "value_ru": "Разбор договора"
+    },
+    {
+     "col": 2,
+     "header": "Тариф или объект",
+     "value": "Удаление архива",
+     "header_ru": "Тариф или объект",
+     "value_ru": "Удаление архива"
+    },
+    {
+     "col": 3,
+     "header": "Срок или действие",
+     "value": "Ссылка выгрузки истекает через 24 часа",
+     "header_ru": "Срок или действие",
+     "value_ru": "Ссылка выгрузки истекает через 24 часа"
+    },
+    {
+     "col": 5,
+     "header": "Примечание проверки",
+     "value": "Наличие скачанного файла у администратора не продлевает ссылку",
+     "header_ru": "Примечание проверки",
+     "value_ru": "Наличие скачанного файла у администратора не продлевает ссылку"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Область",
+     "Тариф или объект",
+     "Срок или действие",
+     "Удалено",
+     "Примечание проверки"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Область: Разбор договора; Тариф или объект: Удаление архива; Срок или действие: Ссылка выгрузки истекает через 24 часа; Примечание проверки: Наличие скачанного файла у администратора не продлевает ссылку",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  }
+ ],
+ "_base": {
+  "no": 17,
+  "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+  "doc_id": "retention-reconciliation",
+  "title": "",
+  "title_ru": null,
+  "lang": "ru",
+  "format": "csv",
+  "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+  "decision": {
+   "no": 17,
+   "path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "doc_id": "retention-reconciliation",
+   "title": "",
+   "lang": "ru",
+   "owner": "",
+   "version": "2026-09-01",
+   "updated": "2026-09-30",
+   "doc_type": "register",
+   "status": "include",
+   "rule": "R5",
+   "reason": "Владелец не указан; «Копия для проверки правил от 1 сентября 2026»; все сроки совпадают с №13, №22, №28, №44.",
+   "access": "all",
+   "trust": "unconfirmed_origin",
+   "related": [
+    13,
+    22,
+    28,
+    44
+   ]
+  },
+  "fragments": [
+   {
+    "fragment_id": "17-001",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "table_header",
+    "locator": {
+     "csv_row": 1
+    },
+    "locator_text": "строка 1",
+    "segment_sha": "d9f9adba00ac",
+    "cells": [
+     {
+      "col": 1,
+      "value": "Область",
+      "value_ru": "Область"
+     },
+     {
+      "col": 2,
+      "value": "Тариф или объект",
+      "value_ru": "Тариф или объект"
+     },
+     {
+      "col": 3,
+      "value": "Срок или действие",
+      "value_ru": "Срок или действие"
+     },
+     {
+      "col": 4,
+      "value": "Удалено",
+      "value_ru": "Удалено"
+     },
+     {
+      "col": 5,
+      "value": "Примечание проверки",
+      "value_ru": "Примечание проверки"
+     }
+    ],
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область | Тариф или объект | Срок или действие | Удалено | Примечание проверки",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-002",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 2
+    },
+    "locator_text": "строка 2",
+    "segment_sha": "12252b71e328",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Корзина",
+      "header_ru": "Область",
+      "value_ru": "Корзина"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Starter",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "Восстановление удалённых объектов: 7 дней.",
+      "header_ru": "Срок или действие",
+      "value_ru": "Восстановление удалённых объектов: 7 дней."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Корзина; Тариф или объект: Starter; Срок или действие: Восстановление удалённых объектов: 7 дней.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-003",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 3
+    },
+    "locator_text": "строка 3",
+    "segment_sha": "fdb07acea8fe",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Корзина",
+      "header_ru": "Область",
+      "value_ru": "Корзина"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Team",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Team"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "Восстановление удалённых объектов: 30 дней.",
+      "header_ru": "Срок или действие",
+      "value_ru": "Восстановление удалённых объектов: 30 дней."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Корзина; Тариф или объект: Team; Срок или действие: Восстановление удалённых объектов: 30 дней.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-004",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 4
+    },
+    "locator_text": "строка 4",
+    "segment_sha": "8aa59fe9e1d1",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Корзина",
+      "header_ru": "Область",
+      "value_ru": "Корзина"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Enterprise",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "Восстановление удалённых объектов: 90 дней.",
+      "header_ru": "Срок или действие",
+      "value_ru": "Восстановление удалённых объектов: 90 дней."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Корзина; Тариф или объект: Enterprise; Срок или действие: Восстановление удалённых объектов: 90 дней.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-005",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 5
+    },
+    "locator_text": "строка 5",
+    "segment_sha": "8ecc4e6cc9ef",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Журналы и выгрузки",
+      "header_ru": "Область",
+      "value_ru": "Журналы и выгрузки"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Активность Starter",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Активность Starter"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "Журнал активности доступен за последние 14 дней.",
+      "header_ru": "Срок или действие",
+      "value_ru": "Журнал активности доступен за последние 14 дней."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Журналы и выгрузки; Тариф или объект: Активность Starter; Срок или действие: Журнал активности доступен за последние 14 дней.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-006",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 6
+    },
+    "locator_text": "строка 6",
+    "segment_sha": "751cc79e349d",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Журналы и выгрузки",
+      "header_ru": "Область",
+      "value_ru": "Журналы и выгрузки"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Активность Team",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Активность Team"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "Журнал активности доступен за последние 90 дней.",
+      "header_ru": "Срок или действие",
+      "value_ru": "Журнал активности доступен за последние 90 дней."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Журналы и выгрузки; Тариф или объект: Активность Team; Срок или действие: Журнал активности доступен за последние 90 дней.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-007",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 7
+    },
+    "locator_text": "строка 7",
+    "segment_sha": "f128ea30c8fd",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Журналы и выгрузки",
+      "header_ru": "Область",
+      "value_ru": "Журналы и выгрузки"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Аудит Enterprise",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Аудит Enterprise"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "Журнал аудита доступен за последние 365 дней.",
+      "header_ru": "Срок или действие",
+      "value_ru": "Журнал аудита доступен за последние 365 дней."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Журналы и выгрузки; Тариф или объект: Аудит Enterprise; Срок или действие: Журнал аудита доступен за последние 365 дней.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-008",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 8
+    },
+    "locator_text": "строка 8",
+    "segment_sha": "236c1a99ae15",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Журналы и выгрузки",
+      "header_ru": "Область",
+      "value_ru": "Журналы и выгрузки"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "CSV экспорт",
+      "header_ru": "Тариф или объект",
+      "value_ru": "CSV экспорт"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "Готовый архив экспорта хранится 24 часа.",
+      "header_ru": "Срок или действие",
+      "value_ru": "Готовый архив экспорта хранится 24 часа."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Журналы и выгрузки; Тариф или объект: CSV экспорт; Срок или действие: Готовый архив экспорта хранится 24 часа.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-009",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 9
+    },
+    "locator_text": "строка 9",
+    "segment_sha": "fdf0f56f5548",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Журналы и выгрузки",
+      "header_ru": "Область",
+      "value_ru": "Журналы и выгрузки"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Диагностика",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Диагностика"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "Технический диагностический пакет хранится 7 дней.",
+      "header_ru": "Срок или действие",
+      "value_ru": "Технический диагностический пакет хранится 7 дней."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Журналы и выгрузки; Тариф или объект: Диагностика; Срок или действие: Технический диагностический пакет хранится 7 дней.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-010",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 10
+    },
+    "locator_text": "строка 10",
+    "segment_sha": "989668e1fa73",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Журналы и выгрузки",
+      "header_ru": "Область",
+      "value_ru": "Журналы и выгрузки"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Удержание",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Удержание"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "Индивидуальное удержание данных изменяет только сроки из подписанного дополнения.",
+      "header_ru": "Срок или действие",
+      "value_ru": "Индивидуальное удержание данных изменяет только сроки из подписанного дополнения."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Журналы и выгрузки; Тариф или объект: Удержание; Срок или действие: Индивидуальное удержание данных изменяет только сроки из подписанного дополнения.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-011",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 11
+    },
+    "locator_text": "строка 11",
+    "segment_sha": "7695fe289ed6",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Проверка корзины",
+      "header_ru": "Область",
+      "value_ru": "Проверка корзины"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Starter",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "7 календарных дней",
+      "header_ru": "Срок или действие",
+      "value_ru": "7 календарных дней"
+     },
+     {
+      "col": 4,
+      "header": "Удалено",
+      "value": "2026-09-02 10:00 UTC",
+      "header_ru": "Удалено",
+      "value_ru": "2026-09-02 10:00 UTC"
+     },
+     {
+      "col": 5,
+      "header": "Примечание проверки",
+      "value": "2026-09-04 10:00 UTC; прошло 2 дней; администратор может восстановить",
+      "header_ru": "Примечание проверки",
+      "value_ru": "2026-09-04 10:00 UTC; прошло 2 дней; администратор может восстановить"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Проверка корзины; Тариф или объект: Starter; Срок или действие: 7 календарных дней; Удалено: 2026-09-02 10:00 UTC; Примечание проверки: 2026-09-04 10:00 UTC; прошло 2 дней; администратор может восстановить",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-012",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 12
+    },
+    "locator_text": "строка 12",
+    "segment_sha": "f959206de6c1",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Проверка корзины",
+      "header_ru": "Область",
+      "value_ru": "Проверка корзины"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Starter",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "7 календарных дней",
+      "header_ru": "Срок или действие",
+      "value_ru": "7 календарных дней"
+     },
+     {
+      "col": 4,
+      "header": "Удалено",
+      "value": "2026-07-01 10:00 UTC",
+      "header_ru": "Удалено",
+      "value_ru": "2026-07-01 10:00 UTC"
+     },
+     {
+      "col": 5,
+      "header": "Примечание проверки",
+      "value": "2026-09-30 10:00 UTC; прошло 91 дней; окно истекло",
+      "header_ru": "Примечание проверки",
+      "value_ru": "2026-09-30 10:00 UTC; прошло 91 дней; окно истекло"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Проверка корзины; Тариф или объект: Starter; Срок или действие: 7 календарных дней; Удалено: 2026-07-01 10:00 UTC; Примечание проверки: 2026-09-30 10:00 UTC; прошло 91 дней; окно истекло",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-013",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 13
+    },
+    "locator_text": "строка 13",
+    "segment_sha": "de687ff420b9",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Проверка корзины",
+      "header_ru": "Область",
+      "value_ru": "Проверка корзины"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Starter",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "7 календарных дней",
+      "header_ru": "Срок или действие",
+      "value_ru": "7 календарных дней"
+     },
+     {
+      "col": 4,
+      "header": "Удалено",
+      "value": "2026-09-11 10:00 UTC",
+      "header_ru": "Удалено",
+      "value_ru": "2026-09-11 10:00 UTC"
+     },
+     {
+      "col": 5,
+      "header": "Примечание проверки",
+      "value": "2026-09-16 10:00 UTC; прошло 5 дней; администратор может восстановить",
+      "header_ru": "Примечание проверки",
+      "value_ru": "2026-09-16 10:00 UTC; прошло 5 дней; администратор может восстановить"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Проверка корзины; Тариф или объект: Starter; Срок или действие: 7 календарных дней; Удалено: 2026-09-11 10:00 UTC; Примечание проверки: 2026-09-16 10:00 UTC; прошло 5 дней; администратор может восстановить",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-014",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 14
+    },
+    "locator_text": "строка 14",
+    "segment_sha": "d2bef6537153",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Проверка корзины",
+      "header_ru": "Область",
+      "value_ru": "Проверка корзины"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Starter",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "7 календарных дней",
+      "header_ru": "Срок или действие",
+      "value_ru": "7 календарных дней"
+     },
+     {
+      "col": 4,
+      "header": "Удалено",
+      "value": "2026-08-01 10:00 UTC",
+      "header_ru": "Удалено",
+      "value_ru": "2026-08-01 10:00 UTC"
+     },
+     {
+      "col": 5,
+      "header": "Примечание проверки",
+      "value": "2026-09-11 10:00 UTC; прошло 41 дней; окно истекло",
+      "header_ru": "Примечание проверки",
+      "value_ru": "2026-09-11 10:00 UTC; прошло 41 дней; окно истекло"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Проверка корзины; Тариф или объект: Starter; Срок или действие: 7 календарных дней; Удалено: 2026-08-01 10:00 UTC; Примечание проверки: 2026-09-11 10:00 UTC; прошло 41 дней; окно истекло",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-015",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 15
+    },
+    "locator_text": "строка 15",
+    "segment_sha": "a71bda4afd09",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Проверка корзины",
+      "header_ru": "Область",
+      "value_ru": "Проверка корзины"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Starter",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "7 календарных дней",
+      "header_ru": "Срок или действие",
+      "value_ru": "7 календарных дней"
+     },
+     {
+      "col": 4,
+      "header": "Удалено",
+      "value": "2026-09-01 10:00 UTC",
+      "header_ru": "Удалено",
+      "value_ru": "2026-09-01 10:00 UTC"
+     },
+     {
+      "col": 5,
+      "header": "Примечание проверки",
+      "value": "2026-09-20 10:00 UTC; прошло 19 дней; окно истекло",
+      "header_ru": "Примечание проверки",
+      "value_ru": "2026-09-20 10:00 UTC; прошло 19 дней; окно истекло"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Проверка корзины; Тариф или объект: Starter; Срок или действие: 7 календарных дней; Удалено: 2026-09-01 10:00 UTC; Примечание проверки: 2026-09-20 10:00 UTC; прошло 19 дней; окно истекло",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-016",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 16
+    },
+    "locator_text": "строка 16",
+    "segment_sha": "7cc7e1e2a61c",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Проверка корзины",
+      "header_ru": "Область",
+      "value_ru": "Проверка корзины"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Team",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Team"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "30 календарных дней",
+      "header_ru": "Срок или действие",
+      "value_ru": "30 календарных дней"
+     },
+     {
+      "col": 4,
+      "header": "Удалено",
+      "value": "2026-09-02 10:00 UTC",
+      "header_ru": "Удалено",
+      "value_ru": "2026-09-02 10:00 UTC"
+     },
+     {
+      "col": 5,
+      "header": "Примечание проверки",
+      "value": "2026-09-04 10:00 UTC; прошло 2 дней; администратор может восстановить",
+      "header_ru": "Примечание проверки",
+      "value_ru": "2026-09-04 10:00 UTC; прошло 2 дней; администратор может восстановить"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Проверка корзины; Тариф или объект: Team; Срок или действие: 30 календарных дней; Удалено: 2026-09-02 10:00 UTC; Примечание проверки: 2026-09-04 10:00 UTC; прошло 2 дней; администратор может восстановить",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-017",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 17
+    },
+    "locator_text": "строка 17",
+    "segment_sha": "af4825abcb2e",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Проверка корзины",
+      "header_ru": "Область",
+      "value_ru": "Проверка корзины"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Team",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Team"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "30 календарных дней",
+      "header_ru": "Срок или действие",
+      "value_ru": "30 календарных дней"
+     },
+     {
+      "col": 4,
+      "header": "Удалено",
+      "value": "2026-07-01 10:00 UTC",
+      "header_ru": "Удалено",
+      "value_ru": "2026-07-01 10:00 UTC"
+     },
+     {
+      "col": 5,
+      "header": "Примечание проверки",
+      "value": "2026-09-30 10:00 UTC; прошло 91 дней; окно истекло",
+      "header_ru": "Примечание проверки",
+      "value_ru": "2026-09-30 10:00 UTC; прошло 91 дней; окно истекло"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Проверка корзины; Тариф или объект: Team; Срок или действие: 30 календарных дней; Удалено: 2026-07-01 10:00 UTC; Примечание проверки: 2026-09-30 10:00 UTC; прошло 91 дней; окно истекло",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-018",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 18
+    },
+    "locator_text": "строка 18",
+    "segment_sha": "ea041ea27b65",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Проверка корзины",
+      "header_ru": "Область",
+      "value_ru": "Проверка корзины"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Team",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Team"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "30 календарных дней",
+      "header_ru": "Срок или действие",
+      "value_ru": "30 календарных дней"
+     },
+     {
+      "col": 4,
+      "header": "Удалено",
+      "value": "2026-09-11 10:00 UTC",
+      "header_ru": "Удалено",
+      "value_ru": "2026-09-11 10:00 UTC"
+     },
+     {
+      "col": 5,
+      "header": "Примечание проверки",
+      "value": "2026-09-16 10:00 UTC; прошло 5 дней; администратор может восстановить",
+      "header_ru": "Примечание проверки",
+      "value_ru": "2026-09-16 10:00 UTC; прошло 5 дней; администратор может восстановить"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Проверка корзины; Тариф или объект: Team; Срок или действие: 30 календарных дней; Удалено: 2026-09-11 10:00 UTC; Примечание проверки: 2026-09-16 10:00 UTC; прошло 5 дней; администратор может восстановить",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-019",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 19
+    },
+    "locator_text": "строка 19",
+    "segment_sha": "18ec0d7d5555",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Проверка корзины",
+      "header_ru": "Область",
+      "value_ru": "Проверка корзины"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Team",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Team"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "30 календарных дней",
+      "header_ru": "Срок или действие",
+      "value_ru": "30 календарных дней"
+     },
+     {
+      "col": 4,
+      "header": "Удалено",
+      "value": "2026-08-01 10:00 UTC",
+      "header_ru": "Удалено",
+      "value_ru": "2026-08-01 10:00 UTC"
+     },
+     {
+      "col": 5,
+      "header": "Примечание проверки",
+      "value": "2026-09-11 10:00 UTC; прошло 41 дней; окно истекло",
+      "header_ru": "Примечание проверки",
+      "value_ru": "2026-09-11 10:00 UTC; прошло 41 дней; окно истекло"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Проверка корзины; Тариф или объект: Team; Срок или действие: 30 календарных дней; Удалено: 2026-08-01 10:00 UTC; Примечание проверки: 2026-09-11 10:00 UTC; прошло 41 дней; окно истекло",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-020",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 20
+    },
+    "locator_text": "строка 20",
+    "segment_sha": "5e6c7e5810ce",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Проверка корзины",
+      "header_ru": "Область",
+      "value_ru": "Проверка корзины"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Team",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Team"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "30 календарных дней",
+      "header_ru": "Срок или действие",
+      "value_ru": "30 календарных дней"
+     },
+     {
+      "col": 4,
+      "header": "Удалено",
+      "value": "2026-09-01 10:00 UTC",
+      "header_ru": "Удалено",
+      "value_ru": "2026-09-01 10:00 UTC"
+     },
+     {
+      "col": 5,
+      "header": "Примечание проверки",
+      "value": "2026-09-20 10:00 UTC; прошло 19 дней; администратор может восстановить",
+      "header_ru": "Примечание проверки",
+      "value_ru": "2026-09-20 10:00 UTC; прошло 19 дней; администратор может восстановить"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Проверка корзины; Тариф или объект: Team; Срок или действие: 30 календарных дней; Удалено: 2026-09-01 10:00 UTC; Примечание проверки: 2026-09-20 10:00 UTC; прошло 19 дней; администратор может восстановить",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-021",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 21
+    },
+    "locator_text": "строка 21",
+    "segment_sha": "42e8cd8be807",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Проверка корзины",
+      "header_ru": "Область",
+      "value_ru": "Проверка корзины"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Enterprise",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "90 календарных дней",
+      "header_ru": "Срок или действие",
+      "value_ru": "90 календарных дней"
+     },
+     {
+      "col": 4,
+      "header": "Удалено",
+      "value": "2026-09-02 10:00 UTC",
+      "header_ru": "Удалено",
+      "value_ru": "2026-09-02 10:00 UTC"
+     },
+     {
+      "col": 5,
+      "header": "Примечание проверки",
+      "value": "2026-09-04 10:00 UTC; прошло 2 дней; администратор может восстановить",
+      "header_ru": "Примечание проверки",
+      "value_ru": "2026-09-04 10:00 UTC; прошло 2 дней; администратор может восстановить"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Проверка корзины; Тариф или объект: Enterprise; Срок или действие: 90 календарных дней; Удалено: 2026-09-02 10:00 UTC; Примечание проверки: 2026-09-04 10:00 UTC; прошло 2 дней; администратор может восстановить",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-022",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 22
+    },
+    "locator_text": "строка 22",
+    "segment_sha": "38d9369ffc3b",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Проверка корзины",
+      "header_ru": "Область",
+      "value_ru": "Проверка корзины"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Enterprise",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "90 календарных дней",
+      "header_ru": "Срок или действие",
+      "value_ru": "90 календарных дней"
+     },
+     {
+      "col": 4,
+      "header": "Удалено",
+      "value": "2026-07-01 10:00 UTC",
+      "header_ru": "Удалено",
+      "value_ru": "2026-07-01 10:00 UTC"
+     },
+     {
+      "col": 5,
+      "header": "Примечание проверки",
+      "value": "2026-09-30 10:00 UTC; прошло 91 дней; окно истекло",
+      "header_ru": "Примечание проверки",
+      "value_ru": "2026-09-30 10:00 UTC; прошло 91 дней; окно истекло"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Проверка корзины; Тариф или объект: Enterprise; Срок или действие: 90 календарных дней; Удалено: 2026-07-01 10:00 UTC; Примечание проверки: 2026-09-30 10:00 UTC; прошло 91 дней; окно истекло",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-023",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 23
+    },
+    "locator_text": "строка 23",
+    "segment_sha": "15f218ba0d0f",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Проверка корзины",
+      "header_ru": "Область",
+      "value_ru": "Проверка корзины"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Enterprise",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "90 календарных дней",
+      "header_ru": "Срок или действие",
+      "value_ru": "90 календарных дней"
+     },
+     {
+      "col": 4,
+      "header": "Удалено",
+      "value": "2026-09-11 10:00 UTC",
+      "header_ru": "Удалено",
+      "value_ru": "2026-09-11 10:00 UTC"
+     },
+     {
+      "col": 5,
+      "header": "Примечание проверки",
+      "value": "2026-09-16 10:00 UTC; прошло 5 дней; администратор может восстановить",
+      "header_ru": "Примечание проверки",
+      "value_ru": "2026-09-16 10:00 UTC; прошло 5 дней; администратор может восстановить"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Проверка корзины; Тариф или объект: Enterprise; Срок или действие: 90 календарных дней; Удалено: 2026-09-11 10:00 UTC; Примечание проверки: 2026-09-16 10:00 UTC; прошло 5 дней; администратор может восстановить",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-024",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 24
+    },
+    "locator_text": "строка 24",
+    "segment_sha": "e20d92157e2f",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Проверка корзины",
+      "header_ru": "Область",
+      "value_ru": "Проверка корзины"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Enterprise",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "90 календарных дней",
+      "header_ru": "Срок или действие",
+      "value_ru": "90 календарных дней"
+     },
+     {
+      "col": 4,
+      "header": "Удалено",
+      "value": "2026-08-01 10:00 UTC",
+      "header_ru": "Удалено",
+      "value_ru": "2026-08-01 10:00 UTC"
+     },
+     {
+      "col": 5,
+      "header": "Примечание проверки",
+      "value": "2026-09-11 10:00 UTC; прошло 41 дней; администратор может восстановить",
+      "header_ru": "Примечание проверки",
+      "value_ru": "2026-09-11 10:00 UTC; прошло 41 дней; администратор может восстановить"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Проверка корзины; Тариф или объект: Enterprise; Срок или действие: 90 календарных дней; Удалено: 2026-08-01 10:00 UTC; Примечание проверки: 2026-09-11 10:00 UTC; прошло 41 дней; администратор может восстановить",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-025",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 25
+    },
+    "locator_text": "строка 25",
+    "segment_sha": "027fd29e9ebb",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Проверка корзины",
+      "header_ru": "Область",
+      "value_ru": "Проверка корзины"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Enterprise",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "90 календарных дней",
+      "header_ru": "Срок или действие",
+      "value_ru": "90 календарных дней"
+     },
+     {
+      "col": 4,
+      "header": "Удалено",
+      "value": "2026-09-01 10:00 UTC",
+      "header_ru": "Удалено",
+      "value_ru": "2026-09-01 10:00 UTC"
+     },
+     {
+      "col": 5,
+      "header": "Примечание проверки",
+      "value": "2026-09-20 10:00 UTC; прошло 19 дней; администратор может восстановить",
+      "header_ru": "Примечание проверки",
+      "value_ru": "2026-09-20 10:00 UTC; прошло 19 дней; администратор может восстановить"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Проверка корзины; Тариф или объект: Enterprise; Срок или действие: 90 календарных дней; Удалено: 2026-09-01 10:00 UTC; Примечание проверки: 2026-09-20 10:00 UTC; прошло 19 дней; администратор может восстановить",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-026",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 26
+    },
+    "locator_text": "строка 26",
+    "segment_sha": "2159d1e1f0f3",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Разбор договора",
+      "header_ru": "Область",
+      "value_ru": "Разбор договора"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Личный архив",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Личный архив"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "Копия для проверки правил от 1 сентября 2026",
+      "header_ru": "Срок или действие",
+      "value_ru": "Копия для проверки правил от 1 сентября 2026"
+     },
+     {
+      "col": 5,
+      "header": "Примечание проверки",
+      "value": "Отдельное удержание применяется только к подписанному дополнению",
+      "header_ru": "Примечание проверки",
+      "value_ru": "Отдельное удержание применяется только к подписанному дополнению"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Разбор договора; Тариф или объект: Личный архив; Срок или действие: Копия для проверки правил от 1 сентября 2026; Примечание проверки: Отдельное удержание применяется только к подписанному дополнению",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "17-027",
+    "doc_no": 17,
+    "doc_id": "retention-reconciliation",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "source_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 27
+    },
+    "locator_text": "строка 27",
+    "segment_sha": "296d85e29dfa",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Область",
+      "value": "Разбор договора",
+      "header_ru": "Область",
+      "value_ru": "Разбор договора"
+     },
+     {
+      "col": 2,
+      "header": "Тариф или объект",
+      "value": "Удаление архива",
+      "header_ru": "Тариф или объект",
+      "value_ru": "Удаление архива"
+     },
+     {
+      "col": 3,
+      "header": "Срок или действие",
+      "value": "Ссылка выгрузки истекает через 24 часа",
+      "header_ru": "Срок или действие",
+      "value_ru": "Ссылка выгрузки истекает через 24 часа"
+     },
+     {
+      "col": 5,
+      "header": "Примечание проверки",
+      "value": "Наличие скачанного файла у администратора не продлевает ссылку",
+      "header_ru": "Примечание проверки",
+      "value_ru": "Наличие скачанного файла у администратора не продлевает ссылку"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Область",
+      "Тариф или объект",
+      "Срок или действие",
+      "Удалено",
+      "Примечание проверки"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Область: Разбор договора; Тариф или объект: Удаление архива; Срок или действие: Ссылка выгрузки истекает через 24 часа; Примечание проверки: Наличие скачанного файла у администратора не продлевает ссылку",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   }
+  ]
+ }
+}

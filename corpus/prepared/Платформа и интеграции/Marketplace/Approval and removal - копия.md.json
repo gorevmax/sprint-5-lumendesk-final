@@ -1,0 +1,1166 @@
+{
+ "no": 25,
+ "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+ "doc_id": "marketplace-approval-retirement",
+ "title": "Installing an app is only the beginning",
+ "title_ru": "Установка приложения — только начало",
+ "lang": "en",
+ "format": "md",
+ "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+ "decision": {
+  "no": 25,
+  "path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+  "doc_id": "marketplace-approval-retirement",
+  "title": "Installing an app is only the beginning",
+  "lang": "en",
+  "owner": "Integrations",
+  "version": "2026-09-01",
+  "updated": "2026-09-01",
+  "doc_type": "rule",
+  "status": "include",
+  "rule": "R1",
+  "reason": "Runbook Integrations от 1.09.2026; «копия» в имени, но оригинала в корпусе нет — единственный экземпляр.",
+  "access": "all",
+  "trust": "confirmed",
+  "related": [
+   27,
+   31
+  ]
+ },
+ "fragments": [
+  {
+   "fragment_id": "25-001",
+   "doc_no": 25,
+   "doc_id": "marketplace-approval-retirement",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+   "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "title",
+   "locator": {
+    "lines": [
+     1,
+     1
+    ]
+   },
+   "locator_text": "строка 1",
+   "segment_sha": "2cddc673966d",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "# Установка приложения — только начало",
+   "text_orig": "# Installing an app is only the beginning",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "25-002",
+   "doc_no": 25,
+   "doc_id": "marketplace-approval-retirement",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+   "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     3,
+     3
+    ]
+   },
+   "locator_text": "строка 3",
+   "segment_sha": "96d397b957fa",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Integrations проверила этот рабочий runbook 1 сентября 2026 года. Он охватывает интеграции marketplace, установленные в workspace LumenDesk, включая момент, когда workspace перестаёт ими пользоваться. Первым о приложении может попросить участник, но установка принадлежит workspace. Сохраняйте это различие видимым на протяжении всего разговора. Оно особенно полезно, когда участник, который изначально продвигал интеграцию, переходит в другую команду, а кому-то ещё нужно понять, что было одобрено или как вывести интеграцию из эксплуатации.",
+   "text_orig": "Integrations reviewed this working runbook on September 1, 2026. It covers marketplace integrations installed in a LumenDesk workspace, including the point at which the workspace stops using them. A member may be the person who first asks for an app, but the installation is owned by the workspace. Keep that distinction visible throughout the conversation. It becomes especially useful when the member who originally championed the integration changes teams and someone else needs to understand what was approved or how to retire it.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "25-003",
+   "doc_no": 25,
+   "doc_id": "marketplace-approval-retirement",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+   "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     5,
+     5
+    ]
+   },
+   "locator_text": "строка 5",
+   "segment_sha": "fa2019064541",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "До установки администратор workspace одобряет scopes установки. Объясняйте scopes применительно к работе, которую клиент ожидает от приложения. «Это знакомый вендор» не описывает запрашиваемый доступ, а энтузиазм участника — не одобрение администратора. Человек, помогающий с установкой, должен уметь сказать, к какому workspace относится одобрение, а не считать прежний разговор о другом workspace разрешением, пригодным для любой установки, которая может быть у компании.",
+   "text_orig": "Before installation, a workspace administrator approves the installation scopes. Explain scopes in relation to the work the customer expects the app to do. “It is a familiar vendor” does not describe the requested access, and a member's enthusiasm is not the administrator's approval. The person helping with the installation should be able to say which workspace the approval relates to, rather than treating an earlier conversation about another workspace as a reusable permission for every installation the company may have.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "25-004",
+   "doc_no": 25,
+   "doc_id": "marketplace-approval-retirement",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+   "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     7,
+     7
+    ]
+   },
+   "locator_text": "строка 7",
+   "segment_sha": "c2b950922093",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Новые write scopes требуют отдельного одобрения. Это важно и после установки, и во время первого разговора. Приложение могло быть принято для чтения информации, а позже предложить функцию, которая записывает изменения. Не описывайте такую функцию просто как новую кнопку, если она меняет запрашиваемые scopes. Верните новый доступ на запись в разговор об одобрении. Знакомство с прежним поведением приложения не означает, что клиент уже рассмотрел расширенный доступ.",
+   "text_orig": "New write scopes require a separate approval. This matters after installation as well as during the initial conversation. An app may have been accepted for reading information and later offer a feature that writes changes. Do not describe that feature as merely a new button if it changes the scopes being requested. Bring the new write access back to the approval conversation. Familiarity with the app's previous behaviour does not mean that the customer has already reviewed the expanded access.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "25-005",
+   "doc_no": 25,
+   "doc_id": "marketplace-approval-retirement",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+   "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     9,
+     9
+    ]
+   },
+   "locator_text": "строка 9",
+   "segment_sha": "273055f46163",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "## Проверяйте рабочий процесс там, где его последствия понятны",
+   "text_orig": "## Try the workflow where its effects are understandable",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "25-006",
+   "doc_no": 25,
+   "doc_id": "marketplace-approval-retirement",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+   "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     11,
+     11
+    ]
+   },
+   "locator_text": "строка 11",
+   "segment_sha": "c7c6c87b239a",
+   "section": "Try the workflow where its effects are understandable",
+   "section_ru": "Проверяйте рабочий процесс там, где его последствия понятны",
+   "text_ru": "Перед широким использованием проверьте интеграцию в пространстве с ограниченным доступом. Выберите место, где клиент сможет распознать, что делает приложение, и обсудить результат с участниками. Проверка должна относиться к предполагаемому рабочему процессу, а не просто показывать, что приложение появилось в меню. Успешная установка и полезный, понятный рабочий процесс — отдельные наблюдения. Убедитесь, что в заметках сохраняется, какое из них фактически подтверждено, когда разговор переходит к другому коллеге.",
+   "text_orig": "Test an integration in a restricted space before broad use. Choose a place where the customer can recognise what the app is doing and discuss the result with the people involved. The test should be related to the intended workflow, rather than just demonstrating that the app appears in a menu. A successful installation and a useful, understood workflow are separate observations. Make sure the notes preserve which one has actually been confirmed when the conversation moves to another colleague.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "25-007",
+   "doc_no": 25,
+   "doc_id": "marketplace-approval-retirement",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+   "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     13,
+     13
+    ]
+   },
+   "locator_text": "строка 13",
+   "segment_sha": "14a454aa1915",
+   "section": "Try the workflow where its effects are understandable",
+   "section_ru": "Проверяйте рабочий процесс там, где его последствия понятны",
+   "text_ru": "Записывайте integration ID, одобрившего администратора и дату одобрения. Эти сведения позволяют workspace связывать последующие вопросы с одобренной установкой. Одно название приложения может не определять нужную установку в истории клиента. Кроме того, из-за пересланного сообщения дата разговора легко может выглядеть как дата одобрения. Чётко укажите эту связь в записи, чтобы другому человеку не пришлось выводить её из цепочки сообщений с несколькими разными отметками времени.",
+   "text_orig": "Record the integration ID, approving administrator, and approval date. These details allow the workspace to connect later questions to the installation that was approved. An app name alone may not identify the relevant installation in a customer's history. It is also easy for a forwarded message to make the date of a conversation look like the date of approval. State the relationship clearly in the record so another person does not have to infer it from a chain of messages with several different timestamps.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "25-008",
+   "doc_no": 25,
+   "doc_id": "marketplace-approval-retirement",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+   "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     15,
+     15
+    ]
+   },
+   "locator_text": "строка 15",
+   "segment_sha": "8cc50f5e7cd7",
+   "section": "Try the workflow where its effects are understandable",
+   "section_ru": "Проверяйте рабочий процесс там, где его последствия понятны",
+   "text_ru": "Во время проверки обращайте внимание на различия между рабочим процессом, который описывает клиент, и тем, который команда фактически готовится использовать. Например, человек, запросивший приложение, может говорить о чтении сводки, а коллега — планировать запись обновлений обратно в общее пространство. Правило об отдельном одобрении новых write scopes полезно именно потому, что небрежные описания могут скрывать это различие. Добейтесь ясности до широкого использования и держите результат привязанным к одобрившему администратору и фактически запрошенному доступу.",
+   "text_orig": "During the test, listen for differences between the workflow the customer describes and the one the team is actually preparing to use. For example, the person who requested an app may talk about reading a summary while a colleague plans to write updates back into a shared space. The rule about separate approval of new write scopes is useful precisely because casual descriptions can hide this difference. Ask for clarity before broad use, and keep the result tied to the approving administrator and the actual requested access.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "25-009",
+   "doc_no": 25,
+   "doc_id": "marketplace-approval-retirement",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+   "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     17,
+     17
+    ]
+   },
+   "locator_text": "строка 17",
+   "segment_sha": "5d50762366f2",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "## Вывод из эксплуатации — упорядоченная последовательность",
+   "text_orig": "## Retirement is an ordered sequence",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "25-010",
+   "doc_no": 25,
+   "doc_id": "marketplace-approval-retirement",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+   "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     19,
+     19
+    ]
+   },
+   "locator_text": "строка 19",
+   "segment_sha": "9937b69965d4",
+   "section": "Retirement is an ordered sequence",
+   "section_ru": "Вывод из эксплуатации — упорядоченная последовательность",
+   "text_ru": "Начните с отключения подписок на события, прежде чем отзывать учётные данные. Этот порядок — часть процедуры вывода из эксплуатации. Если обсуждение начинается со слов «удалите приложение сейчас», найдите время определить подписки, относящиеся к установке, а не переходите сразу к последнему действию. Ясная заметка о выводе должна говорить, что произошло, а не только то, что кто-то намерен отключить интеграцию. Следующий человек должен отличать отключённый источник новых событий от уже отозванных учётных данных.",
+   "text_orig": "Start by disabling event subscriptions before revoking credentials. This ordering is part of the retirement procedure. If the discussion begins with “remove the app now,” take a moment to identify the subscriptions that belong to the installation rather than jumping straight to the last action. A clear retirement note should say what has happened, not merely that someone intends to switch the integration off. The next person should be able to distinguish a disabled source of new events from credentials that have already been revoked.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "25-011",
+   "doc_no": 25,
+   "doc_id": "marketplace-approval-retirement",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+   "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     21,
+     21
+    ]
+   },
+   "locator_text": "строка 21",
+   "segment_sha": "f7bdd40de7fb",
+   "section": "Retirement is an ordered sequence",
+   "section_ru": "Вывод из эксплуатации — упорядоченная последовательность",
+   "text_ru": "Дайте исходящей очереди опустеть — до 15 минут. Предусмотрите этот шаг при согласовании с командой клиента. Звонок о выводе может запутаться, если один человек видит ожидающую исходящую работу, а другой считает, что вся последовательность завершена. Не превращайте «до 15 минут» в обещание, что каждый элемент очереди даст определённый бизнес-результат. Это описание допуска в последовательности вывода, и команда должна записывать то, что фактически наблюдает, следуя этой последовательности.",
+   "text_orig": "Allow the outbound queue to drain for up to 15 minutes. Plan for that step when coordinating with the customer's team. A retirement call can become confusing if one person sees pending outbound work while another believes the entire sequence is finished. Do not turn “up to 15 minutes” into a promise that every queued item will produce a particular business result. It describes the allowance in the retirement sequence, and the team should record what it actually observes while following that sequence.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "25-012",
+   "doc_no": 25,
+   "doc_id": "marketplace-approval-retirement",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+   "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     23,
+     23
+    ]
+   },
+   "locator_text": "строка 23",
+   "segment_sha": "f2437632c213",
+   "section": "Retirement is an ordered sequence",
+   "section_ru": "Вывод из эксплуатации — упорядоченная последовательность",
+   "text_ru": "Затем отзовите сервисный ключ и удалите установку приложения. При передаче называйте оба действия, а не сжимайте их до «доступ почистили». Такое сокращение может скрыть, было ли приложение удалено из workspace, был ли отозван его сервисный ключ или говорящий просто закрыл вкладку браузера. У процедуры есть конкретное конечное состояние, поэтому используйте конкретные глаголы. Ясные описания особенно полезны, когда за подключённое приложение и его сервисные учётные данные отвечают разные администраторы.",
+   "text_orig": "Then revoke the service key and remove the app installation. In a handover, name both actions rather than compressing them into “cleaned up access.” The shorthand can conceal whether the app was removed from the workspace, whether its service key was revoked, or whether the speaker only closed a browser tab. The procedure has a concrete end state, so use concrete verbs. Clear descriptions are especially helpful when different administrators are responsible for the connected app and its service credential.",
+   "translation": "translated",
+   "translation_review": {
+    "checks": [
+     "conditions"
+    ],
+    "decision": "accepted",
+    "note": "«only closed a browser tab» в значении «всего лишь» → «просто закрыл вкладку»."
+   },
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "25-013",
+   "doc_no": 25,
+   "doc_id": "marketplace-approval-retirement",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+   "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     25,
+     25
+    ]
+   },
+   "locator_text": "строка 25",
+   "segment_sha": "7b097dd9eae4",
+   "section": "Retirement is an ordered sequence",
+   "section_ru": "Вывод из эксплуатации — упорядоченная последовательность",
+   "text_ru": "Убедитесь, что приложение больше не отображается в подключённых приложениях workspace. Это шаг проверки, который мы используем при удалении установки. Не используйте то, что клиент не нашёл приложение на одном экране, как единственное описание результата, если никто не смотрел соответствующий раздел подключённых приложений. Точно так же письмо «пожалуйста, удалите это» — указание действовать, а не доказательство того, что приложения больше нет. Сохраняйте в заметках видимое различие между запросом, действием и подтверждением.",
+   "text_orig": "Confirm that the app no longer appears in workspace connected apps. This is the verification step we use for removal of the installation. Do not use a customer's inability to find the app on one screen as the only description of the outcome if nobody has looked at the relevant connected-apps view. Likewise, an email saying “please remove this” is an instruction to act, not evidence that the app is gone. Keep the distinction between request, action, and confirmation visible in the notes.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "25-014",
+   "doc_no": 25,
+   "doc_id": "marketplace-approval-retirement",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+   "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     27,
+     27
+    ]
+   },
+   "locator_text": "строка 27",
+   "segment_sha": "714e9ac9619d",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "## Чего удаление не говорит нам о выгруженных данных",
+   "text_orig": "## What removal does not tell us about exported data",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "25-015",
+   "doc_no": 25,
+   "doc_id": "marketplace-approval-retirement",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+   "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     29,
+     29
+    ]
+   },
+   "locator_text": "строка 29",
+   "segment_sha": "4cd0d6a97ee3",
+   "section": "What removal does not tell us about exported data",
+   "section_ru": "Чего удаление не говорит нам о выгруженных данных",
+   "text_ru": "Данные, уже выгруженные вендору, подчиняются соглашению о хранении с вендором. Обсудите это прямо, если причина вывода у клиента — беспокойство об информации, отправленной ранее. Удаление установки из LumenDesk ничего не утверждает о том, что вендор хранит по своему соглашению. Не делайте вывод об удалении у вендора из того, что приложение исчезло из подключённых приложений. Вопрос клиента может потребовать ссылки на это соглашение даже после завершения шагов вывода на стороне workspace.",
+   "text_orig": "Data already exported to the vendor follows the vendor retention agreement. Discuss this directly if the customer's reason for retirement is concern about information previously sent out. Removing the installation from LumenDesk is not a statement about what the vendor retains under its agreement. Do not infer deletion at the vendor from the fact that the app has disappeared from connected apps. The customer's question may need reference to that agreement even after the workspace-side retirement steps have been completed.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "25-016",
+   "doc_no": 25,
+   "doc_id": "marketplace-approval-retirement",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+   "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     31,
+     31
+    ]
+   },
+   "locator_text": "строка 31",
+   "segment_sha": "3ea850bdda4a",
+   "section": "What removal does not tell us about exported data",
+   "section_ru": "Чего удаление не говорит нам о выгруженных данных",
+   "text_ru": "Закрывая разговор, оставьте короткое описание, понятное другому администратору: какая интеграция была одобрена, кто и когда её одобрил, рассматривались ли отдельно новые write scopes и как была завершена последовательность вывода, если приложение удалено. Используйте части, относящиеся к этому случаю; смысл в непрерывности, а не в церемониальной форме. Эта копия хранится рядом с другими материалами marketplace, потому что одобрение и вывод — два конца одних и тех же отношений, принадлежащих workspace, даже если их выполняют разные люди с разницей в несколько месяцев.",
+   "text_orig": "When closing the conversation, leave a short account that another administrator could understand: which integration was approved, who approved it and when, whether any new write scopes were separately considered, and how the retirement sequence was completed if the app was removed. Use the parts relevant to this case; the point is continuity, not a ceremonial form. This copy lives beside other marketplace material because approval and retirement are two ends of the same workspace-owned relationship, even when different people perform them months apart.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  }
+ ],
+ "_base": {
+  "no": 25,
+  "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+  "doc_id": "marketplace-approval-retirement",
+  "title": "Installing an app is only the beginning",
+  "title_ru": "Установка приложения — только начало",
+  "lang": "en",
+  "format": "md",
+  "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+  "decision": {
+   "no": 25,
+   "path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+   "doc_id": "marketplace-approval-retirement",
+   "title": "Installing an app is only the beginning",
+   "lang": "en",
+   "owner": "Integrations",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "doc_type": "rule",
+   "status": "include",
+   "rule": "R1",
+   "reason": "Runbook Integrations от 1.09.2026; «копия» в имени, но оригинала в корпусе нет — единственный экземпляр.",
+   "access": "all",
+   "trust": "confirmed",
+   "related": [
+    27,
+    31
+   ]
+  },
+  "fragments": [
+   {
+    "fragment_id": "25-001",
+    "doc_no": 25,
+    "doc_id": "marketplace-approval-retirement",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+    "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "title",
+    "locator": {
+     "lines": [
+      1,
+      1
+     ]
+    },
+    "locator_text": "строка 1",
+    "segment_sha": "2cddc673966d",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "# Установка приложения — только начало",
+    "text_orig": "# Installing an app is only the beginning",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "25-002",
+    "doc_no": 25,
+    "doc_id": "marketplace-approval-retirement",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+    "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      3,
+      3
+     ]
+    },
+    "locator_text": "строка 3",
+    "segment_sha": "96d397b957fa",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Integrations проверила этот рабочий runbook 1 сентября 2026 года. Он охватывает интеграции marketplace, установленные в workspace LumenDesk, включая момент, когда workspace перестаёт ими пользоваться. Первым о приложении может попросить участник, но установка принадлежит workspace. Сохраняйте это различие видимым на протяжении всего разговора. Оно особенно полезно, когда участник, который изначально продвигал интеграцию, переходит в другую команду, а кому-то ещё нужно понять, что было одобрено или как вывести интеграцию из эксплуатации.",
+    "text_orig": "Integrations reviewed this working runbook on September 1, 2026. It covers marketplace integrations installed in a LumenDesk workspace, including the point at which the workspace stops using them. A member may be the person who first asks for an app, but the installation is owned by the workspace. Keep that distinction visible throughout the conversation. It becomes especially useful when the member who originally championed the integration changes teams and someone else needs to understand what was approved or how to retire it.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "25-003",
+    "doc_no": 25,
+    "doc_id": "marketplace-approval-retirement",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+    "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      5,
+      5
+     ]
+    },
+    "locator_text": "строка 5",
+    "segment_sha": "fa2019064541",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "До установки администратор workspace одобряет scopes установки. Объясняйте scopes применительно к работе, которую клиент ожидает от приложения. «Это знакомый вендор» не описывает запрашиваемый доступ, а энтузиазм участника — не одобрение администратора. Человек, помогающий с установкой, должен уметь сказать, к какому workspace относится одобрение, а не считать прежний разговор о другом workspace разрешением, пригодным для любой установки, которая может быть у компании.",
+    "text_orig": "Before installation, a workspace administrator approves the installation scopes. Explain scopes in relation to the work the customer expects the app to do. “It is a familiar vendor” does not describe the requested access, and a member's enthusiasm is not the administrator's approval. The person helping with the installation should be able to say which workspace the approval relates to, rather than treating an earlier conversation about another workspace as a reusable permission for every installation the company may have.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "25-004",
+    "doc_no": 25,
+    "doc_id": "marketplace-approval-retirement",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+    "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      7,
+      7
+     ]
+    },
+    "locator_text": "строка 7",
+    "segment_sha": "c2b950922093",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Новые write scopes требуют отдельного одобрения. Это важно и после установки, и во время первого разговора. Приложение могло быть принято для чтения информации, а позже предложить функцию, которая записывает изменения. Не описывайте такую функцию просто как новую кнопку, если она меняет запрашиваемые scopes. Верните новый доступ на запись в разговор об одобрении. Знакомство с прежним поведением приложения не означает, что клиент уже рассмотрел расширенный доступ.",
+    "text_orig": "New write scopes require a separate approval. This matters after installation as well as during the initial conversation. An app may have been accepted for reading information and later offer a feature that writes changes. Do not describe that feature as merely a new button if it changes the scopes being requested. Bring the new write access back to the approval conversation. Familiarity with the app's previous behaviour does not mean that the customer has already reviewed the expanded access.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "25-005",
+    "doc_no": 25,
+    "doc_id": "marketplace-approval-retirement",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+    "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      9,
+      9
+     ]
+    },
+    "locator_text": "строка 9",
+    "segment_sha": "273055f46163",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "## Проверяйте рабочий процесс там, где его последствия понятны",
+    "text_orig": "## Try the workflow where its effects are understandable",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "25-006",
+    "doc_no": 25,
+    "doc_id": "marketplace-approval-retirement",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+    "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      11,
+      11
+     ]
+    },
+    "locator_text": "строка 11",
+    "segment_sha": "c7c6c87b239a",
+    "section": "Try the workflow where its effects are understandable",
+    "section_ru": "Проверяйте рабочий процесс там, где его последствия понятны",
+    "text_ru": "Перед широким использованием проверьте интеграцию в пространстве с ограниченным доступом. Выберите место, где клиент сможет распознать, что делает приложение, и обсудить результат с участниками. Проверка должна относиться к предполагаемому рабочему процессу, а не просто показывать, что приложение появилось в меню. Успешная установка и полезный, понятный рабочий процесс — отдельные наблюдения. Убедитесь, что в заметках сохраняется, какое из них фактически подтверждено, когда разговор переходит к другому коллеге.",
+    "text_orig": "Test an integration in a restricted space before broad use. Choose a place where the customer can recognise what the app is doing and discuss the result with the people involved. The test should be related to the intended workflow, rather than just demonstrating that the app appears in a menu. A successful installation and a useful, understood workflow are separate observations. Make sure the notes preserve which one has actually been confirmed when the conversation moves to another colleague.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "25-007",
+    "doc_no": 25,
+    "doc_id": "marketplace-approval-retirement",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+    "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      13,
+      13
+     ]
+    },
+    "locator_text": "строка 13",
+    "segment_sha": "14a454aa1915",
+    "section": "Try the workflow where its effects are understandable",
+    "section_ru": "Проверяйте рабочий процесс там, где его последствия понятны",
+    "text_ru": "Записывайте integration ID, одобрившего администратора и дату одобрения. Эти сведения позволяют workspace связывать последующие вопросы с одобренной установкой. Одно название приложения может не определять нужную установку в истории клиента. Кроме того, из-за пересланного сообщения дата разговора легко может выглядеть как дата одобрения. Чётко укажите эту связь в записи, чтобы другому человеку не пришлось выводить её из цепочки сообщений с несколькими разными отметками времени.",
+    "text_orig": "Record the integration ID, approving administrator, and approval date. These details allow the workspace to connect later questions to the installation that was approved. An app name alone may not identify the relevant installation in a customer's history. It is also easy for a forwarded message to make the date of a conversation look like the date of approval. State the relationship clearly in the record so another person does not have to infer it from a chain of messages with several different timestamps.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "25-008",
+    "doc_no": 25,
+    "doc_id": "marketplace-approval-retirement",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+    "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      15,
+      15
+     ]
+    },
+    "locator_text": "строка 15",
+    "segment_sha": "8cc50f5e7cd7",
+    "section": "Try the workflow where its effects are understandable",
+    "section_ru": "Проверяйте рабочий процесс там, где его последствия понятны",
+    "text_ru": "Во время проверки обращайте внимание на различия между рабочим процессом, который описывает клиент, и тем, который команда фактически готовится использовать. Например, человек, запросивший приложение, может говорить о чтении сводки, а коллега — планировать запись обновлений обратно в общее пространство. Правило об отдельном одобрении новых write scopes полезно именно потому, что небрежные описания могут скрывать это различие. Добейтесь ясности до широкого использования и держите результат привязанным к одобрившему администратору и фактически запрошенному доступу.",
+    "text_orig": "During the test, listen for differences between the workflow the customer describes and the one the team is actually preparing to use. For example, the person who requested an app may talk about reading a summary while a colleague plans to write updates back into a shared space. The rule about separate approval of new write scopes is useful precisely because casual descriptions can hide this difference. Ask for clarity before broad use, and keep the result tied to the approving administrator and the actual requested access.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "25-009",
+    "doc_no": 25,
+    "doc_id": "marketplace-approval-retirement",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+    "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      17,
+      17
+     ]
+    },
+    "locator_text": "строка 17",
+    "segment_sha": "5d50762366f2",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "## Вывод из эксплуатации — упорядоченная последовательность",
+    "text_orig": "## Retirement is an ordered sequence",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "25-010",
+    "doc_no": 25,
+    "doc_id": "marketplace-approval-retirement",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+    "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      19,
+      19
+     ]
+    },
+    "locator_text": "строка 19",
+    "segment_sha": "9937b69965d4",
+    "section": "Retirement is an ordered sequence",
+    "section_ru": "Вывод из эксплуатации — упорядоченная последовательность",
+    "text_ru": "Начните с отключения подписок на события, прежде чем отзывать учётные данные. Этот порядок — часть процедуры вывода из эксплуатации. Если обсуждение начинается со слов «удалите приложение сейчас», найдите время определить подписки, относящиеся к установке, а не переходите сразу к последнему действию. Ясная заметка о выводе должна говорить, что произошло, а не только то, что кто-то намерен отключить интеграцию. Следующий человек должен отличать отключённый источник новых событий от уже отозванных учётных данных.",
+    "text_orig": "Start by disabling event subscriptions before revoking credentials. This ordering is part of the retirement procedure. If the discussion begins with “remove the app now,” take a moment to identify the subscriptions that belong to the installation rather than jumping straight to the last action. A clear retirement note should say what has happened, not merely that someone intends to switch the integration off. The next person should be able to distinguish a disabled source of new events from credentials that have already been revoked.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "25-011",
+    "doc_no": 25,
+    "doc_id": "marketplace-approval-retirement",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+    "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      21,
+      21
+     ]
+    },
+    "locator_text": "строка 21",
+    "segment_sha": "f7bdd40de7fb",
+    "section": "Retirement is an ordered sequence",
+    "section_ru": "Вывод из эксплуатации — упорядоченная последовательность",
+    "text_ru": "Дайте исходящей очереди опустеть — до 15 минут. Предусмотрите этот шаг при согласовании с командой клиента. Звонок о выводе может запутаться, если один человек видит ожидающую исходящую работу, а другой считает, что вся последовательность завершена. Не превращайте «до 15 минут» в обещание, что каждый элемент очереди даст определённый бизнес-результат. Это описание допуска в последовательности вывода, и команда должна записывать то, что фактически наблюдает, следуя этой последовательности.",
+    "text_orig": "Allow the outbound queue to drain for up to 15 minutes. Plan for that step when coordinating with the customer's team. A retirement call can become confusing if one person sees pending outbound work while another believes the entire sequence is finished. Do not turn “up to 15 minutes” into a promise that every queued item will produce a particular business result. It describes the allowance in the retirement sequence, and the team should record what it actually observes while following that sequence.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "25-012",
+    "doc_no": 25,
+    "doc_id": "marketplace-approval-retirement",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+    "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      23,
+      23
+     ]
+    },
+    "locator_text": "строка 23",
+    "segment_sha": "f2437632c213",
+    "section": "Retirement is an ordered sequence",
+    "section_ru": "Вывод из эксплуатации — упорядоченная последовательность",
+    "text_ru": "Затем отзовите сервисный ключ и удалите установку приложения. При передаче называйте оба действия, а не сжимайте их до «доступ почистили». Такое сокращение может скрыть, было ли приложение удалено из workspace, был ли отозван его сервисный ключ или говорящий просто закрыл вкладку браузера. У процедуры есть конкретное конечное состояние, поэтому используйте конкретные глаголы. Ясные описания особенно полезны, когда за подключённое приложение и его сервисные учётные данные отвечают разные администраторы.",
+    "text_orig": "Then revoke the service key and remove the app installation. In a handover, name both actions rather than compressing them into “cleaned up access.” The shorthand can conceal whether the app was removed from the workspace, whether its service key was revoked, or whether the speaker only closed a browser tab. The procedure has a concrete end state, so use concrete verbs. Clear descriptions are especially helpful when different administrators are responsible for the connected app and its service credential.",
+    "translation": "translated",
+    "translation_review": {
+     "checks": [
+      "conditions"
+     ],
+     "decision": "accepted",
+     "note": "«only closed a browser tab» в значении «всего лишь» → «просто закрыл вкладку»."
+    },
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "25-013",
+    "doc_no": 25,
+    "doc_id": "marketplace-approval-retirement",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+    "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      25,
+      25
+     ]
+    },
+    "locator_text": "строка 25",
+    "segment_sha": "7b097dd9eae4",
+    "section": "Retirement is an ordered sequence",
+    "section_ru": "Вывод из эксплуатации — упорядоченная последовательность",
+    "text_ru": "Убедитесь, что приложение больше не отображается в подключённых приложениях workspace. Это шаг проверки, который мы используем при удалении установки. Не используйте то, что клиент не нашёл приложение на одном экране, как единственное описание результата, если никто не смотрел соответствующий раздел подключённых приложений. Точно так же письмо «пожалуйста, удалите это» — указание действовать, а не доказательство того, что приложения больше нет. Сохраняйте в заметках видимое различие между запросом, действием и подтверждением.",
+    "text_orig": "Confirm that the app no longer appears in workspace connected apps. This is the verification step we use for removal of the installation. Do not use a customer's inability to find the app on one screen as the only description of the outcome if nobody has looked at the relevant connected-apps view. Likewise, an email saying “please remove this” is an instruction to act, not evidence that the app is gone. Keep the distinction between request, action, and confirmation visible in the notes.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "25-014",
+    "doc_no": 25,
+    "doc_id": "marketplace-approval-retirement",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+    "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      27,
+      27
+     ]
+    },
+    "locator_text": "строка 27",
+    "segment_sha": "714e9ac9619d",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "## Чего удаление не говорит нам о выгруженных данных",
+    "text_orig": "## What removal does not tell us about exported data",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "25-015",
+    "doc_no": 25,
+    "doc_id": "marketplace-approval-retirement",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+    "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      29,
+      29
+     ]
+    },
+    "locator_text": "строка 29",
+    "segment_sha": "4cd0d6a97ee3",
+    "section": "What removal does not tell us about exported data",
+    "section_ru": "Чего удаление не говорит нам о выгруженных данных",
+    "text_ru": "Данные, уже выгруженные вендору, подчиняются соглашению о хранении с вендором. Обсудите это прямо, если причина вывода у клиента — беспокойство об информации, отправленной ранее. Удаление установки из LumenDesk ничего не утверждает о том, что вендор хранит по своему соглашению. Не делайте вывод об удалении у вендора из того, что приложение исчезло из подключённых приложений. Вопрос клиента может потребовать ссылки на это соглашение даже после завершения шагов вывода на стороне workspace.",
+    "text_orig": "Data already exported to the vendor follows the vendor retention agreement. Discuss this directly if the customer's reason for retirement is concern about information previously sent out. Removing the installation from LumenDesk is not a statement about what the vendor retains under its agreement. Do not infer deletion at the vendor from the fact that the app has disappeared from connected apps. The customer's question may need reference to that agreement even after the workspace-side retirement steps have been completed.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "25-016",
+    "doc_no": 25,
+    "doc_id": "marketplace-approval-retirement",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+    "source_sha256": "c0d5cf79a2432b0e4bc7efdb9b06157d264f314cd0cb73cd342ceb1afae62058",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      31,
+      31
+     ]
+    },
+    "locator_text": "строка 31",
+    "segment_sha": "3ea850bdda4a",
+    "section": "What removal does not tell us about exported data",
+    "section_ru": "Чего удаление не говорит нам о выгруженных данных",
+    "text_ru": "Закрывая разговор, оставьте короткое описание, понятное другому администратору: какая интеграция была одобрена, кто и когда её одобрил, рассматривались ли отдельно новые write scopes и как была завершена последовательность вывода, если приложение удалено. Используйте части, относящиеся к этому случаю; смысл в непрерывности, а не в церемониальной форме. Эта копия хранится рядом с другими материалами marketplace, потому что одобрение и вывод — два конца одних и тех же отношений, принадлежащих workspace, даже если их выполняют разные люди с разницей в несколько месяцев.",
+    "text_orig": "When closing the conversation, leave a short account that another administrator could understand: which integration was approved, who approved it and when, whether any new write scopes were separately considered, and how the retirement sequence was completed if the app was removed. Use the parts relevant to this case; the point is continuity, not a ceremonial form. This copy lives beside other marketplace material because approval and retirement are two ends of the same workspace-owned relationship, even when different people perform them months apart.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   }
+  ]
+ }
+}

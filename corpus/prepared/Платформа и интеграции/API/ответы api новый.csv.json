@@ -1,0 +1,6608 @@
+{
+ "no": 23,
+ "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+ "doc_id": "api-errors",
+ "title": "",
+ "title_ru": null,
+ "lang": "ru",
+ "format": "csv",
+ "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+ "decision": {
+  "no": 23,
+  "path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+  "doc_id": "api-errors",
+  "title": "",
+  "lang": "ru",
+  "owner": "",
+  "version": "",
+  "updated": "2026-09-12",
+  "doc_type": "register",
+  "status": "include",
+  "rule": "R5",
+  "reason": "Владелец не указан; журнал примеров 9–12.09.2026; единственный источник о кодах ошибок API; согласуется с №29 (413) и №31 (401).",
+  "access": "all",
+  "trust": "unconfirmed_origin",
+  "related": [
+   29,
+   31,
+   6
+  ]
+ },
+ "fragments": [
+  {
+   "fragment_id": "23-001",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "table_header",
+   "locator": {
+    "csv_row": 1
+   },
+   "locator_text": "строка 1",
+   "segment_sha": "99bcef74ad4c",
+   "cells": [
+    {
+     "col": 1,
+     "value": "Код или условие",
+     "value_ru": "Код или условие"
+    },
+    {
+     "col": 2,
+     "value": "Действие",
+     "value_ru": "Действие"
+    },
+    {
+     "col": 3,
+     "value": "Время запроса",
+     "value_ru": "Время запроса"
+    },
+    {
+     "col": 4,
+     "value": "Запрос",
+     "value_ru": "Запрос"
+    },
+    {
+     "col": 5,
+     "value": "Безопасный контекст",
+     "value_ru": "Безопасный контекст"
+    }
+   ],
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие | Действие | Время запроса | Запрос | Безопасный контекст",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-002",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 2
+   },
+   "locator_text": "строка 2",
+   "segment_sha": "6f9960bc19bb",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "400 invalid_filter",
+     "header_ru": "Код или условие",
+     "value_ru": "400 invalid_filter"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Проверить имена полей и синтаксис фильтра.",
+     "header_ru": "Действие",
+     "value_ru": "Проверить имена полей и синтаксис фильтра."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 400 invalid_filter; Действие: Проверить имена полей и синтаксис фильтра.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-003",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 3
+   },
+   "locator_text": "строка 3",
+   "segment_sha": "5d1c10238306",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "401 key_expired",
+     "header_ru": "Код или условие",
+     "value_ru": "401 key_expired"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Создать новый ключ и проверить срок старого.",
+     "header_ru": "Действие",
+     "value_ru": "Создать новый ключ и проверить срок старого."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 401 key_expired; Действие: Создать новый ключ и проверить срок старого.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-004",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 4
+   },
+   "locator_text": "строка 4",
+   "segment_sha": "e3ab9f04ab52",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "403 scope_missing",
+     "header_ru": "Код или условие",
+     "value_ru": "403 scope_missing"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Проверить scopes и доступ ключа к пространству.",
+     "header_ru": "Действие",
+     "value_ru": "Проверить scopes и доступ ключа к пространству."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 403 scope_missing; Действие: Проверить scopes и доступ ключа к пространству.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-005",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 5
+   },
+   "locator_text": "строка 5",
+   "segment_sha": "8f45ce0cf409",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "404 resource_not_found",
+     "header_ru": "Код или условие",
+     "value_ru": "404 resource_not_found"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Проверить object ID и права на объект.",
+     "header_ru": "Действие",
+     "value_ru": "Проверить object ID и права на объект."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 404 resource_not_found; Действие: Проверить object ID и права на объект.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-006",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 6
+   },
+   "locator_text": "строка 6",
+   "segment_sha": "d00356e45594",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "409 version_conflict",
+     "header_ru": "Код или условие",
+     "value_ru": "409 version_conflict"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Перечитать объект и повторить изменение с актуальной версией.",
+     "header_ru": "Действие",
+     "value_ru": "Перечитать объект и повторить изменение с актуальной версией."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 409 version_conflict; Действие: Перечитать объект и повторить изменение с актуальной версией.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-007",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 7
+   },
+   "locator_text": "строка 7",
+   "segment_sha": "24aef33de282",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "413 attachment_too_large",
+     "header_ru": "Код или условие",
+     "value_ru": "413 attachment_too_large"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Сравнить размер одного вложения с лимитом тарифа.",
+     "header_ru": "Действие",
+     "value_ru": "Сравнить размер одного вложения с лимитом тарифа."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 413 attachment_too_large; Действие: Сравнить размер одного вложения с лимитом тарифа.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-008",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 8
+   },
+   "locator_text": "строка 8",
+   "segment_sha": "97ffccf410e3",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "429 rate_limited",
+     "header_ru": "Код или условие",
+     "value_ru": "429 rate_limited"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Повторить после интервала из Retry-After в секундах.",
+     "header_ru": "Действие",
+     "value_ru": "Повторить после интервала из Retry-After в секундах."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 429 rate_limited; Действие: Повторить после интервала из Retry-After в секундах.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-009",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 9
+   },
+   "locator_text": "строка 9",
+   "segment_sha": "da17dee08e3a",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "503 temporarily_unavailable",
+     "header_ru": "Код или условие",
+     "value_ru": "503 temporarily_unavailable"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Повторить с увеличивающейся задержкой и проверить страницу статуса.",
+     "header_ru": "Действие",
+     "value_ru": "Повторить с увеличивающейся задержкой и проверить страницу статуса."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 503 temporarily_unavailable; Действие: Повторить с увеличивающейся задержкой и проверить страницу статуса.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-010",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 10
+   },
+   "locator_text": "строка 10",
+   "segment_sha": "9ade09b68f7c",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "Предел повторов",
+     "header_ru": "Код или условие",
+     "value_ru": "Предел повторов"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Клиенту рекомендуется не более 5 повторов одного запроса при временной ошибке.",
+     "header_ru": "Действие",
+     "value_ru": "Клиенту рекомендуется не более 5 повторов одного запроса при временной ошибке."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: Предел повторов; Действие: Клиенту рекомендуется не более 5 повторов одного запроса при временной ошибке.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-011",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 11
+   },
+   "locator_text": "строка 11",
+   "segment_sha": "81ddd47397a6",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "400 invalid_filter",
+     "header_ru": "Код или условие",
+     "value_ru": "400 invalid_filter"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Исправлен синтаксис фильтра",
+     "header_ru": "Действие",
+     "value_ru": "Исправлен синтаксис фильтра"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-09 12:00 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-09 12:00 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3100",
+     "header_ru": "Запрос",
+     "value_ru": "req-3100"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "field: updatedAt",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "field: updatedAt"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 400 invalid_filter; Действие: Исправлен синтаксис фильтра; Время запроса: 2026-09-09 12:00 UTC; Запрос: req-3100; Безопасный контекст: field: updatedAt",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-012",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 12
+   },
+   "locator_text": "строка 12",
+   "segment_sha": "be362b008227",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "401 key_expired",
+     "header_ru": "Код или условие",
+     "value_ru": "401 key_expired"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Администратор проверяет срок ключа",
+     "header_ru": "Действие",
+     "value_ru": "Администратор проверяет срок ключа"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-09 12:06 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-09 12:06 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3101",
+     "header_ru": "Запрос",
+     "value_ru": "req-3101"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "credentials omitted",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "credentials omitted"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 401 key_expired; Действие: Администратор проверяет срок ключа; Время запроса: 2026-09-09 12:06 UTC; Запрос: req-3101; Безопасный контекст: credentials omitted",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-013",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 13
+   },
+   "locator_text": "строка 13",
+   "segment_sha": "e2e4150fb8c0",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "403 scope_missing",
+     "header_ru": "Код или условие",
+     "value_ru": "403 scope_missing"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Проверяется разрешение на пространство",
+     "header_ru": "Действие",
+     "value_ru": "Проверяется разрешение на пространство"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-09 12:12 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-09 12:12 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3102",
+     "header_ru": "Запрос",
+     "value_ru": "req-3102"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "space: operations",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "space: operations"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 403 scope_missing; Действие: Проверяется разрешение на пространство; Время запроса: 2026-09-09 12:12 UTC; Запрос: req-3102; Безопасный контекст: space: operations",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-014",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 14
+   },
+   "locator_text": "строка 14",
+   "segment_sha": "e42217d6af5c",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "404 resource_not_found",
+     "header_ru": "Код или условие",
+     "value_ru": "404 resource_not_found"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Проверены права до вывода об удалении",
+     "header_ru": "Действие",
+     "value_ru": "Проверены права до вывода об удалении"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-09 12:18 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-09 12:18 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3103",
+     "header_ru": "Запрос",
+     "value_ru": "req-3103"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "object: card",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "object: card"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 404 resource_not_found; Действие: Проверены права до вывода об удалении; Время запроса: 2026-09-09 12:18 UTC; Запрос: req-3103; Безопасный контекст: object: card",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-015",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 15
+   },
+   "locator_text": "строка 15",
+   "segment_sha": "28b2bc8f5a14",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "409 version_conflict",
+     "header_ru": "Код или условие",
+     "value_ru": "409 version_conflict"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Объект перечитан перед изменением",
+     "header_ru": "Действие",
+     "value_ru": "Объект перечитан перед изменением"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-09 12:24 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-09 12:24 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3104",
+     "header_ru": "Запрос",
+     "value_ru": "req-3104"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "version mismatch",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "version mismatch"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 409 version_conflict; Действие: Объект перечитан перед изменением; Время запроса: 2026-09-09 12:24 UTC; Запрос: req-3104; Безопасный контекст: version mismatch",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-016",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 16
+   },
+   "locator_text": "строка 16",
+   "segment_sha": "88bd5a6598db",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "413 attachment_too_large",
+     "header_ru": "Код или условие",
+     "value_ru": "413 attachment_too_large"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Размер одного файла сверили с тарифом",
+     "header_ru": "Действие",
+     "value_ru": "Размер одного файла сверили с тарифом"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-09 12:30 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-09 12:30 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3105",
+     "header_ru": "Запрос",
+     "value_ru": "req-3105"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "plan: Team",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "plan: Team"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 413 attachment_too_large; Действие: Размер одного файла сверили с тарифом; Время запроса: 2026-09-09 12:30 UTC; Запрос: req-3105; Безопасный контекст: plan: Team",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-017",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 17
+   },
+   "locator_text": "строка 17",
+   "segment_sha": "19fd8f723506",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "429 rate_limited",
+     "header_ru": "Код или условие",
+     "value_ru": "429 rate_limited"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Повтор отложен на указанный интервал",
+     "header_ru": "Действие",
+     "value_ru": "Повтор отложен на указанный интервал"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-09 12:36 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-09 12:36 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3106",
+     "header_ru": "Запрос",
+     "value_ru": "req-3106"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "Retry-After: 12",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "Retry-After: 12"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 429 rate_limited; Действие: Повтор отложен на указанный интервал; Время запроса: 2026-09-09 12:36 UTC; Запрос: req-3106; Безопасный контекст: Retry-After: 12",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-018",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 18
+   },
+   "locator_text": "строка 18",
+   "segment_sha": "81934f10d46d",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "503 temporarily_unavailable",
+     "header_ru": "Код или условие",
+     "value_ru": "503 temporarily_unavailable"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Технический сбой; повтор с увеличением задержки",
+     "header_ru": "Действие",
+     "value_ru": "Технический сбой; повтор с увеличением задержки"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-09 12:42 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-09 12:42 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3107",
+     "header_ru": "Запрос",
+     "value_ru": "req-3107"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "status page checked",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "status page checked"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 503 temporarily_unavailable; Действие: Технический сбой; повтор с увеличением задержки; Время запроса: 2026-09-09 12:42 UTC; Запрос: req-3107; Безопасный контекст: status page checked",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-019",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 19
+   },
+   "locator_text": "строка 19",
+   "segment_sha": "972ad7672757",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "400 invalid_filter",
+     "header_ru": "Код или условие",
+     "value_ru": "400 invalid_filter"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Исправлен синтаксис фильтра",
+     "header_ru": "Действие",
+     "value_ru": "Исправлен синтаксис фильтра"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-10 12:00 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-10 12:00 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3108",
+     "header_ru": "Запрос",
+     "value_ru": "req-3108"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "field: updatedAt",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "field: updatedAt"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 400 invalid_filter; Действие: Исправлен синтаксис фильтра; Время запроса: 2026-09-10 12:00 UTC; Запрос: req-3108; Безопасный контекст: field: updatedAt",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-020",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 20
+   },
+   "locator_text": "строка 20",
+   "segment_sha": "cedcbd9d1b51",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "401 key_expired",
+     "header_ru": "Код или условие",
+     "value_ru": "401 key_expired"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Администратор проверяет срок ключа",
+     "header_ru": "Действие",
+     "value_ru": "Администратор проверяет срок ключа"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-10 12:06 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-10 12:06 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3109",
+     "header_ru": "Запрос",
+     "value_ru": "req-3109"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "credentials omitted",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "credentials omitted"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 401 key_expired; Действие: Администратор проверяет срок ключа; Время запроса: 2026-09-10 12:06 UTC; Запрос: req-3109; Безопасный контекст: credentials omitted",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-021",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 21
+   },
+   "locator_text": "строка 21",
+   "segment_sha": "c01bb6f613bb",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "403 scope_missing",
+     "header_ru": "Код или условие",
+     "value_ru": "403 scope_missing"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Проверяется разрешение на пространство",
+     "header_ru": "Действие",
+     "value_ru": "Проверяется разрешение на пространство"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-10 12:12 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-10 12:12 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3110",
+     "header_ru": "Запрос",
+     "value_ru": "req-3110"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "space: operations",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "space: operations"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 403 scope_missing; Действие: Проверяется разрешение на пространство; Время запроса: 2026-09-10 12:12 UTC; Запрос: req-3110; Безопасный контекст: space: operations",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-022",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 22
+   },
+   "locator_text": "строка 22",
+   "segment_sha": "e98837029754",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "404 resource_not_found",
+     "header_ru": "Код или условие",
+     "value_ru": "404 resource_not_found"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Проверены права до вывода об удалении",
+     "header_ru": "Действие",
+     "value_ru": "Проверены права до вывода об удалении"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-10 12:18 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-10 12:18 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3111",
+     "header_ru": "Запрос",
+     "value_ru": "req-3111"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "object: card",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "object: card"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 404 resource_not_found; Действие: Проверены права до вывода об удалении; Время запроса: 2026-09-10 12:18 UTC; Запрос: req-3111; Безопасный контекст: object: card",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-023",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 23
+   },
+   "locator_text": "строка 23",
+   "segment_sha": "e82073af1095",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "409 version_conflict",
+     "header_ru": "Код или условие",
+     "value_ru": "409 version_conflict"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Объект перечитан перед изменением",
+     "header_ru": "Действие",
+     "value_ru": "Объект перечитан перед изменением"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-10 12:24 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-10 12:24 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3112",
+     "header_ru": "Запрос",
+     "value_ru": "req-3112"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "version mismatch",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "version mismatch"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 409 version_conflict; Действие: Объект перечитан перед изменением; Время запроса: 2026-09-10 12:24 UTC; Запрос: req-3112; Безопасный контекст: version mismatch",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-024",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 24
+   },
+   "locator_text": "строка 24",
+   "segment_sha": "07db13e4bdb5",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "413 attachment_too_large",
+     "header_ru": "Код или условие",
+     "value_ru": "413 attachment_too_large"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Размер одного файла сверили с тарифом",
+     "header_ru": "Действие",
+     "value_ru": "Размер одного файла сверили с тарифом"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-10 12:30 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-10 12:30 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3113",
+     "header_ru": "Запрос",
+     "value_ru": "req-3113"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "plan: Team",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "plan: Team"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 413 attachment_too_large; Действие: Размер одного файла сверили с тарифом; Время запроса: 2026-09-10 12:30 UTC; Запрос: req-3113; Безопасный контекст: plan: Team",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-025",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 25
+   },
+   "locator_text": "строка 25",
+   "segment_sha": "de7ac06e08e6",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "429 rate_limited",
+     "header_ru": "Код или условие",
+     "value_ru": "429 rate_limited"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Повтор отложен на указанный интервал",
+     "header_ru": "Действие",
+     "value_ru": "Повтор отложен на указанный интервал"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-10 12:36 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-10 12:36 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3114",
+     "header_ru": "Запрос",
+     "value_ru": "req-3114"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "Retry-After: 12",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "Retry-After: 12"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 429 rate_limited; Действие: Повтор отложен на указанный интервал; Время запроса: 2026-09-10 12:36 UTC; Запрос: req-3114; Безопасный контекст: Retry-After: 12",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-026",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 26
+   },
+   "locator_text": "строка 26",
+   "segment_sha": "650efb9416df",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "503 temporarily_unavailable",
+     "header_ru": "Код или условие",
+     "value_ru": "503 temporarily_unavailable"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Технический сбой; повтор с увеличением задержки",
+     "header_ru": "Действие",
+     "value_ru": "Технический сбой; повтор с увеличением задержки"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-10 12:42 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-10 12:42 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3115",
+     "header_ru": "Запрос",
+     "value_ru": "req-3115"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "status page checked",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "status page checked"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 503 temporarily_unavailable; Действие: Технический сбой; повтор с увеличением задержки; Время запроса: 2026-09-10 12:42 UTC; Запрос: req-3115; Безопасный контекст: status page checked",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-027",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 27
+   },
+   "locator_text": "строка 27",
+   "segment_sha": "e34b88a30e6d",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "400 invalid_filter",
+     "header_ru": "Код или условие",
+     "value_ru": "400 invalid_filter"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Исправлен синтаксис фильтра",
+     "header_ru": "Действие",
+     "value_ru": "Исправлен синтаксис фильтра"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-11 12:00 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-11 12:00 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3116",
+     "header_ru": "Запрос",
+     "value_ru": "req-3116"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "field: updatedAt",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "field: updatedAt"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 400 invalid_filter; Действие: Исправлен синтаксис фильтра; Время запроса: 2026-09-11 12:00 UTC; Запрос: req-3116; Безопасный контекст: field: updatedAt",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-028",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 28
+   },
+   "locator_text": "строка 28",
+   "segment_sha": "5da01a9f02eb",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "401 key_expired",
+     "header_ru": "Код или условие",
+     "value_ru": "401 key_expired"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Администратор проверяет срок ключа",
+     "header_ru": "Действие",
+     "value_ru": "Администратор проверяет срок ключа"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-11 12:06 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-11 12:06 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3117",
+     "header_ru": "Запрос",
+     "value_ru": "req-3117"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "credentials omitted",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "credentials omitted"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 401 key_expired; Действие: Администратор проверяет срок ключа; Время запроса: 2026-09-11 12:06 UTC; Запрос: req-3117; Безопасный контекст: credentials omitted",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-029",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 29
+   },
+   "locator_text": "строка 29",
+   "segment_sha": "70392ecdcfd0",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "403 scope_missing",
+     "header_ru": "Код или условие",
+     "value_ru": "403 scope_missing"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Проверяется разрешение на пространство",
+     "header_ru": "Действие",
+     "value_ru": "Проверяется разрешение на пространство"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-11 12:12 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-11 12:12 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3118",
+     "header_ru": "Запрос",
+     "value_ru": "req-3118"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "space: operations",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "space: operations"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 403 scope_missing; Действие: Проверяется разрешение на пространство; Время запроса: 2026-09-11 12:12 UTC; Запрос: req-3118; Безопасный контекст: space: operations",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-030",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 30
+   },
+   "locator_text": "строка 30",
+   "segment_sha": "43e159c18168",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "404 resource_not_found",
+     "header_ru": "Код или условие",
+     "value_ru": "404 resource_not_found"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Проверены права до вывода об удалении",
+     "header_ru": "Действие",
+     "value_ru": "Проверены права до вывода об удалении"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-11 12:18 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-11 12:18 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3119",
+     "header_ru": "Запрос",
+     "value_ru": "req-3119"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "object: card",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "object: card"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 404 resource_not_found; Действие: Проверены права до вывода об удалении; Время запроса: 2026-09-11 12:18 UTC; Запрос: req-3119; Безопасный контекст: object: card",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-031",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 31
+   },
+   "locator_text": "строка 31",
+   "segment_sha": "cc51e486f364",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "409 version_conflict",
+     "header_ru": "Код или условие",
+     "value_ru": "409 version_conflict"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Объект перечитан перед изменением",
+     "header_ru": "Действие",
+     "value_ru": "Объект перечитан перед изменением"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-11 12:24 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-11 12:24 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3120",
+     "header_ru": "Запрос",
+     "value_ru": "req-3120"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "version mismatch",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "version mismatch"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 409 version_conflict; Действие: Объект перечитан перед изменением; Время запроса: 2026-09-11 12:24 UTC; Запрос: req-3120; Безопасный контекст: version mismatch",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-032",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 32
+   },
+   "locator_text": "строка 32",
+   "segment_sha": "6e23f846ef6d",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "413 attachment_too_large",
+     "header_ru": "Код или условие",
+     "value_ru": "413 attachment_too_large"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Размер одного файла сверили с тарифом",
+     "header_ru": "Действие",
+     "value_ru": "Размер одного файла сверили с тарифом"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-11 12:30 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-11 12:30 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3121",
+     "header_ru": "Запрос",
+     "value_ru": "req-3121"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "plan: Team",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "plan: Team"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 413 attachment_too_large; Действие: Размер одного файла сверили с тарифом; Время запроса: 2026-09-11 12:30 UTC; Запрос: req-3121; Безопасный контекст: plan: Team",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-033",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 33
+   },
+   "locator_text": "строка 33",
+   "segment_sha": "933e40164764",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "429 rate_limited",
+     "header_ru": "Код или условие",
+     "value_ru": "429 rate_limited"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Повтор отложен на указанный интервал",
+     "header_ru": "Действие",
+     "value_ru": "Повтор отложен на указанный интервал"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-11 12:36 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-11 12:36 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3122",
+     "header_ru": "Запрос",
+     "value_ru": "req-3122"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "Retry-After: 12",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "Retry-After: 12"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 429 rate_limited; Действие: Повтор отложен на указанный интервал; Время запроса: 2026-09-11 12:36 UTC; Запрос: req-3122; Безопасный контекст: Retry-After: 12",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-034",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 34
+   },
+   "locator_text": "строка 34",
+   "segment_sha": "02d5dea934f1",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "503 temporarily_unavailable",
+     "header_ru": "Код или условие",
+     "value_ru": "503 temporarily_unavailable"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Технический сбой; повтор с увеличением задержки",
+     "header_ru": "Действие",
+     "value_ru": "Технический сбой; повтор с увеличением задержки"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-11 12:42 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-11 12:42 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3123",
+     "header_ru": "Запрос",
+     "value_ru": "req-3123"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "status page checked",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "status page checked"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 503 temporarily_unavailable; Действие: Технический сбой; повтор с увеличением задержки; Время запроса: 2026-09-11 12:42 UTC; Запрос: req-3123; Безопасный контекст: status page checked",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-035",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 35
+   },
+   "locator_text": "строка 35",
+   "segment_sha": "78926e0021e7",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "400 invalid_filter",
+     "header_ru": "Код или условие",
+     "value_ru": "400 invalid_filter"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Исправлен синтаксис фильтра",
+     "header_ru": "Действие",
+     "value_ru": "Исправлен синтаксис фильтра"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-12 12:00 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-12 12:00 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3124",
+     "header_ru": "Запрос",
+     "value_ru": "req-3124"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "field: updatedAt",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "field: updatedAt"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 400 invalid_filter; Действие: Исправлен синтаксис фильтра; Время запроса: 2026-09-12 12:00 UTC; Запрос: req-3124; Безопасный контекст: field: updatedAt",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-036",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 36
+   },
+   "locator_text": "строка 36",
+   "segment_sha": "3695df6aac01",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "401 key_expired",
+     "header_ru": "Код или условие",
+     "value_ru": "401 key_expired"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Администратор проверяет срок ключа",
+     "header_ru": "Действие",
+     "value_ru": "Администратор проверяет срок ключа"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-12 12:06 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-12 12:06 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3125",
+     "header_ru": "Запрос",
+     "value_ru": "req-3125"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "credentials omitted",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "credentials omitted"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 401 key_expired; Действие: Администратор проверяет срок ключа; Время запроса: 2026-09-12 12:06 UTC; Запрос: req-3125; Безопасный контекст: credentials omitted",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-037",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 37
+   },
+   "locator_text": "строка 37",
+   "segment_sha": "2fe144086e01",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "403 scope_missing",
+     "header_ru": "Код или условие",
+     "value_ru": "403 scope_missing"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Проверяется разрешение на пространство",
+     "header_ru": "Действие",
+     "value_ru": "Проверяется разрешение на пространство"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-12 12:12 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-12 12:12 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3126",
+     "header_ru": "Запрос",
+     "value_ru": "req-3126"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "space: operations",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "space: operations"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 403 scope_missing; Действие: Проверяется разрешение на пространство; Время запроса: 2026-09-12 12:12 UTC; Запрос: req-3126; Безопасный контекст: space: operations",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-038",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 38
+   },
+   "locator_text": "строка 38",
+   "segment_sha": "43c0f67e7b6d",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "404 resource_not_found",
+     "header_ru": "Код или условие",
+     "value_ru": "404 resource_not_found"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Проверены права до вывода об удалении",
+     "header_ru": "Действие",
+     "value_ru": "Проверены права до вывода об удалении"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-12 12:18 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-12 12:18 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3127",
+     "header_ru": "Запрос",
+     "value_ru": "req-3127"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "object: card",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "object: card"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 404 resource_not_found; Действие: Проверены права до вывода об удалении; Время запроса: 2026-09-12 12:18 UTC; Запрос: req-3127; Безопасный контекст: object: card",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-039",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 39
+   },
+   "locator_text": "строка 39",
+   "segment_sha": "dc354ee21be7",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "409 version_conflict",
+     "header_ru": "Код или условие",
+     "value_ru": "409 version_conflict"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Объект перечитан перед изменением",
+     "header_ru": "Действие",
+     "value_ru": "Объект перечитан перед изменением"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-12 12:24 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-12 12:24 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3128",
+     "header_ru": "Запрос",
+     "value_ru": "req-3128"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "version mismatch",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "version mismatch"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 409 version_conflict; Действие: Объект перечитан перед изменением; Время запроса: 2026-09-12 12:24 UTC; Запрос: req-3128; Безопасный контекст: version mismatch",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-040",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 40
+   },
+   "locator_text": "строка 40",
+   "segment_sha": "6d24495102c8",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "413 attachment_too_large",
+     "header_ru": "Код или условие",
+     "value_ru": "413 attachment_too_large"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Размер одного файла сверили с тарифом",
+     "header_ru": "Действие",
+     "value_ru": "Размер одного файла сверили с тарифом"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-12 12:30 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-12 12:30 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3129",
+     "header_ru": "Запрос",
+     "value_ru": "req-3129"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "plan: Team",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "plan: Team"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 413 attachment_too_large; Действие: Размер одного файла сверили с тарифом; Время запроса: 2026-09-12 12:30 UTC; Запрос: req-3129; Безопасный контекст: plan: Team",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-041",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 41
+   },
+   "locator_text": "строка 41",
+   "segment_sha": "3c99a447f1e3",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "429 rate_limited",
+     "header_ru": "Код или условие",
+     "value_ru": "429 rate_limited"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Повтор отложен на указанный интервал",
+     "header_ru": "Действие",
+     "value_ru": "Повтор отложен на указанный интервал"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-12 12:36 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-12 12:36 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3130",
+     "header_ru": "Запрос",
+     "value_ru": "req-3130"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "Retry-After: 12",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "Retry-After: 12"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 429 rate_limited; Действие: Повтор отложен на указанный интервал; Время запроса: 2026-09-12 12:36 UTC; Запрос: req-3130; Безопасный контекст: Retry-After: 12",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  },
+  {
+   "fragment_id": "23-042",
+   "doc_no": 23,
+   "doc_id": "api-errors",
+   "doc_version": "",
+   "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 42
+   },
+   "locator_text": "строка 42",
+   "segment_sha": "8db8b2aeba78",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Код или условие",
+     "value": "503 temporarily_unavailable",
+     "header_ru": "Код или условие",
+     "value_ru": "503 temporarily_unavailable"
+    },
+    {
+     "col": 2,
+     "header": "Действие",
+     "value": "Технический сбой; повтор с увеличением задержки",
+     "header_ru": "Действие",
+     "value_ru": "Технический сбой; повтор с увеличением задержки"
+    },
+    {
+     "col": 3,
+     "header": "Время запроса",
+     "value": "2026-09-12 12:42 UTC",
+     "header_ru": "Время запроса",
+     "value_ru": "2026-09-12 12:42 UTC"
+    },
+    {
+     "col": 4,
+     "header": "Запрос",
+     "value": "req-3131",
+     "header_ru": "Запрос",
+     "value_ru": "req-3131"
+    },
+    {
+     "col": 5,
+     "header": "Безопасный контекст",
+     "value": "status page checked",
+     "header_ru": "Безопасный контекст",
+     "value_ru": "status page checked"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Код или условие",
+     "Действие",
+     "Время запроса",
+     "Запрос",
+     "Безопасный контекст"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Код или условие: 503 temporarily_unavailable; Действие: Технический сбой; повтор с увеличением задержки; Время запроса: 2026-09-12 12:42 UTC; Запрос: req-3131; Безопасный контекст: status page checked",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+  }
+ ],
+ "_base": {
+  "no": 23,
+  "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+  "doc_id": "api-errors",
+  "title": "",
+  "title_ru": null,
+  "lang": "ru",
+  "format": "csv",
+  "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+  "decision": {
+   "no": 23,
+   "path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+   "doc_id": "api-errors",
+   "title": "",
+   "lang": "ru",
+   "owner": "",
+   "version": "",
+   "updated": "2026-09-12",
+   "doc_type": "register",
+   "status": "include",
+   "rule": "R5",
+   "reason": "Владелец не указан; журнал примеров 9–12.09.2026; единственный источник о кодах ошибок API; согласуется с №29 (413) и №31 (401).",
+   "access": "all",
+   "trust": "unconfirmed_origin",
+   "related": [
+    29,
+    31,
+    6
+   ]
+  },
+  "fragments": [
+   {
+    "fragment_id": "23-001",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "table_header",
+    "locator": {
+     "csv_row": 1
+    },
+    "locator_text": "строка 1",
+    "segment_sha": "99bcef74ad4c",
+    "cells": [
+     {
+      "col": 1,
+      "value": "Код или условие",
+      "value_ru": "Код или условие"
+     },
+     {
+      "col": 2,
+      "value": "Действие",
+      "value_ru": "Действие"
+     },
+     {
+      "col": 3,
+      "value": "Время запроса",
+      "value_ru": "Время запроса"
+     },
+     {
+      "col": 4,
+      "value": "Запрос",
+      "value_ru": "Запрос"
+     },
+     {
+      "col": 5,
+      "value": "Безопасный контекст",
+      "value_ru": "Безопасный контекст"
+     }
+    ],
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие | Действие | Время запроса | Запрос | Безопасный контекст",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-002",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 2
+    },
+    "locator_text": "строка 2",
+    "segment_sha": "6f9960bc19bb",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "400 invalid_filter",
+      "header_ru": "Код или условие",
+      "value_ru": "400 invalid_filter"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Проверить имена полей и синтаксис фильтра.",
+      "header_ru": "Действие",
+      "value_ru": "Проверить имена полей и синтаксис фильтра."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 400 invalid_filter; Действие: Проверить имена полей и синтаксис фильтра.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-003",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 3
+    },
+    "locator_text": "строка 3",
+    "segment_sha": "5d1c10238306",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "401 key_expired",
+      "header_ru": "Код или условие",
+      "value_ru": "401 key_expired"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Создать новый ключ и проверить срок старого.",
+      "header_ru": "Действие",
+      "value_ru": "Создать новый ключ и проверить срок старого."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 401 key_expired; Действие: Создать новый ключ и проверить срок старого.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-004",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 4
+    },
+    "locator_text": "строка 4",
+    "segment_sha": "e3ab9f04ab52",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "403 scope_missing",
+      "header_ru": "Код или условие",
+      "value_ru": "403 scope_missing"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Проверить scopes и доступ ключа к пространству.",
+      "header_ru": "Действие",
+      "value_ru": "Проверить scopes и доступ ключа к пространству."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 403 scope_missing; Действие: Проверить scopes и доступ ключа к пространству.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-005",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 5
+    },
+    "locator_text": "строка 5",
+    "segment_sha": "8f45ce0cf409",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "404 resource_not_found",
+      "header_ru": "Код или условие",
+      "value_ru": "404 resource_not_found"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Проверить object ID и права на объект.",
+      "header_ru": "Действие",
+      "value_ru": "Проверить object ID и права на объект."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 404 resource_not_found; Действие: Проверить object ID и права на объект.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-006",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 6
+    },
+    "locator_text": "строка 6",
+    "segment_sha": "d00356e45594",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "409 version_conflict",
+      "header_ru": "Код или условие",
+      "value_ru": "409 version_conflict"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Перечитать объект и повторить изменение с актуальной версией.",
+      "header_ru": "Действие",
+      "value_ru": "Перечитать объект и повторить изменение с актуальной версией."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 409 version_conflict; Действие: Перечитать объект и повторить изменение с актуальной версией.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-007",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 7
+    },
+    "locator_text": "строка 7",
+    "segment_sha": "24aef33de282",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "413 attachment_too_large",
+      "header_ru": "Код или условие",
+      "value_ru": "413 attachment_too_large"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Сравнить размер одного вложения с лимитом тарифа.",
+      "header_ru": "Действие",
+      "value_ru": "Сравнить размер одного вложения с лимитом тарифа."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 413 attachment_too_large; Действие: Сравнить размер одного вложения с лимитом тарифа.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-008",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 8
+    },
+    "locator_text": "строка 8",
+    "segment_sha": "97ffccf410e3",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "429 rate_limited",
+      "header_ru": "Код или условие",
+      "value_ru": "429 rate_limited"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Повторить после интервала из Retry-After в секундах.",
+      "header_ru": "Действие",
+      "value_ru": "Повторить после интервала из Retry-After в секундах."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 429 rate_limited; Действие: Повторить после интервала из Retry-After в секундах.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-009",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 9
+    },
+    "locator_text": "строка 9",
+    "segment_sha": "da17dee08e3a",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "503 temporarily_unavailable",
+      "header_ru": "Код или условие",
+      "value_ru": "503 temporarily_unavailable"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Повторить с увеличивающейся задержкой и проверить страницу статуса.",
+      "header_ru": "Действие",
+      "value_ru": "Повторить с увеличивающейся задержкой и проверить страницу статуса."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 503 temporarily_unavailable; Действие: Повторить с увеличивающейся задержкой и проверить страницу статуса.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-010",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 10
+    },
+    "locator_text": "строка 10",
+    "segment_sha": "9ade09b68f7c",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "Предел повторов",
+      "header_ru": "Код или условие",
+      "value_ru": "Предел повторов"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Клиенту рекомендуется не более 5 повторов одного запроса при временной ошибке.",
+      "header_ru": "Действие",
+      "value_ru": "Клиенту рекомендуется не более 5 повторов одного запроса при временной ошибке."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: Предел повторов; Действие: Клиенту рекомендуется не более 5 повторов одного запроса при временной ошибке.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-011",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 11
+    },
+    "locator_text": "строка 11",
+    "segment_sha": "81ddd47397a6",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "400 invalid_filter",
+      "header_ru": "Код или условие",
+      "value_ru": "400 invalid_filter"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Исправлен синтаксис фильтра",
+      "header_ru": "Действие",
+      "value_ru": "Исправлен синтаксис фильтра"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-09 12:00 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-09 12:00 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3100",
+      "header_ru": "Запрос",
+      "value_ru": "req-3100"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "field: updatedAt",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "field: updatedAt"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 400 invalid_filter; Действие: Исправлен синтаксис фильтра; Время запроса: 2026-09-09 12:00 UTC; Запрос: req-3100; Безопасный контекст: field: updatedAt",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-012",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 12
+    },
+    "locator_text": "строка 12",
+    "segment_sha": "be362b008227",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "401 key_expired",
+      "header_ru": "Код или условие",
+      "value_ru": "401 key_expired"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Администратор проверяет срок ключа",
+      "header_ru": "Действие",
+      "value_ru": "Администратор проверяет срок ключа"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-09 12:06 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-09 12:06 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3101",
+      "header_ru": "Запрос",
+      "value_ru": "req-3101"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "credentials omitted",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "credentials omitted"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 401 key_expired; Действие: Администратор проверяет срок ключа; Время запроса: 2026-09-09 12:06 UTC; Запрос: req-3101; Безопасный контекст: credentials omitted",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-013",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 13
+    },
+    "locator_text": "строка 13",
+    "segment_sha": "e2e4150fb8c0",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "403 scope_missing",
+      "header_ru": "Код или условие",
+      "value_ru": "403 scope_missing"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Проверяется разрешение на пространство",
+      "header_ru": "Действие",
+      "value_ru": "Проверяется разрешение на пространство"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-09 12:12 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-09 12:12 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3102",
+      "header_ru": "Запрос",
+      "value_ru": "req-3102"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "space: operations",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "space: operations"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 403 scope_missing; Действие: Проверяется разрешение на пространство; Время запроса: 2026-09-09 12:12 UTC; Запрос: req-3102; Безопасный контекст: space: operations",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-014",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 14
+    },
+    "locator_text": "строка 14",
+    "segment_sha": "e42217d6af5c",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "404 resource_not_found",
+      "header_ru": "Код или условие",
+      "value_ru": "404 resource_not_found"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Проверены права до вывода об удалении",
+      "header_ru": "Действие",
+      "value_ru": "Проверены права до вывода об удалении"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-09 12:18 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-09 12:18 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3103",
+      "header_ru": "Запрос",
+      "value_ru": "req-3103"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "object: card",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "object: card"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 404 resource_not_found; Действие: Проверены права до вывода об удалении; Время запроса: 2026-09-09 12:18 UTC; Запрос: req-3103; Безопасный контекст: object: card",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-015",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 15
+    },
+    "locator_text": "строка 15",
+    "segment_sha": "28b2bc8f5a14",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "409 version_conflict",
+      "header_ru": "Код или условие",
+      "value_ru": "409 version_conflict"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Объект перечитан перед изменением",
+      "header_ru": "Действие",
+      "value_ru": "Объект перечитан перед изменением"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-09 12:24 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-09 12:24 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3104",
+      "header_ru": "Запрос",
+      "value_ru": "req-3104"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "version mismatch",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "version mismatch"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 409 version_conflict; Действие: Объект перечитан перед изменением; Время запроса: 2026-09-09 12:24 UTC; Запрос: req-3104; Безопасный контекст: version mismatch",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-016",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 16
+    },
+    "locator_text": "строка 16",
+    "segment_sha": "88bd5a6598db",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "413 attachment_too_large",
+      "header_ru": "Код или условие",
+      "value_ru": "413 attachment_too_large"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Размер одного файла сверили с тарифом",
+      "header_ru": "Действие",
+      "value_ru": "Размер одного файла сверили с тарифом"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-09 12:30 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-09 12:30 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3105",
+      "header_ru": "Запрос",
+      "value_ru": "req-3105"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "plan: Team",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "plan: Team"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 413 attachment_too_large; Действие: Размер одного файла сверили с тарифом; Время запроса: 2026-09-09 12:30 UTC; Запрос: req-3105; Безопасный контекст: plan: Team",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-017",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 17
+    },
+    "locator_text": "строка 17",
+    "segment_sha": "19fd8f723506",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "429 rate_limited",
+      "header_ru": "Код или условие",
+      "value_ru": "429 rate_limited"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Повтор отложен на указанный интервал",
+      "header_ru": "Действие",
+      "value_ru": "Повтор отложен на указанный интервал"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-09 12:36 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-09 12:36 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3106",
+      "header_ru": "Запрос",
+      "value_ru": "req-3106"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "Retry-After: 12",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "Retry-After: 12"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 429 rate_limited; Действие: Повтор отложен на указанный интервал; Время запроса: 2026-09-09 12:36 UTC; Запрос: req-3106; Безопасный контекст: Retry-After: 12",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-018",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 18
+    },
+    "locator_text": "строка 18",
+    "segment_sha": "81934f10d46d",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "503 temporarily_unavailable",
+      "header_ru": "Код или условие",
+      "value_ru": "503 temporarily_unavailable"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Технический сбой; повтор с увеличением задержки",
+      "header_ru": "Действие",
+      "value_ru": "Технический сбой; повтор с увеличением задержки"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-09 12:42 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-09 12:42 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3107",
+      "header_ru": "Запрос",
+      "value_ru": "req-3107"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "status page checked",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "status page checked"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 503 temporarily_unavailable; Действие: Технический сбой; повтор с увеличением задержки; Время запроса: 2026-09-09 12:42 UTC; Запрос: req-3107; Безопасный контекст: status page checked",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-019",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 19
+    },
+    "locator_text": "строка 19",
+    "segment_sha": "972ad7672757",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "400 invalid_filter",
+      "header_ru": "Код или условие",
+      "value_ru": "400 invalid_filter"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Исправлен синтаксис фильтра",
+      "header_ru": "Действие",
+      "value_ru": "Исправлен синтаксис фильтра"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-10 12:00 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-10 12:00 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3108",
+      "header_ru": "Запрос",
+      "value_ru": "req-3108"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "field: updatedAt",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "field: updatedAt"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 400 invalid_filter; Действие: Исправлен синтаксис фильтра; Время запроса: 2026-09-10 12:00 UTC; Запрос: req-3108; Безопасный контекст: field: updatedAt",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-020",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 20
+    },
+    "locator_text": "строка 20",
+    "segment_sha": "cedcbd9d1b51",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "401 key_expired",
+      "header_ru": "Код или условие",
+      "value_ru": "401 key_expired"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Администратор проверяет срок ключа",
+      "header_ru": "Действие",
+      "value_ru": "Администратор проверяет срок ключа"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-10 12:06 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-10 12:06 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3109",
+      "header_ru": "Запрос",
+      "value_ru": "req-3109"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "credentials omitted",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "credentials omitted"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 401 key_expired; Действие: Администратор проверяет срок ключа; Время запроса: 2026-09-10 12:06 UTC; Запрос: req-3109; Безопасный контекст: credentials omitted",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-021",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 21
+    },
+    "locator_text": "строка 21",
+    "segment_sha": "c01bb6f613bb",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "403 scope_missing",
+      "header_ru": "Код или условие",
+      "value_ru": "403 scope_missing"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Проверяется разрешение на пространство",
+      "header_ru": "Действие",
+      "value_ru": "Проверяется разрешение на пространство"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-10 12:12 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-10 12:12 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3110",
+      "header_ru": "Запрос",
+      "value_ru": "req-3110"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "space: operations",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "space: operations"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 403 scope_missing; Действие: Проверяется разрешение на пространство; Время запроса: 2026-09-10 12:12 UTC; Запрос: req-3110; Безопасный контекст: space: operations",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-022",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 22
+    },
+    "locator_text": "строка 22",
+    "segment_sha": "e98837029754",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "404 resource_not_found",
+      "header_ru": "Код или условие",
+      "value_ru": "404 resource_not_found"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Проверены права до вывода об удалении",
+      "header_ru": "Действие",
+      "value_ru": "Проверены права до вывода об удалении"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-10 12:18 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-10 12:18 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3111",
+      "header_ru": "Запрос",
+      "value_ru": "req-3111"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "object: card",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "object: card"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 404 resource_not_found; Действие: Проверены права до вывода об удалении; Время запроса: 2026-09-10 12:18 UTC; Запрос: req-3111; Безопасный контекст: object: card",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-023",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 23
+    },
+    "locator_text": "строка 23",
+    "segment_sha": "e82073af1095",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "409 version_conflict",
+      "header_ru": "Код или условие",
+      "value_ru": "409 version_conflict"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Объект перечитан перед изменением",
+      "header_ru": "Действие",
+      "value_ru": "Объект перечитан перед изменением"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-10 12:24 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-10 12:24 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3112",
+      "header_ru": "Запрос",
+      "value_ru": "req-3112"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "version mismatch",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "version mismatch"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 409 version_conflict; Действие: Объект перечитан перед изменением; Время запроса: 2026-09-10 12:24 UTC; Запрос: req-3112; Безопасный контекст: version mismatch",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-024",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 24
+    },
+    "locator_text": "строка 24",
+    "segment_sha": "07db13e4bdb5",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "413 attachment_too_large",
+      "header_ru": "Код или условие",
+      "value_ru": "413 attachment_too_large"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Размер одного файла сверили с тарифом",
+      "header_ru": "Действие",
+      "value_ru": "Размер одного файла сверили с тарифом"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-10 12:30 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-10 12:30 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3113",
+      "header_ru": "Запрос",
+      "value_ru": "req-3113"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "plan: Team",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "plan: Team"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 413 attachment_too_large; Действие: Размер одного файла сверили с тарифом; Время запроса: 2026-09-10 12:30 UTC; Запрос: req-3113; Безопасный контекст: plan: Team",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-025",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 25
+    },
+    "locator_text": "строка 25",
+    "segment_sha": "de7ac06e08e6",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "429 rate_limited",
+      "header_ru": "Код или условие",
+      "value_ru": "429 rate_limited"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Повтор отложен на указанный интервал",
+      "header_ru": "Действие",
+      "value_ru": "Повтор отложен на указанный интервал"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-10 12:36 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-10 12:36 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3114",
+      "header_ru": "Запрос",
+      "value_ru": "req-3114"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "Retry-After: 12",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "Retry-After: 12"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 429 rate_limited; Действие: Повтор отложен на указанный интервал; Время запроса: 2026-09-10 12:36 UTC; Запрос: req-3114; Безопасный контекст: Retry-After: 12",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-026",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 26
+    },
+    "locator_text": "строка 26",
+    "segment_sha": "650efb9416df",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "503 temporarily_unavailable",
+      "header_ru": "Код или условие",
+      "value_ru": "503 temporarily_unavailable"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Технический сбой; повтор с увеличением задержки",
+      "header_ru": "Действие",
+      "value_ru": "Технический сбой; повтор с увеличением задержки"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-10 12:42 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-10 12:42 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3115",
+      "header_ru": "Запрос",
+      "value_ru": "req-3115"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "status page checked",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "status page checked"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 503 temporarily_unavailable; Действие: Технический сбой; повтор с увеличением задержки; Время запроса: 2026-09-10 12:42 UTC; Запрос: req-3115; Безопасный контекст: status page checked",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-027",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 27
+    },
+    "locator_text": "строка 27",
+    "segment_sha": "e34b88a30e6d",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "400 invalid_filter",
+      "header_ru": "Код или условие",
+      "value_ru": "400 invalid_filter"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Исправлен синтаксис фильтра",
+      "header_ru": "Действие",
+      "value_ru": "Исправлен синтаксис фильтра"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-11 12:00 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-11 12:00 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3116",
+      "header_ru": "Запрос",
+      "value_ru": "req-3116"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "field: updatedAt",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "field: updatedAt"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 400 invalid_filter; Действие: Исправлен синтаксис фильтра; Время запроса: 2026-09-11 12:00 UTC; Запрос: req-3116; Безопасный контекст: field: updatedAt",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-028",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 28
+    },
+    "locator_text": "строка 28",
+    "segment_sha": "5da01a9f02eb",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "401 key_expired",
+      "header_ru": "Код или условие",
+      "value_ru": "401 key_expired"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Администратор проверяет срок ключа",
+      "header_ru": "Действие",
+      "value_ru": "Администратор проверяет срок ключа"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-11 12:06 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-11 12:06 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3117",
+      "header_ru": "Запрос",
+      "value_ru": "req-3117"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "credentials omitted",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "credentials omitted"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 401 key_expired; Действие: Администратор проверяет срок ключа; Время запроса: 2026-09-11 12:06 UTC; Запрос: req-3117; Безопасный контекст: credentials omitted",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-029",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 29
+    },
+    "locator_text": "строка 29",
+    "segment_sha": "70392ecdcfd0",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "403 scope_missing",
+      "header_ru": "Код или условие",
+      "value_ru": "403 scope_missing"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Проверяется разрешение на пространство",
+      "header_ru": "Действие",
+      "value_ru": "Проверяется разрешение на пространство"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-11 12:12 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-11 12:12 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3118",
+      "header_ru": "Запрос",
+      "value_ru": "req-3118"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "space: operations",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "space: operations"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 403 scope_missing; Действие: Проверяется разрешение на пространство; Время запроса: 2026-09-11 12:12 UTC; Запрос: req-3118; Безопасный контекст: space: operations",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-030",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 30
+    },
+    "locator_text": "строка 30",
+    "segment_sha": "43e159c18168",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "404 resource_not_found",
+      "header_ru": "Код или условие",
+      "value_ru": "404 resource_not_found"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Проверены права до вывода об удалении",
+      "header_ru": "Действие",
+      "value_ru": "Проверены права до вывода об удалении"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-11 12:18 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-11 12:18 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3119",
+      "header_ru": "Запрос",
+      "value_ru": "req-3119"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "object: card",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "object: card"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 404 resource_not_found; Действие: Проверены права до вывода об удалении; Время запроса: 2026-09-11 12:18 UTC; Запрос: req-3119; Безопасный контекст: object: card",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-031",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 31
+    },
+    "locator_text": "строка 31",
+    "segment_sha": "cc51e486f364",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "409 version_conflict",
+      "header_ru": "Код или условие",
+      "value_ru": "409 version_conflict"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Объект перечитан перед изменением",
+      "header_ru": "Действие",
+      "value_ru": "Объект перечитан перед изменением"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-11 12:24 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-11 12:24 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3120",
+      "header_ru": "Запрос",
+      "value_ru": "req-3120"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "version mismatch",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "version mismatch"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 409 version_conflict; Действие: Объект перечитан перед изменением; Время запроса: 2026-09-11 12:24 UTC; Запрос: req-3120; Безопасный контекст: version mismatch",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-032",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 32
+    },
+    "locator_text": "строка 32",
+    "segment_sha": "6e23f846ef6d",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "413 attachment_too_large",
+      "header_ru": "Код или условие",
+      "value_ru": "413 attachment_too_large"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Размер одного файла сверили с тарифом",
+      "header_ru": "Действие",
+      "value_ru": "Размер одного файла сверили с тарифом"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-11 12:30 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-11 12:30 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3121",
+      "header_ru": "Запрос",
+      "value_ru": "req-3121"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "plan: Team",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "plan: Team"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 413 attachment_too_large; Действие: Размер одного файла сверили с тарифом; Время запроса: 2026-09-11 12:30 UTC; Запрос: req-3121; Безопасный контекст: plan: Team",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-033",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 33
+    },
+    "locator_text": "строка 33",
+    "segment_sha": "933e40164764",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "429 rate_limited",
+      "header_ru": "Код или условие",
+      "value_ru": "429 rate_limited"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Повтор отложен на указанный интервал",
+      "header_ru": "Действие",
+      "value_ru": "Повтор отложен на указанный интервал"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-11 12:36 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-11 12:36 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3122",
+      "header_ru": "Запрос",
+      "value_ru": "req-3122"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "Retry-After: 12",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "Retry-After: 12"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 429 rate_limited; Действие: Повтор отложен на указанный интервал; Время запроса: 2026-09-11 12:36 UTC; Запрос: req-3122; Безопасный контекст: Retry-After: 12",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-034",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 34
+    },
+    "locator_text": "строка 34",
+    "segment_sha": "02d5dea934f1",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "503 temporarily_unavailable",
+      "header_ru": "Код или условие",
+      "value_ru": "503 temporarily_unavailable"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Технический сбой; повтор с увеличением задержки",
+      "header_ru": "Действие",
+      "value_ru": "Технический сбой; повтор с увеличением задержки"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-11 12:42 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-11 12:42 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3123",
+      "header_ru": "Запрос",
+      "value_ru": "req-3123"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "status page checked",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "status page checked"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 503 temporarily_unavailable; Действие: Технический сбой; повтор с увеличением задержки; Время запроса: 2026-09-11 12:42 UTC; Запрос: req-3123; Безопасный контекст: status page checked",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-035",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 35
+    },
+    "locator_text": "строка 35",
+    "segment_sha": "78926e0021e7",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "400 invalid_filter",
+      "header_ru": "Код или условие",
+      "value_ru": "400 invalid_filter"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Исправлен синтаксис фильтра",
+      "header_ru": "Действие",
+      "value_ru": "Исправлен синтаксис фильтра"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-12 12:00 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-12 12:00 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3124",
+      "header_ru": "Запрос",
+      "value_ru": "req-3124"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "field: updatedAt",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "field: updatedAt"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 400 invalid_filter; Действие: Исправлен синтаксис фильтра; Время запроса: 2026-09-12 12:00 UTC; Запрос: req-3124; Безопасный контекст: field: updatedAt",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-036",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 36
+    },
+    "locator_text": "строка 36",
+    "segment_sha": "3695df6aac01",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "401 key_expired",
+      "header_ru": "Код или условие",
+      "value_ru": "401 key_expired"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Администратор проверяет срок ключа",
+      "header_ru": "Действие",
+      "value_ru": "Администратор проверяет срок ключа"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-12 12:06 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-12 12:06 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3125",
+      "header_ru": "Запрос",
+      "value_ru": "req-3125"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "credentials omitted",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "credentials omitted"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 401 key_expired; Действие: Администратор проверяет срок ключа; Время запроса: 2026-09-12 12:06 UTC; Запрос: req-3125; Безопасный контекст: credentials omitted",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-037",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 37
+    },
+    "locator_text": "строка 37",
+    "segment_sha": "2fe144086e01",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "403 scope_missing",
+      "header_ru": "Код или условие",
+      "value_ru": "403 scope_missing"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Проверяется разрешение на пространство",
+      "header_ru": "Действие",
+      "value_ru": "Проверяется разрешение на пространство"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-12 12:12 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-12 12:12 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3126",
+      "header_ru": "Запрос",
+      "value_ru": "req-3126"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "space: operations",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "space: operations"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 403 scope_missing; Действие: Проверяется разрешение на пространство; Время запроса: 2026-09-12 12:12 UTC; Запрос: req-3126; Безопасный контекст: space: operations",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-038",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 38
+    },
+    "locator_text": "строка 38",
+    "segment_sha": "43c0f67e7b6d",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "404 resource_not_found",
+      "header_ru": "Код или условие",
+      "value_ru": "404 resource_not_found"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Проверены права до вывода об удалении",
+      "header_ru": "Действие",
+      "value_ru": "Проверены права до вывода об удалении"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-12 12:18 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-12 12:18 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3127",
+      "header_ru": "Запрос",
+      "value_ru": "req-3127"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "object: card",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "object: card"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 404 resource_not_found; Действие: Проверены права до вывода об удалении; Время запроса: 2026-09-12 12:18 UTC; Запрос: req-3127; Безопасный контекст: object: card",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-039",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 39
+    },
+    "locator_text": "строка 39",
+    "segment_sha": "dc354ee21be7",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "409 version_conflict",
+      "header_ru": "Код или условие",
+      "value_ru": "409 version_conflict"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Объект перечитан перед изменением",
+      "header_ru": "Действие",
+      "value_ru": "Объект перечитан перед изменением"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-12 12:24 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-12 12:24 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3128",
+      "header_ru": "Запрос",
+      "value_ru": "req-3128"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "version mismatch",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "version mismatch"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 409 version_conflict; Действие: Объект перечитан перед изменением; Время запроса: 2026-09-12 12:24 UTC; Запрос: req-3128; Безопасный контекст: version mismatch",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-040",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 40
+    },
+    "locator_text": "строка 40",
+    "segment_sha": "6d24495102c8",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "413 attachment_too_large",
+      "header_ru": "Код или условие",
+      "value_ru": "413 attachment_too_large"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Размер одного файла сверили с тарифом",
+      "header_ru": "Действие",
+      "value_ru": "Размер одного файла сверили с тарифом"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-12 12:30 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-12 12:30 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3129",
+      "header_ru": "Запрос",
+      "value_ru": "req-3129"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "plan: Team",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "plan: Team"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 413 attachment_too_large; Действие: Размер одного файла сверили с тарифом; Время запроса: 2026-09-12 12:30 UTC; Запрос: req-3129; Безопасный контекст: plan: Team",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-041",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 41
+    },
+    "locator_text": "строка 41",
+    "segment_sha": "3c99a447f1e3",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "429 rate_limited",
+      "header_ru": "Код или условие",
+      "value_ru": "429 rate_limited"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Повтор отложен на указанный интервал",
+      "header_ru": "Действие",
+      "value_ru": "Повтор отложен на указанный интервал"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-12 12:36 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-12 12:36 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3130",
+      "header_ru": "Запрос",
+      "value_ru": "req-3130"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "Retry-After: 12",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "Retry-After: 12"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 429 rate_limited; Действие: Повтор отложен на указанный интервал; Время запроса: 2026-09-12 12:36 UTC; Запрос: req-3130; Безопасный контекст: Retry-After: 12",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "23-042",
+    "doc_no": 23,
+    "doc_id": "api-errors",
+    "doc_version": "",
+    "source_path": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "source_sha256": "1cefff3c5e25f5d46c611ae33d3cabcdc7e7c8a5cf6dd3763a6a7000d50ce4a9",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 42
+    },
+    "locator_text": "строка 42",
+    "segment_sha": "8db8b2aeba78",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Код или условие",
+      "value": "503 temporarily_unavailable",
+      "header_ru": "Код или условие",
+      "value_ru": "503 temporarily_unavailable"
+     },
+     {
+      "col": 2,
+      "header": "Действие",
+      "value": "Технический сбой; повтор с увеличением задержки",
+      "header_ru": "Действие",
+      "value_ru": "Технический сбой; повтор с увеличением задержки"
+     },
+     {
+      "col": 3,
+      "header": "Время запроса",
+      "value": "2026-09-12 12:42 UTC",
+      "header_ru": "Время запроса",
+      "value_ru": "2026-09-12 12:42 UTC"
+     },
+     {
+      "col": 4,
+      "header": "Запрос",
+      "value": "req-3131",
+      "header_ru": "Запрос",
+      "value_ru": "req-3131"
+     },
+     {
+      "col": 5,
+      "header": "Безопасный контекст",
+      "value": "status page checked",
+      "header_ru": "Безопасный контекст",
+      "value_ru": "status page checked"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Код или условие",
+      "Действие",
+      "Время запроса",
+      "Запрос",
+      "Безопасный контекст"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Код или условие: 503 temporarily_unavailable; Действие: Технический сбой; повтор с увеличением задержки; Время запроса: 2026-09-12 12:42 UTC; Запрос: req-3131; Безопасный контекст: status page checked",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   }
+  ]
+ }
+}

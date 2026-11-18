@@ -1,0 +1,896 @@
+{
+ "source_path": "documents/Планирование/assistant-hypotheses.csv",
+ "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+ "segmenter": "segment-2",
+ "segments": [
+  {
+   "kind": "table_header",
+   "text": "Partie du travail | Sujet | Hypothèse ou commentaire | À discuter",
+   "sha": "672f213ebbc5",
+   "section": null,
+   "locator": {
+    "csv_row": 1
+   },
+   "cells": [
+    {
+     "col": 1,
+     "value": "Partie du travail"
+    },
+    {
+     "col": 2,
+     "value": "Sujet"
+    },
+    {
+     "col": 3,
+     "value": "Hypothèse ou commentaire"
+    },
+    {
+     "col": 4,
+     "value": "À discuter"
+    }
+   ],
+   "seg": 1
+  },
+  {
+   "kind": "record",
+   "text": "Partie du travail: Hypothèses; Sujet: Team; Hypothèse ou commentaire: Hypothèse de 9999 messages par workspace et par mois.; À discuter: Camille / réunion produit du 9 septembre",
+   "sha": "cadedbd6c7ca",
+   "section": null,
+   "locator": {
+    "csv_row": 2
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Hypothèses"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "Team"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Hypothèse de 9999 messages par workspace et par mois."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Camille / réunion produit du 9 septembre"
+    }
+   ],
+   "context": {
+    "header": [
+     "Partie du travail",
+     "Sujet",
+     "Hypothèse ou commentaire",
+     "À discuter"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 2
+  },
+  {
+   "kind": "record",
+   "text": "Partie du travail: Hypothèses; Sujet: Starter; Hypothèse ou commentaire: Hypothèse de 500 messages par workspace et par mois.; À discuter: Camille / réunion produit du 9 septembre",
+   "sha": "b31e4795e252",
+   "section": null,
+   "locator": {
+    "csv_row": 3
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Hypothèses"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "Starter"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Hypothèse de 500 messages par workspace et par mois."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Camille / réunion produit du 9 septembre"
+    }
+   ],
+   "context": {
+    "header": [
+     "Partie du travail",
+     "Sujet",
+     "Hypothèse ou commentaire",
+     "À discuter"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 3
+  },
+  {
+   "kind": "record",
+   "text": "Partie du travail: Hypothèses; Sujet: Enterprise; Hypothèse ou commentaire: Hypothèse de 50000 messages par workspace et par mois.; À discuter: Camille / réunion produit du 9 septembre",
+   "sha": "c093271b3e85",
+   "section": null,
+   "locator": {
+    "csv_row": 4
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Hypothèses"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "Enterprise"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Hypothèse de 50000 messages par workspace et par mois."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Camille / réunion produit du 9 septembre"
+    }
+   ],
+   "context": {
+    "header": [
+     "Partie du travail",
+     "Sujet",
+     "Hypothèse ou commentaire",
+     "À discuter"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 4
+  },
+  {
+   "kind": "record",
+   "text": "Partie du travail: Hypothèses; Sujet: Réinitialisation; Hypothèse ou commentaire: Une remise à zéro quotidienne est envisagée.; À discuter: Camille / réunion produit du 9 septembre",
+   "sha": "8fd7c2fb70c0",
+   "section": null,
+   "locator": {
+    "csv_row": 5
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Hypothèses"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "Réinitialisation"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Une remise à zéro quotidienne est envisagée."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Camille / réunion produit du 9 septembre"
+    }
+   ],
+   "context": {
+    "header": [
+     "Partie du travail",
+     "Sujet",
+     "Hypothèse ou commentaire",
+     "À discuter"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 5
+  },
+  {
+   "kind": "record",
+   "text": "Partie du travail: Évaluation; Sujet: Panel; Hypothèse ou commentaire: Le panel prévu contient 6 organisations volontaires.; À discuter: Camille / réunion produit du 9 septembre",
+   "sha": "1a1e1e028e08",
+   "section": null,
+   "locator": {
+    "csv_row": 6
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Évaluation"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "Panel"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Le panel prévu contient 6 organisations volontaires."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Camille / réunion produit du 9 septembre"
+    }
+   ],
+   "context": {
+    "header": [
+     "Partie du travail",
+     "Sujet",
+     "Hypothèse ou commentaire",
+     "À discuter"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 6
+  },
+  {
+   "kind": "record",
+   "text": "Partie du travail: Évaluation; Sujet: Durée; Hypothèse ou commentaire: La durée proposée est de 14 jours.; À discuter: Camille / réunion produit du 9 septembre",
+   "sha": "a22a7bcfc621",
+   "section": null,
+   "locator": {
+    "csv_row": 7
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Évaluation"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "Durée"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "La durée proposée est de 14 jours."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Camille / réunion produit du 9 septembre"
+    }
+   ],
+   "context": {
+    "header": [
+     "Partie du travail",
+     "Sujet",
+     "Hypothèse ou commentaire",
+     "À discuter"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 7
+  },
+  {
+   "kind": "record",
+   "text": "Partie du travail: Évaluation; Sujet: Budget; Hypothèse ou commentaire: Le budget de l’expérience attend une validation.; À discuter: Camille / réunion produit du 9 septembre",
+   "sha": "ccd909fc5429",
+   "section": null,
+   "locator": {
+    "csv_row": 8
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Évaluation"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "Budget"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Le budget de l’expérience attend une validation."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Camille / réunion produit du 9 septembre"
+    }
+   ],
+   "context": {
+    "header": [
+     "Partie du travail",
+     "Sujet",
+     "Hypothèse ou commentaire",
+     "À discuter"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 8
+  },
+  {
+   "kind": "record",
+   "text": "Partie du travail: Évaluation; Sujet: Contrat; Hypothèse ou commentaire: Aucun avenant client ne reprend ces valeurs.; À discuter: Camille / réunion produit du 9 septembre",
+   "sha": "ad27905f0585",
+   "section": null,
+   "locator": {
+    "csv_row": 9
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Évaluation"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "Contrat"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Aucun avenant client ne reprend ces valeurs."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Camille / réunion produit du 9 septembre"
+    }
+   ],
+   "context": {
+    "header": [
+     "Partie du travail",
+     "Sujet",
+     "Hypothèse ou commentaire",
+     "À discuter"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 9
+  },
+  {
+   "kind": "record",
+   "text": "Partie du travail: Évaluation; Sujet: Décision; Hypothèse ou commentaire: Le comité produit doit encore décider si l’expérience sera lancée.; À discuter: Camille / réunion produit du 9 septembre",
+   "sha": "443243b52fa0",
+   "section": null,
+   "locator": {
+    "csv_row": 10
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Évaluation"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "Décision"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Le comité produit doit encore décider si l’expérience sera lancée."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Camille / réunion produit du 9 septembre"
+    }
+   ],
+   "context": {
+    "header": [
+     "Partie du travail",
+     "Sujet",
+     "Hypothèse ou commentaire",
+     "À discuter"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 10
+  },
+  {
+   "kind": "record",
+   "text": "Partie du travail: Camille / discussion du 9 septembre; Sujet: distribution; Hypothèse ou commentaire: Comparer les demandes courtes et les longs fils; un total seul masque la longueur des conversations.; À discuter: Préparer deux exemples anonymisés pour le comité",
+   "sha": "2abfee7c1a69",
+   "section": null,
+   "locator": {
+    "csv_row": 11
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Camille / discussion du 9 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "distribution"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Comparer les demandes courtes et les longs fils; un total seul masque la longueur des conversations."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Préparer deux exemples anonymisés pour le comité"
+    }
+   ],
+   "context": {
+    "header": [
+     "Partie du travail",
+     "Sujet",
+     "Hypothèse ou commentaire",
+     "À discuter"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 11
+  },
+  {
+   "kind": "record",
+   "text": "Partie du travail: Noémie / discussion du 9 septembre; Sujet: coût; Hypothèse ou commentaire: Nous avons une estimation par message mais pas encore le coût de reprise des longs contextes.; À discuter: Demander une fourchette à Assistant Product",
+   "sha": "4ed9545f9c58",
+   "section": null,
+   "locator": {
+    "csv_row": 12
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Noémie / discussion du 9 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "coût"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Nous avons une estimation par message mais pas encore le coût de reprise des longs contextes."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Demander une fourchette à Assistant Product"
+    }
+   ],
+   "context": {
+    "header": [
+     "Partie du travail",
+     "Sujet",
+     "Hypothèse ou commentaire",
+     "À discuter"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 12
+  },
+  {
+   "kind": "record",
+   "text": "Partie du travail: Hugo / discussion du 9 septembre; Sujet: recrutement; Hypothèse ou commentaire: Deux organisations contactées souhaitent connaître le temps demandé à leurs administrateurs.; À discuter: Ne pas envoyer d’invitation avant accord de participation",
+   "sha": "c32a0f083a1f",
+   "section": null,
+   "locator": {
+    "csv_row": 13
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Hugo / discussion du 9 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "recrutement"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Deux organisations contactées souhaitent connaître le temps demandé à leurs administrateurs."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Ne pas envoyer d’invitation avant accord de participation"
+    }
+   ],
+   "context": {
+    "header": [
+     "Partie du travail",
+     "Sujet",
+     "Hypothèse ou commentaire",
+     "À discuter"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 13
+  },
+  {
+   "kind": "record",
+   "text": "Partie du travail: Léa / discussion du 9 septembre; Sujet: Team; Hypothèse ou commentaire: L’hypothèse de 9999 messages doit être testée avec le panel; le budget n’est pas validé.; À discuter: Conserver le scénario dans le dossier de préparation",
+   "sha": "25e737294ea2",
+   "section": null,
+   "locator": {
+    "csv_row": 14
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Léa / discussion du 9 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "Team"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "L’hypothèse de 9999 messages doit être testée avec le panel; le budget n’est pas validé."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Conserver le scénario dans le dossier de préparation"
+    }
+   ],
+   "context": {
+    "header": [
+     "Partie du travail",
+     "Sujet",
+     "Hypothèse ou commentaire",
+     "À discuter"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 14
+  },
+  {
+   "kind": "record",
+   "text": "Partie du travail: Camille / discussion du 9 septembre; Sujet: réinitialisation; Hypothèse ou commentaire: Une remise à zéro quotidienne compliquerait la comparaison avec une utilisation mensuelle.; À discuter: Présenter les deux méthodes au comité, sans décider aujourd’hui",
+   "sha": "d39faf5f0a0e",
+   "section": null,
+   "locator": {
+    "csv_row": 15
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Camille / discussion du 9 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "réinitialisation"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Une remise à zéro quotidienne compliquerait la comparaison avec une utilisation mensuelle."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Présenter les deux méthodes au comité, sans décider aujourd’hui"
+    }
+   ],
+   "context": {
+    "header": [
+     "Partie du travail",
+     "Sujet",
+     "Hypothèse ou commentaire",
+     "À discuter"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 15
+  },
+  {
+   "kind": "record",
+   "text": "Partie du travail: Adrien / discussion du 9 septembre; Sujet: contrat; Hypothèse ou commentaire: Le formulaire de participation ne contient pas encore la phrase sur l’absence d’avenant commercial.; À discuter: Faire relire le formulaire avant les invitations",
+   "sha": "84113c14690a",
+   "section": null,
+   "locator": {
+    "csv_row": 16
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Adrien / discussion du 9 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "contrat"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Le formulaire de participation ne contient pas encore la phrase sur l’absence d’avenant commercial."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Faire relire le formulaire avant les invitations"
+    }
+   ],
+   "context": {
+    "header": [
+     "Partie du travail",
+     "Sujet",
+     "Hypothèse ou commentaire",
+     "À discuter"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 16
+  },
+  {
+   "kind": "record",
+   "text": "Partie du travail: Noémie / discussion du 9 septembre; Sujet: support; Hypothèse ou commentaire: Les agents demandent qui répondra aux questions des participants pendant les quatorze jours envisagés.; À discuter: Prévoir un contact et une relève dans le plan du test",
+   "sha": "3270217db271",
+   "section": null,
+   "locator": {
+    "csv_row": 17
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Noémie / discussion du 9 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "support"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Les agents demandent qui répondra aux questions des participants pendant les quatorze jours envisagés."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Prévoir un contact et une relève dans le plan du test"
+    }
+   ],
+   "context": {
+    "header": [
+     "Partie du travail",
+     "Sujet",
+     "Hypothèse ou commentaire",
+     "À discuter"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 17
+  },
+  {
+   "kind": "record",
+   "text": "Partie du travail: Hugo / discussion du 9 septembre; Sujet: panel; Hypothèse ou commentaire: Le panel prévu reste limité à six organisations; les volontaires supplémentaires attendront la décision.; À discuter: Vérifier la diversité des usages avant de choisir",
+   "sha": "455dd4bc000c",
+   "section": null,
+   "locator": {
+    "csv_row": 18
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Hugo / discussion du 9 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "panel"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Le panel prévu reste limité à six organisations; les volontaires supplémentaires attendront la décision."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Vérifier la diversité des usages avant de choisir"
+    }
+   ],
+   "context": {
+    "header": [
+     "Partie du travail",
+     "Sujet",
+     "Hypothèse ou commentaire",
+     "À discuter"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 18
+  },
+  {
+   "kind": "record",
+   "text": "Partie du travail: Léa / discussion du 9 septembre; Sujet: mesure; Hypothèse ou commentaire: Séparer une erreur serveur d’une demande envoyée pour ne pas surestimer la consommation observée.; À discuter: Ajouter le résultat technique aux observations",
+   "sha": "188eee013f39",
+   "section": null,
+   "locator": {
+    "csv_row": 19
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Léa / discussion du 9 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "mesure"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Séparer une erreur serveur d’une demande envoyée pour ne pas surestimer la consommation observée."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Ajouter le résultat technique aux observations"
+    }
+   ],
+   "context": {
+    "header": [
+     "Partie du travail",
+     "Sujet",
+     "Hypothèse ou commentaire",
+     "À discuter"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 19
+  },
+  {
+   "kind": "record",
+   "text": "Partie du travail: Adrien / discussion du 9 septembre; Sujet: confidentialité; Hypothèse ou commentaire: Les retours qualitatifs ne doivent pas contenir de texte privé issu des conversations clients.; À discuter: Demander un résumé anonymisé plutôt qu’un export",
+   "sha": "0aa49202a895",
+   "section": null,
+   "locator": {
+    "csv_row": 20
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Adrien / discussion du 9 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "confidentialité"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Les retours qualitatifs ne doivent pas contenir de texte privé issu des conversations clients."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Demander un résumé anonymisé plutôt qu’un export"
+    }
+   ],
+   "context": {
+    "header": [
+     "Partie du travail",
+     "Sujet",
+     "Hypothèse ou commentaire",
+     "À discuter"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 20
+  },
+  {
+   "kind": "record",
+   "text": "Partie du travail: Camille / discussion du 9 septembre; Sujet: planning; Hypothèse ou commentaire: Aucune date de lancement n’a été arrêtée; la revue budgétaire est encore à organiser.; À discuter: Revenir avec les réponses Finance au prochain comité",
+   "sha": "27beebbe50d0",
+   "section": null,
+   "locator": {
+    "csv_row": 21
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Camille / discussion du 9 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "planning"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Aucune date de lancement n’a été arrêtée; la revue budgétaire est encore à organiser."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Revenir avec les réponses Finance au prochain comité"
+    }
+   ],
+   "context": {
+    "header": [
+     "Partie du travail",
+     "Sujet",
+     "Hypothèse ou commentaire",
+     "À discuter"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 21
+  },
+  {
+   "kind": "record",
+   "text": "Partie du travail: Noémie / discussion du 9 septembre; Sujet: sortie du test; Hypothèse ou commentaire: Il faut expliquer aux volontaires ce qui se passera à la fin de l’expérience proposée.; À discuter: Préparer une note de clôture avant de lancer le panel",
+   "sha": "159d64e859da",
+   "section": null,
+   "locator": {
+    "csv_row": 22
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Noémie / discussion du 9 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "sortie du test"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Il faut expliquer aux volontaires ce qui se passera à la fin de l’expérience proposée."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Préparer une note de clôture avant de lancer le panel"
+    }
+   ],
+   "context": {
+    "header": [
+     "Partie du travail",
+     "Sujet",
+     "Hypothèse ou commentaire",
+     "À discuter"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 22
+  }
+ ]
+}

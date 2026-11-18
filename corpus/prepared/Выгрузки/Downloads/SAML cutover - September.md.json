@@ -1,0 +1,1168 @@
+{
+ "no": 2,
+ "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+ "doc_id": "saml-cutover-notes",
+ "title": "Before the SAML cutover call",
+ "title_ru": "Перед звонком о переключении на SAML",
+ "lang": "en",
+ "format": "md",
+ "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+ "decision": {
+  "no": 2,
+  "path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+  "doc_id": "saml-cutover-notes",
+  "title": "Before the SAML cutover call",
+  "lang": "en",
+  "owner": "Identity Platform",
+  "version": "2026-09-01",
+  "updated": "2026-09-01",
+  "doc_type": "rule",
+  "status": "include",
+  "rule": "R1",
+  "reason": "Заметки Identity Platform после ревью 1.09.2026; правила совпадают с №26 и №07; окно сертификатов сознательно не указано — отсылка к №07.",
+  "access": "all",
+  "trust": "personal_copy",
+  "related": [
+   26,
+   7,
+   14
+  ]
+ },
+ "fragments": [
+  {
+   "fragment_id": "02-001",
+   "doc_no": 2,
+   "doc_id": "saml-cutover-notes",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+   "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "title",
+   "locator": {
+    "lines": [
+     1,
+     1
+    ]
+   },
+   "locator_text": "строка 1",
+   "segment_sha": "a77f28094885",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "# Перед звонком о переключении на SAML",
+   "text_orig": "# Before the SAML cutover call",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "personal_copy",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "02-002",
+   "doc_no": 2,
+   "doc_id": "saml-cutover-notes",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+   "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     3,
+     3
+    ]
+   },
+   "locator_text": "строка 3",
+   "segment_sha": "9ed779a00561",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Заметки Identity Platform, написанные после ревью 1 сентября 2026 года. Я держу эту копию вместе с материалами, которые мы берём на звонки с администраторами, потому что одни и те же упущения трудно заметить, когда все смотрят на экран входа. Эта процедура предназначена для подключения Enterprise workspace к провайдеру идентификации. SAML доступен только в Enterprise workspace. Прежде чем обсуждать настройки, уточните, какой workspace имеет в виду клиент; знакомое название компании не заменяет определения workspace, открытого у администратора.",
+   "text_orig": "Notes from Identity Platform, written after the September 1, 2026 review. I keep this copy with the material we take into administrator calls because the same omissions are difficult to spot once everyone is watching the login screen. This procedure is for connecting an Enterprise workspace to an identity provider. SAML is available on Enterprise workspaces only. Confirm which workspace the customer means before discussing settings; a familiar company name is not a substitute for identifying the workspace in front of the administrator.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "personal_copy",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "02-003",
+   "doc_no": 2,
+   "doc_id": "saml-cutover-notes",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+   "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     5,
+     5
+    ]
+   },
+   "locator_text": "строка 5",
+   "segment_sha": "695530efbf8c",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Самая полезная подготовка удивительно проста: держите существующую сессию администратора открытой, пока вход не будет успешным. Сделайте это до изменения пути, по которому люди входят в workspace. Во время звонка кому-нибудь естественно захочется закрыть лишние вкладки или начать заново в чистом браузере. Убедитесь, что участники понимают, какая сессия является их рабочей административной сессией и почему она всё ещё нужна, пока проверяется новый маршрут. Аккуратный рабочий стол менее полезен, чем понятный способ продолжить разговор о настройке.",
+   "text_orig": "The most useful preparation is surprisingly mundane: keep an existing administrator session open until sign in succeeds. Do this before changing the path people use to enter the workspace. During a call, someone will naturally want to close extra tabs or start again in a clean browser. Make sure they understand which session is their working administrative session and why it is still needed while the new route is being tested. A neat desktop is less useful than a clear way to continue the setup conversation.",
+   "translation": "translated",
+   "translation_review": {
+    "checks": [
+     "negation"
+    ],
+    "decision": "accepted",
+    "note": "«until sign in succeeds» → «пока вход не будет успешным»: русская конструкция «пока … не» передаёт until, отрицания по смыслу нет."
+   },
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "personal_copy",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "02-004",
+   "doc_no": 2,
+   "doc_id": "saml-cutover-notes",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+   "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     7,
+     7
+    ]
+   },
+   "locator_text": "строка 7",
+   "segment_sha": "ec8dc8aac275",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "## Что копировать из этого workspace",
+   "text_orig": "## What to copy from this workspace",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "personal_copy",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "02-005",
+   "doc_no": 2,
+   "doc_id": "saml-cutover-notes",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+   "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     9,
+     9
+    ]
+   },
+   "locator_text": "строка 9",
+   "segment_sha": "fafc89fb5c02",
+   "section": "What to copy from this workspace",
+   "section_ru": "Что копировать из этого workspace",
+   "text_ru": "Используйте entity ID конкретного workspace, показанный в настройках Security. Копируйте ACS URL из того же workspace. ACS URL из другого workspace недействителен, даже если оба workspace принадлежат одному клиенту и их названия отличаются всего одним словом. Если у администратора открыто несколько вкладок настроек, попросите его вслух назвать контекст workspace перед копированием. Это практичный способ держать разговор привязанным к фактической конфигурации, а не к чьим-то воспоминаниям о прежней настройке.",
+   "text_orig": "Use the workspace-specific entity ID shown in Security settings. Copy the ACS URL from the same workspace. An ACS URL from another workspace is invalid, even if the two workspaces belong to the same customer and their names differ by only one word. When an administrator has several settings tabs open, ask them to read the workspace context aloud before copying. This is a practical way to keep the conversation attached to the actual configuration rather than to somebody's recollection of a previous setup.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "personal_copy",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "02-006",
+   "doc_no": 2,
+   "doc_id": "saml-cutover-notes",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+   "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     11,
+     11
+    ]
+   },
+   "locator_text": "строка 11",
+   "segment_sha": "f4e338bfb693",
+   "section": "What to copy from this workspace",
+   "section_ru": "Что копировать из этого workspace",
+   "text_ru": "Не восстанавливайте эти значения по старому письму или примеру из презентации. Нужные значения отображаются в подключаемом workspace. У клиента может быть вполне разумная причина держать тестовый workspace рядом с рабочим, но это не делает их параметры обратного вызова взаимозаменяемыми. Если клиент говорит: «Для другого мы использовали того же провайдера», признайте этот контекст и всё равно проверьте entity ID и ACS URL для текущего workspace. Похожая история развёртывания не подтверждает совпадения идентификаторов.",
+   "text_orig": "Do not reconstruct these values from an old email or an example in a presentation. The relevant values are displayed in the workspace being connected. A customer may have a perfectly reasonable reason for keeping a test workspace beside a production workspace, but that does not make their callback details interchangeable. If the customer says, “We used the same provider for the other one,” acknowledge the context and still check the entity ID and ACS URL for the current workspace. Similar deployment history is not confirmation of matching identifiers.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "personal_copy",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "02-007",
+   "doc_no": 2,
+   "doc_id": "saml-cutover-notes",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+   "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     13,
+     13
+    ]
+   },
+   "locator_text": "строка 13",
+   "segment_sha": "eb849814e1b6",
+   "section": "What to copy from this workspace",
+   "section_ru": "Что копировать из этого workspace",
+   "text_ru": "Claim email должен содержать подтверждённый корпоративный адрес электронной почты. Во время подготовки опишите ожидаемый claim достаточно ясно, чтобы администратор провайдера идентификации и администратор workspace говорили об одном и том же поле. Отображаемое имя не является адресом электронной почты, а привычно выглядящий адрес не доказывает подтверждения. Сохраняйте в обсуждении процитированный текст ошибки, чтобы следующий человек мог понять, что наблюдалось, но не превращайте догадку о claim в утверждение, что всё подключение уже проверено.",
+   "text_orig": "The email claim must contain a verified corporate email address. During preparation, describe the expected claim clearly enough that the identity administrator and the workspace administrator are talking about the same field. A display name is not an email address, and a familiar looking address is not evidence of verification. Keep any quoted error text in the discussion so the next person can understand what was observed, but avoid turning a guess about the claim into a claim that the whole connection has already been validated.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "personal_copy",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "02-008",
+   "doc_no": 2,
+   "doc_id": "saml-cutover-notes",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+   "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     15,
+     15
+    ]
+   },
+   "locator_text": "строка 15",
+   "segment_sha": "c25ceb794b60",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "## Пилот до принудительного включения",
+   "text_orig": "## Pilot before enforcement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "personal_copy",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "02-009",
+   "doc_no": 2,
+   "doc_id": "saml-cutover-notes",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+   "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     17,
+     17
+    ]
+   },
+   "locator_text": "строка 17",
+   "segment_sha": "f60cb9903ebe",
+   "section": "Pilot before enforcement",
+   "section_ru": "Пилот до принудительного включения",
+   "text_ru": "До принудительного включения проверьте вход на двух непривилегированных пилотных учётных записях. Две отдельные учётные записи помогают команде обсуждать реальные попытки входа, а не считать существующую сессию администратора успешным пилотом. Тестовые учётные записи должны быть непривилегированными; смысл пилота не в том, чтобы подвергнуть весь привилегированный доступ непроверенной конфигурации. Организуйте пилот с людьми, которые могут описать, что они видят. Расплывчатое сообщение «браузер открылся» менее полезно, чем знание того, какая учётная запись пыталась войти и успешной ли была эта попытка.",
+   "text_orig": "Test with two non-privileged pilot accounts before enforcement. Two separate accounts help the team discuss actual sign-in attempts rather than treating the administrator's existing session as a successful pilot. The test accounts should be non-privileged; the point of a pilot is not to expose all privileged access to an unproven configuration. Arrange the pilot with people who can describe what they see. A vague report that “the browser opened” is less useful than knowing which account attempted sign in and whether that attempt succeeded.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "personal_copy",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "02-010",
+   "doc_no": 2,
+   "doc_id": "saml-cutover-notes",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+   "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     19,
+     19
+    ]
+   },
+   "locator_text": "строка 19",
+   "segment_sha": "e9d608d5b732",
+   "section": "Pilot before enforcement",
+   "section_ru": "Пилот до принудительного включения",
+   "text_ru": "Оставьте одного зарегистрированного аварийного администратора вне принудительного SAML. Назовите этого человека или учётную запись в административном плане самого клиента, не передавая учётные данные в переписку с поддержкой. «У нас где-то есть ещё один администратор» — не то же самое, что зарегистрированный аварийный администратор, доступный вне принудительного маршрута. Участники звонка должны различать этот механизм восстановления, две пилотные учётные записи и сессию, которую сейчас держат открытой. В одном и том же переходе у них разные назначения.",
+   "text_orig": "Keep one registered emergency administrator outside SAML enforcement. Name the person or account in the customer's own administrative plan, without putting credentials into the support conversation. “We have another administrator somewhere” is not the same as keeping a registered emergency administrator available outside the enforced route. The people on the call should be able to distinguish this recovery arrangement from the two pilot accounts and from the session currently being kept open. They serve different purposes in the same transition.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "personal_copy",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "02-011",
+   "doc_no": 2,
+   "doc_id": "saml-cutover-notes",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+   "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     21,
+     21
+    ]
+   },
+   "locator_text": "строка 21",
+   "segment_sha": "9dc1505fa1e0",
+   "section": "Pilot before enforcement",
+   "section_ru": "Пилот до принудительного включения",
+   "text_ru": "Если привилегированная учётная запись заблокирована, немедленно передайте случай руководителю поддержки. Не позволяйте ему затеряться в общей переписке о claims или поведении браузера. Команде идентификации всё ещё может понадобиться контекст конфигурации, но сам факт блокировки привилегированной учётной записи меняет то, кого необходимо привлечь к разговору. При передаче укажите, что известно и что пока остаётся лишь гипотезой. Это не даст принимающему руководителю предположить, что инцидент ограничен обычной пилотной учётной записью.",
+   "text_orig": "If a privileged account is locked out, route the case to the support lead immediately. Do not let it disappear inside a general back-and-forth about claims or browser behaviour. The identity team may still need configuration context, but the fact of privileged-account lockout changes who must be brought into the conversation. In the handover, say what is known and what is still only a hypothesis. That keeps the receiving lead from assuming the incident has been limited to an ordinary pilot account.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "personal_copy",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "02-012",
+   "doc_no": 2,
+   "doc_id": "saml-cutover-notes",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+   "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     23,
+     23
+    ]
+   },
+   "locator_text": "строка 23",
+   "segment_sha": "0c4e58051fe3",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "## Сертификаты и время",
+   "text_orig": "## Certificates and time",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "personal_copy",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "02-013",
+   "doc_no": 2,
+   "doc_id": "saml-cutover-notes",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+   "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     25,
+     25
+    ]
+   },
+   "locator_text": "строка 25",
+   "segment_sha": "099ced7e5027",
+   "section": "Certificates and time",
+   "section_ru": "Сертификаты и время",
+   "text_ru": "Загрузите ожидающий сертификат до отзыва старого сертификата. Проверьте окно приёма в реестре операционных параметров. В этой записной книжке число для этого окна сознательно не приводится: не копируйте число по памяти и не придумывайте его только потому, что на звонке нужен быстрый ответ. Запишите, какую запись реестра команда использовала при планировании смены сертификата. Важен порядок: ожидающий сертификат загружается до отзыва старого, а применимое окно приёма проверяется по его собственному источнику.",
+   "text_orig": "Upload the pending certificate before revoking the old certificate. Check the acceptance window in the operating parameters register. This notebook deliberately does not supply a number for that window: do not copy a number from memory or invent one because the call needs a quick answer. Record which register entry the team used when planning the certificate transition. The important ordering here is that the pending certificate is uploaded before the old one is revoked, with the applicable acceptance window checked in its own source.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "personal_copy",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "02-014",
+   "doc_no": 2,
+   "doc_id": "saml-cutover-notes",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+   "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     27,
+     27
+    ]
+   },
+   "locator_text": "строка 27",
+   "segment_sha": "b23f593ab926",
+   "section": "Certificates and time",
+   "section_ru": "Сертификаты и время",
+   "text_ru": "Часы провайдера идентификации и LumenDesk могут расходиться не более чем на 120 секунд. Когда люди сравнивают отметки времени при диагностике, спрашивайте, какие часы дали каждое значение. Снимок экрана с местным временем компьютера и событие у провайдера — не обязательно одно и то же наблюдение. Допуск в 120 секунд — ограничение подключения, а не повод игнорировать постоянное расхождение. Говорите точно о сравниваемых системах, особенно когда участники находятся в разных часовых поясах и небрежно описывают событие как произошедшее «минуту назад».",
+   "text_orig": "The identity provider and LumenDesk clocks may differ by at most 120 seconds. When people compare timestamps during troubleshooting, ask which clock produced each value. A screenshot of local desktop time and a provider event are not automatically the same observation. The 120-second allowance is a connection constraint, not an invitation to ignore a persistent difference. Keep the discussion precise about the compared systems, especially when participants are in different time zones and casually describe the event as happening “a minute ago.”",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "personal_copy",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "02-015",
+   "doc_no": 2,
+   "doc_id": "saml-cutover-notes",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+   "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     29,
+     29
+    ]
+   },
+   "locator_text": "строка 29",
+   "segment_sha": "6a8f4930b941",
+   "section": "Certificates and time",
+   "section_ru": "Сертификаты и время",
+   "text_ru": "Во время звонка я обычно оставляю короткое описание того, что произошло, а не стену настроек: какой workspace дал entity ID и ACS URL, вошли ли обе пилотные учётные записи, что произошло с ожидающим сертификатом и остался ли аварийный администратор вне принудительного режима. Такое описание полезно, потому что другой инженер видит порядок событий. В нём не должно быть написано «SAML работает», если единственное доказательство — то, что форма конфигурации приняла значение. Принятие формой и успешный вход — разные наблюдения.",
+   "text_orig": "During the call I usually leave a short narrative of what happened rather than a wall of settings: which workspace supplied the entity ID and ACS URL, whether both pilot accounts signed in, what happened with the pending certificate, and whether the emergency administrator remained outside enforcement. The narrative is useful because another engineer can see the order of events. It should not say “SAML works” when the only evidence is that a configuration form accepted a value. Form acceptance and successful sign in are different observations.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "personal_copy",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "02-016",
+   "doc_no": 2,
+   "doc_id": "saml-cutover-notes",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+   "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     31,
+     31
+    ]
+   },
+   "locator_text": "строка 31",
+   "segment_sha": "e4643a624af1",
+   "section": "Certificates and time",
+   "section_ru": "Сертификаты и время",
+   "text_ru": "Существующая сессия администратора остаётся открытой, пока вход не будет успешным. В конце попросите администратора своими словами описать результат и устраните любую неясность о том, какую учётную запись он проверял. Если настройка прервана, оставьте заметки на фактически достигнутом этапе, с видимыми неотвеченными вопросами. Последующий звонок не должен принять запланированный пилот за завершённый, а загрузку сертификата — за отзыв предыдущего сертификата. Это обычные ошибки координации, и аккуратные формулировки часто оказываются самым простым способом их предотвратить.",
+   "text_orig": "The existing administrator session stays open until sign in succeeds. At the end, have the administrator describe the outcome in their own words and resolve any ambiguity about which account they tested. If the setup is interrupted, leave the notes at the point actually reached, with unanswered questions visible. A later call should not mistake a planned pilot for a completed one or a certificate upload for revocation of the previous certificate. These are ordinary coordination mistakes, and careful language is often the simplest way to prevent them.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "personal_copy",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+  }
+ ],
+ "_base": {
+  "no": 2,
+  "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+  "doc_id": "saml-cutover-notes",
+  "title": "Before the SAML cutover call",
+  "title_ru": "Перед звонком о переключении на SAML",
+  "lang": "en",
+  "format": "md",
+  "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+  "decision": {
+   "no": 2,
+   "path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+   "doc_id": "saml-cutover-notes",
+   "title": "Before the SAML cutover call",
+   "lang": "en",
+   "owner": "Identity Platform",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "doc_type": "rule",
+   "status": "include",
+   "rule": "R1",
+   "reason": "Заметки Identity Platform после ревью 1.09.2026; правила совпадают с №26 и №07; окно сертификатов сознательно не указано — отсылка к №07.",
+   "access": "all",
+   "trust": "personal_copy",
+   "related": [
+    26,
+    7,
+    14
+   ]
+  },
+  "fragments": [
+   {
+    "fragment_id": "02-001",
+    "doc_no": 2,
+    "doc_id": "saml-cutover-notes",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+    "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "title",
+    "locator": {
+     "lines": [
+      1,
+      1
+     ]
+    },
+    "locator_text": "строка 1",
+    "segment_sha": "a77f28094885",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "# Перед звонком о переключении на SAML",
+    "text_orig": "# Before the SAML cutover call",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "personal_copy",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "02-002",
+    "doc_no": 2,
+    "doc_id": "saml-cutover-notes",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+    "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      3,
+      3
+     ]
+    },
+    "locator_text": "строка 3",
+    "segment_sha": "9ed779a00561",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Заметки Identity Platform, написанные после ревью 1 сентября 2026 года. Я держу эту копию вместе с материалами, которые мы берём на звонки с администраторами, потому что одни и те же упущения трудно заметить, когда все смотрят на экран входа. Эта процедура предназначена для подключения Enterprise workspace к провайдеру идентификации. SAML доступен только в Enterprise workspace. Прежде чем обсуждать настройки, уточните, какой workspace имеет в виду клиент; знакомое название компании не заменяет определения workspace, открытого у администратора.",
+    "text_orig": "Notes from Identity Platform, written after the September 1, 2026 review. I keep this copy with the material we take into administrator calls because the same omissions are difficult to spot once everyone is watching the login screen. This procedure is for connecting an Enterprise workspace to an identity provider. SAML is available on Enterprise workspaces only. Confirm which workspace the customer means before discussing settings; a familiar company name is not a substitute for identifying the workspace in front of the administrator.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "personal_copy",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "02-003",
+    "doc_no": 2,
+    "doc_id": "saml-cutover-notes",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+    "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      5,
+      5
+     ]
+    },
+    "locator_text": "строка 5",
+    "segment_sha": "695530efbf8c",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Самая полезная подготовка удивительно проста: держите существующую сессию администратора открытой, пока вход не будет успешным. Сделайте это до изменения пути, по которому люди входят в workspace. Во время звонка кому-нибудь естественно захочется закрыть лишние вкладки или начать заново в чистом браузере. Убедитесь, что участники понимают, какая сессия является их рабочей административной сессией и почему она всё ещё нужна, пока проверяется новый маршрут. Аккуратный рабочий стол менее полезен, чем понятный способ продолжить разговор о настройке.",
+    "text_orig": "The most useful preparation is surprisingly mundane: keep an existing administrator session open until sign in succeeds. Do this before changing the path people use to enter the workspace. During a call, someone will naturally want to close extra tabs or start again in a clean browser. Make sure they understand which session is their working administrative session and why it is still needed while the new route is being tested. A neat desktop is less useful than a clear way to continue the setup conversation.",
+    "translation": "translated",
+    "translation_review": {
+     "checks": [
+      "negation"
+     ],
+     "decision": "accepted",
+     "note": "«until sign in succeeds» → «пока вход не будет успешным»: русская конструкция «пока … не» передаёт until, отрицания по смыслу нет."
+    },
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "personal_copy",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "02-004",
+    "doc_no": 2,
+    "doc_id": "saml-cutover-notes",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+    "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      7,
+      7
+     ]
+    },
+    "locator_text": "строка 7",
+    "segment_sha": "ec8dc8aac275",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "## Что копировать из этого workspace",
+    "text_orig": "## What to copy from this workspace",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "personal_copy",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "02-005",
+    "doc_no": 2,
+    "doc_id": "saml-cutover-notes",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+    "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      9,
+      9
+     ]
+    },
+    "locator_text": "строка 9",
+    "segment_sha": "fafc89fb5c02",
+    "section": "What to copy from this workspace",
+    "section_ru": "Что копировать из этого workspace",
+    "text_ru": "Используйте entity ID конкретного workspace, показанный в настройках Security. Копируйте ACS URL из того же workspace. ACS URL из другого workspace недействителен, даже если оба workspace принадлежат одному клиенту и их названия отличаются всего одним словом. Если у администратора открыто несколько вкладок настроек, попросите его вслух назвать контекст workspace перед копированием. Это практичный способ держать разговор привязанным к фактической конфигурации, а не к чьим-то воспоминаниям о прежней настройке.",
+    "text_orig": "Use the workspace-specific entity ID shown in Security settings. Copy the ACS URL from the same workspace. An ACS URL from another workspace is invalid, even if the two workspaces belong to the same customer and their names differ by only one word. When an administrator has several settings tabs open, ask them to read the workspace context aloud before copying. This is a practical way to keep the conversation attached to the actual configuration rather than to somebody's recollection of a previous setup.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "personal_copy",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "02-006",
+    "doc_no": 2,
+    "doc_id": "saml-cutover-notes",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+    "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      11,
+      11
+     ]
+    },
+    "locator_text": "строка 11",
+    "segment_sha": "f4e338bfb693",
+    "section": "What to copy from this workspace",
+    "section_ru": "Что копировать из этого workspace",
+    "text_ru": "Не восстанавливайте эти значения по старому письму или примеру из презентации. Нужные значения отображаются в подключаемом workspace. У клиента может быть вполне разумная причина держать тестовый workspace рядом с рабочим, но это не делает их параметры обратного вызова взаимозаменяемыми. Если клиент говорит: «Для другого мы использовали того же провайдера», признайте этот контекст и всё равно проверьте entity ID и ACS URL для текущего workspace. Похожая история развёртывания не подтверждает совпадения идентификаторов.",
+    "text_orig": "Do not reconstruct these values from an old email or an example in a presentation. The relevant values are displayed in the workspace being connected. A customer may have a perfectly reasonable reason for keeping a test workspace beside a production workspace, but that does not make their callback details interchangeable. If the customer says, “We used the same provider for the other one,” acknowledge the context and still check the entity ID and ACS URL for the current workspace. Similar deployment history is not confirmation of matching identifiers.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "personal_copy",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "02-007",
+    "doc_no": 2,
+    "doc_id": "saml-cutover-notes",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+    "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      13,
+      13
+     ]
+    },
+    "locator_text": "строка 13",
+    "segment_sha": "eb849814e1b6",
+    "section": "What to copy from this workspace",
+    "section_ru": "Что копировать из этого workspace",
+    "text_ru": "Claim email должен содержать подтверждённый корпоративный адрес электронной почты. Во время подготовки опишите ожидаемый claim достаточно ясно, чтобы администратор провайдера идентификации и администратор workspace говорили об одном и том же поле. Отображаемое имя не является адресом электронной почты, а привычно выглядящий адрес не доказывает подтверждения. Сохраняйте в обсуждении процитированный текст ошибки, чтобы следующий человек мог понять, что наблюдалось, но не превращайте догадку о claim в утверждение, что всё подключение уже проверено.",
+    "text_orig": "The email claim must contain a verified corporate email address. During preparation, describe the expected claim clearly enough that the identity administrator and the workspace administrator are talking about the same field. A display name is not an email address, and a familiar looking address is not evidence of verification. Keep any quoted error text in the discussion so the next person can understand what was observed, but avoid turning a guess about the claim into a claim that the whole connection has already been validated.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "personal_copy",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "02-008",
+    "doc_no": 2,
+    "doc_id": "saml-cutover-notes",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+    "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      15,
+      15
+     ]
+    },
+    "locator_text": "строка 15",
+    "segment_sha": "c25ceb794b60",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "## Пилот до принудительного включения",
+    "text_orig": "## Pilot before enforcement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "personal_copy",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "02-009",
+    "doc_no": 2,
+    "doc_id": "saml-cutover-notes",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+    "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      17,
+      17
+     ]
+    },
+    "locator_text": "строка 17",
+    "segment_sha": "f60cb9903ebe",
+    "section": "Pilot before enforcement",
+    "section_ru": "Пилот до принудительного включения",
+    "text_ru": "До принудительного включения проверьте вход на двух непривилегированных пилотных учётных записях. Две отдельные учётные записи помогают команде обсуждать реальные попытки входа, а не считать существующую сессию администратора успешным пилотом. Тестовые учётные записи должны быть непривилегированными; смысл пилота не в том, чтобы подвергнуть весь привилегированный доступ непроверенной конфигурации. Организуйте пилот с людьми, которые могут описать, что они видят. Расплывчатое сообщение «браузер открылся» менее полезно, чем знание того, какая учётная запись пыталась войти и успешной ли была эта попытка.",
+    "text_orig": "Test with two non-privileged pilot accounts before enforcement. Two separate accounts help the team discuss actual sign-in attempts rather than treating the administrator's existing session as a successful pilot. The test accounts should be non-privileged; the point of a pilot is not to expose all privileged access to an unproven configuration. Arrange the pilot with people who can describe what they see. A vague report that “the browser opened” is less useful than knowing which account attempted sign in and whether that attempt succeeded.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "personal_copy",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "02-010",
+    "doc_no": 2,
+    "doc_id": "saml-cutover-notes",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+    "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      19,
+      19
+     ]
+    },
+    "locator_text": "строка 19",
+    "segment_sha": "e9d608d5b732",
+    "section": "Pilot before enforcement",
+    "section_ru": "Пилот до принудительного включения",
+    "text_ru": "Оставьте одного зарегистрированного аварийного администратора вне принудительного SAML. Назовите этого человека или учётную запись в административном плане самого клиента, не передавая учётные данные в переписку с поддержкой. «У нас где-то есть ещё один администратор» — не то же самое, что зарегистрированный аварийный администратор, доступный вне принудительного маршрута. Участники звонка должны различать этот механизм восстановления, две пилотные учётные записи и сессию, которую сейчас держат открытой. В одном и том же переходе у них разные назначения.",
+    "text_orig": "Keep one registered emergency administrator outside SAML enforcement. Name the person or account in the customer's own administrative plan, without putting credentials into the support conversation. “We have another administrator somewhere” is not the same as keeping a registered emergency administrator available outside the enforced route. The people on the call should be able to distinguish this recovery arrangement from the two pilot accounts and from the session currently being kept open. They serve different purposes in the same transition.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "personal_copy",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "02-011",
+    "doc_no": 2,
+    "doc_id": "saml-cutover-notes",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+    "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      21,
+      21
+     ]
+    },
+    "locator_text": "строка 21",
+    "segment_sha": "9dc1505fa1e0",
+    "section": "Pilot before enforcement",
+    "section_ru": "Пилот до принудительного включения",
+    "text_ru": "Если привилегированная учётная запись заблокирована, немедленно передайте случай руководителю поддержки. Не позволяйте ему затеряться в общей переписке о claims или поведении браузера. Команде идентификации всё ещё может понадобиться контекст конфигурации, но сам факт блокировки привилегированной учётной записи меняет то, кого необходимо привлечь к разговору. При передаче укажите, что известно и что пока остаётся лишь гипотезой. Это не даст принимающему руководителю предположить, что инцидент ограничен обычной пилотной учётной записью.",
+    "text_orig": "If a privileged account is locked out, route the case to the support lead immediately. Do not let it disappear inside a general back-and-forth about claims or browser behaviour. The identity team may still need configuration context, but the fact of privileged-account lockout changes who must be brought into the conversation. In the handover, say what is known and what is still only a hypothesis. That keeps the receiving lead from assuming the incident has been limited to an ordinary pilot account.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "personal_copy",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "02-012",
+    "doc_no": 2,
+    "doc_id": "saml-cutover-notes",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+    "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      23,
+      23
+     ]
+    },
+    "locator_text": "строка 23",
+    "segment_sha": "0c4e58051fe3",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "## Сертификаты и время",
+    "text_orig": "## Certificates and time",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "personal_copy",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "02-013",
+    "doc_no": 2,
+    "doc_id": "saml-cutover-notes",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+    "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      25,
+      25
+     ]
+    },
+    "locator_text": "строка 25",
+    "segment_sha": "099ced7e5027",
+    "section": "Certificates and time",
+    "section_ru": "Сертификаты и время",
+    "text_ru": "Загрузите ожидающий сертификат до отзыва старого сертификата. Проверьте окно приёма в реестре операционных параметров. В этой записной книжке число для этого окна сознательно не приводится: не копируйте число по памяти и не придумывайте его только потому, что на звонке нужен быстрый ответ. Запишите, какую запись реестра команда использовала при планировании смены сертификата. Важен порядок: ожидающий сертификат загружается до отзыва старого, а применимое окно приёма проверяется по его собственному источнику.",
+    "text_orig": "Upload the pending certificate before revoking the old certificate. Check the acceptance window in the operating parameters register. This notebook deliberately does not supply a number for that window: do not copy a number from memory or invent one because the call needs a quick answer. Record which register entry the team used when planning the certificate transition. The important ordering here is that the pending certificate is uploaded before the old one is revoked, with the applicable acceptance window checked in its own source.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "personal_copy",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "02-014",
+    "doc_no": 2,
+    "doc_id": "saml-cutover-notes",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+    "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      27,
+      27
+     ]
+    },
+    "locator_text": "строка 27",
+    "segment_sha": "b23f593ab926",
+    "section": "Certificates and time",
+    "section_ru": "Сертификаты и время",
+    "text_ru": "Часы провайдера идентификации и LumenDesk могут расходиться не более чем на 120 секунд. Когда люди сравнивают отметки времени при диагностике, спрашивайте, какие часы дали каждое значение. Снимок экрана с местным временем компьютера и событие у провайдера — не обязательно одно и то же наблюдение. Допуск в 120 секунд — ограничение подключения, а не повод игнорировать постоянное расхождение. Говорите точно о сравниваемых системах, особенно когда участники находятся в разных часовых поясах и небрежно описывают событие как произошедшее «минуту назад».",
+    "text_orig": "The identity provider and LumenDesk clocks may differ by at most 120 seconds. When people compare timestamps during troubleshooting, ask which clock produced each value. A screenshot of local desktop time and a provider event are not automatically the same observation. The 120-second allowance is a connection constraint, not an invitation to ignore a persistent difference. Keep the discussion precise about the compared systems, especially when participants are in different time zones and casually describe the event as happening “a minute ago.”",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "personal_copy",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "02-015",
+    "doc_no": 2,
+    "doc_id": "saml-cutover-notes",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+    "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      29,
+      29
+     ]
+    },
+    "locator_text": "строка 29",
+    "segment_sha": "6a8f4930b941",
+    "section": "Certificates and time",
+    "section_ru": "Сертификаты и время",
+    "text_ru": "Во время звонка я обычно оставляю короткое описание того, что произошло, а не стену настроек: какой workspace дал entity ID и ACS URL, вошли ли обе пилотные учётные записи, что произошло с ожидающим сертификатом и остался ли аварийный администратор вне принудительного режима. Такое описание полезно, потому что другой инженер видит порядок событий. В нём не должно быть написано «SAML работает», если единственное доказательство — то, что форма конфигурации приняла значение. Принятие формой и успешный вход — разные наблюдения.",
+    "text_orig": "During the call I usually leave a short narrative of what happened rather than a wall of settings: which workspace supplied the entity ID and ACS URL, whether both pilot accounts signed in, what happened with the pending certificate, and whether the emergency administrator remained outside enforcement. The narrative is useful because another engineer can see the order of events. It should not say “SAML works” when the only evidence is that a configuration form accepted a value. Form acceptance and successful sign in are different observations.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "personal_copy",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "02-016",
+    "doc_no": 2,
+    "doc_id": "saml-cutover-notes",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+    "source_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      31,
+      31
+     ]
+    },
+    "locator_text": "строка 31",
+    "segment_sha": "e4643a624af1",
+    "section": "Certificates and time",
+    "section_ru": "Сертификаты и время",
+    "text_ru": "Существующая сессия администратора остаётся открытой, пока вход не будет успешным. В конце попросите администратора своими словами описать результат и устраните любую неясность о том, какую учётную запись он проверял. Если настройка прервана, оставьте заметки на фактически достигнутом этапе, с видимыми неотвеченными вопросами. Последующий звонок не должен принять запланированный пилот за завершённый, а загрузку сертификата — за отзыв предыдущего сертификата. Это обычные ошибки координации, и аккуратные формулировки часто оказываются самым простым способом их предотвратить.",
+    "text_orig": "The existing administrator session stays open until sign in succeeds. At the end, have the administrator describe the outcome in their own words and resolve any ambiguity about which account they tested. If the setup is interrupted, leave the notes at the point actually reached, with unanswered questions visible. A later call should not mistake a planned pilot for a completed one or a certificate upload for revocation of the previous certificate. These are ordinary coordination mistakes, and careful language is often the simplest way to prevent them.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "personal_copy",
+    "dup_group": null,
+    "conflict_group": null
+   }
+  ]
+ }
+}

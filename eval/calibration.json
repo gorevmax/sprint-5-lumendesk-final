@@ -1,0 +1,1378 @@
+{
+ "index_id": "idx-20261118T202118Z-d51167",
+ "pool": 60,
+ "rows": [
+  {
+   "id": "q01",
+   "role": "support_agent",
+   "kind": "answerable",
+   "best_allowed": 0.12131094932556152,
+   "best_nonrelevant": 0.15064048767089844,
+   "restricted_nearest": 0.19907033443450928,
+   "key": {
+    "file-limits::chunk-03": [
+     0.12131094932556152,
+     1
+    ]
+   },
+   "relevant": {
+    "file-limits::chunk-03": [
+     0.12131094932556152,
+     1
+    ],
+    "file-limits::chunk-07": [
+     0.14715933799743652,
+     2
+    ]
+   },
+   "key_max": 0.12131094932556152,
+   "relevant_max": 0.14715933799743652
+  },
+  {
+   "id": "q02",
+   "role": "support_agent",
+   "kind": "answerable",
+   "best_allowed": 0.12257933616638184,
+   "best_nonrelevant": 0.15943151712417603,
+   "restricted_nearest": 0.1745705008506775,
+   "key": {
+    "trash-recovery::chunk-02": [
+     0.12257933616638184,
+     1
+    ]
+   },
+   "relevant": {
+    "trash-recovery::chunk-02": [
+     0.12257933616638184,
+     1
+    ],
+    "trash-recovery::chunk-05": [
+     0.16383004188537598,
+     5
+    ],
+    "retention-reconciliation::chunk-02": [
+     0.13713550567626953,
+     2
+    ]
+   },
+   "key_max": 0.12257933616638184,
+   "relevant_max": 0.16383004188537598
+  },
+  {
+   "id": "q03",
+   "role": "support_agent",
+   "kind": "answerable",
+   "best_allowed": 0.10402745008468628,
+   "best_nonrelevant": 0.12571489810943604,
+   "restricted_nearest": 0.20685935020446777,
+   "key": {
+    "callbacks-fr::chunk-02": [
+     0.12226802110671997,
+     3
+    ]
+   },
+   "relevant": {
+    "callbacks-fr::chunk-02": [
+     0.12226802110671997,
+     3
+    ],
+    "callbacks-fr::chunk-05": [
+     0.10402745008468628,
+     1
+    ],
+    "support-calendar-fr::chunk-02": [
+     0.11570847034454346,
+     2
+    ]
+   },
+   "key_max": 0.12226802110671997,
+   "relevant_max": 0.12226802110671997
+  },
+  {
+   "id": "q04",
+   "role": "support_agent",
+   "kind": "answerable",
+   "best_allowed": 0.1276552677154541,
+   "best_nonrelevant": 0.15387868881225586,
+   "restricted_nearest": 0.21098434925079346,
+   "key": {
+    "webhook-retries::chunk-01": [
+     0.1454145908355713,
+     8
+    ],
+    "webhook-retries::chunk-02": [
+     0.14031827449798584,
+     7
+    ],
+    "webhook-retries::chunk-03": [
+     0.13342297077178955,
+     3
+    ],
+    "webhook-retries::chunk-04": [
+     0.13331252336502075,
+     2
+    ],
+    "webhook-retries::chunk-05": [
+     0.13360381126403809,
+     4
+    ],
+    "webhook-retries::chunk-06": [
+     0.1349499225616455,
+     5
+    ],
+    "webhook-retries::chunk-08": [
+     0.1276552677154541,
+     1
+    ]
+   },
+   "relevant": {
+    "webhook-retries::chunk-01": [
+     0.1454145908355713,
+     8
+    ],
+    "webhook-retries::chunk-02": [
+     0.14031827449798584,
+     7
+    ],
+    "webhook-retries::chunk-03": [
+     0.13342297077178955,
+     3
+    ],
+    "webhook-retries::chunk-04": [
+     0.13331252336502075,
+     2
+    ],
+    "webhook-retries::chunk-05": [
+     0.13360381126403809,
+     4
+    ],
+    "webhook-retries::chunk-06": [
+     0.1349499225616455,
+     5
+    ],
+    "webhook-retries::chunk-07": [
+     0.1739400029182434,
+     35
+    ],
+    "webhook-retries::chunk-08": [
+     0.1276552677154541,
+     1
+    ],
+    "webhook-retries::chunk-09": [
+     0.13574433326721191,
+     6
+    ]
+   },
+   "key_max": 0.1454145908355713,
+   "relevant_max": 0.1739400029182434
+  },
+  {
+   "id": "q05",
+   "role": "support_agent",
+   "kind": "answerable",
+   "best_allowed": 0.1121680736541748,
+   "best_nonrelevant": 0.1669655442237854,
+   "restricted_nearest": 0.18347537517547607,
+   "key": {
+    "export-security::chunk-02": [
+     0.1121680736541748,
+     1
+    ]
+   },
+   "relevant": {
+    "export-security::chunk-02": [
+     0.1121680736541748,
+     1
+    ],
+    "export-security::chunk-04": [
+     0.15873336791992188,
+     2
+    ],
+    "card-export::chunk-02": [
+     0.16579562425613403,
+     3
+    ]
+   },
+   "key_max": 0.1121680736541748,
+   "relevant_max": 0.16579562425613403
+  },
+  {
+   "id": "q06",
+   "role": "support_lead",
+   "kind": "answerable",
+   "best_allowed": 0.1426336169242859,
+   "best_nonrelevant": 0.15169525146484375,
+   "restricted_nearest": null,
+   "key": {
+    "team-service-credits-support::chunk-03": [
+     0.1426336169242859,
+     1
+    ],
+    "team-service-credits-finance::chunk-03": [
+     0.153617262840271,
+     4
+    ]
+   },
+   "relevant": {
+    "team-service-credits-support::chunk-01": [
+     0.15813660621643066,
+     6
+    ],
+    "team-service-credits-support::chunk-02": [
+     0.15799379348754883,
+     5
+    ],
+    "team-service-credits-support::chunk-03": [
+     0.1426336169242859,
+     1
+    ],
+    "team-service-credits-finance::chunk-01": [
+     0.14586752653121948,
+     2
+    ],
+    "team-service-credits-finance::chunk-03": [
+     0.153617262840271,
+     4
+    ],
+    "outage-communication::chunk-03": [
+     0.18583250045776367,
+     29
+    ]
+   },
+   "key_max": 0.153617262840271,
+   "relevant_max": 0.18583250045776367
+  },
+  {
+   "id": "q07",
+   "role": "support_agent",
+   "kind": "restricted",
+   "best_allowed": 0.21636223793029785,
+   "best_nonrelevant": 0.21636223793029785,
+   "restricted_nearest": 0.20224523544311523,
+   "key": {},
+   "relevant": {},
+   "key_max": null,
+   "relevant_max": null
+  },
+  {
+   "id": "q07-lead",
+   "role": "support_lead",
+   "kind": "answerable",
+   "best_allowed": 0.20224523544311523,
+   "best_nonrelevant": 0.21280479431152344,
+   "restricted_nearest": null,
+   "key": {
+    "abuse-review::chunk-02": [
+     0.20988714694976807,
+     2
+    ]
+   },
+   "relevant": {
+    "abuse-review::chunk-01": [
+     0.20224523544311523,
+     1
+    ],
+    "abuse-review::chunk-02": [
+     0.20988714694976807,
+     2
+    ],
+    "abuse-review::chunk-04": [
+     0.2119671106338501,
+     3
+    ]
+   },
+   "key_max": 0.20988714694976807,
+   "relevant_max": 0.2119671106338501
+  },
+  {
+   "id": "q08",
+   "role": "support_agent",
+   "kind": "answerable",
+   "best_allowed": 0.13618230819702148,
+   "best_nonrelevant": 0.1672532558441162,
+   "restricted_nearest": 0.21023166179656982,
+   "key": {
+    "file-limits::chunk-01": [
+     0.13618230819702148,
+     1
+    ],
+    "file-limits::chunk-49": [
+     0.16507011651992798,
+     3
+    ]
+   },
+   "relevant": {
+    "file-limits::chunk-01": [
+     0.13618230819702148,
+     1
+    ],
+    "file-limits::chunk-49": [
+     0.16507011651992798,
+     3
+    ],
+    "file-limits::chunk-02": [
+     0.17215979099273682,
+     20
+    ],
+    "file-limits::chunk-03": [
+     0.16738075017929077,
+     5
+    ],
+    "file-limits::chunk-04": [
+     0.1632070541381836,
+     2
+    ]
+   },
+   "key_max": 0.16507011651992798,
+   "relevant_max": 0.17215979099273682
+  },
+  {
+   "id": "q09",
+   "role": "support_agent",
+   "kind": "answerable",
+   "best_allowed": 0.14702188968658447,
+   "best_nonrelevant": 0.15765631198883057,
+   "restricted_nearest": 0.17571687698364258,
+   "key": {
+    "onboarding-handover::chunk-02": [
+     0.17719995975494385,
+     33
+    ]
+   },
+   "relevant": {
+    "onboarding-handover::chunk-01": [
+     0.15936201810836792,
+     4
+    ],
+    "onboarding-handover::chunk-02": [
+     0.17719995975494385,
+     33
+    ],
+    "onboarding-handover::chunk-05": [
+     0.16508525609970093,
+     8
+    ],
+    "onboarding-handover::chunk-07": [
+     0.14702188968658447,
+     1
+    ],
+    "onboarding-handover::chunk-08": [
+     0.1625441312789917,
+     6
+    ]
+   },
+   "key_max": 0.17719995975494385,
+   "relevant_max": 0.17719995975494385
+  },
+  {
+   "id": "q10",
+   "role": "support_agent",
+   "kind": "answerable",
+   "best_allowed": 0.14028096199035645,
+   "best_nonrelevant": 0.1520226001739502,
+   "restricted_nearest": 0.19121313095092773,
+   "key": {
+    "assistant-quota::chunk-03": [
+     0.14028096199035645,
+     1
+    ]
+   },
+   "relevant": {
+    "assistant-quota::chunk-03": [
+     0.14028096199035645,
+     1
+    ],
+    "assistant-quota::chunk-01": [
+     0.16139590740203857,
+     8
+    ],
+    "assistant-quota::chunk-41": [
+     0.14637398719787598,
+     2
+    ]
+   },
+   "key_max": 0.14028096199035645,
+   "relevant_max": 0.16139590740203857
+  },
+  {
+   "id": "q11",
+   "role": "support_agent",
+   "kind": "answerable",
+   "best_allowed": 0.1194223165512085,
+   "best_nonrelevant": 0.14684665203094482,
+   "restricted_nearest": 0.19064593315124512,
+   "key": {
+    "api-key-rotation::chunk-01": [
+     0.1194223165512085,
+     1
+    ]
+   },
+   "relevant": {
+    "api-key-rotation::chunk-01": [
+     0.1194223165512085,
+     1
+    ],
+    "api-key-rotation::chunk-02": [
+     0.14537900686264038,
+     3
+    ],
+    "api-key-rotation::chunk-03": [
+     0.13716745376586914,
+     2
+    ],
+    "api-key-rotation::chunk-04": [
+     0.1460443139076233,
+     4
+    ]
+   },
+   "key_max": 0.1194223165512085,
+   "relevant_max": 0.1460443139076233
+  },
+  {
+   "id": "q12",
+   "role": "support_agent",
+   "kind": "answerable",
+   "best_allowed": 0.13053429126739502,
+   "best_nonrelevant": 0.13053429126739502,
+   "restricted_nearest": 0.1743118166923523,
+   "key": {
+    "saml-parameters::chunk-01": [
+     0.17229020595550537,
+     18
+    ],
+    "saml-incident-escalation::chunk-02": [
+     0.13880670070648193,
+     4
+    ]
+   },
+   "relevant": {
+    "saml-parameters::chunk-01": [
+     0.17229020595550537,
+     18
+    ],
+    "saml-incident-escalation::chunk-01": [
+     0.13718092441558838,
+     2
+    ],
+    "saml-incident-escalation::chunk-02": [
+     0.13880670070648193,
+     4
+    ],
+    "saml-incident-escalation::chunk-08": [
+     0.14808285236358643,
+     7
+    ]
+   },
+   "key_max": 0.17229020595550537,
+   "relevant_max": 0.17229020595550537
+  },
+  {
+   "id": "x01",
+   "role": "support_agent",
+   "kind": "out_of_base",
+   "best_allowed": 0.23003792762756348,
+   "best_nonrelevant": 0.23003792762756348,
+   "restricted_nearest": 0.2703489661216736,
+   "key": {},
+   "relevant": {},
+   "key_max": null,
+   "relevant_max": null
+  },
+  {
+   "id": "x02",
+   "role": "support_agent",
+   "kind": "out_of_base",
+   "best_allowed": 0.24038982391357422,
+   "best_nonrelevant": 0.24038982391357422,
+   "restricted_nearest": 0.2520343065261841,
+   "key": {},
+   "relevant": {},
+   "key_max": null,
+   "relevant_max": null
+  },
+  {
+   "id": "x03",
+   "role": "support_agent",
+   "kind": "out_of_base",
+   "best_allowed": 0.1684790849685669,
+   "best_nonrelevant": 0.1684790849685669,
+   "restricted_nearest": 0.207291841506958,
+   "key": {},
+   "relevant": {},
+   "key_max": null,
+   "relevant_max": null
+  }
+ ],
+ "sweep": [
+  {
+   "retrieval_threshold": 0.18,
+   "probe": 0.18,
+   "rule": "probe_only",
+   "state_correct": 13,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07",
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.18,
+   "probe": 0.18,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 13,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07",
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.18,
+   "probe": 0.25,
+   "rule": "probe_only",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.18,
+   "probe": 0.25,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.18,
+   "probe": 0.35,
+   "rule": "probe_only",
+   "state_correct": 12,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07-lead",
+    "x01",
+    "x02"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.18,
+   "probe": 0.35,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.185,
+   "probe": 0.185,
+   "rule": "probe_only",
+   "state_correct": 13,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07",
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.185,
+   "probe": 0.185,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 13,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07",
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.185,
+   "probe": 0.25,
+   "rule": "probe_only",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.185,
+   "probe": 0.25,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.185,
+   "probe": 0.35,
+   "rule": "probe_only",
+   "state_correct": 12,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07-lead",
+    "x01",
+    "x02"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.185,
+   "probe": 0.35,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.19,
+   "probe": 0.19,
+   "rule": "probe_only",
+   "state_correct": 13,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07",
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.19,
+   "probe": 0.19,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 13,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07",
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.19,
+   "probe": 0.25,
+   "rule": "probe_only",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.19,
+   "probe": 0.25,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.19,
+   "probe": 0.35,
+   "rule": "probe_only",
+   "state_correct": 12,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07-lead",
+    "x01",
+    "x02"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.19,
+   "probe": 0.35,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.195,
+   "probe": 0.195,
+   "rule": "probe_only",
+   "state_correct": 13,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07",
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.195,
+   "probe": 0.195,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 13,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07",
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.195,
+   "probe": 0.25,
+   "rule": "probe_only",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.195,
+   "probe": 0.25,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.195,
+   "probe": 0.35,
+   "rule": "probe_only",
+   "state_correct": 12,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07-lead",
+    "x01",
+    "x02"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.195,
+   "probe": 0.35,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.2,
+   "probe": 0.2,
+   "rule": "probe_only",
+   "state_correct": 13,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07",
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.2,
+   "probe": 0.2,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 13,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07",
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.2,
+   "probe": 0.25,
+   "rule": "probe_only",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.2,
+   "probe": 0.25,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.2,
+   "probe": 0.35,
+   "rule": "probe_only",
+   "state_correct": 12,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07-lead",
+    "x01",
+    "x02"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.2,
+   "probe": 0.35,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "q07-lead"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.205,
+   "probe": 0.205,
+   "rule": "probe_only",
+   "state_correct": 15,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": []
+  },
+  {
+   "retrieval_threshold": 0.205,
+   "probe": 0.205,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 15,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": []
+  },
+  {
+   "retrieval_threshold": 0.205,
+   "probe": 0.25,
+   "rule": "probe_only",
+   "state_correct": 15,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": []
+  },
+  {
+   "retrieval_threshold": 0.205,
+   "probe": 0.25,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 15,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": []
+  },
+  {
+   "retrieval_threshold": 0.205,
+   "probe": 0.35,
+   "rule": "probe_only",
+   "state_correct": 13,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": [
+    "x01",
+    "x02"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.205,
+   "probe": 0.35,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 15,
+   "of": 15,
+   "key_within_threshold": 11,
+   "of_answerable": 12,
+   "wrong": []
+  },
+  {
+   "retrieval_threshold": 0.21,
+   "probe": 0.21,
+   "rule": "probe_only",
+   "state_correct": 15,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": []
+  },
+  {
+   "retrieval_threshold": 0.21,
+   "probe": 0.21,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 15,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": []
+  },
+  {
+   "retrieval_threshold": 0.21,
+   "probe": 0.25,
+   "rule": "probe_only",
+   "state_correct": 15,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": []
+  },
+  {
+   "retrieval_threshold": 0.21,
+   "probe": 0.25,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 15,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": []
+  },
+  {
+   "retrieval_threshold": 0.21,
+   "probe": 0.35,
+   "rule": "probe_only",
+   "state_correct": 13,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "x01",
+    "x02"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.21,
+   "probe": 0.35,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 15,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": []
+  },
+  {
+   "retrieval_threshold": 0.215,
+   "probe": 0.215,
+   "rule": "probe_only",
+   "state_correct": 15,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": []
+  },
+  {
+   "retrieval_threshold": 0.215,
+   "probe": 0.215,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 15,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": []
+  },
+  {
+   "retrieval_threshold": 0.215,
+   "probe": 0.25,
+   "rule": "probe_only",
+   "state_correct": 15,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": []
+  },
+  {
+   "retrieval_threshold": 0.215,
+   "probe": 0.25,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 15,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": []
+  },
+  {
+   "retrieval_threshold": 0.215,
+   "probe": 0.35,
+   "rule": "probe_only",
+   "state_correct": 13,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "x01",
+    "x02"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.215,
+   "probe": 0.35,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 15,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": []
+  },
+  {
+   "retrieval_threshold": 0.22,
+   "probe": 0.22,
+   "rule": "probe_only",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.22,
+   "probe": 0.22,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.22,
+   "probe": 0.25,
+   "rule": "probe_only",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.22,
+   "probe": 0.25,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.22,
+   "probe": 0.35,
+   "rule": "probe_only",
+   "state_correct": 12,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07",
+    "x01",
+    "x02"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.22,
+   "probe": 0.35,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.225,
+   "probe": 0.225,
+   "rule": "probe_only",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.225,
+   "probe": 0.225,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.225,
+   "probe": 0.25,
+   "rule": "probe_only",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.225,
+   "probe": 0.25,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.225,
+   "probe": 0.35,
+   "rule": "probe_only",
+   "state_correct": 12,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07",
+    "x01",
+    "x02"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.225,
+   "probe": 0.35,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.23,
+   "probe": 0.23,
+   "rule": "probe_only",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.23,
+   "probe": 0.23,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.23,
+   "probe": 0.25,
+   "rule": "probe_only",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.23,
+   "probe": 0.25,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.23,
+   "probe": 0.35,
+   "rule": "probe_only",
+   "state_correct": 12,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07",
+    "x01",
+    "x02"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.23,
+   "probe": 0.35,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 14,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.235,
+   "probe": 0.235,
+   "rule": "probe_only",
+   "state_correct": 13,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07",
+    "x01"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.235,
+   "probe": 0.235,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 13,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07",
+    "x01"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.235,
+   "probe": 0.25,
+   "rule": "probe_only",
+   "state_correct": 13,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07",
+    "x01"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.235,
+   "probe": 0.25,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 13,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07",
+    "x01"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.235,
+   "probe": 0.35,
+   "rule": "probe_only",
+   "state_correct": 12,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07",
+    "x01",
+    "x02"
+   ]
+  },
+  {
+   "retrieval_threshold": 0.235,
+   "probe": 0.35,
+   "rule": "probe_and_closer_than_allowed",
+   "state_correct": 13,
+   "of": 15,
+   "key_within_threshold": 12,
+   "of_answerable": 12,
+   "wrong": [
+    "q07",
+    "x01"
+   ]
+  }
+ ]
+}

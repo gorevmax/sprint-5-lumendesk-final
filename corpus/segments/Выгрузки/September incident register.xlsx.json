@@ -1,0 +1,2628 @@
+{
+ "source_path": "documents/Выгрузки/September incident register.xlsx",
+ "source_sha256": "5f9c0edfdb1e6e84f19dbae37655ccf2858d06315233545ee345d839ccd3c163",
+ "segmenter": "segment-2",
+ "segments": [
+  {
+   "kind": "sheet_title",
+   "text": "Customer-visible incident milestones",
+   "sha": "b1525eae65a5",
+   "section": "September",
+   "locator": {
+    "sheet": "September",
+    "range": "A1:D2"
+   },
+   "seg": 1
+  },
+  {
+   "kind": "sheet_note",
+   "text": "Infrastructure working register, September 2026. Observed durations describe impact; they are not a credit decision. Region scope must be checked before communicating with a customer.",
+   "sha": "b4a048c69305",
+   "section": "September",
+   "locator": {
+    "sheet": "September",
+    "range": "A3:D5"
+   },
+   "seg": 2
+  },
+  {
+   "kind": "table_header",
+   "text": "Incident | Impact | Started UTC | Resolved UTC",
+   "sha": "8917936942bd",
+   "section": "September",
+   "locator": {
+    "sheet": "September",
+    "row": 7,
+    "range": "A7:D7"
+   },
+   "cells": [
+    {
+     "ref": "A7",
+     "value": "Incident"
+    },
+    {
+     "ref": "B7",
+     "value": "Impact"
+    },
+    {
+     "ref": "C7",
+     "value": "Started UTC"
+    },
+    {
+     "ref": "D7",
+     "value": "Resolved UTC"
+    }
+   ],
+   "seg": 3
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260903; Impact: EU-1 search delay; Started UTC: 2026-09-03 08:10 UTC; Resolved UTC: 2026-09-03 08:42 UTC",
+   "sha": "4781126e617a",
+   "section": "September",
+   "locator": {
+    "sheet": "September",
+    "row": 8,
+    "range": "A8:D8"
+   },
+   "cells": [
+    {
+     "ref": "A8",
+     "header": "Incident",
+     "value": "INC-260903"
+    },
+    {
+     "ref": "B8",
+     "header": "Impact",
+     "value": "EU-1 search delay"
+    },
+    {
+     "ref": "C8",
+     "header": "Started UTC",
+     "value": "2026-09-03 08:10 UTC"
+    },
+    {
+     "ref": "D8",
+     "header": "Resolved UTC",
+     "value": "2026-09-03 08:42 UTC"
+    }
+   ],
+   "context": {
+    "sheet": "September",
+    "title": "Customer-visible incident milestones",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Infrastructure working register, September 2026. Observed durations describe impact; they are not a credit decision. Region scope must be checked before communicating with a customer.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Incident",
+     "Impact",
+     "Started UTC",
+     "Resolved UTC"
+    ]
+   },
+   "seg": 4
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260907; Impact: US-1 attachment processing; Started UTC: 2026-09-07 13:00 UTC; Resolved UTC: 2026-09-07 13:21 UTC",
+   "sha": "3989b91a00c8",
+   "section": "September",
+   "locator": {
+    "sheet": "September",
+    "row": 9,
+    "range": "A9:D9"
+   },
+   "cells": [
+    {
+     "ref": "A9",
+     "header": "Incident",
+     "value": "INC-260907"
+    },
+    {
+     "ref": "B9",
+     "header": "Impact",
+     "value": "US-1 attachment processing"
+    },
+    {
+     "ref": "C9",
+     "header": "Started UTC",
+     "value": "2026-09-07 13:00 UTC"
+    },
+    {
+     "ref": "D9",
+     "header": "Resolved UTC",
+     "value": "2026-09-07 13:21 UTC"
+    }
+   ],
+   "context": {
+    "sheet": "September",
+    "title": "Customer-visible incident milestones",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Infrastructure working register, September 2026. Observed durations describe impact; they are not a credit decision. Region scope must be checked before communicating with a customer.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Incident",
+     "Impact",
+     "Started UTC",
+     "Resolved UTC"
+    ]
+   },
+   "seg": 5
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260912; Impact: EU-2 sign-in delay; Started UTC: 2026-09-12 09:05 UTC; Resolved UTC: 2026-09-12 09:17 UTC",
+   "sha": "c1512a761769",
+   "section": "September",
+   "locator": {
+    "sheet": "September",
+    "row": 10,
+    "range": "A10:D10"
+   },
+   "cells": [
+    {
+     "ref": "A10",
+     "header": "Incident",
+     "value": "INC-260912"
+    },
+    {
+     "ref": "B10",
+     "header": "Impact",
+     "value": "EU-2 sign-in delay"
+    },
+    {
+     "ref": "C10",
+     "header": "Started UTC",
+     "value": "2026-09-12 09:05 UTC"
+    },
+    {
+     "ref": "D10",
+     "header": "Resolved UTC",
+     "value": "2026-09-12 09:17 UTC"
+    }
+   ],
+   "context": {
+    "sheet": "September",
+    "title": "Customer-visible incident milestones",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Infrastructure working register, September 2026. Observed durations describe impact; they are not a credit decision. Region scope must be checked before communicating with a customer.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Incident",
+     "Impact",
+     "Started UTC",
+     "Resolved UTC"
+    ]
+   },
+   "seg": 6
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260919; Impact: EU-1 webhook queue; Started UTC: 2026-09-19 17:30 UTC; Resolved UTC: 2026-09-19 18:12 UTC",
+   "sha": "8ce604f6b315",
+   "section": "September",
+   "locator": {
+    "sheet": "September",
+    "row": 11,
+    "range": "A11:D11"
+   },
+   "cells": [
+    {
+     "ref": "A11",
+     "header": "Incident",
+     "value": "INC-260919"
+    },
+    {
+     "ref": "B11",
+     "header": "Impact",
+     "value": "EU-1 webhook queue"
+    },
+    {
+     "ref": "C11",
+     "header": "Started UTC",
+     "value": "2026-09-19 17:30 UTC"
+    },
+    {
+     "ref": "D11",
+     "header": "Resolved UTC",
+     "value": "2026-09-19 18:12 UTC"
+    }
+   ],
+   "context": {
+    "sheet": "September",
+    "title": "Customer-visible incident milestones",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Infrastructure working register, September 2026. Observed durations describe impact; they are not a credit decision. Region scope must be checked before communicating with a customer.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Incident",
+     "Impact",
+     "Started UTC",
+     "Resolved UTC"
+    ]
+   },
+   "seg": 7
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260921; Impact: EU-1 preview delay; Started UTC: 2026-09-21 06:10 UTC; Resolved UTC: 2026-09-21 06:25 UTC",
+   "sha": "1aac7061e7d6",
+   "section": "September",
+   "locator": {
+    "sheet": "September",
+    "row": 12,
+    "range": "A12:D12"
+   },
+   "cells": [
+    {
+     "ref": "A12",
+     "header": "Incident",
+     "value": "INC-260921"
+    },
+    {
+     "ref": "B12",
+     "header": "Impact",
+     "value": "EU-1 preview delay"
+    },
+    {
+     "ref": "C12",
+     "header": "Started UTC",
+     "value": "2026-09-21 06:10 UTC"
+    },
+    {
+     "ref": "D12",
+     "header": "Resolved UTC",
+     "value": "2026-09-21 06:25 UTC"
+    }
+   ],
+   "context": {
+    "sheet": "September",
+    "title": "Customer-visible incident milestones",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Infrastructure working register, September 2026. Observed durations describe impact; they are not a credit decision. Region scope must be checked before communicating with a customer.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Incident",
+     "Impact",
+     "Started UTC",
+     "Resolved UTC"
+    ]
+   },
+   "seg": 8
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260922; Impact: US-1 notification queue; Started UTC: 2026-09-22 06:10 UTC; Resolved UTC: 2026-09-22 06:29 UTC",
+   "sha": "6889c86e1bdb",
+   "section": "September",
+   "locator": {
+    "sheet": "September",
+    "row": 13,
+    "range": "A13:D13"
+   },
+   "cells": [
+    {
+     "ref": "A13",
+     "header": "Incident",
+     "value": "INC-260922"
+    },
+    {
+     "ref": "B13",
+     "header": "Impact",
+     "value": "US-1 notification queue"
+    },
+    {
+     "ref": "C13",
+     "header": "Started UTC",
+     "value": "2026-09-22 06:10 UTC"
+    },
+    {
+     "ref": "D13",
+     "header": "Resolved UTC",
+     "value": "2026-09-22 06:29 UTC"
+    }
+   ],
+   "context": {
+    "sheet": "September",
+    "title": "Customer-visible incident milestones",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Infrastructure working register, September 2026. Observed durations describe impact; they are not a credit decision. Region scope must be checked before communicating with a customer.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Incident",
+     "Impact",
+     "Started UTC",
+     "Resolved UTC"
+    ]
+   },
+   "seg": 9
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260923; Impact: EU-2 search index lag; Started UTC: 2026-09-23 06:10 UTC; Resolved UTC: 2026-09-23 06:33 UTC",
+   "sha": "6e5ed8758ee8",
+   "section": "September",
+   "locator": {
+    "sheet": "September",
+    "row": 14,
+    "range": "A14:D14"
+   },
+   "cells": [
+    {
+     "ref": "A14",
+     "header": "Incident",
+     "value": "INC-260923"
+    },
+    {
+     "ref": "B14",
+     "header": "Impact",
+     "value": "EU-2 search index lag"
+    },
+    {
+     "ref": "C14",
+     "header": "Started UTC",
+     "value": "2026-09-23 06:10 UTC"
+    },
+    {
+     "ref": "D14",
+     "header": "Resolved UTC",
+     "value": "2026-09-23 06:33 UTC"
+    }
+   ],
+   "context": {
+    "sheet": "September",
+    "title": "Customer-visible incident milestones",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Infrastructure working register, September 2026. Observed durations describe impact; they are not a credit decision. Region scope must be checked before communicating with a customer.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Incident",
+     "Impact",
+     "Started UTC",
+     "Resolved UTC"
+    ]
+   },
+   "seg": 10
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260924; Impact: CA-1 attachment preview; Started UTC: 2026-09-24 06:10 UTC; Resolved UTC: 2026-09-24 06:37 UTC",
+   "sha": "52af08e00ab3",
+   "section": "September",
+   "locator": {
+    "sheet": "September",
+    "row": 15,
+    "range": "A15:D15"
+   },
+   "cells": [
+    {
+     "ref": "A15",
+     "header": "Incident",
+     "value": "INC-260924"
+    },
+    {
+     "ref": "B15",
+     "header": "Impact",
+     "value": "CA-1 attachment preview"
+    },
+    {
+     "ref": "C15",
+     "header": "Started UTC",
+     "value": "2026-09-24 06:10 UTC"
+    },
+    {
+     "ref": "D15",
+     "header": "Resolved UTC",
+     "value": "2026-09-24 06:37 UTC"
+    }
+   ],
+   "context": {
+    "sheet": "September",
+    "title": "Customer-visible incident milestones",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Infrastructure working register, September 2026. Observed durations describe impact; they are not a credit decision. Region scope must be checked before communicating with a customer.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Incident",
+     "Impact",
+     "Started UTC",
+     "Resolved UTC"
+    ]
+   },
+   "seg": 11
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260925; Impact: EU-1 preview delay; Started UTC: 2026-09-25 06:10 UTC; Resolved UTC: 2026-09-25 06:41 UTC",
+   "sha": "9df008ef08ff",
+   "section": "September",
+   "locator": {
+    "sheet": "September",
+    "row": 16,
+    "range": "A16:D16"
+   },
+   "cells": [
+    {
+     "ref": "A16",
+     "header": "Incident",
+     "value": "INC-260925"
+    },
+    {
+     "ref": "B16",
+     "header": "Impact",
+     "value": "EU-1 preview delay"
+    },
+    {
+     "ref": "C16",
+     "header": "Started UTC",
+     "value": "2026-09-25 06:10 UTC"
+    },
+    {
+     "ref": "D16",
+     "header": "Resolved UTC",
+     "value": "2026-09-25 06:41 UTC"
+    }
+   ],
+   "context": {
+    "sheet": "September",
+    "title": "Customer-visible incident milestones",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Infrastructure working register, September 2026. Observed durations describe impact; they are not a credit decision. Region scope must be checked before communicating with a customer.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Incident",
+     "Impact",
+     "Started UTC",
+     "Resolved UTC"
+    ]
+   },
+   "seg": 12
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260926; Impact: US-1 notification queue; Started UTC: 2026-09-26 06:10 UTC; Resolved UTC: 2026-09-26 06:25 UTC",
+   "sha": "fcde16038ca8",
+   "section": "September",
+   "locator": {
+    "sheet": "September",
+    "row": 17,
+    "range": "A17:D17"
+   },
+   "cells": [
+    {
+     "ref": "A17",
+     "header": "Incident",
+     "value": "INC-260926"
+    },
+    {
+     "ref": "B17",
+     "header": "Impact",
+     "value": "US-1 notification queue"
+    },
+    {
+     "ref": "C17",
+     "header": "Started UTC",
+     "value": "2026-09-26 06:10 UTC"
+    },
+    {
+     "ref": "D17",
+     "header": "Resolved UTC",
+     "value": "2026-09-26 06:25 UTC"
+    }
+   ],
+   "context": {
+    "sheet": "September",
+    "title": "Customer-visible incident milestones",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Infrastructure working register, September 2026. Observed durations describe impact; they are not a credit decision. Region scope must be checked before communicating with a customer.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Incident",
+     "Impact",
+     "Started UTC",
+     "Resolved UTC"
+    ]
+   },
+   "seg": 13
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260927; Impact: EU-2 search index lag; Started UTC: 2026-09-27 06:10 UTC; Resolved UTC: 2026-09-27 06:29 UTC",
+   "sha": "d18d2cb71c34",
+   "section": "September",
+   "locator": {
+    "sheet": "September",
+    "row": 18,
+    "range": "A18:D18"
+   },
+   "cells": [
+    {
+     "ref": "A18",
+     "header": "Incident",
+     "value": "INC-260927"
+    },
+    {
+     "ref": "B18",
+     "header": "Impact",
+     "value": "EU-2 search index lag"
+    },
+    {
+     "ref": "C18",
+     "header": "Started UTC",
+     "value": "2026-09-27 06:10 UTC"
+    },
+    {
+     "ref": "D18",
+     "header": "Resolved UTC",
+     "value": "2026-09-27 06:29 UTC"
+    }
+   ],
+   "context": {
+    "sheet": "September",
+    "title": "Customer-visible incident milestones",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Infrastructure working register, September 2026. Observed durations describe impact; they are not a credit decision. Region scope must be checked before communicating with a customer.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Incident",
+     "Impact",
+     "Started UTC",
+     "Resolved UTC"
+    ]
+   },
+   "seg": 14
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260928; Impact: CA-1 attachment preview; Started UTC: 2026-09-28 06:10 UTC; Resolved UTC: 2026-09-28 06:33 UTC",
+   "sha": "1a93396d4cc3",
+   "section": "September",
+   "locator": {
+    "sheet": "September",
+    "row": 19,
+    "range": "A19:D19"
+   },
+   "cells": [
+    {
+     "ref": "A19",
+     "header": "Incident",
+     "value": "INC-260928"
+    },
+    {
+     "ref": "B19",
+     "header": "Impact",
+     "value": "CA-1 attachment preview"
+    },
+    {
+     "ref": "C19",
+     "header": "Started UTC",
+     "value": "2026-09-28 06:10 UTC"
+    },
+    {
+     "ref": "D19",
+     "header": "Resolved UTC",
+     "value": "2026-09-28 06:33 UTC"
+    }
+   ],
+   "context": {
+    "sheet": "September",
+    "title": "Customer-visible incident milestones",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Infrastructure working register, September 2026. Observed durations describe impact; they are not a credit decision. Region scope must be checked before communicating with a customer.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Incident",
+     "Impact",
+     "Started UTC",
+     "Resolved UTC"
+    ]
+   },
+   "seg": 15
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260929; Impact: EU-1 preview delay; Started UTC: 2026-09-29 06:10 UTC; Resolved UTC: 2026-09-29 06:37 UTC",
+   "sha": "bedb57b23990",
+   "section": "September",
+   "locator": {
+    "sheet": "September",
+    "row": 20,
+    "range": "A20:D20"
+   },
+   "cells": [
+    {
+     "ref": "A20",
+     "header": "Incident",
+     "value": "INC-260929"
+    },
+    {
+     "ref": "B20",
+     "header": "Impact",
+     "value": "EU-1 preview delay"
+    },
+    {
+     "ref": "C20",
+     "header": "Started UTC",
+     "value": "2026-09-29 06:10 UTC"
+    },
+    {
+     "ref": "D20",
+     "header": "Resolved UTC",
+     "value": "2026-09-29 06:37 UTC"
+    }
+   ],
+   "context": {
+    "sheet": "September",
+    "title": "Customer-visible incident milestones",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Infrastructure working register, September 2026. Observed durations describe impact; they are not a credit decision. Region scope must be checked before communicating with a customer.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Incident",
+     "Impact",
+     "Started UTC",
+     "Resolved UTC"
+    ]
+   },
+   "seg": 16
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260930; Impact: US-1 notification queue; Started UTC: 2026-09-21 06:10 UTC; Resolved UTC: 2026-09-21 06:41 UTC",
+   "sha": "1307efc99c87",
+   "section": "September",
+   "locator": {
+    "sheet": "September",
+    "row": 21,
+    "range": "A21:D21"
+   },
+   "cells": [
+    {
+     "ref": "A21",
+     "header": "Incident",
+     "value": "INC-260930"
+    },
+    {
+     "ref": "B21",
+     "header": "Impact",
+     "value": "US-1 notification queue"
+    },
+    {
+     "ref": "C21",
+     "header": "Started UTC",
+     "value": "2026-09-21 06:10 UTC"
+    },
+    {
+     "ref": "D21",
+     "header": "Resolved UTC",
+     "value": "2026-09-21 06:41 UTC"
+    }
+   ],
+   "context": {
+    "sheet": "September",
+    "title": "Customer-visible incident milestones",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Infrastructure working register, September 2026. Observed durations describe impact; they are not a credit decision. Region scope must be checked before communicating with a customer.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Incident",
+     "Impact",
+     "Started UTC",
+     "Resolved UTC"
+    ]
+   },
+   "seg": 17
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260931; Impact: EU-2 search index lag; Started UTC: 2026-09-22 06:10 UTC; Resolved UTC: 2026-09-22 06:25 UTC",
+   "sha": "002aaaa3b41c",
+   "section": "September",
+   "locator": {
+    "sheet": "September",
+    "row": 22,
+    "range": "A22:D22"
+   },
+   "cells": [
+    {
+     "ref": "A22",
+     "header": "Incident",
+     "value": "INC-260931"
+    },
+    {
+     "ref": "B22",
+     "header": "Impact",
+     "value": "EU-2 search index lag"
+    },
+    {
+     "ref": "C22",
+     "header": "Started UTC",
+     "value": "2026-09-22 06:10 UTC"
+    },
+    {
+     "ref": "D22",
+     "header": "Resolved UTC",
+     "value": "2026-09-22 06:25 UTC"
+    }
+   ],
+   "context": {
+    "sheet": "September",
+    "title": "Customer-visible incident milestones",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Infrastructure working register, September 2026. Observed durations describe impact; they are not a credit decision. Region scope must be checked before communicating with a customer.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Incident",
+     "Impact",
+     "Started UTC",
+     "Resolved UTC"
+    ]
+   },
+   "seg": 18
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260932; Impact: CA-1 attachment preview; Started UTC: 2026-09-23 06:10 UTC; Resolved UTC: 2026-09-23 06:29 UTC",
+   "sha": "723e375a5244",
+   "section": "September",
+   "locator": {
+    "sheet": "September",
+    "row": 23,
+    "range": "A23:D23"
+   },
+   "cells": [
+    {
+     "ref": "A23",
+     "header": "Incident",
+     "value": "INC-260932"
+    },
+    {
+     "ref": "B23",
+     "header": "Impact",
+     "value": "CA-1 attachment preview"
+    },
+    {
+     "ref": "C23",
+     "header": "Started UTC",
+     "value": "2026-09-23 06:10 UTC"
+    },
+    {
+     "ref": "D23",
+     "header": "Resolved UTC",
+     "value": "2026-09-23 06:29 UTC"
+    }
+   ],
+   "context": {
+    "sheet": "September",
+    "title": "Customer-visible incident milestones",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Infrastructure working register, September 2026. Observed durations describe impact; they are not a credit decision. Region scope must be checked before communicating with a customer.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Incident",
+     "Impact",
+     "Started UTC",
+     "Resolved UTC"
+    ]
+   },
+   "seg": 19
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260933; Impact: EU-1 preview delay; Started UTC: 2026-09-24 06:10 UTC; Resolved UTC: 2026-09-24 06:33 UTC",
+   "sha": "138adaea3dc1",
+   "section": "September",
+   "locator": {
+    "sheet": "September",
+    "row": 24,
+    "range": "A24:D24"
+   },
+   "cells": [
+    {
+     "ref": "A24",
+     "header": "Incident",
+     "value": "INC-260933"
+    },
+    {
+     "ref": "B24",
+     "header": "Impact",
+     "value": "EU-1 preview delay"
+    },
+    {
+     "ref": "C24",
+     "header": "Started UTC",
+     "value": "2026-09-24 06:10 UTC"
+    },
+    {
+     "ref": "D24",
+     "header": "Resolved UTC",
+     "value": "2026-09-24 06:33 UTC"
+    }
+   ],
+   "context": {
+    "sheet": "September",
+    "title": "Customer-visible incident milestones",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Infrastructure working register, September 2026. Observed durations describe impact; they are not a credit decision. Region scope must be checked before communicating with a customer.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Incident",
+     "Impact",
+     "Started UTC",
+     "Resolved UTC"
+    ]
+   },
+   "seg": 20
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260934; Impact: US-1 notification queue; Started UTC: 2026-09-25 06:10 UTC; Resolved UTC: 2026-09-25 06:37 UTC",
+   "sha": "7de2d8d2d4d2",
+   "section": "September",
+   "locator": {
+    "sheet": "September",
+    "row": 25,
+    "range": "A25:D25"
+   },
+   "cells": [
+    {
+     "ref": "A25",
+     "header": "Incident",
+     "value": "INC-260934"
+    },
+    {
+     "ref": "B25",
+     "header": "Impact",
+     "value": "US-1 notification queue"
+    },
+    {
+     "ref": "C25",
+     "header": "Started UTC",
+     "value": "2026-09-25 06:10 UTC"
+    },
+    {
+     "ref": "D25",
+     "header": "Resolved UTC",
+     "value": "2026-09-25 06:37 UTC"
+    }
+   ],
+   "context": {
+    "sheet": "September",
+    "title": "Customer-visible incident milestones",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Infrastructure working register, September 2026. Observed durations describe impact; they are not a credit decision. Region scope must be checked before communicating with a customer.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Incident",
+     "Impact",
+     "Started UTC",
+     "Resolved UTC"
+    ]
+   },
+   "seg": 21
+  },
+  {
+   "kind": "sheet_title",
+   "text": "Publication handover for confirmed incidents",
+   "sha": "42f6f7e33611",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "range": "A1:D2"
+   },
+   "seg": 22
+  },
+  {
+   "kind": "table_header",
+   "text": "Incident | Milestone | UTC time | Audience note",
+   "sha": "9d8c798c0088",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 5,
+    "range": "A5:D5"
+   },
+   "cells": [
+    {
+     "ref": "A5",
+     "value": "Incident"
+    },
+    {
+     "ref": "B5",
+     "value": "Milestone"
+    },
+    {
+     "ref": "C5",
+     "value": "UTC time"
+    },
+    {
+     "ref": "D5",
+     "value": "Audience note"
+    }
+   ],
+   "seg": 23
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260903; Milestone: Impact reported; UTC time: 2026-09-03 08:10 UTC; Audience note: Affected region only",
+   "sha": "4d5ecafb463a",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 6,
+    "range": "A6:D6"
+   },
+   "cells": [
+    {
+     "ref": "A6",
+     "header": "Incident",
+     "value": "INC-260903"
+    },
+    {
+     "ref": "B6",
+     "header": "Milestone",
+     "value": "Impact reported"
+    },
+    {
+     "ref": "C6",
+     "header": "UTC time",
+     "value": "2026-09-03 08:10 UTC"
+    },
+    {
+     "ref": "D6",
+     "header": "Audience note",
+     "value": "Affected region only"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 24
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260907; Milestone: Impact reported; UTC time: 2026-09-07 13:00 UTC; Audience note: Affected region only",
+   "sha": "a6a133083613",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 7,
+    "range": "A7:D7"
+   },
+   "cells": [
+    {
+     "ref": "A7",
+     "header": "Incident",
+     "value": "INC-260907"
+    },
+    {
+     "ref": "B7",
+     "header": "Milestone",
+     "value": "Impact reported"
+    },
+    {
+     "ref": "C7",
+     "header": "UTC time",
+     "value": "2026-09-07 13:00 UTC"
+    },
+    {
+     "ref": "D7",
+     "header": "Audience note",
+     "value": "Affected region only"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 25
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260912; Milestone: Impact reported; UTC time: 2026-09-12 09:05 UTC; Audience note: Affected region only",
+   "sha": "359d2dd5b0a6",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 8,
+    "range": "A8:D8"
+   },
+   "cells": [
+    {
+     "ref": "A8",
+     "header": "Incident",
+     "value": "INC-260912"
+    },
+    {
+     "ref": "B8",
+     "header": "Milestone",
+     "value": "Impact reported"
+    },
+    {
+     "ref": "C8",
+     "header": "UTC time",
+     "value": "2026-09-12 09:05 UTC"
+    },
+    {
+     "ref": "D8",
+     "header": "Audience note",
+     "value": "Affected region only"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 26
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260919; Milestone: Impact reported; UTC time: 2026-09-19 17:30 UTC; Audience note: Affected region only",
+   "sha": "e142e89501af",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 9,
+    "range": "A9:D9"
+   },
+   "cells": [
+    {
+     "ref": "A9",
+     "header": "Incident",
+     "value": "INC-260919"
+    },
+    {
+     "ref": "B9",
+     "header": "Milestone",
+     "value": "Impact reported"
+    },
+    {
+     "ref": "C9",
+     "header": "UTC time",
+     "value": "2026-09-19 17:30 UTC"
+    },
+    {
+     "ref": "D9",
+     "header": "Audience note",
+     "value": "Affected region only"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 27
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260903; Milestone: Investigation started; UTC time: 2026-09-03 08:12 UTC; Audience note: Cause under investigation",
+   "sha": "10a9e0746047",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 10,
+    "range": "A10:D10"
+   },
+   "cells": [
+    {
+     "ref": "A10",
+     "header": "Incident",
+     "value": "INC-260903"
+    },
+    {
+     "ref": "B10",
+     "header": "Milestone",
+     "value": "Investigation started"
+    },
+    {
+     "ref": "C10",
+     "header": "UTC time",
+     "value": "2026-09-03 08:12 UTC"
+    },
+    {
+     "ref": "D10",
+     "header": "Audience note",
+     "value": "Cause under investigation"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 28
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260907; Milestone: Investigation started; UTC time: 2026-09-07 13:02 UTC; Audience note: Cause under investigation",
+   "sha": "d20b27b32da1",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 11,
+    "range": "A11:D11"
+   },
+   "cells": [
+    {
+     "ref": "A11",
+     "header": "Incident",
+     "value": "INC-260907"
+    },
+    {
+     "ref": "B11",
+     "header": "Milestone",
+     "value": "Investigation started"
+    },
+    {
+     "ref": "C11",
+     "header": "UTC time",
+     "value": "2026-09-07 13:02 UTC"
+    },
+    {
+     "ref": "D11",
+     "header": "Audience note",
+     "value": "Cause under investigation"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 29
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260912; Milestone: Investigation started; UTC time: 2026-09-12 09:07 UTC; Audience note: Cause under investigation",
+   "sha": "e50497204ed7",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 12,
+    "range": "A12:D12"
+   },
+   "cells": [
+    {
+     "ref": "A12",
+     "header": "Incident",
+     "value": "INC-260912"
+    },
+    {
+     "ref": "B12",
+     "header": "Milestone",
+     "value": "Investigation started"
+    },
+    {
+     "ref": "C12",
+     "header": "UTC time",
+     "value": "2026-09-12 09:07 UTC"
+    },
+    {
+     "ref": "D12",
+     "header": "Audience note",
+     "value": "Cause under investigation"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 30
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260919; Milestone: Investigation started; UTC time: 2026-09-19 17:32 UTC; Audience note: Cause under investigation",
+   "sha": "dcdb7d80bbc6",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 13,
+    "range": "A13:D13"
+   },
+   "cells": [
+    {
+     "ref": "A13",
+     "header": "Incident",
+     "value": "INC-260919"
+    },
+    {
+     "ref": "B13",
+     "header": "Milestone",
+     "value": "Investigation started"
+    },
+    {
+     "ref": "C13",
+     "header": "UTC time",
+     "value": "2026-09-19 17:32 UTC"
+    },
+    {
+     "ref": "D13",
+     "header": "Audience note",
+     "value": "Cause under investigation"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 31
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260903; Milestone: Scope checked; UTC time: 2026-09-03 08:17 UTC; Audience note: Do not imply global impact",
+   "sha": "a34f142f2db2",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 14,
+    "range": "A14:D14"
+   },
+   "cells": [
+    {
+     "ref": "A14",
+     "header": "Incident",
+     "value": "INC-260903"
+    },
+    {
+     "ref": "B14",
+     "header": "Milestone",
+     "value": "Scope checked"
+    },
+    {
+     "ref": "C14",
+     "header": "UTC time",
+     "value": "2026-09-03 08:17 UTC"
+    },
+    {
+     "ref": "D14",
+     "header": "Audience note",
+     "value": "Do not imply global impact"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 32
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260907; Milestone: Scope checked; UTC time: 2026-09-07 13:07 UTC; Audience note: Do not imply global impact",
+   "sha": "f6faf71252b3",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 15,
+    "range": "A15:D15"
+   },
+   "cells": [
+    {
+     "ref": "A15",
+     "header": "Incident",
+     "value": "INC-260907"
+    },
+    {
+     "ref": "B15",
+     "header": "Milestone",
+     "value": "Scope checked"
+    },
+    {
+     "ref": "C15",
+     "header": "UTC time",
+     "value": "2026-09-07 13:07 UTC"
+    },
+    {
+     "ref": "D15",
+     "header": "Audience note",
+     "value": "Do not imply global impact"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 33
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260912; Milestone: Scope checked; UTC time: 2026-09-12 09:12 UTC; Audience note: Do not imply global impact",
+   "sha": "9891229e697f",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 16,
+    "range": "A16:D16"
+   },
+   "cells": [
+    {
+     "ref": "A16",
+     "header": "Incident",
+     "value": "INC-260912"
+    },
+    {
+     "ref": "B16",
+     "header": "Milestone",
+     "value": "Scope checked"
+    },
+    {
+     "ref": "C16",
+     "header": "UTC time",
+     "value": "2026-09-12 09:12 UTC"
+    },
+    {
+     "ref": "D16",
+     "header": "Audience note",
+     "value": "Do not imply global impact"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 34
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260919; Milestone: Scope checked; UTC time: 2026-09-19 17:37 UTC; Audience note: Do not imply global impact",
+   "sha": "4c6b3d6a8853",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 17,
+    "range": "A17:D17"
+   },
+   "cells": [
+    {
+     "ref": "A17",
+     "header": "Incident",
+     "value": "INC-260919"
+    },
+    {
+     "ref": "B17",
+     "header": "Milestone",
+     "value": "Scope checked"
+    },
+    {
+     "ref": "C17",
+     "header": "UTC time",
+     "value": "2026-09-19 17:37 UTC"
+    },
+    {
+     "ref": "D17",
+     "header": "Audience note",
+     "value": "Do not imply global impact"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 35
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260903; Milestone: Customer update; UTC time: 2026-09-03 08:25 UTC; Audience note: Next update time included",
+   "sha": "6712a3b6cb54",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 18,
+    "range": "A18:D18"
+   },
+   "cells": [
+    {
+     "ref": "A18",
+     "header": "Incident",
+     "value": "INC-260903"
+    },
+    {
+     "ref": "B18",
+     "header": "Milestone",
+     "value": "Customer update"
+    },
+    {
+     "ref": "C18",
+     "header": "UTC time",
+     "value": "2026-09-03 08:25 UTC"
+    },
+    {
+     "ref": "D18",
+     "header": "Audience note",
+     "value": "Next update time included"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 36
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260907; Milestone: Customer update; UTC time: 2026-09-07 13:15 UTC; Audience note: Next update time included",
+   "sha": "0d345c26183f",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 19,
+    "range": "A19:D19"
+   },
+   "cells": [
+    {
+     "ref": "A19",
+     "header": "Incident",
+     "value": "INC-260907"
+    },
+    {
+     "ref": "B19",
+     "header": "Milestone",
+     "value": "Customer update"
+    },
+    {
+     "ref": "C19",
+     "header": "UTC time",
+     "value": "2026-09-07 13:15 UTC"
+    },
+    {
+     "ref": "D19",
+     "header": "Audience note",
+     "value": "Next update time included"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 37
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260912; Milestone: Customer update; UTC time: 2026-09-12 09:20 UTC; Audience note: Next update time included",
+   "sha": "30a5a4f2d5d5",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 20,
+    "range": "A20:D20"
+   },
+   "cells": [
+    {
+     "ref": "A20",
+     "header": "Incident",
+     "value": "INC-260912"
+    },
+    {
+     "ref": "B20",
+     "header": "Milestone",
+     "value": "Customer update"
+    },
+    {
+     "ref": "C20",
+     "header": "UTC time",
+     "value": "2026-09-12 09:20 UTC"
+    },
+    {
+     "ref": "D20",
+     "header": "Audience note",
+     "value": "Next update time included"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 38
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260919; Milestone: Customer update; UTC time: 2026-09-19 17:45 UTC; Audience note: Next update time included",
+   "sha": "53386861ab04",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 21,
+    "range": "A21:D21"
+   },
+   "cells": [
+    {
+     "ref": "A21",
+     "header": "Incident",
+     "value": "INC-260919"
+    },
+    {
+     "ref": "B21",
+     "header": "Milestone",
+     "value": "Customer update"
+    },
+    {
+     "ref": "C21",
+     "header": "UTC time",
+     "value": "2026-09-19 17:45 UTC"
+    },
+    {
+     "ref": "D21",
+     "header": "Audience note",
+     "value": "Next update time included"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 39
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260903; Milestone: Mitigation checked; UTC time: 2026-09-03 08:42 UTC; Audience note: Workaround limits stated",
+   "sha": "da483b8d0aec",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 22,
+    "range": "A22:D22"
+   },
+   "cells": [
+    {
+     "ref": "A22",
+     "header": "Incident",
+     "value": "INC-260903"
+    },
+    {
+     "ref": "B22",
+     "header": "Milestone",
+     "value": "Mitigation checked"
+    },
+    {
+     "ref": "C22",
+     "header": "UTC time",
+     "value": "2026-09-03 08:42 UTC"
+    },
+    {
+     "ref": "D22",
+     "header": "Audience note",
+     "value": "Workaround limits stated"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 40
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260907; Milestone: Mitigation checked; UTC time: 2026-09-07 13:21 UTC; Audience note: Workaround limits stated",
+   "sha": "f1954ab373a4",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 23,
+    "range": "A23:D23"
+   },
+   "cells": [
+    {
+     "ref": "A23",
+     "header": "Incident",
+     "value": "INC-260907"
+    },
+    {
+     "ref": "B23",
+     "header": "Milestone",
+     "value": "Mitigation checked"
+    },
+    {
+     "ref": "C23",
+     "header": "UTC time",
+     "value": "2026-09-07 13:21 UTC"
+    },
+    {
+     "ref": "D23",
+     "header": "Audience note",
+     "value": "Workaround limits stated"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 41
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260912; Milestone: Mitigation checked; UTC time: 2026-09-12 09:17 UTC; Audience note: Workaround limits stated",
+   "sha": "0cc4e59ff7c6",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 24,
+    "range": "A24:D24"
+   },
+   "cells": [
+    {
+     "ref": "A24",
+     "header": "Incident",
+     "value": "INC-260912"
+    },
+    {
+     "ref": "B24",
+     "header": "Milestone",
+     "value": "Mitigation checked"
+    },
+    {
+     "ref": "C24",
+     "header": "UTC time",
+     "value": "2026-09-12 09:17 UTC"
+    },
+    {
+     "ref": "D24",
+     "header": "Audience note",
+     "value": "Workaround limits stated"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 42
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260919; Milestone: Mitigation checked; UTC time: 2026-09-19 18:12 UTC; Audience note: Workaround limits stated",
+   "sha": "4be24796b182",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 25,
+    "range": "A25:D25"
+   },
+   "cells": [
+    {
+     "ref": "A25",
+     "header": "Incident",
+     "value": "INC-260919"
+    },
+    {
+     "ref": "B25",
+     "header": "Milestone",
+     "value": "Mitigation checked"
+    },
+    {
+     "ref": "C25",
+     "header": "UTC time",
+     "value": "2026-09-19 18:12 UTC"
+    },
+    {
+     "ref": "D25",
+     "header": "Audience note",
+     "value": "Workaround limits stated"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 43
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260903; Milestone: Customer retest requested; UTC time: 2026-09-03 08:50 UTC; Audience note: Technical recovery differs from customer confirmation",
+   "sha": "e995287f59bc",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 26,
+    "range": "A26:D26"
+   },
+   "cells": [
+    {
+     "ref": "A26",
+     "header": "Incident",
+     "value": "INC-260903"
+    },
+    {
+     "ref": "B26",
+     "header": "Milestone",
+     "value": "Customer retest requested"
+    },
+    {
+     "ref": "C26",
+     "header": "UTC time",
+     "value": "2026-09-03 08:50 UTC"
+    },
+    {
+     "ref": "D26",
+     "header": "Audience note",
+     "value": "Technical recovery differs from customer confirmation"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 44
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260907; Milestone: Customer retest requested; UTC time: 2026-09-07 13:29 UTC; Audience note: Technical recovery differs from customer confirmation",
+   "sha": "b90c9df5d9e8",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 27,
+    "range": "A27:D27"
+   },
+   "cells": [
+    {
+     "ref": "A27",
+     "header": "Incident",
+     "value": "INC-260907"
+    },
+    {
+     "ref": "B27",
+     "header": "Milestone",
+     "value": "Customer retest requested"
+    },
+    {
+     "ref": "C27",
+     "header": "UTC time",
+     "value": "2026-09-07 13:29 UTC"
+    },
+    {
+     "ref": "D27",
+     "header": "Audience note",
+     "value": "Technical recovery differs from customer confirmation"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 45
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260912; Milestone: Customer retest requested; UTC time: 2026-09-12 09:25 UTC; Audience note: Technical recovery differs from customer confirmation",
+   "sha": "bfdab5bc7c33",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 28,
+    "range": "A28:D28"
+   },
+   "cells": [
+    {
+     "ref": "A28",
+     "header": "Incident",
+     "value": "INC-260912"
+    },
+    {
+     "ref": "B28",
+     "header": "Milestone",
+     "value": "Customer retest requested"
+    },
+    {
+     "ref": "C28",
+     "header": "UTC time",
+     "value": "2026-09-12 09:25 UTC"
+    },
+    {
+     "ref": "D28",
+     "header": "Audience note",
+     "value": "Technical recovery differs from customer confirmation"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 46
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260919; Milestone: Customer retest requested; UTC time: 2026-09-19 18:20 UTC; Audience note: Technical recovery differs from customer confirmation",
+   "sha": "51659207e8ec",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 29,
+    "range": "A29:D29"
+   },
+   "cells": [
+    {
+     "ref": "A29",
+     "header": "Incident",
+     "value": "INC-260919"
+    },
+    {
+     "ref": "B29",
+     "header": "Milestone",
+     "value": "Customer retest requested"
+    },
+    {
+     "ref": "C29",
+     "header": "UTC time",
+     "value": "2026-09-19 18:20 UTC"
+    },
+    {
+     "ref": "D29",
+     "header": "Audience note",
+     "value": "Technical recovery differs from customer confirmation"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 47
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260903; Milestone: Summary linked; UTC time: 2026-09-05 08:42 UTC; Audience note: Summary after review",
+   "sha": "fe1f2c7bd728",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 30,
+    "range": "A30:D30"
+   },
+   "cells": [
+    {
+     "ref": "A30",
+     "header": "Incident",
+     "value": "INC-260903"
+    },
+    {
+     "ref": "B30",
+     "header": "Milestone",
+     "value": "Summary linked"
+    },
+    {
+     "ref": "C30",
+     "header": "UTC time",
+     "value": "2026-09-05 08:42 UTC"
+    },
+    {
+     "ref": "D30",
+     "header": "Audience note",
+     "value": "Summary after review"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 48
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260907; Milestone: Summary linked; UTC time: 2026-09-09 13:21 UTC; Audience note: Summary after review",
+   "sha": "2ef59a032be9",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 31,
+    "range": "A31:D31"
+   },
+   "cells": [
+    {
+     "ref": "A31",
+     "header": "Incident",
+     "value": "INC-260907"
+    },
+    {
+     "ref": "B31",
+     "header": "Milestone",
+     "value": "Summary linked"
+    },
+    {
+     "ref": "C31",
+     "header": "UTC time",
+     "value": "2026-09-09 13:21 UTC"
+    },
+    {
+     "ref": "D31",
+     "header": "Audience note",
+     "value": "Summary after review"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 49
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260912; Milestone: Summary linked; UTC time: 2026-09-14 09:17 UTC; Audience note: Summary after review",
+   "sha": "36dcc367dfe8",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 32,
+    "range": "A32:D32"
+   },
+   "cells": [
+    {
+     "ref": "A32",
+     "header": "Incident",
+     "value": "INC-260912"
+    },
+    {
+     "ref": "B32",
+     "header": "Milestone",
+     "value": "Summary linked"
+    },
+    {
+     "ref": "C32",
+     "header": "UTC time",
+     "value": "2026-09-14 09:17 UTC"
+    },
+    {
+     "ref": "D32",
+     "header": "Audience note",
+     "value": "Summary after review"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 50
+  },
+  {
+   "kind": "record",
+   "text": "Incident: INC-260919; Milestone: Summary linked; UTC time: 2026-09-21 18:12 UTC; Audience note: Summary after review",
+   "sha": "83285f4cdbde",
+   "section": "Updates",
+   "locator": {
+    "sheet": "Updates",
+    "row": 33,
+    "range": "A33:D33"
+   },
+   "cells": [
+    {
+     "ref": "A33",
+     "header": "Incident",
+     "value": "INC-260919"
+    },
+    {
+     "ref": "B33",
+     "header": "Milestone",
+     "value": "Summary linked"
+    },
+    {
+     "ref": "C33",
+     "header": "UTC time",
+     "value": "2026-09-21 18:12 UTC"
+    },
+    {
+     "ref": "D33",
+     "header": "Audience note",
+     "value": "Summary after review"
+    }
+   ],
+   "context": {
+    "sheet": "Updates",
+    "title": "Publication handover for confirmed incidents",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Incident",
+     "Milestone",
+     "UTC time",
+     "Audience note"
+    ]
+   },
+   "seg": 51
+  },
+  {
+   "kind": "sheet_title",
+   "text": "Rules for communicating the register",
+   "sha": "516e4d9a3c62",
+   "section": "Reporting notes",
+   "locator": {
+    "sheet": "Reporting notes",
+    "range": "A1:D2"
+   },
+   "seg": 52
+  },
+  {
+   "kind": "table_header",
+   "text": "Subject | Value | Unit | Interpretation",
+   "sha": "15ee63e9f88c",
+   "section": "Reporting notes",
+   "locator": {
+    "sheet": "Reporting notes",
+    "row": 5,
+    "range": "A5:D5"
+   },
+   "cells": [
+    {
+     "ref": "A5",
+     "value": "Subject"
+    },
+    {
+     "ref": "B5",
+     "value": "Value"
+    },
+    {
+     "ref": "C5",
+     "value": "Unit"
+    },
+    {
+     "ref": "D5",
+     "value": "Interpretation"
+    }
+   ],
+   "seg": 53
+  },
+  {
+   "kind": "record",
+   "text": "Subject: Impact; Value: Affected region only; Unit: scope; Interpretation: Do not describe a regional issue as a global outage",
+   "sha": "d6fedc84759d",
+   "section": "Reporting notes",
+   "locator": {
+    "sheet": "Reporting notes",
+    "row": 6,
+    "range": "A6:D6"
+   },
+   "cells": [
+    {
+     "ref": "A6",
+     "header": "Subject",
+     "value": "Impact"
+    },
+    {
+     "ref": "B6",
+     "header": "Value",
+     "value": "Affected region only"
+    },
+    {
+     "ref": "C6",
+     "header": "Unit",
+     "value": "scope"
+    },
+    {
+     "ref": "D6",
+     "header": "Interpretation",
+     "value": "Do not describe a regional issue as a global outage"
+    }
+   ],
+   "context": {
+    "sheet": "Reporting notes",
+    "title": "Rules for communicating the register",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Subject",
+     "Value",
+     "Unit",
+     "Interpretation"
+    ]
+   },
+   "seg": 54
+  },
+  {
+   "kind": "record",
+   "text": "Subject: Updates; Value: 30; Unit: minutes; Interpretation: Target update cadence during P1",
+   "sha": "569cfc3e0d11",
+   "section": "Reporting notes",
+   "locator": {
+    "sheet": "Reporting notes",
+    "row": 7,
+    "range": "A7:D7"
+   },
+   "cells": [
+    {
+     "ref": "A7",
+     "header": "Subject",
+     "value": "Updates"
+    },
+    {
+     "ref": "B7",
+     "header": "Value",
+     "value": "30"
+    },
+    {
+     "ref": "C7",
+     "header": "Unit",
+     "value": "minutes"
+    },
+    {
+     "ref": "D7",
+     "header": "Interpretation",
+     "value": "Target update cadence during P1"
+    }
+   ],
+   "context": {
+    "sheet": "Reporting notes",
+    "title": "Rules for communicating the register",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Subject",
+     "Value",
+     "Unit",
+     "Interpretation"
+    ]
+   },
+   "seg": 55
+  },
+  {
+   "kind": "record",
+   "text": "Subject: Public summary; Value: 3; Unit: business days; Interpretation: After incident resolution",
+   "sha": "07ba5070408e",
+   "section": "Reporting notes",
+   "locator": {
+    "sheet": "Reporting notes",
+    "row": 8,
+    "range": "A8:D8"
+   },
+   "cells": [
+    {
+     "ref": "A8",
+     "header": "Subject",
+     "value": "Public summary"
+    },
+    {
+     "ref": "B8",
+     "header": "Value",
+     "value": "3"
+    },
+    {
+     "ref": "C8",
+     "header": "Unit",
+     "value": "business days"
+    },
+    {
+     "ref": "D8",
+     "header": "Interpretation",
+     "value": "After incident resolution"
+    }
+   ],
+   "context": {
+    "sheet": "Reporting notes",
+    "title": "Rules for communicating the register",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Subject",
+     "Value",
+     "Unit",
+     "Interpretation"
+    ]
+   },
+   "seg": 56
+  },
+  {
+   "kind": "record",
+   "text": "Subject: Evidence; Value: Incident ID and UTC range; Unit: fields; Interpretation: Attach request IDs when available",
+   "sha": "93633df978f9",
+   "section": "Reporting notes",
+   "locator": {
+    "sheet": "Reporting notes",
+    "row": 9,
+    "range": "A9:D9"
+   },
+   "cells": [
+    {
+     "ref": "A9",
+     "header": "Subject",
+     "value": "Evidence"
+    },
+    {
+     "ref": "B9",
+     "header": "Value",
+     "value": "Incident ID and UTC range"
+    },
+    {
+     "ref": "C9",
+     "header": "Unit",
+     "value": "fields"
+    },
+    {
+     "ref": "D9",
+     "header": "Interpretation",
+     "value": "Attach request IDs when available"
+    }
+   ],
+   "context": {
+    "sheet": "Reporting notes",
+    "title": "Rules for communicating the register",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Subject",
+     "Value",
+     "Unit",
+     "Interpretation"
+    ]
+   },
+   "seg": 57
+  },
+  {
+   "kind": "record",
+   "text": "Subject: Credit; Value: Separate eligibility review; Unit: rule; Interpretation: Elapsed time alone does not approve a credit",
+   "sha": "2d14e9eec61e",
+   "section": "Reporting notes",
+   "locator": {
+    "sheet": "Reporting notes",
+    "row": 10,
+    "range": "A10:D10"
+   },
+   "cells": [
+    {
+     "ref": "A10",
+     "header": "Subject",
+     "value": "Credit"
+    },
+    {
+     "ref": "B10",
+     "header": "Value",
+     "value": "Separate eligibility review"
+    },
+    {
+     "ref": "C10",
+     "header": "Unit",
+     "value": "rule"
+    },
+    {
+     "ref": "D10",
+     "header": "Interpretation",
+     "value": "Elapsed time alone does not approve a credit"
+    }
+   ],
+   "context": {
+    "sheet": "Reporting notes",
+    "title": "Rules for communicating the register",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Subject",
+     "Value",
+     "Unit",
+     "Interpretation"
+    ]
+   },
+   "seg": 58
+  }
+ ]
+}

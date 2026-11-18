@@ -1,0 +1,724 @@
+{
+ "no": 19,
+ "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+ "doc_id": "team-flex-proposal",
+ "title": "Team Flex: что вынести на квартальный обзор",
+ "title_ru": "Team Flex: что вынести на квартальный обзор",
+ "lang": "ru",
+ "format": "txt",
+ "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+ "decision": {
+  "no": 19,
+  "path": "documents/Планирование/Team Flex — новый вариант.txt",
+  "doc_id": "team-flex-proposal",
+  "title": "Team Flex: что вынести на квартальный обзор",
+  "lang": "ru",
+  "owner": "Product Planning",
+  "version": "2026-09-01",
+  "updated": "2026-09-01",
+  "doc_type": "draft",
+  "status": "exclude",
+  "rule": "R3",
+  "reason": "Гипотеза: «не опубликован как предложение клиентам… не образуют действующие условия договора». Имя «новый вариант» не делает его действующей версией.",
+  "access": "all",
+  "trust": "confirmed",
+  "related": [
+   21,
+   22
+  ]
+ },
+ "fragments": [
+  {
+   "fragment_id": "19-001",
+   "doc_no": 19,
+   "doc_id": "team-flex-proposal",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+   "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+   "source_lang": "ru",
+   "format": "txt",
+   "kind": "title",
+   "locator": {
+    "lines": [
+     1,
+     1
+    ]
+   },
+   "locator_text": "строка 1",
+   "segment_sha": "c8e5d9692930",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Team Flex: что вынести на квартальный обзор",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "19-002",
+   "doc_no": 19,
+   "doc_id": "team-flex-proposal",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+   "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+   "source_lang": "ru",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     3,
+     3
+    ]
+   },
+   "locator_text": "строка 3",
+   "segment_sha": "162faec00623",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Запись Product Planning после обсуждения 1 сентября 2026 года. Документ ещё не опубликован как предложение клиентам. Здесь обсуждаются возможные условия нового корпоративного пакета; приведённые значения нужны продуктовой команде для разговора и не образуют действующие условия договора. Просьба не превращать эту заметку в ответ клиенту о доступном тарифе. Если в переписке уже появилось знакомое название, сначала выясните, не пересказывают ли коллеги именно это обсуждение.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "19-003",
+   "doc_no": 19,
+   "doc_id": "team-flex-proposal",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+   "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+   "source_lang": "ru",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     5,
+     5
+    ]
+   },
+   "locator_text": "строка 5",
+   "segment_sha": "095396944422",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Рабочее название пакета — Team Flex. Оно помогает нам говорить об одной гипотезе, но не означает, что пакет уже появился в продаже. Внутри обсуждения название удобно и коротко; снаружи оно может звучать как готовый продукт. Поэтому в следующем обзоре нужно отдельно вернуться к тому, как объяснять степень готовности идеи. На сегодня дата коммерческого запуска не назначена. Нельзя обещать её клиенту, ссылаясь на то, что у идеи уже есть имя и собраны предполагаемые параметры.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "19-004",
+   "doc_no": 19,
+   "doc_id": "team-flex-proposal",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+   "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+   "source_lang": "ru",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     7,
+     7
+    ]
+   },
+   "locator_text": "строка 7",
+   "segment_sha": "68f340f05641",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Первое предложение — расчёт по календарным неделям. Команда рассматривает этот период как возможную основу пакета, однако Finance не согласовал расчёт недельных округлений. Это открытый вопрос, от которого зависит, насколько однозначно можно будет описать расчёт. Не следует скрывать его за словом «гибко». Пока округления не согласованы, у нас нет основания превращать общий замысел в уверенное объяснение суммы счёта. В заметках к обзору нужно сохранить и саму идею периода, и нерешённость её расчётной части.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "19-005",
+   "doc_no": 19,
+   "doc_id": "team-flex-proposal",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+   "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+   "source_lang": "ru",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     9,
+     9
+    ]
+   },
+   "locator_text": "строка 9",
+   "segment_sha": "f3d02634b952",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Второй пункт — 45 дней пробного доступа. Сейчас это рассматриваемый срок, а не доступный клиенту пробный период. На встрече важно обсуждать, зачем продуктовой гипотезе именно такой период и что команда хочет понять о её использовании. Здесь не зафиксирован новый способ подключения пробного доступа и нет решения о распространении значения на существующие договоры. Если кто-то готовит презентацию идеи, слово «рассматривается» должно остаться рядом с этим числом, а не исчезнуть при сокращении текста для слайда.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "19-006",
+   "doc_no": 19,
+   "doc_id": "team-flex-proposal",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+   "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+   "source_lang": "ru",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     11,
+     11
+    ]
+   },
+   "locator_text": "строка 11",
+   "segment_sha": "181734a0a046",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "По гостям предложено включить 500 гостей без доплаты. Это часть обсуждения Team Flex, а не изменение возможностей уже действующих тарифов. Не стоит собирать из отдельных фраз этой заметки новую таблицу текущих условий для поддержки. Условие может звучать привлекательно само по себе, но оно всё ещё связано с неутверждённым пакетом и общим решением о его устройстве. Вопросы к продуктовой команде лучше формулировать как обратную связь по гипотезе, чтобы они не выглядели как заявки на уже обещанную возможность.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "19-007",
+   "doc_no": 19,
+   "doc_id": "team-flex-proposal",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+   "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+   "source_lang": "ru",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     13,
+     13
+    ]
+   },
+   "locator_text": "строка 13",
+   "segment_sha": "b6c5be903649",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Также обсуждается скидка 35 процентов при оплате за год. Она не согласована как действующее предложение. Годовая оплата и недельный расчёт пока существуют в одном наборе вопросов, и Finance ещё должен разобраться с недельными округлениями. Не пытайтесь самостоятельно вывести из этих пунктов итоговую формулу для клиента. Нам полезно увидеть, где сочетание идей вызывает вопросы, а не получить несколько несовместимых устных объяснений от разных команд. На обзоре нужно вернуться к этому сочетанию явно.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "19-008",
+   "doc_no": 19,
+   "doc_id": "team-flex-proposal",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+   "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+   "source_lang": "ru",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     15,
+     15
+    ]
+   },
+   "locator_text": "строка 15",
+   "segment_sha": "4ee1d71b52bb",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Шаблон дополнения к договору ещё не принят. Это отдельная причина не описывать заметку как готовые коммерческие условия. Даже подробная внутренняя дискуссия не заменяет принятый договорный документ. Если коллега спрашивает, можно ли включить Team Flex в предложение уже сегодня, эта запись не даёт такого основания. В ней нет принятого дополнения и нет назначенной даты запуска. Ответ должен сохранять различие между интересом к идее и обязательством компании перед конкретным клиентом.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "19-009",
+   "doc_no": 19,
+   "doc_id": "team-flex-proposal",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+   "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+   "source_lang": "ru",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     17,
+     17
+    ]
+   },
+   "locator_text": "строка 17",
+   "segment_sha": "44a8215486e2",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Замечания до планового квартального обзора собирает Product Planning. Полезны вопросы о понятности предполагаемого расчёта, ожиданиях от пробного периода и том, как идея гостей соотносится с рабочими сценариями клиента. Передавая обратную связь, отделяйте слова клиента от собственной интерпретации команды. Не нужно пересылать ему эту записку ради подтверждения интереса: в ней смешаны гипотезы и открытые решения. Нам нужен материал для дальнейшего обсуждения внутри компании, после которого ещё предстоит принять продуктовые и договорные решения.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "19-010",
+   "doc_no": 19,
+   "doc_id": "team-flex-proposal",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+   "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+   "source_lang": "ru",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     19,
+     19
+    ]
+   },
+   "locator_text": "строка 19",
+   "segment_sha": "01afa47164d9",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "К следующему разговору оставляем именно такой снимок идеи: название есть, несколько чисел рассматриваются, расчёт округлений и договорное дополнение не приняты, запуск не назначен. Команде нужны замечания по сочетанию этих условий и нерешённым вопросам Finance. После квартального обзора предстоит вернуться к расчёту, договорному тексту и решению о запуске. До этого не используем обсуждаемые значения для выставления счетов и не предлагаем их клиентам как условия, на которые уже можно перейти.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  }
+ ],
+ "_base": {
+  "no": 19,
+  "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+  "doc_id": "team-flex-proposal",
+  "title": "Team Flex: что вынести на квартальный обзор",
+  "title_ru": "Team Flex: что вынести на квартальный обзор",
+  "lang": "ru",
+  "format": "txt",
+  "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+  "decision": {
+   "no": 19,
+   "path": "documents/Планирование/Team Flex — новый вариант.txt",
+   "doc_id": "team-flex-proposal",
+   "title": "Team Flex: что вынести на квартальный обзор",
+   "lang": "ru",
+   "owner": "Product Planning",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "doc_type": "draft",
+   "status": "exclude",
+   "rule": "R3",
+   "reason": "Гипотеза: «не опубликован как предложение клиентам… не образуют действующие условия договора». Имя «новый вариант» не делает его действующей версией.",
+   "access": "all",
+   "trust": "confirmed",
+   "related": [
+    21,
+    22
+   ]
+  },
+  "fragments": [
+   {
+    "fragment_id": "19-001",
+    "doc_no": 19,
+    "doc_id": "team-flex-proposal",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+    "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+    "source_lang": "ru",
+    "format": "txt",
+    "kind": "title",
+    "locator": {
+     "lines": [
+      1,
+      1
+     ]
+    },
+    "locator_text": "строка 1",
+    "segment_sha": "c8e5d9692930",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Team Flex: что вынести на квартальный обзор",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "19-002",
+    "doc_no": 19,
+    "doc_id": "team-flex-proposal",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+    "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+    "source_lang": "ru",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      3,
+      3
+     ]
+    },
+    "locator_text": "строка 3",
+    "segment_sha": "162faec00623",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Запись Product Planning после обсуждения 1 сентября 2026 года. Документ ещё не опубликован как предложение клиентам. Здесь обсуждаются возможные условия нового корпоративного пакета; приведённые значения нужны продуктовой команде для разговора и не образуют действующие условия договора. Просьба не превращать эту заметку в ответ клиенту о доступном тарифе. Если в переписке уже появилось знакомое название, сначала выясните, не пересказывают ли коллеги именно это обсуждение.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "19-003",
+    "doc_no": 19,
+    "doc_id": "team-flex-proposal",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+    "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+    "source_lang": "ru",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      5,
+      5
+     ]
+    },
+    "locator_text": "строка 5",
+    "segment_sha": "095396944422",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Рабочее название пакета — Team Flex. Оно помогает нам говорить об одной гипотезе, но не означает, что пакет уже появился в продаже. Внутри обсуждения название удобно и коротко; снаружи оно может звучать как готовый продукт. Поэтому в следующем обзоре нужно отдельно вернуться к тому, как объяснять степень готовности идеи. На сегодня дата коммерческого запуска не назначена. Нельзя обещать её клиенту, ссылаясь на то, что у идеи уже есть имя и собраны предполагаемые параметры.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "19-004",
+    "doc_no": 19,
+    "doc_id": "team-flex-proposal",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+    "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+    "source_lang": "ru",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      7,
+      7
+     ]
+    },
+    "locator_text": "строка 7",
+    "segment_sha": "68f340f05641",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Первое предложение — расчёт по календарным неделям. Команда рассматривает этот период как возможную основу пакета, однако Finance не согласовал расчёт недельных округлений. Это открытый вопрос, от которого зависит, насколько однозначно можно будет описать расчёт. Не следует скрывать его за словом «гибко». Пока округления не согласованы, у нас нет основания превращать общий замысел в уверенное объяснение суммы счёта. В заметках к обзору нужно сохранить и саму идею периода, и нерешённость её расчётной части.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "19-005",
+    "doc_no": 19,
+    "doc_id": "team-flex-proposal",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+    "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+    "source_lang": "ru",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      9,
+      9
+     ]
+    },
+    "locator_text": "строка 9",
+    "segment_sha": "f3d02634b952",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Второй пункт — 45 дней пробного доступа. Сейчас это рассматриваемый срок, а не доступный клиенту пробный период. На встрече важно обсуждать, зачем продуктовой гипотезе именно такой период и что команда хочет понять о её использовании. Здесь не зафиксирован новый способ подключения пробного доступа и нет решения о распространении значения на существующие договоры. Если кто-то готовит презентацию идеи, слово «рассматривается» должно остаться рядом с этим числом, а не исчезнуть при сокращении текста для слайда.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "19-006",
+    "doc_no": 19,
+    "doc_id": "team-flex-proposal",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+    "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+    "source_lang": "ru",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      11,
+      11
+     ]
+    },
+    "locator_text": "строка 11",
+    "segment_sha": "181734a0a046",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "По гостям предложено включить 500 гостей без доплаты. Это часть обсуждения Team Flex, а не изменение возможностей уже действующих тарифов. Не стоит собирать из отдельных фраз этой заметки новую таблицу текущих условий для поддержки. Условие может звучать привлекательно само по себе, но оно всё ещё связано с неутверждённым пакетом и общим решением о его устройстве. Вопросы к продуктовой команде лучше формулировать как обратную связь по гипотезе, чтобы они не выглядели как заявки на уже обещанную возможность.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "19-007",
+    "doc_no": 19,
+    "doc_id": "team-flex-proposal",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+    "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+    "source_lang": "ru",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      13,
+      13
+     ]
+    },
+    "locator_text": "строка 13",
+    "segment_sha": "b6c5be903649",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Также обсуждается скидка 35 процентов при оплате за год. Она не согласована как действующее предложение. Годовая оплата и недельный расчёт пока существуют в одном наборе вопросов, и Finance ещё должен разобраться с недельными округлениями. Не пытайтесь самостоятельно вывести из этих пунктов итоговую формулу для клиента. Нам полезно увидеть, где сочетание идей вызывает вопросы, а не получить несколько несовместимых устных объяснений от разных команд. На обзоре нужно вернуться к этому сочетанию явно.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "19-008",
+    "doc_no": 19,
+    "doc_id": "team-flex-proposal",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+    "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+    "source_lang": "ru",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      15,
+      15
+     ]
+    },
+    "locator_text": "строка 15",
+    "segment_sha": "4ee1d71b52bb",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Шаблон дополнения к договору ещё не принят. Это отдельная причина не описывать заметку как готовые коммерческие условия. Даже подробная внутренняя дискуссия не заменяет принятый договорный документ. Если коллега спрашивает, можно ли включить Team Flex в предложение уже сегодня, эта запись не даёт такого основания. В ней нет принятого дополнения и нет назначенной даты запуска. Ответ должен сохранять различие между интересом к идее и обязательством компании перед конкретным клиентом.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "19-009",
+    "doc_no": 19,
+    "doc_id": "team-flex-proposal",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+    "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+    "source_lang": "ru",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      17,
+      17
+     ]
+    },
+    "locator_text": "строка 17",
+    "segment_sha": "44a8215486e2",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Замечания до планового квартального обзора собирает Product Planning. Полезны вопросы о понятности предполагаемого расчёта, ожиданиях от пробного периода и том, как идея гостей соотносится с рабочими сценариями клиента. Передавая обратную связь, отделяйте слова клиента от собственной интерпретации команды. Не нужно пересылать ему эту записку ради подтверждения интереса: в ней смешаны гипотезы и открытые решения. Нам нужен материал для дальнейшего обсуждения внутри компании, после которого ещё предстоит принять продуктовые и договорные решения.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "19-010",
+    "doc_no": 19,
+    "doc_id": "team-flex-proposal",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Team Flex — новый вариант.txt",
+    "source_sha256": "280a31dc25fd90d97b4ca9e12d0550e1736f16f04dd67c0047e642798cf01d03",
+    "source_lang": "ru",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      19,
+      19
+     ]
+    },
+    "locator_text": "строка 19",
+    "segment_sha": "01afa47164d9",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "К следующему разговору оставляем именно такой снимок идеи: название есть, несколько чисел рассматриваются, расчёт округлений и договорное дополнение не приняты, запуск не назначен. Команде нужны замечания по сочетанию этих условий и нерешённым вопросам Finance. После квартального обзора предстоит вернуться к расчёту, договорному тексту и решению о запуске. До этого не используем обсуждаемые значения для выставления счетов и не предлагаем их клиентам как условия, на которые уже можно перейти.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   }
+  ]
+ }
+}

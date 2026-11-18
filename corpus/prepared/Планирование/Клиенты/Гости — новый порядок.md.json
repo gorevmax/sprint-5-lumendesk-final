@@ -1,0 +1,858 @@
+{
+ "no": 21,
+ "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+ "doc_id": "guest-access",
+ "title": "Когда клиенту нужен гость",
+ "title_ru": "Когда клиенту нужен гость",
+ "lang": "ru",
+ "format": "md",
+ "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+ "decision": {
+  "no": 21,
+  "path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+  "doc_id": "guest-access",
+  "title": "Когда клиенту нужен гость",
+  "lang": "ru",
+  "owner": "Workspace Platform",
+  "version": "2026-09-01",
+  "updated": "2026-09-01",
+  "doc_type": "rule",
+  "status": "include",
+  "rule": "R1",
+  "reason": "Workspace Platform, 1.09.2026; описывает текущие правила (лежит в «Планировании», но не является проектом). Значения совпадают с №22.",
+  "access": "all",
+  "trust": "confirmed",
+  "related": [
+   22,
+   19,
+   44
+  ]
+ },
+ "fragments": [
+  {
+   "fragment_id": "21-001",
+   "doc_no": 21,
+   "doc_id": "guest-access",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+   "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "title",
+   "locator": {
+    "lines": [
+     1,
+     1
+    ]
+   },
+   "locator_text": "строка 1",
+   "segment_sha": "51e22b2505d9",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "# Когда клиенту нужен гость",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "21-002",
+   "doc_no": 21,
+   "doc_id": "guest-access",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+   "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     3,
+     3
+    ]
+   },
+   "locator_text": "строка 3",
+   "segment_sha": "443524f1c4b6",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "На подготовке клиентских запусков регулярно возникает просьба «дайте подрядчику ссылку, чтобы он увидел проект». Для разговора с клиентом Workspace Platform собрала эти пояснения 1 сентября 2026 года. Гость получает доступ только к явно выбранным пространствам. Открытая ссылка не превращает его в участника workspace. Не начинайте обсуждение с общего обещания доступа ко всему рабочему пространству: сначала нужно понять, какую совместную работу клиент хочет организовать и какие пространства для неё действительно нужны.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "21-003",
+   "doc_no": 21,
+   "doc_id": "guest-access",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+   "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     5,
+     5
+    ]
+   },
+   "locator_text": "строка 5",
+   "segment_sha": "f22ef20a66b7",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Пригласить гостя может администратор или владелец пространства. Владелец workspace и владелец конкретного пространства — слова, которые собеседники иногда используют небрежно, поэтому полезно уточнить, кто именно будет выполнять приглашение. Не стоит объяснять отсутствие возможности пригласить как поломку, пока неясны полномочия человека. В разговоре можно предложить ему обратиться к администратору или владельцу нужного пространства, не передавая чужие учётные данные и не делая общего доступа только ради обхода вопроса о приглашении.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "21-004",
+   "doc_no": 21,
+   "doc_id": "guest-access",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+   "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     7,
+     7
+    ]
+   },
+   "locator_text": "строка 7",
+   "segment_sha": "45b7acc3cdd3",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Приглашение действует 7 календарных дней. Это не срок проекта и не обещание, что человек сможет в любой момент воспользоваться старым письмом. Если подрядчик вернулся к переписке спустя время, выясните, какое приглашение он открывает. Пересланное сегодня письмо может содержать более раннее приглашение. В заметке для коллеги не ограничивайтесь словами «ссылка не работает»: укажите, что клиент пытался принять приглашение, и какой контекст времени удалось установить. Так следующий специалист не начнёт разбирать совершенно другой вид ссылки.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "21-005",
+   "doc_no": 21,
+   "doc_id": "guest-access",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+   "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     9,
+     9
+    ]
+   },
+   "locator_text": "строка 9",
+   "segment_sha": "cd644548a855",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Адрес гостя должен пройти подтверждение email. Поэтому нужно различать отправку приглашения и готовность гостя пользоваться доступом. Со стороны клиента эти события могут выглядеть как одно действие: «мы же его уже добавили». Спокойно объясните, какой шаг относится к подтверждению адреса. При этом не просите прислать пароль от почты и не обещайте подтвердить адрес вместо человека. Обсуждение конкретного адреса и приглашения должно помогать разобраться в процессе, а не создавать новый канал передачи чужих секретов.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "21-006",
+   "doc_no": 21,
+   "doc_id": "guest-access",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+   "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     11,
+     11
+    ]
+   },
+   "locator_text": "строка 11",
+   "segment_sha": "cc31af146332",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "## Что гость увидит",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "21-007",
+   "doc_no": 21,
+   "doc_id": "guest-access",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+   "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     13,
+     13
+    ]
+   },
+   "locator_text": "строка 13",
+   "segment_sha": "806ed8bbbb8b",
+   "section": "Что гость увидит",
+   "section_ru": "Что гость увидит",
+   "text_ru": "Гость не видит каталог участников и закрытые пространства. Выбор нужного пространства имеет значение: приглашение для совместной работы не открывает автоматически соседние разделы организации. Если клиент ожидает обратного, лучше прояснить это до начала работы подрядчика. Иначе отсутствие доступа к закрытому пространству позже будет восприниматься как неожиданное ограничение, хотя оно соответствует границам гостевого доступа. Объясняйте границы через рабочую задачу клиента, не перечисляя содержимое закрытых областей.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "21-008",
+   "doc_no": 21,
+   "doc_id": "guest-access",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+   "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     15,
+     15
+    ]
+   },
+   "locator_text": "строка 15",
+   "segment_sha": "4542ff56a6ef",
+   "section": "Что гость увидит",
+   "section_ru": "Что гость увидит",
+   "text_ru": "На Team разрешено 20 активных гостей на workspace. На Enterprise разрешено 100 активных гостей на workspace. На Starter гостевой доступ недоступен. Важны и слово «активных», и привязка к рабочему пространству: нельзя брать число из знакомого проекта клиента и автоматически переносить его на другой workspace. Если обсуждается предстоящая работа нескольких подрядчиков, попросите администратора соотнести её с тарифом конкретного рабочего пространства. Количество внешних адресов в переписке само по себе ещё не описывает число активных гостей.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "21-009",
+   "doc_no": 21,
+   "doc_id": "guest-access",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+   "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     17,
+     17
+    ]
+   },
+   "locator_text": "строка 17",
+   "segment_sha": "d644ea832281",
+   "section": "Что гость увидит",
+   "section_ru": "Что гость увидит",
+   "text_ru": "Гость не может запускать административный экспорт workspace. Иногда клиент приглашает внешнего консультанта именно для проверки данных и предполагает, что доступ к одному пространству даст ему все административные инструменты. Уточните ожидаемое действие заранее. Совместная работа в выбранном пространстве и административная выгрузка рабочего пространства — разные возможности. Не обещайте экспорт только на основании того, что консультант успешно открыл карточку, и не советуйте ему использовать чужую административную сессию.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "21-010",
+   "doc_no": 21,
+   "doc_id": "guest-access",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+   "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     19,
+     19
+    ]
+   },
+   "locator_text": "строка 19",
+   "segment_sha": "4364d475fa25",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "## Когда сотрудничество заканчивается",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "21-011",
+   "doc_no": 21,
+   "doc_id": "guest-access",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+   "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     21,
+     21
+    ]
+   },
+   "locator_text": "строка 21",
+   "segment_sha": "0d3e542fd90f",
+   "section": "Когда сотрудничество заканчивается",
+   "section_ru": "Когда сотрудничество заканчивается",
+   "text_ru": "При отзыве приглашения доступ действующего гостя прекращается сразу. Это правило следует учитывать, когда клиент готовит завершение проекта: отзыв касается не только ещё не принятого письма. Если администратор спрашивает, останется ли у работающего гостя доступ «до конца дня», объясните немедленный эффект действия. Не нужно придумывать отдельный период ожидания или обещать, что открытая ранее вкладка сохранит права. Разговор должен опираться на то, какое действие клиент собирается выполнить, а не на видимые у гостя старые страницы.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  },
+  {
+   "fragment_id": "21-012",
+   "doc_no": 21,
+   "doc_id": "guest-access",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+   "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     23,
+     23
+    ]
+   },
+   "locator_text": "строка 23",
+   "segment_sha": "3c35a1d517b2",
+   "section": "Когда сотрудничество заканчивается",
+   "section_ru": "Когда сотрудничество заканчивается",
+   "text_ru": "Для передачи клиентского запуска полезно оставить короткую историю: зачем приглашён внешний человек, какие пространства выбраны и кто со стороны клиента управляет приглашением. Она помогает коллегам обсуждать последующие вопросы в том же контексте. Эта записка не устанавливает новый процесс согласований или дополнительные тарифы. Её цель — чтобы слова «гость», «ссылка» и «участник workspace» не подменяли друг друга в разговоре. Тогда клиент заранее понимает и удобство совместной работы, и её границы.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал."
+  }
+ ],
+ "_base": {
+  "no": 21,
+  "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+  "doc_id": "guest-access",
+  "title": "Когда клиенту нужен гость",
+  "title_ru": "Когда клиенту нужен гость",
+  "lang": "ru",
+  "format": "md",
+  "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+  "decision": {
+   "no": 21,
+   "path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+   "doc_id": "guest-access",
+   "title": "Когда клиенту нужен гость",
+   "lang": "ru",
+   "owner": "Workspace Platform",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "doc_type": "rule",
+   "status": "include",
+   "rule": "R1",
+   "reason": "Workspace Platform, 1.09.2026; описывает текущие правила (лежит в «Планировании», но не является проектом). Значения совпадают с №22.",
+   "access": "all",
+   "trust": "confirmed",
+   "related": [
+    22,
+    19,
+    44
+   ]
+  },
+  "fragments": [
+   {
+    "fragment_id": "21-001",
+    "doc_no": 21,
+    "doc_id": "guest-access",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+    "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "title",
+    "locator": {
+     "lines": [
+      1,
+      1
+     ]
+    },
+    "locator_text": "строка 1",
+    "segment_sha": "51e22b2505d9",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "# Когда клиенту нужен гость",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "21-002",
+    "doc_no": 21,
+    "doc_id": "guest-access",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+    "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      3,
+      3
+     ]
+    },
+    "locator_text": "строка 3",
+    "segment_sha": "443524f1c4b6",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "На подготовке клиентских запусков регулярно возникает просьба «дайте подрядчику ссылку, чтобы он увидел проект». Для разговора с клиентом Workspace Platform собрала эти пояснения 1 сентября 2026 года. Гость получает доступ только к явно выбранным пространствам. Открытая ссылка не превращает его в участника workspace. Не начинайте обсуждение с общего обещания доступа ко всему рабочему пространству: сначала нужно понять, какую совместную работу клиент хочет организовать и какие пространства для неё действительно нужны.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "21-003",
+    "doc_no": 21,
+    "doc_id": "guest-access",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+    "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      5,
+      5
+     ]
+    },
+    "locator_text": "строка 5",
+    "segment_sha": "f22ef20a66b7",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Пригласить гостя может администратор или владелец пространства. Владелец workspace и владелец конкретного пространства — слова, которые собеседники иногда используют небрежно, поэтому полезно уточнить, кто именно будет выполнять приглашение. Не стоит объяснять отсутствие возможности пригласить как поломку, пока неясны полномочия человека. В разговоре можно предложить ему обратиться к администратору или владельцу нужного пространства, не передавая чужие учётные данные и не делая общего доступа только ради обхода вопроса о приглашении.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "21-004",
+    "doc_no": 21,
+    "doc_id": "guest-access",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+    "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      7,
+      7
+     ]
+    },
+    "locator_text": "строка 7",
+    "segment_sha": "45b7acc3cdd3",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Приглашение действует 7 календарных дней. Это не срок проекта и не обещание, что человек сможет в любой момент воспользоваться старым письмом. Если подрядчик вернулся к переписке спустя время, выясните, какое приглашение он открывает. Пересланное сегодня письмо может содержать более раннее приглашение. В заметке для коллеги не ограничивайтесь словами «ссылка не работает»: укажите, что клиент пытался принять приглашение, и какой контекст времени удалось установить. Так следующий специалист не начнёт разбирать совершенно другой вид ссылки.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "21-005",
+    "doc_no": 21,
+    "doc_id": "guest-access",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+    "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      9,
+      9
+     ]
+    },
+    "locator_text": "строка 9",
+    "segment_sha": "cd644548a855",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Адрес гостя должен пройти подтверждение email. Поэтому нужно различать отправку приглашения и готовность гостя пользоваться доступом. Со стороны клиента эти события могут выглядеть как одно действие: «мы же его уже добавили». Спокойно объясните, какой шаг относится к подтверждению адреса. При этом не просите прислать пароль от почты и не обещайте подтвердить адрес вместо человека. Обсуждение конкретного адреса и приглашения должно помогать разобраться в процессе, а не создавать новый канал передачи чужих секретов.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "21-006",
+    "doc_no": 21,
+    "doc_id": "guest-access",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+    "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      11,
+      11
+     ]
+    },
+    "locator_text": "строка 11",
+    "segment_sha": "cc31af146332",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "## Что гость увидит",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "21-007",
+    "doc_no": 21,
+    "doc_id": "guest-access",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+    "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      13,
+      13
+     ]
+    },
+    "locator_text": "строка 13",
+    "segment_sha": "806ed8bbbb8b",
+    "section": "Что гость увидит",
+    "section_ru": "Что гость увидит",
+    "text_ru": "Гость не видит каталог участников и закрытые пространства. Выбор нужного пространства имеет значение: приглашение для совместной работы не открывает автоматически соседние разделы организации. Если клиент ожидает обратного, лучше прояснить это до начала работы подрядчика. Иначе отсутствие доступа к закрытому пространству позже будет восприниматься как неожиданное ограничение, хотя оно соответствует границам гостевого доступа. Объясняйте границы через рабочую задачу клиента, не перечисляя содержимое закрытых областей.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "21-008",
+    "doc_no": 21,
+    "doc_id": "guest-access",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+    "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      15,
+      15
+     ]
+    },
+    "locator_text": "строка 15",
+    "segment_sha": "4542ff56a6ef",
+    "section": "Что гость увидит",
+    "section_ru": "Что гость увидит",
+    "text_ru": "На Team разрешено 20 активных гостей на workspace. На Enterprise разрешено 100 активных гостей на workspace. На Starter гостевой доступ недоступен. Важны и слово «активных», и привязка к рабочему пространству: нельзя брать число из знакомого проекта клиента и автоматически переносить его на другой workspace. Если обсуждается предстоящая работа нескольких подрядчиков, попросите администратора соотнести её с тарифом конкретного рабочего пространства. Количество внешних адресов в переписке само по себе ещё не описывает число активных гостей.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "21-009",
+    "doc_no": 21,
+    "doc_id": "guest-access",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+    "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      17,
+      17
+     ]
+    },
+    "locator_text": "строка 17",
+    "segment_sha": "d644ea832281",
+    "section": "Что гость увидит",
+    "section_ru": "Что гость увидит",
+    "text_ru": "Гость не может запускать административный экспорт workspace. Иногда клиент приглашает внешнего консультанта именно для проверки данных и предполагает, что доступ к одному пространству даст ему все административные инструменты. Уточните ожидаемое действие заранее. Совместная работа в выбранном пространстве и административная выгрузка рабочего пространства — разные возможности. Не обещайте экспорт только на основании того, что консультант успешно открыл карточку, и не советуйте ему использовать чужую административную сессию.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "21-010",
+    "doc_no": 21,
+    "doc_id": "guest-access",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+    "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      19,
+      19
+     ]
+    },
+    "locator_text": "строка 19",
+    "segment_sha": "4364d475fa25",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "## Когда сотрудничество заканчивается",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "21-011",
+    "doc_no": 21,
+    "doc_id": "guest-access",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+    "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      21,
+      21
+     ]
+    },
+    "locator_text": "строка 21",
+    "segment_sha": "0d3e542fd90f",
+    "section": "Когда сотрудничество заканчивается",
+    "section_ru": "Когда сотрудничество заканчивается",
+    "text_ru": "При отзыве приглашения доступ действующего гостя прекращается сразу. Это правило следует учитывать, когда клиент готовит завершение проекта: отзыв касается не только ещё не принятого письма. Если администратор спрашивает, останется ли у работающего гостя доступ «до конца дня», объясните немедленный эффект действия. Не нужно придумывать отдельный период ожидания или обещать, что открытая ранее вкладка сохранит права. Разговор должен опираться на то, какое действие клиент собирается выполнить, а не на видимые у гостя старые страницы.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "21-012",
+    "doc_no": 21,
+    "doc_id": "guest-access",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+    "source_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      23,
+      23
+     ]
+    },
+    "locator_text": "строка 23",
+    "segment_sha": "3c35a1d517b2",
+    "section": "Когда сотрудничество заканчивается",
+    "section_ru": "Когда сотрудничество заканчивается",
+    "text_ru": "Для передачи клиентского запуска полезно оставить короткую историю: зачем приглашён внешний человек, какие пространства выбраны и кто со стороны клиента управляет приглашением. Она помогает коллегам обсуждать последующие вопросы в том же контексте. Эта записка не устанавливает новый процесс согласований или дополнительные тарифы. Её цель — чтобы слова «гость», «ссылка» и «участник workspace» не подменяли друг друга в разговоре. Тогда клиент заранее понимает и удобство совместной работы, и её границы.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   }
+  ]
+ }
+}

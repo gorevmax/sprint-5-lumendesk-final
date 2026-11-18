@@ -1,0 +1,1763 @@
+{
+ "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+ "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+ "segmenter": "segment-2",
+ "segments": [
+  {
+   "kind": "table_header",
+   "text": "Nature | Étape ou livraison | Minutes depuis envoi initial | Événement | HTTP | Observation",
+   "sha": "559bb1f97d99",
+   "section": null,
+   "locator": {
+    "csv_row": 1
+   },
+   "cells": [
+    {
+     "col": 1,
+     "value": "Nature"
+    },
+    {
+     "col": 2,
+     "value": "Étape ou livraison"
+    },
+    {
+     "col": 3,
+     "value": "Minutes depuis envoi initial"
+    },
+    {
+     "col": 4,
+     "value": "Événement"
+    },
+    {
+     "col": 5,
+     "value": "HTTP"
+    },
+    {
+     "col": 6,
+     "value": "Observation"
+    }
+   ],
+   "seg": 1
+  },
+  {
+   "kind": "record",
+   "text": "Nature: calendrier; Étape ou livraison: Tentative 1; Minutes depuis envoi initial: 0; Observation: Envoi initial à 0 minute.",
+   "sha": "7afcf92a7520",
+   "section": null,
+   "locator": {
+    "csv_row": 2
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "calendrier"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Tentative 1"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "0"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Envoi initial à 0 minute."
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 2
+  },
+  {
+   "kind": "record",
+   "text": "Nature: calendrier; Étape ou livraison: Tentative 2; Minutes depuis envoi initial: 1; Observation: Nouvel envoi à 1 minute.",
+   "sha": "f61e662cd1f4",
+   "section": null,
+   "locator": {
+    "csv_row": 3
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "calendrier"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Tentative 2"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "1"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Nouvel envoi à 1 minute."
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 3
+  },
+  {
+   "kind": "record",
+   "text": "Nature: calendrier; Étape ou livraison: Tentative 3; Minutes depuis envoi initial: 5; Observation: Nouvel envoi à 5 minutes.",
+   "sha": "504ec5d0bde5",
+   "section": null,
+   "locator": {
+    "csv_row": 4
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "calendrier"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Tentative 3"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "5"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Nouvel envoi à 5 minutes."
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 4
+  },
+  {
+   "kind": "record",
+   "text": "Nature: calendrier; Étape ou livraison: Tentative 4; Minutes depuis envoi initial: 15; Observation: Nouvel envoi à 15 minutes.",
+   "sha": "e56ca58b8060",
+   "section": null,
+   "locator": {
+    "csv_row": 5
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "calendrier"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Tentative 4"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "15"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Nouvel envoi à 15 minutes."
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 5
+  },
+  {
+   "kind": "record",
+   "text": "Nature: calendrier; Étape ou livraison: Tentative 5; Minutes depuis envoi initial: 60; Observation: Nouvel envoi à 60 minutes.",
+   "sha": "96793fcaa2b3",
+   "section": null,
+   "locator": {
+    "csv_row": 6
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "calendrier"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Tentative 5"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "60"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Nouvel envoi à 60 minutes."
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 6
+  },
+  {
+   "kind": "record",
+   "text": "Nature: calendrier; Étape ou livraison: Tentative 6; Minutes depuis envoi initial: 240; Observation: Dernier envoi à 240 minutes.",
+   "sha": "8dbc9ae52a82",
+   "section": null,
+   "locator": {
+    "csv_row": 7
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "calendrier"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Tentative 6"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "240"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Dernier envoi à 240 minutes."
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 7
+  },
+  {
+   "kind": "record",
+   "text": "Nature: consigne; Étape ou livraison: Échec final; Observation: Après la sixième tentative en échec, l’événement prend l’état dead_letter.",
+   "sha": "0bbc57b83fda",
+   "section": null,
+   "locator": {
+    "csv_row": 8
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "consigne"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Échec final"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Après la sixième tentative en échec, l’événement prend l’état dead_letter."
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 8
+  },
+  {
+   "kind": "record",
+   "text": "Nature: consigne; Étape ou livraison: Suspension; Observation: Trois événements dead_letter en une heure suspendent l’abonnement.",
+   "sha": "4262d5653525",
+   "section": null,
+   "locator": {
+    "csv_row": 9
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "consigne"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Suspension"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Trois événements dead_letter en une heure suspendent l’abonnement."
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 9
+  },
+  {
+   "kind": "record",
+   "text": "Nature: consigne; Étape ou livraison: Reprise; Observation: Un administrateur réactive l’abonnement après un test HTTP 2xx.",
+   "sha": "adf13a9dbf3c",
+   "section": null,
+   "locator": {
+    "csv_row": 10
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "consigne"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Reprise"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Un administrateur réactive l’abonnement après un test HTTP 2xx."
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 10
+  },
+  {
+   "kind": "record",
+   "text": "Nature: consigne; Étape ou livraison: Identifiant; Observation: L’event ID reste identique pendant toutes les tentatives.",
+   "sha": "d3a79290bd20",
+   "section": null,
+   "locator": {
+    "csv_row": 11
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "consigne"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Identifiant"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "L’event ID reste identique pendant toutes les tentatives."
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 11
+  },
+  {
+   "kind": "record",
+   "text": "Nature: consigne; Étape ou livraison: Délai réseau; Observation: Chaque tentative a un délai de réponse maximal de 10 secondes.",
+   "sha": "ac8a0439ea09",
+   "section": null,
+   "locator": {
+    "csv_row": 12
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "consigne"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Délai réseau"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Chaque tentative a un délai de réponse maximal de 10 secondes."
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 12
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-31; Minutes depuis envoi initial: 0; Événement: cartes.cree; HTTP: 503; Observation: service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "0953e8131aaf",
+   "section": null,
+   "locator": {
+    "csv_row": 13
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-31"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "0"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "cartes.cree"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "503"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "service aval indisponible; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 13
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-32; Minutes depuis envoi initial: 1; Événement: commentaire.ajoute; HTTP: 429; Observation: Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "9118fb67b76f",
+   "section": null,
+   "locator": {
+    "csv_row": 14
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-32"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "1"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "commentaire.ajoute"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "429"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Retry-After reçu; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 14
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-33; Minutes depuis envoi initial: 5; Événement: carte.modifie; HTTP: 200; Observation: accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "748734235d18",
+   "section": null,
+   "locator": {
+    "csv_row": 15
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-33"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "5"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "carte.modifie"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "200"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "accusé de réception; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 15
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-34; Minutes depuis envoi initial: 15; Événement: fichier.disponible; HTTP: 504; Observation: délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "206a26537259",
+   "section": null,
+   "locator": {
+    "csv_row": 16
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-34"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "15"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "fichier.disponible"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "504"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 16
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-35; Minutes depuis envoi initial: 60; Événement: membre.invite; HTTP: 202; Observation: traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "b12a782f53e2",
+   "section": null,
+   "locator": {
+    "csv_row": 17
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-35"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "60"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "membre.invite"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "202"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "traitement accepté; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 17
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-36; Minutes depuis envoi initial: 240; Événement: carte.archive; HTTP: 500; Observation: erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "2a28f05bb388",
+   "section": null,
+   "locator": {
+    "csv_row": 18
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-36"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "240"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "carte.archive"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "500"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "erreur du destinataire; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 18
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-37; Minutes depuis envoi initial: 0; Événement: cartes.cree; HTTP: 503; Observation: service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "3e939a40d37c",
+   "section": null,
+   "locator": {
+    "csv_row": 19
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-37"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "0"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "cartes.cree"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "503"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "service aval indisponible; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 19
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-38; Minutes depuis envoi initial: 1; Événement: commentaire.ajoute; HTTP: 429; Observation: Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "d7f122c6b066",
+   "section": null,
+   "locator": {
+    "csv_row": 20
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-38"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "1"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "commentaire.ajoute"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "429"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Retry-After reçu; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 20
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-39; Minutes depuis envoi initial: 5; Événement: carte.modifie; HTTP: 200; Observation: accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "800a7b0378cf",
+   "section": null,
+   "locator": {
+    "csv_row": 21
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-39"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "5"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "carte.modifie"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "200"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "accusé de réception; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 21
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-40; Minutes depuis envoi initial: 15; Événement: fichier.disponible; HTTP: 504; Observation: délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "08a4efc4a5a3",
+   "section": null,
+   "locator": {
+    "csv_row": 22
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-40"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "15"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "fichier.disponible"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "504"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 22
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-41; Minutes depuis envoi initial: 60; Événement: membre.invite; HTTP: 202; Observation: traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "28840ba7b905",
+   "section": null,
+   "locator": {
+    "csv_row": 23
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-41"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "60"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "membre.invite"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "202"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "traitement accepté; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 23
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-42; Minutes depuis envoi initial: 240; Événement: carte.archive; HTTP: 500; Observation: erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "5c7852e373ee",
+   "section": null,
+   "locator": {
+    "csv_row": 24
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-42"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "240"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "carte.archive"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "500"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "erreur du destinataire; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 24
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-43; Minutes depuis envoi initial: 0; Événement: cartes.cree; HTTP: 503; Observation: service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "94ede5f23864",
+   "section": null,
+   "locator": {
+    "csv_row": 25
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-43"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "0"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "cartes.cree"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "503"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "service aval indisponible; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 25
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-44; Minutes depuis envoi initial: 1; Événement: commentaire.ajoute; HTTP: 429; Observation: Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "d60be814f991",
+   "section": null,
+   "locator": {
+    "csv_row": 26
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-44"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "1"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "commentaire.ajoute"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "429"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Retry-After reçu; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 26
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-45; Minutes depuis envoi initial: 5; Événement: carte.modifie; HTTP: 200; Observation: accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "5f059e2ff8a3",
+   "section": null,
+   "locator": {
+    "csv_row": 27
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-45"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "5"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "carte.modifie"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "200"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "accusé de réception; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 27
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-46; Minutes depuis envoi initial: 15; Événement: fichier.disponible; HTTP: 504; Observation: délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "683b857921e2",
+   "section": null,
+   "locator": {
+    "csv_row": 28
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-46"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "15"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "fichier.disponible"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "504"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 28
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-47; Minutes depuis envoi initial: 60; Événement: membre.invite; HTTP: 202; Observation: traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "900dfd144f4b",
+   "section": null,
+   "locator": {
+    "csv_row": 29
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-47"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "60"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "membre.invite"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "202"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "traitement accepté; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 29
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-48; Minutes depuis envoi initial: 240; Événement: carte.archive; HTTP: 500; Observation: erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "76eeb3c2b9fa",
+   "section": null,
+   "locator": {
+    "csv_row": 30
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-48"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "240"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "carte.archive"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "500"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "erreur du destinataire; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 30
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-49; Minutes depuis envoi initial: 0; Événement: cartes.cree; HTTP: 503; Observation: service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "afd4354e8a1a",
+   "section": null,
+   "locator": {
+    "csv_row": 31
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-49"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "0"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "cartes.cree"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "503"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "service aval indisponible; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 31
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-50; Minutes depuis envoi initial: 1; Événement: commentaire.ajoute; HTTP: 429; Observation: Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "85f0d6dc0899",
+   "section": null,
+   "locator": {
+    "csv_row": 32
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-50"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "1"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "commentaire.ajoute"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "429"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Retry-After reçu; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 32
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-51; Minutes depuis envoi initial: 5; Événement: carte.modifie; HTTP: 200; Observation: accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "3999be382099",
+   "section": null,
+   "locator": {
+    "csv_row": 33
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-51"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "5"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "carte.modifie"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "200"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "accusé de réception; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 33
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-52; Minutes depuis envoi initial: 15; Événement: fichier.disponible; HTTP: 504; Observation: délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "2534d5eba60f",
+   "section": null,
+   "locator": {
+    "csv_row": 34
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-52"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "15"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "fichier.disponible"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "504"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 34
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-53; Minutes depuis envoi initial: 60; Événement: membre.invite; HTTP: 202; Observation: traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "ea1b476df473",
+   "section": null,
+   "locator": {
+    "csv_row": 35
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-53"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "60"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "membre.invite"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "202"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "traitement accepté; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 35
+  },
+  {
+   "kind": "record",
+   "text": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-54; Minutes depuis envoi initial: 240; Événement: carte.archive; HTTP: 500; Observation: erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+   "sha": "4ffe58fb978f",
+   "section": null,
+   "locator": {
+    "csv_row": 36
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-54"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "240"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "carte.archive"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "500"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "erreur du destinataire; horloge mesurée depuis le premier envoi du même événement"
+    }
+   ],
+   "context": {
+    "header": [
+     "Nature",
+     "Étape ou livraison",
+     "Minutes depuis envoi initial",
+     "Événement",
+     "HTTP",
+     "Observation"
+    ],
+    "delimiter": ";"
+   },
+   "seg": 36
+  }
+ ]
+}

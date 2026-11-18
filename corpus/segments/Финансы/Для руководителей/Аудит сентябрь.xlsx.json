@@ -1,0 +1,2941 @@
+{
+ "source_path": "documents/Финансы/Для руководителей/Аудит сентябрь.xlsx",
+ "source_sha256": "81a264b7e023948e12692cb4460d00f5d9844b9fd7584b0bd2fe8c72108b9d9c",
+ "segmenter": "segment-2",
+ "segments": [
+  {
+   "kind": "sheet_title",
+   "text": "Проверка административных событий",
+   "sha": "4d72e6144794",
+   "section": "Обращение",
+   "locator": {
+    "sheet": "Обращение",
+    "range": "A1:D2"
+   },
+   "seg": 1
+  },
+  {
+   "kind": "sheet_note",
+   "text": "Только руководителям поддержки. Security Operations передала эту копию для разбора сентябрьских запросов. Журнал Enterprise не выдают специалистам первой линии. Основание доступа фиксируют до просмотра.",
+   "sha": "25d7ae28d2f6",
+   "section": "Обращение",
+   "locator": {
+    "sheet": "Обращение",
+    "range": "A3:D5"
+   },
+   "seg": 2
+  },
+  {
+   "kind": "table_header",
+   "text": "Предмет | Описание | Вид | Условие",
+   "sha": "e07c014a5d89",
+   "section": "Обращение",
+   "locator": {
+    "sheet": "Обращение",
+    "row": 7,
+    "range": "A7:D7"
+   },
+   "cells": [
+    {
+     "ref": "A7",
+     "value": "Предмет"
+    },
+    {
+     "ref": "B7",
+     "value": "Описание"
+    },
+    {
+     "ref": "C7",
+     "value": "Вид"
+    },
+    {
+     "ref": "D7",
+     "value": "Условие"
+    }
+   ],
+   "seg": 3
+  },
+  {
+   "kind": "record",
+   "text": "Предмет: auth.login; Описание: Вход участника; Вид: событие; Условие: Время UTC и actor ID",
+   "sha": "10624ce97f4b",
+   "section": "Обращение",
+   "locator": {
+    "sheet": "Обращение",
+    "row": 8,
+    "range": "A8:D8"
+   },
+   "cells": [
+    {
+     "ref": "A8",
+     "header": "Предмет",
+     "value": "auth.login"
+    },
+    {
+     "ref": "B8",
+     "header": "Описание",
+     "value": "Вход участника"
+    },
+    {
+     "ref": "C8",
+     "header": "Вид",
+     "value": "событие"
+    },
+    {
+     "ref": "D8",
+     "header": "Условие",
+     "value": "Время UTC и actor ID"
+    }
+   ],
+   "context": {
+    "sheet": "Обращение",
+    "title": "Проверка административных событий",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Только руководителям поддержки. Security Operations передала эту копию для разбора сентябрьских запросов. Журнал Enterprise не выдают специалистам первой линии. Основание доступа фиксируют до просмотра.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Предмет",
+     "Описание",
+     "Вид",
+     "Условие"
+    ]
+   },
+   "seg": 4
+  },
+  {
+   "kind": "record",
+   "text": "Предмет: role.changed; Описание: Изменение роли; Вид: событие; Условие: Старая и новая роли",
+   "sha": "b238cdb128ac",
+   "section": "Обращение",
+   "locator": {
+    "sheet": "Обращение",
+    "row": 9,
+    "range": "A9:D9"
+   },
+   "cells": [
+    {
+     "ref": "A9",
+     "header": "Предмет",
+     "value": "role.changed"
+    },
+    {
+     "ref": "B9",
+     "header": "Описание",
+     "value": "Изменение роли"
+    },
+    {
+     "ref": "C9",
+     "header": "Вид",
+     "value": "событие"
+    },
+    {
+     "ref": "D9",
+     "header": "Условие",
+     "value": "Старая и новая роли"
+    }
+   ],
+   "context": {
+    "sheet": "Обращение",
+    "title": "Проверка административных событий",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Только руководителям поддержки. Security Operations передала эту копию для разбора сентябрьских запросов. Журнал Enterprise не выдают специалистам первой линии. Основание доступа фиксируют до просмотра.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Предмет",
+     "Описание",
+     "Вид",
+     "Условие"
+    ]
+   },
+   "seg": 5
+  },
+  {
+   "kind": "record",
+   "text": "Предмет: guest.invited; Описание: Приглашение гостя; Вид: событие; Условие: Идентификатор приглашения",
+   "sha": "e985508a9510",
+   "section": "Обращение",
+   "locator": {
+    "sheet": "Обращение",
+    "row": 10,
+    "range": "A10:D10"
+   },
+   "cells": [
+    {
+     "ref": "A10",
+     "header": "Предмет",
+     "value": "guest.invited"
+    },
+    {
+     "ref": "B10",
+     "header": "Описание",
+     "value": "Приглашение гостя"
+    },
+    {
+     "ref": "C10",
+     "header": "Вид",
+     "value": "событие"
+    },
+    {
+     "ref": "D10",
+     "header": "Условие",
+     "value": "Идентификатор приглашения"
+    }
+   ],
+   "context": {
+    "sheet": "Обращение",
+    "title": "Проверка административных событий",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Только руководителям поддержки. Security Operations передала эту копию для разбора сентябрьских запросов. Журнал Enterprise не выдают специалистам первой линии. Основание доступа фиксируют до просмотра.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Предмет",
+     "Описание",
+     "Вид",
+     "Условие"
+    ]
+   },
+   "seg": 6
+  },
+  {
+   "kind": "record",
+   "text": "Предмет: link.created; Описание: Создание публичной ссылки; Вид: событие; Условие: Resource ID без содержимого объекта",
+   "sha": "645c39da48db",
+   "section": "Обращение",
+   "locator": {
+    "sheet": "Обращение",
+    "row": 11,
+    "range": "A11:D11"
+   },
+   "cells": [
+    {
+     "ref": "A11",
+     "header": "Предмет",
+     "value": "link.created"
+    },
+    {
+     "ref": "B11",
+     "header": "Описание",
+     "value": "Создание публичной ссылки"
+    },
+    {
+     "ref": "C11",
+     "header": "Вид",
+     "value": "событие"
+    },
+    {
+     "ref": "D11",
+     "header": "Условие",
+     "value": "Resource ID без содержимого объекта"
+    }
+   ],
+   "context": {
+    "sheet": "Обращение",
+    "title": "Проверка административных событий",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Только руководителям поддержки. Security Operations передала эту копию для разбора сентябрьских запросов. Журнал Enterprise не выдают специалистам первой линии. Основание доступа фиксируют до просмотра.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Предмет",
+     "Описание",
+     "Вид",
+     "Условие"
+    ]
+   },
+   "seg": 7
+  },
+  {
+   "kind": "record",
+   "text": "Предмет: export.started; Описание: Запуск административного экспорта; Вид: событие; Условие: Job ID и actor ID",
+   "sha": "c7ded97971a0",
+   "section": "Обращение",
+   "locator": {
+    "sheet": "Обращение",
+    "row": 12,
+    "range": "A12:D12"
+   },
+   "cells": [
+    {
+     "ref": "A12",
+     "header": "Предмет",
+     "value": "export.started"
+    },
+    {
+     "ref": "B12",
+     "header": "Описание",
+     "value": "Запуск административного экспорта"
+    },
+    {
+     "ref": "C12",
+     "header": "Вид",
+     "value": "событие"
+    },
+    {
+     "ref": "D12",
+     "header": "Условие",
+     "value": "Job ID и actor ID"
+    }
+   ],
+   "context": {
+    "sheet": "Обращение",
+    "title": "Проверка административных событий",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Только руководителям поддержки. Security Operations передала эту копию для разбора сентябрьских запросов. Журнал Enterprise не выдают специалистам первой линии. Основание доступа фиксируют до просмотра.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Предмет",
+     "Описание",
+     "Вид",
+     "Условие"
+    ]
+   },
+   "seg": 8
+  },
+  {
+   "kind": "record",
+   "text": "Предмет: Тариф; Описание: Enterprise; Вид: ограничение; Условие: Журнал аудита доступен только на Enterprise",
+   "sha": "cf5d7933655b",
+   "section": "Обращение",
+   "locator": {
+    "sheet": "Обращение",
+    "row": 13,
+    "range": "A13:D13"
+   },
+   "cells": [
+    {
+     "ref": "A13",
+     "header": "Предмет",
+     "value": "Тариф"
+    },
+    {
+     "ref": "B13",
+     "header": "Описание",
+     "value": "Enterprise"
+    },
+    {
+     "ref": "C13",
+     "header": "Вид",
+     "value": "ограничение"
+    },
+    {
+     "ref": "D13",
+     "header": "Условие",
+     "value": "Журнал аудита доступен только на Enterprise"
+    }
+   ],
+   "context": {
+    "sheet": "Обращение",
+    "title": "Проверка административных событий",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Только руководителям поддержки. Security Operations передала эту копию для разбора сентябрьских запросов. Журнал Enterprise не выдают специалистам первой линии. Основание доступа фиксируют до просмотра.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Предмет",
+     "Описание",
+     "Вид",
+     "Условие"
+    ]
+   },
+   "seg": 9
+  },
+  {
+   "kind": "record",
+   "text": "Предмет: Хранение; Описание: 365; Вид: дней; Условие: Календарные дни",
+   "sha": "2c191ede2206",
+   "section": "Обращение",
+   "locator": {
+    "sheet": "Обращение",
+    "row": 14,
+    "range": "A14:D14"
+   },
+   "cells": [
+    {
+     "ref": "A14",
+     "header": "Предмет",
+     "value": "Хранение"
+    },
+    {
+     "ref": "B14",
+     "header": "Описание",
+     "value": "365"
+    },
+    {
+     "ref": "C14",
+     "header": "Вид",
+     "value": "дней"
+    },
+    {
+     "ref": "D14",
+     "header": "Условие",
+     "value": "Календарные дни"
+    }
+   ],
+   "context": {
+    "sheet": "Обращение",
+    "title": "Проверка административных событий",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Только руководителям поддержки. Security Operations передала эту копию для разбора сентябрьских запросов. Журнал Enterprise не выдают специалистам первой линии. Основание доступа фиксируют до просмотра.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Предмет",
+     "Описание",
+     "Вид",
+     "Условие"
+    ]
+   },
+   "seg": 10
+  },
+  {
+   "kind": "record",
+   "text": "Предмет: Запрос; Описание: Incident ID; Вид: обязательное поле; Условие: Основание доступа фиксируют до просмотра",
+   "sha": "ed12c3cc26c8",
+   "section": "Обращение",
+   "locator": {
+    "sheet": "Обращение",
+    "row": 15,
+    "range": "A15:D15"
+   },
+   "cells": [
+    {
+     "ref": "A15",
+     "header": "Предмет",
+     "value": "Запрос"
+    },
+    {
+     "ref": "B15",
+     "header": "Описание",
+     "value": "Incident ID"
+    },
+    {
+     "ref": "C15",
+     "header": "Вид",
+     "value": "обязательное поле"
+    },
+    {
+     "ref": "D15",
+     "header": "Условие",
+     "value": "Основание доступа фиксируют до просмотра"
+    }
+   ],
+   "context": {
+    "sheet": "Обращение",
+    "title": "Проверка административных событий",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Только руководителям поддержки. Security Operations передала эту копию для разбора сентябрьских запросов. Журнал Enterprise не выдают специалистам первой линии. Основание доступа фиксируют до просмотра.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Предмет",
+     "Описание",
+     "Вид",
+     "Условие"
+    ]
+   },
+   "seg": 11
+  },
+  {
+   "kind": "record",
+   "text": "Предмет: Выгрузка; Описание: Разрешение Security Operations; Вид: согласование; Условие: Перед передачей внешней стороне",
+   "sha": "5f0d9e01ee42",
+   "section": "Обращение",
+   "locator": {
+    "sheet": "Обращение",
+    "row": 16,
+    "range": "A16:D16"
+   },
+   "cells": [
+    {
+     "ref": "A16",
+     "header": "Предмет",
+     "value": "Выгрузка"
+    },
+    {
+     "ref": "B16",
+     "header": "Описание",
+     "value": "Разрешение Security Operations"
+    },
+    {
+     "ref": "C16",
+     "header": "Вид",
+     "value": "согласование"
+    },
+    {
+     "ref": "D16",
+     "header": "Условие",
+     "value": "Перед передачей внешней стороне"
+    }
+   ],
+   "context": {
+    "sheet": "Обращение",
+    "title": "Проверка административных событий",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Только руководителям поддержки. Security Operations передала эту копию для разбора сентябрьских запросов. Журнал Enterprise не выдают специалистам первой линии. Основание доступа фиксируют до просмотра.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Предмет",
+     "Описание",
+     "Вид",
+     "Условие"
+    ]
+   },
+   "seg": 12
+  },
+  {
+   "kind": "record",
+   "text": "Предмет: Минимизация; Описание: Только нужный диапазон; Вид: правило; Условие: Не выгружать весь год для одного события",
+   "sha": "32877dc90575",
+   "section": "Обращение",
+   "locator": {
+    "sheet": "Обращение",
+    "row": 17,
+    "range": "A17:D17"
+   },
+   "cells": [
+    {
+     "ref": "A17",
+     "header": "Предмет",
+     "value": "Минимизация"
+    },
+    {
+     "ref": "B17",
+     "header": "Описание",
+     "value": "Только нужный диапазон"
+    },
+    {
+     "ref": "C17",
+     "header": "Вид",
+     "value": "правило"
+    },
+    {
+     "ref": "D17",
+     "header": "Условие",
+     "value": "Не выгружать весь год для одного события"
+    }
+   ],
+   "context": {
+    "sheet": "Обращение",
+    "title": "Проверка административных событий",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Только руководителям поддержки. Security Operations передала эту копию для разбора сентябрьских запросов. Журнал Enterprise не выдают специалистам первой линии. Основание доступа фиксируют до просмотра.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Предмет",
+     "Описание",
+     "Вид",
+     "Условие"
+    ]
+   },
+   "seg": 13
+  },
+  {
+   "kind": "sheet_title",
+   "text": "Выборка для внутренней сверки",
+   "sha": "0b2a6302c8ac",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "range": "A1:E2"
+   },
+   "seg": 14
+  },
+  {
+   "kind": "sheet_note",
+   "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+   "sha": "76444e19500d",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "range": "A3:E5"
+   },
+   "seg": 15
+  },
+  {
+   "kind": "table_header",
+   "text": "Время UTC | Workspace | Событие | Actor | Контекст",
+   "sha": "48e4ec7848db",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 7,
+    "range": "A7:E7"
+   },
+   "cells": [
+    {
+     "ref": "A7",
+     "value": "Время UTC"
+    },
+    {
+     "ref": "B7",
+     "value": "Workspace"
+    },
+    {
+     "ref": "C7",
+     "value": "Событие"
+    },
+    {
+     "ref": "D7",
+     "value": "Actor"
+    },
+    {
+     "ref": "E7",
+     "value": "Контекст"
+    }
+   ],
+   "seg": 16
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-02 08:00; Workspace: ws-230; Событие: auth.login; Actor: actor-870; Контекст: Успешный вход",
+   "sha": "fbf09ac9ea97",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 8,
+    "range": "A8:E8"
+   },
+   "cells": [
+    {
+     "ref": "A8",
+     "header": "Время UTC",
+     "value": "2026-09-02 08:00"
+    },
+    {
+     "ref": "B8",
+     "header": "Workspace",
+     "value": "ws-230"
+    },
+    {
+     "ref": "C8",
+     "header": "Событие",
+     "value": "auth.login"
+    },
+    {
+     "ref": "D8",
+     "header": "Actor",
+     "value": "actor-870"
+    },
+    {
+     "ref": "E8",
+     "header": "Контекст",
+     "value": "Успешный вход"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 17
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-02 08:11; Workspace: ws-231; Событие: role.changed; Actor: actor-871; Контекст: member → admin",
+   "sha": "14bf6659e465",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 9,
+    "range": "A9:E9"
+   },
+   "cells": [
+    {
+     "ref": "A9",
+     "header": "Время UTC",
+     "value": "2026-09-02 08:11"
+    },
+    {
+     "ref": "B9",
+     "header": "Workspace",
+     "value": "ws-231"
+    },
+    {
+     "ref": "C9",
+     "header": "Событие",
+     "value": "role.changed"
+    },
+    {
+     "ref": "D9",
+     "header": "Actor",
+     "value": "actor-871"
+    },
+    {
+     "ref": "E9",
+     "header": "Контекст",
+     "value": "member → admin"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 18
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-02 08:22; Workspace: ws-232; Событие: guest.invited; Actor: actor-872; Контекст: Приглашение без содержимого письма",
+   "sha": "5b109e3192a4",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 10,
+    "range": "A10:E10"
+   },
+   "cells": [
+    {
+     "ref": "A10",
+     "header": "Время UTC",
+     "value": "2026-09-02 08:22"
+    },
+    {
+     "ref": "B10",
+     "header": "Workspace",
+     "value": "ws-232"
+    },
+    {
+     "ref": "C10",
+     "header": "Событие",
+     "value": "guest.invited"
+    },
+    {
+     "ref": "D10",
+     "header": "Actor",
+     "value": "actor-872"
+    },
+    {
+     "ref": "E10",
+     "header": "Контекст",
+     "value": "Приглашение без содержимого письма"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 19
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-02 08:33; Workspace: ws-233; Событие: link.created; Actor: actor-873; Контекст: Resource card-813",
+   "sha": "a63d3978f69c",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 11,
+    "range": "A11:E11"
+   },
+   "cells": [
+    {
+     "ref": "A11",
+     "header": "Время UTC",
+     "value": "2026-09-02 08:33"
+    },
+    {
+     "ref": "B11",
+     "header": "Workspace",
+     "value": "ws-233"
+    },
+    {
+     "ref": "C11",
+     "header": "Событие",
+     "value": "link.created"
+    },
+    {
+     "ref": "D11",
+     "header": "Actor",
+     "value": "actor-873"
+    },
+    {
+     "ref": "E11",
+     "header": "Контекст",
+     "value": "Resource card-813"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 20
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-02 08:44; Workspace: ws-234; Событие: export.started; Actor: actor-874; Контекст: Job export-494",
+   "sha": "3bae01041d7a",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 12,
+    "range": "A12:E12"
+   },
+   "cells": [
+    {
+     "ref": "A12",
+     "header": "Время UTC",
+     "value": "2026-09-02 08:44"
+    },
+    {
+     "ref": "B12",
+     "header": "Workspace",
+     "value": "ws-234"
+    },
+    {
+     "ref": "C12",
+     "header": "Событие",
+     "value": "export.started"
+    },
+    {
+     "ref": "D12",
+     "header": "Actor",
+     "value": "actor-874"
+    },
+    {
+     "ref": "E12",
+     "header": "Контекст",
+     "value": "Job export-494"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 21
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-03 08:00; Workspace: ws-235; Событие: auth.login; Actor: actor-875; Контекст: Успешный вход",
+   "sha": "c63c25d8ce10",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 13,
+    "range": "A13:E13"
+   },
+   "cells": [
+    {
+     "ref": "A13",
+     "header": "Время UTC",
+     "value": "2026-09-03 08:00"
+    },
+    {
+     "ref": "B13",
+     "header": "Workspace",
+     "value": "ws-235"
+    },
+    {
+     "ref": "C13",
+     "header": "Событие",
+     "value": "auth.login"
+    },
+    {
+     "ref": "D13",
+     "header": "Actor",
+     "value": "actor-875"
+    },
+    {
+     "ref": "E13",
+     "header": "Контекст",
+     "value": "Успешный вход"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 22
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-03 08:11; Workspace: ws-236; Событие: role.changed; Actor: actor-876; Контекст: member → admin",
+   "sha": "3220b2e353e0",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 14,
+    "range": "A14:E14"
+   },
+   "cells": [
+    {
+     "ref": "A14",
+     "header": "Время UTC",
+     "value": "2026-09-03 08:11"
+    },
+    {
+     "ref": "B14",
+     "header": "Workspace",
+     "value": "ws-236"
+    },
+    {
+     "ref": "C14",
+     "header": "Событие",
+     "value": "role.changed"
+    },
+    {
+     "ref": "D14",
+     "header": "Actor",
+     "value": "actor-876"
+    },
+    {
+     "ref": "E14",
+     "header": "Контекст",
+     "value": "member → admin"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 23
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-03 08:22; Workspace: ws-230; Событие: guest.invited; Actor: actor-877; Контекст: Приглашение без содержимого письма",
+   "sha": "8e08a97fe6d0",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 15,
+    "range": "A15:E15"
+   },
+   "cells": [
+    {
+     "ref": "A15",
+     "header": "Время UTC",
+     "value": "2026-09-03 08:22"
+    },
+    {
+     "ref": "B15",
+     "header": "Workspace",
+     "value": "ws-230"
+    },
+    {
+     "ref": "C15",
+     "header": "Событие",
+     "value": "guest.invited"
+    },
+    {
+     "ref": "D15",
+     "header": "Actor",
+     "value": "actor-877"
+    },
+    {
+     "ref": "E15",
+     "header": "Контекст",
+     "value": "Приглашение без содержимого письма"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 24
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-03 08:33; Workspace: ws-231; Событие: link.created; Actor: actor-878; Контекст: Resource card-818",
+   "sha": "b0acda3e5180",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 16,
+    "range": "A16:E16"
+   },
+   "cells": [
+    {
+     "ref": "A16",
+     "header": "Время UTC",
+     "value": "2026-09-03 08:33"
+    },
+    {
+     "ref": "B16",
+     "header": "Workspace",
+     "value": "ws-231"
+    },
+    {
+     "ref": "C16",
+     "header": "Событие",
+     "value": "link.created"
+    },
+    {
+     "ref": "D16",
+     "header": "Actor",
+     "value": "actor-878"
+    },
+    {
+     "ref": "E16",
+     "header": "Контекст",
+     "value": "Resource card-818"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 25
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-03 08:44; Workspace: ws-232; Событие: export.started; Actor: actor-870; Контекст: Job export-499",
+   "sha": "045237536f94",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 17,
+    "range": "A17:E17"
+   },
+   "cells": [
+    {
+     "ref": "A17",
+     "header": "Время UTC",
+     "value": "2026-09-03 08:44"
+    },
+    {
+     "ref": "B17",
+     "header": "Workspace",
+     "value": "ws-232"
+    },
+    {
+     "ref": "C17",
+     "header": "Событие",
+     "value": "export.started"
+    },
+    {
+     "ref": "D17",
+     "header": "Actor",
+     "value": "actor-870"
+    },
+    {
+     "ref": "E17",
+     "header": "Контекст",
+     "value": "Job export-499"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 26
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-04 08:00; Workspace: ws-233; Событие: auth.login; Actor: actor-871; Контекст: Успешный вход",
+   "sha": "0ab32aabe9a5",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 18,
+    "range": "A18:E18"
+   },
+   "cells": [
+    {
+     "ref": "A18",
+     "header": "Время UTC",
+     "value": "2026-09-04 08:00"
+    },
+    {
+     "ref": "B18",
+     "header": "Workspace",
+     "value": "ws-233"
+    },
+    {
+     "ref": "C18",
+     "header": "Событие",
+     "value": "auth.login"
+    },
+    {
+     "ref": "D18",
+     "header": "Actor",
+     "value": "actor-871"
+    },
+    {
+     "ref": "E18",
+     "header": "Контекст",
+     "value": "Успешный вход"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 27
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-04 08:11; Workspace: ws-234; Событие: role.changed; Actor: actor-872; Контекст: member → admin",
+   "sha": "dce8295aee71",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 19,
+    "range": "A19:E19"
+   },
+   "cells": [
+    {
+     "ref": "A19",
+     "header": "Время UTC",
+     "value": "2026-09-04 08:11"
+    },
+    {
+     "ref": "B19",
+     "header": "Workspace",
+     "value": "ws-234"
+    },
+    {
+     "ref": "C19",
+     "header": "Событие",
+     "value": "role.changed"
+    },
+    {
+     "ref": "D19",
+     "header": "Actor",
+     "value": "actor-872"
+    },
+    {
+     "ref": "E19",
+     "header": "Контекст",
+     "value": "member → admin"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 28
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-04 08:22; Workspace: ws-235; Событие: guest.invited; Actor: actor-873; Контекст: Приглашение без содержимого письма",
+   "sha": "73380c87667a",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 20,
+    "range": "A20:E20"
+   },
+   "cells": [
+    {
+     "ref": "A20",
+     "header": "Время UTC",
+     "value": "2026-09-04 08:22"
+    },
+    {
+     "ref": "B20",
+     "header": "Workspace",
+     "value": "ws-235"
+    },
+    {
+     "ref": "C20",
+     "header": "Событие",
+     "value": "guest.invited"
+    },
+    {
+     "ref": "D20",
+     "header": "Actor",
+     "value": "actor-873"
+    },
+    {
+     "ref": "E20",
+     "header": "Контекст",
+     "value": "Приглашение без содержимого письма"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 29
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-04 08:33; Workspace: ws-236; Событие: link.created; Actor: actor-874; Контекст: Resource card-823",
+   "sha": "de0d139feefe",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 21,
+    "range": "A21:E21"
+   },
+   "cells": [
+    {
+     "ref": "A21",
+     "header": "Время UTC",
+     "value": "2026-09-04 08:33"
+    },
+    {
+     "ref": "B21",
+     "header": "Workspace",
+     "value": "ws-236"
+    },
+    {
+     "ref": "C21",
+     "header": "Событие",
+     "value": "link.created"
+    },
+    {
+     "ref": "D21",
+     "header": "Actor",
+     "value": "actor-874"
+    },
+    {
+     "ref": "E21",
+     "header": "Контекст",
+     "value": "Resource card-823"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 30
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-04 08:44; Workspace: ws-230; Событие: export.started; Actor: actor-875; Контекст: Job export-504",
+   "sha": "ee99dac536b1",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 22,
+    "range": "A22:E22"
+   },
+   "cells": [
+    {
+     "ref": "A22",
+     "header": "Время UTC",
+     "value": "2026-09-04 08:44"
+    },
+    {
+     "ref": "B22",
+     "header": "Workspace",
+     "value": "ws-230"
+    },
+    {
+     "ref": "C22",
+     "header": "Событие",
+     "value": "export.started"
+    },
+    {
+     "ref": "D22",
+     "header": "Actor",
+     "value": "actor-875"
+    },
+    {
+     "ref": "E22",
+     "header": "Контекст",
+     "value": "Job export-504"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 31
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-05 08:00; Workspace: ws-231; Событие: auth.login; Actor: actor-876; Контекст: Успешный вход",
+   "sha": "f32f5b124544",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 23,
+    "range": "A23:E23"
+   },
+   "cells": [
+    {
+     "ref": "A23",
+     "header": "Время UTC",
+     "value": "2026-09-05 08:00"
+    },
+    {
+     "ref": "B23",
+     "header": "Workspace",
+     "value": "ws-231"
+    },
+    {
+     "ref": "C23",
+     "header": "Событие",
+     "value": "auth.login"
+    },
+    {
+     "ref": "D23",
+     "header": "Actor",
+     "value": "actor-876"
+    },
+    {
+     "ref": "E23",
+     "header": "Контекст",
+     "value": "Успешный вход"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 32
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-05 08:11; Workspace: ws-232; Событие: role.changed; Actor: actor-877; Контекст: member → admin",
+   "sha": "8393bf2fb094",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 24,
+    "range": "A24:E24"
+   },
+   "cells": [
+    {
+     "ref": "A24",
+     "header": "Время UTC",
+     "value": "2026-09-05 08:11"
+    },
+    {
+     "ref": "B24",
+     "header": "Workspace",
+     "value": "ws-232"
+    },
+    {
+     "ref": "C24",
+     "header": "Событие",
+     "value": "role.changed"
+    },
+    {
+     "ref": "D24",
+     "header": "Actor",
+     "value": "actor-877"
+    },
+    {
+     "ref": "E24",
+     "header": "Контекст",
+     "value": "member → admin"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 33
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-05 08:22; Workspace: ws-233; Событие: guest.invited; Actor: actor-878; Контекст: Приглашение без содержимого письма",
+   "sha": "2a335d515fa0",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 25,
+    "range": "A25:E25"
+   },
+   "cells": [
+    {
+     "ref": "A25",
+     "header": "Время UTC",
+     "value": "2026-09-05 08:22"
+    },
+    {
+     "ref": "B25",
+     "header": "Workspace",
+     "value": "ws-233"
+    },
+    {
+     "ref": "C25",
+     "header": "Событие",
+     "value": "guest.invited"
+    },
+    {
+     "ref": "D25",
+     "header": "Actor",
+     "value": "actor-878"
+    },
+    {
+     "ref": "E25",
+     "header": "Контекст",
+     "value": "Приглашение без содержимого письма"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 34
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-05 08:33; Workspace: ws-234; Событие: link.created; Actor: actor-870; Контекст: Resource card-828",
+   "sha": "8bf690886d0d",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 26,
+    "range": "A26:E26"
+   },
+   "cells": [
+    {
+     "ref": "A26",
+     "header": "Время UTC",
+     "value": "2026-09-05 08:33"
+    },
+    {
+     "ref": "B26",
+     "header": "Workspace",
+     "value": "ws-234"
+    },
+    {
+     "ref": "C26",
+     "header": "Событие",
+     "value": "link.created"
+    },
+    {
+     "ref": "D26",
+     "header": "Actor",
+     "value": "actor-870"
+    },
+    {
+     "ref": "E26",
+     "header": "Контекст",
+     "value": "Resource card-828"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 35
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-05 08:44; Workspace: ws-235; Событие: export.started; Actor: actor-871; Контекст: Job export-509",
+   "sha": "2aca263b8f07",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 27,
+    "range": "A27:E27"
+   },
+   "cells": [
+    {
+     "ref": "A27",
+     "header": "Время UTC",
+     "value": "2026-09-05 08:44"
+    },
+    {
+     "ref": "B27",
+     "header": "Workspace",
+     "value": "ws-235"
+    },
+    {
+     "ref": "C27",
+     "header": "Событие",
+     "value": "export.started"
+    },
+    {
+     "ref": "D27",
+     "header": "Actor",
+     "value": "actor-871"
+    },
+    {
+     "ref": "E27",
+     "header": "Контекст",
+     "value": "Job export-509"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 36
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-06 08:00; Workspace: ws-236; Событие: auth.login; Actor: actor-872; Контекст: Успешный вход",
+   "sha": "190c85513e02",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 28,
+    "range": "A28:E28"
+   },
+   "cells": [
+    {
+     "ref": "A28",
+     "header": "Время UTC",
+     "value": "2026-09-06 08:00"
+    },
+    {
+     "ref": "B28",
+     "header": "Workspace",
+     "value": "ws-236"
+    },
+    {
+     "ref": "C28",
+     "header": "Событие",
+     "value": "auth.login"
+    },
+    {
+     "ref": "D28",
+     "header": "Actor",
+     "value": "actor-872"
+    },
+    {
+     "ref": "E28",
+     "header": "Контекст",
+     "value": "Успешный вход"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 37
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-06 08:11; Workspace: ws-230; Событие: role.changed; Actor: actor-873; Контекст: member → admin",
+   "sha": "8f0fe05db3d5",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 29,
+    "range": "A29:E29"
+   },
+   "cells": [
+    {
+     "ref": "A29",
+     "header": "Время UTC",
+     "value": "2026-09-06 08:11"
+    },
+    {
+     "ref": "B29",
+     "header": "Workspace",
+     "value": "ws-230"
+    },
+    {
+     "ref": "C29",
+     "header": "Событие",
+     "value": "role.changed"
+    },
+    {
+     "ref": "D29",
+     "header": "Actor",
+     "value": "actor-873"
+    },
+    {
+     "ref": "E29",
+     "header": "Контекст",
+     "value": "member → admin"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 38
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-06 08:22; Workspace: ws-231; Событие: guest.invited; Actor: actor-874; Контекст: Приглашение без содержимого письма",
+   "sha": "a611eb378faa",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 30,
+    "range": "A30:E30"
+   },
+   "cells": [
+    {
+     "ref": "A30",
+     "header": "Время UTC",
+     "value": "2026-09-06 08:22"
+    },
+    {
+     "ref": "B30",
+     "header": "Workspace",
+     "value": "ws-231"
+    },
+    {
+     "ref": "C30",
+     "header": "Событие",
+     "value": "guest.invited"
+    },
+    {
+     "ref": "D30",
+     "header": "Actor",
+     "value": "actor-874"
+    },
+    {
+     "ref": "E30",
+     "header": "Контекст",
+     "value": "Приглашение без содержимого письма"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 39
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-06 08:33; Workspace: ws-232; Событие: link.created; Actor: actor-875; Контекст: Resource card-833",
+   "sha": "1ed3e41cc050",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 31,
+    "range": "A31:E31"
+   },
+   "cells": [
+    {
+     "ref": "A31",
+     "header": "Время UTC",
+     "value": "2026-09-06 08:33"
+    },
+    {
+     "ref": "B31",
+     "header": "Workspace",
+     "value": "ws-232"
+    },
+    {
+     "ref": "C31",
+     "header": "Событие",
+     "value": "link.created"
+    },
+    {
+     "ref": "D31",
+     "header": "Actor",
+     "value": "actor-875"
+    },
+    {
+     "ref": "E31",
+     "header": "Контекст",
+     "value": "Resource card-833"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 40
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-06 08:44; Workspace: ws-233; Событие: export.started; Actor: actor-876; Контекст: Job export-514",
+   "sha": "fa427ced012b",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 32,
+    "range": "A32:E32"
+   },
+   "cells": [
+    {
+     "ref": "A32",
+     "header": "Время UTC",
+     "value": "2026-09-06 08:44"
+    },
+    {
+     "ref": "B32",
+     "header": "Workspace",
+     "value": "ws-233"
+    },
+    {
+     "ref": "C32",
+     "header": "Событие",
+     "value": "export.started"
+    },
+    {
+     "ref": "D32",
+     "header": "Actor",
+     "value": "actor-876"
+    },
+    {
+     "ref": "E32",
+     "header": "Контекст",
+     "value": "Job export-514"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 41
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-07 08:00; Workspace: ws-234; Событие: auth.login; Actor: actor-877; Контекст: Успешный вход",
+   "sha": "032855bdaf12",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 33,
+    "range": "A33:E33"
+   },
+   "cells": [
+    {
+     "ref": "A33",
+     "header": "Время UTC",
+     "value": "2026-09-07 08:00"
+    },
+    {
+     "ref": "B33",
+     "header": "Workspace",
+     "value": "ws-234"
+    },
+    {
+     "ref": "C33",
+     "header": "Событие",
+     "value": "auth.login"
+    },
+    {
+     "ref": "D33",
+     "header": "Actor",
+     "value": "actor-877"
+    },
+    {
+     "ref": "E33",
+     "header": "Контекст",
+     "value": "Успешный вход"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 42
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-07 08:11; Workspace: ws-235; Событие: role.changed; Actor: actor-878; Контекст: member → admin",
+   "sha": "924576e4514b",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 34,
+    "range": "A34:E34"
+   },
+   "cells": [
+    {
+     "ref": "A34",
+     "header": "Время UTC",
+     "value": "2026-09-07 08:11"
+    },
+    {
+     "ref": "B34",
+     "header": "Workspace",
+     "value": "ws-235"
+    },
+    {
+     "ref": "C34",
+     "header": "Событие",
+     "value": "role.changed"
+    },
+    {
+     "ref": "D34",
+     "header": "Actor",
+     "value": "actor-878"
+    },
+    {
+     "ref": "E34",
+     "header": "Контекст",
+     "value": "member → admin"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 43
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-07 08:22; Workspace: ws-236; Событие: guest.invited; Actor: actor-870; Контекст: Приглашение без содержимого письма",
+   "sha": "48406b57f842",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 35,
+    "range": "A35:E35"
+   },
+   "cells": [
+    {
+     "ref": "A35",
+     "header": "Время UTC",
+     "value": "2026-09-07 08:22"
+    },
+    {
+     "ref": "B35",
+     "header": "Workspace",
+     "value": "ws-236"
+    },
+    {
+     "ref": "C35",
+     "header": "Событие",
+     "value": "guest.invited"
+    },
+    {
+     "ref": "D35",
+     "header": "Actor",
+     "value": "actor-870"
+    },
+    {
+     "ref": "E35",
+     "header": "Контекст",
+     "value": "Приглашение без содержимого письма"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 44
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-07 08:33; Workspace: ws-230; Событие: link.created; Actor: actor-871; Контекст: Resource card-838",
+   "sha": "5d46390a79e9",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 36,
+    "range": "A36:E36"
+   },
+   "cells": [
+    {
+     "ref": "A36",
+     "header": "Время UTC",
+     "value": "2026-09-07 08:33"
+    },
+    {
+     "ref": "B36",
+     "header": "Workspace",
+     "value": "ws-230"
+    },
+    {
+     "ref": "C36",
+     "header": "Событие",
+     "value": "link.created"
+    },
+    {
+     "ref": "D36",
+     "header": "Actor",
+     "value": "actor-871"
+    },
+    {
+     "ref": "E36",
+     "header": "Контекст",
+     "value": "Resource card-838"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 45
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-07 08:44; Workspace: ws-231; Событие: export.started; Actor: actor-872; Контекст: Job export-519",
+   "sha": "f6bf2b57cae9",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 37,
+    "range": "A37:E37"
+   },
+   "cells": [
+    {
+     "ref": "A37",
+     "header": "Время UTC",
+     "value": "2026-09-07 08:44"
+    },
+    {
+     "ref": "B37",
+     "header": "Workspace",
+     "value": "ws-231"
+    },
+    {
+     "ref": "C37",
+     "header": "Событие",
+     "value": "export.started"
+    },
+    {
+     "ref": "D37",
+     "header": "Actor",
+     "value": "actor-872"
+    },
+    {
+     "ref": "E37",
+     "header": "Контекст",
+     "value": "Job export-519"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 46
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-08 08:00; Workspace: ws-232; Событие: auth.login; Actor: actor-873; Контекст: Успешный вход",
+   "sha": "aeaf2a58340f",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 38,
+    "range": "A38:E38"
+   },
+   "cells": [
+    {
+     "ref": "A38",
+     "header": "Время UTC",
+     "value": "2026-09-08 08:00"
+    },
+    {
+     "ref": "B38",
+     "header": "Workspace",
+     "value": "ws-232"
+    },
+    {
+     "ref": "C38",
+     "header": "Событие",
+     "value": "auth.login"
+    },
+    {
+     "ref": "D38",
+     "header": "Actor",
+     "value": "actor-873"
+    },
+    {
+     "ref": "E38",
+     "header": "Контекст",
+     "value": "Успешный вход"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 47
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-08 08:11; Workspace: ws-233; Событие: role.changed; Actor: actor-874; Контекст: member → admin",
+   "sha": "4bf9040220a2",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 39,
+    "range": "A39:E39"
+   },
+   "cells": [
+    {
+     "ref": "A39",
+     "header": "Время UTC",
+     "value": "2026-09-08 08:11"
+    },
+    {
+     "ref": "B39",
+     "header": "Workspace",
+     "value": "ws-233"
+    },
+    {
+     "ref": "C39",
+     "header": "Событие",
+     "value": "role.changed"
+    },
+    {
+     "ref": "D39",
+     "header": "Actor",
+     "value": "actor-874"
+    },
+    {
+     "ref": "E39",
+     "header": "Контекст",
+     "value": "member → admin"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 48
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-08 08:22; Workspace: ws-234; Событие: guest.invited; Actor: actor-875; Контекст: Приглашение без содержимого письма",
+   "sha": "95fe027eb1ac",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 40,
+    "range": "A40:E40"
+   },
+   "cells": [
+    {
+     "ref": "A40",
+     "header": "Время UTC",
+     "value": "2026-09-08 08:22"
+    },
+    {
+     "ref": "B40",
+     "header": "Workspace",
+     "value": "ws-234"
+    },
+    {
+     "ref": "C40",
+     "header": "Событие",
+     "value": "guest.invited"
+    },
+    {
+     "ref": "D40",
+     "header": "Actor",
+     "value": "actor-875"
+    },
+    {
+     "ref": "E40",
+     "header": "Контекст",
+     "value": "Приглашение без содержимого письма"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 49
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-08 08:33; Workspace: ws-235; Событие: link.created; Actor: actor-876; Контекст: Resource card-843",
+   "sha": "efa51f887269",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 41,
+    "range": "A41:E41"
+   },
+   "cells": [
+    {
+     "ref": "A41",
+     "header": "Время UTC",
+     "value": "2026-09-08 08:33"
+    },
+    {
+     "ref": "B41",
+     "header": "Workspace",
+     "value": "ws-235"
+    },
+    {
+     "ref": "C41",
+     "header": "Событие",
+     "value": "link.created"
+    },
+    {
+     "ref": "D41",
+     "header": "Actor",
+     "value": "actor-876"
+    },
+    {
+     "ref": "E41",
+     "header": "Контекст",
+     "value": "Resource card-843"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 50
+  },
+  {
+   "kind": "record",
+   "text": "Время UTC: 2026-09-08 08:44; Workspace: ws-236; Событие: export.started; Actor: actor-877; Контекст: Job export-524",
+   "sha": "41ae12882d2e",
+   "section": "События сентября",
+   "locator": {
+    "sheet": "События сентября",
+    "row": 42,
+    "range": "A42:E42"
+   },
+   "cells": [
+    {
+     "ref": "A42",
+     "header": "Время UTC",
+     "value": "2026-09-08 08:44"
+    },
+    {
+     "ref": "B42",
+     "header": "Workspace",
+     "value": "ws-236"
+    },
+    {
+     "ref": "C42",
+     "header": "Событие",
+     "value": "export.started"
+    },
+    {
+     "ref": "D42",
+     "header": "Actor",
+     "value": "actor-877"
+    },
+    {
+     "ref": "E42",
+     "header": "Контекст",
+     "value": "Job export-524"
+    }
+   ],
+   "context": {
+    "sheet": "События сентября",
+    "title": "Выборка для внутренней сверки",
+    "title_range": "A1:E2",
+    "notes": [
+     {
+      "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "range": "A3:E5"
+     }
+    ],
+    "header_range": "A7:E7",
+    "header": [
+     "Время UTC",
+     "Workspace",
+     "Событие",
+     "Actor",
+     "Контекст"
+    ]
+   },
+   "seg": 51
+  },
+  {
+   "kind": "sheet_title",
+   "text": "Вопросы для согласования доступа",
+   "sha": "9867ba485c11",
+   "section": "Основания",
+   "locator": {
+    "sheet": "Основания",
+    "range": "A1:D2"
+   },
+   "seg": 52
+  },
+  {
+   "kind": "table_header",
+   "text": "Запрос | Диапазон | Почему нужен | Решение смены",
+   "sha": "d7c459d98461",
+   "section": "Основания",
+   "locator": {
+    "sheet": "Основания",
+    "row": 5,
+    "range": "A5:D5"
+   },
+   "cells": [
+    {
+     "ref": "A5",
+     "value": "Запрос"
+    },
+    {
+     "ref": "B5",
+     "value": "Диапазон"
+    },
+    {
+     "ref": "C5",
+     "value": "Почему нужен"
+    },
+    {
+     "ref": "D5",
+     "value": "Решение смены"
+    }
+   ],
+   "seg": 53
+  },
+  {
+   "kind": "record",
+   "text": "Запрос: INC-260903; Диапазон: 08:00–09:00 UTC; Почему нужен: Сопоставить время входа; Решение смены: Только нужные события",
+   "sha": "7a5b68eb1064",
+   "section": "Основания",
+   "locator": {
+    "sheet": "Основания",
+    "row": 6,
+    "range": "A6:D6"
+   },
+   "cells": [
+    {
+     "ref": "A6",
+     "header": "Запрос",
+     "value": "INC-260903"
+    },
+    {
+     "ref": "B6",
+     "header": "Диапазон",
+     "value": "08:00–09:00 UTC"
+    },
+    {
+     "ref": "C6",
+     "header": "Почему нужен",
+     "value": "Сопоставить время входа"
+    },
+    {
+     "ref": "D6",
+     "header": "Решение смены",
+     "value": "Только нужные события"
+    }
+   ],
+   "context": {
+    "sheet": "Основания",
+    "title": "Вопросы для согласования доступа",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Запрос",
+     "Диапазон",
+     "Почему нужен",
+     "Решение смены"
+    ]
+   },
+   "seg": 54
+  },
+  {
+   "kind": "record",
+   "text": "Запрос: Пересмотр приглашений; Диапазон: 7 сентября; Почему нужен: Уточнить actor приглашения; Решение смены: Без содержимого объекта",
+   "sha": "56a6169cdd17",
+   "section": "Основания",
+   "locator": {
+    "sheet": "Основания",
+    "row": 7,
+    "range": "A7:D7"
+   },
+   "cells": [
+    {
+     "ref": "A7",
+     "header": "Запрос",
+     "value": "Пересмотр приглашений"
+    },
+    {
+     "ref": "B7",
+     "header": "Диапазон",
+     "value": "7 сентября"
+    },
+    {
+     "ref": "C7",
+     "header": "Почему нужен",
+     "value": "Уточнить actor приглашения"
+    },
+    {
+     "ref": "D7",
+     "header": "Решение смены",
+     "value": "Без содержимого объекта"
+    }
+   ],
+   "context": {
+    "sheet": "Основания",
+    "title": "Вопросы для согласования доступа",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Запрос",
+     "Диапазон",
+     "Почему нужен",
+     "Решение смены"
+    ]
+   },
+   "seg": 55
+  },
+  {
+   "kind": "record",
+   "text": "Запрос: Запрос внешней стороны; Диапазон: Уточнить; Почему нужен: Передача ещё не согласована; Решение смены: Ожидать Security Operations",
+   "sha": "bf3283d33ec0",
+   "section": "Основания",
+   "locator": {
+    "sheet": "Основания",
+    "row": 8,
+    "range": "A8:D8"
+   },
+   "cells": [
+    {
+     "ref": "A8",
+     "header": "Запрос",
+     "value": "Запрос внешней стороны"
+    },
+    {
+     "ref": "B8",
+     "header": "Диапазон",
+     "value": "Уточнить"
+    },
+    {
+     "ref": "C8",
+     "header": "Почему нужен",
+     "value": "Передача ещё не согласована"
+    },
+    {
+     "ref": "D8",
+     "header": "Решение смены",
+     "value": "Ожидать Security Operations"
+    }
+   ],
+   "context": {
+    "sheet": "Основания",
+    "title": "Вопросы для согласования доступа",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Запрос",
+     "Диапазон",
+     "Почему нужен",
+     "Решение смены"
+    ]
+   },
+   "seg": 56
+  },
+  {
+   "kind": "record",
+   "text": "Запрос: Сбой выгрузки; Диапазон: Время конкретного Job; Почему нужен: Найти запуск экспорта; Решение смены: Не выгружать весь год",
+   "sha": "5fdec169a9d5",
+   "section": "Основания",
+   "locator": {
+    "sheet": "Основания",
+    "row": 9,
+    "range": "A9:D9"
+   },
+   "cells": [
+    {
+     "ref": "A9",
+     "header": "Запрос",
+     "value": "Сбой выгрузки"
+    },
+    {
+     "ref": "B9",
+     "header": "Диапазон",
+     "value": "Время конкретного Job"
+    },
+    {
+     "ref": "C9",
+     "header": "Почему нужен",
+     "value": "Найти запуск экспорта"
+    },
+    {
+     "ref": "D9",
+     "header": "Решение смены",
+     "value": "Не выгружать весь год"
+    }
+   ],
+   "context": {
+    "sheet": "Основания",
+    "title": "Вопросы для согласования доступа",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Запрос",
+     "Диапазон",
+     "Почему нужен",
+     "Решение смены"
+    ]
+   },
+   "seg": 57
+  },
+  {
+   "kind": "record",
+   "text": "Запрос: Изменение роли; Диапазон: Время изменения; Почему нужен: Сверить старую и новую роли; Решение смены: Сохранить основание просмотра",
+   "sha": "472339ef3fd1",
+   "section": "Основания",
+   "locator": {
+    "sheet": "Основания",
+    "row": 10,
+    "range": "A10:D10"
+   },
+   "cells": [
+    {
+     "ref": "A10",
+     "header": "Запрос",
+     "value": "Изменение роли"
+    },
+    {
+     "ref": "B10",
+     "header": "Диапазон",
+     "value": "Время изменения"
+    },
+    {
+     "ref": "C10",
+     "header": "Почему нужен",
+     "value": "Сверить старую и новую роли"
+    },
+    {
+     "ref": "D10",
+     "header": "Решение смены",
+     "value": "Сохранить основание просмотра"
+    }
+   ],
+   "context": {
+    "sheet": "Основания",
+    "title": "Вопросы для согласования доступа",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Запрос",
+     "Диапазон",
+     "Почему нужен",
+     "Решение смены"
+    ]
+   },
+   "seg": 58
+  }
+ ]
+}

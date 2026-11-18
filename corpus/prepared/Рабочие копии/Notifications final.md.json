@@ -1,0 +1,1178 @@
+{
+ "no": 35,
+ "source_path": "documents/Рабочие копии/Notifications final.md",
+ "doc_id": "notification-explainer",
+ "title": "Why the mention is visible but the email is missing",
+ "title_ru": "Почему упоминание видно, а письма нет",
+ "lang": "en",
+ "format": "md",
+ "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+ "decision": {
+  "no": 35,
+  "path": "documents/Рабочие копии/Notifications final.md",
+  "doc_id": "notification-explainer",
+  "title": "Why the mention is visible but the email is missing",
+  "lang": "en",
+  "owner": "Messaging Platform",
+  "version": "2026-09-01",
+  "updated": "2026-09-01",
+  "doc_type": "rule",
+  "status": "include",
+  "rule": "R1+R12",
+  "reason": "Messaging Platform, 1.09.2026; основной источник правил уведомлений.",
+  "access": "all",
+  "trust": "confirmed",
+  "related": [
+   33
+  ]
+ },
+ "fragments": [
+  {
+   "fragment_id": "35-001",
+   "doc_no": 35,
+   "doc_id": "notification-explainer",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/Notifications final.md",
+   "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "title",
+   "locator": {
+    "lines": [
+     1,
+     1
+    ]
+   },
+   "locator_text": "строка 1",
+   "segment_sha": "26f402760e72",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "# Почему упоминание видно, а письма нет",
+   "text_orig": "# Why the mention is visible but the email is missing",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "35-002",
+   "doc_no": 35,
+   "doc_id": "notification-explainer",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/Notifications final.md",
+   "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     3,
+     3
+    ]
+   },
+   "locator_text": "строка 3",
+   "segment_sha": "a4cb7df72e30",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Messaging Platform разослала эти заметки 1 сентября 2026 года после разбора с поддержкой ряда вопросов о доставке. Слово «уведомление» в наших разговорах несёт слишком большую нагрузку. Клиент может иметь в виду элемент внутри LumenDesk, письмо во входящих, push на устройстве или ежедневный дайджест. Прежде чем решить, что доставка не удалась, спросите, что именно он ожидал и что фактически увидел. Немедленное событие в приложении и отложенное письмо могут быть правильными частями одной последовательности.",
+   "text_orig": "Messaging Platform circulated these notes on September 1, 2026 after reviewing a set of delivery questions with support. The word “notification” is doing too much work in our conversations. A customer may mean the item inside LumenDesk, an email in their inbox, a push on a device, or the daily digest. Before deciding that delivery failed, ask which one they expected and what they actually saw. An immediate in-app event and a delayed email can be correct parts of the same sequence.",
+   "translation": "translated",
+   "translation_review": {
+    "checks": [
+     "negation"
+    ],
+    "decision": "accepted",
+    "note": "«delivery failed» → «доставка не удалась»."
+   },
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "35-003",
+   "doc_no": 35,
+   "doc_id": "notification-explainer",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/Notifications final.md",
+   "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     5,
+     5
+    ]
+   },
+   "locator_text": "строка 5",
+   "segment_sha": "7616390ffd1e",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Возьмём обычное прямое упоминание. Оно немедленно создаёт уведомление в приложении. Email об упоминании отправляется с задержкой 5 минут, если элемент остаётся непрочитанным. Событие прочтения до истечения этой задержки отменяет письмо. Это объясняет частое сообщение от людей, активно работающих в workspace: они видят упоминание, открывают его, а потом удивляются, почему не было соответствующего письма. Отсутствие письма может быть задуманным следствием того, что они прочитали упоминание раньше, а не доказательством того, что сообщение потерялось при передаче.",
+   "text_orig": "Consider an ordinary direct mention. It creates an in-app notification immediately. The mention email is sent after a 5 minute delay if the item remains unread. A read event before that delay expires cancels the email. This explains a common report from people who are actively working in the workspace: they see the mention, open it, and later wonder why there was no matching email. The absence of the email can be the intended consequence of their earlier read, rather than evidence that the message disappeared in transit.",
+   "translation": "translated",
+   "translation_review": {
+    "checks": [
+     "conditions"
+    ],
+    "decision": "accepted",
+    "note": "То же: «after a 5 minute delay» → «с задержкой 5 минут»; условие «если элемент остаётся непрочитанным» сохранено."
+   },
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "35-004",
+   "doc_no": 35,
+   "doc_id": "notification-explainer",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/Notifications final.md",
+   "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     7,
+     7
+    ]
+   },
+   "locator_text": "строка 7",
+   "segment_sha": "b6cc41f8a777",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Объясняя это, сохраняйте порядок событий. «Упоминание, уведомление в приложении, прочтение, письма нет» — это другая история, чем «упоминание, всё ещё не прочитано после задержки, письмо ожидалось». Если клиент пишет, что прочитал «почти сразу», спросите столько контекста, сколько нужно, чтобы понять последовательность, а не считайте эту фразу точной отметкой времени. Не нужно обвинять кого-либо в том, что он неправильно помнит. Люди обычно помнят работу, которую делали, а не точную границу задержки письма.",
+   "text_orig": "When explaining this, keep the order of events intact. “Mention, in-app notification, read, no email” tells a different story from “mention, still unread after the delay, expected email.” If a customer writes that they read it “almost immediately,” ask for enough context to understand the sequence instead of treating that phrase as a precise timestamp. There is no need to accuse anyone of remembering incorrectly. People normally remember the work they were doing, not the exact boundary of an email delay.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "35-005",
+   "doc_no": 35,
+   "doc_id": "notification-explainer",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/Notifications final.md",
+   "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     9,
+     9
+    ]
+   },
+   "locator_text": "строка 9",
+   "segment_sha": "d6ba29edf52a",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "## Местное время имеет значение",
+   "text_orig": "## Local time matters",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "35-006",
+   "doc_no": 35,
+   "doc_id": "notification-explainer",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/Notifications final.md",
+   "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     11,
+     11
+    ]
+   },
+   "locator_text": "строка 11",
+   "segment_sha": "5ae8869abdb6",
+   "section": "Local time matters",
+   "section_ru": "Местное время имеет значение",
+   "text_ru": "Ежедневный дайджест доставляется в 08:00 по часовому поясу участника. Тихие часы подавляют email и push с 22:00 до 08:00 по местному времени. Это личные привязки ко времени, поэтому сообщения коллег из разных офисов могут описывать разные местные обстоятельства. Спросите, какой часовой пояс выбрал участник, а не предполагайте, что опыт участника определяется деловым адресом workspace. Двое коллег могут сравнить свои входящие и искренне расходиться в том, что произошло «сегодня утром», имея в виду разные местные утра.",
+   "text_orig": "The daily digest is delivered at 08:00 in the member's timezone. Quiet hours suppress email and push between 22:00 and 08:00 local time. These are personal time references, so a report from colleagues in different offices may describe different local circumstances. Ask which timezone the member has selected, rather than assuming that the workspace's business address determines the member's experience. Two colleagues can compare their inboxes and sincerely disagree about what happened “this morning” while referring to different local mornings.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "35-007",
+   "doc_no": 35,
+   "doc_id": "notification-explainer",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/Notifications final.md",
+   "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     13,
+     13
+    ]
+   },
+   "locator_text": "строка 13",
+   "segment_sha": "67782c89eded",
+   "section": "Local time matters",
+   "section_ru": "Местное время имеет значение",
+   "text_ru": "Правило тихих часов применяется к email и push. Точно называйте канал, когда повторяете правило клиенту. Уведомление в приложении — это не письмо, ожидающее в папке «Спам», а проверка истории push на телефоне не устанавливает, появился ли элемент внутри LumenDesk. Понятные названия каналов сокращают разговор, потому что клиент может ответить на конкретный вопрос. Общая просьба прислать «все снимки уведомлений» часто даёт большую подборку без ясной связи с пропавшим элементом.",
+   "text_orig": "The quiet-hours rule applies to email and push. Be precise about the channel when you repeat it to a customer. An in-app notification is not an email waiting in a spam folder, and checking a phone's push history does not establish whether the item appeared inside LumenDesk. Clear channel names make the conversation shorter because the customer can answer a concrete question. A broad request for “all notification screenshots” often produces a large collection with no clear relationship to the missing item.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "35-008",
+   "doc_no": 35,
+   "doc_id": "notification-explainer",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/Notifications final.md",
+   "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     15,
+     15
+    ]
+   },
+   "locator_text": "строка 15",
+   "segment_sha": "6cbb64d34baa",
+   "section": "Local time matters",
+   "section_ru": "Местное время имеет значение",
+   "text_ru": "Оповещения безопасности о входе игнорируют тихие часы. Не используйте оповещение, полученное ночью, как доказательство того, что обычные настройки упоминаний участника не соблюдаются. Оповещение безопасности и обычное сообщение по этому правилу обрабатываются по-разному. Объясните исключение через тип сообщения, а затем вернитесь к фактическому примеру клиента. Иначе одно реальное ночное письмо безопасности может отвлечь всё обсуждение от обычного уведомления, которое клиент изначально хотел разобрать.",
+   "text_orig": "Security sign-in alerts ignore quiet hours. Do not use an alert received overnight as proof that the member's ordinary mention preferences are being ignored. The security alert and the ordinary message have different treatment under this rule. Explain the exception using the type of message, then return to the customer's actual example. Otherwise one real overnight security email can distract the entire discussion from the ordinary notification they originally wanted to investigate.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "35-009",
+   "doc_no": 35,
+   "doc_id": "notification-explainer",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/Notifications final.md",
+   "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     17,
+     17
+    ]
+   },
+   "locator_text": "строка 17",
+   "segment_sha": "815dd279b31f",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "## Заглушение уже, чем некоторые ожидают",
+   "text_orig": "## Muting is narrower than some people expect",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "35-010",
+   "doc_no": 35,
+   "doc_id": "notification-explainer",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/Notifications final.md",
+   "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     19,
+     19
+    ]
+   },
+   "locator_text": "строка 19",
+   "segment_sha": "824c77144902",
+   "section": "Muting is narrower than some people expect",
+   "section_ru": "Заглушение уже, чем некоторые ожидают",
+   "text_ru": "Заглушённая ветка подавляет обычные ответы, но по-прежнему пропускает прямые упоминания. Человек, заглушивший оживлённый разговор, вполне понятно может ожидать полной тишины. Нам следует объяснить конкретное действие, не говоря ему, что его наблюдение невозможно. Спросите, пришло ли новое уведомление из-за обычного ответа или прямого упоминания. Это различие трудно увидеть на пересланном снимке экрана, где видна только тема, поэтому немного контекста из исходного элемента часто полезнее повторных копий письма.",
+   "text_orig": "A muted thread suppresses ordinary replies but still allows direct mentions. Someone who muted a busy conversation may understandably expect complete silence. We should explain the specific effect without telling them that their observation is impossible. Ask whether the new notification came from an ordinary reply or from a direct mention. The distinction can be difficult to see in a forwarded screenshot that shows only the subject line, so a little context from the original item is often more useful than repeated copies of the email.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "35-011",
+   "doc_no": 35,
+   "doc_id": "notification-explainer",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/Notifications final.md",
+   "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     21,
+     21
+    ]
+   },
+   "locator_text": "строка 21",
+   "segment_sha": "e73bcac49705",
+   "section": "Muting is narrower than some people expect",
+   "section_ru": "Заглушение уже, чем некоторые ожидают",
+   "text_ru": "Удалённые участники не получают новых уведомлений workspace. Проверьте связь между событием и участием, когда клиент спрашивает от имени бывшего коллеги. Не считайте, что старое сообщение во входящих доказывает новую доставку после удаления: во входящих могут быть более ранние письма, пересланные материалы и сообщения, открытые намного позже, чем пришли. Ограничивайте утверждение тем, что показывают доказательства. Мы хотим установить обсуждаемое событие доставки, а не делать общий вывод по не связанному сообщению.",
+   "text_orig": "Removed members receive no new workspace notifications. Check the relationship between the event and membership when a customer is asking on behalf of a former colleague. Do not assume that an old message in an inbox proves new delivery after removal: an inbox can contain earlier mail, forwarded material, and messages opened much later than they arrived. Keep the claim limited to what the evidence shows. We want to establish the delivery event under discussion rather than make a general statement from an unrelated message.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "35-012",
+   "doc_no": 35,
+   "doc_id": "notification-explainer",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/Notifications final.md",
+   "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     23,
+     23
+    ]
+   },
+   "locator_text": "строка 23",
+   "segment_sha": "e774e66d7399",
+   "section": "Muting is narrower than some people expect",
+   "section_ru": "Заглушение уже, чем некоторые ожидают",
+   "text_ru": "Практическая первая проверка — до эскалации проверить настройки пользователя, часовой пояс и папку «Спам». У этих проверок разные цели. Настройки говорят нам, что участник просил получать; часовой пояс придаёт смысл правилам местного времени; папка «Спам» помогает отличить отсутствующий во входящих элемент от письма, попавшего в почтовый ящик в другое место. Запись «уведомления проверены» в передаче скрывает, на какие из этих вопросов получены ответы. Краткое предложение о каждом существенном выводе даёт следующему человеку гораздо более ясную отправную точку.",
+   "text_orig": "The practical first pass is to check user preferences, timezone, and the spam folder before escalating. These checks have different purposes. Preferences tell us what the member asked to receive; timezone gives meaning to the local-time rules; the spam folder helps distinguish a missing inbox item from email that reached the mailbox elsewhere. Writing “checked notifications” in a handover hides which of these questions were answered. A brief sentence for each relevant finding gives the next person a much clearer starting point.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "35-013",
+   "doc_no": 35,
+   "doc_id": "notification-explainer",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/Notifications final.md",
+   "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     25,
+     25
+    ]
+   },
+   "locator_text": "строка 25",
+   "segment_sha": "abe2e6b50dcc",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "## Полезный разговор о доставке",
+   "text_orig": "## A useful delivery conversation",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "35-014",
+   "doc_no": 35,
+   "doc_id": "notification-explainer",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/Notifications final.md",
+   "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     27,
+     27
+    ]
+   },
+   "locator_text": "строка 27",
+   "segment_sha": "eeaf69e68d2b",
+   "section": "A useful delivery conversation",
+   "section_ru": "Полезный разговор о доставке",
+   "text_ru": "Соберите notification ID и отметку времени доставки. Никогда не просите пароль от почтового ящика. Доступ к почтовому ящику клиента — не те доказательства, которые нам нужны, и пароль не делает запутанную хронологию понятнее. Если клиент, желая помочь, сам предлагает учётные данные, остановите эту часть обмена и вернитесь к идентификаторам и времени. Участник может сообщить, что он наблюдает, не передавая управление своей почтовой учётной записью.",
+   "text_orig": "Collect the notification ID and delivery timestamp. Never ask for a mailbox password. Access to the customer's mailbox is not the evidence we need, and a password does not make a confusing timeline easier to understand. If the customer volunteers credentials while trying to be helpful, stop that part of the exchange and return to the identifiers and timing. The member can report what they observe without handing over control of their email account.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "35-015",
+   "doc_no": 35,
+   "doc_id": "notification-explainer",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/Notifications final.md",
+   "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     29,
+     29
+    ]
+   },
+   "locator_text": "строка 29",
+   "segment_sha": "99b8898d2c77",
+   "section": "A useful delivery conversation",
+   "section_ru": "Полезный разговор о доставке",
+   "text_ru": "Вот как я написал бы передачу после вопроса об упоминании: определите уведомление, опишите ожидаемый канал, укажите, был ли элемент прочитан во время задержки, и отметьте проверки соответствующих настроек и часового пояса участника. Это описание одного события, а не новый перечень обязательных полей. Оно не позволит следующему сотруднику принять «письма нет» за вывод, когда это было лишь первоначальное описание клиента. Если результат проверки ещё неизвестен, оставьте его неизвестным, а не заполняйте пробел предположением.",
+   "text_orig": "Here is how I would write a handover after a mention question: identify the notification, describe the expected channel, state whether the item was read during the delay, and note the member's relevant preference and timezone checks. This is a narrative of one event, not a new checklist of mandatory fields. It prevents the next agent from interpreting “email missing” as a conclusion when it was only the customer's opening description. When a check is still unknown, leave it unknown rather than filling the gap with an assumption.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "35-016",
+   "doc_no": 35,
+   "doc_id": "notification-explainer",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/Notifications final.md",
+   "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+   "source_lang": "en",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     31,
+     31
+    ]
+   },
+   "locator_text": "строка 31",
+   "segment_sha": "932c885a1da7",
+   "section": "A useful delivery conversation",
+   "section_ru": "Полезный разговор о доставке",
+   "text_ru": "Объяснение доставки проще всего понять, когда оно держится примера клиента. Начните с упоминания или ответа, которые он имеет в виду, определите ожидаемый канал и расположите наблюдаемые события по порядку. Затем объясните в этом контексте соответствующую задержку, событие прочтения, тихие часы или настройку ветки. Клиент должен закончить разговор, понимая, что произошло с этим уведомлением, а не гадая, какая из нескольких общих возможностей к нему относится. Если наблюдение ещё требует изучения, укажите, что остаётся неизвестным, и сохраните notification ID и отметку времени доставки для следующего коллеги.",
+   "text_orig": "A delivery explanation is easiest to follow when it stays with the customer's example. Start with the mention or reply they mean, identify the expected channel, and put the observed events in order. Then explain the relevant delay, read event, quiet hours, or thread preference in that context. The customer should finish the exchange understanding what happened to that notification, rather than wondering which of several general possibilities applies. If an observation still needs investigation, state what remains unknown and preserve the notification ID and delivery timestamp for the next colleague.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  }
+ ],
+ "_base": {
+  "no": 35,
+  "source_path": "documents/Рабочие копии/Notifications final.md",
+  "doc_id": "notification-explainer",
+  "title": "Why the mention is visible but the email is missing",
+  "title_ru": "Почему упоминание видно, а письма нет",
+  "lang": "en",
+  "format": "md",
+  "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+  "decision": {
+   "no": 35,
+   "path": "documents/Рабочие копии/Notifications final.md",
+   "doc_id": "notification-explainer",
+   "title": "Why the mention is visible but the email is missing",
+   "lang": "en",
+   "owner": "Messaging Platform",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "doc_type": "rule",
+   "status": "include",
+   "rule": "R1+R12",
+   "reason": "Messaging Platform, 1.09.2026; основной источник правил уведомлений.",
+   "access": "all",
+   "trust": "confirmed",
+   "related": [
+    33
+   ]
+  },
+  "fragments": [
+   {
+    "fragment_id": "35-001",
+    "doc_no": 35,
+    "doc_id": "notification-explainer",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/Notifications final.md",
+    "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "title",
+    "locator": {
+     "lines": [
+      1,
+      1
+     ]
+    },
+    "locator_text": "строка 1",
+    "segment_sha": "26f402760e72",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "# Почему упоминание видно, а письма нет",
+    "text_orig": "# Why the mention is visible but the email is missing",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "35-002",
+    "doc_no": 35,
+    "doc_id": "notification-explainer",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/Notifications final.md",
+    "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      3,
+      3
+     ]
+    },
+    "locator_text": "строка 3",
+    "segment_sha": "a4cb7df72e30",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Messaging Platform разослала эти заметки 1 сентября 2026 года после разбора с поддержкой ряда вопросов о доставке. Слово «уведомление» в наших разговорах несёт слишком большую нагрузку. Клиент может иметь в виду элемент внутри LumenDesk, письмо во входящих, push на устройстве или ежедневный дайджест. Прежде чем решить, что доставка не удалась, спросите, что именно он ожидал и что фактически увидел. Немедленное событие в приложении и отложенное письмо могут быть правильными частями одной последовательности.",
+    "text_orig": "Messaging Platform circulated these notes on September 1, 2026 after reviewing a set of delivery questions with support. The word “notification” is doing too much work in our conversations. A customer may mean the item inside LumenDesk, an email in their inbox, a push on a device, or the daily digest. Before deciding that delivery failed, ask which one they expected and what they actually saw. An immediate in-app event and a delayed email can be correct parts of the same sequence.",
+    "translation": "translated",
+    "translation_review": {
+     "checks": [
+      "negation"
+     ],
+     "decision": "accepted",
+     "note": "«delivery failed» → «доставка не удалась»."
+    },
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "35-003",
+    "doc_no": 35,
+    "doc_id": "notification-explainer",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/Notifications final.md",
+    "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      5,
+      5
+     ]
+    },
+    "locator_text": "строка 5",
+    "segment_sha": "7616390ffd1e",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Возьмём обычное прямое упоминание. Оно немедленно создаёт уведомление в приложении. Email об упоминании отправляется с задержкой 5 минут, если элемент остаётся непрочитанным. Событие прочтения до истечения этой задержки отменяет письмо. Это объясняет частое сообщение от людей, активно работающих в workspace: они видят упоминание, открывают его, а потом удивляются, почему не было соответствующего письма. Отсутствие письма может быть задуманным следствием того, что они прочитали упоминание раньше, а не доказательством того, что сообщение потерялось при передаче.",
+    "text_orig": "Consider an ordinary direct mention. It creates an in-app notification immediately. The mention email is sent after a 5 minute delay if the item remains unread. A read event before that delay expires cancels the email. This explains a common report from people who are actively working in the workspace: they see the mention, open it, and later wonder why there was no matching email. The absence of the email can be the intended consequence of their earlier read, rather than evidence that the message disappeared in transit.",
+    "translation": "translated",
+    "translation_review": {
+     "checks": [
+      "conditions"
+     ],
+     "decision": "accepted",
+     "note": "То же: «after a 5 minute delay» → «с задержкой 5 минут»; условие «если элемент остаётся непрочитанным» сохранено."
+    },
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "35-004",
+    "doc_no": 35,
+    "doc_id": "notification-explainer",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/Notifications final.md",
+    "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      7,
+      7
+     ]
+    },
+    "locator_text": "строка 7",
+    "segment_sha": "b6cc41f8a777",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Объясняя это, сохраняйте порядок событий. «Упоминание, уведомление в приложении, прочтение, письма нет» — это другая история, чем «упоминание, всё ещё не прочитано после задержки, письмо ожидалось». Если клиент пишет, что прочитал «почти сразу», спросите столько контекста, сколько нужно, чтобы понять последовательность, а не считайте эту фразу точной отметкой времени. Не нужно обвинять кого-либо в том, что он неправильно помнит. Люди обычно помнят работу, которую делали, а не точную границу задержки письма.",
+    "text_orig": "When explaining this, keep the order of events intact. “Mention, in-app notification, read, no email” tells a different story from “mention, still unread after the delay, expected email.” If a customer writes that they read it “almost immediately,” ask for enough context to understand the sequence instead of treating that phrase as a precise timestamp. There is no need to accuse anyone of remembering incorrectly. People normally remember the work they were doing, not the exact boundary of an email delay.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "35-005",
+    "doc_no": 35,
+    "doc_id": "notification-explainer",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/Notifications final.md",
+    "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      9,
+      9
+     ]
+    },
+    "locator_text": "строка 9",
+    "segment_sha": "d6ba29edf52a",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "## Местное время имеет значение",
+    "text_orig": "## Local time matters",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "35-006",
+    "doc_no": 35,
+    "doc_id": "notification-explainer",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/Notifications final.md",
+    "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      11,
+      11
+     ]
+    },
+    "locator_text": "строка 11",
+    "segment_sha": "5ae8869abdb6",
+    "section": "Local time matters",
+    "section_ru": "Местное время имеет значение",
+    "text_ru": "Ежедневный дайджест доставляется в 08:00 по часовому поясу участника. Тихие часы подавляют email и push с 22:00 до 08:00 по местному времени. Это личные привязки ко времени, поэтому сообщения коллег из разных офисов могут описывать разные местные обстоятельства. Спросите, какой часовой пояс выбрал участник, а не предполагайте, что опыт участника определяется деловым адресом workspace. Двое коллег могут сравнить свои входящие и искренне расходиться в том, что произошло «сегодня утром», имея в виду разные местные утра.",
+    "text_orig": "The daily digest is delivered at 08:00 in the member's timezone. Quiet hours suppress email and push between 22:00 and 08:00 local time. These are personal time references, so a report from colleagues in different offices may describe different local circumstances. Ask which timezone the member has selected, rather than assuming that the workspace's business address determines the member's experience. Two colleagues can compare their inboxes and sincerely disagree about what happened “this morning” while referring to different local mornings.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "35-007",
+    "doc_no": 35,
+    "doc_id": "notification-explainer",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/Notifications final.md",
+    "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      13,
+      13
+     ]
+    },
+    "locator_text": "строка 13",
+    "segment_sha": "67782c89eded",
+    "section": "Local time matters",
+    "section_ru": "Местное время имеет значение",
+    "text_ru": "Правило тихих часов применяется к email и push. Точно называйте канал, когда повторяете правило клиенту. Уведомление в приложении — это не письмо, ожидающее в папке «Спам», а проверка истории push на телефоне не устанавливает, появился ли элемент внутри LumenDesk. Понятные названия каналов сокращают разговор, потому что клиент может ответить на конкретный вопрос. Общая просьба прислать «все снимки уведомлений» часто даёт большую подборку без ясной связи с пропавшим элементом.",
+    "text_orig": "The quiet-hours rule applies to email and push. Be precise about the channel when you repeat it to a customer. An in-app notification is not an email waiting in a spam folder, and checking a phone's push history does not establish whether the item appeared inside LumenDesk. Clear channel names make the conversation shorter because the customer can answer a concrete question. A broad request for “all notification screenshots” often produces a large collection with no clear relationship to the missing item.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "35-008",
+    "doc_no": 35,
+    "doc_id": "notification-explainer",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/Notifications final.md",
+    "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      15,
+      15
+     ]
+    },
+    "locator_text": "строка 15",
+    "segment_sha": "6cbb64d34baa",
+    "section": "Local time matters",
+    "section_ru": "Местное время имеет значение",
+    "text_ru": "Оповещения безопасности о входе игнорируют тихие часы. Не используйте оповещение, полученное ночью, как доказательство того, что обычные настройки упоминаний участника не соблюдаются. Оповещение безопасности и обычное сообщение по этому правилу обрабатываются по-разному. Объясните исключение через тип сообщения, а затем вернитесь к фактическому примеру клиента. Иначе одно реальное ночное письмо безопасности может отвлечь всё обсуждение от обычного уведомления, которое клиент изначально хотел разобрать.",
+    "text_orig": "Security sign-in alerts ignore quiet hours. Do not use an alert received overnight as proof that the member's ordinary mention preferences are being ignored. The security alert and the ordinary message have different treatment under this rule. Explain the exception using the type of message, then return to the customer's actual example. Otherwise one real overnight security email can distract the entire discussion from the ordinary notification they originally wanted to investigate.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "35-009",
+    "doc_no": 35,
+    "doc_id": "notification-explainer",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/Notifications final.md",
+    "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      17,
+      17
+     ]
+    },
+    "locator_text": "строка 17",
+    "segment_sha": "815dd279b31f",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "## Заглушение уже, чем некоторые ожидают",
+    "text_orig": "## Muting is narrower than some people expect",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "35-010",
+    "doc_no": 35,
+    "doc_id": "notification-explainer",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/Notifications final.md",
+    "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      19,
+      19
+     ]
+    },
+    "locator_text": "строка 19",
+    "segment_sha": "824c77144902",
+    "section": "Muting is narrower than some people expect",
+    "section_ru": "Заглушение уже, чем некоторые ожидают",
+    "text_ru": "Заглушённая ветка подавляет обычные ответы, но по-прежнему пропускает прямые упоминания. Человек, заглушивший оживлённый разговор, вполне понятно может ожидать полной тишины. Нам следует объяснить конкретное действие, не говоря ему, что его наблюдение невозможно. Спросите, пришло ли новое уведомление из-за обычного ответа или прямого упоминания. Это различие трудно увидеть на пересланном снимке экрана, где видна только тема, поэтому немного контекста из исходного элемента часто полезнее повторных копий письма.",
+    "text_orig": "A muted thread suppresses ordinary replies but still allows direct mentions. Someone who muted a busy conversation may understandably expect complete silence. We should explain the specific effect without telling them that their observation is impossible. Ask whether the new notification came from an ordinary reply or from a direct mention. The distinction can be difficult to see in a forwarded screenshot that shows only the subject line, so a little context from the original item is often more useful than repeated copies of the email.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "35-011",
+    "doc_no": 35,
+    "doc_id": "notification-explainer",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/Notifications final.md",
+    "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      21,
+      21
+     ]
+    },
+    "locator_text": "строка 21",
+    "segment_sha": "e73bcac49705",
+    "section": "Muting is narrower than some people expect",
+    "section_ru": "Заглушение уже, чем некоторые ожидают",
+    "text_ru": "Удалённые участники не получают новых уведомлений workspace. Проверьте связь между событием и участием, когда клиент спрашивает от имени бывшего коллеги. Не считайте, что старое сообщение во входящих доказывает новую доставку после удаления: во входящих могут быть более ранние письма, пересланные материалы и сообщения, открытые намного позже, чем пришли. Ограничивайте утверждение тем, что показывают доказательства. Мы хотим установить обсуждаемое событие доставки, а не делать общий вывод по не связанному сообщению.",
+    "text_orig": "Removed members receive no new workspace notifications. Check the relationship between the event and membership when a customer is asking on behalf of a former colleague. Do not assume that an old message in an inbox proves new delivery after removal: an inbox can contain earlier mail, forwarded material, and messages opened much later than they arrived. Keep the claim limited to what the evidence shows. We want to establish the delivery event under discussion rather than make a general statement from an unrelated message.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "35-012",
+    "doc_no": 35,
+    "doc_id": "notification-explainer",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/Notifications final.md",
+    "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      23,
+      23
+     ]
+    },
+    "locator_text": "строка 23",
+    "segment_sha": "e774e66d7399",
+    "section": "Muting is narrower than some people expect",
+    "section_ru": "Заглушение уже, чем некоторые ожидают",
+    "text_ru": "Практическая первая проверка — до эскалации проверить настройки пользователя, часовой пояс и папку «Спам». У этих проверок разные цели. Настройки говорят нам, что участник просил получать; часовой пояс придаёт смысл правилам местного времени; папка «Спам» помогает отличить отсутствующий во входящих элемент от письма, попавшего в почтовый ящик в другое место. Запись «уведомления проверены» в передаче скрывает, на какие из этих вопросов получены ответы. Краткое предложение о каждом существенном выводе даёт следующему человеку гораздо более ясную отправную точку.",
+    "text_orig": "The practical first pass is to check user preferences, timezone, and the spam folder before escalating. These checks have different purposes. Preferences tell us what the member asked to receive; timezone gives meaning to the local-time rules; the spam folder helps distinguish a missing inbox item from email that reached the mailbox elsewhere. Writing “checked notifications” in a handover hides which of these questions were answered. A brief sentence for each relevant finding gives the next person a much clearer starting point.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "35-013",
+    "doc_no": 35,
+    "doc_id": "notification-explainer",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/Notifications final.md",
+    "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      25,
+      25
+     ]
+    },
+    "locator_text": "строка 25",
+    "segment_sha": "abe2e6b50dcc",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "## Полезный разговор о доставке",
+    "text_orig": "## A useful delivery conversation",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "35-014",
+    "doc_no": 35,
+    "doc_id": "notification-explainer",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/Notifications final.md",
+    "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      27,
+      27
+     ]
+    },
+    "locator_text": "строка 27",
+    "segment_sha": "eeaf69e68d2b",
+    "section": "A useful delivery conversation",
+    "section_ru": "Полезный разговор о доставке",
+    "text_ru": "Соберите notification ID и отметку времени доставки. Никогда не просите пароль от почтового ящика. Доступ к почтовому ящику клиента — не те доказательства, которые нам нужны, и пароль не делает запутанную хронологию понятнее. Если клиент, желая помочь, сам предлагает учётные данные, остановите эту часть обмена и вернитесь к идентификаторам и времени. Участник может сообщить, что он наблюдает, не передавая управление своей почтовой учётной записью.",
+    "text_orig": "Collect the notification ID and delivery timestamp. Never ask for a mailbox password. Access to the customer's mailbox is not the evidence we need, and a password does not make a confusing timeline easier to understand. If the customer volunteers credentials while trying to be helpful, stop that part of the exchange and return to the identifiers and timing. The member can report what they observe without handing over control of their email account.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "35-015",
+    "doc_no": 35,
+    "doc_id": "notification-explainer",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/Notifications final.md",
+    "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      29,
+      29
+     ]
+    },
+    "locator_text": "строка 29",
+    "segment_sha": "99b8898d2c77",
+    "section": "A useful delivery conversation",
+    "section_ru": "Полезный разговор о доставке",
+    "text_ru": "Вот как я написал бы передачу после вопроса об упоминании: определите уведомление, опишите ожидаемый канал, укажите, был ли элемент прочитан во время задержки, и отметьте проверки соответствующих настроек и часового пояса участника. Это описание одного события, а не новый перечень обязательных полей. Оно не позволит следующему сотруднику принять «письма нет» за вывод, когда это было лишь первоначальное описание клиента. Если результат проверки ещё неизвестен, оставьте его неизвестным, а не заполняйте пробел предположением.",
+    "text_orig": "Here is how I would write a handover after a mention question: identify the notification, describe the expected channel, state whether the item was read during the delay, and note the member's relevant preference and timezone checks. This is a narrative of one event, not a new checklist of mandatory fields. It prevents the next agent from interpreting “email missing” as a conclusion when it was only the customer's opening description. When a check is still unknown, leave it unknown rather than filling the gap with an assumption.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "35-016",
+    "doc_no": 35,
+    "doc_id": "notification-explainer",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/Notifications final.md",
+    "source_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+    "source_lang": "en",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      31,
+      31
+     ]
+    },
+    "locator_text": "строка 31",
+    "segment_sha": "932c885a1da7",
+    "section": "A useful delivery conversation",
+    "section_ru": "Полезный разговор о доставке",
+    "text_ru": "Объяснение доставки проще всего понять, когда оно держится примера клиента. Начните с упоминания или ответа, которые он имеет в виду, определите ожидаемый канал и расположите наблюдаемые события по порядку. Затем объясните в этом контексте соответствующую задержку, событие прочтения, тихие часы или настройку ветки. Клиент должен закончить разговор, понимая, что произошло с этим уведомлением, а не гадая, какая из нескольких общих возможностей к нему относится. Если наблюдение ещё требует изучения, укажите, что остаётся неизвестным, и сохраните notification ID и отметку времени доставки для следующего коллеги.",
+    "text_orig": "A delivery explanation is easiest to follow when it stays with the customer's example. Start with the mention or reply they mean, identify the expected channel, and put the observed events in order. Then explain the relevant delay, read event, quiet hours, or thread preference in that context. The customer should finish the exchange understanding what happened to that notification, rather than wondering which of several general possibilities applies. If an observation still needs investigation, state what remains unknown and preserve the notification ID and delivery timestamp for the next colleague.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   }
+  ]
+ }
+}

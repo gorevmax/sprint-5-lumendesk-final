@@ -1,0 +1,3374 @@
+{
+ "no": 20,
+ "source_path": "documents/Планирование/assistant-hypotheses.csv",
+ "doc_id": "assistant-quota-hypotheses",
+ "title": "",
+ "title_ru": null,
+ "lang": "fr",
+ "format": "csv",
+ "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+ "decision": {
+  "no": 20,
+  "path": "documents/Планирование/assistant-hypotheses.csv",
+  "doc_id": "assistant-quota-hypotheses",
+  "title": "",
+  "lang": "fr",
+  "owner": "Product (réunion produit du 9 septembre)",
+  "version": "",
+  "updated": "",
+  "doc_type": "draft",
+  "status": "exclude",
+  "rule": "R3",
+  "reason": "Гипотезы: «Aucun avenant client ne reprend ces valeurs», «Le comité produit doit encore décider». Действующие квоты — №47.",
+  "access": "all",
+  "trust": "confirmed",
+  "related": [
+   47
+  ]
+ },
+ "fragments": [
+  {
+   "fragment_id": "20-001",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "table_header",
+   "locator": {
+    "csv_row": 1
+   },
+   "locator_text": "строка 1",
+   "segment_sha": "672f213ebbc5",
+   "cells": [
+    {
+     "col": 1,
+     "value": "Partie du travail",
+     "value_ru": "Часть работы"
+    },
+    {
+     "col": 2,
+     "value": "Sujet",
+     "value_ru": "Тема"
+    },
+    {
+     "col": 3,
+     "value": "Hypothèse ou commentaire",
+     "value_ru": "Гипотеза или комментарий"
+    },
+    {
+     "col": 4,
+     "value": "À discuter",
+     "value_ru": "К обсуждению"
+    }
+   ],
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы | Тема | Гипотеза или комментарий | К обсуждению",
+   "text_orig": "Partie du travail | Sujet | Hypothèse ou commentaire | À discuter",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "20-002",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 2
+   },
+   "locator_text": "строка 2",
+   "segment_sha": "cadedbd6c7ca",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Hypothèses",
+     "header_ru": "Часть работы",
+     "value_ru": "Гипотезы"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "Team",
+     "header_ru": "Тема",
+     "value_ru": "Team"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Hypothèse de 9999 messages par workspace et par mois.",
+     "header_ru": "Гипотеза или комментарий",
+     "value_ru": "Гипотеза: 9999 сообщений на workspace в месяц."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Camille / réunion produit du 9 septembre",
+     "header_ru": "К обсуждению",
+     "value_ru": "Камиль / продуктовая встреча 9 сентября"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Часть работы",
+     "Тема",
+     "Гипотеза или комментарий",
+     "К обсуждению"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы: Гипотезы; Тема: Team; Гипотеза или комментарий: Гипотеза: 9999 сообщений на workspace в месяц.; К обсуждению: Камиль / продуктовая встреча 9 сентября",
+   "text_orig": "Partie du travail: Hypothèses; Sujet: Team; Hypothèse ou commentaire: Hypothèse de 9999 messages par workspace et par mois.; À discuter: Camille / réunion produit du 9 septembre",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "20-003",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 3
+   },
+   "locator_text": "строка 3",
+   "segment_sha": "b31e4795e252",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Hypothèses",
+     "header_ru": "Часть работы",
+     "value_ru": "Гипотезы"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "Starter",
+     "header_ru": "Тема",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Hypothèse de 500 messages par workspace et par mois.",
+     "header_ru": "Гипотеза или комментарий",
+     "value_ru": "Гипотеза: 500 сообщений на workspace в месяц."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Camille / réunion produit du 9 septembre",
+     "header_ru": "К обсуждению",
+     "value_ru": "Камиль / продуктовая встреча 9 сентября"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Часть работы",
+     "Тема",
+     "Гипотеза или комментарий",
+     "К обсуждению"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы: Гипотезы; Тема: Starter; Гипотеза или комментарий: Гипотеза: 500 сообщений на workspace в месяц.; К обсуждению: Камиль / продуктовая встреча 9 сентября",
+   "text_orig": "Partie du travail: Hypothèses; Sujet: Starter; Hypothèse ou commentaire: Hypothèse de 500 messages par workspace et par mois.; À discuter: Camille / réunion produit du 9 septembre",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "20-004",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 4
+   },
+   "locator_text": "строка 4",
+   "segment_sha": "c093271b3e85",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Hypothèses",
+     "header_ru": "Часть работы",
+     "value_ru": "Гипотезы"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "Enterprise",
+     "header_ru": "Тема",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Hypothèse de 50000 messages par workspace et par mois.",
+     "header_ru": "Гипотеза или комментарий",
+     "value_ru": "Гипотеза: 50000 сообщений на workspace в месяц."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Camille / réunion produit du 9 septembre",
+     "header_ru": "К обсуждению",
+     "value_ru": "Камиль / продуктовая встреча 9 сентября"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Часть работы",
+     "Тема",
+     "Гипотеза или комментарий",
+     "К обсуждению"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы: Гипотезы; Тема: Enterprise; Гипотеза или комментарий: Гипотеза: 50000 сообщений на workspace в месяц.; К обсуждению: Камиль / продуктовая встреча 9 сентября",
+   "text_orig": "Partie du travail: Hypothèses; Sujet: Enterprise; Hypothèse ou commentaire: Hypothèse de 50000 messages par workspace et par mois.; À discuter: Camille / réunion produit du 9 septembre",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "20-005",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 5
+   },
+   "locator_text": "строка 5",
+   "segment_sha": "8fd7c2fb70c0",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Hypothèses",
+     "header_ru": "Часть работы",
+     "value_ru": "Гипотезы"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "Réinitialisation",
+     "header_ru": "Тема",
+     "value_ru": "Сброс"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Une remise à zéro quotidienne est envisagée.",
+     "header_ru": "Гипотеза или комментарий",
+     "value_ru": "Рассматривается ежедневное обнуление."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Camille / réunion produit du 9 septembre",
+     "header_ru": "К обсуждению",
+     "value_ru": "Камиль / продуктовая встреча 9 сентября"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Часть работы",
+     "Тема",
+     "Гипотеза или комментарий",
+     "К обсуждению"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы: Гипотезы; Тема: Сброс; Гипотеза или комментарий: Рассматривается ежедневное обнуление.; К обсуждению: Камиль / продуктовая встреча 9 сентября",
+   "text_orig": "Partie du travail: Hypothèses; Sujet: Réinitialisation; Hypothèse ou commentaire: Une remise à zéro quotidienne est envisagée.; À discuter: Camille / réunion produit du 9 septembre",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "20-006",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 6
+   },
+   "locator_text": "строка 6",
+   "segment_sha": "1a1e1e028e08",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Évaluation",
+     "header_ru": "Часть работы",
+     "value_ru": "Оценка"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "Panel",
+     "header_ru": "Тема",
+     "value_ru": "Панель"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Le panel prévu contient 6 organisations volontaires.",
+     "header_ru": "Гипотеза или комментарий",
+     "value_ru": "Планируемая панель включает 6 организаций-добровольцев."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Camille / réunion produit du 9 septembre",
+     "header_ru": "К обсуждению",
+     "value_ru": "Камиль / продуктовая встреча 9 сентября"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Часть работы",
+     "Тема",
+     "Гипотеза или комментарий",
+     "К обсуждению"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы: Оценка; Тема: Панель; Гипотеза или комментарий: Планируемая панель включает 6 организаций-добровольцев.; К обсуждению: Камиль / продуктовая встреча 9 сентября",
+   "text_orig": "Partie du travail: Évaluation; Sujet: Panel; Hypothèse ou commentaire: Le panel prévu contient 6 organisations volontaires.; À discuter: Camille / réunion produit du 9 septembre",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "20-007",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 7
+   },
+   "locator_text": "строка 7",
+   "segment_sha": "a22a7bcfc621",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Évaluation",
+     "header_ru": "Часть работы",
+     "value_ru": "Оценка"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "Durée",
+     "header_ru": "Тема",
+     "value_ru": "Длительность"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "La durée proposée est de 14 jours.",
+     "header_ru": "Гипотеза или комментарий",
+     "value_ru": "Предлагаемая длительность — 14 дней."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Camille / réunion produit du 9 septembre",
+     "header_ru": "К обсуждению",
+     "value_ru": "Камиль / продуктовая встреча 9 сентября"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Часть работы",
+     "Тема",
+     "Гипотеза или комментарий",
+     "К обсуждению"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы: Оценка; Тема: Длительность; Гипотеза или комментарий: Предлагаемая длительность — 14 дней.; К обсуждению: Камиль / продуктовая встреча 9 сентября",
+   "text_orig": "Partie du travail: Évaluation; Sujet: Durée; Hypothèse ou commentaire: La durée proposée est de 14 jours.; À discuter: Camille / réunion produit du 9 septembre",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "20-008",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 8
+   },
+   "locator_text": "строка 8",
+   "segment_sha": "ccd909fc5429",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Évaluation",
+     "header_ru": "Часть работы",
+     "value_ru": "Оценка"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "Budget",
+     "header_ru": "Тема",
+     "value_ru": "Бюджет"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Le budget de l’expérience attend une validation.",
+     "header_ru": "Гипотеза или комментарий",
+     "value_ru": "Бюджет эксперимента ожидает утверждения."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Camille / réunion produit du 9 septembre",
+     "header_ru": "К обсуждению",
+     "value_ru": "Камиль / продуктовая встреча 9 сентября"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Часть работы",
+     "Тема",
+     "Гипотеза или комментарий",
+     "К обсуждению"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы: Оценка; Тема: Бюджет; Гипотеза или комментарий: Бюджет эксперимента ожидает утверждения.; К обсуждению: Камиль / продуктовая встреча 9 сентября",
+   "text_orig": "Partie du travail: Évaluation; Sujet: Budget; Hypothèse ou commentaire: Le budget de l’expérience attend une validation.; À discuter: Camille / réunion produit du 9 septembre",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "20-009",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 9
+   },
+   "locator_text": "строка 9",
+   "segment_sha": "ad27905f0585",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Évaluation",
+     "header_ru": "Часть работы",
+     "value_ru": "Оценка"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "Contrat",
+     "header_ru": "Тема",
+     "value_ru": "Договор"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Aucun avenant client ne reprend ces valeurs.",
+     "header_ru": "Гипотеза или комментарий",
+     "value_ru": "Ни одно дополнение к договору с клиентом не содержит этих значений."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Camille / réunion produit du 9 septembre",
+     "header_ru": "К обсуждению",
+     "value_ru": "Камиль / продуктовая встреча 9 сентября"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Часть работы",
+     "Тема",
+     "Гипотеза или комментарий",
+     "К обсуждению"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы: Оценка; Тема: Договор; Гипотеза или комментарий: Ни одно дополнение к договору с клиентом не содержит этих значений.; К обсуждению: Камиль / продуктовая встреча 9 сентября",
+   "text_orig": "Partie du travail: Évaluation; Sujet: Contrat; Hypothèse ou commentaire: Aucun avenant client ne reprend ces valeurs.; À discuter: Camille / réunion produit du 9 septembre",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "20-010",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 10
+   },
+   "locator_text": "строка 10",
+   "segment_sha": "443243b52fa0",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Évaluation",
+     "header_ru": "Часть работы",
+     "value_ru": "Оценка"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "Décision",
+     "header_ru": "Тема",
+     "value_ru": "Решение"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Le comité produit doit encore décider si l’expérience sera lancée.",
+     "header_ru": "Гипотеза или комментарий",
+     "value_ru": "Продуктовый комитет ещё должен решить, будет ли запущен эксперимент."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Camille / réunion produit du 9 septembre",
+     "header_ru": "К обсуждению",
+     "value_ru": "Камиль / продуктовая встреча 9 сентября"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Часть работы",
+     "Тема",
+     "Гипотеза или комментарий",
+     "К обсуждению"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы: Оценка; Тема: Решение; Гипотеза или комментарий: Продуктовый комитет ещё должен решить, будет ли запущен эксперимент.; К обсуждению: Камиль / продуктовая встреча 9 сентября",
+   "text_orig": "Partie du travail: Évaluation; Sujet: Décision; Hypothèse ou commentaire: Le comité produit doit encore décider si l’expérience sera lancée.; À discuter: Camille / réunion produit du 9 septembre",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "20-011",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 11
+   },
+   "locator_text": "строка 11",
+   "segment_sha": "2abfee7c1a69",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Camille / discussion du 9 septembre",
+     "header_ru": "Часть работы",
+     "value_ru": "Камиль / обсуждение 9 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "distribution",
+     "header_ru": "Тема",
+     "value_ru": "распределение"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Comparer les demandes courtes et les longs fils; un total seul masque la longueur des conversations.",
+     "header_ru": "Гипотеза или комментарий",
+     "value_ru": "Сравнить короткие запросы и длинные ветки; один только итог скрывает длину разговоров."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Préparer deux exemples anonymisés pour le comité",
+     "header_ru": "К обсуждению",
+     "value_ru": "Подготовить для комитета два обезличенных примера"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Часть работы",
+     "Тема",
+     "Гипотеза или комментарий",
+     "К обсуждению"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы: Камиль / обсуждение 9 сентября; Тема: распределение; Гипотеза или комментарий: Сравнить короткие запросы и длинные ветки; один только итог скрывает длину разговоров.; К обсуждению: Подготовить для комитета два обезличенных примера",
+   "text_orig": "Partie du travail: Camille / discussion du 9 septembre; Sujet: distribution; Hypothèse ou commentaire: Comparer les demandes courtes et les longs fils; un total seul masque la longueur des conversations.; À discuter: Préparer deux exemples anonymisés pour le comité",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "20-012",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 12
+   },
+   "locator_text": "строка 12",
+   "segment_sha": "4ed9545f9c58",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Noémie / discussion du 9 septembre",
+     "header_ru": "Часть работы",
+     "value_ru": "Ноэми / обсуждение 9 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "coût",
+     "header_ru": "Тема",
+     "value_ru": "стоимость"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Nous avons une estimation par message mais pas encore le coût de reprise des longs contextes.",
+     "header_ru": "Гипотеза или комментарий",
+     "value_ru": "У нас есть оценка на одно сообщение, но ещё нет стоимости повторной обработки длинных контекстов."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Demander une fourchette à Assistant Product",
+     "header_ru": "К обсуждению",
+     "value_ru": "Запросить диапазон у Assistant Product"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Часть работы",
+     "Тема",
+     "Гипотеза или комментарий",
+     "К обсуждению"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы: Ноэми / обсуждение 9 сентября; Тема: стоимость; Гипотеза или комментарий: У нас есть оценка на одно сообщение, но ещё нет стоимости повторной обработки длинных контекстов.; К обсуждению: Запросить диапазон у Assistant Product",
+   "text_orig": "Partie du travail: Noémie / discussion du 9 septembre; Sujet: coût; Hypothèse ou commentaire: Nous avons une estimation par message mais pas encore le coût de reprise des longs contextes.; À discuter: Demander une fourchette à Assistant Product",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "20-013",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 13
+   },
+   "locator_text": "строка 13",
+   "segment_sha": "c32a0f083a1f",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Hugo / discussion du 9 septembre",
+     "header_ru": "Часть работы",
+     "value_ru": "Юго / обсуждение 9 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "recrutement",
+     "header_ru": "Тема",
+     "value_ru": "набор участников"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Deux organisations contactées souhaitent connaître le temps demandé à leurs administrateurs.",
+     "header_ru": "Гипотеза или комментарий",
+     "value_ru": "Две организации, с которыми связались, хотят знать, сколько времени потребуется от их администраторов."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Ne pas envoyer d’invitation avant accord de participation",
+     "header_ru": "К обсуждению",
+     "value_ru": "Не отправлять приглашение до согласия на участие"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Часть работы",
+     "Тема",
+     "Гипотеза или комментарий",
+     "К обсуждению"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы: Юго / обсуждение 9 сентября; Тема: набор участников; Гипотеза или комментарий: Две организации, с которыми связались, хотят знать, сколько времени потребуется от их администраторов.; К обсуждению: Не отправлять приглашение до согласия на участие",
+   "text_orig": "Partie du travail: Hugo / discussion du 9 septembre; Sujet: recrutement; Hypothèse ou commentaire: Deux organisations contactées souhaitent connaître le temps demandé à leurs administrateurs.; À discuter: Ne pas envoyer d’invitation avant accord de participation",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "20-014",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 14
+   },
+   "locator_text": "строка 14",
+   "segment_sha": "25e737294ea2",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Léa / discussion du 9 septembre",
+     "header_ru": "Часть работы",
+     "value_ru": "Леа / обсуждение 9 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "Team",
+     "header_ru": "Тема",
+     "value_ru": "Team"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "L’hypothèse de 9999 messages doit être testée avec le panel; le budget n’est pas validé.",
+     "header_ru": "Гипотеза или комментарий",
+     "value_ru": "Гипотезу в 9999 сообщений нужно проверить на панели; бюджет не утверждён."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Conserver le scénario dans le dossier de préparation",
+     "header_ru": "К обсуждению",
+     "value_ru": "Сохранить сценарий в папке подготовки"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Часть работы",
+     "Тема",
+     "Гипотеза или комментарий",
+     "К обсуждению"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы: Леа / обсуждение 9 сентября; Тема: Team; Гипотеза или комментарий: Гипотезу в 9999 сообщений нужно проверить на панели; бюджет не утверждён.; К обсуждению: Сохранить сценарий в папке подготовки",
+   "text_orig": "Partie du travail: Léa / discussion du 9 septembre; Sujet: Team; Hypothèse ou commentaire: L’hypothèse de 9999 messages doit être testée avec le panel; le budget n’est pas validé.; À discuter: Conserver le scénario dans le dossier de préparation",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "20-015",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 15
+   },
+   "locator_text": "строка 15",
+   "segment_sha": "d39faf5f0a0e",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Camille / discussion du 9 septembre",
+     "header_ru": "Часть работы",
+     "value_ru": "Камиль / обсуждение 9 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "réinitialisation",
+     "header_ru": "Тема",
+     "value_ru": "сброс"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Une remise à zéro quotidienne compliquerait la comparaison avec une utilisation mensuelle.",
+     "header_ru": "Гипотеза или комментарий",
+     "value_ru": "Ежедневное обнуление усложнило бы сравнение с месячным использованием."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Présenter les deux méthodes au comité, sans décider aujourd’hui",
+     "header_ru": "К обсуждению",
+     "value_ru": "Представить комитету оба метода, не принимая решения сегодня"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Часть работы",
+     "Тема",
+     "Гипотеза или комментарий",
+     "К обсуждению"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы: Камиль / обсуждение 9 сентября; Тема: сброс; Гипотеза или комментарий: Ежедневное обнуление усложнило бы сравнение с месячным использованием.; К обсуждению: Представить комитету оба метода, не принимая решения сегодня",
+   "text_orig": "Partie du travail: Camille / discussion du 9 septembre; Sujet: réinitialisation; Hypothèse ou commentaire: Une remise à zéro quotidienne compliquerait la comparaison avec une utilisation mensuelle.; À discuter: Présenter les deux méthodes au comité, sans décider aujourd’hui",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "20-016",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 16
+   },
+   "locator_text": "строка 16",
+   "segment_sha": "84113c14690a",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Adrien / discussion du 9 septembre",
+     "header_ru": "Часть работы",
+     "value_ru": "Адриен / обсуждение 9 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "contrat",
+     "header_ru": "Тема",
+     "value_ru": "договор"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Le formulaire de participation ne contient pas encore la phrase sur l’absence d’avenant commercial.",
+     "header_ru": "Гипотеза или комментарий",
+     "value_ru": "Форма участия пока не содержит фразы об отсутствии коммерческого дополнения к договору."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Faire relire le formulaire avant les invitations",
+     "header_ru": "К обсуждению",
+     "value_ru": "Отдать форму на вычитку до отправки приглашений"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Часть работы",
+     "Тема",
+     "Гипотеза или комментарий",
+     "К обсуждению"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы: Адриен / обсуждение 9 сентября; Тема: договор; Гипотеза или комментарий: Форма участия пока не содержит фразы об отсутствии коммерческого дополнения к договору.; К обсуждению: Отдать форму на вычитку до отправки приглашений",
+   "text_orig": "Partie du travail: Adrien / discussion du 9 septembre; Sujet: contrat; Hypothèse ou commentaire: Le formulaire de participation ne contient pas encore la phrase sur l’absence d’avenant commercial.; À discuter: Faire relire le formulaire avant les invitations",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "20-017",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 17
+   },
+   "locator_text": "строка 17",
+   "segment_sha": "3270217db271",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Noémie / discussion du 9 septembre",
+     "header_ru": "Часть работы",
+     "value_ru": "Ноэми / обсуждение 9 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "support",
+     "header_ru": "Тема",
+     "value_ru": "поддержка"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Les agents demandent qui répondra aux questions des participants pendant les quatorze jours envisagés.",
+     "header_ru": "Гипотеза или комментарий",
+     "value_ru": "Сотрудники поддержки спрашивают, кто будет отвечать на вопросы участников в течение предполагаемых четырнадцати дней."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Prévoir un contact et une relève dans le plan du test",
+     "header_ru": "К обсуждению",
+     "value_ru": "Предусмотреть в плане теста контакт и замену"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Часть работы",
+     "Тема",
+     "Гипотеза или комментарий",
+     "К обсуждению"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы: Ноэми / обсуждение 9 сентября; Тема: поддержка; Гипотеза или комментарий: Сотрудники поддержки спрашивают, кто будет отвечать на вопросы участников в течение предполагаемых четырнадцати дней.; К обсуждению: Предусмотреть в плане теста контакт и замену",
+   "text_orig": "Partie du travail: Noémie / discussion du 9 septembre; Sujet: support; Hypothèse ou commentaire: Les agents demandent qui répondra aux questions des participants pendant les quatorze jours envisagés.; À discuter: Prévoir un contact et une relève dans le plan du test",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "20-018",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 18
+   },
+   "locator_text": "строка 18",
+   "segment_sha": "455dd4bc000c",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Hugo / discussion du 9 septembre",
+     "header_ru": "Часть работы",
+     "value_ru": "Юго / обсуждение 9 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "panel",
+     "header_ru": "Тема",
+     "value_ru": "панель"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Le panel prévu reste limité à six organisations; les volontaires supplémentaires attendront la décision.",
+     "header_ru": "Гипотеза или комментарий",
+     "value_ru": "Планируемая панель по-прежнему ограничена шестью организациями; дополнительные добровольцы будут ждать решения."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Vérifier la diversité des usages avant de choisir",
+     "header_ru": "К обсуждению",
+     "value_ru": "Перед выбором проверить разнообразие сценариев использования"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Часть работы",
+     "Тема",
+     "Гипотеза или комментарий",
+     "К обсуждению"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы: Юго / обсуждение 9 сентября; Тема: панель; Гипотеза или комментарий: Планируемая панель по-прежнему ограничена шестью организациями; дополнительные добровольцы будут ждать решения.; К обсуждению: Перед выбором проверить разнообразие сценариев использования",
+   "text_orig": "Partie du travail: Hugo / discussion du 9 septembre; Sujet: panel; Hypothèse ou commentaire: Le panel prévu reste limité à six organisations; les volontaires supplémentaires attendront la décision.; À discuter: Vérifier la diversité des usages avant de choisir",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "20-019",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 19
+   },
+   "locator_text": "строка 19",
+   "segment_sha": "188eee013f39",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Léa / discussion du 9 septembre",
+     "header_ru": "Часть работы",
+     "value_ru": "Леа / обсуждение 9 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "mesure",
+     "header_ru": "Тема",
+     "value_ru": "измерение"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Séparer une erreur serveur d’une demande envoyée pour ne pas surestimer la consommation observée.",
+     "header_ru": "Гипотеза или комментарий",
+     "value_ru": "Отделять ошибку сервера от отправленного запроса, чтобы не завышать наблюдаемое потребление."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Ajouter le résultat technique aux observations",
+     "header_ru": "К обсуждению",
+     "value_ru": "Добавить технический результат к наблюдениям"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Часть работы",
+     "Тема",
+     "Гипотеза или комментарий",
+     "К обсуждению"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы: Леа / обсуждение 9 сентября; Тема: измерение; Гипотеза или комментарий: Отделять ошибку сервера от отправленного запроса, чтобы не завышать наблюдаемое потребление.; К обсуждению: Добавить технический результат к наблюдениям",
+   "text_orig": "Partie du travail: Léa / discussion du 9 septembre; Sujet: mesure; Hypothèse ou commentaire: Séparer une erreur serveur d’une demande envoyée pour ne pas surestimer la consommation observée.; À discuter: Ajouter le résultat technique aux observations",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "20-020",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 20
+   },
+   "locator_text": "строка 20",
+   "segment_sha": "0aa49202a895",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Adrien / discussion du 9 septembre",
+     "header_ru": "Часть работы",
+     "value_ru": "Адриен / обсуждение 9 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "confidentialité",
+     "header_ru": "Тема",
+     "value_ru": "конфиденциальность"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Les retours qualitatifs ne doivent pas contenir de texte privé issu des conversations clients.",
+     "header_ru": "Гипотеза или комментарий",
+     "value_ru": "Качественные отзывы не должны содержать закрытый текст из разговоров с клиентами."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Demander un résumé anonymisé plutôt qu’un export",
+     "header_ru": "К обсуждению",
+     "value_ru": "Запросить обезличенное резюме, а не выгрузку"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Часть работы",
+     "Тема",
+     "Гипотеза или комментарий",
+     "К обсуждению"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы: Адриен / обсуждение 9 сентября; Тема: конфиденциальность; Гипотеза или комментарий: Качественные отзывы не должны содержать закрытый текст из разговоров с клиентами.; К обсуждению: Запросить обезличенное резюме, а не выгрузку",
+   "text_orig": "Partie du travail: Adrien / discussion du 9 septembre; Sujet: confidentialité; Hypothèse ou commentaire: Les retours qualitatifs ne doivent pas contenir de texte privé issu des conversations clients.; À discuter: Demander un résumé anonymisé plutôt qu’un export",
+   "translation": "translated",
+   "translation_review": {
+    "checks": [
+     "negation"
+    ],
+    "decision": "accepted",
+    "note": "«plutôt qu’un export» → «а не выгрузку» — противопоставление сохранено."
+   },
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "20-021",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 21
+   },
+   "locator_text": "строка 21",
+   "segment_sha": "27beebbe50d0",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Camille / discussion du 9 septembre",
+     "header_ru": "Часть работы",
+     "value_ru": "Камиль / обсуждение 9 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "planning",
+     "header_ru": "Тема",
+     "value_ru": "планирование"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Aucune date de lancement n’a été arrêtée; la revue budgétaire est encore à organiser.",
+     "header_ru": "Гипотеза или комментарий",
+     "value_ru": "Дата запуска не определена; бюджетный обзор ещё предстоит организовать."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Revenir avec les réponses Finance au prochain comité",
+     "header_ru": "К обсуждению",
+     "value_ru": "Вернуться с ответами Finance на следующий комитет"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Часть работы",
+     "Тема",
+     "Гипотеза или комментарий",
+     "К обсуждению"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы: Камиль / обсуждение 9 сентября; Тема: планирование; Гипотеза или комментарий: Дата запуска не определена; бюджетный обзор ещё предстоит организовать.; К обсуждению: Вернуться с ответами Finance на следующий комитет",
+   "text_orig": "Partie du travail: Camille / discussion du 9 septembre; Sujet: planning; Hypothèse ou commentaire: Aucune date de lancement n’a été arrêtée; la revue budgétaire est encore à organiser.; À discuter: Revenir avec les réponses Finance au prochain comité",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "20-022",
+   "doc_no": 20,
+   "doc_id": "assistant-quota-hypotheses",
+   "doc_version": "",
+   "source_path": "documents/Планирование/assistant-hypotheses.csv",
+   "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 22
+   },
+   "locator_text": "строка 22",
+   "segment_sha": "159d64e859da",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Partie du travail",
+     "value": "Noémie / discussion du 9 septembre",
+     "header_ru": "Часть работы",
+     "value_ru": "Ноэми / обсуждение 9 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Sujet",
+     "value": "sortie du test",
+     "header_ru": "Тема",
+     "value_ru": "завершение теста"
+    },
+    {
+     "col": 3,
+     "header": "Hypothèse ou commentaire",
+     "value": "Il faut expliquer aux volontaires ce qui se passera à la fin de l’expérience proposée.",
+     "header_ru": "Гипотеза или комментарий",
+     "value_ru": "Нужно объяснить добровольцам, что произойдёт по окончании предлагаемого эксперимента."
+    },
+    {
+     "col": 4,
+     "header": "À discuter",
+     "value": "Préparer une note de clôture avant de lancer le panel",
+     "header_ru": "К обсуждению",
+     "value_ru": "Подготовить заключительную записку до запуска панели"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Часть работы",
+     "Тема",
+     "Гипотеза или комментарий",
+     "К обсуждению"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Часть работы: Ноэми / обсуждение 9 сентября; Тема: завершение теста; Гипотеза или комментарий: Нужно объяснить добровольцам, что произойдёт по окончании предлагаемого эксперимента.; К обсуждению: Подготовить заключительную записку до запуска панели",
+   "text_orig": "Partie du travail: Noémie / discussion du 9 septembre; Sujet: sortie du test; Hypothèse ou commentaire: Il faut expliquer aux volontaires ce qui se passera à la fin de l’expérience proposée.; À discuter: Préparer une note de clôture avant de lancer le panel",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  }
+ ],
+ "_base": {
+  "no": 20,
+  "source_path": "documents/Планирование/assistant-hypotheses.csv",
+  "doc_id": "assistant-quota-hypotheses",
+  "title": "",
+  "title_ru": null,
+  "lang": "fr",
+  "format": "csv",
+  "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+  "decision": {
+   "no": 20,
+   "path": "documents/Планирование/assistant-hypotheses.csv",
+   "doc_id": "assistant-quota-hypotheses",
+   "title": "",
+   "lang": "fr",
+   "owner": "Product (réunion produit du 9 septembre)",
+   "version": "",
+   "updated": "",
+   "doc_type": "draft",
+   "status": "exclude",
+   "rule": "R3",
+   "reason": "Гипотезы: «Aucun avenant client ne reprend ces valeurs», «Le comité produit doit encore décider». Действующие квоты — №47.",
+   "access": "all",
+   "trust": "confirmed",
+   "related": [
+    47
+   ]
+  },
+  "fragments": [
+   {
+    "fragment_id": "20-001",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "table_header",
+    "locator": {
+     "csv_row": 1
+    },
+    "locator_text": "строка 1",
+    "segment_sha": "672f213ebbc5",
+    "cells": [
+     {
+      "col": 1,
+      "value": "Partie du travail",
+      "value_ru": "Часть работы"
+     },
+     {
+      "col": 2,
+      "value": "Sujet",
+      "value_ru": "Тема"
+     },
+     {
+      "col": 3,
+      "value": "Hypothèse ou commentaire",
+      "value_ru": "Гипотеза или комментарий"
+     },
+     {
+      "col": 4,
+      "value": "À discuter",
+      "value_ru": "К обсуждению"
+     }
+    ],
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы | Тема | Гипотеза или комментарий | К обсуждению",
+    "text_orig": "Partie du travail | Sujet | Hypothèse ou commentaire | À discuter",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "20-002",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 2
+    },
+    "locator_text": "строка 2",
+    "segment_sha": "cadedbd6c7ca",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Partie du travail",
+      "value": "Hypothèses",
+      "header_ru": "Часть работы",
+      "value_ru": "Гипотезы"
+     },
+     {
+      "col": 2,
+      "header": "Sujet",
+      "value": "Team",
+      "header_ru": "Тема",
+      "value_ru": "Team"
+     },
+     {
+      "col": 3,
+      "header": "Hypothèse ou commentaire",
+      "value": "Hypothèse de 9999 messages par workspace et par mois.",
+      "header_ru": "Гипотеза или комментарий",
+      "value_ru": "Гипотеза: 9999 сообщений на workspace в месяц."
+     },
+     {
+      "col": 4,
+      "header": "À discuter",
+      "value": "Camille / réunion produit du 9 septembre",
+      "header_ru": "К обсуждению",
+      "value_ru": "Камиль / продуктовая встреча 9 сентября"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Часть работы",
+      "Тема",
+      "Гипотеза или комментарий",
+      "К обсуждению"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы: Гипотезы; Тема: Team; Гипотеза или комментарий: Гипотеза: 9999 сообщений на workspace в месяц.; К обсуждению: Камиль / продуктовая встреча 9 сентября",
+    "text_orig": "Partie du travail: Hypothèses; Sujet: Team; Hypothèse ou commentaire: Hypothèse de 9999 messages par workspace et par mois.; À discuter: Camille / réunion produit du 9 septembre",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "20-003",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 3
+    },
+    "locator_text": "строка 3",
+    "segment_sha": "b31e4795e252",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Partie du travail",
+      "value": "Hypothèses",
+      "header_ru": "Часть работы",
+      "value_ru": "Гипотезы"
+     },
+     {
+      "col": 2,
+      "header": "Sujet",
+      "value": "Starter",
+      "header_ru": "Тема",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 3,
+      "header": "Hypothèse ou commentaire",
+      "value": "Hypothèse de 500 messages par workspace et par mois.",
+      "header_ru": "Гипотеза или комментарий",
+      "value_ru": "Гипотеза: 500 сообщений на workspace в месяц."
+     },
+     {
+      "col": 4,
+      "header": "À discuter",
+      "value": "Camille / réunion produit du 9 septembre",
+      "header_ru": "К обсуждению",
+      "value_ru": "Камиль / продуктовая встреча 9 сентября"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Часть работы",
+      "Тема",
+      "Гипотеза или комментарий",
+      "К обсуждению"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы: Гипотезы; Тема: Starter; Гипотеза или комментарий: Гипотеза: 500 сообщений на workspace в месяц.; К обсуждению: Камиль / продуктовая встреча 9 сентября",
+    "text_orig": "Partie du travail: Hypothèses; Sujet: Starter; Hypothèse ou commentaire: Hypothèse de 500 messages par workspace et par mois.; À discuter: Camille / réunion produit du 9 septembre",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "20-004",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 4
+    },
+    "locator_text": "строка 4",
+    "segment_sha": "c093271b3e85",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Partie du travail",
+      "value": "Hypothèses",
+      "header_ru": "Часть работы",
+      "value_ru": "Гипотезы"
+     },
+     {
+      "col": 2,
+      "header": "Sujet",
+      "value": "Enterprise",
+      "header_ru": "Тема",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 3,
+      "header": "Hypothèse ou commentaire",
+      "value": "Hypothèse de 50000 messages par workspace et par mois.",
+      "header_ru": "Гипотеза или комментарий",
+      "value_ru": "Гипотеза: 50000 сообщений на workspace в месяц."
+     },
+     {
+      "col": 4,
+      "header": "À discuter",
+      "value": "Camille / réunion produit du 9 septembre",
+      "header_ru": "К обсуждению",
+      "value_ru": "Камиль / продуктовая встреча 9 сентября"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Часть работы",
+      "Тема",
+      "Гипотеза или комментарий",
+      "К обсуждению"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы: Гипотезы; Тема: Enterprise; Гипотеза или комментарий: Гипотеза: 50000 сообщений на workspace в месяц.; К обсуждению: Камиль / продуктовая встреча 9 сентября",
+    "text_orig": "Partie du travail: Hypothèses; Sujet: Enterprise; Hypothèse ou commentaire: Hypothèse de 50000 messages par workspace et par mois.; À discuter: Camille / réunion produit du 9 septembre",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "20-005",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 5
+    },
+    "locator_text": "строка 5",
+    "segment_sha": "8fd7c2fb70c0",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Partie du travail",
+      "value": "Hypothèses",
+      "header_ru": "Часть работы",
+      "value_ru": "Гипотезы"
+     },
+     {
+      "col": 2,
+      "header": "Sujet",
+      "value": "Réinitialisation",
+      "header_ru": "Тема",
+      "value_ru": "Сброс"
+     },
+     {
+      "col": 3,
+      "header": "Hypothèse ou commentaire",
+      "value": "Une remise à zéro quotidienne est envisagée.",
+      "header_ru": "Гипотеза или комментарий",
+      "value_ru": "Рассматривается ежедневное обнуление."
+     },
+     {
+      "col": 4,
+      "header": "À discuter",
+      "value": "Camille / réunion produit du 9 septembre",
+      "header_ru": "К обсуждению",
+      "value_ru": "Камиль / продуктовая встреча 9 сентября"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Часть работы",
+      "Тема",
+      "Гипотеза или комментарий",
+      "К обсуждению"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы: Гипотезы; Тема: Сброс; Гипотеза или комментарий: Рассматривается ежедневное обнуление.; К обсуждению: Камиль / продуктовая встреча 9 сентября",
+    "text_orig": "Partie du travail: Hypothèses; Sujet: Réinitialisation; Hypothèse ou commentaire: Une remise à zéro quotidienne est envisagée.; À discuter: Camille / réunion produit du 9 septembre",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "20-006",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 6
+    },
+    "locator_text": "строка 6",
+    "segment_sha": "1a1e1e028e08",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Partie du travail",
+      "value": "Évaluation",
+      "header_ru": "Часть работы",
+      "value_ru": "Оценка"
+     },
+     {
+      "col": 2,
+      "header": "Sujet",
+      "value": "Panel",
+      "header_ru": "Тема",
+      "value_ru": "Панель"
+     },
+     {
+      "col": 3,
+      "header": "Hypothèse ou commentaire",
+      "value": "Le panel prévu contient 6 organisations volontaires.",
+      "header_ru": "Гипотеза или комментарий",
+      "value_ru": "Планируемая панель включает 6 организаций-добровольцев."
+     },
+     {
+      "col": 4,
+      "header": "À discuter",
+      "value": "Camille / réunion produit du 9 septembre",
+      "header_ru": "К обсуждению",
+      "value_ru": "Камиль / продуктовая встреча 9 сентября"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Часть работы",
+      "Тема",
+      "Гипотеза или комментарий",
+      "К обсуждению"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы: Оценка; Тема: Панель; Гипотеза или комментарий: Планируемая панель включает 6 организаций-добровольцев.; К обсуждению: Камиль / продуктовая встреча 9 сентября",
+    "text_orig": "Partie du travail: Évaluation; Sujet: Panel; Hypothèse ou commentaire: Le panel prévu contient 6 organisations volontaires.; À discuter: Camille / réunion produit du 9 septembre",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "20-007",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 7
+    },
+    "locator_text": "строка 7",
+    "segment_sha": "a22a7bcfc621",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Partie du travail",
+      "value": "Évaluation",
+      "header_ru": "Часть работы",
+      "value_ru": "Оценка"
+     },
+     {
+      "col": 2,
+      "header": "Sujet",
+      "value": "Durée",
+      "header_ru": "Тема",
+      "value_ru": "Длительность"
+     },
+     {
+      "col": 3,
+      "header": "Hypothèse ou commentaire",
+      "value": "La durée proposée est de 14 jours.",
+      "header_ru": "Гипотеза или комментарий",
+      "value_ru": "Предлагаемая длительность — 14 дней."
+     },
+     {
+      "col": 4,
+      "header": "À discuter",
+      "value": "Camille / réunion produit du 9 septembre",
+      "header_ru": "К обсуждению",
+      "value_ru": "Камиль / продуктовая встреча 9 сентября"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Часть работы",
+      "Тема",
+      "Гипотеза или комментарий",
+      "К обсуждению"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы: Оценка; Тема: Длительность; Гипотеза или комментарий: Предлагаемая длительность — 14 дней.; К обсуждению: Камиль / продуктовая встреча 9 сентября",
+    "text_orig": "Partie du travail: Évaluation; Sujet: Durée; Hypothèse ou commentaire: La durée proposée est de 14 jours.; À discuter: Camille / réunion produit du 9 septembre",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "20-008",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 8
+    },
+    "locator_text": "строка 8",
+    "segment_sha": "ccd909fc5429",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Partie du travail",
+      "value": "Évaluation",
+      "header_ru": "Часть работы",
+      "value_ru": "Оценка"
+     },
+     {
+      "col": 2,
+      "header": "Sujet",
+      "value": "Budget",
+      "header_ru": "Тема",
+      "value_ru": "Бюджет"
+     },
+     {
+      "col": 3,
+      "header": "Hypothèse ou commentaire",
+      "value": "Le budget de l’expérience attend une validation.",
+      "header_ru": "Гипотеза или комментарий",
+      "value_ru": "Бюджет эксперимента ожидает утверждения."
+     },
+     {
+      "col": 4,
+      "header": "À discuter",
+      "value": "Camille / réunion produit du 9 septembre",
+      "header_ru": "К обсуждению",
+      "value_ru": "Камиль / продуктовая встреча 9 сентября"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Часть работы",
+      "Тема",
+      "Гипотеза или комментарий",
+      "К обсуждению"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы: Оценка; Тема: Бюджет; Гипотеза или комментарий: Бюджет эксперимента ожидает утверждения.; К обсуждению: Камиль / продуктовая встреча 9 сентября",
+    "text_orig": "Partie du travail: Évaluation; Sujet: Budget; Hypothèse ou commentaire: Le budget de l’expérience attend une validation.; À discuter: Camille / réunion produit du 9 septembre",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "20-009",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 9
+    },
+    "locator_text": "строка 9",
+    "segment_sha": "ad27905f0585",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Partie du travail",
+      "value": "Évaluation",
+      "header_ru": "Часть работы",
+      "value_ru": "Оценка"
+     },
+     {
+      "col": 2,
+      "header": "Sujet",
+      "value": "Contrat",
+      "header_ru": "Тема",
+      "value_ru": "Договор"
+     },
+     {
+      "col": 3,
+      "header": "Hypothèse ou commentaire",
+      "value": "Aucun avenant client ne reprend ces valeurs.",
+      "header_ru": "Гипотеза или комментарий",
+      "value_ru": "Ни одно дополнение к договору с клиентом не содержит этих значений."
+     },
+     {
+      "col": 4,
+      "header": "À discuter",
+      "value": "Camille / réunion produit du 9 septembre",
+      "header_ru": "К обсуждению",
+      "value_ru": "Камиль / продуктовая встреча 9 сентября"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Часть работы",
+      "Тема",
+      "Гипотеза или комментарий",
+      "К обсуждению"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы: Оценка; Тема: Договор; Гипотеза или комментарий: Ни одно дополнение к договору с клиентом не содержит этих значений.; К обсуждению: Камиль / продуктовая встреча 9 сентября",
+    "text_orig": "Partie du travail: Évaluation; Sujet: Contrat; Hypothèse ou commentaire: Aucun avenant client ne reprend ces valeurs.; À discuter: Camille / réunion produit du 9 septembre",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "20-010",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 10
+    },
+    "locator_text": "строка 10",
+    "segment_sha": "443243b52fa0",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Partie du travail",
+      "value": "Évaluation",
+      "header_ru": "Часть работы",
+      "value_ru": "Оценка"
+     },
+     {
+      "col": 2,
+      "header": "Sujet",
+      "value": "Décision",
+      "header_ru": "Тема",
+      "value_ru": "Решение"
+     },
+     {
+      "col": 3,
+      "header": "Hypothèse ou commentaire",
+      "value": "Le comité produit doit encore décider si l’expérience sera lancée.",
+      "header_ru": "Гипотеза или комментарий",
+      "value_ru": "Продуктовый комитет ещё должен решить, будет ли запущен эксперимент."
+     },
+     {
+      "col": 4,
+      "header": "À discuter",
+      "value": "Camille / réunion produit du 9 septembre",
+      "header_ru": "К обсуждению",
+      "value_ru": "Камиль / продуктовая встреча 9 сентября"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Часть работы",
+      "Тема",
+      "Гипотеза или комментарий",
+      "К обсуждению"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы: Оценка; Тема: Решение; Гипотеза или комментарий: Продуктовый комитет ещё должен решить, будет ли запущен эксперимент.; К обсуждению: Камиль / продуктовая встреча 9 сентября",
+    "text_orig": "Partie du travail: Évaluation; Sujet: Décision; Hypothèse ou commentaire: Le comité produit doit encore décider si l’expérience sera lancée.; À discuter: Camille / réunion produit du 9 septembre",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "20-011",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 11
+    },
+    "locator_text": "строка 11",
+    "segment_sha": "2abfee7c1a69",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Partie du travail",
+      "value": "Camille / discussion du 9 septembre",
+      "header_ru": "Часть работы",
+      "value_ru": "Камиль / обсуждение 9 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Sujet",
+      "value": "distribution",
+      "header_ru": "Тема",
+      "value_ru": "распределение"
+     },
+     {
+      "col": 3,
+      "header": "Hypothèse ou commentaire",
+      "value": "Comparer les demandes courtes et les longs fils; un total seul masque la longueur des conversations.",
+      "header_ru": "Гипотеза или комментарий",
+      "value_ru": "Сравнить короткие запросы и длинные ветки; один только итог скрывает длину разговоров."
+     },
+     {
+      "col": 4,
+      "header": "À discuter",
+      "value": "Préparer deux exemples anonymisés pour le comité",
+      "header_ru": "К обсуждению",
+      "value_ru": "Подготовить для комитета два обезличенных примера"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Часть работы",
+      "Тема",
+      "Гипотеза или комментарий",
+      "К обсуждению"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы: Камиль / обсуждение 9 сентября; Тема: распределение; Гипотеза или комментарий: Сравнить короткие запросы и длинные ветки; один только итог скрывает длину разговоров.; К обсуждению: Подготовить для комитета два обезличенных примера",
+    "text_orig": "Partie du travail: Camille / discussion du 9 septembre; Sujet: distribution; Hypothèse ou commentaire: Comparer les demandes courtes et les longs fils; un total seul masque la longueur des conversations.; À discuter: Préparer deux exemples anonymisés pour le comité",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "20-012",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 12
+    },
+    "locator_text": "строка 12",
+    "segment_sha": "4ed9545f9c58",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Partie du travail",
+      "value": "Noémie / discussion du 9 septembre",
+      "header_ru": "Часть работы",
+      "value_ru": "Ноэми / обсуждение 9 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Sujet",
+      "value": "coût",
+      "header_ru": "Тема",
+      "value_ru": "стоимость"
+     },
+     {
+      "col": 3,
+      "header": "Hypothèse ou commentaire",
+      "value": "Nous avons une estimation par message mais pas encore le coût de reprise des longs contextes.",
+      "header_ru": "Гипотеза или комментарий",
+      "value_ru": "У нас есть оценка на одно сообщение, но ещё нет стоимости повторной обработки длинных контекстов."
+     },
+     {
+      "col": 4,
+      "header": "À discuter",
+      "value": "Demander une fourchette à Assistant Product",
+      "header_ru": "К обсуждению",
+      "value_ru": "Запросить диапазон у Assistant Product"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Часть работы",
+      "Тема",
+      "Гипотеза или комментарий",
+      "К обсуждению"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы: Ноэми / обсуждение 9 сентября; Тема: стоимость; Гипотеза или комментарий: У нас есть оценка на одно сообщение, но ещё нет стоимости повторной обработки длинных контекстов.; К обсуждению: Запросить диапазон у Assistant Product",
+    "text_orig": "Partie du travail: Noémie / discussion du 9 septembre; Sujet: coût; Hypothèse ou commentaire: Nous avons une estimation par message mais pas encore le coût de reprise des longs contextes.; À discuter: Demander une fourchette à Assistant Product",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "20-013",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 13
+    },
+    "locator_text": "строка 13",
+    "segment_sha": "c32a0f083a1f",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Partie du travail",
+      "value": "Hugo / discussion du 9 septembre",
+      "header_ru": "Часть работы",
+      "value_ru": "Юго / обсуждение 9 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Sujet",
+      "value": "recrutement",
+      "header_ru": "Тема",
+      "value_ru": "набор участников"
+     },
+     {
+      "col": 3,
+      "header": "Hypothèse ou commentaire",
+      "value": "Deux organisations contactées souhaitent connaître le temps demandé à leurs administrateurs.",
+      "header_ru": "Гипотеза или комментарий",
+      "value_ru": "Две организации, с которыми связались, хотят знать, сколько времени потребуется от их администраторов."
+     },
+     {
+      "col": 4,
+      "header": "À discuter",
+      "value": "Ne pas envoyer d’invitation avant accord de participation",
+      "header_ru": "К обсуждению",
+      "value_ru": "Не отправлять приглашение до согласия на участие"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Часть работы",
+      "Тема",
+      "Гипотеза или комментарий",
+      "К обсуждению"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы: Юго / обсуждение 9 сентября; Тема: набор участников; Гипотеза или комментарий: Две организации, с которыми связались, хотят знать, сколько времени потребуется от их администраторов.; К обсуждению: Не отправлять приглашение до согласия на участие",
+    "text_orig": "Partie du travail: Hugo / discussion du 9 septembre; Sujet: recrutement; Hypothèse ou commentaire: Deux organisations contactées souhaitent connaître le temps demandé à leurs administrateurs.; À discuter: Ne pas envoyer d’invitation avant accord de participation",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "20-014",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 14
+    },
+    "locator_text": "строка 14",
+    "segment_sha": "25e737294ea2",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Partie du travail",
+      "value": "Léa / discussion du 9 septembre",
+      "header_ru": "Часть работы",
+      "value_ru": "Леа / обсуждение 9 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Sujet",
+      "value": "Team",
+      "header_ru": "Тема",
+      "value_ru": "Team"
+     },
+     {
+      "col": 3,
+      "header": "Hypothèse ou commentaire",
+      "value": "L’hypothèse de 9999 messages doit être testée avec le panel; le budget n’est pas validé.",
+      "header_ru": "Гипотеза или комментарий",
+      "value_ru": "Гипотезу в 9999 сообщений нужно проверить на панели; бюджет не утверждён."
+     },
+     {
+      "col": 4,
+      "header": "À discuter",
+      "value": "Conserver le scénario dans le dossier de préparation",
+      "header_ru": "К обсуждению",
+      "value_ru": "Сохранить сценарий в папке подготовки"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Часть работы",
+      "Тема",
+      "Гипотеза или комментарий",
+      "К обсуждению"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы: Леа / обсуждение 9 сентября; Тема: Team; Гипотеза или комментарий: Гипотезу в 9999 сообщений нужно проверить на панели; бюджет не утверждён.; К обсуждению: Сохранить сценарий в папке подготовки",
+    "text_orig": "Partie du travail: Léa / discussion du 9 septembre; Sujet: Team; Hypothèse ou commentaire: L’hypothèse de 9999 messages doit être testée avec le panel; le budget n’est pas validé.; À discuter: Conserver le scénario dans le dossier de préparation",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "20-015",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 15
+    },
+    "locator_text": "строка 15",
+    "segment_sha": "d39faf5f0a0e",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Partie du travail",
+      "value": "Camille / discussion du 9 septembre",
+      "header_ru": "Часть работы",
+      "value_ru": "Камиль / обсуждение 9 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Sujet",
+      "value": "réinitialisation",
+      "header_ru": "Тема",
+      "value_ru": "сброс"
+     },
+     {
+      "col": 3,
+      "header": "Hypothèse ou commentaire",
+      "value": "Une remise à zéro quotidienne compliquerait la comparaison avec une utilisation mensuelle.",
+      "header_ru": "Гипотеза или комментарий",
+      "value_ru": "Ежедневное обнуление усложнило бы сравнение с месячным использованием."
+     },
+     {
+      "col": 4,
+      "header": "À discuter",
+      "value": "Présenter les deux méthodes au comité, sans décider aujourd’hui",
+      "header_ru": "К обсуждению",
+      "value_ru": "Представить комитету оба метода, не принимая решения сегодня"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Часть работы",
+      "Тема",
+      "Гипотеза или комментарий",
+      "К обсуждению"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы: Камиль / обсуждение 9 сентября; Тема: сброс; Гипотеза или комментарий: Ежедневное обнуление усложнило бы сравнение с месячным использованием.; К обсуждению: Представить комитету оба метода, не принимая решения сегодня",
+    "text_orig": "Partie du travail: Camille / discussion du 9 septembre; Sujet: réinitialisation; Hypothèse ou commentaire: Une remise à zéro quotidienne compliquerait la comparaison avec une utilisation mensuelle.; À discuter: Présenter les deux méthodes au comité, sans décider aujourd’hui",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "20-016",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 16
+    },
+    "locator_text": "строка 16",
+    "segment_sha": "84113c14690a",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Partie du travail",
+      "value": "Adrien / discussion du 9 septembre",
+      "header_ru": "Часть работы",
+      "value_ru": "Адриен / обсуждение 9 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Sujet",
+      "value": "contrat",
+      "header_ru": "Тема",
+      "value_ru": "договор"
+     },
+     {
+      "col": 3,
+      "header": "Hypothèse ou commentaire",
+      "value": "Le formulaire de participation ne contient pas encore la phrase sur l’absence d’avenant commercial.",
+      "header_ru": "Гипотеза или комментарий",
+      "value_ru": "Форма участия пока не содержит фразы об отсутствии коммерческого дополнения к договору."
+     },
+     {
+      "col": 4,
+      "header": "À discuter",
+      "value": "Faire relire le formulaire avant les invitations",
+      "header_ru": "К обсуждению",
+      "value_ru": "Отдать форму на вычитку до отправки приглашений"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Часть работы",
+      "Тема",
+      "Гипотеза или комментарий",
+      "К обсуждению"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы: Адриен / обсуждение 9 сентября; Тема: договор; Гипотеза или комментарий: Форма участия пока не содержит фразы об отсутствии коммерческого дополнения к договору.; К обсуждению: Отдать форму на вычитку до отправки приглашений",
+    "text_orig": "Partie du travail: Adrien / discussion du 9 septembre; Sujet: contrat; Hypothèse ou commentaire: Le formulaire de participation ne contient pas encore la phrase sur l’absence d’avenant commercial.; À discuter: Faire relire le formulaire avant les invitations",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "20-017",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 17
+    },
+    "locator_text": "строка 17",
+    "segment_sha": "3270217db271",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Partie du travail",
+      "value": "Noémie / discussion du 9 septembre",
+      "header_ru": "Часть работы",
+      "value_ru": "Ноэми / обсуждение 9 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Sujet",
+      "value": "support",
+      "header_ru": "Тема",
+      "value_ru": "поддержка"
+     },
+     {
+      "col": 3,
+      "header": "Hypothèse ou commentaire",
+      "value": "Les agents demandent qui répondra aux questions des participants pendant les quatorze jours envisagés.",
+      "header_ru": "Гипотеза или комментарий",
+      "value_ru": "Сотрудники поддержки спрашивают, кто будет отвечать на вопросы участников в течение предполагаемых четырнадцати дней."
+     },
+     {
+      "col": 4,
+      "header": "À discuter",
+      "value": "Prévoir un contact et une relève dans le plan du test",
+      "header_ru": "К обсуждению",
+      "value_ru": "Предусмотреть в плане теста контакт и замену"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Часть работы",
+      "Тема",
+      "Гипотеза или комментарий",
+      "К обсуждению"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы: Ноэми / обсуждение 9 сентября; Тема: поддержка; Гипотеза или комментарий: Сотрудники поддержки спрашивают, кто будет отвечать на вопросы участников в течение предполагаемых четырнадцати дней.; К обсуждению: Предусмотреть в плане теста контакт и замену",
+    "text_orig": "Partie du travail: Noémie / discussion du 9 septembre; Sujet: support; Hypothèse ou commentaire: Les agents demandent qui répondra aux questions des participants pendant les quatorze jours envisagés.; À discuter: Prévoir un contact et une relève dans le plan du test",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "20-018",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 18
+    },
+    "locator_text": "строка 18",
+    "segment_sha": "455dd4bc000c",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Partie du travail",
+      "value": "Hugo / discussion du 9 septembre",
+      "header_ru": "Часть работы",
+      "value_ru": "Юго / обсуждение 9 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Sujet",
+      "value": "panel",
+      "header_ru": "Тема",
+      "value_ru": "панель"
+     },
+     {
+      "col": 3,
+      "header": "Hypothèse ou commentaire",
+      "value": "Le panel prévu reste limité à six organisations; les volontaires supplémentaires attendront la décision.",
+      "header_ru": "Гипотеза или комментарий",
+      "value_ru": "Планируемая панель по-прежнему ограничена шестью организациями; дополнительные добровольцы будут ждать решения."
+     },
+     {
+      "col": 4,
+      "header": "À discuter",
+      "value": "Vérifier la diversité des usages avant de choisir",
+      "header_ru": "К обсуждению",
+      "value_ru": "Перед выбором проверить разнообразие сценариев использования"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Часть работы",
+      "Тема",
+      "Гипотеза или комментарий",
+      "К обсуждению"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы: Юго / обсуждение 9 сентября; Тема: панель; Гипотеза или комментарий: Планируемая панель по-прежнему ограничена шестью организациями; дополнительные добровольцы будут ждать решения.; К обсуждению: Перед выбором проверить разнообразие сценариев использования",
+    "text_orig": "Partie du travail: Hugo / discussion du 9 septembre; Sujet: panel; Hypothèse ou commentaire: Le panel prévu reste limité à six organisations; les volontaires supplémentaires attendront la décision.; À discuter: Vérifier la diversité des usages avant de choisir",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "20-019",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 19
+    },
+    "locator_text": "строка 19",
+    "segment_sha": "188eee013f39",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Partie du travail",
+      "value": "Léa / discussion du 9 septembre",
+      "header_ru": "Часть работы",
+      "value_ru": "Леа / обсуждение 9 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Sujet",
+      "value": "mesure",
+      "header_ru": "Тема",
+      "value_ru": "измерение"
+     },
+     {
+      "col": 3,
+      "header": "Hypothèse ou commentaire",
+      "value": "Séparer une erreur serveur d’une demande envoyée pour ne pas surestimer la consommation observée.",
+      "header_ru": "Гипотеза или комментарий",
+      "value_ru": "Отделять ошибку сервера от отправленного запроса, чтобы не завышать наблюдаемое потребление."
+     },
+     {
+      "col": 4,
+      "header": "À discuter",
+      "value": "Ajouter le résultat technique aux observations",
+      "header_ru": "К обсуждению",
+      "value_ru": "Добавить технический результат к наблюдениям"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Часть работы",
+      "Тема",
+      "Гипотеза или комментарий",
+      "К обсуждению"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы: Леа / обсуждение 9 сентября; Тема: измерение; Гипотеза или комментарий: Отделять ошибку сервера от отправленного запроса, чтобы не завышать наблюдаемое потребление.; К обсуждению: Добавить технический результат к наблюдениям",
+    "text_orig": "Partie du travail: Léa / discussion du 9 septembre; Sujet: mesure; Hypothèse ou commentaire: Séparer une erreur serveur d’une demande envoyée pour ne pas surestimer la consommation observée.; À discuter: Ajouter le résultat technique aux observations",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "20-020",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 20
+    },
+    "locator_text": "строка 20",
+    "segment_sha": "0aa49202a895",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Partie du travail",
+      "value": "Adrien / discussion du 9 septembre",
+      "header_ru": "Часть работы",
+      "value_ru": "Адриен / обсуждение 9 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Sujet",
+      "value": "confidentialité",
+      "header_ru": "Тема",
+      "value_ru": "конфиденциальность"
+     },
+     {
+      "col": 3,
+      "header": "Hypothèse ou commentaire",
+      "value": "Les retours qualitatifs ne doivent pas contenir de texte privé issu des conversations clients.",
+      "header_ru": "Гипотеза или комментарий",
+      "value_ru": "Качественные отзывы не должны содержать закрытый текст из разговоров с клиентами."
+     },
+     {
+      "col": 4,
+      "header": "À discuter",
+      "value": "Demander un résumé anonymisé plutôt qu’un export",
+      "header_ru": "К обсуждению",
+      "value_ru": "Запросить обезличенное резюме, а не выгрузку"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Часть работы",
+      "Тема",
+      "Гипотеза или комментарий",
+      "К обсуждению"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы: Адриен / обсуждение 9 сентября; Тема: конфиденциальность; Гипотеза или комментарий: Качественные отзывы не должны содержать закрытый текст из разговоров с клиентами.; К обсуждению: Запросить обезличенное резюме, а не выгрузку",
+    "text_orig": "Partie du travail: Adrien / discussion du 9 septembre; Sujet: confidentialité; Hypothèse ou commentaire: Les retours qualitatifs ne doivent pas contenir de texte privé issu des conversations clients.; À discuter: Demander un résumé anonymisé plutôt qu’un export",
+    "translation": "translated",
+    "translation_review": {
+     "checks": [
+      "negation"
+     ],
+     "decision": "accepted",
+     "note": "«plutôt qu’un export» → «а не выгрузку» — противопоставление сохранено."
+    },
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "20-021",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 21
+    },
+    "locator_text": "строка 21",
+    "segment_sha": "27beebbe50d0",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Partie du travail",
+      "value": "Camille / discussion du 9 septembre",
+      "header_ru": "Часть работы",
+      "value_ru": "Камиль / обсуждение 9 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Sujet",
+      "value": "planning",
+      "header_ru": "Тема",
+      "value_ru": "планирование"
+     },
+     {
+      "col": 3,
+      "header": "Hypothèse ou commentaire",
+      "value": "Aucune date de lancement n’a été arrêtée; la revue budgétaire est encore à organiser.",
+      "header_ru": "Гипотеза или комментарий",
+      "value_ru": "Дата запуска не определена; бюджетный обзор ещё предстоит организовать."
+     },
+     {
+      "col": 4,
+      "header": "À discuter",
+      "value": "Revenir avec les réponses Finance au prochain comité",
+      "header_ru": "К обсуждению",
+      "value_ru": "Вернуться с ответами Finance на следующий комитет"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Часть работы",
+      "Тема",
+      "Гипотеза или комментарий",
+      "К обсуждению"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы: Камиль / обсуждение 9 сентября; Тема: планирование; Гипотеза или комментарий: Дата запуска не определена; бюджетный обзор ещё предстоит организовать.; К обсуждению: Вернуться с ответами Finance на следующий комитет",
+    "text_orig": "Partie du travail: Camille / discussion du 9 septembre; Sujet: planning; Hypothèse ou commentaire: Aucune date de lancement n’a été arrêtée; la revue budgétaire est encore à organiser.; À discuter: Revenir avec les réponses Finance au prochain comité",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "20-022",
+    "doc_no": 20,
+    "doc_id": "assistant-quota-hypotheses",
+    "doc_version": "",
+    "source_path": "documents/Планирование/assistant-hypotheses.csv",
+    "source_sha256": "362e3c8ea0f782c4bd45d56844ff34280a95dd8fae512fccfa1b1b62a157bf7e",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 22
+    },
+    "locator_text": "строка 22",
+    "segment_sha": "159d64e859da",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Partie du travail",
+      "value": "Noémie / discussion du 9 septembre",
+      "header_ru": "Часть работы",
+      "value_ru": "Ноэми / обсуждение 9 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Sujet",
+      "value": "sortie du test",
+      "header_ru": "Тема",
+      "value_ru": "завершение теста"
+     },
+     {
+      "col": 3,
+      "header": "Hypothèse ou commentaire",
+      "value": "Il faut expliquer aux volontaires ce qui se passera à la fin de l’expérience proposée.",
+      "header_ru": "Гипотеза или комментарий",
+      "value_ru": "Нужно объяснить добровольцам, что произойдёт по окончании предлагаемого эксперимента."
+     },
+     {
+      "col": 4,
+      "header": "À discuter",
+      "value": "Préparer une note de clôture avant de lancer le panel",
+      "header_ru": "К обсуждению",
+      "value_ru": "Подготовить заключительную записку до запуска панели"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Часть работы",
+      "Тема",
+      "Гипотеза или комментарий",
+      "К обсуждению"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Часть работы: Ноэми / обсуждение 9 сентября; Тема: завершение теста; Гипотеза или комментарий: Нужно объяснить добровольцам, что произойдёт по окончании предлагаемого эксперимента.; К обсуждению: Подготовить заключительную записку до запуска панели",
+    "text_orig": "Partie du travail: Noémie / discussion du 9 septembre; Sujet: sortie du test; Hypothèse ou commentaire: Il faut expliquer aux volontaires ce qui se passera à la fin de l’expérience proposée.; À discuter: Préparer une note de clôture avant de lancer le panel",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   }
+  ]
+ }
+}

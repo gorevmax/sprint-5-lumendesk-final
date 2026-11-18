@@ -1,0 +1,5776 @@
+{
+ "no": 40,
+ "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+ "doc_id": "quotas-presentation",
+ "title": "",
+ "title_ru": null,
+ "lang": "ru",
+ "format": "csv",
+ "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+ "decision": {
+  "no": 40,
+  "path": "documents/Рабочие копии/квоты для презентации.csv",
+  "doc_id": "quotas-presentation",
+  "title": "",
+  "lang": "ru",
+  "owner": "",
+  "version": "",
+  "updated": "",
+  "doc_type": "draft",
+  "status": "exclude",
+  "rule": "R6",
+  "reason": "Материал для презентации без владельца и даты; лимиты вложений совпадают с №29, а квоты активных карточек и правило о публичных ссылках другими документами не подтверждены.",
+  "access": "all",
+  "trust": "unconfirmed_origin",
+  "related": [
+   29,
+   28
+  ]
+ },
+ "fragments": [
+  {
+   "fragment_id": "40-001",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "table_header",
+   "locator": {
+    "csv_row": 1
+   },
+   "locator_text": "строка 1",
+   "segment_sha": "417bad54b503",
+   "cells": [
+    {
+     "col": 1,
+     "value": "Тариф или предмет",
+     "value_ru": "Тариф или предмет"
+    },
+    {
+     "col": 2,
+     "value": "Правило или операция",
+     "value_ru": "Правило или операция"
+    },
+    {
+     "col": 3,
+     "value": "Размер",
+     "value_ru": "Размер"
+    },
+    {
+     "col": 4,
+     "value": "Единица",
+     "value_ru": "Единица"
+    },
+    {
+     "col": 5,
+     "value": "Итог",
+     "value_ru": "Итог"
+    }
+   ],
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет | Правило или операция | Размер | Единица | Итог",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-002",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 2
+   },
+   "locator_text": "строка 2",
+   "segment_sha": "8fa9bc424513",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Starter",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Максимальный размер одного вложения составляет 25 MiB.",
+     "header_ru": "Правило или операция",
+     "value_ru": "Максимальный размер одного вложения составляет 25 MiB."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Starter; Правило или операция: Максимальный размер одного вложения составляет 25 MiB.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-003",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 3
+   },
+   "locator_text": "строка 3",
+   "segment_sha": "0dab02cad5ff",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Team",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Team"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Максимальный размер одного вложения составляет 100 MiB.",
+     "header_ru": "Правило или операция",
+     "value_ru": "Максимальный размер одного вложения составляет 100 MiB."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Team; Правило или операция: Максимальный размер одного вложения составляет 100 MiB.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-004",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 4
+   },
+   "locator_text": "строка 4",
+   "segment_sha": "27643358745c",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Enterprise",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Максимальный размер одного вложения составляет 250 MiB.",
+     "header_ru": "Правило или операция",
+     "value_ru": "Максимальный размер одного вложения составляет 250 MiB."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Enterprise; Правило или операция: Максимальный размер одного вложения составляет 250 MiB.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-005",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 5
+   },
+   "locator_text": "строка 5",
+   "segment_sha": "43363bee7296",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Карточки Starter",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Карточки Starter"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "До 5000 активных карточек.",
+     "header_ru": "Правило или операция",
+     "value_ru": "До 5000 активных карточек."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Карточки Starter; Правило или операция: До 5000 активных карточек.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-006",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 6
+   },
+   "locator_text": "строка 6",
+   "segment_sha": "ef76c7701e15",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Карточки Team",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Карточки Team"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "До 100000 активных карточек.",
+     "header_ru": "Правило или операция",
+     "value_ru": "До 100000 активных карточек."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Карточки Team; Правило или операция: До 100000 активных карточек.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-007",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 7
+   },
+   "locator_text": "строка 7",
+   "segment_sha": "be77fac76c96",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Карточки Enterprise",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Карточки Enterprise"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "До 1000000 активных карточек.",
+     "header_ru": "Правило или операция",
+     "value_ru": "До 1000000 активных карточек."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Карточки Enterprise; Правило или операция: До 1000000 активных карточек.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-008",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 8
+   },
+   "locator_text": "строка 8",
+   "segment_sha": "970bc9798065",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Параллельный экспорт",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Параллельный экспорт"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "До 2 заданий одновременно на workspace.",
+     "header_ru": "Правило или операция",
+     "value_ru": "До 2 заданий одновременно на workspace."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Параллельный экспорт; Правило или операция: До 2 заданий одновременно на workspace.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-009",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 9
+   },
+   "locator_text": "строка 9",
+   "segment_sha": "c29f24c3e4d9",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Публичные ссылки",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Публичные ссылки"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "На Team и Enterprise администратор может запретить создание публичных ссылок.",
+     "header_ru": "Правило или операция",
+     "value_ru": "На Team и Enterprise администратор может запретить создание публичных ссылок."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Публичные ссылки; Правило или операция: На Team и Enterprise администратор может запретить создание публичных ссылок.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-010",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 10
+   },
+   "locator_text": "строка 10",
+   "segment_sha": "fcc89ad5d5db",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Превышение",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Превышение"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "При превышении квоты новые объекты не создаются, существующие остаются доступны для чтения.",
+     "header_ru": "Правило или операция",
+     "value_ru": "При превышении квоты новые объекты не создаются, существующие остаются доступны для чтения."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Превышение; Правило или операция: При превышении квоты новые объекты не создаются, существующие остаются доступны для чтения.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-011",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 11
+   },
+   "locator_text": "строка 11",
+   "segment_sha": "1a5e2b69c585",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Starter",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "12",
+     "header_ru": "Размер",
+     "value_ru": "12"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 1: принят после проверки защиты",
+     "header_ru": "Итог",
+     "value_ru": "пример 1: принят после проверки защиты"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Starter; Правило или операция: Проверка вложения; Размер: 12; Единица: MiB; Итог: пример 1: принят после проверки защиты",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-012",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 12
+   },
+   "locator_text": "строка 12",
+   "segment_sha": "df510e182e7f",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Team",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Team"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "12",
+     "header_ru": "Размер",
+     "value_ru": "12"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 2: принят после проверки защиты",
+     "header_ru": "Итог",
+     "value_ru": "пример 2: принят после проверки защиты"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Team; Правило или операция: Проверка вложения; Размер: 12; Единица: MiB; Итог: пример 2: принят после проверки защиты",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-013",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 13
+   },
+   "locator_text": "строка 13",
+   "segment_sha": "ac49febcc120",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Enterprise",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "12",
+     "header_ru": "Размер",
+     "value_ru": "12"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 3: принят после проверки защиты",
+     "header_ru": "Итог",
+     "value_ru": "пример 3: принят после проверки защиты"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Enterprise; Правило или операция: Проверка вложения; Размер: 12; Единица: MiB; Итог: пример 3: принят после проверки защиты",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-014",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 14
+   },
+   "locator_text": "строка 14",
+   "segment_sha": "45cf0af50126",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Starter",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "24",
+     "header_ru": "Размер",
+     "value_ru": "24"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 4: принят после проверки защиты",
+     "header_ru": "Итог",
+     "value_ru": "пример 4: принят после проверки защиты"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Starter; Правило или операция: Проверка вложения; Размер: 24; Единица: MiB; Итог: пример 4: принят после проверки защиты",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-015",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 15
+   },
+   "locator_text": "строка 15",
+   "segment_sha": "73c8a1be8b87",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Team",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Team"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "24",
+     "header_ru": "Размер",
+     "value_ru": "24"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 5: принят после проверки защиты",
+     "header_ru": "Итог",
+     "value_ru": "пример 5: принят после проверки защиты"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Team; Правило или операция: Проверка вложения; Размер: 24; Единица: MiB; Итог: пример 5: принят после проверки защиты",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-016",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 16
+   },
+   "locator_text": "строка 16",
+   "segment_sha": "57d36a0f34dd",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Enterprise",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "24",
+     "header_ru": "Размер",
+     "value_ru": "24"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 6: принят после проверки защиты",
+     "header_ru": "Итог",
+     "value_ru": "пример 6: принят после проверки защиты"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Enterprise; Правило или операция: Проверка вложения; Размер: 24; Единица: MiB; Итог: пример 6: принят после проверки защиты",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-017",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 17
+   },
+   "locator_text": "строка 17",
+   "segment_sha": "e9e8149e8b33",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Starter",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "26",
+     "header_ru": "Размер",
+     "value_ru": "26"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 7: отклонён по размеру одного файла",
+     "header_ru": "Итог",
+     "value_ru": "пример 7: отклонён по размеру одного файла"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Starter; Правило или операция: Проверка вложения; Размер: 26; Единица: MiB; Итог: пример 7: отклонён по размеру одного файла",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-018",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 18
+   },
+   "locator_text": "строка 18",
+   "segment_sha": "3eca05deb635",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Team",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Team"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "26",
+     "header_ru": "Размер",
+     "value_ru": "26"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 8: принят после проверки защиты",
+     "header_ru": "Итог",
+     "value_ru": "пример 8: принят после проверки защиты"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Team; Правило или операция: Проверка вложения; Размер: 26; Единица: MiB; Итог: пример 8: принят после проверки защиты",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-019",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 19
+   },
+   "locator_text": "строка 19",
+   "segment_sha": "dee51db417ea",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Enterprise",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "26",
+     "header_ru": "Размер",
+     "value_ru": "26"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 9: принят после проверки защиты",
+     "header_ru": "Итог",
+     "value_ru": "пример 9: принят после проверки защиты"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Enterprise; Правило или операция: Проверка вложения; Размер: 26; Единица: MiB; Итог: пример 9: принят после проверки защиты",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-020",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 20
+   },
+   "locator_text": "строка 20",
+   "segment_sha": "2d016599a445",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Starter",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "78",
+     "header_ru": "Размер",
+     "value_ru": "78"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 10: отклонён по размеру одного файла",
+     "header_ru": "Итог",
+     "value_ru": "пример 10: отклонён по размеру одного файла"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Starter; Правило или операция: Проверка вложения; Размер: 78; Единица: MiB; Итог: пример 10: отклонён по размеру одного файла",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-021",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 21
+   },
+   "locator_text": "строка 21",
+   "segment_sha": "6f11cdf71f3f",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Team",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Team"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "78",
+     "header_ru": "Размер",
+     "value_ru": "78"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 11: принят после проверки защиты",
+     "header_ru": "Итог",
+     "value_ru": "пример 11: принят после проверки защиты"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Team; Правило или операция: Проверка вложения; Размер: 78; Единица: MiB; Итог: пример 11: принят после проверки защиты",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-022",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 22
+   },
+   "locator_text": "строка 22",
+   "segment_sha": "0cb3bad2cadc",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Enterprise",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "78",
+     "header_ru": "Размер",
+     "value_ru": "78"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 12: принят после проверки защиты",
+     "header_ru": "Итог",
+     "value_ru": "пример 12: принят после проверки защиты"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Enterprise; Правило или операция: Проверка вложения; Размер: 78; Единица: MiB; Итог: пример 12: принят после проверки защиты",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-023",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 23
+   },
+   "locator_text": "строка 23",
+   "segment_sha": "022708a6409e",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Starter",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "99",
+     "header_ru": "Размер",
+     "value_ru": "99"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 13: отклонён по размеру одного файла",
+     "header_ru": "Итог",
+     "value_ru": "пример 13: отклонён по размеру одного файла"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Starter; Правило или операция: Проверка вложения; Размер: 99; Единица: MiB; Итог: пример 13: отклонён по размеру одного файла",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-024",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 24
+   },
+   "locator_text": "строка 24",
+   "segment_sha": "644fe4f499f3",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Team",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Team"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "99",
+     "header_ru": "Размер",
+     "value_ru": "99"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 14: принят после проверки защиты",
+     "header_ru": "Итог",
+     "value_ru": "пример 14: принят после проверки защиты"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Team; Правило или операция: Проверка вложения; Размер: 99; Единица: MiB; Итог: пример 14: принят после проверки защиты",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-025",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 25
+   },
+   "locator_text": "строка 25",
+   "segment_sha": "75266d76b5ba",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Enterprise",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "99",
+     "header_ru": "Размер",
+     "value_ru": "99"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 15: принят после проверки защиты",
+     "header_ru": "Итог",
+     "value_ru": "пример 15: принят после проверки защиты"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Enterprise; Правило или операция: Проверка вложения; Размер: 99; Единица: MiB; Итог: пример 15: принят после проверки защиты",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-026",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 26
+   },
+   "locator_text": "строка 26",
+   "segment_sha": "bb75c8ad449c",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Starter",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "101",
+     "header_ru": "Размер",
+     "value_ru": "101"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 16: отклонён по размеру одного файла",
+     "header_ru": "Итог",
+     "value_ru": "пример 16: отклонён по размеру одного файла"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Starter; Правило или операция: Проверка вложения; Размер: 101; Единица: MiB; Итог: пример 16: отклонён по размеру одного файла",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-027",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 27
+   },
+   "locator_text": "строка 27",
+   "segment_sha": "b5b634727f93",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Team",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Team"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "101",
+     "header_ru": "Размер",
+     "value_ru": "101"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 17: отклонён по размеру одного файла",
+     "header_ru": "Итог",
+     "value_ru": "пример 17: отклонён по размеру одного файла"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Team; Правило или операция: Проверка вложения; Размер: 101; Единица: MiB; Итог: пример 17: отклонён по размеру одного файла",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-028",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 28
+   },
+   "locator_text": "строка 28",
+   "segment_sha": "773c07f52c48",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Enterprise",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "101",
+     "header_ru": "Размер",
+     "value_ru": "101"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 18: принят после проверки защиты",
+     "header_ru": "Итог",
+     "value_ru": "пример 18: принят после проверки защиты"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Enterprise; Правило или операция: Проверка вложения; Размер: 101; Единица: MiB; Итог: пример 18: принят после проверки защиты",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-029",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 29
+   },
+   "locator_text": "строка 29",
+   "segment_sha": "27abd30c15d1",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Starter",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "199",
+     "header_ru": "Размер",
+     "value_ru": "199"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 19: отклонён по размеру одного файла",
+     "header_ru": "Итог",
+     "value_ru": "пример 19: отклонён по размеру одного файла"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Starter; Правило или операция: Проверка вложения; Размер: 199; Единица: MiB; Итог: пример 19: отклонён по размеру одного файла",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-030",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 30
+   },
+   "locator_text": "строка 30",
+   "segment_sha": "312c9874462a",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Team",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Team"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "199",
+     "header_ru": "Размер",
+     "value_ru": "199"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 20: отклонён по размеру одного файла",
+     "header_ru": "Итог",
+     "value_ru": "пример 20: отклонён по размеру одного файла"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Team; Правило или операция: Проверка вложения; Размер: 199; Единица: MiB; Итог: пример 20: отклонён по размеру одного файла",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-031",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 31
+   },
+   "locator_text": "строка 31",
+   "segment_sha": "d6287a583534",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Enterprise",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "199",
+     "header_ru": "Размер",
+     "value_ru": "199"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 21: принят после проверки защиты",
+     "header_ru": "Итог",
+     "value_ru": "пример 21: принят после проверки защиты"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Enterprise; Правило или операция: Проверка вложения; Размер: 199; Единица: MiB; Итог: пример 21: принят после проверки защиты",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-032",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 32
+   },
+   "locator_text": "строка 32",
+   "segment_sha": "97e663efa664",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Starter",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "249",
+     "header_ru": "Размер",
+     "value_ru": "249"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 22: отклонён по размеру одного файла",
+     "header_ru": "Итог",
+     "value_ru": "пример 22: отклонён по размеру одного файла"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Starter; Правило или операция: Проверка вложения; Размер: 249; Единица: MiB; Итог: пример 22: отклонён по размеру одного файла",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-033",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 33
+   },
+   "locator_text": "строка 33",
+   "segment_sha": "3a4645dfe29b",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Team",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Team"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "249",
+     "header_ru": "Размер",
+     "value_ru": "249"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 23: отклонён по размеру одного файла",
+     "header_ru": "Итог",
+     "value_ru": "пример 23: отклонён по размеру одного файла"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Team; Правило или операция: Проверка вложения; Размер: 249; Единица: MiB; Итог: пример 23: отклонён по размеру одного файла",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-034",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 34
+   },
+   "locator_text": "строка 34",
+   "segment_sha": "eb97426a948d",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Enterprise",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "249",
+     "header_ru": "Размер",
+     "value_ru": "249"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 24: принят после проверки защиты",
+     "header_ru": "Итог",
+     "value_ru": "пример 24: принят после проверки защиты"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Enterprise; Правило или операция: Проверка вложения; Размер: 249; Единица: MiB; Итог: пример 24: принят после проверки защиты",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-035",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 35
+   },
+   "locator_text": "строка 35",
+   "segment_sha": "d7c13def38dd",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Starter",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "251",
+     "header_ru": "Размер",
+     "value_ru": "251"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 25: отклонён по размеру одного файла",
+     "header_ru": "Итог",
+     "value_ru": "пример 25: отклонён по размеру одного файла"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Starter; Правило или операция: Проверка вложения; Размер: 251; Единица: MiB; Итог: пример 25: отклонён по размеру одного файла",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-036",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 36
+   },
+   "locator_text": "строка 36",
+   "segment_sha": "c49b12615b26",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Team",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Team"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "251",
+     "header_ru": "Размер",
+     "value_ru": "251"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 26: отклонён по размеру одного файла",
+     "header_ru": "Итог",
+     "value_ru": "пример 26: отклонён по размеру одного файла"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Team; Правило или операция: Проверка вложения; Размер: 251; Единица: MiB; Итог: пример 26: отклонён по размеру одного файла",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  },
+  {
+   "fragment_id": "40-037",
+   "doc_no": 40,
+   "doc_id": "quotas-presentation",
+   "doc_version": "",
+   "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+   "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+   "source_lang": "ru",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 37
+   },
+   "locator_text": "строка 37",
+   "segment_sha": "8b5933b40555",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Тариф или предмет",
+     "value": "Enterprise",
+     "header_ru": "Тариф или предмет",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 2,
+     "header": "Правило или операция",
+     "value": "Проверка вложения",
+     "header_ru": "Правило или операция",
+     "value_ru": "Проверка вложения"
+    },
+    {
+     "col": 3,
+     "header": "Размер",
+     "value": "251",
+     "header_ru": "Размер",
+     "value_ru": "251"
+    },
+    {
+     "col": 4,
+     "header": "Единица",
+     "value": "MiB",
+     "header_ru": "Единица",
+     "value_ru": "MiB"
+    },
+    {
+     "col": 5,
+     "header": "Итог",
+     "value": "пример 27: отклонён по размеру одного файла",
+     "header_ru": "Итог",
+     "value_ru": "пример 27: отклонён по размеру одного файла"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Тариф или предмет",
+     "Правило или операция",
+     "Размер",
+     "Единица",
+     "Итог"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Тариф или предмет: Enterprise; Правило или операция: Проверка вложения; Размер: 251; Единица: MiB; Итог: пример 27: отклонён по размеру одного файла",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Не действующие условия (черновик / гипотеза / презентация); не использовать в ответах."
+  }
+ ],
+ "_base": {
+  "no": 40,
+  "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+  "doc_id": "quotas-presentation",
+  "title": "",
+  "title_ru": null,
+  "lang": "ru",
+  "format": "csv",
+  "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+  "decision": {
+   "no": 40,
+   "path": "documents/Рабочие копии/квоты для презентации.csv",
+   "doc_id": "quotas-presentation",
+   "title": "",
+   "lang": "ru",
+   "owner": "",
+   "version": "",
+   "updated": "",
+   "doc_type": "draft",
+   "status": "exclude",
+   "rule": "R6",
+   "reason": "Материал для презентации без владельца и даты; лимиты вложений совпадают с №29, а квоты активных карточек и правило о публичных ссылках другими документами не подтверждены.",
+   "access": "all",
+   "trust": "unconfirmed_origin",
+   "related": [
+    29,
+    28
+   ]
+  },
+  "fragments": [
+   {
+    "fragment_id": "40-001",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "table_header",
+    "locator": {
+     "csv_row": 1
+    },
+    "locator_text": "строка 1",
+    "segment_sha": "417bad54b503",
+    "cells": [
+     {
+      "col": 1,
+      "value": "Тариф или предмет",
+      "value_ru": "Тариф или предмет"
+     },
+     {
+      "col": 2,
+      "value": "Правило или операция",
+      "value_ru": "Правило или операция"
+     },
+     {
+      "col": 3,
+      "value": "Размер",
+      "value_ru": "Размер"
+     },
+     {
+      "col": 4,
+      "value": "Единица",
+      "value_ru": "Единица"
+     },
+     {
+      "col": 5,
+      "value": "Итог",
+      "value_ru": "Итог"
+     }
+    ],
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет | Правило или операция | Размер | Единица | Итог",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-002",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 2
+    },
+    "locator_text": "строка 2",
+    "segment_sha": "8fa9bc424513",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Starter",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Максимальный размер одного вложения составляет 25 MiB.",
+      "header_ru": "Правило или операция",
+      "value_ru": "Максимальный размер одного вложения составляет 25 MiB."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Starter; Правило или операция: Максимальный размер одного вложения составляет 25 MiB.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-003",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 3
+    },
+    "locator_text": "строка 3",
+    "segment_sha": "0dab02cad5ff",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Team",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Team"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Максимальный размер одного вложения составляет 100 MiB.",
+      "header_ru": "Правило или операция",
+      "value_ru": "Максимальный размер одного вложения составляет 100 MiB."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Team; Правило или операция: Максимальный размер одного вложения составляет 100 MiB.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-004",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 4
+    },
+    "locator_text": "строка 4",
+    "segment_sha": "27643358745c",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Enterprise",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Максимальный размер одного вложения составляет 250 MiB.",
+      "header_ru": "Правило или операция",
+      "value_ru": "Максимальный размер одного вложения составляет 250 MiB."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Enterprise; Правило или операция: Максимальный размер одного вложения составляет 250 MiB.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-005",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 5
+    },
+    "locator_text": "строка 5",
+    "segment_sha": "43363bee7296",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Карточки Starter",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Карточки Starter"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "До 5000 активных карточек.",
+      "header_ru": "Правило или операция",
+      "value_ru": "До 5000 активных карточек."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Карточки Starter; Правило или операция: До 5000 активных карточек.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-006",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 6
+    },
+    "locator_text": "строка 6",
+    "segment_sha": "ef76c7701e15",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Карточки Team",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Карточки Team"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "До 100000 активных карточек.",
+      "header_ru": "Правило или операция",
+      "value_ru": "До 100000 активных карточек."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Карточки Team; Правило или операция: До 100000 активных карточек.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-007",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 7
+    },
+    "locator_text": "строка 7",
+    "segment_sha": "be77fac76c96",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Карточки Enterprise",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Карточки Enterprise"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "До 1000000 активных карточек.",
+      "header_ru": "Правило или операция",
+      "value_ru": "До 1000000 активных карточек."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Карточки Enterprise; Правило или операция: До 1000000 активных карточек.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-008",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 8
+    },
+    "locator_text": "строка 8",
+    "segment_sha": "970bc9798065",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Параллельный экспорт",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Параллельный экспорт"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "До 2 заданий одновременно на workspace.",
+      "header_ru": "Правило или операция",
+      "value_ru": "До 2 заданий одновременно на workspace."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Параллельный экспорт; Правило или операция: До 2 заданий одновременно на workspace.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-009",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 9
+    },
+    "locator_text": "строка 9",
+    "segment_sha": "c29f24c3e4d9",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Публичные ссылки",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Публичные ссылки"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "На Team и Enterprise администратор может запретить создание публичных ссылок.",
+      "header_ru": "Правило или операция",
+      "value_ru": "На Team и Enterprise администратор может запретить создание публичных ссылок."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Публичные ссылки; Правило или операция: На Team и Enterprise администратор может запретить создание публичных ссылок.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-010",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 10
+    },
+    "locator_text": "строка 10",
+    "segment_sha": "fcc89ad5d5db",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Превышение",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Превышение"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "При превышении квоты новые объекты не создаются, существующие остаются доступны для чтения.",
+      "header_ru": "Правило или операция",
+      "value_ru": "При превышении квоты новые объекты не создаются, существующие остаются доступны для чтения."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Превышение; Правило или операция: При превышении квоты новые объекты не создаются, существующие остаются доступны для чтения.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-011",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 11
+    },
+    "locator_text": "строка 11",
+    "segment_sha": "1a5e2b69c585",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Starter",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "12",
+      "header_ru": "Размер",
+      "value_ru": "12"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 1: принят после проверки защиты",
+      "header_ru": "Итог",
+      "value_ru": "пример 1: принят после проверки защиты"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Starter; Правило или операция: Проверка вложения; Размер: 12; Единица: MiB; Итог: пример 1: принят после проверки защиты",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-012",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 12
+    },
+    "locator_text": "строка 12",
+    "segment_sha": "df510e182e7f",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Team",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Team"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "12",
+      "header_ru": "Размер",
+      "value_ru": "12"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 2: принят после проверки защиты",
+      "header_ru": "Итог",
+      "value_ru": "пример 2: принят после проверки защиты"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Team; Правило или операция: Проверка вложения; Размер: 12; Единица: MiB; Итог: пример 2: принят после проверки защиты",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-013",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 13
+    },
+    "locator_text": "строка 13",
+    "segment_sha": "ac49febcc120",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Enterprise",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "12",
+      "header_ru": "Размер",
+      "value_ru": "12"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 3: принят после проверки защиты",
+      "header_ru": "Итог",
+      "value_ru": "пример 3: принят после проверки защиты"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Enterprise; Правило или операция: Проверка вложения; Размер: 12; Единица: MiB; Итог: пример 3: принят после проверки защиты",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-014",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 14
+    },
+    "locator_text": "строка 14",
+    "segment_sha": "45cf0af50126",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Starter",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "24",
+      "header_ru": "Размер",
+      "value_ru": "24"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 4: принят после проверки защиты",
+      "header_ru": "Итог",
+      "value_ru": "пример 4: принят после проверки защиты"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Starter; Правило или операция: Проверка вложения; Размер: 24; Единица: MiB; Итог: пример 4: принят после проверки защиты",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-015",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 15
+    },
+    "locator_text": "строка 15",
+    "segment_sha": "73c8a1be8b87",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Team",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Team"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "24",
+      "header_ru": "Размер",
+      "value_ru": "24"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 5: принят после проверки защиты",
+      "header_ru": "Итог",
+      "value_ru": "пример 5: принят после проверки защиты"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Team; Правило или операция: Проверка вложения; Размер: 24; Единица: MiB; Итог: пример 5: принят после проверки защиты",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-016",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 16
+    },
+    "locator_text": "строка 16",
+    "segment_sha": "57d36a0f34dd",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Enterprise",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "24",
+      "header_ru": "Размер",
+      "value_ru": "24"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 6: принят после проверки защиты",
+      "header_ru": "Итог",
+      "value_ru": "пример 6: принят после проверки защиты"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Enterprise; Правило или операция: Проверка вложения; Размер: 24; Единица: MiB; Итог: пример 6: принят после проверки защиты",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-017",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 17
+    },
+    "locator_text": "строка 17",
+    "segment_sha": "e9e8149e8b33",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Starter",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "26",
+      "header_ru": "Размер",
+      "value_ru": "26"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 7: отклонён по размеру одного файла",
+      "header_ru": "Итог",
+      "value_ru": "пример 7: отклонён по размеру одного файла"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Starter; Правило или операция: Проверка вложения; Размер: 26; Единица: MiB; Итог: пример 7: отклонён по размеру одного файла",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-018",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 18
+    },
+    "locator_text": "строка 18",
+    "segment_sha": "3eca05deb635",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Team",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Team"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "26",
+      "header_ru": "Размер",
+      "value_ru": "26"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 8: принят после проверки защиты",
+      "header_ru": "Итог",
+      "value_ru": "пример 8: принят после проверки защиты"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Team; Правило или операция: Проверка вложения; Размер: 26; Единица: MiB; Итог: пример 8: принят после проверки защиты",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-019",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 19
+    },
+    "locator_text": "строка 19",
+    "segment_sha": "dee51db417ea",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Enterprise",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "26",
+      "header_ru": "Размер",
+      "value_ru": "26"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 9: принят после проверки защиты",
+      "header_ru": "Итог",
+      "value_ru": "пример 9: принят после проверки защиты"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Enterprise; Правило или операция: Проверка вложения; Размер: 26; Единица: MiB; Итог: пример 9: принят после проверки защиты",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-020",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 20
+    },
+    "locator_text": "строка 20",
+    "segment_sha": "2d016599a445",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Starter",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "78",
+      "header_ru": "Размер",
+      "value_ru": "78"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 10: отклонён по размеру одного файла",
+      "header_ru": "Итог",
+      "value_ru": "пример 10: отклонён по размеру одного файла"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Starter; Правило или операция: Проверка вложения; Размер: 78; Единица: MiB; Итог: пример 10: отклонён по размеру одного файла",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-021",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 21
+    },
+    "locator_text": "строка 21",
+    "segment_sha": "6f11cdf71f3f",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Team",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Team"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "78",
+      "header_ru": "Размер",
+      "value_ru": "78"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 11: принят после проверки защиты",
+      "header_ru": "Итог",
+      "value_ru": "пример 11: принят после проверки защиты"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Team; Правило или операция: Проверка вложения; Размер: 78; Единица: MiB; Итог: пример 11: принят после проверки защиты",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-022",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 22
+    },
+    "locator_text": "строка 22",
+    "segment_sha": "0cb3bad2cadc",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Enterprise",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "78",
+      "header_ru": "Размер",
+      "value_ru": "78"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 12: принят после проверки защиты",
+      "header_ru": "Итог",
+      "value_ru": "пример 12: принят после проверки защиты"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Enterprise; Правило или операция: Проверка вложения; Размер: 78; Единица: MiB; Итог: пример 12: принят после проверки защиты",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-023",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 23
+    },
+    "locator_text": "строка 23",
+    "segment_sha": "022708a6409e",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Starter",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "99",
+      "header_ru": "Размер",
+      "value_ru": "99"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 13: отклонён по размеру одного файла",
+      "header_ru": "Итог",
+      "value_ru": "пример 13: отклонён по размеру одного файла"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Starter; Правило или операция: Проверка вложения; Размер: 99; Единица: MiB; Итог: пример 13: отклонён по размеру одного файла",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-024",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 24
+    },
+    "locator_text": "строка 24",
+    "segment_sha": "644fe4f499f3",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Team",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Team"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "99",
+      "header_ru": "Размер",
+      "value_ru": "99"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 14: принят после проверки защиты",
+      "header_ru": "Итог",
+      "value_ru": "пример 14: принят после проверки защиты"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Team; Правило или операция: Проверка вложения; Размер: 99; Единица: MiB; Итог: пример 14: принят после проверки защиты",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-025",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 25
+    },
+    "locator_text": "строка 25",
+    "segment_sha": "75266d76b5ba",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Enterprise",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "99",
+      "header_ru": "Размер",
+      "value_ru": "99"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 15: принят после проверки защиты",
+      "header_ru": "Итог",
+      "value_ru": "пример 15: принят после проверки защиты"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Enterprise; Правило или операция: Проверка вложения; Размер: 99; Единица: MiB; Итог: пример 15: принят после проверки защиты",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-026",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 26
+    },
+    "locator_text": "строка 26",
+    "segment_sha": "bb75c8ad449c",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Starter",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "101",
+      "header_ru": "Размер",
+      "value_ru": "101"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 16: отклонён по размеру одного файла",
+      "header_ru": "Итог",
+      "value_ru": "пример 16: отклонён по размеру одного файла"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Starter; Правило или операция: Проверка вложения; Размер: 101; Единица: MiB; Итог: пример 16: отклонён по размеру одного файла",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-027",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 27
+    },
+    "locator_text": "строка 27",
+    "segment_sha": "b5b634727f93",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Team",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Team"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "101",
+      "header_ru": "Размер",
+      "value_ru": "101"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 17: отклонён по размеру одного файла",
+      "header_ru": "Итог",
+      "value_ru": "пример 17: отклонён по размеру одного файла"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Team; Правило или операция: Проверка вложения; Размер: 101; Единица: MiB; Итог: пример 17: отклонён по размеру одного файла",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-028",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 28
+    },
+    "locator_text": "строка 28",
+    "segment_sha": "773c07f52c48",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Enterprise",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "101",
+      "header_ru": "Размер",
+      "value_ru": "101"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 18: принят после проверки защиты",
+      "header_ru": "Итог",
+      "value_ru": "пример 18: принят после проверки защиты"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Enterprise; Правило или операция: Проверка вложения; Размер: 101; Единица: MiB; Итог: пример 18: принят после проверки защиты",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-029",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 29
+    },
+    "locator_text": "строка 29",
+    "segment_sha": "27abd30c15d1",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Starter",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "199",
+      "header_ru": "Размер",
+      "value_ru": "199"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 19: отклонён по размеру одного файла",
+      "header_ru": "Итог",
+      "value_ru": "пример 19: отклонён по размеру одного файла"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Starter; Правило или операция: Проверка вложения; Размер: 199; Единица: MiB; Итог: пример 19: отклонён по размеру одного файла",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-030",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 30
+    },
+    "locator_text": "строка 30",
+    "segment_sha": "312c9874462a",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Team",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Team"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "199",
+      "header_ru": "Размер",
+      "value_ru": "199"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 20: отклонён по размеру одного файла",
+      "header_ru": "Итог",
+      "value_ru": "пример 20: отклонён по размеру одного файла"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Team; Правило или операция: Проверка вложения; Размер: 199; Единица: MiB; Итог: пример 20: отклонён по размеру одного файла",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-031",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 31
+    },
+    "locator_text": "строка 31",
+    "segment_sha": "d6287a583534",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Enterprise",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "199",
+      "header_ru": "Размер",
+      "value_ru": "199"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 21: принят после проверки защиты",
+      "header_ru": "Итог",
+      "value_ru": "пример 21: принят после проверки защиты"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Enterprise; Правило или операция: Проверка вложения; Размер: 199; Единица: MiB; Итог: пример 21: принят после проверки защиты",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-032",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 32
+    },
+    "locator_text": "строка 32",
+    "segment_sha": "97e663efa664",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Starter",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "249",
+      "header_ru": "Размер",
+      "value_ru": "249"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 22: отклонён по размеру одного файла",
+      "header_ru": "Итог",
+      "value_ru": "пример 22: отклонён по размеру одного файла"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Starter; Правило или операция: Проверка вложения; Размер: 249; Единица: MiB; Итог: пример 22: отклонён по размеру одного файла",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-033",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 33
+    },
+    "locator_text": "строка 33",
+    "segment_sha": "3a4645dfe29b",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Team",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Team"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "249",
+      "header_ru": "Размер",
+      "value_ru": "249"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 23: отклонён по размеру одного файла",
+      "header_ru": "Итог",
+      "value_ru": "пример 23: отклонён по размеру одного файла"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Team; Правило или операция: Проверка вложения; Размер: 249; Единица: MiB; Итог: пример 23: отклонён по размеру одного файла",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-034",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 34
+    },
+    "locator_text": "строка 34",
+    "segment_sha": "eb97426a948d",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Enterprise",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "249",
+      "header_ru": "Размер",
+      "value_ru": "249"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 24: принят после проверки защиты",
+      "header_ru": "Итог",
+      "value_ru": "пример 24: принят после проверки защиты"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Enterprise; Правило или операция: Проверка вложения; Размер: 249; Единица: MiB; Итог: пример 24: принят после проверки защиты",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-035",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 35
+    },
+    "locator_text": "строка 35",
+    "segment_sha": "d7c13def38dd",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Starter",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "251",
+      "header_ru": "Размер",
+      "value_ru": "251"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 25: отклонён по размеру одного файла",
+      "header_ru": "Итог",
+      "value_ru": "пример 25: отклонён по размеру одного файла"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Starter; Правило или операция: Проверка вложения; Размер: 251; Единица: MiB; Итог: пример 25: отклонён по размеру одного файла",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-036",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 36
+    },
+    "locator_text": "строка 36",
+    "segment_sha": "c49b12615b26",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Team",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Team"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "251",
+      "header_ru": "Размер",
+      "value_ru": "251"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 26: отклонён по размеру одного файла",
+      "header_ru": "Итог",
+      "value_ru": "пример 26: отклонён по размеру одного файла"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Team; Правило или операция: Проверка вложения; Размер: 251; Единица: MiB; Итог: пример 26: отклонён по размеру одного файла",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "40-037",
+    "doc_no": 40,
+    "doc_id": "quotas-presentation",
+    "doc_version": "",
+    "source_path": "documents/Рабочие копии/квоты для презентации.csv",
+    "source_sha256": "fad3b5a6cf48df7524a6923495d42e13bcf5ef6d865939783442da6d7c5b262c",
+    "source_lang": "ru",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 37
+    },
+    "locator_text": "строка 37",
+    "segment_sha": "8b5933b40555",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Тариф или предмет",
+      "value": "Enterprise",
+      "header_ru": "Тариф или предмет",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 2,
+      "header": "Правило или операция",
+      "value": "Проверка вложения",
+      "header_ru": "Правило или операция",
+      "value_ru": "Проверка вложения"
+     },
+     {
+      "col": 3,
+      "header": "Размер",
+      "value": "251",
+      "header_ru": "Размер",
+      "value_ru": "251"
+     },
+     {
+      "col": 4,
+      "header": "Единица",
+      "value": "MiB",
+      "header_ru": "Единица",
+      "value_ru": "MiB"
+     },
+     {
+      "col": 5,
+      "header": "Итог",
+      "value": "пример 27: отклонён по размеру одного файла",
+      "header_ru": "Итог",
+      "value_ru": "пример 27: отклонён по размеру одного файла"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Тариф или предмет",
+      "Правило или операция",
+      "Размер",
+      "Единица",
+      "Итог"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Тариф или предмет: Enterprise; Правило или операция: Проверка вложения; Размер: 251; Единица: MiB; Итог: пример 27: отклонён по размеру одного файла",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   }
+  ]
+ }
+}

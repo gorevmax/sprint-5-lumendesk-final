@@ -1,0 +1,896 @@
+{
+ "no": 12,
+ "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+ "doc_id": "abuse-review",
+ "title": "Только руководителям поддержки",
+ "title_ru": "Только руководителям поддержки",
+ "lang": "ru",
+ "format": "md",
+ "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+ "decision": {
+  "no": 12,
+  "path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+  "doc_id": "abuse-review",
+  "title": "Только руководителям поддержки",
+  "lang": "ru",
+  "owner": "Trust Operations",
+  "version": "2026-09-01",
+  "updated": "2026-09-01",
+  "doc_type": "rule",
+  "status": "include",
+  "rule": "R1+R10",
+  "reason": "Действующий порядок Trust Operations; пометка «Только руководителям поддержки», карточку открывает только руководитель.",
+  "access": "support_lead",
+  "trust": "confirmed",
+  "related": [
+   44,
+   45
+  ]
+ },
+ "fragments": [
+  {
+   "fragment_id": "12-001",
+   "doc_no": 12,
+   "doc_id": "abuse-review",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+   "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "title",
+   "locator": {
+    "lines": [
+     1,
+     1
+    ]
+   },
+   "locator_text": "строка 1",
+   "segment_sha": "e413528de4bb",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "# Только руководителям поддержки",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "12-002",
+   "doc_no": 12,
+   "doc_id": "abuse-review",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+   "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     3,
+     3
+    ]
+   },
+   "locator_text": "строка 3",
+   "segment_sha": "e73ce497c9e7",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Этот материал Trust Operations обсуждает с руководителями поддержки; актуальные формулировки сверены 1 сентября 2026 года. Он нужен для ручного разбора возможных злоупотреблений. Не пересылайте его клиенту и не вставляйте внутренние пороги в обычную переписку по обращению. Решение о блокировке требует ручной проверки событий и не принимается по одному признаку. Само срабатывание сигнала — начало проверки контекста, а не готовый вывод о намерениях организации или конкретного человека.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "12-003",
+   "doc_no": 12,
+   "doc_id": "abuse-review",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+   "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     5,
+     5
+    ]
+   },
+   "locator_text": "строка 5",
+   "segment_sha": "88da388c65b6",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Карточку проверки открывает только руководитель поддержки. Это отдельная работа с внутренними событиями; её не стоит превращать в расширенный комментарий в общей переписке клиента. Специалист первой линии может передать обращение руководителю, но содержание этого разбора остаётся в предназначенном для него круге. При обсуждении внутри команды нужно различать известное событие, предположение о его объяснении и действие, которое ещё требуется согласовать. Смесь этих трёх вещей создаёт впечатление уже принятого решения там, где пока идёт проверка.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "12-004",
+   "doc_no": 12,
+   "doc_id": "abuse-review",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+   "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     7,
+     7
+    ]
+   },
+   "locator_text": "строка 7",
+   "segment_sha": "3031ae8f74e0",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "## С чем приходят сигналы",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "12-005",
+   "doc_no": 12,
+   "doc_id": "abuse-review",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+   "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     9,
+     9
+    ]
+   },
+   "locator_text": "строка 9",
+   "segment_sha": "e3dfc49703e7",
+   "section": "С чем приходят сигналы",
+   "section_ru": "С чем приходят сигналы",
+   "text_ru": "Пять созданий workspace с одного billing account за 10 минут образуют сигнал для проверки. Важно видеть связь именно с billing account и временным диапазоном, а не просто обнаружить в ленте несколько похожих названий. Запишите агрегированный счётчик и диапазон, с которым работали. Если после передачи коллеге непонятно, какие события были включены, он начнёт разбор заново или, хуже, примет приблизительную оценку за установленный факт.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "12-006",
+   "doc_no": 12,
+   "doc_id": "abuse-review",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+   "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     11,
+     11
+    ]
+   },
+   "locator_text": "строка 11",
+   "segment_sha": "2c854eeeb305",
+   "section": "С чем приходят сигналы",
+   "section_ru": "С чем приходят сигналы",
+   "text_ru": "Более 200 отклонённых приглашений за час требуют сверки назначения рассылки. Здесь нужно понять, какое действие выполняла организация, и сопоставить объяснение с событиями. Число приглашений не должно автоматически превращаться в характеристику клиента. Не пересказывайте в обычном ответе, сколько отклонений запускает внутреннюю проверку: клиенту называют категорию проверки без внутренних порогов. Внутри разбора точность нужна для принятия решения; снаружи точность не означает раскрытия всей механики наблюдения.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "12-007",
+   "doc_no": 12,
+   "doc_id": "abuse-review",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+   "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     13,
+     13
+    ]
+   },
+   "locator_text": "строка 13",
+   "segment_sha": "539f5f38ea3d",
+   "section": "С чем приходят сигналы",
+   "section_ru": "С чем приходят сигналы",
+   "text_ru": "Три отклонённых платежа подряд переводят заявку на ручной разбор. Сохраните последовательность событий в контексте, чтобы слова «подряд» не потерялись при передаче между сменами. Это ещё один повод не судить по одному изолированному признаку. Разговор об оплате может быть эмоциональным, а несколько одинаковых сообщений в истории не всегда описывают разные события. Руководитель должен понимать, на каких внутренних событиях основан сигнал, и отделять их от пересказов в нескольких каналах.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "12-008",
+   "doc_no": 12,
+   "doc_id": "abuse-review",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+   "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     15,
+     15
+    ]
+   },
+   "locator_text": "строка 15",
+   "segment_sha": "43860d0049f6",
+   "section": "С чем приходят сигналы",
+   "section_ru": "С чем приходят сигналы",
+   "text_ru": "Отдельно проверяем заранее согласованный нагрузочный тест по change ID. Клиентская команда могла сознательно выполнять действия, которые без такого контекста выглядят необычно. Фраза «у нас тест» сама по себе не заменяет сверку по change ID, но наличие согласованного изменения также нельзя игнорировать. При передаче разбора укажите, проверялся ли этот контекст и что фактически удалось сопоставить. Не превращайте отсутствие ответа в одном чате в доказательство отсутствия согласования.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "12-009",
+   "doc_no": 12,
+   "doc_id": "abuse-review",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+   "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     17,
+     17
+    ]
+   },
+   "locator_text": "строка 17",
+   "segment_sha": "21a292928970",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "## Как оформить ручной разбор",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "12-010",
+   "doc_no": 12,
+   "doc_id": "abuse-review",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+   "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     19,
+     19
+    ]
+   },
+   "locator_text": "строка 19",
+   "segment_sha": "984dea9a505a",
+   "section": "Как оформить ручной разбор",
+   "section_ru": "Как оформить ручной разбор",
+   "text_ru": "Фиксируем временной диапазон, агрегированные счётчики и внутренний event ID. Этого набора должно хватать, чтобы другой руководитель понял, какие события смотрели. Лучше связанная заметка с понятным ходом проверки, чем множество снимков без объяснения происхождения. В тексте можно назвать альтернативные объяснения, которые ещё проверяются, но обозначайте их как вопросы. Если предположение попадает в запись без оговорки, на следующей смене его легко принять за доказательство.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "12-011",
+   "doc_no": 12,
+   "doc_id": "abuse-review",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+   "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     21,
+     21
+    ]
+   },
+   "locator_text": "строка 21",
+   "segment_sha": "69c6988a06fc",
+   "section": "Как оформить ручной разбор",
+   "section_ru": "Как оформить ручной разбор",
+   "text_ru": "Временную приостановку согласуют с Security Operations. Не пишите, что действие согласовано, если вы только отправили вопрос в команду. Отделяйте просьбу о согласовании от полученного решения. Это помогает и в последующем пересмотре: из истории должно быть видно, почему была выбрана мера и какой контекст был известен в тот момент. Само стремление быстрее закончить сложное обращение не заменяет согласование, предусмотренное процедурой.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "12-012",
+   "doc_no": 12,
+   "doc_id": "abuse-review",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+   "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     23,
+     23
+    ]
+   },
+   "locator_text": "строка 23",
+   "segment_sha": "a914b22d4b40",
+   "section": "Как оформить ручной разбор",
+   "section_ru": "Как оформить ручной разбор",
+   "text_ru": "В сообщении клиенту называем категорию проверки без внутренних порогов. Можно объяснить, что обращение передано на ручной разбор соответствующей активности, и сохранить деловой тон. Нельзя подкреплять ответ копией внутренних счётчиков и точными значениями сигналов из этой записки. Если клиент просит раскрыть всю логику, руководитель продолжает разговор в пределах допустимого объяснения, а не отправляет эту страницу как наиболее быстрый способ закрыть вопрос.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "12-013",
+   "doc_no": 12,
+   "doc_id": "abuse-review",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+   "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+   "source_lang": "ru",
+   "format": "md",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     25,
+     25
+    ]
+   },
+   "locator_text": "строка 25",
+   "segment_sha": "7c965eb2f249",
+   "section": "Как оформить ручной разбор",
+   "section_ru": "Как оформить ручной разбор",
+   "text_ru": "В течение 1 рабочего дня руководитель назначает владельца пересмотра. У сложного разбора должно быть понятное продолжение, особенно если его начал человек уходящей смены. Назначение владельца не означает, что пересмотр уже выполнен; в передаче различайте эти события. Итоговая история должна позволять понять, что именно проверено вручную, какой контекст согласованного теста рассмотрен, какое действие согласовано и кто продолжает работу. Чем чувствительнее материал, тем важнее ясность без лишнего распространения.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  }
+ ],
+ "_base": {
+  "no": 12,
+  "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+  "doc_id": "abuse-review",
+  "title": "Только руководителям поддержки",
+  "title_ru": "Только руководителям поддержки",
+  "lang": "ru",
+  "format": "md",
+  "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+  "decision": {
+   "no": 12,
+   "path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+   "doc_id": "abuse-review",
+   "title": "Только руководителям поддержки",
+   "lang": "ru",
+   "owner": "Trust Operations",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "doc_type": "rule",
+   "status": "include",
+   "rule": "R1+R10",
+   "reason": "Действующий порядок Trust Operations; пометка «Только руководителям поддержки», карточку открывает только руководитель.",
+   "access": "support_lead",
+   "trust": "confirmed",
+   "related": [
+    44,
+    45
+   ]
+  },
+  "fragments": [
+   {
+    "fragment_id": "12-001",
+    "doc_no": 12,
+    "doc_id": "abuse-review",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+    "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "title",
+    "locator": {
+     "lines": [
+      1,
+      1
+     ]
+    },
+    "locator_text": "строка 1",
+    "segment_sha": "e413528de4bb",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "# Только руководителям поддержки",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "12-002",
+    "doc_no": 12,
+    "doc_id": "abuse-review",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+    "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      3,
+      3
+     ]
+    },
+    "locator_text": "строка 3",
+    "segment_sha": "e73ce497c9e7",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Этот материал Trust Operations обсуждает с руководителями поддержки; актуальные формулировки сверены 1 сентября 2026 года. Он нужен для ручного разбора возможных злоупотреблений. Не пересылайте его клиенту и не вставляйте внутренние пороги в обычную переписку по обращению. Решение о блокировке требует ручной проверки событий и не принимается по одному признаку. Само срабатывание сигнала — начало проверки контекста, а не готовый вывод о намерениях организации или конкретного человека.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "12-003",
+    "doc_no": 12,
+    "doc_id": "abuse-review",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+    "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      5,
+      5
+     ]
+    },
+    "locator_text": "строка 5",
+    "segment_sha": "88da388c65b6",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Карточку проверки открывает только руководитель поддержки. Это отдельная работа с внутренними событиями; её не стоит превращать в расширенный комментарий в общей переписке клиента. Специалист первой линии может передать обращение руководителю, но содержание этого разбора остаётся в предназначенном для него круге. При обсуждении внутри команды нужно различать известное событие, предположение о его объяснении и действие, которое ещё требуется согласовать. Смесь этих трёх вещей создаёт впечатление уже принятого решения там, где пока идёт проверка.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "12-004",
+    "doc_no": 12,
+    "doc_id": "abuse-review",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+    "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      7,
+      7
+     ]
+    },
+    "locator_text": "строка 7",
+    "segment_sha": "3031ae8f74e0",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "## С чем приходят сигналы",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "12-005",
+    "doc_no": 12,
+    "doc_id": "abuse-review",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+    "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      9,
+      9
+     ]
+    },
+    "locator_text": "строка 9",
+    "segment_sha": "e3dfc49703e7",
+    "section": "С чем приходят сигналы",
+    "section_ru": "С чем приходят сигналы",
+    "text_ru": "Пять созданий workspace с одного billing account за 10 минут образуют сигнал для проверки. Важно видеть связь именно с billing account и временным диапазоном, а не просто обнаружить в ленте несколько похожих названий. Запишите агрегированный счётчик и диапазон, с которым работали. Если после передачи коллеге непонятно, какие события были включены, он начнёт разбор заново или, хуже, примет приблизительную оценку за установленный факт.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "12-006",
+    "doc_no": 12,
+    "doc_id": "abuse-review",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+    "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      11,
+      11
+     ]
+    },
+    "locator_text": "строка 11",
+    "segment_sha": "2c854eeeb305",
+    "section": "С чем приходят сигналы",
+    "section_ru": "С чем приходят сигналы",
+    "text_ru": "Более 200 отклонённых приглашений за час требуют сверки назначения рассылки. Здесь нужно понять, какое действие выполняла организация, и сопоставить объяснение с событиями. Число приглашений не должно автоматически превращаться в характеристику клиента. Не пересказывайте в обычном ответе, сколько отклонений запускает внутреннюю проверку: клиенту называют категорию проверки без внутренних порогов. Внутри разбора точность нужна для принятия решения; снаружи точность не означает раскрытия всей механики наблюдения.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "12-007",
+    "doc_no": 12,
+    "doc_id": "abuse-review",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+    "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      13,
+      13
+     ]
+    },
+    "locator_text": "строка 13",
+    "segment_sha": "539f5f38ea3d",
+    "section": "С чем приходят сигналы",
+    "section_ru": "С чем приходят сигналы",
+    "text_ru": "Три отклонённых платежа подряд переводят заявку на ручной разбор. Сохраните последовательность событий в контексте, чтобы слова «подряд» не потерялись при передаче между сменами. Это ещё один повод не судить по одному изолированному признаку. Разговор об оплате может быть эмоциональным, а несколько одинаковых сообщений в истории не всегда описывают разные события. Руководитель должен понимать, на каких внутренних событиях основан сигнал, и отделять их от пересказов в нескольких каналах.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "12-008",
+    "doc_no": 12,
+    "doc_id": "abuse-review",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+    "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      15,
+      15
+     ]
+    },
+    "locator_text": "строка 15",
+    "segment_sha": "43860d0049f6",
+    "section": "С чем приходят сигналы",
+    "section_ru": "С чем приходят сигналы",
+    "text_ru": "Отдельно проверяем заранее согласованный нагрузочный тест по change ID. Клиентская команда могла сознательно выполнять действия, которые без такого контекста выглядят необычно. Фраза «у нас тест» сама по себе не заменяет сверку по change ID, но наличие согласованного изменения также нельзя игнорировать. При передаче разбора укажите, проверялся ли этот контекст и что фактически удалось сопоставить. Не превращайте отсутствие ответа в одном чате в доказательство отсутствия согласования.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "12-009",
+    "doc_no": 12,
+    "doc_id": "abuse-review",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+    "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      17,
+      17
+     ]
+    },
+    "locator_text": "строка 17",
+    "segment_sha": "21a292928970",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "## Как оформить ручной разбор",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "12-010",
+    "doc_no": 12,
+    "doc_id": "abuse-review",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+    "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      19,
+      19
+     ]
+    },
+    "locator_text": "строка 19",
+    "segment_sha": "984dea9a505a",
+    "section": "Как оформить ручной разбор",
+    "section_ru": "Как оформить ручной разбор",
+    "text_ru": "Фиксируем временной диапазон, агрегированные счётчики и внутренний event ID. Этого набора должно хватать, чтобы другой руководитель понял, какие события смотрели. Лучше связанная заметка с понятным ходом проверки, чем множество снимков без объяснения происхождения. В тексте можно назвать альтернативные объяснения, которые ещё проверяются, но обозначайте их как вопросы. Если предположение попадает в запись без оговорки, на следующей смене его легко принять за доказательство.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "12-011",
+    "doc_no": 12,
+    "doc_id": "abuse-review",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+    "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      21,
+      21
+     ]
+    },
+    "locator_text": "строка 21",
+    "segment_sha": "69c6988a06fc",
+    "section": "Как оформить ручной разбор",
+    "section_ru": "Как оформить ручной разбор",
+    "text_ru": "Временную приостановку согласуют с Security Operations. Не пишите, что действие согласовано, если вы только отправили вопрос в команду. Отделяйте просьбу о согласовании от полученного решения. Это помогает и в последующем пересмотре: из истории должно быть видно, почему была выбрана мера и какой контекст был известен в тот момент. Само стремление быстрее закончить сложное обращение не заменяет согласование, предусмотренное процедурой.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "12-012",
+    "doc_no": 12,
+    "doc_id": "abuse-review",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+    "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      23,
+      23
+     ]
+    },
+    "locator_text": "строка 23",
+    "segment_sha": "a914b22d4b40",
+    "section": "Как оформить ручной разбор",
+    "section_ru": "Как оформить ручной разбор",
+    "text_ru": "В сообщении клиенту называем категорию проверки без внутренних порогов. Можно объяснить, что обращение передано на ручной разбор соответствующей активности, и сохранить деловой тон. Нельзя подкреплять ответ копией внутренних счётчиков и точными значениями сигналов из этой записки. Если клиент просит раскрыть всю логику, руководитель продолжает разговор в пределах допустимого объяснения, а не отправляет эту страницу как наиболее быстрый способ закрыть вопрос.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "12-013",
+    "doc_no": 12,
+    "doc_id": "abuse-review",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+    "source_sha256": "9b6df3aa0dad546380922990af329ba231b57b8a828a860646c27d27916bdc30",
+    "source_lang": "ru",
+    "format": "md",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      25,
+      25
+     ]
+    },
+    "locator_text": "строка 25",
+    "segment_sha": "7c965eb2f249",
+    "section": "Как оформить ручной разбор",
+    "section_ru": "Как оформить ручной разбор",
+    "text_ru": "В течение 1 рабочего дня руководитель назначает владельца пересмотра. У сложного разбора должно быть понятное продолжение, особенно если его начал человек уходящей смены. Назначение владельца не означает, что пересмотр уже выполнен; в передаче различайте эти события. Итоговая история должна позволять понять, что именно проверено вручную, какой контекст согласованного теста рассмотрен, какое действие согласовано и кто продолжает работу. Чем чувствительнее материал, тем важнее ясность без лишнего распространения.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   }
+  ]
+ }
+}

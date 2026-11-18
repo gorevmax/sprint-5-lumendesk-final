@@ -1,0 +1,6018 @@
+{
+ "no": 5,
+ "source_path": "documents/Выгрузки/hosting regions export.csv",
+ "doc_id": "hosting-regions",
+ "title": "",
+ "title_ru": null,
+ "lang": "en",
+ "format": "csv",
+ "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+ "decision": {
+  "no": 5,
+  "path": "documents/Выгрузки/hosting regions export.csv",
+  "doc_id": "hosting-regions",
+  "title": "",
+  "lang": "en",
+  "owner": "",
+  "version": "",
+  "updated": "2026-09",
+  "doc_type": "register",
+  "status": "include",
+  "rule": "R5",
+  "reason": "Владелец и дата не указаны; строки данных за 01–24.09.2026; правила о регионах согласуются с №41 и №08.",
+  "access": "all",
+  "trust": "unconfirmed_origin",
+  "related": [
+   41,
+   8
+  ]
+ },
+ "fragments": [
+  {
+   "fragment_id": "05-001",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "table_header",
+   "locator": {
+    "csv_row": 1
+   },
+   "locator_text": "строка 1",
+   "segment_sha": "d85df6fc9b0e",
+   "cells": [
+    {
+     "col": 1,
+     "value": "Region or subject",
+     "value_ru": "Регион или предмет"
+    },
+    {
+     "col": 2,
+     "value": "Location or workspace",
+     "value_ru": "Расположение или workspace"
+    },
+    {
+     "col": 3,
+     "value": "Plan",
+     "value_ru": "Тариф"
+    },
+    {
+     "col": 4,
+     "value": "Created or rule",
+     "value_ru": "Дата создания или правило"
+    },
+    {
+     "col": 5,
+     "value": "Operations note",
+     "value_ru": "Примечание операций"
+    }
+   ],
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет | Расположение или workspace | Тариф | Дата создания или правило | Примечание операций",
+   "text_orig": "Region or subject | Location or workspace | Plan | Created or rule | Operations note",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-002",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 2
+   },
+   "locator_text": "строка 2",
+   "segment_sha": "02e77b99ae69",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Primary storage in Frankfurt, Germany.",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Основное хранилище во Франкфурте, Германия."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Основное хранилище во Франкфурте, Германия.",
+   "text_orig": "Region or subject: EU-1; Location or workspace: Primary storage in Frankfurt, Germany.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-003",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 3
+   },
+   "locator_text": "строка 3",
+   "segment_sha": "e91a3ba70fe2",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-2",
+     "header_ru": "Регион или предмет",
+     "value_ru": "EU-2"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Primary storage in Paris, France.",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Основное хранилище в Париже, Франция."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: EU-2; Расположение или workspace: Основное хранилище в Париже, Франция.",
+   "text_orig": "Region or subject: EU-2; Location or workspace: Primary storage in Paris, France.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-004",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 4
+   },
+   "locator_text": "строка 4",
+   "segment_sha": "155e3fb8c464",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Primary storage in Northern Virginia, United States.",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Основное хранилище в Северной Вирджинии, США."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: US-1; Расположение или workspace: Основное хранилище в Северной Вирджинии, США.",
+   "text_orig": "Region or subject: US-1; Location or workspace: Primary storage in Northern Virginia, United States.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-005",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 5
+   },
+   "locator_text": "строка 5",
+   "segment_sha": "ff27e590c4fd",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "CA-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "CA-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Primary storage in Montreal, Canada.",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Основное хранилище в Монреале, Канада."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: CA-1; Расположение или workspace: Основное хранилище в Монреале, Канада.",
+   "text_orig": "Region or subject: CA-1; Location or workspace: Primary storage in Montreal, Canada.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-006",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 6
+   },
+   "locator_text": "строка 6",
+   "segment_sha": "7e20a21827e3",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "Selection",
+     "header_ru": "Регион или предмет",
+     "value_ru": "Выбор"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Starter uses EU-1 by default for contracts signed in the European Union.",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Starter по умолчанию использует EU-1 для договоров, подписанных в Европейском союзе."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: Выбор; Расположение или workspace: Starter по умолчанию использует EU-1 для договоров, подписанных в Европейском союзе.",
+   "text_orig": "Region or subject: Selection; Location or workspace: Starter uses EU-1 by default for contracts signed in the European Union.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-007",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 7
+   },
+   "locator_text": "строка 7",
+   "segment_sha": "f84cb5814278",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "Team",
+     "header_ru": "Регион или предмет",
+     "value_ru": "Team"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Team may choose EU-1 or US-1 at workspace creation.",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Team может выбрать EU-1 или US-1 при создании workspace."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: Team; Расположение или workspace: Team может выбрать EU-1 или US-1 при создании workspace.",
+   "text_orig": "Region or subject: Team; Location or workspace: Team may choose EU-1 or US-1 at workspace creation.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-008",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 8
+   },
+   "locator_text": "строка 8",
+   "segment_sha": "a69ea6838bff",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "Enterprise",
+     "header_ru": "Регион или предмет",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Enterprise may select any listed region at creation.",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Enterprise может выбрать любой из перечисленных регионов при создании."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: Enterprise; Расположение или workspace: Enterprise может выбрать любой из перечисленных регионов при создании.",
+   "text_orig": "Region or subject: Enterprise; Location or workspace: Enterprise may select any listed region at creation.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-009",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 9
+   },
+   "locator_text": "строка 9",
+   "segment_sha": "e64f59d7fb9a",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "Migration",
+     "header_ru": "Регион или предмет",
+     "value_ru": "Миграция"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "A region migration requires Enterprise and a scheduled maintenance window.",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Миграция региона требует Enterprise и запланированного окна обслуживания."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: Миграция; Расположение или workspace: Миграция региона требует Enterprise и запланированного окна обслуживания.",
+   "text_orig": "Region or subject: Migration; Location or workspace: A region migration requires Enterprise and a scheduled maintenance window.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-010",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 10
+   },
+   "locator_text": "строка 10",
+   "segment_sha": "2247490c40a0",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "Support access",
+     "header_ru": "Регион или предмет",
+     "value_ru": "Доступ поддержки"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Support routing language does not change the storage region.",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Язык маршрутизации поддержки не меняет регион хранения."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: Доступ поддержки; Расположение или workspace: Язык маршрутизации поддержки не меняет регион хранения.",
+   "text_orig": "Region or subject: Support access; Location or workspace: Support routing language does not change the storage region.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-011",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 11
+   },
+   "locator_text": "строка 11",
+   "segment_sha": "ff1694bef25b",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Cedar Studio / 1",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Cedar Studio / 1"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Starter",
+     "header_ru": "Тариф",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-01",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-01"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Cedar Studio / 1; Тариф: Starter; Дата создания или правило: 2026-09-01; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: EU-1; Location or workspace: Cedar Studio / 1; Plan: Starter; Created or rule: 2026-09-01; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-012",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 12
+   },
+   "locator_text": "строка 12",
+   "segment_sha": "e00fd3ae3ee8",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "North Paper / 1",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "North Paper / 1"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team",
+     "header_ru": "Тариф",
+     "value_ru": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-02",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-02"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: US-1; Расположение или workspace: North Paper / 1; Тариф: Team; Дата создания или правило: 2026-09-02; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: US-1; Location or workspace: North Paper / 1; Plan: Team; Created or rule: 2026-09-02; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-013",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 13
+   },
+   "locator_text": "строка 13",
+   "segment_sha": "cafa36351c64",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Atelier Nacre / 1",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Atelier Nacre / 1"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Enterprise",
+     "header_ru": "Тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-03",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-03"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Atelier Nacre / 1; Тариф: Enterprise; Дата создания или правило: 2026-09-03; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: EU-1; Location or workspace: Atelier Nacre / 1; Plan: Enterprise; Created or rule: 2026-09-03; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-014",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 14
+   },
+   "locator_text": "строка 14",
+   "segment_sha": "da872c8a3ce5",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Open Lane / 1",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Open Lane / 1"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team",
+     "header_ru": "Тариф",
+     "value_ru": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-04",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-04"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: US-1; Расположение или workspace: Open Lane / 1; Тариф: Team; Дата создания или правило: 2026-09-04; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: US-1; Location or workspace: Open Lane / 1; Plan: Team; Created or rule: 2026-09-04; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-015",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 15
+   },
+   "locator_text": "строка 15",
+   "segment_sha": "931799a752e3",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Harbor Works / 1",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Harbor Works / 1"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Starter",
+     "header_ru": "Тариф",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-05",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-05"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Harbor Works / 1; Тариф: Starter; Дата создания или правило: 2026-09-05; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: EU-1; Location or workspace: Harbor Works / 1; Plan: Starter; Created or rule: 2026-09-05; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-016",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 16
+   },
+   "locator_text": "строка 16",
+   "segment_sha": "dc0d250309d8",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Maple Research / 1",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Maple Research / 1"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team",
+     "header_ru": "Тариф",
+     "value_ru": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-06",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-06"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: US-1; Расположение или workspace: Maple Research / 1; Тариф: Team; Дата создания или правило: 2026-09-06; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: US-1; Location or workspace: Maple Research / 1; Plan: Team; Created or rule: 2026-09-06; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-017",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 17
+   },
+   "locator_text": "строка 17",
+   "segment_sha": "2e90c3fde64a",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-2",
+     "header_ru": "Регион или предмет",
+     "value_ru": "EU-2"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Quartz Lab / 1",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Quartz Lab / 1"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Enterprise",
+     "header_ru": "Тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-07",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-07"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: EU-2; Расположение или workspace: Quartz Lab / 1; Тариф: Enterprise; Дата создания или правило: 2026-09-07; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: EU-2; Location or workspace: Quartz Lab / 1; Plan: Enterprise; Created or rule: 2026-09-07; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-018",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 18
+   },
+   "locator_text": "строка 18",
+   "segment_sha": "952d956eac2e",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Plain Supply / 1",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Plain Supply / 1"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team",
+     "header_ru": "Тариф",
+     "value_ru": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-08",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-08"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: US-1; Расположение или workspace: Plain Supply / 1; Тариф: Team; Дата создания или правило: 2026-09-08; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: US-1; Location or workspace: Plain Supply / 1; Plan: Team; Created or rule: 2026-09-08; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-019",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 19
+   },
+   "locator_text": "строка 19",
+   "segment_sha": "bb82e3abdf0d",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Cedar Studio / 2",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Cedar Studio / 2"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Starter",
+     "header_ru": "Тариф",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-09",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-09"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Cedar Studio / 2; Тариф: Starter; Дата создания или правило: 2026-09-09; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: EU-1; Location or workspace: Cedar Studio / 2; Plan: Starter; Created or rule: 2026-09-09; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-020",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 20
+   },
+   "locator_text": "строка 20",
+   "segment_sha": "08e5dcd0d989",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "North Paper / 2",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "North Paper / 2"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team",
+     "header_ru": "Тариф",
+     "value_ru": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-10",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-10"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: US-1; Расположение или workspace: North Paper / 2; Тариф: Team; Дата создания или правило: 2026-09-10; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: US-1; Location or workspace: North Paper / 2; Plan: Team; Created or rule: 2026-09-10; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-021",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 21
+   },
+   "locator_text": "строка 21",
+   "segment_sha": "06bd127dd43c",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "CA-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "CA-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Atelier Nacre / 2",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Atelier Nacre / 2"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Enterprise",
+     "header_ru": "Тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-11",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-11"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: CA-1; Расположение или workspace: Atelier Nacre / 2; Тариф: Enterprise; Дата создания или правило: 2026-09-11; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: CA-1; Location or workspace: Atelier Nacre / 2; Plan: Enterprise; Created or rule: 2026-09-11; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-022",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 22
+   },
+   "locator_text": "строка 22",
+   "segment_sha": "d77537bc80a9",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Open Lane / 2",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Open Lane / 2"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team",
+     "header_ru": "Тариф",
+     "value_ru": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-12",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-12"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: US-1; Расположение или workspace: Open Lane / 2; Тариф: Team; Дата создания или правило: 2026-09-12; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: US-1; Location or workspace: Open Lane / 2; Plan: Team; Created or rule: 2026-09-12; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-023",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 23
+   },
+   "locator_text": "строка 23",
+   "segment_sha": "e55a5e6695ab",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Harbor Works / 2",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Harbor Works / 2"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Starter",
+     "header_ru": "Тариф",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-13",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-13"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Harbor Works / 2; Тариф: Starter; Дата создания или правило: 2026-09-13; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: EU-1; Location or workspace: Harbor Works / 2; Plan: Starter; Created or rule: 2026-09-13; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-024",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 24
+   },
+   "locator_text": "строка 24",
+   "segment_sha": "0f8323618454",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Maple Research / 2",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Maple Research / 2"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team",
+     "header_ru": "Тариф",
+     "value_ru": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-14",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-14"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: US-1; Расположение или workspace: Maple Research / 2; Тариф: Team; Дата создания или правило: 2026-09-14; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: US-1; Location or workspace: Maple Research / 2; Plan: Team; Created or rule: 2026-09-14; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-025",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 25
+   },
+   "locator_text": "строка 25",
+   "segment_sha": "d3e6757ac274",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Quartz Lab / 2",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Quartz Lab / 2"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Enterprise",
+     "header_ru": "Тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-15",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-15"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Quartz Lab / 2; Тариф: Enterprise; Дата создания или правило: 2026-09-15; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: EU-1; Location or workspace: Quartz Lab / 2; Plan: Enterprise; Created or rule: 2026-09-15; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-026",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 26
+   },
+   "locator_text": "строка 26",
+   "segment_sha": "64bfba0e2a97",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Plain Supply / 2",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Plain Supply / 2"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team",
+     "header_ru": "Тариф",
+     "value_ru": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-16",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-16"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: US-1; Расположение или workspace: Plain Supply / 2; Тариф: Team; Дата создания или правило: 2026-09-16; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: US-1; Location or workspace: Plain Supply / 2; Plan: Team; Created or rule: 2026-09-16; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-027",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 27
+   },
+   "locator_text": "строка 27",
+   "segment_sha": "f3e2df302351",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Cedar Studio / 3",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Cedar Studio / 3"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Starter",
+     "header_ru": "Тариф",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-17",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-17"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Cedar Studio / 3; Тариф: Starter; Дата создания или правило: 2026-09-17; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: EU-1; Location or workspace: Cedar Studio / 3; Plan: Starter; Created or rule: 2026-09-17; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-028",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 28
+   },
+   "locator_text": "строка 28",
+   "segment_sha": "6a86034a19d3",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "North Paper / 3",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "North Paper / 3"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team",
+     "header_ru": "Тариф",
+     "value_ru": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-18",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-18"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: US-1; Расположение или workspace: North Paper / 3; Тариф: Team; Дата создания или правило: 2026-09-18; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: US-1; Location or workspace: North Paper / 3; Plan: Team; Created or rule: 2026-09-18; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-029",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 29
+   },
+   "locator_text": "строка 29",
+   "segment_sha": "c2cd97ecf41b",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-2",
+     "header_ru": "Регион или предмет",
+     "value_ru": "EU-2"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Atelier Nacre / 3",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Atelier Nacre / 3"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Enterprise",
+     "header_ru": "Тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-19",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-19"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: EU-2; Расположение или workspace: Atelier Nacre / 3; Тариф: Enterprise; Дата создания или правило: 2026-09-19; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: EU-2; Location or workspace: Atelier Nacre / 3; Plan: Enterprise; Created or rule: 2026-09-19; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-030",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 30
+   },
+   "locator_text": "строка 30",
+   "segment_sha": "a7cbee363f75",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Open Lane / 3",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Open Lane / 3"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team",
+     "header_ru": "Тариф",
+     "value_ru": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-20",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-20"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: US-1; Расположение или workspace: Open Lane / 3; Тариф: Team; Дата создания или правило: 2026-09-20; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: US-1; Location or workspace: Open Lane / 3; Plan: Team; Created or rule: 2026-09-20; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-031",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 31
+   },
+   "locator_text": "строка 31",
+   "segment_sha": "b7af8c03d7e1",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Harbor Works / 3",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Harbor Works / 3"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Starter",
+     "header_ru": "Тариф",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-21",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-21"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Harbor Works / 3; Тариф: Starter; Дата создания или правило: 2026-09-21; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: EU-1; Location or workspace: Harbor Works / 3; Plan: Starter; Created or rule: 2026-09-21; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-032",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 32
+   },
+   "locator_text": "строка 32",
+   "segment_sha": "f191c21a75ee",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Maple Research / 3",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Maple Research / 3"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team",
+     "header_ru": "Тариф",
+     "value_ru": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-22",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-22"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: US-1; Расположение или workspace: Maple Research / 3; Тариф: Team; Дата создания или правило: 2026-09-22; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: US-1; Location or workspace: Maple Research / 3; Plan: Team; Created or rule: 2026-09-22; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-033",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 33
+   },
+   "locator_text": "строка 33",
+   "segment_sha": "d7c2c4815a4d",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "CA-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "CA-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Quartz Lab / 3",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Quartz Lab / 3"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Enterprise",
+     "header_ru": "Тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-23",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-23"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: CA-1; Расположение или workspace: Quartz Lab / 3; Тариф: Enterprise; Дата создания или правило: 2026-09-23; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: CA-1; Location or workspace: Quartz Lab / 3; Plan: Enterprise; Created or rule: 2026-09-23; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-034",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 34
+   },
+   "locator_text": "строка 34",
+   "segment_sha": "405b58c8921e",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Plain Supply / 3",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Plain Supply / 3"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team",
+     "header_ru": "Тариф",
+     "value_ru": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-24",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-24"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: US-1; Расположение или workspace: Plain Supply / 3; Тариф: Team; Дата создания или правило: 2026-09-24; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: US-1; Location or workspace: Plain Supply / 3; Plan: Team; Created or rule: 2026-09-24; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-035",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 35
+   },
+   "locator_text": "строка 35",
+   "segment_sha": "7b7de013ec91",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Cedar Studio / 4",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Cedar Studio / 4"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Starter",
+     "header_ru": "Тариф",
+     "value_ru": "Starter"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-01",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-01"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Cedar Studio / 4; Тариф: Starter; Дата создания или правило: 2026-09-01; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: EU-1; Location or workspace: Cedar Studio / 4; Plan: Starter; Created or rule: 2026-09-01; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-036",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 36
+   },
+   "locator_text": "строка 36",
+   "segment_sha": "8c5070454264",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "North Paper / 4",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "North Paper / 4"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team",
+     "header_ru": "Тариф",
+     "value_ru": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-02",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-02"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: US-1; Расположение или workspace: North Paper / 4; Тариф: Team; Дата создания или правило: 2026-09-02; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: US-1; Location or workspace: North Paper / 4; Plan: Team; Created or rule: 2026-09-02; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-037",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 37
+   },
+   "locator_text": "строка 37",
+   "segment_sha": "7c4db7a368bb",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Atelier Nacre / 4",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Atelier Nacre / 4"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Enterprise",
+     "header_ru": "Тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-03",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-03"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Atelier Nacre / 4; Тариф: Enterprise; Дата создания или правило: 2026-09-03; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: EU-1; Location or workspace: Atelier Nacre / 4; Plan: Enterprise; Created or rule: 2026-09-03; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "05-038",
+   "doc_no": 5,
+   "doc_id": "hosting-regions",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/hosting regions export.csv",
+   "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+   "source_lang": "en",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 38
+   },
+   "locator_text": "строка 38",
+   "segment_sha": "7ac23ea5e2d4",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1",
+     "header_ru": "Регион или предмет",
+     "value_ru": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Open Lane / 4",
+     "header_ru": "Расположение или workspace",
+     "value_ru": "Open Lane / 4"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team",
+     "header_ru": "Тариф",
+     "value_ru": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-04",
+     "header_ru": "Дата создания или правило",
+     "value_ru": "2026-09-04"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region",
+     "header_ru": "Примечание операций",
+     "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Регион или предмет",
+     "Расположение или workspace",
+     "Тариф",
+     "Дата создания или правило",
+     "Примечание операций"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Регион или предмет: US-1; Расположение или workspace: Open Lane / 4; Тариф: Team; Дата создания или правило: 2026-09-04; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+   "text_orig": "Region or subject: US-1; Location or workspace: Open Lane / 4; Plan: Team; Created or rule: 2026-09-04; Operations note: selection captured before workspace creation; interface language does not set region",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с EN; цитировать оригинал по указанному месту."
+  }
+ ],
+ "_base": {
+  "no": 5,
+  "source_path": "documents/Выгрузки/hosting regions export.csv",
+  "doc_id": "hosting-regions",
+  "title": "",
+  "title_ru": null,
+  "lang": "en",
+  "format": "csv",
+  "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+  "decision": {
+   "no": 5,
+   "path": "documents/Выгрузки/hosting regions export.csv",
+   "doc_id": "hosting-regions",
+   "title": "",
+   "lang": "en",
+   "owner": "",
+   "version": "",
+   "updated": "2026-09",
+   "doc_type": "register",
+   "status": "include",
+   "rule": "R5",
+   "reason": "Владелец и дата не указаны; строки данных за 01–24.09.2026; правила о регионах согласуются с №41 и №08.",
+   "access": "all",
+   "trust": "unconfirmed_origin",
+   "related": [
+    41,
+    8
+   ]
+  },
+  "fragments": [
+   {
+    "fragment_id": "05-001",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "table_header",
+    "locator": {
+     "csv_row": 1
+    },
+    "locator_text": "строка 1",
+    "segment_sha": "d85df6fc9b0e",
+    "cells": [
+     {
+      "col": 1,
+      "value": "Region or subject",
+      "value_ru": "Регион или предмет"
+     },
+     {
+      "col": 2,
+      "value": "Location or workspace",
+      "value_ru": "Расположение или workspace"
+     },
+     {
+      "col": 3,
+      "value": "Plan",
+      "value_ru": "Тариф"
+     },
+     {
+      "col": 4,
+      "value": "Created or rule",
+      "value_ru": "Дата создания или правило"
+     },
+     {
+      "col": 5,
+      "value": "Operations note",
+      "value_ru": "Примечание операций"
+     }
+    ],
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет | Расположение или workspace | Тариф | Дата создания или правило | Примечание операций",
+    "text_orig": "Region or subject | Location or workspace | Plan | Created or rule | Operations note",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-002",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 2
+    },
+    "locator_text": "строка 2",
+    "segment_sha": "02e77b99ae69",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "EU-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "EU-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Primary storage in Frankfurt, Germany.",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Основное хранилище во Франкфурте, Германия."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Основное хранилище во Франкфурте, Германия.",
+    "text_orig": "Region or subject: EU-1; Location or workspace: Primary storage in Frankfurt, Germany.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-003",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 3
+    },
+    "locator_text": "строка 3",
+    "segment_sha": "e91a3ba70fe2",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "EU-2",
+      "header_ru": "Регион или предмет",
+      "value_ru": "EU-2"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Primary storage in Paris, France.",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Основное хранилище в Париже, Франция."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: EU-2; Расположение или workspace: Основное хранилище в Париже, Франция.",
+    "text_orig": "Region or subject: EU-2; Location or workspace: Primary storage in Paris, France.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-004",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 4
+    },
+    "locator_text": "строка 4",
+    "segment_sha": "155e3fb8c464",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "US-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "US-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Primary storage in Northern Virginia, United States.",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Основное хранилище в Северной Вирджинии, США."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: US-1; Расположение или workspace: Основное хранилище в Северной Вирджинии, США.",
+    "text_orig": "Region or subject: US-1; Location or workspace: Primary storage in Northern Virginia, United States.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-005",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 5
+    },
+    "locator_text": "строка 5",
+    "segment_sha": "ff27e590c4fd",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "CA-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "CA-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Primary storage in Montreal, Canada.",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Основное хранилище в Монреале, Канада."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: CA-1; Расположение или workspace: Основное хранилище в Монреале, Канада.",
+    "text_orig": "Region or subject: CA-1; Location or workspace: Primary storage in Montreal, Canada.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-006",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 6
+    },
+    "locator_text": "строка 6",
+    "segment_sha": "7e20a21827e3",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "Selection",
+      "header_ru": "Регион или предмет",
+      "value_ru": "Выбор"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Starter uses EU-1 by default for contracts signed in the European Union.",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Starter по умолчанию использует EU-1 для договоров, подписанных в Европейском союзе."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: Выбор; Расположение или workspace: Starter по умолчанию использует EU-1 для договоров, подписанных в Европейском союзе.",
+    "text_orig": "Region or subject: Selection; Location or workspace: Starter uses EU-1 by default for contracts signed in the European Union.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-007",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 7
+    },
+    "locator_text": "строка 7",
+    "segment_sha": "f84cb5814278",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "Team",
+      "header_ru": "Регион или предмет",
+      "value_ru": "Team"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Team may choose EU-1 or US-1 at workspace creation.",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Team может выбрать EU-1 или US-1 при создании workspace."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: Team; Расположение или workspace: Team может выбрать EU-1 или US-1 при создании workspace.",
+    "text_orig": "Region or subject: Team; Location or workspace: Team may choose EU-1 or US-1 at workspace creation.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-008",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 8
+    },
+    "locator_text": "строка 8",
+    "segment_sha": "a69ea6838bff",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "Enterprise",
+      "header_ru": "Регион или предмет",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Enterprise may select any listed region at creation.",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Enterprise может выбрать любой из перечисленных регионов при создании."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: Enterprise; Расположение или workspace: Enterprise может выбрать любой из перечисленных регионов при создании.",
+    "text_orig": "Region or subject: Enterprise; Location or workspace: Enterprise may select any listed region at creation.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-009",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 9
+    },
+    "locator_text": "строка 9",
+    "segment_sha": "e64f59d7fb9a",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "Migration",
+      "header_ru": "Регион или предмет",
+      "value_ru": "Миграция"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "A region migration requires Enterprise and a scheduled maintenance window.",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Миграция региона требует Enterprise и запланированного окна обслуживания."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: Миграция; Расположение или workspace: Миграция региона требует Enterprise и запланированного окна обслуживания.",
+    "text_orig": "Region or subject: Migration; Location or workspace: A region migration requires Enterprise and a scheduled maintenance window.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-010",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 10
+    },
+    "locator_text": "строка 10",
+    "segment_sha": "2247490c40a0",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "Support access",
+      "header_ru": "Регион или предмет",
+      "value_ru": "Доступ поддержки"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Support routing language does not change the storage region.",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Язык маршрутизации поддержки не меняет регион хранения."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: Доступ поддержки; Расположение или workspace: Язык маршрутизации поддержки не меняет регион хранения.",
+    "text_orig": "Region or subject: Support access; Location or workspace: Support routing language does not change the storage region.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-011",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 11
+    },
+    "locator_text": "строка 11",
+    "segment_sha": "ff1694bef25b",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "EU-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "EU-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Cedar Studio / 1",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Cedar Studio / 1"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Starter",
+      "header_ru": "Тариф",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-01",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-01"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Cedar Studio / 1; Тариф: Starter; Дата создания или правило: 2026-09-01; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: EU-1; Location or workspace: Cedar Studio / 1; Plan: Starter; Created or rule: 2026-09-01; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-012",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 12
+    },
+    "locator_text": "строка 12",
+    "segment_sha": "e00fd3ae3ee8",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "US-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "US-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "North Paper / 1",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "North Paper / 1"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Team",
+      "header_ru": "Тариф",
+      "value_ru": "Team"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-02",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-02"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: US-1; Расположение или workspace: North Paper / 1; Тариф: Team; Дата создания или правило: 2026-09-02; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: US-1; Location or workspace: North Paper / 1; Plan: Team; Created or rule: 2026-09-02; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-013",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 13
+    },
+    "locator_text": "строка 13",
+    "segment_sha": "cafa36351c64",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "EU-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "EU-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Atelier Nacre / 1",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Atelier Nacre / 1"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Enterprise",
+      "header_ru": "Тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-03",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-03"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Atelier Nacre / 1; Тариф: Enterprise; Дата создания или правило: 2026-09-03; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: EU-1; Location or workspace: Atelier Nacre / 1; Plan: Enterprise; Created or rule: 2026-09-03; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-014",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 14
+    },
+    "locator_text": "строка 14",
+    "segment_sha": "da872c8a3ce5",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "US-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "US-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Open Lane / 1",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Open Lane / 1"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Team",
+      "header_ru": "Тариф",
+      "value_ru": "Team"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-04",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-04"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: US-1; Расположение или workspace: Open Lane / 1; Тариф: Team; Дата создания или правило: 2026-09-04; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: US-1; Location or workspace: Open Lane / 1; Plan: Team; Created or rule: 2026-09-04; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-015",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 15
+    },
+    "locator_text": "строка 15",
+    "segment_sha": "931799a752e3",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "EU-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "EU-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Harbor Works / 1",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Harbor Works / 1"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Starter",
+      "header_ru": "Тариф",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-05",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-05"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Harbor Works / 1; Тариф: Starter; Дата создания или правило: 2026-09-05; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: EU-1; Location or workspace: Harbor Works / 1; Plan: Starter; Created or rule: 2026-09-05; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-016",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 16
+    },
+    "locator_text": "строка 16",
+    "segment_sha": "dc0d250309d8",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "US-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "US-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Maple Research / 1",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Maple Research / 1"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Team",
+      "header_ru": "Тариф",
+      "value_ru": "Team"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-06",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-06"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: US-1; Расположение или workspace: Maple Research / 1; Тариф: Team; Дата создания или правило: 2026-09-06; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: US-1; Location or workspace: Maple Research / 1; Plan: Team; Created or rule: 2026-09-06; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-017",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 17
+    },
+    "locator_text": "строка 17",
+    "segment_sha": "2e90c3fde64a",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "EU-2",
+      "header_ru": "Регион или предмет",
+      "value_ru": "EU-2"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Quartz Lab / 1",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Quartz Lab / 1"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Enterprise",
+      "header_ru": "Тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-07",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-07"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: EU-2; Расположение или workspace: Quartz Lab / 1; Тариф: Enterprise; Дата создания или правило: 2026-09-07; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: EU-2; Location or workspace: Quartz Lab / 1; Plan: Enterprise; Created or rule: 2026-09-07; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-018",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 18
+    },
+    "locator_text": "строка 18",
+    "segment_sha": "952d956eac2e",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "US-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "US-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Plain Supply / 1",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Plain Supply / 1"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Team",
+      "header_ru": "Тариф",
+      "value_ru": "Team"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-08",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-08"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: US-1; Расположение или workspace: Plain Supply / 1; Тариф: Team; Дата создания или правило: 2026-09-08; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: US-1; Location or workspace: Plain Supply / 1; Plan: Team; Created or rule: 2026-09-08; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-019",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 19
+    },
+    "locator_text": "строка 19",
+    "segment_sha": "bb82e3abdf0d",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "EU-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "EU-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Cedar Studio / 2",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Cedar Studio / 2"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Starter",
+      "header_ru": "Тариф",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-09",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-09"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Cedar Studio / 2; Тариф: Starter; Дата создания или правило: 2026-09-09; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: EU-1; Location or workspace: Cedar Studio / 2; Plan: Starter; Created or rule: 2026-09-09; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-020",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 20
+    },
+    "locator_text": "строка 20",
+    "segment_sha": "08e5dcd0d989",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "US-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "US-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "North Paper / 2",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "North Paper / 2"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Team",
+      "header_ru": "Тариф",
+      "value_ru": "Team"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-10",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-10"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: US-1; Расположение или workspace: North Paper / 2; Тариф: Team; Дата создания или правило: 2026-09-10; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: US-1; Location or workspace: North Paper / 2; Plan: Team; Created or rule: 2026-09-10; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-021",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 21
+    },
+    "locator_text": "строка 21",
+    "segment_sha": "06bd127dd43c",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "CA-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "CA-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Atelier Nacre / 2",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Atelier Nacre / 2"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Enterprise",
+      "header_ru": "Тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-11",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-11"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: CA-1; Расположение или workspace: Atelier Nacre / 2; Тариф: Enterprise; Дата создания или правило: 2026-09-11; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: CA-1; Location or workspace: Atelier Nacre / 2; Plan: Enterprise; Created or rule: 2026-09-11; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-022",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 22
+    },
+    "locator_text": "строка 22",
+    "segment_sha": "d77537bc80a9",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "US-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "US-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Open Lane / 2",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Open Lane / 2"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Team",
+      "header_ru": "Тариф",
+      "value_ru": "Team"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-12",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-12"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: US-1; Расположение или workspace: Open Lane / 2; Тариф: Team; Дата создания или правило: 2026-09-12; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: US-1; Location or workspace: Open Lane / 2; Plan: Team; Created or rule: 2026-09-12; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-023",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 23
+    },
+    "locator_text": "строка 23",
+    "segment_sha": "e55a5e6695ab",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "EU-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "EU-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Harbor Works / 2",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Harbor Works / 2"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Starter",
+      "header_ru": "Тариф",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-13",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-13"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Harbor Works / 2; Тариф: Starter; Дата создания или правило: 2026-09-13; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: EU-1; Location or workspace: Harbor Works / 2; Plan: Starter; Created or rule: 2026-09-13; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-024",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 24
+    },
+    "locator_text": "строка 24",
+    "segment_sha": "0f8323618454",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "US-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "US-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Maple Research / 2",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Maple Research / 2"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Team",
+      "header_ru": "Тариф",
+      "value_ru": "Team"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-14",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-14"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: US-1; Расположение или workspace: Maple Research / 2; Тариф: Team; Дата создания или правило: 2026-09-14; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: US-1; Location or workspace: Maple Research / 2; Plan: Team; Created or rule: 2026-09-14; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-025",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 25
+    },
+    "locator_text": "строка 25",
+    "segment_sha": "d3e6757ac274",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "EU-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "EU-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Quartz Lab / 2",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Quartz Lab / 2"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Enterprise",
+      "header_ru": "Тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-15",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-15"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Quartz Lab / 2; Тариф: Enterprise; Дата создания или правило: 2026-09-15; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: EU-1; Location or workspace: Quartz Lab / 2; Plan: Enterprise; Created or rule: 2026-09-15; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-026",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 26
+    },
+    "locator_text": "строка 26",
+    "segment_sha": "64bfba0e2a97",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "US-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "US-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Plain Supply / 2",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Plain Supply / 2"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Team",
+      "header_ru": "Тариф",
+      "value_ru": "Team"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-16",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-16"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: US-1; Расположение или workspace: Plain Supply / 2; Тариф: Team; Дата создания или правило: 2026-09-16; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: US-1; Location or workspace: Plain Supply / 2; Plan: Team; Created or rule: 2026-09-16; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-027",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 27
+    },
+    "locator_text": "строка 27",
+    "segment_sha": "f3e2df302351",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "EU-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "EU-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Cedar Studio / 3",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Cedar Studio / 3"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Starter",
+      "header_ru": "Тариф",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-17",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-17"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Cedar Studio / 3; Тариф: Starter; Дата создания или правило: 2026-09-17; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: EU-1; Location or workspace: Cedar Studio / 3; Plan: Starter; Created or rule: 2026-09-17; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-028",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 28
+    },
+    "locator_text": "строка 28",
+    "segment_sha": "6a86034a19d3",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "US-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "US-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "North Paper / 3",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "North Paper / 3"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Team",
+      "header_ru": "Тариф",
+      "value_ru": "Team"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-18",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-18"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: US-1; Расположение или workspace: North Paper / 3; Тариф: Team; Дата создания или правило: 2026-09-18; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: US-1; Location or workspace: North Paper / 3; Plan: Team; Created or rule: 2026-09-18; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-029",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 29
+    },
+    "locator_text": "строка 29",
+    "segment_sha": "c2cd97ecf41b",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "EU-2",
+      "header_ru": "Регион или предмет",
+      "value_ru": "EU-2"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Atelier Nacre / 3",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Atelier Nacre / 3"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Enterprise",
+      "header_ru": "Тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-19",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-19"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: EU-2; Расположение или workspace: Atelier Nacre / 3; Тариф: Enterprise; Дата создания или правило: 2026-09-19; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: EU-2; Location or workspace: Atelier Nacre / 3; Plan: Enterprise; Created or rule: 2026-09-19; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-030",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 30
+    },
+    "locator_text": "строка 30",
+    "segment_sha": "a7cbee363f75",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "US-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "US-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Open Lane / 3",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Open Lane / 3"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Team",
+      "header_ru": "Тариф",
+      "value_ru": "Team"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-20",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-20"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: US-1; Расположение или workspace: Open Lane / 3; Тариф: Team; Дата создания или правило: 2026-09-20; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: US-1; Location or workspace: Open Lane / 3; Plan: Team; Created or rule: 2026-09-20; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-031",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 31
+    },
+    "locator_text": "строка 31",
+    "segment_sha": "b7af8c03d7e1",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "EU-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "EU-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Harbor Works / 3",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Harbor Works / 3"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Starter",
+      "header_ru": "Тариф",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-21",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-21"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Harbor Works / 3; Тариф: Starter; Дата создания или правило: 2026-09-21; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: EU-1; Location or workspace: Harbor Works / 3; Plan: Starter; Created or rule: 2026-09-21; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-032",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 32
+    },
+    "locator_text": "строка 32",
+    "segment_sha": "f191c21a75ee",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "US-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "US-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Maple Research / 3",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Maple Research / 3"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Team",
+      "header_ru": "Тариф",
+      "value_ru": "Team"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-22",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-22"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: US-1; Расположение или workspace: Maple Research / 3; Тариф: Team; Дата создания или правило: 2026-09-22; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: US-1; Location or workspace: Maple Research / 3; Plan: Team; Created or rule: 2026-09-22; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-033",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 33
+    },
+    "locator_text": "строка 33",
+    "segment_sha": "d7c2c4815a4d",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "CA-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "CA-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Quartz Lab / 3",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Quartz Lab / 3"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Enterprise",
+      "header_ru": "Тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-23",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-23"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: CA-1; Расположение или workspace: Quartz Lab / 3; Тариф: Enterprise; Дата создания или правило: 2026-09-23; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: CA-1; Location or workspace: Quartz Lab / 3; Plan: Enterprise; Created or rule: 2026-09-23; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-034",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 34
+    },
+    "locator_text": "строка 34",
+    "segment_sha": "405b58c8921e",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "US-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "US-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Plain Supply / 3",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Plain Supply / 3"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Team",
+      "header_ru": "Тариф",
+      "value_ru": "Team"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-24",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-24"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: US-1; Расположение или workspace: Plain Supply / 3; Тариф: Team; Дата создания или правило: 2026-09-24; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: US-1; Location or workspace: Plain Supply / 3; Plan: Team; Created or rule: 2026-09-24; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-035",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 35
+    },
+    "locator_text": "строка 35",
+    "segment_sha": "7b7de013ec91",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "EU-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "EU-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Cedar Studio / 4",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Cedar Studio / 4"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Starter",
+      "header_ru": "Тариф",
+      "value_ru": "Starter"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-01",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-01"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Cedar Studio / 4; Тариф: Starter; Дата создания или правило: 2026-09-01; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: EU-1; Location or workspace: Cedar Studio / 4; Plan: Starter; Created or rule: 2026-09-01; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-036",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 36
+    },
+    "locator_text": "строка 36",
+    "segment_sha": "8c5070454264",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "US-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "US-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "North Paper / 4",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "North Paper / 4"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Team",
+      "header_ru": "Тариф",
+      "value_ru": "Team"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-02",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-02"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: US-1; Расположение или workspace: North Paper / 4; Тариф: Team; Дата создания или правило: 2026-09-02; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: US-1; Location or workspace: North Paper / 4; Plan: Team; Created or rule: 2026-09-02; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-037",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 37
+    },
+    "locator_text": "строка 37",
+    "segment_sha": "7c4db7a368bb",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "EU-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "EU-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Atelier Nacre / 4",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Atelier Nacre / 4"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Enterprise",
+      "header_ru": "Тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-03",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-03"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: EU-1; Расположение или workspace: Atelier Nacre / 4; Тариф: Enterprise; Дата создания или правило: 2026-09-03; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: EU-1; Location or workspace: Atelier Nacre / 4; Plan: Enterprise; Created or rule: 2026-09-03; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "05-038",
+    "doc_no": 5,
+    "doc_id": "hosting-regions",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/hosting regions export.csv",
+    "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+    "source_lang": "en",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 38
+    },
+    "locator_text": "строка 38",
+    "segment_sha": "7ac23ea5e2d4",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Region or subject",
+      "value": "US-1",
+      "header_ru": "Регион или предмет",
+      "value_ru": "US-1"
+     },
+     {
+      "col": 2,
+      "header": "Location or workspace",
+      "value": "Open Lane / 4",
+      "header_ru": "Расположение или workspace",
+      "value_ru": "Open Lane / 4"
+     },
+     {
+      "col": 3,
+      "header": "Plan",
+      "value": "Team",
+      "header_ru": "Тариф",
+      "value_ru": "Team"
+     },
+     {
+      "col": 4,
+      "header": "Created or rule",
+      "value": "2026-09-04",
+      "header_ru": "Дата создания или правило",
+      "value_ru": "2026-09-04"
+     },
+     {
+      "col": 5,
+      "header": "Operations note",
+      "value": "selection captured before workspace creation; interface language does not set region",
+      "header_ru": "Примечание операций",
+      "value_ru": "выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Регион или предмет",
+      "Расположение или workspace",
+      "Тариф",
+      "Дата создания или правило",
+      "Примечание операций"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Регион или предмет: US-1; Расположение или workspace: Open Lane / 4; Тариф: Team; Дата создания или правило: 2026-09-04; Примечание операций: выбор зафиксирован до создания workspace; язык интерфейса не задаёт регион",
+    "text_orig": "Region or subject: US-1; Location or workspace: Open Lane / 4; Plan: Team; Created or rule: 2026-09-04; Operations note: selection captured before workspace creation; interface language does not set region",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   }
+  ]
+ }
+}

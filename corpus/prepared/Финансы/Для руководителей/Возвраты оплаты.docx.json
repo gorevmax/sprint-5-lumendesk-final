@@ -1,0 +1,1446 @@
+{
+ "no": 45,
+ "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+ "doc_id": "refund-approval",
+ "title": "Согласование возвратов оплаты",
+ "title_ru": "Согласование возвратов оплаты",
+ "lang": "ru",
+ "format": "docx",
+ "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+ "decision": {
+  "no": 45,
+  "path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+  "doc_id": "refund-approval",
+  "title": "Согласование возвратов оплаты",
+  "lang": "ru",
+  "owner": "Finance Operations",
+  "version": "2026-09-01",
+  "updated": "2026-09-01",
+  "doc_type": "rule",
+  "status": "include",
+  "rule": "R1+R10",
+  "reason": "Finance Operations пересмотрела 1.09.2026; пометка «Только руководителям поддержки».",
+  "access": "support_lead",
+  "trust": "confirmed",
+  "related": [
+   10,
+   43,
+   42
+  ]
+ },
+ "fragments": [
+  {
+   "fragment_id": "45-001",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "title",
+   "locator": {
+    "paragraph": 1,
+    "style": "Title"
+   },
+   "locator_text": "абзац 1 (w:p, стиль Title)",
+   "segment_sha": "22c8d82be00d",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Согласование возвратов оплаты",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-002",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 2,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 2 (w:p, стиль Normal)",
+   "segment_sha": "65fa310338d2",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Только руководителям поддержки. Finance Operations пересмотрела порядок 1 сентября 2026 года. Этот документ описывает внутреннюю подготовку и согласование возврата, а не текст для ответа клиенту. Специалист первой линии передаёт вопрос руководителю и не пересказывает клиенту внутренние маршруты согласования. Окончательное проведение возврата выполняет платёжная команда после необходимых согласований.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-003",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 3,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 3 (w:p, стиль Normal)",
+   "segment_sha": "8bfd276d2e94",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Возврат оплаты отличается от зачёта компенсации на следующий счёт. До создания заявки выясните, какое именно действие просит плательщик и что уже было согласовано по тому же платежу. Одно обращение может упоминать и инцидент сервиса, и ошибку счёта; это не основание автоматически запустить оба финансовых действия. Для проверки нужны связанный платёж и уполномоченный billing owner договора.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-004",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "heading",
+   "locator": {
+    "paragraph": 4,
+    "style": "Heading1"
+   },
+   "locator_text": "абзац 4 (w:p, стиль Heading1)",
+   "segment_sha": "c6f992ffd17b",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Допуск",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-005",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 5,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 5 (w:p, стиль Normal)",
+   "segment_sha": "94375aede42a",
+   "section": "Допуск",
+   "section_ru": "Допуск",
+   "text_ru": "Создать заявку на возврат может только руководитель поддержки.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-006",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 6,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 6 (w:p, стиль Normal)",
+   "segment_sha": "87131480e58c",
+   "section": "Допуск",
+   "section_ru": "Допуск",
+   "text_ru": "Запрос должен поступить от billing owner договора.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-007",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 7,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 7 (w:p, стиль Normal)",
+   "segment_sha": "429139af0f4d",
+   "section": "Допуск",
+   "section_ru": "Допуск",
+   "text_ru": "В карточке фиксируют invoice ID, основание и сумму в валюте счёта.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-008",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 8,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 8 (w:p, стиль Normal)",
+   "segment_sha": "f80ad30e34c6",
+   "section": "Допуск",
+   "section_ru": "Допуск",
+   "text_ru": "Перед созданием проверяют отсутствие существующего refund ID для того же платежа.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-009",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "heading",
+   "locator": {
+    "paragraph": 9,
+    "style": "Heading1"
+   },
+   "locator_text": "абзац 9 (w:p, стиль Heading1)",
+   "segment_sha": "43d77b862e62",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Согласование",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-010",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 10,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 10 (w:p, стиль Normal)",
+   "segment_sha": "de59afb8d863",
+   "section": "Согласование",
+   "section_ru": "Согласование",
+   "text_ru": "До 500 EUR включительно требуется согласование Finance Operations.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-011",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 11,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 11 (w:p, стиль Normal)",
+   "segment_sha": "397f8270f208",
+   "section": "Согласование",
+   "section_ru": "Согласование",
+   "text_ru": "Свыше 500 EUR требуется согласование Finance Director.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-012",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 12,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 12 (w:p, стиль Normal)",
+   "segment_sha": "b0f11de130cd",
+   "section": "Согласование",
+   "section_ru": "Согласование",
+   "text_ru": "Частичный возврат не меняет тариф автоматически.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-013",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 13,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 13 (w:p, стиль Normal)",
+   "segment_sha": "efd1007415f6",
+   "section": "Согласование",
+   "section_ru": "Согласование",
+   "text_ru": "После согласования платёжная команда инициирует возврат в течение 5 рабочих дней.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-014",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 14,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 14 (w:p, стиль Normal)",
+   "segment_sha": "ee38443b0902",
+   "section": "Согласование",
+   "section_ru": "Согласование",
+   "text_ru": "Клиенту сообщают refund ID и ожидаемый срок банка, не внутренние маршруты согласования.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-015",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "heading",
+   "locator": {
+    "paragraph": 15,
+    "style": "Heading1"
+   },
+   "locator_text": "абзац 15 (w:p, стиль Heading1)",
+   "segment_sha": "77c1031dddba",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Подготовка карточки руководителем",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-016",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 16,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 16 (w:p, стиль Normal)",
+   "segment_sha": "8b9ca84e4656",
+   "section": "Подготовка карточки руководителем",
+   "section_ru": "Подготовка карточки руководителем",
+   "text_ru": "Заявку создаёт руководитель поддержки после проверки отправителя. В карточке указывают invoice ID, основание и сумму в валюте счёта. Пересказ клиента желательно сохранить отдельно от проверенного основания, чтобы Finance видела, какие обстоятельства уже подтверждены. Номер карты, данные удостоверения личности и полный банковский документ не добавляют ради удобства идентификации. Используйте защищённые записи договора и платежа, к которым у исполнителя уже есть необходимый доступ.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-017",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 17,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 17 (w:p, стиль Normal)",
+   "segment_sha": "e782649936d1",
+   "section": "Подготовка карточки руководителем",
+   "section_ru": "Подготовка карточки руководителем",
+   "text_ru": "До отправки проверьте, не существует ли refund ID для того же платежа. Клиент может написать повторно или обратиться к другому сотруднику, пока первый возврат ещё обрабатывается. Повторное письмо не создаёт новый остаток к возврату. Если обнаружена прежняя заявка, свяжите обращения и уточните её состояние. Не создавайте ещё одну заявку только потому, что в новой переписке сумма названа иначе: сначала разберите основание изменения и уже согласованные действия.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-018",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "heading",
+   "locator": {
+    "paragraph": 18,
+    "style": "Heading1"
+   },
+   "locator_text": "абзац 18 (w:p, стиль Heading1)",
+   "segment_sha": "60a87a9bd8d2",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Сумма и согласующий",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-019",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 19,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 19 (w:p, стиль Normal)",
+   "segment_sha": "af3f2540826d",
+   "section": "Сумма и согласующий",
+   "section_ru": "Сумма и согласующий",
+   "text_ru": "Сумма до пятисот EUR включительно согласуется Finance Operations. Для суммы свыше пятисот EUR требуется Finance Director. Граница относится к самой заявке: ровно пятьсот EUR не переводят в маршрут большей суммы. Если счёт в другой валюте, не придумывайте курс и порог на основании поиска в интернете; подготовьте сумму в валюте счёта и согласуйте обработку с Finance. Документ не разрешает дробить один возврат на несколько карточек ради обхода согласующего.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-020",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 20,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 20 (w:p, стиль Normal)",
+   "segment_sha": "8e3013433af2",
+   "section": "Сумма и согласующий",
+   "section_ru": "Сумма и согласующий",
+   "text_ru": "Частичный возврат не меняет тариф автоматически. В сообщении о согласовании должно быть понятно, какая сумма и по какому основанию разрешена к проведению. Отдельный коммерческий запрос на изменение тарифа продолжает свой маршрут. Если основание или сумма меняются после согласования, верните уточнение в Finance прежде, чем платёжная команда начнёт исполнение. Сохраняйте связь с прежним решением, чтобы история не выглядела как два независимых одобрения одной операции.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-021",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "heading",
+   "locator": {
+    "paragraph": 21,
+    "style": "Heading1"
+   },
+   "locator_text": "абзац 21 (w:p, стиль Heading1)",
+   "segment_sha": "c69611990ab7",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Передача в платёжную команду",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-022",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 22,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 22 (w:p, стиль Normal)",
+   "segment_sha": "66a1706ea029",
+   "section": "Передача в платёжную команду",
+   "section_ru": "Передача в платёжную команду",
+   "text_ru": "После согласования платёжная команда инициирует возврат в течение пяти рабочих дней. Этот срок не равен сроку поступления денег на банковский счёт клиента. Передавая статус, называйте фактическое действие и известное состояние, а не обещайте завершённое зачисление по внутренней отметке отправки. Клиент получает refund ID и ожидаемый срок банка. Внутренний маршрут согласований, фамилии согласующих и лимиты подразделений клиенту не сообщают.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  },
+  {
+   "fragment_id": "45-023",
+   "doc_no": 45,
+   "doc_id": "refund-approval",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+   "source_lang": "ru",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 23,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 23 (w:p, стиль Normal)",
+   "segment_sha": "3c87836867ba",
+   "section": "Передача в платёжную команду",
+   "section_ru": "Передача в платёжную команду",
+   "text_ru": "Для проверки на планёрке рассмотрели два случая: повторное обращение по уже созданному refund ID и частичный возврат при сохранении прежнего тарифа. В первом объединили историю и не создали дубликат платёжного действия. Во втором явно отделили возврат суммы от дальнейшей коммерческой заявки. Перед закрытием руководитель проверил связность платежа, согласования и refund ID, а также убедился, что в клиентском ответе не осталось выдержек из внутренней процедуры.",
+   "translation": "original_ru",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Только для support_lead; специалисту первой линии содержание не раскрывать."
+  }
+ ],
+ "_base": {
+  "no": 45,
+  "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+  "doc_id": "refund-approval",
+  "title": "Согласование возвратов оплаты",
+  "title_ru": "Согласование возвратов оплаты",
+  "lang": "ru",
+  "format": "docx",
+  "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+  "decision": {
+   "no": 45,
+   "path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+   "doc_id": "refund-approval",
+   "title": "Согласование возвратов оплаты",
+   "lang": "ru",
+   "owner": "Finance Operations",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "doc_type": "rule",
+   "status": "include",
+   "rule": "R1+R10",
+   "reason": "Finance Operations пересмотрела 1.09.2026; пометка «Только руководителям поддержки».",
+   "access": "support_lead",
+   "trust": "confirmed",
+   "related": [
+    10,
+    43,
+    42
+   ]
+  },
+  "fragments": [
+   {
+    "fragment_id": "45-001",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "title",
+    "locator": {
+     "paragraph": 1,
+     "style": "Title"
+    },
+    "locator_text": "абзац 1 (w:p, стиль Title)",
+    "segment_sha": "22c8d82be00d",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Согласование возвратов оплаты",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-002",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 2,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 2 (w:p, стиль Normal)",
+    "segment_sha": "65fa310338d2",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Только руководителям поддержки. Finance Operations пересмотрела порядок 1 сентября 2026 года. Этот документ описывает внутреннюю подготовку и согласование возврата, а не текст для ответа клиенту. Специалист первой линии передаёт вопрос руководителю и не пересказывает клиенту внутренние маршруты согласования. Окончательное проведение возврата выполняет платёжная команда после необходимых согласований.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-003",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 3,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 3 (w:p, стиль Normal)",
+    "segment_sha": "8bfd276d2e94",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Возврат оплаты отличается от зачёта компенсации на следующий счёт. До создания заявки выясните, какое именно действие просит плательщик и что уже было согласовано по тому же платежу. Одно обращение может упоминать и инцидент сервиса, и ошибку счёта; это не основание автоматически запустить оба финансовых действия. Для проверки нужны связанный платёж и уполномоченный billing owner договора.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-004",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "heading",
+    "locator": {
+     "paragraph": 4,
+     "style": "Heading1"
+    },
+    "locator_text": "абзац 4 (w:p, стиль Heading1)",
+    "segment_sha": "c6f992ffd17b",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Допуск",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-005",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 5,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 5 (w:p, стиль Normal)",
+    "segment_sha": "94375aede42a",
+    "section": "Допуск",
+    "section_ru": "Допуск",
+    "text_ru": "Создать заявку на возврат может только руководитель поддержки.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-006",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 6,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 6 (w:p, стиль Normal)",
+    "segment_sha": "87131480e58c",
+    "section": "Допуск",
+    "section_ru": "Допуск",
+    "text_ru": "Запрос должен поступить от billing owner договора.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-007",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 7,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 7 (w:p, стиль Normal)",
+    "segment_sha": "429139af0f4d",
+    "section": "Допуск",
+    "section_ru": "Допуск",
+    "text_ru": "В карточке фиксируют invoice ID, основание и сумму в валюте счёта.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-008",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 8,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 8 (w:p, стиль Normal)",
+    "segment_sha": "f80ad30e34c6",
+    "section": "Допуск",
+    "section_ru": "Допуск",
+    "text_ru": "Перед созданием проверяют отсутствие существующего refund ID для того же платежа.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-009",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "heading",
+    "locator": {
+     "paragraph": 9,
+     "style": "Heading1"
+    },
+    "locator_text": "абзац 9 (w:p, стиль Heading1)",
+    "segment_sha": "43d77b862e62",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Согласование",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-010",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 10,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 10 (w:p, стиль Normal)",
+    "segment_sha": "de59afb8d863",
+    "section": "Согласование",
+    "section_ru": "Согласование",
+    "text_ru": "До 500 EUR включительно требуется согласование Finance Operations.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-011",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 11,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 11 (w:p, стиль Normal)",
+    "segment_sha": "397f8270f208",
+    "section": "Согласование",
+    "section_ru": "Согласование",
+    "text_ru": "Свыше 500 EUR требуется согласование Finance Director.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-012",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 12,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 12 (w:p, стиль Normal)",
+    "segment_sha": "b0f11de130cd",
+    "section": "Согласование",
+    "section_ru": "Согласование",
+    "text_ru": "Частичный возврат не меняет тариф автоматически.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-013",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 13,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 13 (w:p, стиль Normal)",
+    "segment_sha": "efd1007415f6",
+    "section": "Согласование",
+    "section_ru": "Согласование",
+    "text_ru": "После согласования платёжная команда инициирует возврат в течение 5 рабочих дней.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-014",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 14,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 14 (w:p, стиль Normal)",
+    "segment_sha": "ee38443b0902",
+    "section": "Согласование",
+    "section_ru": "Согласование",
+    "text_ru": "Клиенту сообщают refund ID и ожидаемый срок банка, не внутренние маршруты согласования.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-015",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "heading",
+    "locator": {
+     "paragraph": 15,
+     "style": "Heading1"
+    },
+    "locator_text": "абзац 15 (w:p, стиль Heading1)",
+    "segment_sha": "77c1031dddba",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Подготовка карточки руководителем",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-016",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 16,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 16 (w:p, стиль Normal)",
+    "segment_sha": "8b9ca84e4656",
+    "section": "Подготовка карточки руководителем",
+    "section_ru": "Подготовка карточки руководителем",
+    "text_ru": "Заявку создаёт руководитель поддержки после проверки отправителя. В карточке указывают invoice ID, основание и сумму в валюте счёта. Пересказ клиента желательно сохранить отдельно от проверенного основания, чтобы Finance видела, какие обстоятельства уже подтверждены. Номер карты, данные удостоверения личности и полный банковский документ не добавляют ради удобства идентификации. Используйте защищённые записи договора и платежа, к которым у исполнителя уже есть необходимый доступ.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-017",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 17,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 17 (w:p, стиль Normal)",
+    "segment_sha": "e782649936d1",
+    "section": "Подготовка карточки руководителем",
+    "section_ru": "Подготовка карточки руководителем",
+    "text_ru": "До отправки проверьте, не существует ли refund ID для того же платежа. Клиент может написать повторно или обратиться к другому сотруднику, пока первый возврат ещё обрабатывается. Повторное письмо не создаёт новый остаток к возврату. Если обнаружена прежняя заявка, свяжите обращения и уточните её состояние. Не создавайте ещё одну заявку только потому, что в новой переписке сумма названа иначе: сначала разберите основание изменения и уже согласованные действия.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-018",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "heading",
+    "locator": {
+     "paragraph": 18,
+     "style": "Heading1"
+    },
+    "locator_text": "абзац 18 (w:p, стиль Heading1)",
+    "segment_sha": "60a87a9bd8d2",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Сумма и согласующий",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-019",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 19,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 19 (w:p, стиль Normal)",
+    "segment_sha": "af3f2540826d",
+    "section": "Сумма и согласующий",
+    "section_ru": "Сумма и согласующий",
+    "text_ru": "Сумма до пятисот EUR включительно согласуется Finance Operations. Для суммы свыше пятисот EUR требуется Finance Director. Граница относится к самой заявке: ровно пятьсот EUR не переводят в маршрут большей суммы. Если счёт в другой валюте, не придумывайте курс и порог на основании поиска в интернете; подготовьте сумму в валюте счёта и согласуйте обработку с Finance. Документ не разрешает дробить один возврат на несколько карточек ради обхода согласующего.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-020",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 20,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 20 (w:p, стиль Normal)",
+    "segment_sha": "8e3013433af2",
+    "section": "Сумма и согласующий",
+    "section_ru": "Сумма и согласующий",
+    "text_ru": "Частичный возврат не меняет тариф автоматически. В сообщении о согласовании должно быть понятно, какая сумма и по какому основанию разрешена к проведению. Отдельный коммерческий запрос на изменение тарифа продолжает свой маршрут. Если основание или сумма меняются после согласования, верните уточнение в Finance прежде, чем платёжная команда начнёт исполнение. Сохраняйте связь с прежним решением, чтобы история не выглядела как два независимых одобрения одной операции.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-021",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "heading",
+    "locator": {
+     "paragraph": 21,
+     "style": "Heading1"
+    },
+    "locator_text": "абзац 21 (w:p, стиль Heading1)",
+    "segment_sha": "c69611990ab7",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Передача в платёжную команду",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-022",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 22,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 22 (w:p, стиль Normal)",
+    "segment_sha": "66a1706ea029",
+    "section": "Передача в платёжную команду",
+    "section_ru": "Передача в платёжную команду",
+    "text_ru": "После согласования платёжная команда инициирует возврат в течение пяти рабочих дней. Этот срок не равен сроку поступления денег на банковский счёт клиента. Передавая статус, называйте фактическое действие и известное состояние, а не обещайте завершённое зачисление по внутренней отметке отправки. Клиент получает refund ID и ожидаемый срок банка. Внутренний маршрут согласований, фамилии согласующих и лимиты подразделений клиенту не сообщают.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "45-023",
+    "doc_no": 45,
+    "doc_id": "refund-approval",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "source_sha256": "d42809880a4a58c6470d83e783200f515ce003aef83c69970b212c9891c1363a",
+    "source_lang": "ru",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 23,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 23 (w:p, стиль Normal)",
+    "segment_sha": "3c87836867ba",
+    "section": "Передача в платёжную команду",
+    "section_ru": "Передача в платёжную команду",
+    "text_ru": "Для проверки на планёрке рассмотрели два случая: повторное обращение по уже созданному refund ID и частичный возврат при сохранении прежнего тарифа. В первом объединили историю и не создали дубликат платёжного действия. Во втором явно отделили возврат суммы от дальнейшей коммерческой заявки. Перед закрытием руководитель проверил связность платежа, согласования и refund ID, а также убедился, что в клиентском ответе не осталось выдержек из внутренней процедуры.",
+    "translation": "original_ru",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   }
+  ]
+ }
+}

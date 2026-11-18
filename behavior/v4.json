@@ -1,0 +1,19 @@
+{
+ "version": "v4",
+ "status_note": "ПРЕДЛОЖЕНИЕ по калибровке (eval/calibration.md), не активировано. Включение: python -m rag_demo policy use --version v4, затем новый поиск по всем вопросам (переиндексация не нужна).",
+ "description": "v3 с порогами, откалиброванными на 12 контрольных вопросах + 3 вопросах вне базы + №7 от support_lead.",
+ "top_k": 8,
+ "retrieval_threshold": 0.214,
+ "retrieval_threshold_note": "середина окна между самым дальним релевантным фрагментом (0.2120, №7 для support_lead) и лучшим разрешённым кандидатом вопроса без разрешённого ответа (0.2164, №7 для support_agent). Запас ±0.002 — узкий.",
+ "authorization_probe_distance": 0.214,
+ "authorization_probe_note": "равен retrieval_threshold: закрытый фрагмент считается ответом, если он прошёл бы порог, будь он разрешён. Запас: 0.012 до №7 (0.2022), 0.038 до вопроса вне базы (0.2520).",
+ "forbidden_rule": "probe_and_closer_than_allowed",
+ "lexical_extra": 2,
+ "lexical_pool": 40,
+ "lexical_stem": 6,
+ "roles": ["support_agent", "support_lead"],
+ "role_note": "параметр --role не является аутентификацией; соответствие документов ролям — access.csv",
+ "decisions": ["answer", "clarify", "escalate", "refuse"],
+ "context_states": ["available", "empty", "forbidden"],
+ "system_file": "behavior/system-v3.md"
+}

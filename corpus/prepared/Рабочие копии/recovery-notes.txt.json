@@ -1,0 +1,1244 @@
+{
+ "no": 37,
+ "source_path": "documents/Рабочие копии/recovery-notes.txt",
+ "doc_id": "trash-recovery",
+ "title": "Trash: the customer conversation and recovery",
+ "title_ru": "Корзина: разговор с клиентом и восстановление",
+ "lang": "en",
+ "format": "txt",
+ "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+ "decision": {
+  "no": 37,
+  "path": "documents/Рабочие копии/recovery-notes.txt",
+  "doc_id": "trash-recovery",
+  "title": "Trash: the customer conversation and recovery",
+  "lang": "en",
+  "owner": "Workspace Platform",
+  "version": "2026-09-01",
+  "updated": "2026-09-01",
+  "doc_type": "rule",
+  "status": "exclude",
+  "rule": "R4",
+  "reason": "Полный дубль №13 на английском (абзац в абзац, проверено после перевода); связанная копия в группе DUP-trash.",
+  "access": "all",
+  "trust": "confirmed",
+  "dup_group": "DUP-trash",
+  "dup_role": "linked_copy",
+  "duplicate_of": 13
+ },
+ "fragments": [
+  {
+   "fragment_id": "37-001",
+   "doc_no": 37,
+   "doc_id": "trash-recovery",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/recovery-notes.txt",
+   "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "title",
+   "locator": {
+    "lines": [
+     1,
+     1
+    ]
+   },
+   "locator_text": "строка 1",
+   "segment_sha": "f938dec0369e",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Корзина: разговор с клиентом и восстановление",
+   "text_orig": "Trash: the customer conversation and recovery",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-trash",
+   "conflict_group": null,
+   "index": false,
+   "handling": "Связанная копия документа №13; в поиск идёт основной экземпляр."
+  },
+  {
+   "fragment_id": "37-002",
+   "doc_no": 37,
+   "doc_id": "trash-recovery",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/recovery-notes.txt",
+   "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     3,
+     3
+    ]
+   },
+   "locator_text": "строка 3",
+   "segment_sha": "3b13875beb70",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "С 1 сентября 2026 года команда Workspace Platform использует этот порядок для карточек и документов LumenDesk. К нему обращаются и специалисты первой линии, и руководители поддержки, когда клиент сообщает об ошибочном удалении. Чаще всего человек начинает с фразы «вчера всё было на месте», однако для решения нужны более точные сведения. До обещания вернуть объект выясните тариф рабочего пространства и время удаления. Не стоит начинать разговор с предположения, что администратор обязательно найдёт карточку в Корзине: наличие такой возможности зависит от срока.",
+   "text_orig": "From September 1, 2026, Workspace Platform uses this procedure for LumenDesk cards and documents. Both frontline specialists and support leads refer to it when a customer reports an accidental deletion. People often begin with “everything was there yesterday,” but the decision requires more precise information. Before promising to return an item, establish the workspace plan and the deletion time. Do not start by assuming that an administrator will definitely find the card in Trash: that possibility depends on the time window.",
+   "translation": "translated",
+   "translation_review": {
+    "checks": [
+     "numbers"
+    ],
+    "decision": "accepted",
+    "note": "№37↔№13: «Both frontline specialists and support leads» → «и специалисты первой линии, и руководители поддержки» — союз, не количество. Дата 1.09.2026 совпадает."
+   },
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-trash",
+   "conflict_group": null,
+   "duplicate_of": "13-002",
+   "index": false,
+   "handling": "Связанная копия: использовать фрагмент 13-002; не считать независимым подтверждением."
+  },
+  {
+   "fragment_id": "37-003",
+   "doc_no": 37,
+   "doc_id": "trash-recovery",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/recovery-notes.txt",
+   "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     5,
+     5
+    ]
+   },
+   "locator_text": "строка 5",
+   "segment_sha": "048864736281",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Обычно в обращении смешиваются два вопроса: кто удалил объект и кто может его вернуть. Удалить карточку или документ может владелец этого объекта либо администратор workspace. Восстановление выполняет администратор workspace через Корзину. Эти действия не симметричны. Владелец карточки, у которого нет административных полномочий в рабочем пространстве, может законно удалить её и при этом нуждаться в помощи администратора для возвращения. Объясните это спокойно, особенно если клиент воспринимает отсутствие кнопки восстановления как ошибку интерфейса.",
+   "text_orig": "Requests commonly mix two questions: who deleted the item and who can restore it. The item owner or a workspace administrator may delete a card or document. A workspace administrator performs restoration through Trash. These actions are not symmetrical. A card owner who has no administrative powers in the workspace can legitimately delete it and still need an administrator's help to return it. Explain this calmly, especially when the customer sees the absence of a restoration button as an interface problem.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-trash",
+   "conflict_group": null,
+   "duplicate_of": "13-003",
+   "index": false,
+   "handling": "Связанная копия: использовать фрагмент 13-003; не считать независимым подтверждением."
+  },
+  {
+   "fragment_id": "37-004",
+   "doc_no": 37,
+   "doc_id": "trash-recovery",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/recovery-notes.txt",
+   "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     7,
+     7
+    ]
+   },
+   "locator_text": "строка 7",
+   "segment_sha": "3bda9983e880",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Как считать оставшееся время",
+   "text_orig": "Working out the time remaining",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-trash",
+   "conflict_group": null,
+   "index": false,
+   "handling": "Связанная копия документа №13; в поиск идёт основной экземпляр."
+  },
+  {
+   "fragment_id": "37-005",
+   "doc_no": 37,
+   "doc_id": "trash-recovery",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/recovery-notes.txt",
+   "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     9,
+     9
+    ]
+   },
+   "locator_text": "строка 9",
+   "segment_sha": "690b7a0304af",
+   "section": "Working out the time remaining",
+   "section_ru": "Как считать оставшееся время",
+   "text_ru": "Для Team окно восстановления составляет 30 календарных дней с момента удаления. У Starter оно равно 7 календарным дням, у Enterprise — 90 календарным дням. Это именно календарные дни; выходные не приостанавливают отсчёт. Таймер начинается при удалении объекта. Время хранится в UTC, поэтому в обсуждении нужно отделять сам момент события от того, как он показан человеку в его часовом поясе. Фраза «удалили в понедельник вечером» ещё не позволяет проверить срок.",
+   "text_orig": "For Team, the recovery window is 30 calendar days from deletion. For Starter it is 7 calendar days, and for Enterprise it is 90 calendar days. These are calendar days; weekends do not pause the count. The timer starts when the item is deleted. Timestamps are stored in UTC, so distinguish the instant of the event from the way it is displayed to a person in their timezone. “Deleted on Monday evening” is not yet enough to check the window.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-trash",
+   "conflict_group": null,
+   "duplicate_of": "13-005",
+   "index": false,
+   "handling": "Связанная копия: использовать фрагмент 13-005; не считать независимым подтверждением."
+  },
+  {
+   "fragment_id": "37-006",
+   "doc_no": 37,
+   "doc_id": "trash-recovery",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/recovery-notes.txt",
+   "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     11,
+     11
+    ]
+   },
+   "locator_text": "строка 11",
+   "segment_sha": "b2053ecdfa4b",
+   "section": "Working out the time remaining",
+   "section_ru": "Как считать оставшееся время",
+   "text_ru": "Попросите клиента указать время удаления, а если он видит местное время — уточните часовой пояс. В заметке по обращению сохраните однозначное время UTC. Два сотрудника из разных офисов могут назвать разные даты одного события, если удаление произошло около полуночи. Это не означает, что у них разные окна восстановления. Они описывают один момент с разных сторон. Не округляйте время до начала дня и не заменяйте момент удаления датой, когда клиент впервые обратился в поддержку.",
+   "text_orig": "Ask the customer for the deletion time, and if they see local time, clarify the timezone. Keep an unambiguous UTC time in the request notes. Two people in different offices may give different dates for the same event if deletion happened near midnight. That does not mean they have different recovery windows. They are describing one instant from different perspectives. Do not round the time down to the beginning of a day or replace the deletion time with the date when the customer first contacted support.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-trash",
+   "conflict_group": null,
+   "duplicate_of": "13-006",
+   "index": false,
+   "handling": "Связанная копия: использовать фрагмент 13-006; не считать независимым подтверждением."
+  },
+  {
+   "fragment_id": "37-007",
+   "doc_no": 37,
+   "doc_id": "trash-recovery",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/recovery-notes.txt",
+   "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     13,
+     13
+    ]
+   },
+   "locator_text": "строка 13",
+   "segment_sha": "8cf3fbfcef8b",
+   "section": "Working out the time remaining",
+   "section_ru": "Как считать оставшееся время",
+   "text_ru": "Полезный способ объяснить правило — сначала назвать тариф, затем срок и только потом обсудить конкретный объект. Например: «Для Team восстановление доступно в течение 30 календарных дней после удаления; проверим время этой карточки». Такой ответ помогает человеку понять, почему у коллеги в другом workspace мог быть другой результат. Само название организации не подсказывает тариф конкретного рабочего пространства, поэтому его нужно проверить отдельно, а не брать из памяти о предыдущем обращении.",
+   "text_orig": "A useful way to explain the rule is to name the plan, then the window, and only then discuss the particular item. For example: “Team allows recovery for 30 calendar days after deletion; let us check the time for this card.” This helps the customer understand why a colleague in another workspace may have had a different result. The organisation's name does not reveal the plan of the particular workspace. Check it separately rather than relying on a memory of an earlier request.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-trash",
+   "conflict_group": null,
+   "duplicate_of": "13-007",
+   "index": false,
+   "handling": "Связанная копия: использовать фрагмент 13-007; не считать независимым подтверждением."
+  },
+  {
+   "fragment_id": "37-008",
+   "doc_no": 37,
+   "doc_id": "trash-recovery",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/recovery-notes.txt",
+   "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     15,
+     15
+    ]
+   },
+   "locator_text": "строка 15",
+   "segment_sha": "7084d004dee6",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Что попросить и что оставить у клиента",
+   "text_orig": "What to request and what stays with the customer",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-trash",
+   "conflict_group": null,
+   "index": false,
+   "handling": "Связанная копия документа №13; в поиск идёт основной экземпляр."
+  },
+  {
+   "fragment_id": "37-009",
+   "doc_no": 37,
+   "doc_id": "trash-recovery",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/recovery-notes.txt",
+   "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     17,
+     17
+    ]
+   },
+   "locator_text": "строка 17",
+   "segment_sha": "f446c2920bf6",
+   "section": "What to request and what stays with the customer",
+   "section_ru": "Что попросить и что оставить у клиента",
+   "text_ru": "Для проверки нужны workspace ID, object ID и время удаления. Содержимое карточки или документа отправлять не требуется. Это особенно удобно, когда клиент работает с внутренними планами, договорами или материалами своей команды: для установления возможности восстановления не нужно копировать их текст в тикет. Если вместо идентификатора пришло только знакомое название, объясните, что одноимённых объектов может быть несколько и что нужен идентификатор именно удалённого объекта.",
+   "text_orig": "The check needs the workspace ID, object ID, and deletion time. Sending the contents of the card or document is unnecessary. This is particularly helpful when the customer works with internal plans, contracts, or team materials: establishing whether recovery is available does not require copying their text into the ticket. If the customer supplies only a familiar title instead of an identifier, explain that several items may share a name and that the identifier of the actual deleted item is needed.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-trash",
+   "conflict_group": null,
+   "duplicate_of": "13-009",
+   "index": false,
+   "handling": "Связанная копия: использовать фрагмент 13-009; не считать независимым подтверждением."
+  },
+  {
+   "fragment_id": "37-010",
+   "doc_no": 37,
+   "doc_id": "trash-recovery",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/recovery-notes.txt",
+   "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     19,
+     19
+    ]
+   },
+   "locator_text": "строка 19",
+   "segment_sha": "85a38e2e11f5",
+   "section": "What to request and what stays with the customer",
+   "section_ru": "Что попросить и что оставить у клиента",
+   "text_ru": "В рабочей заметке разделяйте слова клиента и подтверждённые сведения. «Мария помнит, что удаляла после совещания» — полезный контекст, но это ещё не точная отметка времени. «Получен object ID и время удаления в UTC» — уже информация, по которой можно продолжать проверку. Не превращайте разговор в требование большого пакета скриншотов: чем больше лишнего содержимого оказывается в переписке, тем сложнее затем увидеть три действительно нужных значения. При этом короткая заметка должна быть понятна следующему специалисту без повторного расспроса клиента.",
+   "text_orig": "Separate the customer's recollection from confirmed information in the working note. “Maria remembers deleting it after a meeting” is useful context, but not an exact timestamp. “Object ID and deletion time in UTC received” is information that supports the next check. Do not turn the conversation into a demand for a large packet of screenshots: the more unnecessary content enters the exchange, the harder it becomes to see the three values that matter. A short note should still be understandable to the next specialist without asking the customer everything again.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-trash",
+   "conflict_group": null,
+   "duplicate_of": "13-010",
+   "index": false,
+   "handling": "Связанная копия: использовать фрагмент 13-010; не считать независимым подтверждением."
+  },
+  {
+   "fragment_id": "37-011",
+   "doc_no": 37,
+   "doc_id": "trash-recovery",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/recovery-notes.txt",
+   "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     21,
+     21
+    ]
+   },
+   "locator_text": "строка 21",
+   "segment_sha": "cf5775b8112d",
+   "section": "What to request and what stays with the customer",
+   "section_ru": "Что попросить и что оставить у клиента",
+   "text_ru": "Само восстановление администратор делает в Корзине. Поддержка объясняет порядок и помогает проверить исходные сведения, но не обещает обойти административные полномочия рабочего пространства. Если собеседник не администратор, предложите ему передать необходимые идентификаторы своему администратору. Не просите передать пароль или войти под чужой учётной записью. Здесь достаточно понять, кто в команде клиента вправе выполнить действие, и связать его с конкретной карточкой или документом.",
+   "text_orig": "The administrator performs the actual restoration in Trash. Support explains the procedure and helps check the starting information, but does not promise to bypass workspace administrative powers. If the person writing is not an administrator, suggest passing the necessary identifiers to their administrator. Do not ask them to hand over a password or sign in through somebody else's account. It is enough to understand who on the customer's team may perform the action and connect that person with the particular card or document.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-trash",
+   "conflict_group": null,
+   "duplicate_of": "13-011",
+   "index": false,
+   "handling": "Связанная копия: использовать фрагмент 13-011; не считать независимым подтверждением."
+  },
+  {
+   "fragment_id": "37-012",
+   "doc_no": 37,
+   "doc_id": "trash-recovery",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/recovery-notes.txt",
+   "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     23,
+     23
+    ]
+   },
+   "locator_text": "строка 23",
+   "segment_sha": "6c946cce5347",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Комментарии, вложения и ожидания",
+   "text_orig": "Comments, attachments, and expectations",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-trash",
+   "conflict_group": null,
+   "index": false,
+   "handling": "Связанная копия документа №13; в поиск идёт основной экземпляр."
+  },
+  {
+   "fragment_id": "37-013",
+   "doc_no": 37,
+   "doc_id": "trash-recovery",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/recovery-notes.txt",
+   "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     25,
+     25
+    ]
+   },
+   "locator_text": "строка 25",
+   "segment_sha": "bbdd8ed94b69",
+   "section": "Comments, attachments, and expectations",
+   "section_ru": "Комментарии, вложения и ожидания",
+   "text_ru": "Комментарии и вложения возвращаются вместе с объектом, если их собственные сроки ещё не истекли. Поэтому корректное обещание относится к восстановлению объекта с учётом сохранности связанных данных, а не к безусловному возвращению каждого когда-либо существовавшего файла. Вопрос клиента «всё вернётся как было?» лучше разобрать до выполнения действия. Расскажите о связи сроков простыми словами и не просите прислать сами вложения, чтобы доказать, что они раньше были в карточке.",
+   "text_orig": "Comments and attachments return with the item if their own retention windows have not expired. A correct promise therefore concerns recovery of the item subject to the survival of related data, rather than unconditional return of every file that ever existed. Discuss “will everything come back as it was?” before the action is performed. Explain the relationship between the windows in plain language, and do not ask the customer to send the attachments themselves to prove that they once belonged to the card.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-trash",
+   "conflict_group": null,
+   "duplicate_of": "13-013",
+   "index": false,
+   "handling": "Связанная копия: использовать фрагмент 13-013; не считать независимым подтверждением."
+  },
+  {
+   "fragment_id": "37-014",
+   "doc_no": 37,
+   "doc_id": "trash-recovery",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/recovery-notes.txt",
+   "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     27,
+     27
+    ]
+   },
+   "locator_text": "строка 27",
+   "segment_sha": "fdf3351fb535",
+   "section": "Comments, attachments, and expectations",
+   "section_ru": "Комментарии, вложения и ожидания",
+   "text_ru": "Если после восстановления человек спрашивает об отсутствующем комментарии или вложении, не делайте из одного наблюдения вывод, что восстановление всей карточки не состоялось. Сначала уточните, о какой части данных идёт речь. Правило о собственных сроках связанных данных важно именно в таких разговорах: карточка и всё её окружение не являются одним неразделимым сроком хранения. В то же время поддержке не следует придумывать дополнительные сроки для комментариев или вложений на основании этой памятки — конкретных значений здесь нет.",
+   "text_orig": "If someone asks about an absent comment or attachment after restoration, do not conclude from that observation alone that recovery of the whole card failed. First establish which part of the data they mean. The separate-window condition matters in precisely these conversations: the card and all its surrounding data do not have one indivisible retention window. At the same time, support should not invent additional retention periods for comments or attachments from this note; it does not give specific values for them.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-trash",
+   "conflict_group": null,
+   "duplicate_of": "13-014",
+   "index": false,
+   "handling": "Связанная копия: использовать фрагмент 13-014; не считать независимым подтверждением."
+  },
+  {
+   "fragment_id": "37-015",
+   "doc_no": 37,
+   "doc_id": "trash-recovery",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/recovery-notes.txt",
+   "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "heading",
+   "locator": {
+    "lines": [
+     29,
+     29
+    ]
+   },
+   "locator_text": "строка 29",
+   "segment_sha": "c84494cc2a0b",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Если окно уже закончилось",
+   "text_orig": "When the window has ended",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-trash",
+   "conflict_group": null,
+   "index": false,
+   "handling": "Связанная копия документа №13; в поиск идёт основной экземпляр."
+  },
+  {
+   "fragment_id": "37-016",
+   "doc_no": 37,
+   "doc_id": "trash-recovery",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/recovery-notes.txt",
+   "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     31,
+     31
+    ]
+   },
+   "locator_text": "строка 31",
+   "segment_sha": "dd4fbe7249c3",
+   "section": "When the window has ended",
+   "section_ru": "Если окно уже закончилось",
+   "text_ru": "После окончания окна восстановление необратимо недоступно. Поддержка не продлевает срок. Это следует сказать прямо, без обещания «попробовать вернуть через инженеров», которое создаёт ложное ожидание отдельного скрытого способа. Тяжесть ситуации для клиента понятна, но срочность обращения не меняет время удаления и длительность окна. Не предлагайте повторить запрос завтра и не трактуйте обращение руководителя клиента как основание остановить таймер.",
+   "text_orig": "After the window ends, recovery is permanently unavailable. Support cannot extend it. Say this directly, without promising to “try returning it through engineering” and creating an expectation of a separate hidden method. The difficulty for the customer is understandable, but urgency does not change the deletion time or the length of the window. Do not suggest repeating the request tomorrow or treat a request from a senior customer contact as a reason to stop the timer.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-trash",
+   "conflict_group": null,
+   "duplicate_of": "13-016",
+   "index": false,
+   "handling": "Связанная копия: использовать фрагмент 13-016; не считать независимым подтверждением."
+  },
+  {
+   "fragment_id": "37-017",
+   "doc_no": 37,
+   "doc_id": "trash-recovery",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Рабочие копии/recovery-notes.txt",
+   "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+   "source_lang": "en",
+   "format": "txt",
+   "kind": "para",
+   "locator": {
+    "lines": [
+     33,
+     33
+    ]
+   },
+   "locator_text": "строка 33",
+   "segment_sha": "56151dbc2f94",
+   "section": "When the window has ended",
+   "section_ru": "Если окно уже закончилось",
+   "text_ru": "В завершении разговора полезно ещё раз связать ответ с проверенными данными: о каком workspace и объекте говорили, на каком тарифе он находится и какое время удаления использовали. Такой итог помогает избежать следующего обращения с другим объектом, но прежним выводом. Если восстановление доступно, клиент понимает, кому действовать в Корзине. Если срок закончился, он получает определённый ответ без бессрочного ожидания. Смысл этой памятки — дать точную опору разговору, в котором людям обычно хочется услышать обещание раньше, чем установлены факты.",
+   "text_orig": "At the end of the conversation, connect the answer to the information checked: the workspace and item under discussion, its plan, and the deletion time used. This helps prevent a later request about a different item from inheriting the previous conclusion. If restoration is available, the customer knows who should act in Trash. If the window has ended, they receive a definite answer without waiting indefinitely. The purpose of this note is to give a precise basis to a conversation in which people usually want a promise before the facts have been established.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "exclude",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": "DUP-trash",
+   "conflict_group": null,
+   "duplicate_of": "13-017",
+   "index": false,
+   "handling": "Связанная копия: использовать фрагмент 13-017; не считать независимым подтверждением."
+  }
+ ],
+ "_base": {
+  "no": 37,
+  "source_path": "documents/Рабочие копии/recovery-notes.txt",
+  "doc_id": "trash-recovery",
+  "title": "Trash: the customer conversation and recovery",
+  "title_ru": "Корзина: разговор с клиентом и восстановление",
+  "lang": "en",
+  "format": "txt",
+  "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+  "decision": {
+   "no": 37,
+   "path": "documents/Рабочие копии/recovery-notes.txt",
+   "doc_id": "trash-recovery",
+   "title": "Trash: the customer conversation and recovery",
+   "lang": "en",
+   "owner": "Workspace Platform",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "doc_type": "rule",
+   "status": "exclude",
+   "rule": "R4",
+   "reason": "Полный дубль №13 на английском (абзац в абзац, проверено после перевода); связанная копия в группе DUP-trash.",
+   "access": "all",
+   "trust": "confirmed",
+   "dup_group": "DUP-trash",
+   "dup_role": "linked_copy",
+   "duplicate_of": 13
+  },
+  "fragments": [
+   {
+    "fragment_id": "37-001",
+    "doc_no": 37,
+    "doc_id": "trash-recovery",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/recovery-notes.txt",
+    "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "title",
+    "locator": {
+     "lines": [
+      1,
+      1
+     ]
+    },
+    "locator_text": "строка 1",
+    "segment_sha": "f938dec0369e",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Корзина: разговор с клиентом и восстановление",
+    "text_orig": "Trash: the customer conversation and recovery",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-trash",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "37-002",
+    "doc_no": 37,
+    "doc_id": "trash-recovery",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/recovery-notes.txt",
+    "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      3,
+      3
+     ]
+    },
+    "locator_text": "строка 3",
+    "segment_sha": "3b13875beb70",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "С 1 сентября 2026 года команда Workspace Platform использует этот порядок для карточек и документов LumenDesk. К нему обращаются и специалисты первой линии, и руководители поддержки, когда клиент сообщает об ошибочном удалении. Чаще всего человек начинает с фразы «вчера всё было на месте», однако для решения нужны более точные сведения. До обещания вернуть объект выясните тариф рабочего пространства и время удаления. Не стоит начинать разговор с предположения, что администратор обязательно найдёт карточку в Корзине: наличие такой возможности зависит от срока.",
+    "text_orig": "From September 1, 2026, Workspace Platform uses this procedure for LumenDesk cards and documents. Both frontline specialists and support leads refer to it when a customer reports an accidental deletion. People often begin with “everything was there yesterday,” but the decision requires more precise information. Before promising to return an item, establish the workspace plan and the deletion time. Do not start by assuming that an administrator will definitely find the card in Trash: that possibility depends on the time window.",
+    "translation": "translated",
+    "translation_review": {
+     "checks": [
+      "numbers"
+     ],
+     "decision": "accepted",
+     "note": "№37↔№13: «Both frontline specialists and support leads» → «и специалисты первой линии, и руководители поддержки» — союз, не количество. Дата 1.09.2026 совпадает."
+    },
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-trash",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "37-003",
+    "doc_no": 37,
+    "doc_id": "trash-recovery",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/recovery-notes.txt",
+    "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      5,
+      5
+     ]
+    },
+    "locator_text": "строка 5",
+    "segment_sha": "048864736281",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Обычно в обращении смешиваются два вопроса: кто удалил объект и кто может его вернуть. Удалить карточку или документ может владелец этого объекта либо администратор workspace. Восстановление выполняет администратор workspace через Корзину. Эти действия не симметричны. Владелец карточки, у которого нет административных полномочий в рабочем пространстве, может законно удалить её и при этом нуждаться в помощи администратора для возвращения. Объясните это спокойно, особенно если клиент воспринимает отсутствие кнопки восстановления как ошибку интерфейса.",
+    "text_orig": "Requests commonly mix two questions: who deleted the item and who can restore it. The item owner or a workspace administrator may delete a card or document. A workspace administrator performs restoration through Trash. These actions are not symmetrical. A card owner who has no administrative powers in the workspace can legitimately delete it and still need an administrator's help to return it. Explain this calmly, especially when the customer sees the absence of a restoration button as an interface problem.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-trash",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "37-004",
+    "doc_no": 37,
+    "doc_id": "trash-recovery",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/recovery-notes.txt",
+    "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      7,
+      7
+     ]
+    },
+    "locator_text": "строка 7",
+    "segment_sha": "3bda9983e880",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Как считать оставшееся время",
+    "text_orig": "Working out the time remaining",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-trash",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "37-005",
+    "doc_no": 37,
+    "doc_id": "trash-recovery",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/recovery-notes.txt",
+    "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      9,
+      9
+     ]
+    },
+    "locator_text": "строка 9",
+    "segment_sha": "690b7a0304af",
+    "section": "Working out the time remaining",
+    "section_ru": "Как считать оставшееся время",
+    "text_ru": "Для Team окно восстановления составляет 30 календарных дней с момента удаления. У Starter оно равно 7 календарным дням, у Enterprise — 90 календарным дням. Это именно календарные дни; выходные не приостанавливают отсчёт. Таймер начинается при удалении объекта. Время хранится в UTC, поэтому в обсуждении нужно отделять сам момент события от того, как он показан человеку в его часовом поясе. Фраза «удалили в понедельник вечером» ещё не позволяет проверить срок.",
+    "text_orig": "For Team, the recovery window is 30 calendar days from deletion. For Starter it is 7 calendar days, and for Enterprise it is 90 calendar days. These are calendar days; weekends do not pause the count. The timer starts when the item is deleted. Timestamps are stored in UTC, so distinguish the instant of the event from the way it is displayed to a person in their timezone. “Deleted on Monday evening” is not yet enough to check the window.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-trash",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "37-006",
+    "doc_no": 37,
+    "doc_id": "trash-recovery",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/recovery-notes.txt",
+    "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      11,
+      11
+     ]
+    },
+    "locator_text": "строка 11",
+    "segment_sha": "b2053ecdfa4b",
+    "section": "Working out the time remaining",
+    "section_ru": "Как считать оставшееся время",
+    "text_ru": "Попросите клиента указать время удаления, а если он видит местное время — уточните часовой пояс. В заметке по обращению сохраните однозначное время UTC. Два сотрудника из разных офисов могут назвать разные даты одного события, если удаление произошло около полуночи. Это не означает, что у них разные окна восстановления. Они описывают один момент с разных сторон. Не округляйте время до начала дня и не заменяйте момент удаления датой, когда клиент впервые обратился в поддержку.",
+    "text_orig": "Ask the customer for the deletion time, and if they see local time, clarify the timezone. Keep an unambiguous UTC time in the request notes. Two people in different offices may give different dates for the same event if deletion happened near midnight. That does not mean they have different recovery windows. They are describing one instant from different perspectives. Do not round the time down to the beginning of a day or replace the deletion time with the date when the customer first contacted support.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-trash",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "37-007",
+    "doc_no": 37,
+    "doc_id": "trash-recovery",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/recovery-notes.txt",
+    "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      13,
+      13
+     ]
+    },
+    "locator_text": "строка 13",
+    "segment_sha": "8cf3fbfcef8b",
+    "section": "Working out the time remaining",
+    "section_ru": "Как считать оставшееся время",
+    "text_ru": "Полезный способ объяснить правило — сначала назвать тариф, затем срок и только потом обсудить конкретный объект. Например: «Для Team восстановление доступно в течение 30 календарных дней после удаления; проверим время этой карточки». Такой ответ помогает человеку понять, почему у коллеги в другом workspace мог быть другой результат. Само название организации не подсказывает тариф конкретного рабочего пространства, поэтому его нужно проверить отдельно, а не брать из памяти о предыдущем обращении.",
+    "text_orig": "A useful way to explain the rule is to name the plan, then the window, and only then discuss the particular item. For example: “Team allows recovery for 30 calendar days after deletion; let us check the time for this card.” This helps the customer understand why a colleague in another workspace may have had a different result. The organisation's name does not reveal the plan of the particular workspace. Check it separately rather than relying on a memory of an earlier request.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-trash",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "37-008",
+    "doc_no": 37,
+    "doc_id": "trash-recovery",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/recovery-notes.txt",
+    "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      15,
+      15
+     ]
+    },
+    "locator_text": "строка 15",
+    "segment_sha": "7084d004dee6",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Что попросить и что оставить у клиента",
+    "text_orig": "What to request and what stays with the customer",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-trash",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "37-009",
+    "doc_no": 37,
+    "doc_id": "trash-recovery",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/recovery-notes.txt",
+    "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      17,
+      17
+     ]
+    },
+    "locator_text": "строка 17",
+    "segment_sha": "f446c2920bf6",
+    "section": "What to request and what stays with the customer",
+    "section_ru": "Что попросить и что оставить у клиента",
+    "text_ru": "Для проверки нужны workspace ID, object ID и время удаления. Содержимое карточки или документа отправлять не требуется. Это особенно удобно, когда клиент работает с внутренними планами, договорами или материалами своей команды: для установления возможности восстановления не нужно копировать их текст в тикет. Если вместо идентификатора пришло только знакомое название, объясните, что одноимённых объектов может быть несколько и что нужен идентификатор именно удалённого объекта.",
+    "text_orig": "The check needs the workspace ID, object ID, and deletion time. Sending the contents of the card or document is unnecessary. This is particularly helpful when the customer works with internal plans, contracts, or team materials: establishing whether recovery is available does not require copying their text into the ticket. If the customer supplies only a familiar title instead of an identifier, explain that several items may share a name and that the identifier of the actual deleted item is needed.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-trash",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "37-010",
+    "doc_no": 37,
+    "doc_id": "trash-recovery",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/recovery-notes.txt",
+    "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      19,
+      19
+     ]
+    },
+    "locator_text": "строка 19",
+    "segment_sha": "85a38e2e11f5",
+    "section": "What to request and what stays with the customer",
+    "section_ru": "Что попросить и что оставить у клиента",
+    "text_ru": "В рабочей заметке разделяйте слова клиента и подтверждённые сведения. «Мария помнит, что удаляла после совещания» — полезный контекст, но это ещё не точная отметка времени. «Получен object ID и время удаления в UTC» — уже информация, по которой можно продолжать проверку. Не превращайте разговор в требование большого пакета скриншотов: чем больше лишнего содержимого оказывается в переписке, тем сложнее затем увидеть три действительно нужных значения. При этом короткая заметка должна быть понятна следующему специалисту без повторного расспроса клиента.",
+    "text_orig": "Separate the customer's recollection from confirmed information in the working note. “Maria remembers deleting it after a meeting” is useful context, but not an exact timestamp. “Object ID and deletion time in UTC received” is information that supports the next check. Do not turn the conversation into a demand for a large packet of screenshots: the more unnecessary content enters the exchange, the harder it becomes to see the three values that matter. A short note should still be understandable to the next specialist without asking the customer everything again.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-trash",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "37-011",
+    "doc_no": 37,
+    "doc_id": "trash-recovery",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/recovery-notes.txt",
+    "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      21,
+      21
+     ]
+    },
+    "locator_text": "строка 21",
+    "segment_sha": "cf5775b8112d",
+    "section": "What to request and what stays with the customer",
+    "section_ru": "Что попросить и что оставить у клиента",
+    "text_ru": "Само восстановление администратор делает в Корзине. Поддержка объясняет порядок и помогает проверить исходные сведения, но не обещает обойти административные полномочия рабочего пространства. Если собеседник не администратор, предложите ему передать необходимые идентификаторы своему администратору. Не просите передать пароль или войти под чужой учётной записью. Здесь достаточно понять, кто в команде клиента вправе выполнить действие, и связать его с конкретной карточкой или документом.",
+    "text_orig": "The administrator performs the actual restoration in Trash. Support explains the procedure and helps check the starting information, but does not promise to bypass workspace administrative powers. If the person writing is not an administrator, suggest passing the necessary identifiers to their administrator. Do not ask them to hand over a password or sign in through somebody else's account. It is enough to understand who on the customer's team may perform the action and connect that person with the particular card or document.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-trash",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "37-012",
+    "doc_no": 37,
+    "doc_id": "trash-recovery",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/recovery-notes.txt",
+    "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      23,
+      23
+     ]
+    },
+    "locator_text": "строка 23",
+    "segment_sha": "6c946cce5347",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Комментарии, вложения и ожидания",
+    "text_orig": "Comments, attachments, and expectations",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-trash",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "37-013",
+    "doc_no": 37,
+    "doc_id": "trash-recovery",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/recovery-notes.txt",
+    "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      25,
+      25
+     ]
+    },
+    "locator_text": "строка 25",
+    "segment_sha": "bbdd8ed94b69",
+    "section": "Comments, attachments, and expectations",
+    "section_ru": "Комментарии, вложения и ожидания",
+    "text_ru": "Комментарии и вложения возвращаются вместе с объектом, если их собственные сроки ещё не истекли. Поэтому корректное обещание относится к восстановлению объекта с учётом сохранности связанных данных, а не к безусловному возвращению каждого когда-либо существовавшего файла. Вопрос клиента «всё вернётся как было?» лучше разобрать до выполнения действия. Расскажите о связи сроков простыми словами и не просите прислать сами вложения, чтобы доказать, что они раньше были в карточке.",
+    "text_orig": "Comments and attachments return with the item if their own retention windows have not expired. A correct promise therefore concerns recovery of the item subject to the survival of related data, rather than unconditional return of every file that ever existed. Discuss “will everything come back as it was?” before the action is performed. Explain the relationship between the windows in plain language, and do not ask the customer to send the attachments themselves to prove that they once belonged to the card.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-trash",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "37-014",
+    "doc_no": 37,
+    "doc_id": "trash-recovery",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/recovery-notes.txt",
+    "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      27,
+      27
+     ]
+    },
+    "locator_text": "строка 27",
+    "segment_sha": "fdf3351fb535",
+    "section": "Comments, attachments, and expectations",
+    "section_ru": "Комментарии, вложения и ожидания",
+    "text_ru": "Если после восстановления человек спрашивает об отсутствующем комментарии или вложении, не делайте из одного наблюдения вывод, что восстановление всей карточки не состоялось. Сначала уточните, о какой части данных идёт речь. Правило о собственных сроках связанных данных важно именно в таких разговорах: карточка и всё её окружение не являются одним неразделимым сроком хранения. В то же время поддержке не следует придумывать дополнительные сроки для комментариев или вложений на основании этой памятки — конкретных значений здесь нет.",
+    "text_orig": "If someone asks about an absent comment or attachment after restoration, do not conclude from that observation alone that recovery of the whole card failed. First establish which part of the data they mean. The separate-window condition matters in precisely these conversations: the card and all its surrounding data do not have one indivisible retention window. At the same time, support should not invent additional retention periods for comments or attachments from this note; it does not give specific values for them.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-trash",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "37-015",
+    "doc_no": 37,
+    "doc_id": "trash-recovery",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/recovery-notes.txt",
+    "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "heading",
+    "locator": {
+     "lines": [
+      29,
+      29
+     ]
+    },
+    "locator_text": "строка 29",
+    "segment_sha": "c84494cc2a0b",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Если окно уже закончилось",
+    "text_orig": "When the window has ended",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-trash",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "37-016",
+    "doc_no": 37,
+    "doc_id": "trash-recovery",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/recovery-notes.txt",
+    "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      31,
+      31
+     ]
+    },
+    "locator_text": "строка 31",
+    "segment_sha": "dd4fbe7249c3",
+    "section": "When the window has ended",
+    "section_ru": "Если окно уже закончилось",
+    "text_ru": "После окончания окна восстановление необратимо недоступно. Поддержка не продлевает срок. Это следует сказать прямо, без обещания «попробовать вернуть через инженеров», которое создаёт ложное ожидание отдельного скрытого способа. Тяжесть ситуации для клиента понятна, но срочность обращения не меняет время удаления и длительность окна. Не предлагайте повторить запрос завтра и не трактуйте обращение руководителя клиента как основание остановить таймер.",
+    "text_orig": "After the window ends, recovery is permanently unavailable. Support cannot extend it. Say this directly, without promising to “try returning it through engineering” and creating an expectation of a separate hidden method. The difficulty for the customer is understandable, but urgency does not change the deletion time or the length of the window. Do not suggest repeating the request tomorrow or treat a request from a senior customer contact as a reason to stop the timer.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-trash",
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "37-017",
+    "doc_no": 37,
+    "doc_id": "trash-recovery",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Рабочие копии/recovery-notes.txt",
+    "source_sha256": "75d2dd96c151e060d8b3d0b037b1da5c56cf327fce92137d749c22104948cc9b",
+    "source_lang": "en",
+    "format": "txt",
+    "kind": "para",
+    "locator": {
+     "lines": [
+      33,
+      33
+     ]
+    },
+    "locator_text": "строка 33",
+    "segment_sha": "56151dbc2f94",
+    "section": "When the window has ended",
+    "section_ru": "Если окно уже закончилось",
+    "text_ru": "В завершении разговора полезно ещё раз связать ответ с проверенными данными: о каком workspace и объекте говорили, на каком тарифе он находится и какое время удаления использовали. Такой итог помогает избежать следующего обращения с другим объектом, но прежним выводом. Если восстановление доступно, клиент понимает, кому действовать в Корзине. Если срок закончился, он получает определённый ответ без бессрочного ожидания. Смысл этой памятки — дать точную опору разговору, в котором людям обычно хочется услышать обещание раньше, чем установлены факты.",
+    "text_orig": "At the end of the conversation, connect the answer to the information checked: the workspace and item under discussion, its plan, and the deletion time used. This helps prevent a later request about a different item from inheriting the previous conclusion. If restoration is available, the customer knows who should act in Trash. If the window has ended, they receive a definite answer without waiting indefinitely. The purpose of this note is to give a precise basis to a conversation in which people usually want a promise before the facts have been established.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "exclude",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": "DUP-trash",
+    "conflict_group": null
+   }
+  ]
+ }
+}

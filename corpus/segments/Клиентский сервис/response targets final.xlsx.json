@@ -1,0 +1,1815 @@
+{
+ "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+ "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+ "segmenter": "segment-2",
+ "segments": [
+  {
+   "kind": "sheet_title",
+   "text": "First human response",
+   "sha": "4cde33b09f17",
+   "section": "Targets",
+   "locator": {
+    "sheet": "Targets",
+    "range": "A1:D2"
+   },
+   "seg": 1
+  },
+  {
+   "kind": "sheet_note",
+   "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+   "sha": "826b89555c33",
+   "section": "Targets",
+   "locator": {
+    "sheet": "Targets",
+    "range": "A3:D5"
+   },
+   "seg": 2
+  },
+  {
+   "kind": "table_header",
+   "text": "Case | Target | Unit | When it applies",
+   "sha": "2fe20602bc05",
+   "section": "Targets",
+   "locator": {
+    "sheet": "Targets",
+    "row": 7,
+    "range": "A7:D7"
+   },
+   "cells": [
+    {
+     "ref": "A7",
+     "value": "Case"
+    },
+    {
+     "ref": "B7",
+     "value": "Target"
+    },
+    {
+     "ref": "C7",
+     "value": "Unit"
+    },
+    {
+     "ref": "D7",
+     "value": "When it applies"
+    }
+   ],
+   "seg": 3
+  },
+  {
+   "kind": "record",
+   "text": "Case: Enterprise P1; Target: 15; Unit: minutes; When it applies: 24 hours every day",
+   "sha": "ef89ac658c75",
+   "section": "Targets",
+   "locator": {
+    "sheet": "Targets",
+    "row": 8,
+    "range": "A8:D8"
+   },
+   "cells": [
+    {
+     "ref": "A8",
+     "header": "Case",
+     "value": "Enterprise P1"
+    },
+    {
+     "ref": "B8",
+     "header": "Target",
+     "value": "15"
+    },
+    {
+     "ref": "C8",
+     "header": "Unit",
+     "value": "minutes"
+    },
+    {
+     "ref": "D8",
+     "header": "When it applies",
+     "value": "24 hours every day"
+    }
+   ],
+   "context": {
+    "sheet": "Targets",
+    "title": "First human response",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Case",
+     "Target",
+     "Unit",
+     "When it applies"
+    ]
+   },
+   "seg": 4
+  },
+  {
+   "kind": "record",
+   "text": "Case: Enterprise P2; Target: 60; Unit: minutes; When it applies: 24 hours every day",
+   "sha": "1c05c929ed72",
+   "section": "Targets",
+   "locator": {
+    "sheet": "Targets",
+    "row": 9,
+    "range": "A9:D9"
+   },
+   "cells": [
+    {
+     "ref": "A9",
+     "header": "Case",
+     "value": "Enterprise P2"
+    },
+    {
+     "ref": "B9",
+     "header": "Target",
+     "value": "60"
+    },
+    {
+     "ref": "C9",
+     "header": "Unit",
+     "value": "minutes"
+    },
+    {
+     "ref": "D9",
+     "header": "When it applies",
+     "value": "24 hours every day"
+    }
+   ],
+   "context": {
+    "sheet": "Targets",
+    "title": "First human response",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Case",
+     "Target",
+     "Unit",
+     "When it applies"
+    ]
+   },
+   "seg": 5
+  },
+  {
+   "kind": "record",
+   "text": "Case: Team P1; Target: 60; Unit: minutes; When it applies: Business support hours",
+   "sha": "50ce667b6f43",
+   "section": "Targets",
+   "locator": {
+    "sheet": "Targets",
+    "row": 10,
+    "range": "A10:D10"
+   },
+   "cells": [
+    {
+     "ref": "A10",
+     "header": "Case",
+     "value": "Team P1"
+    },
+    {
+     "ref": "B10",
+     "header": "Target",
+     "value": "60"
+    },
+    {
+     "ref": "C10",
+     "header": "Unit",
+     "value": "minutes"
+    },
+    {
+     "ref": "D10",
+     "header": "When it applies",
+     "value": "Business support hours"
+    }
+   ],
+   "context": {
+    "sheet": "Targets",
+    "title": "First human response",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Case",
+     "Target",
+     "Unit",
+     "When it applies"
+    ]
+   },
+   "seg": 6
+  },
+  {
+   "kind": "record",
+   "text": "Case: Team P2; Target: 240; Unit: minutes; When it applies: Business support hours",
+   "sha": "b58a15b665fc",
+   "section": "Targets",
+   "locator": {
+    "sheet": "Targets",
+    "row": 11,
+    "range": "A11:D11"
+   },
+   "cells": [
+    {
+     "ref": "A11",
+     "header": "Case",
+     "value": "Team P2"
+    },
+    {
+     "ref": "B11",
+     "header": "Target",
+     "value": "240"
+    },
+    {
+     "ref": "C11",
+     "header": "Unit",
+     "value": "minutes"
+    },
+    {
+     "ref": "D11",
+     "header": "When it applies",
+     "value": "Business support hours"
+    }
+   ],
+   "context": {
+    "sheet": "Targets",
+    "title": "First human response",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Case",
+     "Target",
+     "Unit",
+     "When it applies"
+    ]
+   },
+   "seg": 7
+  },
+  {
+   "kind": "record",
+   "text": "Case: Starter; Target: 2; Unit: business days; When it applies: All supported priorities",
+   "sha": "3c0b1f8d3e4c",
+   "section": "Targets",
+   "locator": {
+    "sheet": "Targets",
+    "row": 12,
+    "range": "A12:D12"
+   },
+   "cells": [
+    {
+     "ref": "A12",
+     "header": "Case",
+     "value": "Starter"
+    },
+    {
+     "ref": "B12",
+     "header": "Target",
+     "value": "2"
+    },
+    {
+     "ref": "C12",
+     "header": "Unit",
+     "value": "business days"
+    },
+    {
+     "ref": "D12",
+     "header": "When it applies",
+     "value": "All supported priorities"
+    }
+   ],
+   "context": {
+    "sheet": "Targets",
+    "title": "First human response",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Case",
+     "Target",
+     "Unit",
+     "When it applies"
+    ]
+   },
+   "seg": 8
+  },
+  {
+   "kind": "record",
+   "text": "Case: Business support hours; Target: 09:00 to 18:00; Unit: Europe/Berlin; When it applies: Monday through Friday excluding contract holidays",
+   "sha": "c10a6f2d1dd8",
+   "section": "Targets",
+   "locator": {
+    "sheet": "Targets",
+    "row": 13,
+    "range": "A13:D13"
+   },
+   "cells": [
+    {
+     "ref": "A13",
+     "header": "Case",
+     "value": "Business support hours"
+    },
+    {
+     "ref": "B13",
+     "header": "Target",
+     "value": "09:00 to 18:00"
+    },
+    {
+     "ref": "C13",
+     "header": "Unit",
+     "value": "Europe/Berlin"
+    },
+    {
+     "ref": "D13",
+     "header": "When it applies",
+     "value": "Monday through Friday excluding contract holidays"
+    }
+   ],
+   "context": {
+    "sheet": "Targets",
+    "title": "First human response",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Case",
+     "Target",
+     "Unit",
+     "When it applies"
+    ]
+   },
+   "seg": 9
+  },
+  {
+   "kind": "record",
+   "text": "Case: Required context; Target: Workspace ID and impact; Unit: evidence; When it applies: Also include UTC start time and contact",
+   "sha": "8c289e4ab6a2",
+   "section": "Targets",
+   "locator": {
+    "sheet": "Targets",
+    "row": 14,
+    "range": "A14:D14"
+   },
+   "cells": [
+    {
+     "ref": "A14",
+     "header": "Case",
+     "value": "Required context"
+    },
+    {
+     "ref": "B14",
+     "header": "Target",
+     "value": "Workspace ID and impact"
+    },
+    {
+     "ref": "C14",
+     "header": "Unit",
+     "value": "evidence"
+    },
+    {
+     "ref": "D14",
+     "header": "When it applies",
+     "value": "Also include UTC start time and contact"
+    }
+   ],
+   "context": {
+    "sheet": "Targets",
+    "title": "First human response",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Case",
+     "Target",
+     "Unit",
+     "When it applies"
+    ]
+   },
+   "seg": 10
+  },
+  {
+   "kind": "record",
+   "text": "Case: Clock start; Target: Complete report received; Unit: event; When it applies: Missing required context pauses target measurement",
+   "sha": "2dfc6f2dfe03",
+   "section": "Targets",
+   "locator": {
+    "sheet": "Targets",
+    "row": 15,
+    "range": "A15:D15"
+   },
+   "cells": [
+    {
+     "ref": "A15",
+     "header": "Case",
+     "value": "Clock start"
+    },
+    {
+     "ref": "B15",
+     "header": "Target",
+     "value": "Complete report received"
+    },
+    {
+     "ref": "C15",
+     "header": "Unit",
+     "value": "event"
+    },
+    {
+     "ref": "D15",
+     "header": "When it applies",
+     "value": "Missing required context pauses target measurement"
+    }
+   ],
+   "context": {
+    "sheet": "Targets",
+    "title": "First human response",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Case",
+     "Target",
+     "Unit",
+     "When it applies"
+    ]
+   },
+   "seg": 11
+  },
+  {
+   "kind": "record",
+   "text": "Case: Update frequency P1; Target: 30; Unit: minutes; When it applies: During active investigation",
+   "sha": "321e2d83ba47",
+   "section": "Targets",
+   "locator": {
+    "sheet": "Targets",
+    "row": 16,
+    "range": "A16:D16"
+   },
+   "cells": [
+    {
+     "ref": "A16",
+     "header": "Case",
+     "value": "Update frequency P1"
+    },
+    {
+     "ref": "B16",
+     "header": "Target",
+     "value": "30"
+    },
+    {
+     "ref": "C16",
+     "header": "Unit",
+     "value": "minutes"
+    },
+    {
+     "ref": "D16",
+     "header": "When it applies",
+     "value": "During active investigation"
+    }
+   ],
+   "context": {
+    "sheet": "Targets",
+    "title": "First human response",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Case",
+     "Target",
+     "Unit",
+     "When it applies"
+    ]
+   },
+   "seg": 12
+  },
+  {
+   "kind": "record",
+   "text": "Case: Resolution; Target: No fixed time; Unit: rule; When it applies: Do not present first response as a repair guarantee",
+   "sha": "f45ab348631f",
+   "section": "Targets",
+   "locator": {
+    "sheet": "Targets",
+    "row": 17,
+    "range": "A17:D17"
+   },
+   "cells": [
+    {
+     "ref": "A17",
+     "header": "Case",
+     "value": "Resolution"
+    },
+    {
+     "ref": "B17",
+     "header": "Target",
+     "value": "No fixed time"
+    },
+    {
+     "ref": "C17",
+     "header": "Unit",
+     "value": "rule"
+    },
+    {
+     "ref": "D17",
+     "header": "When it applies",
+     "value": "Do not present first response as a repair guarantee"
+    }
+   ],
+   "context": {
+    "sheet": "Targets",
+    "title": "First human response",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Case",
+     "Target",
+     "Unit",
+     "When it applies"
+    ]
+   },
+   "seg": 13
+  },
+  {
+   "kind": "sheet_title",
+   "text": "September queue samples",
+   "sha": "8c4aa047f716",
+   "section": "Queue review",
+   "locator": {
+    "sheet": "Queue review",
+    "range": "A1:F2"
+   },
+   "seg": 14
+  },
+  {
+   "kind": "table_header",
+   "text": "Received UTC | Plan | Priority | Complete context | Owner action | Observation",
+   "sha": "813ec7e91112",
+   "section": "Queue review",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 5,
+    "range": "A5:F5"
+   },
+   "cells": [
+    {
+     "ref": "A5",
+     "value": "Received UTC"
+    },
+    {
+     "ref": "B5",
+     "value": "Plan"
+    },
+    {
+     "ref": "C5",
+     "value": "Priority"
+    },
+    {
+     "ref": "D5",
+     "value": "Complete context"
+    },
+    {
+     "ref": "E5",
+     "value": "Owner action"
+    },
+    {
+     "ref": "F5",
+     "value": "Observation"
+    }
+   ],
+   "seg": 15
+  },
+  {
+   "kind": "record",
+   "text": "Received UTC: 2026-09-07 07:12; Plan: Enterprise; Priority: P1; Complete context: Workspace and UTC start supplied; Owner action: Response team paged; Observation: All participants unable to open cards; no workaround",
+   "sha": "c9c7592aaace",
+   "section": "Queue review",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 6,
+    "range": "A6:F6"
+   },
+   "cells": [
+    {
+     "ref": "A6",
+     "header": "Received UTC",
+     "value": "2026-09-07 07:12"
+    },
+    {
+     "ref": "B6",
+     "header": "Plan",
+     "value": "Enterprise"
+    },
+    {
+     "ref": "C6",
+     "header": "Priority",
+     "value": "P1"
+    },
+    {
+     "ref": "D6",
+     "header": "Complete context",
+     "value": "Workspace and UTC start supplied"
+    },
+    {
+     "ref": "E6",
+     "header": "Owner action",
+     "value": "Response team paged"
+    },
+    {
+     "ref": "F6",
+     "header": "Observation",
+     "value": "All participants unable to open cards; no workaround"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "title": "September queue samples",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header": [
+     "Received UTC",
+     "Plan",
+     "Priority",
+     "Complete context",
+     "Owner action",
+     "Observation"
+    ]
+   },
+   "seg": 16
+  },
+  {
+   "kind": "record",
+   "text": "Received UTC: 2026-09-07 09:38; Plan: Team; Priority: P2; Complete context: Complete; Owner action: Reproduce attachment delay; Observation: Uploads work after retry; customer can continue by link",
+   "sha": "3776420b6efc",
+   "section": "Queue review",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 7,
+    "range": "A7:F7"
+   },
+   "cells": [
+    {
+     "ref": "A7",
+     "header": "Received UTC",
+     "value": "2026-09-07 09:38"
+    },
+    {
+     "ref": "B7",
+     "header": "Plan",
+     "value": "Team"
+    },
+    {
+     "ref": "C7",
+     "header": "Priority",
+     "value": "P2"
+    },
+    {
+     "ref": "D7",
+     "header": "Complete context",
+     "value": "Complete"
+    },
+    {
+     "ref": "E7",
+     "header": "Owner action",
+     "value": "Reproduce attachment delay"
+    },
+    {
+     "ref": "F7",
+     "header": "Observation",
+     "value": "Uploads work after retry; customer can continue by link"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "title": "September queue samples",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header": [
+     "Received UTC",
+     "Plan",
+     "Priority",
+     "Complete context",
+     "Owner action",
+     "Observation"
+    ]
+   },
+   "seg": 17
+  },
+  {
+   "kind": "record",
+   "text": "Received UTC: 2026-09-07 13:04; Plan: Starter; Priority: P3; Complete context: Browser version missing; Owner action: Request client version; Observation: Only one participant sees a stale preview",
+   "sha": "e5541261f2d2",
+   "section": "Queue review",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 8,
+    "range": "A8:F8"
+   },
+   "cells": [
+    {
+     "ref": "A8",
+     "header": "Received UTC",
+     "value": "2026-09-07 13:04"
+    },
+    {
+     "ref": "B8",
+     "header": "Plan",
+     "value": "Starter"
+    },
+    {
+     "ref": "C8",
+     "header": "Priority",
+     "value": "P3"
+    },
+    {
+     "ref": "D8",
+     "header": "Complete context",
+     "value": "Browser version missing"
+    },
+    {
+     "ref": "E8",
+     "header": "Owner action",
+     "value": "Request client version"
+    },
+    {
+     "ref": "F8",
+     "header": "Observation",
+     "value": "Only one participant sees a stale preview"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "title": "September queue samples",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header": [
+     "Received UTC",
+     "Plan",
+     "Priority",
+     "Complete context",
+     "Owner action",
+     "Observation"
+    ]
+   },
+   "seg": 18
+  },
+  {
+   "kind": "record",
+   "text": "Received UTC: 2026-09-08 00:47; Plan: Enterprise; Priority: P1; Complete context: Complete; Owner action: Acknowledge and coordinate; Observation: Emergency administrator remains available; impact confirmed",
+   "sha": "ac807c4b4a63",
+   "section": "Queue review",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 9,
+    "range": "A9:F9"
+   },
+   "cells": [
+    {
+     "ref": "A9",
+     "header": "Received UTC",
+     "value": "2026-09-08 00:47"
+    },
+    {
+     "ref": "B9",
+     "header": "Plan",
+     "value": "Enterprise"
+    },
+    {
+     "ref": "C9",
+     "header": "Priority",
+     "value": "P1"
+    },
+    {
+     "ref": "D9",
+     "header": "Complete context",
+     "value": "Complete"
+    },
+    {
+     "ref": "E9",
+     "header": "Owner action",
+     "value": "Acknowledge and coordinate"
+    },
+    {
+     "ref": "F9",
+     "header": "Observation",
+     "value": "Emergency administrator remains available; impact confirmed"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "title": "September queue samples",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header": [
+     "Received UTC",
+     "Plan",
+     "Priority",
+     "Complete context",
+     "Owner action",
+     "Observation"
+    ]
+   },
+   "seg": 19
+  },
+  {
+   "kind": "record",
+   "text": "Received UTC: 2026-09-08 10:16; Plan: Team; Priority: P2; Complete context: Impact not yet stated; Owner action: Ask what work is blocked; Observation: Report names an error but omits affected workflow",
+   "sha": "68db65d52b1c",
+   "section": "Queue review",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 10,
+    "range": "A10:F10"
+   },
+   "cells": [
+    {
+     "ref": "A10",
+     "header": "Received UTC",
+     "value": "2026-09-08 10:16"
+    },
+    {
+     "ref": "B10",
+     "header": "Plan",
+     "value": "Team"
+    },
+    {
+     "ref": "C10",
+     "header": "Priority",
+     "value": "P2"
+    },
+    {
+     "ref": "D10",
+     "header": "Complete context",
+     "value": "Impact not yet stated"
+    },
+    {
+     "ref": "E10",
+     "header": "Owner action",
+     "value": "Ask what work is blocked"
+    },
+    {
+     "ref": "F10",
+     "header": "Observation",
+     "value": "Report names an error but omits affected workflow"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "title": "September queue samples",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header": [
+     "Received UTC",
+     "Plan",
+     "Priority",
+     "Complete context",
+     "Owner action",
+     "Observation"
+    ]
+   },
+   "seg": 20
+  },
+  {
+   "kind": "record",
+   "text": "Received UTC: 2026-09-08 15:51; Plan: Enterprise; Priority: P2; Complete context: Complete; Owner action: Check integration consent; Observation: Connector disabled after vendor scope change",
+   "sha": "fc81e04b9efc",
+   "section": "Queue review",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 11,
+    "range": "A11:F11"
+   },
+   "cells": [
+    {
+     "ref": "A11",
+     "header": "Received UTC",
+     "value": "2026-09-08 15:51"
+    },
+    {
+     "ref": "B11",
+     "header": "Plan",
+     "value": "Enterprise"
+    },
+    {
+     "ref": "C11",
+     "header": "Priority",
+     "value": "P2"
+    },
+    {
+     "ref": "D11",
+     "header": "Complete context",
+     "value": "Complete"
+    },
+    {
+     "ref": "E11",
+     "header": "Owner action",
+     "value": "Check integration consent"
+    },
+    {
+     "ref": "F11",
+     "header": "Observation",
+     "value": "Connector disabled after vendor scope change"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "title": "September queue samples",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header": [
+     "Received UTC",
+     "Plan",
+     "Priority",
+     "Complete context",
+     "Owner action",
+     "Observation"
+    ]
+   },
+   "seg": 21
+  },
+  {
+   "kind": "record",
+   "text": "Received UTC: 2026-09-09 08:13; Plan: Starter; Priority: P4; Complete context: Complete; Owner action: Answer configuration question; Observation: Customer asks how to change their own timezone",
+   "sha": "cba742d74ed3",
+   "section": "Queue review",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 12,
+    "range": "A12:F12"
+   },
+   "cells": [
+    {
+     "ref": "A12",
+     "header": "Received UTC",
+     "value": "2026-09-09 08:13"
+    },
+    {
+     "ref": "B12",
+     "header": "Plan",
+     "value": "Starter"
+    },
+    {
+     "ref": "C12",
+     "header": "Priority",
+     "value": "P4"
+    },
+    {
+     "ref": "D12",
+     "header": "Complete context",
+     "value": "Complete"
+    },
+    {
+     "ref": "E12",
+     "header": "Owner action",
+     "value": "Answer configuration question"
+    },
+    {
+     "ref": "F12",
+     "header": "Observation",
+     "value": "Customer asks how to change their own timezone"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "title": "September queue samples",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header": [
+     "Received UTC",
+     "Plan",
+     "Priority",
+     "Complete context",
+     "Owner action",
+     "Observation"
+    ]
+   },
+   "seg": 22
+  },
+  {
+   "kind": "record",
+   "text": "Received UTC: 2026-09-09 11:29; Plan: Team; Priority: P1; Complete context: Complete; Owner action: Link confirmed incident; Observation: Workspace unavailable; status update posted separately",
+   "sha": "35627bef67b2",
+   "section": "Queue review",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 13,
+    "range": "A13:F13"
+   },
+   "cells": [
+    {
+     "ref": "A13",
+     "header": "Received UTC",
+     "value": "2026-09-09 11:29"
+    },
+    {
+     "ref": "B13",
+     "header": "Plan",
+     "value": "Team"
+    },
+    {
+     "ref": "C13",
+     "header": "Priority",
+     "value": "P1"
+    },
+    {
+     "ref": "D13",
+     "header": "Complete context",
+     "value": "Complete"
+    },
+    {
+     "ref": "E13",
+     "header": "Owner action",
+     "value": "Link confirmed incident"
+    },
+    {
+     "ref": "F13",
+     "header": "Observation",
+     "value": "Workspace unavailable; status update posted separately"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "title": "September queue samples",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header": [
+     "Received UTC",
+     "Plan",
+     "Priority",
+     "Complete context",
+     "Owner action",
+     "Observation"
+    ]
+   },
+   "seg": 23
+  },
+  {
+   "kind": "record",
+   "text": "Received UTC: 2026-09-10 16:42; Plan: Team; Priority: P2; Complete context: UTC start missing; Owner action: Clarify original local time; Observation: Customer supplied Paris time without date",
+   "sha": "3a626c5bcf1b",
+   "section": "Queue review",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 14,
+    "range": "A14:F14"
+   },
+   "cells": [
+    {
+     "ref": "A14",
+     "header": "Received UTC",
+     "value": "2026-09-10 16:42"
+    },
+    {
+     "ref": "B14",
+     "header": "Plan",
+     "value": "Team"
+    },
+    {
+     "ref": "C14",
+     "header": "Priority",
+     "value": "P2"
+    },
+    {
+     "ref": "D14",
+     "header": "Complete context",
+     "value": "UTC start missing"
+    },
+    {
+     "ref": "E14",
+     "header": "Owner action",
+     "value": "Clarify original local time"
+    },
+    {
+     "ref": "F14",
+     "header": "Observation",
+     "value": "Customer supplied Paris time without date"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "title": "September queue samples",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header": [
+     "Received UTC",
+     "Plan",
+     "Priority",
+     "Complete context",
+     "Owner action",
+     "Observation"
+    ]
+   },
+   "seg": 24
+  },
+  {
+   "kind": "record",
+   "text": "Received UTC: 2026-09-11 06:03; Plan: Enterprise; Priority: P2; Complete context: Complete; Owner action: Inspect safe request evidence; Observation: Sign-in succeeds for pilots; one account still needs review",
+   "sha": "9f40ad2eb5d2",
+   "section": "Queue review",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 15,
+    "range": "A15:F15"
+   },
+   "cells": [
+    {
+     "ref": "A15",
+     "header": "Received UTC",
+     "value": "2026-09-11 06:03"
+    },
+    {
+     "ref": "B15",
+     "header": "Plan",
+     "value": "Enterprise"
+    },
+    {
+     "ref": "C15",
+     "header": "Priority",
+     "value": "P2"
+    },
+    {
+     "ref": "D15",
+     "header": "Complete context",
+     "value": "Complete"
+    },
+    {
+     "ref": "E15",
+     "header": "Owner action",
+     "value": "Inspect safe request evidence"
+    },
+    {
+     "ref": "F15",
+     "header": "Observation",
+     "value": "Sign-in succeeds for pilots; one account still needs review"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "title": "September queue samples",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header": [
+     "Received UTC",
+     "Plan",
+     "Priority",
+     "Complete context",
+     "Owner action",
+     "Observation"
+    ]
+   },
+   "seg": 25
+  },
+  {
+   "kind": "record",
+   "text": "Received UTC: 2026-09-11 14:37; Plan: Team; Priority: P3; Complete context: Complete; Owner action: Verify search visibility; Observation: Missing result belongs to a space the user cannot access",
+   "sha": "fd9975a90ed1",
+   "section": "Queue review",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 16,
+    "range": "A16:F16"
+   },
+   "cells": [
+    {
+     "ref": "A16",
+     "header": "Received UTC",
+     "value": "2026-09-11 14:37"
+    },
+    {
+     "ref": "B16",
+     "header": "Plan",
+     "value": "Team"
+    },
+    {
+     "ref": "C16",
+     "header": "Priority",
+     "value": "P3"
+    },
+    {
+     "ref": "D16",
+     "header": "Complete context",
+     "value": "Complete"
+    },
+    {
+     "ref": "E16",
+     "header": "Owner action",
+     "value": "Verify search visibility"
+    },
+    {
+     "ref": "F16",
+     "header": "Observation",
+     "value": "Missing result belongs to a space the user cannot access"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "title": "September queue samples",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header": [
+     "Received UTC",
+     "Plan",
+     "Priority",
+     "Complete context",
+     "Owner action",
+     "Observation"
+    ]
+   },
+   "seg": 26
+  },
+  {
+   "kind": "record",
+   "text": "Received UTC: 2026-09-12 09:22; Plan: Starter; Priority: P4; Complete context: Invoice reference missing; Owner action: Ask for invoice reference; Observation: Correction request must remain with Billing Support",
+   "sha": "3f4f73b86451",
+   "section": "Queue review",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 17,
+    "range": "A17:F17"
+   },
+   "cells": [
+    {
+     "ref": "A17",
+     "header": "Received UTC",
+     "value": "2026-09-12 09:22"
+    },
+    {
+     "ref": "B17",
+     "header": "Plan",
+     "value": "Starter"
+    },
+    {
+     "ref": "C17",
+     "header": "Priority",
+     "value": "P4"
+    },
+    {
+     "ref": "D17",
+     "header": "Complete context",
+     "value": "Invoice reference missing"
+    },
+    {
+     "ref": "E17",
+     "header": "Owner action",
+     "value": "Ask for invoice reference"
+    },
+    {
+     "ref": "F17",
+     "header": "Observation",
+     "value": "Correction request must remain with Billing Support"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "title": "September queue samples",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header": [
+     "Received UTC",
+     "Plan",
+     "Priority",
+     "Complete context",
+     "Owner action",
+     "Observation"
+    ]
+   },
+   "seg": 27
+  },
+  {
+   "kind": "record",
+   "text": "Received UTC: 2026-09-14 09:06; Plan: Team; Priority: P2; Complete context: Complete; Owner action: Check export filter; Observation: Selection exceeds current per-job allowance",
+   "sha": "18ed2ee76933",
+   "section": "Queue review",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 18,
+    "range": "A18:F18"
+   },
+   "cells": [
+    {
+     "ref": "A18",
+     "header": "Received UTC",
+     "value": "2026-09-14 09:06"
+    },
+    {
+     "ref": "B18",
+     "header": "Plan",
+     "value": "Team"
+    },
+    {
+     "ref": "C18",
+     "header": "Priority",
+     "value": "P2"
+    },
+    {
+     "ref": "D18",
+     "header": "Complete context",
+     "value": "Complete"
+    },
+    {
+     "ref": "E18",
+     "header": "Owner action",
+     "value": "Check export filter"
+    },
+    {
+     "ref": "F18",
+     "header": "Observation",
+     "value": "Selection exceeds current per-job allowance"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "title": "September queue samples",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header": [
+     "Received UTC",
+     "Plan",
+     "Priority",
+     "Complete context",
+     "Owner action",
+     "Observation"
+    ]
+   },
+   "seg": 28
+  },
+  {
+   "kind": "record",
+   "text": "Received UTC: 2026-09-14 11:48; Plan: Enterprise; Priority: P1; Complete context: Complete; Owner action: Start response coordination; Observation: Report covers one affected region, not every workspace",
+   "sha": "f5eeeab1aa87",
+   "section": "Queue review",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 19,
+    "range": "A19:F19"
+   },
+   "cells": [
+    {
+     "ref": "A19",
+     "header": "Received UTC",
+     "value": "2026-09-14 11:48"
+    },
+    {
+     "ref": "B19",
+     "header": "Plan",
+     "value": "Enterprise"
+    },
+    {
+     "ref": "C19",
+     "header": "Priority",
+     "value": "P1"
+    },
+    {
+     "ref": "D19",
+     "header": "Complete context",
+     "value": "Complete"
+    },
+    {
+     "ref": "E19",
+     "header": "Owner action",
+     "value": "Start response coordination"
+    },
+    {
+     "ref": "F19",
+     "header": "Observation",
+     "value": "Report covers one affected region, not every workspace"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "title": "September queue samples",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header": [
+     "Received UTC",
+     "Plan",
+     "Priority",
+     "Complete context",
+     "Owner action",
+     "Observation"
+    ]
+   },
+   "seg": 29
+  },
+  {
+   "kind": "record",
+   "text": "Received UTC: 2026-09-15 10:31; Plan: Team; Priority: P3; Complete context: Complete; Owner action: Review notification preference; Observation: Read event arrived before the email delay ended",
+   "sha": "e02f614b8d2c",
+   "section": "Queue review",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 20,
+    "range": "A20:F20"
+   },
+   "cells": [
+    {
+     "ref": "A20",
+     "header": "Received UTC",
+     "value": "2026-09-15 10:31"
+    },
+    {
+     "ref": "B20",
+     "header": "Plan",
+     "value": "Team"
+    },
+    {
+     "ref": "C20",
+     "header": "Priority",
+     "value": "P3"
+    },
+    {
+     "ref": "D20",
+     "header": "Complete context",
+     "value": "Complete"
+    },
+    {
+     "ref": "E20",
+     "header": "Owner action",
+     "value": "Review notification preference"
+    },
+    {
+     "ref": "F20",
+     "header": "Observation",
+     "value": "Read event arrived before the email delay ended"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "title": "September queue samples",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header": [
+     "Received UTC",
+     "Plan",
+     "Priority",
+     "Complete context",
+     "Owner action",
+     "Observation"
+    ]
+   },
+   "seg": 30
+  },
+  {
+   "kind": "record",
+   "text": "Received UTC: 2026-09-16 12:17; Plan: Enterprise; Priority: P2; Complete context: Contact missing; Owner action: Confirm available administrator; Observation: Technical context is complete, recovery contact still needed",
+   "sha": "736f3352f6de",
+   "section": "Queue review",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 21,
+    "range": "A21:F21"
+   },
+   "cells": [
+    {
+     "ref": "A21",
+     "header": "Received UTC",
+     "value": "2026-09-16 12:17"
+    },
+    {
+     "ref": "B21",
+     "header": "Plan",
+     "value": "Enterprise"
+    },
+    {
+     "ref": "C21",
+     "header": "Priority",
+     "value": "P2"
+    },
+    {
+     "ref": "D21",
+     "header": "Complete context",
+     "value": "Contact missing"
+    },
+    {
+     "ref": "E21",
+     "header": "Owner action",
+     "value": "Confirm available administrator"
+    },
+    {
+     "ref": "F21",
+     "header": "Observation",
+     "value": "Technical context is complete, recovery contact still needed"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "title": "September queue samples",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header": [
+     "Received UTC",
+     "Plan",
+     "Priority",
+     "Complete context",
+     "Owner action",
+     "Observation"
+    ]
+   },
+   "seg": 31
+  },
+  {
+   "kind": "sheet_title",
+   "text": "Questions from the rota meeting",
+   "sha": "2a4c010b0e0d",
+   "section": "Shift discussion",
+   "locator": {
+    "sheet": "Shift discussion",
+    "range": "A1:B2"
+   },
+   "seg": 32
+  },
+  {
+   "kind": "table_header",
+   "text": "Topic | Agreed interpretation",
+   "sha": "facb8b83ce86",
+   "section": "Shift discussion",
+   "locator": {
+    "sheet": "Shift discussion",
+    "row": 5,
+    "range": "A5:B5"
+   },
+   "cells": [
+    {
+     "ref": "A5",
+     "value": "Topic"
+    },
+    {
+     "ref": "B5",
+     "value": "Agreed interpretation"
+    }
+   ],
+   "seg": 33
+  },
+  {
+   "kind": "record",
+   "text": "Topic: Working hours; Agreed interpretation: 09:00 to 18:00 Europe/Berlin, Monday to Friday, excluding contract holidays",
+   "sha": "35a073032be2",
+   "section": "Shift discussion",
+   "locator": {
+    "sheet": "Shift discussion",
+    "row": 6,
+    "range": "A6:B6"
+   },
+   "cells": [
+    {
+     "ref": "A6",
+     "header": "Topic",
+     "value": "Working hours"
+    },
+    {
+     "ref": "B6",
+     "header": "Agreed interpretation",
+     "value": "09:00 to 18:00 Europe/Berlin, Monday to Friday, excluding contract holidays"
+    }
+   ],
+   "context": {
+    "sheet": "Shift discussion",
+    "title": "Questions from the rota meeting",
+    "title_range": "A1:B2",
+    "notes": [],
+    "header_range": "A5:B5",
+    "header": [
+     "Topic",
+     "Agreed interpretation"
+    ]
+   },
+   "seg": 34
+  },
+  {
+   "kind": "record",
+   "text": "Topic: Enterprise P1; Agreed interpretation: 15 minutes, every day around the clock",
+   "sha": "66c892ffb138",
+   "section": "Shift discussion",
+   "locator": {
+    "sheet": "Shift discussion",
+    "row": 7,
+    "range": "A7:B7"
+   },
+   "cells": [
+    {
+     "ref": "A7",
+     "header": "Topic",
+     "value": "Enterprise P1"
+    },
+    {
+     "ref": "B7",
+     "header": "Agreed interpretation",
+     "value": "15 minutes, every day around the clock"
+    }
+   ],
+   "context": {
+    "sheet": "Shift discussion",
+    "title": "Questions from the rota meeting",
+    "title_range": "A1:B2",
+    "notes": [],
+    "header_range": "A5:B5",
+    "header": [
+     "Topic",
+     "Agreed interpretation"
+    ]
+   },
+   "seg": 35
+  },
+  {
+   "kind": "record",
+   "text": "Topic: Team P1; Agreed interpretation: 60 minutes during business support hours",
+   "sha": "9a3de75c8550",
+   "section": "Shift discussion",
+   "locator": {
+    "sheet": "Shift discussion",
+    "row": 8,
+    "range": "A8:B8"
+   },
+   "cells": [
+    {
+     "ref": "A8",
+     "header": "Topic",
+     "value": "Team P1"
+    },
+    {
+     "ref": "B8",
+     "header": "Agreed interpretation",
+     "value": "60 minutes during business support hours"
+    }
+   ],
+   "context": {
+    "sheet": "Shift discussion",
+    "title": "Questions from the rota meeting",
+    "title_range": "A1:B2",
+    "notes": [],
+    "header_range": "A5:B5",
+    "header": [
+     "Topic",
+     "Agreed interpretation"
+    ]
+   },
+   "seg": 36
+  },
+  {
+   "kind": "record",
+   "text": "Topic: Missing evidence; Agreed interpretation: Request workspace, impact, UTC start time and contact",
+   "sha": "bca494e348ba",
+   "section": "Shift discussion",
+   "locator": {
+    "sheet": "Shift discussion",
+    "row": 9,
+    "range": "A9:B9"
+   },
+   "cells": [
+    {
+     "ref": "A9",
+     "header": "Topic",
+     "value": "Missing evidence"
+    },
+    {
+     "ref": "B9",
+     "header": "Agreed interpretation",
+     "value": "Request workspace, impact, UTC start time and contact"
+    }
+   ],
+   "context": {
+    "sheet": "Shift discussion",
+    "title": "Questions from the rota meeting",
+    "title_range": "A1:B2",
+    "notes": [],
+    "header_range": "A5:B5",
+    "header": [
+     "Topic",
+     "Agreed interpretation"
+    ]
+   },
+   "seg": 37
+  },
+  {
+   "kind": "record",
+   "text": "Topic: P1 communication; Agreed interpretation: Updates every 30 minutes during investigation",
+   "sha": "86049810da84",
+   "section": "Shift discussion",
+   "locator": {
+    "sheet": "Shift discussion",
+    "row": 10,
+    "range": "A10:B10"
+   },
+   "cells": [
+    {
+     "ref": "A10",
+     "header": "Topic",
+     "value": "P1 communication"
+    },
+    {
+     "ref": "B10",
+     "header": "Agreed interpretation",
+     "value": "Updates every 30 minutes during investigation"
+    }
+   ],
+   "context": {
+    "sheet": "Shift discussion",
+    "title": "Questions from the rota meeting",
+    "title_range": "A1:B2",
+    "notes": [],
+    "header_range": "A5:B5",
+    "header": [
+     "Topic",
+     "Agreed interpretation"
+    ]
+   },
+   "seg": 38
+  },
+  {
+   "kind": "record",
+   "text": "Topic: Resolution; Agreed interpretation: No fixed repair time is implied by first response",
+   "sha": "b705189bb32b",
+   "section": "Shift discussion",
+   "locator": {
+    "sheet": "Shift discussion",
+    "row": 11,
+    "range": "A11:B11"
+   },
+   "cells": [
+    {
+     "ref": "A11",
+     "header": "Topic",
+     "value": "Resolution"
+    },
+    {
+     "ref": "B11",
+     "header": "Agreed interpretation",
+     "value": "No fixed repair time is implied by first response"
+    }
+   ],
+   "context": {
+    "sheet": "Shift discussion",
+    "title": "Questions from the rota meeting",
+    "title_range": "A1:B2",
+    "notes": [],
+    "header_range": "A5:B5",
+    "header": [
+     "Topic",
+     "Agreed interpretation"
+    ]
+   },
+   "seg": 39
+  }
+ ]
+}

@@ -1,0 +1,1678 @@
+{
+ "no": 50,
+ "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+ "doc_id": "support-calendar-fr",
+ "title": "Calendrier du support en France",
+ "title_ru": "Календарь поддержки во Франции",
+ "lang": "fr",
+ "format": "docx",
+ "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+ "decision": {
+  "no": 50,
+  "path": "documents/Франция/organisation/Calendrier support 2026.docx",
+  "doc_id": "support-calendar-fr",
+  "title": "Calendrier du support en France",
+  "lang": "fr",
+  "owner": "Support France",
+  "version": "2026-09-01",
+  "updated": "2026-09-01",
+  "doc_type": "rule",
+  "status": "include",
+  "rule": "R1",
+  "reason": "Support France, перечитано 1 сентября (2026).",
+  "access": "all",
+  "trust": "confirmed",
+  "related": [
+   49,
+   36,
+   41
+  ]
+ },
+ "fragments": [
+  {
+   "fragment_id": "50-001",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "title",
+   "locator": {
+    "paragraph": 1,
+    "style": "Title"
+   },
+   "locator_text": "абзац 1 (w:p, стиль Title)",
+   "segment_sha": "97013f6fe599",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Календарь поддержки во Франции",
+   "text_orig": "Calendrier du support en France",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-002",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 2,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 2 (w:p, стиль Normal)",
+   "segment_sha": "2f4cafdc5e40",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Записка Support France по организации календаря на 2026 год, перечитана 1 сентября. Она объясняет, как предложить или перенести обычный обратный звонок, когда договор относится к Франции. Срочные обязательства Enterprise продолжают действовать согласно договору и указаниям для дежурства. Поэтому наличие праздника в этом календаре не означает, что любой запрос или любой инцидент остаётся без маршрута.",
+   "text_orig": "Note de Support France pour l’organisation du calendrier 2026, relue le 1er septembre. Elle explique comment proposer ou reporter un rappel ordinaire lorsque le contrat relève de la France. Les engagements d’urgence Enterprise continuent selon le contrat et les consignes de permanence. La présence d’un jour férié dans ce calendrier ne signifie donc pas que toute demande ou tout incident est laissé sans orientation.",
+   "translation": "translated",
+   "translation_review": {
+    "checks": [
+     "conditions"
+    ],
+    "decision": "accepted",
+    "note": "Ложное «only»: «ne signifie donc pas que» → «не означает, что»."
+   },
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-003",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 3,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 3 (w:p, стиль Normal)",
+   "segment_sha": "cd500ad64ab7",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Применимый календарь определяется страной договора, а не только языком, которым пользуется клиент. Бельгийская организация может писать по-французски и должна сохранять свой бельгийский календарь. Прежде чем переносить встречу, проверьте страну договора и фактическую доступность контакта. В подтверждении встречи указывается часовой пояс, чтобы клиент и коллега, который будет звонить, говорили об одном и том же интервале.",
+   "text_orig": "Le calendrier applicable vient du pays du contrat, pas seulement de la langue utilisée par le client. Une organisation belge peut écrire en français et doit conserver son calendrier belge. Avant de déplacer un rendez-vous, vérifier le pays du contrat et la disponibilité réelle du contact. La confirmation du rendez-vous affiche le fuseau horaire afin que le client et le collègue chargé de l’appel parlent du même créneau.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-004",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "heading",
+   "locator": {
+    "paragraph": 4,
+    "style": "Heading1"
+   },
+   "locator_text": "абзац 4 (w:p, стиль Heading1)",
+   "segment_sha": "7f1ae2968273",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Дни и часы",
+   "text_orig": "Jours et horaires",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-005",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 5,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 5 (w:p, стиль Normal)",
+   "segment_sha": "005421ebe424",
+   "section": "Jours et horaires",
+   "section_ru": "Дни и часы",
+   "text_ru": "Обычные обратные звонки не проводятся 14 июля.",
+   "text_orig": "Les rappels ordinaires sont fermés le 14 juillet.",
+   "translation": "translated",
+   "translation_review": {
+    "checks": [
+     "negation"
+    ],
+    "decision": "accepted",
+    "note": "«sont fermés le 14 juillet» → «не проводятся 14 июля»: закрытие канала передано как непроведение; дата сохранена."
+   },
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-006",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 6,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 6 (w:p, стиль Normal)",
+   "segment_sha": "ab3d81c9215b",
+   "section": "Jours et horaires",
+   "section_ru": "Дни и часы",
+   "text_ru": "Обычные обратные звонки не проводятся 25 декабря.",
+   "text_orig": "Les rappels ordinaires sont fermés le 25 décembre.",
+   "translation": "translated",
+   "translation_review": {
+    "checks": [
+     "negation"
+    ],
+    "decision": "accepted",
+    "note": "То же для 25 декабря."
+   },
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-007",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 7,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 7 (w:p, стиль Normal)",
+   "segment_sha": "fb1c70c63a6a",
+   "section": "Jours et horaires",
+   "section_ru": "Дни и часы",
+   "text_ru": "Кроме праздников, обычные обратные звонки проводятся с 09:00 до 17:00 Europe/Paris с понедельника по пятницу.",
+   "text_orig": "Hors jours fériés, les rappels ordinaires ont lieu de 09:00 à 17:00 Europe/Paris du lundi au vendredi.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "similar_to": [
+    {
+     "fragment_id": "49-005",
+     "jaccard": 0.75
+    }
+   ],
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-008",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 8,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 8 (w:p, стиль Normal)",
+   "segment_sha": "ec78c660de64",
+   "section": "Jours et horaires",
+   "section_ru": "Дни и часы",
+   "text_ru": "Форма остаётся доступной в праздничные дни.",
+   "text_orig": "Le formulaire reste accessible pendant les jours fériés.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-009",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "heading",
+   "locator": {
+    "paragraph": 9,
+    "style": "Heading1"
+   },
+   "locator_text": "абзац 9 (w:p, стиль Heading1)",
+   "segment_sha": "9c0f7ed16a6e",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Координация",
+   "text_orig": "Coordination",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-010",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 10,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 10 (w:p, стиль Normal)",
+   "segment_sha": "87ff3abd1a76",
+   "section": "Coordination",
+   "section_ru": "Координация",
+   "text_ru": "Инциденты P1 Enterprise по-прежнему направляются дежурной смене.",
+   "text_orig": "Les incidents P1 Enterprise restent orientés vers l’astreinte.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-011",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 11,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 11 (w:p, стиль Normal)",
+   "segment_sha": "c06e91610731",
+   "section": "Coordination",
+   "section_ru": "Координация",
+   "text_ru": "Часовой пояс указывается в подтверждении встречи.",
+   "text_orig": "Le fuseau horaire est affiché dans la confirmation du rendez-vous.",
+   "translation": "translated",
+   "translation_review": {
+    "checks": [
+     "length"
+    ],
+    "decision": "accepted",
+    "note": "Короткое предложение; перевод полный: «Часовой пояс указывается в подтверждении встречи»."
+   },
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-012",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 12,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 12 (w:p, стиль Normal)",
+   "segment_sha": "31ae94e99024",
+   "section": "Coordination",
+   "section_ru": "Координация",
+   "text_ru": "Обычная встреча, приходящаяся на праздник, предлагается на ближайший доступный рабочий день.",
+   "text_orig": "Un rendez-vous ordinaire tombant un jour férié est proposé au prochain jour ouvré disponible.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-013",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 13,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 13 (w:p, стиль Normal)",
+   "segment_sha": "b59f61fd30dc",
+   "section": "Coordination",
+   "section_ru": "Координация",
+   "text_ru": "Для бельгийского договора нужно использовать бельгийский календарь.",
+   "text_orig": "Le calendrier belge doit être utilisé pour un contrat belge.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-014",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 14,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 14 (w:p, стиль Normal)",
+   "segment_sha": "e5dd2203476b",
+   "section": "Coordination",
+   "section_ru": "Координация",
+   "text_ru": "При переносе сотрудник сохраняет номер запроса.",
+   "text_orig": "L’agent conserve le numéro de demande lors d’un report.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-015",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "heading",
+   "locator": {
+    "paragraph": 15,
+    "style": "Heading1"
+   },
+   "locator_text": "абзац 15 (w:p, стиль Heading1)",
+   "segment_sha": "75d92cd8822e",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Организация переноса",
+   "text_orig": "Organiser le report",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-016",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 16,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 16 (w:p, стиль Normal)",
+   "segment_sha": "39cee909c56a",
+   "section": "Organiser le report",
+   "section_ru": "Организация переноса",
+   "text_ru": "Когда обычный обратный звонок приходится на день закрытия, предложите ближайший доступный рабочий день, подходящий клиенту. Сохраните номер запроса и объясните причину переноса. Изменение встречи не должно стирать исходный вопрос и уже выполненные проверки. Если коллега, принимающий дело, не участвовал в переписке, он должен понимать, что осталось сделать и почему прежний интервал не сохранён.",
+   "text_orig": "Lorsqu’un rappel ordinaire tombe un jour de fermeture, proposer le prochain jour ouvré disponible qui convient au client. Conserver le numéro de demande et expliquer la raison du report. Le changement de rendez-vous ne doit pas effacer la question initiale ni les vérifications déjà réalisées. Si le collègue qui reprend le dossier n’a pas participé à l’échange, il doit comprendre ce qui reste à faire et pourquoi l’ancien créneau n’a pas été conservé.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-017",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 17,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 17 (w:p, стиль Normal)",
+   "segment_sha": "2a89c78078b3",
+   "section": "Organiser le report",
+   "section_ru": "Организация переноса",
+   "text_ru": "Обычные часы — с 09:00 до 17:00 Europe/Paris с понедельника по пятницу, кроме праздников. 14 июля и 25 декабря обычные обратные звонки не проводятся. Не считайте эти две даты универсальным списком для календарей всех стран. Эта записка напоминает об их обработке для Франции. По вопросу о другой договорной дате или другой организации проверьте применимое досье, прежде чем обещать интервал.",
+   "text_orig": "Les horaires ordinaires sont de 09:00 à 17:00 Europe/Paris du lundi au vendredi hors jours fériés. Le 14 juillet et le 25 décembre, les rappels ordinaires sont fermés. Ne pas considérer ces deux dates comme une liste universelle des calendriers de tous les pays. Cette note rappelle leur traitement pour la France. Pour une question concernant une autre date contractuelle ou une autre organisation, vérifier le dossier applicable avant de promettre un créneau.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-018",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "heading",
+   "locator": {
+    "paragraph": 18,
+    "style": "Heading1"
+   },
+   "locator_text": "абзац 18 (w:p, стиль Heading1)",
+   "segment_sha": "8b2df4edc630",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Что остаётся открытым",
+   "text_orig": "Ce qui reste ouvert",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-019",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 19,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 19 (w:p, стиль Normal)",
+   "segment_sha": "9e0200065403",
+   "section": "Ce qui reste ouvert",
+   "section_ru": "Что остаётся открытым",
+   "text_ru": "Письменная форма остаётся доступной в праздничные дни. Объясняйте эту возможность клиенту, не создавая впечатления, что обычный обратный звонок обязательно состоится в этот день. Инциденты P1 Enterprise по-прежнему направляются дежурной смене. Сотрудник проверяет влияние и договор, а затем применяет подробные указания по срочному обратному звонку. Перенесённая коммерческая встреча и производственный инцидент обрабатываются по-разному, даже если они появились в одной переписке.",
+   "text_orig": "Le formulaire écrit reste accessible pendant les jours fériés. Expliquer cette possibilité au client sans laisser entendre qu’un rappel ordinaire sera forcément effectué ce jour-là. Les incidents P1 Enterprise restent orientés vers l’astreinte. L’agent vérifie l’impact et le contrat, puis applique les consignes détaillées de rappel d’urgence. Un rendez-vous commercial reporté et un incident de production n’ont pas le même traitement, même s’ils arrivent dans la même conversation.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-020",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 20,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 20 (w:p, стиль Normal)",
+   "segment_sha": "083de4adce3e",
+   "section": "Ce qui reste ouvert",
+   "section_ru": "Что остаётся открытым",
+   "text_ru": "При передаче смены сообщайте выбранный клиентом канал, подтверждённый часовой пояс и последнее согласованное действие. Списка интервалов без контекста недостаточно, когда делу требуется адаптация общения или присутствие администратора. Если клиент меняет страну во время поездки, подтвердите время его доступности, сохраняя договорный календарь. Физическое местонахождение заявителя само по себе не меняет правил обратных звонков его организации.",
+   "text_orig": "Pendant une relève, transmettre le canal choisi par le client, le fuseau confirmé et la dernière action convenue. Une liste de créneaux sans contexte est insuffisante lorsque le dossier nécessite une adaptation de communication ou la présence d’un administrateur. Si le client change de pays pendant un déplacement, confirmer son heure de disponibilité tout en gardant le calendrier contractuel. Le lieu physique du demandeur ne modifie pas à lui seul les règles de rappel de son organisation.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-021",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "heading",
+   "locator": {
+    "paragraph": 21,
+    "style": "Heading1"
+   },
+   "locator_text": "абзац 21 (w:p, стиль Heading1)",
+   "segment_sha": "d6770a475b09",
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Примеры со встречи по планированию",
+   "text_orig": "Exemples de la réunion de planning",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-022",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 22,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 22 (w:p, стиль Normal)",
+   "segment_sha": "2196c733e987",
+   "section": "Exemples de la réunion de planning",
+   "section_ru": "Примеры со встречи по планированию",
+   "text_ru": "Обычный запрос был запланирован на 14 июля в общем календаре. Команда перенесла его на ближайший доступный рабочий день с согласия клиента и сохранила тот же запрос. В отчёте не было написано «инцидент закрыт», потому что этим переносом не была завершена никакая техническая диагностика. Клиент получил новое подтверждение с указанием Europe/Paris и темы звонка. Уже выполненные проверки остались в исходном деле.",
+   "text_orig": "Une demande ordinaire était prévue le 14 juillet dans le calendrier partagé. L’équipe l’a déplacée au prochain jour ouvré disponible avec l’accord du client et a conservé la même demande. Le compte rendu ne disait pas «incident clos», car aucun diagnostic technique n’avait été terminé par ce déplacement. Le client a reçu une nouvelle confirmation mentionnant Europe/Paris et le sujet de l’appel. Les vérifications déjà faites sont restées dans le dossier initial.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-023",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 23,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 23 (w:p, стиль Normal)",
+   "segment_sha": "204823ec2349",
+   "section": "Exemples de la réunion de planning",
+   "section_ru": "Примеры со встречи по планированию",
+   "text_ru": "Другое сообщение, написанное по-французски, относилось к бельгийскому договору. Коллега проверил страну, а не применил автоматически французский календарь. Правильная маршрутизация не позволяет закрыть интервал на основании предположения о языке. Наконец, P1 Enterprise, о котором сообщили в праздничный день, был направлен дежурной смене и не попал в число простых переносов. Подробности исключительного срока приведены в процедуре обратных звонков во Франции; к ней нужно обращаться, когда возникает такой случай.",
+   "text_orig": "Un autre message rédigé en français provenait d’un contrat belge. Le collègue a vérifié le pays au lieu de reprendre automatiquement le calendrier français. La bonne orientation évite de fermer un créneau sur la base d’une hypothèse de langue. Enfin, un P1 Enterprise signalé pendant un jour férié a été adressé à la permanence, sans être rangé parmi les simples reports. Le détail du délai exceptionnel se trouve dans la procédure de rappels France, à consulter lorsque ce cas se présente.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "50-024",
+   "doc_no": 50,
+   "doc_id": "support-calendar-fr",
+   "doc_version": "2026-09-01",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+   "source_lang": "fr",
+   "format": "docx",
+   "kind": "para",
+   "locator": {
+    "paragraph": 24,
+    "style": "Normal"
+   },
+   "locator_text": "абзац 24 (w:p, стиль Normal)",
+   "segment_sha": "264eb90c9d9f",
+   "section": "Exemples de la réunion de planning",
+   "section_ru": "Примеры со встречи по планированию",
+   "text_ru": "Перед отпусками каждый ответственный за смену проверяет запросы, которые нужно будет подхватить, и коллегу на замене. Личные заметки могут помочь подготовить передачу, но следующее действие должно быть записано в запросе, доступном команде. Если в календаре клиента осталось старое приглашение, явно исправьте его, чтобы не было двух конкурирующих времён. Сопровождение завершено, когда клиент знает, каким каналом пользоваться и когда ожидать продолжения.",
+   "text_orig": "Avant les congés, chaque responsable de plage vérifie les demandes à reprendre et le collègue de relais. Les notes personnelles peuvent aider à préparer la relève, mais la prochaine action doit être inscrite dans la demande accessible à l’équipe. Si une ancienne invitation subsiste dans le calendrier du client, la corriger explicitement pour éviter deux horaires concurrents. Le suivi est terminé lorsque le client sait quel canal utiliser et à quel moment la suite est attendue.",
+   "translation": "translated",
+   "translation_review": {
+    "checks": [
+     "negation"
+    ],
+    "decision": "accepted",
+    "note": "«pour éviter deux horaires concurrents» → «чтобы не было двух конкурирующих времён»; число 2 сохранено."
+   },
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+  }
+ ],
+ "_base": {
+  "no": 50,
+  "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+  "doc_id": "support-calendar-fr",
+  "title": "Calendrier du support en France",
+  "title_ru": "Календарь поддержки во Франции",
+  "lang": "fr",
+  "format": "docx",
+  "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+  "decision": {
+   "no": 50,
+   "path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "doc_id": "support-calendar-fr",
+   "title": "Calendrier du support en France",
+   "lang": "fr",
+   "owner": "Support France",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "doc_type": "rule",
+   "status": "include",
+   "rule": "R1",
+   "reason": "Support France, перечитано 1 сентября (2026).",
+   "access": "all",
+   "trust": "confirmed",
+   "related": [
+    49,
+    36,
+    41
+   ]
+  },
+  "fragments": [
+   {
+    "fragment_id": "50-001",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "title",
+    "locator": {
+     "paragraph": 1,
+     "style": "Title"
+    },
+    "locator_text": "абзац 1 (w:p, стиль Title)",
+    "segment_sha": "97013f6fe599",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Календарь поддержки во Франции",
+    "text_orig": "Calendrier du support en France",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-002",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 2,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 2 (w:p, стиль Normal)",
+    "segment_sha": "2f4cafdc5e40",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Записка Support France по организации календаря на 2026 год, перечитана 1 сентября. Она объясняет, как предложить или перенести обычный обратный звонок, когда договор относится к Франции. Срочные обязательства Enterprise продолжают действовать согласно договору и указаниям для дежурства. Поэтому наличие праздника в этом календаре не означает, что любой запрос или любой инцидент остаётся без маршрута.",
+    "text_orig": "Note de Support France pour l’organisation du calendrier 2026, relue le 1er septembre. Elle explique comment proposer ou reporter un rappel ordinaire lorsque le contrat relève de la France. Les engagements d’urgence Enterprise continuent selon le contrat et les consignes de permanence. La présence d’un jour férié dans ce calendrier ne signifie donc pas que toute demande ou tout incident est laissé sans orientation.",
+    "translation": "translated",
+    "translation_review": {
+     "checks": [
+      "conditions"
+     ],
+     "decision": "accepted",
+     "note": "Ложное «only»: «ne signifie donc pas que» → «не означает, что»."
+    },
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-003",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 3,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 3 (w:p, стиль Normal)",
+    "segment_sha": "cd500ad64ab7",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Применимый календарь определяется страной договора, а не только языком, которым пользуется клиент. Бельгийская организация может писать по-французски и должна сохранять свой бельгийский календарь. Прежде чем переносить встречу, проверьте страну договора и фактическую доступность контакта. В подтверждении встречи указывается часовой пояс, чтобы клиент и коллега, который будет звонить, говорили об одном и том же интервале.",
+    "text_orig": "Le calendrier applicable vient du pays du contrat, pas seulement de la langue utilisée par le client. Une organisation belge peut écrire en français et doit conserver son calendrier belge. Avant de déplacer un rendez-vous, vérifier le pays du contrat et la disponibilité réelle du contact. La confirmation du rendez-vous affiche le fuseau horaire afin que le client et le collègue chargé de l’appel parlent du même créneau.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-004",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "heading",
+    "locator": {
+     "paragraph": 4,
+     "style": "Heading1"
+    },
+    "locator_text": "абзац 4 (w:p, стиль Heading1)",
+    "segment_sha": "7f1ae2968273",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Дни и часы",
+    "text_orig": "Jours et horaires",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-005",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 5,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 5 (w:p, стиль Normal)",
+    "segment_sha": "005421ebe424",
+    "section": "Jours et horaires",
+    "section_ru": "Дни и часы",
+    "text_ru": "Обычные обратные звонки не проводятся 14 июля.",
+    "text_orig": "Les rappels ordinaires sont fermés le 14 juillet.",
+    "translation": "translated",
+    "translation_review": {
+     "checks": [
+      "negation"
+     ],
+     "decision": "accepted",
+     "note": "«sont fermés le 14 juillet» → «не проводятся 14 июля»: закрытие канала передано как непроведение; дата сохранена."
+    },
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-006",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 6,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 6 (w:p, стиль Normal)",
+    "segment_sha": "ab3d81c9215b",
+    "section": "Jours et horaires",
+    "section_ru": "Дни и часы",
+    "text_ru": "Обычные обратные звонки не проводятся 25 декабря.",
+    "text_orig": "Les rappels ordinaires sont fermés le 25 décembre.",
+    "translation": "translated",
+    "translation_review": {
+     "checks": [
+      "negation"
+     ],
+     "decision": "accepted",
+     "note": "То же для 25 декабря."
+    },
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-007",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 7,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 7 (w:p, стиль Normal)",
+    "segment_sha": "fb1c70c63a6a",
+    "section": "Jours et horaires",
+    "section_ru": "Дни и часы",
+    "text_ru": "Кроме праздников, обычные обратные звонки проводятся с 09:00 до 17:00 Europe/Paris с понедельника по пятницу.",
+    "text_orig": "Hors jours fériés, les rappels ordinaires ont lieu de 09:00 à 17:00 Europe/Paris du lundi au vendredi.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-008",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 8,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 8 (w:p, стиль Normal)",
+    "segment_sha": "ec78c660de64",
+    "section": "Jours et horaires",
+    "section_ru": "Дни и часы",
+    "text_ru": "Форма остаётся доступной в праздничные дни.",
+    "text_orig": "Le formulaire reste accessible pendant les jours fériés.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-009",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "heading",
+    "locator": {
+     "paragraph": 9,
+     "style": "Heading1"
+    },
+    "locator_text": "абзац 9 (w:p, стиль Heading1)",
+    "segment_sha": "9c0f7ed16a6e",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Координация",
+    "text_orig": "Coordination",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-010",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 10,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 10 (w:p, стиль Normal)",
+    "segment_sha": "87ff3abd1a76",
+    "section": "Coordination",
+    "section_ru": "Координация",
+    "text_ru": "Инциденты P1 Enterprise по-прежнему направляются дежурной смене.",
+    "text_orig": "Les incidents P1 Enterprise restent orientés vers l’astreinte.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-011",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 11,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 11 (w:p, стиль Normal)",
+    "segment_sha": "c06e91610731",
+    "section": "Coordination",
+    "section_ru": "Координация",
+    "text_ru": "Часовой пояс указывается в подтверждении встречи.",
+    "text_orig": "Le fuseau horaire est affiché dans la confirmation du rendez-vous.",
+    "translation": "translated",
+    "translation_review": {
+     "checks": [
+      "length"
+     ],
+     "decision": "accepted",
+     "note": "Короткое предложение; перевод полный: «Часовой пояс указывается в подтверждении встречи»."
+    },
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-012",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 12,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 12 (w:p, стиль Normal)",
+    "segment_sha": "31ae94e99024",
+    "section": "Coordination",
+    "section_ru": "Координация",
+    "text_ru": "Обычная встреча, приходящаяся на праздник, предлагается на ближайший доступный рабочий день.",
+    "text_orig": "Un rendez-vous ordinaire tombant un jour férié est proposé au prochain jour ouvré disponible.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-013",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 13,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 13 (w:p, стиль Normal)",
+    "segment_sha": "b59f61fd30dc",
+    "section": "Coordination",
+    "section_ru": "Координация",
+    "text_ru": "Для бельгийского договора нужно использовать бельгийский календарь.",
+    "text_orig": "Le calendrier belge doit être utilisé pour un contrat belge.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-014",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 14,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 14 (w:p, стиль Normal)",
+    "segment_sha": "e5dd2203476b",
+    "section": "Coordination",
+    "section_ru": "Координация",
+    "text_ru": "При переносе сотрудник сохраняет номер запроса.",
+    "text_orig": "L’agent conserve le numéro de demande lors d’un report.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-015",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "heading",
+    "locator": {
+     "paragraph": 15,
+     "style": "Heading1"
+    },
+    "locator_text": "абзац 15 (w:p, стиль Heading1)",
+    "segment_sha": "75d92cd8822e",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Организация переноса",
+    "text_orig": "Organiser le report",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-016",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 16,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 16 (w:p, стиль Normal)",
+    "segment_sha": "39cee909c56a",
+    "section": "Organiser le report",
+    "section_ru": "Организация переноса",
+    "text_ru": "Когда обычный обратный звонок приходится на день закрытия, предложите ближайший доступный рабочий день, подходящий клиенту. Сохраните номер запроса и объясните причину переноса. Изменение встречи не должно стирать исходный вопрос и уже выполненные проверки. Если коллега, принимающий дело, не участвовал в переписке, он должен понимать, что осталось сделать и почему прежний интервал не сохранён.",
+    "text_orig": "Lorsqu’un rappel ordinaire tombe un jour de fermeture, proposer le prochain jour ouvré disponible qui convient au client. Conserver le numéro de demande et expliquer la raison du report. Le changement de rendez-vous ne doit pas effacer la question initiale ni les vérifications déjà réalisées. Si le collègue qui reprend le dossier n’a pas participé à l’échange, il doit comprendre ce qui reste à faire et pourquoi l’ancien créneau n’a pas été conservé.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-017",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 17,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 17 (w:p, стиль Normal)",
+    "segment_sha": "2a89c78078b3",
+    "section": "Organiser le report",
+    "section_ru": "Организация переноса",
+    "text_ru": "Обычные часы — с 09:00 до 17:00 Europe/Paris с понедельника по пятницу, кроме праздников. 14 июля и 25 декабря обычные обратные звонки не проводятся. Не считайте эти две даты универсальным списком для календарей всех стран. Эта записка напоминает об их обработке для Франции. По вопросу о другой договорной дате или другой организации проверьте применимое досье, прежде чем обещать интервал.",
+    "text_orig": "Les horaires ordinaires sont de 09:00 à 17:00 Europe/Paris du lundi au vendredi hors jours fériés. Le 14 juillet et le 25 décembre, les rappels ordinaires sont fermés. Ne pas considérer ces deux dates comme une liste universelle des calendriers de tous les pays. Cette note rappelle leur traitement pour la France. Pour une question concernant une autre date contractuelle ou une autre organisation, vérifier le dossier applicable avant de promettre un créneau.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-018",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "heading",
+    "locator": {
+     "paragraph": 18,
+     "style": "Heading1"
+    },
+    "locator_text": "абзац 18 (w:p, стиль Heading1)",
+    "segment_sha": "8b2df4edc630",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Что остаётся открытым",
+    "text_orig": "Ce qui reste ouvert",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-019",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 19,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 19 (w:p, стиль Normal)",
+    "segment_sha": "9e0200065403",
+    "section": "Ce qui reste ouvert",
+    "section_ru": "Что остаётся открытым",
+    "text_ru": "Письменная форма остаётся доступной в праздничные дни. Объясняйте эту возможность клиенту, не создавая впечатления, что обычный обратный звонок обязательно состоится в этот день. Инциденты P1 Enterprise по-прежнему направляются дежурной смене. Сотрудник проверяет влияние и договор, а затем применяет подробные указания по срочному обратному звонку. Перенесённая коммерческая встреча и производственный инцидент обрабатываются по-разному, даже если они появились в одной переписке.",
+    "text_orig": "Le formulaire écrit reste accessible pendant les jours fériés. Expliquer cette possibilité au client sans laisser entendre qu’un rappel ordinaire sera forcément effectué ce jour-là. Les incidents P1 Enterprise restent orientés vers l’astreinte. L’agent vérifie l’impact et le contrat, puis applique les consignes détaillées de rappel d’urgence. Un rendez-vous commercial reporté et un incident de production n’ont pas le même traitement, même s’ils arrivent dans la même conversation.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-020",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 20,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 20 (w:p, стиль Normal)",
+    "segment_sha": "083de4adce3e",
+    "section": "Ce qui reste ouvert",
+    "section_ru": "Что остаётся открытым",
+    "text_ru": "При передаче смены сообщайте выбранный клиентом канал, подтверждённый часовой пояс и последнее согласованное действие. Списка интервалов без контекста недостаточно, когда делу требуется адаптация общения или присутствие администратора. Если клиент меняет страну во время поездки, подтвердите время его доступности, сохраняя договорный календарь. Физическое местонахождение заявителя само по себе не меняет правил обратных звонков его организации.",
+    "text_orig": "Pendant une relève, transmettre le canal choisi par le client, le fuseau confirmé et la dernière action convenue. Une liste de créneaux sans contexte est insuffisante lorsque le dossier nécessite une adaptation de communication ou la présence d’un administrateur. Si le client change de pays pendant un déplacement, confirmer son heure de disponibilité tout en gardant le calendrier contractuel. Le lieu physique du demandeur ne modifie pas à lui seul les règles de rappel de son organisation.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-021",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "heading",
+    "locator": {
+     "paragraph": 21,
+     "style": "Heading1"
+    },
+    "locator_text": "абзац 21 (w:p, стиль Heading1)",
+    "segment_sha": "d6770a475b09",
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Примеры со встречи по планированию",
+    "text_orig": "Exemples de la réunion de planning",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-022",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 22,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 22 (w:p, стиль Normal)",
+    "segment_sha": "2196c733e987",
+    "section": "Exemples de la réunion de planning",
+    "section_ru": "Примеры со встречи по планированию",
+    "text_ru": "Обычный запрос был запланирован на 14 июля в общем календаре. Команда перенесла его на ближайший доступный рабочий день с согласия клиента и сохранила тот же запрос. В отчёте не было написано «инцидент закрыт», потому что этим переносом не была завершена никакая техническая диагностика. Клиент получил новое подтверждение с указанием Europe/Paris и темы звонка. Уже выполненные проверки остались в исходном деле.",
+    "text_orig": "Une demande ordinaire était prévue le 14 juillet dans le calendrier partagé. L’équipe l’a déplacée au prochain jour ouvré disponible avec l’accord du client et a conservé la même demande. Le compte rendu ne disait pas «incident clos», car aucun diagnostic technique n’avait été terminé par ce déplacement. Le client a reçu une nouvelle confirmation mentionnant Europe/Paris et le sujet de l’appel. Les vérifications déjà faites sont restées dans le dossier initial.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-023",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 23,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 23 (w:p, стиль Normal)",
+    "segment_sha": "204823ec2349",
+    "section": "Exemples de la réunion de planning",
+    "section_ru": "Примеры со встречи по планированию",
+    "text_ru": "Другое сообщение, написанное по-французски, относилось к бельгийскому договору. Коллега проверил страну, а не применил автоматически французский календарь. Правильная маршрутизация не позволяет закрыть интервал на основании предположения о языке. Наконец, P1 Enterprise, о котором сообщили в праздничный день, был направлен дежурной смене и не попал в число простых переносов. Подробности исключительного срока приведены в процедуре обратных звонков во Франции; к ней нужно обращаться, когда возникает такой случай.",
+    "text_orig": "Un autre message rédigé en français provenait d’un contrat belge. Le collègue a vérifié le pays au lieu de reprendre automatiquement le calendrier français. La bonne orientation évite de fermer un créneau sur la base d’une hypothèse de langue. Enfin, un P1 Enterprise signalé pendant un jour férié a été adressé à la permanence, sans être rangé parmi les simples reports. Le détail du délai exceptionnel se trouve dans la procédure de rappels France, à consulter lorsque ce cas se présente.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "50-024",
+    "doc_no": 50,
+    "doc_id": "support-calendar-fr",
+    "doc_version": "2026-09-01",
+    "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "source_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+    "source_lang": "fr",
+    "format": "docx",
+    "kind": "para",
+    "locator": {
+     "paragraph": 24,
+     "style": "Normal"
+    },
+    "locator_text": "абзац 24 (w:p, стиль Normal)",
+    "segment_sha": "264eb90c9d9f",
+    "section": "Exemples de la réunion de planning",
+    "section_ru": "Примеры со встречи по планированию",
+    "text_ru": "Перед отпусками каждый ответственный за смену проверяет запросы, которые нужно будет подхватить, и коллегу на замене. Личные заметки могут помочь подготовить передачу, но следующее действие должно быть записано в запросе, доступном команде. Если в календаре клиента осталось старое приглашение, явно исправьте его, чтобы не было двух конкурирующих времён. Сопровождение завершено, когда клиент знает, каким каналом пользоваться и когда ожидать продолжения.",
+    "text_orig": "Avant les congés, chaque responsable de plage vérifie les demandes à reprendre et le collègue de relais. Les notes personnelles peuvent aider à préparer la relève, mais la prochaine action doit être inscrite dans la demande accessible à l’équipe. Si une ancienne invitation subsiste dans le calendrier du client, la corriger explicitement pour éviter deux horaires concurrents. Le suivi est terminé lorsque le client sait quel canal utiliser et à quel moment la suite est attendue.",
+    "translation": "translated",
+    "translation_review": {
+     "checks": [
+      "negation"
+     ],
+     "decision": "accepted",
+     "note": "«pour éviter deux horaires concurrents» → «чтобы не было двух конкурирующих времён»; число 2 сохранено."
+    },
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   }
+  ]
+ }
+}

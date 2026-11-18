@@ -1,0 +1,6254 @@
+{
+ "no": 6,
+ "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+ "doc_id": "webhook-retries",
+ "title": "",
+ "title_ru": null,
+ "lang": "fr",
+ "format": "csv",
+ "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+ "decision": {
+  "no": 6,
+  "path": "documents/Выгрузки/webhooks-reprises.csv",
+  "doc_id": "webhook-retries",
+  "title": "",
+  "lang": "fr",
+  "owner": "",
+  "version": "",
+  "updated": "",
+  "doc_type": "register",
+  "status": "include",
+  "rule": "R5",
+  "reason": "Владелец не указан; журнал теста «8 septembre» без года; единственный источник о повторах вебхуков; не противоречит №04 и №15.",
+  "access": "all",
+  "trust": "unconfirmed_origin",
+  "related": [
+   23,
+   4,
+   15
+  ]
+ },
+ "fragments": [
+  {
+   "fragment_id": "06-001",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "table_header",
+   "locator": {
+    "csv_row": 1
+   },
+   "locator_text": "строка 1",
+   "segment_sha": "559bb1f97d99",
+   "cells": [
+    {
+     "col": 1,
+     "value": "Nature",
+     "value_ru": "Вид"
+    },
+    {
+     "col": 2,
+     "value": "Étape ou livraison",
+     "value_ru": "Этап или доставка"
+    },
+    {
+     "col": 3,
+     "value": "Minutes depuis envoi initial",
+     "value_ru": "Минут с первоначальной отправки"
+    },
+    {
+     "col": 4,
+     "value": "Événement",
+     "value_ru": "Событие"
+    },
+    {
+     "col": 5,
+     "value": "HTTP",
+     "value_ru": "HTTP"
+    },
+    {
+     "col": 6,
+     "value": "Observation",
+     "value_ru": "Наблюдение"
+    }
+   ],
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид | Этап или доставка | Минут с первоначальной отправки | Событие | HTTP | Наблюдение",
+   "text_orig": "Nature | Étape ou livraison | Minutes depuis envoi initial | Événement | HTTP | Observation",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-002",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 2
+   },
+   "locator_text": "строка 2",
+   "segment_sha": "7afcf92a7520",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "calendrier",
+     "header_ru": "Вид",
+     "value_ru": "расписание"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Tentative 1",
+     "header_ru": "Этап или доставка",
+     "value_ru": "Попытка 1"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "0",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "0"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Envoi initial à 0 minute.",
+     "header_ru": "Наблюдение",
+     "value_ru": "Первоначальная отправка на 0-й минуте."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: расписание; Этап или доставка: Попытка 1; Минут с первоначальной отправки: 0; Наблюдение: Первоначальная отправка на 0-й минуте.",
+   "text_orig": "Nature: calendrier; Étape ou livraison: Tentative 1; Minutes depuis envoi initial: 0; Observation: Envoi initial à 0 minute.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-003",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 3
+   },
+   "locator_text": "строка 3",
+   "segment_sha": "f61e662cd1f4",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "calendrier",
+     "header_ru": "Вид",
+     "value_ru": "расписание"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Tentative 2",
+     "header_ru": "Этап или доставка",
+     "value_ru": "Попытка 2"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "1",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "1"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Nouvel envoi à 1 minute.",
+     "header_ru": "Наблюдение",
+     "value_ru": "Повторная отправка на 1-й минуте."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: расписание; Этап или доставка: Попытка 2; Минут с первоначальной отправки: 1; Наблюдение: Повторная отправка на 1-й минуте.",
+   "text_orig": "Nature: calendrier; Étape ou livraison: Tentative 2; Minutes depuis envoi initial: 1; Observation: Nouvel envoi à 1 minute.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-004",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 4
+   },
+   "locator_text": "строка 4",
+   "segment_sha": "504ec5d0bde5",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "calendrier",
+     "header_ru": "Вид",
+     "value_ru": "расписание"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Tentative 3",
+     "header_ru": "Этап или доставка",
+     "value_ru": "Попытка 3"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "5",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "5"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Nouvel envoi à 5 minutes.",
+     "header_ru": "Наблюдение",
+     "value_ru": "Повторная отправка на 5-й минуте."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: расписание; Этап или доставка: Попытка 3; Минут с первоначальной отправки: 5; Наблюдение: Повторная отправка на 5-й минуте.",
+   "text_orig": "Nature: calendrier; Étape ou livraison: Tentative 3; Minutes depuis envoi initial: 5; Observation: Nouvel envoi à 5 minutes.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-005",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 5
+   },
+   "locator_text": "строка 5",
+   "segment_sha": "e56ca58b8060",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "calendrier",
+     "header_ru": "Вид",
+     "value_ru": "расписание"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Tentative 4",
+     "header_ru": "Этап или доставка",
+     "value_ru": "Попытка 4"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "15",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "15"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Nouvel envoi à 15 minutes.",
+     "header_ru": "Наблюдение",
+     "value_ru": "Повторная отправка на 15-й минуте."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: расписание; Этап или доставка: Попытка 4; Минут с первоначальной отправки: 15; Наблюдение: Повторная отправка на 15-й минуте.",
+   "text_orig": "Nature: calendrier; Étape ou livraison: Tentative 4; Minutes depuis envoi initial: 15; Observation: Nouvel envoi à 15 minutes.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-006",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 6
+   },
+   "locator_text": "строка 6",
+   "segment_sha": "96793fcaa2b3",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "calendrier",
+     "header_ru": "Вид",
+     "value_ru": "расписание"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Tentative 5",
+     "header_ru": "Этап или доставка",
+     "value_ru": "Попытка 5"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "60",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "60"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Nouvel envoi à 60 minutes.",
+     "header_ru": "Наблюдение",
+     "value_ru": "Повторная отправка на 60-й минуте."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: расписание; Этап или доставка: Попытка 5; Минут с первоначальной отправки: 60; Наблюдение: Повторная отправка на 60-й минуте.",
+   "text_orig": "Nature: calendrier; Étape ou livraison: Tentative 5; Minutes depuis envoi initial: 60; Observation: Nouvel envoi à 60 minutes.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-007",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 7
+   },
+   "locator_text": "строка 7",
+   "segment_sha": "8dbc9ae52a82",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "calendrier",
+     "header_ru": "Вид",
+     "value_ru": "расписание"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Tentative 6",
+     "header_ru": "Этап или доставка",
+     "value_ru": "Попытка 6"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "240",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "240"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Dernier envoi à 240 minutes.",
+     "header_ru": "Наблюдение",
+     "value_ru": "Последняя отправка на 240-й минуте."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: расписание; Этап или доставка: Попытка 6; Минут с первоначальной отправки: 240; Наблюдение: Последняя отправка на 240-й минуте.",
+   "text_orig": "Nature: calendrier; Étape ou livraison: Tentative 6; Minutes depuis envoi initial: 240; Observation: Dernier envoi à 240 minutes.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-008",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 8
+   },
+   "locator_text": "строка 8",
+   "segment_sha": "0bbc57b83fda",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "consigne",
+     "header_ru": "Вид",
+     "value_ru": "правило"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Échec final",
+     "header_ru": "Этап или доставка",
+     "value_ru": "Окончательная неудача"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Après la sixième tentative en échec, l’événement prend l’état dead_letter.",
+     "header_ru": "Наблюдение",
+     "value_ru": "После шестой неудачной попытки событие переходит в состояние dead_letter."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: правило; Этап или доставка: Окончательная неудача; Наблюдение: После шестой неудачной попытки событие переходит в состояние dead_letter.",
+   "text_orig": "Nature: consigne; Étape ou livraison: Échec final; Observation: Après la sixième tentative en échec, l’événement prend l’état dead_letter.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-009",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 9
+   },
+   "locator_text": "строка 9",
+   "segment_sha": "4262d5653525",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "consigne",
+     "header_ru": "Вид",
+     "value_ru": "правило"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Suspension",
+     "header_ru": "Этап или доставка",
+     "value_ru": "Приостановка"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Trois événements dead_letter en une heure suspendent l’abonnement.",
+     "header_ru": "Наблюдение",
+     "value_ru": "Три события dead_letter в течение одного часа приостанавливают подписку."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: правило; Этап или доставка: Приостановка; Наблюдение: Три события dead_letter в течение одного часа приостанавливают подписку.",
+   "text_orig": "Nature: consigne; Étape ou livraison: Suspension; Observation: Trois événements dead_letter en une heure suspendent l’abonnement.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-010",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 10
+   },
+   "locator_text": "строка 10",
+   "segment_sha": "adf13a9dbf3c",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "consigne",
+     "header_ru": "Вид",
+     "value_ru": "правило"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Reprise",
+     "header_ru": "Этап или доставка",
+     "value_ru": "Возобновление"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Un administrateur réactive l’abonnement après un test HTTP 2xx.",
+     "header_ru": "Наблюдение",
+     "value_ru": "Администратор повторно включает подписку после теста с ответом HTTP 2xx."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: правило; Этап или доставка: Возобновление; Наблюдение: Администратор повторно включает подписку после теста с ответом HTTP 2xx.",
+   "text_orig": "Nature: consigne; Étape ou livraison: Reprise; Observation: Un administrateur réactive l’abonnement après un test HTTP 2xx.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-011",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 11
+   },
+   "locator_text": "строка 11",
+   "segment_sha": "d3a79290bd20",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "consigne",
+     "header_ru": "Вид",
+     "value_ru": "правило"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Identifiant",
+     "header_ru": "Этап или доставка",
+     "value_ru": "Идентификатор"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "L’event ID reste identique pendant toutes les tentatives.",
+     "header_ru": "Наблюдение",
+     "value_ru": "Event ID остаётся одинаковым во всех попытках."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: правило; Этап или доставка: Идентификатор; Наблюдение: Event ID остаётся одинаковым во всех попытках.",
+   "text_orig": "Nature: consigne; Étape ou livraison: Identifiant; Observation: L’event ID reste identique pendant toutes les tentatives.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-012",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 12
+   },
+   "locator_text": "строка 12",
+   "segment_sha": "ac8a0439ea09",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "consigne",
+     "header_ru": "Вид",
+     "value_ru": "правило"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "Délai réseau",
+     "header_ru": "Этап или доставка",
+     "value_ru": "Сетевой таймаут"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Chaque tentative a un délai de réponse maximal de 10 secondes.",
+     "header_ru": "Наблюдение",
+     "value_ru": "Для каждой попытки максимальное время ожидания ответа — 10 секунд."
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: правило; Этап или доставка: Сетевой таймаут; Наблюдение: Для каждой попытки максимальное время ожидания ответа — 10 секунд.",
+   "text_orig": "Nature: consigne; Étape ou livraison: Délai réseau; Observation: Chaque tentative a un délai de réponse maximal de 10 secondes.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-013",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 13
+   },
+   "locator_text": "строка 13",
+   "segment_sha": "0953e8131aaf",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-31",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-31"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "0",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "0"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "cartes.cree",
+     "header_ru": "Событие",
+     "value_ru": "cartes.cree"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "503",
+     "header_ru": "HTTP",
+     "value_ru": "503"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "нижестоящий сервис недоступен; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-31; Минут с первоначальной отправки: 0; Событие: cartes.cree; HTTP: 503; Наблюдение: нижестоящий сервис недоступен; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-31; Minutes depuis envoi initial: 0; Événement: cartes.cree; HTTP: 503; Observation: service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-014",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 14
+   },
+   "locator_text": "строка 14",
+   "segment_sha": "9118fb67b76f",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-32",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-32"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "1",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "1"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "commentaire.ajoute",
+     "header_ru": "Событие",
+     "value_ru": "commentaire.ajoute"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "429",
+     "header_ru": "HTTP",
+     "value_ru": "429"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "получен Retry-After; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-32; Минут с первоначальной отправки: 1; Событие: commentaire.ajoute; HTTP: 429; Наблюдение: получен Retry-After; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-32; Minutes depuis envoi initial: 1; Événement: commentaire.ajoute; HTTP: 429; Observation: Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-015",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 15
+   },
+   "locator_text": "строка 15",
+   "segment_sha": "748734235d18",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-33",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-33"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "5",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "5"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "carte.modifie",
+     "header_ru": "Событие",
+     "value_ru": "carte.modifie"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "200",
+     "header_ru": "HTTP",
+     "value_ru": "200"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "подтверждение получения; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-33; Минут с первоначальной отправки: 5; Событие: carte.modifie; HTTP: 200; Наблюдение: подтверждение получения; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-33; Minutes depuis envoi initial: 5; Événement: carte.modifie; HTTP: 200; Observation: accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-016",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 16
+   },
+   "locator_text": "строка 16",
+   "segment_sha": "206a26537259",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-34",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-34"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "15",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "15"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "fichier.disponible",
+     "header_ru": "Событие",
+     "value_ru": "fichier.disponible"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "504",
+     "header_ru": "HTTP",
+     "value_ru": "504"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "превышен сетевой таймаут; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-34; Минут с первоначальной отправки: 15; Событие: fichier.disponible; HTTP: 504; Наблюдение: превышен сетевой таймаут; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-34; Minutes depuis envoi initial: 15; Événement: fichier.disponible; HTTP: 504; Observation: délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-017",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 17
+   },
+   "locator_text": "строка 17",
+   "segment_sha": "b12a782f53e2",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-35",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-35"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "60",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "60"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "membre.invite",
+     "header_ru": "Событие",
+     "value_ru": "membre.invite"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "202",
+     "header_ru": "HTTP",
+     "value_ru": "202"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "обработка принята; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-35; Минут с первоначальной отправки: 60; Событие: membre.invite; HTTP: 202; Наблюдение: обработка принята; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-35; Minutes depuis envoi initial: 60; Événement: membre.invite; HTTP: 202; Observation: traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-018",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 18
+   },
+   "locator_text": "строка 18",
+   "segment_sha": "2a28f05bb388",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-36",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-36"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "240",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "240"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "carte.archive",
+     "header_ru": "Событие",
+     "value_ru": "carte.archive"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "500",
+     "header_ru": "HTTP",
+     "value_ru": "500"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "ошибка получателя; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-36; Минут с первоначальной отправки: 240; Событие: carte.archive; HTTP: 500; Наблюдение: ошибка получателя; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-36; Minutes depuis envoi initial: 240; Événement: carte.archive; HTTP: 500; Observation: erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-019",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 19
+   },
+   "locator_text": "строка 19",
+   "segment_sha": "3e939a40d37c",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-37",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-37"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "0",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "0"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "cartes.cree",
+     "header_ru": "Событие",
+     "value_ru": "cartes.cree"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "503",
+     "header_ru": "HTTP",
+     "value_ru": "503"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "нижестоящий сервис недоступен; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-37; Минут с первоначальной отправки: 0; Событие: cartes.cree; HTTP: 503; Наблюдение: нижестоящий сервис недоступен; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-37; Minutes depuis envoi initial: 0; Événement: cartes.cree; HTTP: 503; Observation: service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-020",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 20
+   },
+   "locator_text": "строка 20",
+   "segment_sha": "d7f122c6b066",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-38",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-38"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "1",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "1"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "commentaire.ajoute",
+     "header_ru": "Событие",
+     "value_ru": "commentaire.ajoute"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "429",
+     "header_ru": "HTTP",
+     "value_ru": "429"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "получен Retry-After; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-38; Минут с первоначальной отправки: 1; Событие: commentaire.ajoute; HTTP: 429; Наблюдение: получен Retry-After; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-38; Minutes depuis envoi initial: 1; Événement: commentaire.ajoute; HTTP: 429; Observation: Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-021",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 21
+   },
+   "locator_text": "строка 21",
+   "segment_sha": "800a7b0378cf",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-39",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-39"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "5",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "5"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "carte.modifie",
+     "header_ru": "Событие",
+     "value_ru": "carte.modifie"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "200",
+     "header_ru": "HTTP",
+     "value_ru": "200"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "подтверждение получения; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-39; Минут с первоначальной отправки: 5; Событие: carte.modifie; HTTP: 200; Наблюдение: подтверждение получения; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-39; Minutes depuis envoi initial: 5; Événement: carte.modifie; HTTP: 200; Observation: accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-022",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 22
+   },
+   "locator_text": "строка 22",
+   "segment_sha": "08a4efc4a5a3",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-40",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-40"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "15",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "15"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "fichier.disponible",
+     "header_ru": "Событие",
+     "value_ru": "fichier.disponible"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "504",
+     "header_ru": "HTTP",
+     "value_ru": "504"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "превышен сетевой таймаут; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-40; Минут с первоначальной отправки: 15; Событие: fichier.disponible; HTTP: 504; Наблюдение: превышен сетевой таймаут; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-40; Minutes depuis envoi initial: 15; Événement: fichier.disponible; HTTP: 504; Observation: délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-023",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 23
+   },
+   "locator_text": "строка 23",
+   "segment_sha": "28840ba7b905",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-41",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-41"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "60",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "60"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "membre.invite",
+     "header_ru": "Событие",
+     "value_ru": "membre.invite"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "202",
+     "header_ru": "HTTP",
+     "value_ru": "202"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "обработка принята; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-41; Минут с первоначальной отправки: 60; Событие: membre.invite; HTTP: 202; Наблюдение: обработка принята; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-41; Minutes depuis envoi initial: 60; Événement: membre.invite; HTTP: 202; Observation: traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-024",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 24
+   },
+   "locator_text": "строка 24",
+   "segment_sha": "5c7852e373ee",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-42",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-42"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "240",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "240"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "carte.archive",
+     "header_ru": "Событие",
+     "value_ru": "carte.archive"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "500",
+     "header_ru": "HTTP",
+     "value_ru": "500"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "ошибка получателя; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-42; Минут с первоначальной отправки: 240; Событие: carte.archive; HTTP: 500; Наблюдение: ошибка получателя; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-42; Minutes depuis envoi initial: 240; Événement: carte.archive; HTTP: 500; Observation: erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-025",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 25
+   },
+   "locator_text": "строка 25",
+   "segment_sha": "94ede5f23864",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-43",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-43"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "0",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "0"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "cartes.cree",
+     "header_ru": "Событие",
+     "value_ru": "cartes.cree"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "503",
+     "header_ru": "HTTP",
+     "value_ru": "503"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "нижестоящий сервис недоступен; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-43; Минут с первоначальной отправки: 0; Событие: cartes.cree; HTTP: 503; Наблюдение: нижестоящий сервис недоступен; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-43; Minutes depuis envoi initial: 0; Événement: cartes.cree; HTTP: 503; Observation: service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-026",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 26
+   },
+   "locator_text": "строка 26",
+   "segment_sha": "d60be814f991",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-44",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-44"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "1",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "1"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "commentaire.ajoute",
+     "header_ru": "Событие",
+     "value_ru": "commentaire.ajoute"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "429",
+     "header_ru": "HTTP",
+     "value_ru": "429"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "получен Retry-After; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-44; Минут с первоначальной отправки: 1; Событие: commentaire.ajoute; HTTP: 429; Наблюдение: получен Retry-After; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-44; Minutes depuis envoi initial: 1; Événement: commentaire.ajoute; HTTP: 429; Observation: Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-027",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 27
+   },
+   "locator_text": "строка 27",
+   "segment_sha": "5f059e2ff8a3",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-45",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-45"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "5",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "5"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "carte.modifie",
+     "header_ru": "Событие",
+     "value_ru": "carte.modifie"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "200",
+     "header_ru": "HTTP",
+     "value_ru": "200"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "подтверждение получения; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-45; Минут с первоначальной отправки: 5; Событие: carte.modifie; HTTP: 200; Наблюдение: подтверждение получения; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-45; Minutes depuis envoi initial: 5; Événement: carte.modifie; HTTP: 200; Observation: accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-028",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 28
+   },
+   "locator_text": "строка 28",
+   "segment_sha": "683b857921e2",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-46",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-46"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "15",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "15"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "fichier.disponible",
+     "header_ru": "Событие",
+     "value_ru": "fichier.disponible"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "504",
+     "header_ru": "HTTP",
+     "value_ru": "504"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "превышен сетевой таймаут; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-46; Минут с первоначальной отправки: 15; Событие: fichier.disponible; HTTP: 504; Наблюдение: превышен сетевой таймаут; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-46; Minutes depuis envoi initial: 15; Événement: fichier.disponible; HTTP: 504; Observation: délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-029",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 29
+   },
+   "locator_text": "строка 29",
+   "segment_sha": "900dfd144f4b",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-47",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-47"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "60",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "60"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "membre.invite",
+     "header_ru": "Событие",
+     "value_ru": "membre.invite"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "202",
+     "header_ru": "HTTP",
+     "value_ru": "202"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "обработка принята; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-47; Минут с первоначальной отправки: 60; Событие: membre.invite; HTTP: 202; Наблюдение: обработка принята; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-47; Minutes depuis envoi initial: 60; Événement: membre.invite; HTTP: 202; Observation: traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-030",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 30
+   },
+   "locator_text": "строка 30",
+   "segment_sha": "76eeb3c2b9fa",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-48",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-48"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "240",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "240"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "carte.archive",
+     "header_ru": "Событие",
+     "value_ru": "carte.archive"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "500",
+     "header_ru": "HTTP",
+     "value_ru": "500"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "ошибка получателя; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-48; Минут с первоначальной отправки: 240; Событие: carte.archive; HTTP: 500; Наблюдение: ошибка получателя; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-48; Minutes depuis envoi initial: 240; Événement: carte.archive; HTTP: 500; Observation: erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-031",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 31
+   },
+   "locator_text": "строка 31",
+   "segment_sha": "afd4354e8a1a",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-49",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-49"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "0",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "0"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "cartes.cree",
+     "header_ru": "Событие",
+     "value_ru": "cartes.cree"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "503",
+     "header_ru": "HTTP",
+     "value_ru": "503"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "нижестоящий сервис недоступен; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-49; Минут с первоначальной отправки: 0; Событие: cartes.cree; HTTP: 503; Наблюдение: нижестоящий сервис недоступен; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-49; Minutes depuis envoi initial: 0; Événement: cartes.cree; HTTP: 503; Observation: service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-032",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 32
+   },
+   "locator_text": "строка 32",
+   "segment_sha": "85f0d6dc0899",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-50",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-50"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "1",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "1"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "commentaire.ajoute",
+     "header_ru": "Событие",
+     "value_ru": "commentaire.ajoute"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "429",
+     "header_ru": "HTTP",
+     "value_ru": "429"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "получен Retry-After; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-50; Минут с первоначальной отправки: 1; Событие: commentaire.ajoute; HTTP: 429; Наблюдение: получен Retry-After; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-50; Minutes depuis envoi initial: 1; Événement: commentaire.ajoute; HTTP: 429; Observation: Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-033",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 33
+   },
+   "locator_text": "строка 33",
+   "segment_sha": "3999be382099",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-51",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-51"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "5",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "5"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "carte.modifie",
+     "header_ru": "Событие",
+     "value_ru": "carte.modifie"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "200",
+     "header_ru": "HTTP",
+     "value_ru": "200"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "подтверждение получения; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-51; Минут с первоначальной отправки: 5; Событие: carte.modifie; HTTP: 200; Наблюдение: подтверждение получения; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-51; Minutes depuis envoi initial: 5; Événement: carte.modifie; HTTP: 200; Observation: accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-034",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 34
+   },
+   "locator_text": "строка 34",
+   "segment_sha": "2534d5eba60f",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-52",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-52"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "15",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "15"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "fichier.disponible",
+     "header_ru": "Событие",
+     "value_ru": "fichier.disponible"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "504",
+     "header_ru": "HTTP",
+     "value_ru": "504"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "превышен сетевой таймаут; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-52; Минут с первоначальной отправки: 15; Событие: fichier.disponible; HTTP: 504; Наблюдение: превышен сетевой таймаут; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-52; Minutes depuis envoi initial: 15; Événement: fichier.disponible; HTTP: 504; Observation: délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-035",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 35
+   },
+   "locator_text": "строка 35",
+   "segment_sha": "ea1b476df473",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-53",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-53"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "60",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "60"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "membre.invite",
+     "header_ru": "Событие",
+     "value_ru": "membre.invite"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "202",
+     "header_ru": "HTTP",
+     "value_ru": "202"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "обработка принята; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-53; Минут с первоначальной отправки: 60; Событие: membre.invite; HTTP: 202; Наблюдение: обработка принята; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-53; Minutes depuis envoi initial: 60; Événement: membre.invite; HTTP: 202; Observation: traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "06-036",
+   "doc_no": 6,
+   "doc_id": "webhook-retries",
+   "doc_version": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+   "source_lang": "fr",
+   "format": "csv",
+   "kind": "record",
+   "locator": {
+    "csv_row": 36
+   },
+   "locator_text": "строка 36",
+   "segment_sha": "4ffe58fb978f",
+   "cells": [
+    {
+     "col": 1,
+     "header": "Nature",
+     "value": "journal du test du 8 septembre",
+     "header_ru": "Вид",
+     "value_ru": "журнал теста от 8 сентября"
+    },
+    {
+     "col": 2,
+     "header": "Étape ou livraison",
+     "value": "livraison-54",
+     "header_ru": "Этап или доставка",
+     "value_ru": "livraison-54"
+    },
+    {
+     "col": 3,
+     "header": "Minutes depuis envoi initial",
+     "value": "240",
+     "header_ru": "Минут с первоначальной отправки",
+     "value_ru": "240"
+    },
+    {
+     "col": 4,
+     "header": "Événement",
+     "value": "carte.archive",
+     "header_ru": "Событие",
+     "value_ru": "carte.archive"
+    },
+    {
+     "col": 5,
+     "header": "HTTP",
+     "value": "500",
+     "header_ru": "HTTP",
+     "value_ru": "500"
+    },
+    {
+     "col": 6,
+     "header": "Observation",
+     "value": "erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+     "header_ru": "Наблюдение",
+     "value_ru": "ошибка получателя; время отсчитывается от первой отправки того же события"
+    }
+   ],
+   "context": {
+    "sheet": null,
+    "sheet_ru": null,
+    "title": null,
+    "title_ru": null,
+    "title_range": null,
+    "notes": [],
+    "header_range": null,
+    "header_ru": [
+     "Вид",
+     "Этап или доставка",
+     "Минут с первоначальной отправки",
+     "Событие",
+     "HTTP",
+     "Наблюдение"
+    ]
+   },
+   "section": null,
+   "section_ru": null,
+   "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-54; Минут с первоначальной отправки: 240; Событие: carte.archive; HTTP: 500; Наблюдение: ошибка получателя; время отсчитывается от первой отправки того же события",
+   "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-54; Minutes depuis envoi initial: 240; Événement: carte.archive; HTTP: 500; Observation: erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "unconfirmed_origin",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+  }
+ ],
+ "_base": {
+  "no": 6,
+  "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+  "doc_id": "webhook-retries",
+  "title": "",
+  "title_ru": null,
+  "lang": "fr",
+  "format": "csv",
+  "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+  "decision": {
+   "no": 6,
+   "path": "documents/Выгрузки/webhooks-reprises.csv",
+   "doc_id": "webhook-retries",
+   "title": "",
+   "lang": "fr",
+   "owner": "",
+   "version": "",
+   "updated": "",
+   "doc_type": "register",
+   "status": "include",
+   "rule": "R5",
+   "reason": "Владелец не указан; журнал теста «8 septembre» без года; единственный источник о повторах вебхуков; не противоречит №04 и №15.",
+   "access": "all",
+   "trust": "unconfirmed_origin",
+   "related": [
+    23,
+    4,
+    15
+   ]
+  },
+  "fragments": [
+   {
+    "fragment_id": "06-001",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "table_header",
+    "locator": {
+     "csv_row": 1
+    },
+    "locator_text": "строка 1",
+    "segment_sha": "559bb1f97d99",
+    "cells": [
+     {
+      "col": 1,
+      "value": "Nature",
+      "value_ru": "Вид"
+     },
+     {
+      "col": 2,
+      "value": "Étape ou livraison",
+      "value_ru": "Этап или доставка"
+     },
+     {
+      "col": 3,
+      "value": "Minutes depuis envoi initial",
+      "value_ru": "Минут с первоначальной отправки"
+     },
+     {
+      "col": 4,
+      "value": "Événement",
+      "value_ru": "Событие"
+     },
+     {
+      "col": 5,
+      "value": "HTTP",
+      "value_ru": "HTTP"
+     },
+     {
+      "col": 6,
+      "value": "Observation",
+      "value_ru": "Наблюдение"
+     }
+    ],
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид | Этап или доставка | Минут с первоначальной отправки | Событие | HTTP | Наблюдение",
+    "text_orig": "Nature | Étape ou livraison | Minutes depuis envoi initial | Événement | HTTP | Observation",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-002",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 2
+    },
+    "locator_text": "строка 2",
+    "segment_sha": "7afcf92a7520",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "calendrier",
+      "header_ru": "Вид",
+      "value_ru": "расписание"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "Tentative 1",
+      "header_ru": "Этап или доставка",
+      "value_ru": "Попытка 1"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "0",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "0"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "Envoi initial à 0 minute.",
+      "header_ru": "Наблюдение",
+      "value_ru": "Первоначальная отправка на 0-й минуте."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: расписание; Этап или доставка: Попытка 1; Минут с первоначальной отправки: 0; Наблюдение: Первоначальная отправка на 0-й минуте.",
+    "text_orig": "Nature: calendrier; Étape ou livraison: Tentative 1; Minutes depuis envoi initial: 0; Observation: Envoi initial à 0 minute.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-003",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 3
+    },
+    "locator_text": "строка 3",
+    "segment_sha": "f61e662cd1f4",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "calendrier",
+      "header_ru": "Вид",
+      "value_ru": "расписание"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "Tentative 2",
+      "header_ru": "Этап или доставка",
+      "value_ru": "Попытка 2"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "1",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "1"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "Nouvel envoi à 1 minute.",
+      "header_ru": "Наблюдение",
+      "value_ru": "Повторная отправка на 1-й минуте."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: расписание; Этап или доставка: Попытка 2; Минут с первоначальной отправки: 1; Наблюдение: Повторная отправка на 1-й минуте.",
+    "text_orig": "Nature: calendrier; Étape ou livraison: Tentative 2; Minutes depuis envoi initial: 1; Observation: Nouvel envoi à 1 minute.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-004",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 4
+    },
+    "locator_text": "строка 4",
+    "segment_sha": "504ec5d0bde5",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "calendrier",
+      "header_ru": "Вид",
+      "value_ru": "расписание"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "Tentative 3",
+      "header_ru": "Этап или доставка",
+      "value_ru": "Попытка 3"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "5",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "5"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "Nouvel envoi à 5 minutes.",
+      "header_ru": "Наблюдение",
+      "value_ru": "Повторная отправка на 5-й минуте."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: расписание; Этап или доставка: Попытка 3; Минут с первоначальной отправки: 5; Наблюдение: Повторная отправка на 5-й минуте.",
+    "text_orig": "Nature: calendrier; Étape ou livraison: Tentative 3; Minutes depuis envoi initial: 5; Observation: Nouvel envoi à 5 minutes.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-005",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 5
+    },
+    "locator_text": "строка 5",
+    "segment_sha": "e56ca58b8060",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "calendrier",
+      "header_ru": "Вид",
+      "value_ru": "расписание"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "Tentative 4",
+      "header_ru": "Этап или доставка",
+      "value_ru": "Попытка 4"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "15",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "15"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "Nouvel envoi à 15 minutes.",
+      "header_ru": "Наблюдение",
+      "value_ru": "Повторная отправка на 15-й минуте."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: расписание; Этап или доставка: Попытка 4; Минут с первоначальной отправки: 15; Наблюдение: Повторная отправка на 15-й минуте.",
+    "text_orig": "Nature: calendrier; Étape ou livraison: Tentative 4; Minutes depuis envoi initial: 15; Observation: Nouvel envoi à 15 minutes.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-006",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 6
+    },
+    "locator_text": "строка 6",
+    "segment_sha": "96793fcaa2b3",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "calendrier",
+      "header_ru": "Вид",
+      "value_ru": "расписание"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "Tentative 5",
+      "header_ru": "Этап или доставка",
+      "value_ru": "Попытка 5"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "60",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "60"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "Nouvel envoi à 60 minutes.",
+      "header_ru": "Наблюдение",
+      "value_ru": "Повторная отправка на 60-й минуте."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: расписание; Этап или доставка: Попытка 5; Минут с первоначальной отправки: 60; Наблюдение: Повторная отправка на 60-й минуте.",
+    "text_orig": "Nature: calendrier; Étape ou livraison: Tentative 5; Minutes depuis envoi initial: 60; Observation: Nouvel envoi à 60 minutes.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-007",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 7
+    },
+    "locator_text": "строка 7",
+    "segment_sha": "8dbc9ae52a82",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "calendrier",
+      "header_ru": "Вид",
+      "value_ru": "расписание"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "Tentative 6",
+      "header_ru": "Этап или доставка",
+      "value_ru": "Попытка 6"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "240",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "240"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "Dernier envoi à 240 minutes.",
+      "header_ru": "Наблюдение",
+      "value_ru": "Последняя отправка на 240-й минуте."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: расписание; Этап или доставка: Попытка 6; Минут с первоначальной отправки: 240; Наблюдение: Последняя отправка на 240-й минуте.",
+    "text_orig": "Nature: calendrier; Étape ou livraison: Tentative 6; Minutes depuis envoi initial: 240; Observation: Dernier envoi à 240 minutes.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-008",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 8
+    },
+    "locator_text": "строка 8",
+    "segment_sha": "0bbc57b83fda",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "consigne",
+      "header_ru": "Вид",
+      "value_ru": "правило"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "Échec final",
+      "header_ru": "Этап или доставка",
+      "value_ru": "Окончательная неудача"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "Après la sixième tentative en échec, l’événement prend l’état dead_letter.",
+      "header_ru": "Наблюдение",
+      "value_ru": "После шестой неудачной попытки событие переходит в состояние dead_letter."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: правило; Этап или доставка: Окончательная неудача; Наблюдение: После шестой неудачной попытки событие переходит в состояние dead_letter.",
+    "text_orig": "Nature: consigne; Étape ou livraison: Échec final; Observation: Après la sixième tentative en échec, l’événement prend l’état dead_letter.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-009",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 9
+    },
+    "locator_text": "строка 9",
+    "segment_sha": "4262d5653525",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "consigne",
+      "header_ru": "Вид",
+      "value_ru": "правило"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "Suspension",
+      "header_ru": "Этап или доставка",
+      "value_ru": "Приостановка"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "Trois événements dead_letter en une heure suspendent l’abonnement.",
+      "header_ru": "Наблюдение",
+      "value_ru": "Три события dead_letter в течение одного часа приостанавливают подписку."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: правило; Этап или доставка: Приостановка; Наблюдение: Три события dead_letter в течение одного часа приостанавливают подписку.",
+    "text_orig": "Nature: consigne; Étape ou livraison: Suspension; Observation: Trois événements dead_letter en une heure suspendent l’abonnement.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-010",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 10
+    },
+    "locator_text": "строка 10",
+    "segment_sha": "adf13a9dbf3c",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "consigne",
+      "header_ru": "Вид",
+      "value_ru": "правило"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "Reprise",
+      "header_ru": "Этап или доставка",
+      "value_ru": "Возобновление"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "Un administrateur réactive l’abonnement après un test HTTP 2xx.",
+      "header_ru": "Наблюдение",
+      "value_ru": "Администратор повторно включает подписку после теста с ответом HTTP 2xx."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: правило; Этап или доставка: Возобновление; Наблюдение: Администратор повторно включает подписку после теста с ответом HTTP 2xx.",
+    "text_orig": "Nature: consigne; Étape ou livraison: Reprise; Observation: Un administrateur réactive l’abonnement après un test HTTP 2xx.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-011",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 11
+    },
+    "locator_text": "строка 11",
+    "segment_sha": "d3a79290bd20",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "consigne",
+      "header_ru": "Вид",
+      "value_ru": "правило"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "Identifiant",
+      "header_ru": "Этап или доставка",
+      "value_ru": "Идентификатор"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "L’event ID reste identique pendant toutes les tentatives.",
+      "header_ru": "Наблюдение",
+      "value_ru": "Event ID остаётся одинаковым во всех попытках."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: правило; Этап или доставка: Идентификатор; Наблюдение: Event ID остаётся одинаковым во всех попытках.",
+    "text_orig": "Nature: consigne; Étape ou livraison: Identifiant; Observation: L’event ID reste identique pendant toutes les tentatives.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-012",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 12
+    },
+    "locator_text": "строка 12",
+    "segment_sha": "ac8a0439ea09",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "consigne",
+      "header_ru": "Вид",
+      "value_ru": "правило"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "Délai réseau",
+      "header_ru": "Этап или доставка",
+      "value_ru": "Сетевой таймаут"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "Chaque tentative a un délai de réponse maximal de 10 secondes.",
+      "header_ru": "Наблюдение",
+      "value_ru": "Для каждой попытки максимальное время ожидания ответа — 10 секунд."
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: правило; Этап или доставка: Сетевой таймаут; Наблюдение: Для каждой попытки максимальное время ожидания ответа — 10 секунд.",
+    "text_orig": "Nature: consigne; Étape ou livraison: Délai réseau; Observation: Chaque tentative a un délai de réponse maximal de 10 secondes.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-013",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 13
+    },
+    "locator_text": "строка 13",
+    "segment_sha": "0953e8131aaf",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-31",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-31"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "0",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "0"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "cartes.cree",
+      "header_ru": "Событие",
+      "value_ru": "cartes.cree"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "503",
+      "header_ru": "HTTP",
+      "value_ru": "503"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "нижестоящий сервис недоступен; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-31; Минут с первоначальной отправки: 0; Событие: cartes.cree; HTTP: 503; Наблюдение: нижестоящий сервис недоступен; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-31; Minutes depuis envoi initial: 0; Événement: cartes.cree; HTTP: 503; Observation: service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-014",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 14
+    },
+    "locator_text": "строка 14",
+    "segment_sha": "9118fb67b76f",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-32",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-32"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "1",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "1"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "commentaire.ajoute",
+      "header_ru": "Событие",
+      "value_ru": "commentaire.ajoute"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "429",
+      "header_ru": "HTTP",
+      "value_ru": "429"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "получен Retry-After; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-32; Минут с первоначальной отправки: 1; Событие: commentaire.ajoute; HTTP: 429; Наблюдение: получен Retry-After; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-32; Minutes depuis envoi initial: 1; Événement: commentaire.ajoute; HTTP: 429; Observation: Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-015",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 15
+    },
+    "locator_text": "строка 15",
+    "segment_sha": "748734235d18",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-33",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-33"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "5",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "5"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "carte.modifie",
+      "header_ru": "Событие",
+      "value_ru": "carte.modifie"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "200",
+      "header_ru": "HTTP",
+      "value_ru": "200"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "подтверждение получения; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-33; Минут с первоначальной отправки: 5; Событие: carte.modifie; HTTP: 200; Наблюдение: подтверждение получения; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-33; Minutes depuis envoi initial: 5; Événement: carte.modifie; HTTP: 200; Observation: accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-016",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 16
+    },
+    "locator_text": "строка 16",
+    "segment_sha": "206a26537259",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-34",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-34"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "15",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "15"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "fichier.disponible",
+      "header_ru": "Событие",
+      "value_ru": "fichier.disponible"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "504",
+      "header_ru": "HTTP",
+      "value_ru": "504"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "превышен сетевой таймаут; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-34; Минут с первоначальной отправки: 15; Событие: fichier.disponible; HTTP: 504; Наблюдение: превышен сетевой таймаут; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-34; Minutes depuis envoi initial: 15; Événement: fichier.disponible; HTTP: 504; Observation: délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-017",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 17
+    },
+    "locator_text": "строка 17",
+    "segment_sha": "b12a782f53e2",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-35",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-35"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "60",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "60"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "membre.invite",
+      "header_ru": "Событие",
+      "value_ru": "membre.invite"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "202",
+      "header_ru": "HTTP",
+      "value_ru": "202"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "обработка принята; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-35; Минут с первоначальной отправки: 60; Событие: membre.invite; HTTP: 202; Наблюдение: обработка принята; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-35; Minutes depuis envoi initial: 60; Événement: membre.invite; HTTP: 202; Observation: traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-018",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 18
+    },
+    "locator_text": "строка 18",
+    "segment_sha": "2a28f05bb388",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-36",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-36"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "240",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "240"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "carte.archive",
+      "header_ru": "Событие",
+      "value_ru": "carte.archive"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "500",
+      "header_ru": "HTTP",
+      "value_ru": "500"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "ошибка получателя; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-36; Минут с первоначальной отправки: 240; Событие: carte.archive; HTTP: 500; Наблюдение: ошибка получателя; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-36; Minutes depuis envoi initial: 240; Événement: carte.archive; HTTP: 500; Observation: erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-019",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 19
+    },
+    "locator_text": "строка 19",
+    "segment_sha": "3e939a40d37c",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-37",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-37"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "0",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "0"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "cartes.cree",
+      "header_ru": "Событие",
+      "value_ru": "cartes.cree"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "503",
+      "header_ru": "HTTP",
+      "value_ru": "503"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "нижестоящий сервис недоступен; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-37; Минут с первоначальной отправки: 0; Событие: cartes.cree; HTTP: 503; Наблюдение: нижестоящий сервис недоступен; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-37; Minutes depuis envoi initial: 0; Événement: cartes.cree; HTTP: 503; Observation: service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-020",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 20
+    },
+    "locator_text": "строка 20",
+    "segment_sha": "d7f122c6b066",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-38",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-38"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "1",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "1"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "commentaire.ajoute",
+      "header_ru": "Событие",
+      "value_ru": "commentaire.ajoute"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "429",
+      "header_ru": "HTTP",
+      "value_ru": "429"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "получен Retry-After; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-38; Минут с первоначальной отправки: 1; Событие: commentaire.ajoute; HTTP: 429; Наблюдение: получен Retry-After; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-38; Minutes depuis envoi initial: 1; Événement: commentaire.ajoute; HTTP: 429; Observation: Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-021",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 21
+    },
+    "locator_text": "строка 21",
+    "segment_sha": "800a7b0378cf",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-39",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-39"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "5",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "5"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "carte.modifie",
+      "header_ru": "Событие",
+      "value_ru": "carte.modifie"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "200",
+      "header_ru": "HTTP",
+      "value_ru": "200"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "подтверждение получения; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-39; Минут с первоначальной отправки: 5; Событие: carte.modifie; HTTP: 200; Наблюдение: подтверждение получения; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-39; Minutes depuis envoi initial: 5; Événement: carte.modifie; HTTP: 200; Observation: accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-022",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 22
+    },
+    "locator_text": "строка 22",
+    "segment_sha": "08a4efc4a5a3",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-40",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-40"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "15",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "15"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "fichier.disponible",
+      "header_ru": "Событие",
+      "value_ru": "fichier.disponible"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "504",
+      "header_ru": "HTTP",
+      "value_ru": "504"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "превышен сетевой таймаут; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-40; Минут с первоначальной отправки: 15; Событие: fichier.disponible; HTTP: 504; Наблюдение: превышен сетевой таймаут; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-40; Minutes depuis envoi initial: 15; Événement: fichier.disponible; HTTP: 504; Observation: délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-023",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 23
+    },
+    "locator_text": "строка 23",
+    "segment_sha": "28840ba7b905",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-41",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-41"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "60",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "60"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "membre.invite",
+      "header_ru": "Событие",
+      "value_ru": "membre.invite"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "202",
+      "header_ru": "HTTP",
+      "value_ru": "202"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "обработка принята; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-41; Минут с первоначальной отправки: 60; Событие: membre.invite; HTTP: 202; Наблюдение: обработка принята; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-41; Minutes depuis envoi initial: 60; Événement: membre.invite; HTTP: 202; Observation: traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-024",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 24
+    },
+    "locator_text": "строка 24",
+    "segment_sha": "5c7852e373ee",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-42",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-42"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "240",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "240"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "carte.archive",
+      "header_ru": "Событие",
+      "value_ru": "carte.archive"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "500",
+      "header_ru": "HTTP",
+      "value_ru": "500"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "ошибка получателя; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-42; Минут с первоначальной отправки: 240; Событие: carte.archive; HTTP: 500; Наблюдение: ошибка получателя; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-42; Minutes depuis envoi initial: 240; Événement: carte.archive; HTTP: 500; Observation: erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-025",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 25
+    },
+    "locator_text": "строка 25",
+    "segment_sha": "94ede5f23864",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-43",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-43"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "0",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "0"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "cartes.cree",
+      "header_ru": "Событие",
+      "value_ru": "cartes.cree"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "503",
+      "header_ru": "HTTP",
+      "value_ru": "503"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "нижестоящий сервис недоступен; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-43; Минут с первоначальной отправки: 0; Событие: cartes.cree; HTTP: 503; Наблюдение: нижестоящий сервис недоступен; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-43; Minutes depuis envoi initial: 0; Événement: cartes.cree; HTTP: 503; Observation: service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-026",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 26
+    },
+    "locator_text": "строка 26",
+    "segment_sha": "d60be814f991",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-44",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-44"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "1",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "1"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "commentaire.ajoute",
+      "header_ru": "Событие",
+      "value_ru": "commentaire.ajoute"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "429",
+      "header_ru": "HTTP",
+      "value_ru": "429"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "получен Retry-After; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-44; Минут с первоначальной отправки: 1; Событие: commentaire.ajoute; HTTP: 429; Наблюдение: получен Retry-After; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-44; Minutes depuis envoi initial: 1; Événement: commentaire.ajoute; HTTP: 429; Observation: Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-027",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 27
+    },
+    "locator_text": "строка 27",
+    "segment_sha": "5f059e2ff8a3",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-45",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-45"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "5",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "5"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "carte.modifie",
+      "header_ru": "Событие",
+      "value_ru": "carte.modifie"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "200",
+      "header_ru": "HTTP",
+      "value_ru": "200"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "подтверждение получения; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-45; Минут с первоначальной отправки: 5; Событие: carte.modifie; HTTP: 200; Наблюдение: подтверждение получения; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-45; Minutes depuis envoi initial: 5; Événement: carte.modifie; HTTP: 200; Observation: accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-028",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 28
+    },
+    "locator_text": "строка 28",
+    "segment_sha": "683b857921e2",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-46",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-46"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "15",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "15"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "fichier.disponible",
+      "header_ru": "Событие",
+      "value_ru": "fichier.disponible"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "504",
+      "header_ru": "HTTP",
+      "value_ru": "504"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "превышен сетевой таймаут; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-46; Минут с первоначальной отправки: 15; Событие: fichier.disponible; HTTP: 504; Наблюдение: превышен сетевой таймаут; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-46; Minutes depuis envoi initial: 15; Événement: fichier.disponible; HTTP: 504; Observation: délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-029",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 29
+    },
+    "locator_text": "строка 29",
+    "segment_sha": "900dfd144f4b",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-47",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-47"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "60",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "60"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "membre.invite",
+      "header_ru": "Событие",
+      "value_ru": "membre.invite"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "202",
+      "header_ru": "HTTP",
+      "value_ru": "202"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "обработка принята; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-47; Минут с первоначальной отправки: 60; Событие: membre.invite; HTTP: 202; Наблюдение: обработка принята; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-47; Minutes depuis envoi initial: 60; Événement: membre.invite; HTTP: 202; Observation: traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-030",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 30
+    },
+    "locator_text": "строка 30",
+    "segment_sha": "76eeb3c2b9fa",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-48",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-48"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "240",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "240"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "carte.archive",
+      "header_ru": "Событие",
+      "value_ru": "carte.archive"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "500",
+      "header_ru": "HTTP",
+      "value_ru": "500"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "ошибка получателя; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-48; Минут с первоначальной отправки: 240; Событие: carte.archive; HTTP: 500; Наблюдение: ошибка получателя; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-48; Minutes depuis envoi initial: 240; Événement: carte.archive; HTTP: 500; Observation: erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-031",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 31
+    },
+    "locator_text": "строка 31",
+    "segment_sha": "afd4354e8a1a",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-49",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-49"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "0",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "0"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "cartes.cree",
+      "header_ru": "Событие",
+      "value_ru": "cartes.cree"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "503",
+      "header_ru": "HTTP",
+      "value_ru": "503"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "нижестоящий сервис недоступен; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-49; Минут с первоначальной отправки: 0; Событие: cartes.cree; HTTP: 503; Наблюдение: нижестоящий сервис недоступен; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-49; Minutes depuis envoi initial: 0; Événement: cartes.cree; HTTP: 503; Observation: service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-032",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 32
+    },
+    "locator_text": "строка 32",
+    "segment_sha": "85f0d6dc0899",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-50",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-50"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "1",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "1"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "commentaire.ajoute",
+      "header_ru": "Событие",
+      "value_ru": "commentaire.ajoute"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "429",
+      "header_ru": "HTTP",
+      "value_ru": "429"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "получен Retry-After; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-50; Минут с первоначальной отправки: 1; Событие: commentaire.ajoute; HTTP: 429; Наблюдение: получен Retry-After; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-50; Minutes depuis envoi initial: 1; Événement: commentaire.ajoute; HTTP: 429; Observation: Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-033",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 33
+    },
+    "locator_text": "строка 33",
+    "segment_sha": "3999be382099",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-51",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-51"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "5",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "5"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "carte.modifie",
+      "header_ru": "Событие",
+      "value_ru": "carte.modifie"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "200",
+      "header_ru": "HTTP",
+      "value_ru": "200"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "подтверждение получения; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-51; Минут с первоначальной отправки: 5; Событие: carte.modifie; HTTP: 200; Наблюдение: подтверждение получения; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-51; Minutes depuis envoi initial: 5; Événement: carte.modifie; HTTP: 200; Observation: accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-034",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 34
+    },
+    "locator_text": "строка 34",
+    "segment_sha": "2534d5eba60f",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-52",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-52"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "15",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "15"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "fichier.disponible",
+      "header_ru": "Событие",
+      "value_ru": "fichier.disponible"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "504",
+      "header_ru": "HTTP",
+      "value_ru": "504"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "превышен сетевой таймаут; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-52; Минут с первоначальной отправки: 15; Событие: fichier.disponible; HTTP: 504; Наблюдение: превышен сетевой таймаут; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-52; Minutes depuis envoi initial: 15; Événement: fichier.disponible; HTTP: 504; Observation: délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-035",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 35
+    },
+    "locator_text": "строка 35",
+    "segment_sha": "ea1b476df473",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-53",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-53"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "60",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "60"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "membre.invite",
+      "header_ru": "Событие",
+      "value_ru": "membre.invite"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "202",
+      "header_ru": "HTTP",
+      "value_ru": "202"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "обработка принята; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-53; Минут с первоначальной отправки: 60; Событие: membre.invite; HTTP: 202; Наблюдение: обработка принята; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-53; Minutes depuis envoi initial: 60; Événement: membre.invite; HTTP: 202; Observation: traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "06-036",
+    "doc_no": 6,
+    "doc_id": "webhook-retries",
+    "doc_version": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "source_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "kind": "record",
+    "locator": {
+     "csv_row": 36
+    },
+    "locator_text": "строка 36",
+    "segment_sha": "4ffe58fb978f",
+    "cells": [
+     {
+      "col": 1,
+      "header": "Nature",
+      "value": "journal du test du 8 septembre",
+      "header_ru": "Вид",
+      "value_ru": "журнал теста от 8 сентября"
+     },
+     {
+      "col": 2,
+      "header": "Étape ou livraison",
+      "value": "livraison-54",
+      "header_ru": "Этап или доставка",
+      "value_ru": "livraison-54"
+     },
+     {
+      "col": 3,
+      "header": "Minutes depuis envoi initial",
+      "value": "240",
+      "header_ru": "Минут с первоначальной отправки",
+      "value_ru": "240"
+     },
+     {
+      "col": 4,
+      "header": "Événement",
+      "value": "carte.archive",
+      "header_ru": "Событие",
+      "value_ru": "carte.archive"
+     },
+     {
+      "col": 5,
+      "header": "HTTP",
+      "value": "500",
+      "header_ru": "HTTP",
+      "value_ru": "500"
+     },
+     {
+      "col": 6,
+      "header": "Observation",
+      "value": "erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+      "header_ru": "Наблюдение",
+      "value_ru": "ошибка получателя; время отсчитывается от первой отправки того же события"
+     }
+    ],
+    "context": {
+     "sheet": null,
+     "sheet_ru": null,
+     "title": null,
+     "title_ru": null,
+     "title_range": null,
+     "notes": [],
+     "header_range": null,
+     "header_ru": [
+      "Вид",
+      "Этап или доставка",
+      "Минут с первоначальной отправки",
+      "Событие",
+      "HTTP",
+      "Наблюдение"
+     ]
+    },
+    "section": null,
+    "section_ru": null,
+    "text_ru": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-54; Минут с первоначальной отправки: 240; Событие: carte.archive; HTTP: 500; Наблюдение: ошибка получателя; время отсчитывается от первой отправки того же события",
+    "text_orig": "Nature: journal du test du 8 septembre; Étape ou livraison: livraison-54; Minutes depuis envoi initial: 240; Événement: carte.archive; HTTP: 500; Observation: erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "unconfirmed_origin",
+    "dup_group": null,
+    "conflict_group": null
+   }
+  ]
+ }
+}

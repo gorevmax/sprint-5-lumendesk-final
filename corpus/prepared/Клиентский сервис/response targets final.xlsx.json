@@ -1,0 +1,6098 @@
+{
+ "no": 11,
+ "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+ "doc_id": "response-targets",
+ "title": "First human response",
+ "title_ru": null,
+ "lang": "en",
+ "format": "xlsx",
+ "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+ "decision": {
+  "no": 11,
+  "path": "documents/Клиентский сервис/response targets final.xlsx",
+  "doc_id": "response-targets",
+  "title": "First human response",
+  "lang": "en",
+  "owner": "Support Operations",
+  "version": "2026-09",
+  "updated": "2026-09-16",
+  "doc_type": "rule",
+  "status": "include",
+  "rule": "R1",
+  "reason": "Цели первого ответа Support Operations, сентябрь 2026.",
+  "access": "all",
+  "trust": "confirmed",
+  "related": [
+   16,
+   15,
+   36
+  ]
+ },
+ "fragments": [
+  {
+   "fragment_id": "11-001",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "sheet_title",
+   "locator": {
+    "sheet": "Targets",
+    "range": "A1:D2"
+   },
+   "locator_text": "лист «Targets», объединённые ячейки A1:D2",
+   "segment_sha": "4cde33b09f17",
+   "section": "Targets",
+   "section_ru": "Цели",
+   "text_ru": "Первый ответ человеком",
+   "text_orig": "First human response",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-002",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "sheet_note",
+   "locator": {
+    "sheet": "Targets",
+    "range": "A3:D5"
+   },
+   "locator_text": "лист «Targets», объединённые ячейки A3:D5",
+   "segment_sha": "826b89555c33",
+   "section": "Targets",
+   "section_ru": "Цели",
+   "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+   "text_orig": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-003",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "table_header",
+   "locator": {
+    "sheet": "Targets",
+    "row": 7,
+    "range": "A7:D7"
+   },
+   "locator_text": "лист «Targets», строка 7, ячейки A7:D7",
+   "segment_sha": "2fe20602bc05",
+   "cells": [
+    {
+     "ref": "A7",
+     "value": "Case",
+     "value_ru": "Случай"
+    },
+    {
+     "ref": "B7",
+     "value": "Target",
+     "value_ru": "Цель"
+    },
+    {
+     "ref": "C7",
+     "value": "Unit",
+     "value_ru": "Единица"
+    },
+    {
+     "ref": "D7",
+     "value": "When it applies",
+     "value_ru": "Когда применяется"
+    }
+   ],
+   "section": "Targets",
+   "section_ru": "Цели",
+   "text_ru": "Случай | Цель | Единица | Когда применяется",
+   "text_orig": "Case | Target | Unit | When it applies",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-004",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Targets",
+    "row": 8,
+    "range": "A8:D8"
+   },
+   "locator_text": "лист «Targets», строка 8, ячейки A8:D8",
+   "segment_sha": "ef89ac658c75",
+   "cells": [
+    {
+     "ref": "A8",
+     "header": "Case",
+     "value": "Enterprise P1",
+     "header_ru": "Случай",
+     "value_ru": "Enterprise P1"
+    },
+    {
+     "ref": "B8",
+     "header": "Target",
+     "value": "15",
+     "header_ru": "Цель",
+     "value_ru": "15"
+    },
+    {
+     "ref": "C8",
+     "header": "Unit",
+     "value": "minutes",
+     "header_ru": "Единица",
+     "value_ru": "минуты"
+    },
+    {
+     "ref": "D8",
+     "header": "When it applies",
+     "value": "24 hours every day",
+     "header_ru": "Когда применяется",
+     "value_ru": "24 часа, каждый день"
+    }
+   ],
+   "context": {
+    "sheet": "Targets",
+    "sheet_ru": "Цели",
+    "title": "First human response",
+    "title_ru": "Первый ответ человеком",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+      "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header_ru": [
+     "Случай",
+     "Цель",
+     "Единица",
+     "Когда применяется"
+    ]
+   },
+   "section": "Targets",
+   "section_ru": "Цели",
+   "text_ru": "Случай: Enterprise P1; Цель: 15; Единица: минуты; Когда применяется: 24 часа, каждый день",
+   "text_orig": "Case: Enterprise P1; Target: 15; Unit: minutes; When it applies: 24 hours every day",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-005",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Targets",
+    "row": 9,
+    "range": "A9:D9"
+   },
+   "locator_text": "лист «Targets», строка 9, ячейки A9:D9",
+   "segment_sha": "1c05c929ed72",
+   "cells": [
+    {
+     "ref": "A9",
+     "header": "Case",
+     "value": "Enterprise P2",
+     "header_ru": "Случай",
+     "value_ru": "Enterprise P2"
+    },
+    {
+     "ref": "B9",
+     "header": "Target",
+     "value": "60",
+     "header_ru": "Цель",
+     "value_ru": "60"
+    },
+    {
+     "ref": "C9",
+     "header": "Unit",
+     "value": "minutes",
+     "header_ru": "Единица",
+     "value_ru": "минуты"
+    },
+    {
+     "ref": "D9",
+     "header": "When it applies",
+     "value": "24 hours every day",
+     "header_ru": "Когда применяется",
+     "value_ru": "24 часа, каждый день"
+    }
+   ],
+   "context": {
+    "sheet": "Targets",
+    "sheet_ru": "Цели",
+    "title": "First human response",
+    "title_ru": "Первый ответ человеком",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+      "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header_ru": [
+     "Случай",
+     "Цель",
+     "Единица",
+     "Когда применяется"
+    ]
+   },
+   "section": "Targets",
+   "section_ru": "Цели",
+   "text_ru": "Случай: Enterprise P2; Цель: 60; Единица: минуты; Когда применяется: 24 часа, каждый день",
+   "text_orig": "Case: Enterprise P2; Target: 60; Unit: minutes; When it applies: 24 hours every day",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-006",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Targets",
+    "row": 10,
+    "range": "A10:D10"
+   },
+   "locator_text": "лист «Targets», строка 10, ячейки A10:D10",
+   "segment_sha": "50ce667b6f43",
+   "cells": [
+    {
+     "ref": "A10",
+     "header": "Case",
+     "value": "Team P1",
+     "header_ru": "Случай",
+     "value_ru": "Team P1"
+    },
+    {
+     "ref": "B10",
+     "header": "Target",
+     "value": "60",
+     "header_ru": "Цель",
+     "value_ru": "60"
+    },
+    {
+     "ref": "C10",
+     "header": "Unit",
+     "value": "minutes",
+     "header_ru": "Единица",
+     "value_ru": "минуты"
+    },
+    {
+     "ref": "D10",
+     "header": "When it applies",
+     "value": "Business support hours",
+     "header_ru": "Когда применяется",
+     "value_ru": "Рабочие часы поддержки"
+    }
+   ],
+   "context": {
+    "sheet": "Targets",
+    "sheet_ru": "Цели",
+    "title": "First human response",
+    "title_ru": "Первый ответ человеком",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+      "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header_ru": [
+     "Случай",
+     "Цель",
+     "Единица",
+     "Когда применяется"
+    ]
+   },
+   "section": "Targets",
+   "section_ru": "Цели",
+   "text_ru": "Случай: Team P1; Цель: 60; Единица: минуты; Когда применяется: Рабочие часы поддержки",
+   "text_orig": "Case: Team P1; Target: 60; Unit: minutes; When it applies: Business support hours",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-007",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Targets",
+    "row": 11,
+    "range": "A11:D11"
+   },
+   "locator_text": "лист «Targets», строка 11, ячейки A11:D11",
+   "segment_sha": "b58a15b665fc",
+   "cells": [
+    {
+     "ref": "A11",
+     "header": "Case",
+     "value": "Team P2",
+     "header_ru": "Случай",
+     "value_ru": "Team P2"
+    },
+    {
+     "ref": "B11",
+     "header": "Target",
+     "value": "240",
+     "header_ru": "Цель",
+     "value_ru": "240"
+    },
+    {
+     "ref": "C11",
+     "header": "Unit",
+     "value": "minutes",
+     "header_ru": "Единица",
+     "value_ru": "минуты"
+    },
+    {
+     "ref": "D11",
+     "header": "When it applies",
+     "value": "Business support hours",
+     "header_ru": "Когда применяется",
+     "value_ru": "Рабочие часы поддержки"
+    }
+   ],
+   "context": {
+    "sheet": "Targets",
+    "sheet_ru": "Цели",
+    "title": "First human response",
+    "title_ru": "Первый ответ человеком",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+      "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header_ru": [
+     "Случай",
+     "Цель",
+     "Единица",
+     "Когда применяется"
+    ]
+   },
+   "section": "Targets",
+   "section_ru": "Цели",
+   "text_ru": "Случай: Team P2; Цель: 240; Единица: минуты; Когда применяется: Рабочие часы поддержки",
+   "text_orig": "Case: Team P2; Target: 240; Unit: minutes; When it applies: Business support hours",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-008",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Targets",
+    "row": 12,
+    "range": "A12:D12"
+   },
+   "locator_text": "лист «Targets», строка 12, ячейки A12:D12",
+   "segment_sha": "3c0b1f8d3e4c",
+   "cells": [
+    {
+     "ref": "A12",
+     "header": "Case",
+     "value": "Starter",
+     "header_ru": "Случай",
+     "value_ru": "Starter"
+    },
+    {
+     "ref": "B12",
+     "header": "Target",
+     "value": "2",
+     "header_ru": "Цель",
+     "value_ru": "2"
+    },
+    {
+     "ref": "C12",
+     "header": "Unit",
+     "value": "business days",
+     "header_ru": "Единица",
+     "value_ru": "рабочие дни"
+    },
+    {
+     "ref": "D12",
+     "header": "When it applies",
+     "value": "All supported priorities",
+     "header_ru": "Когда применяется",
+     "value_ru": "Все поддерживаемые приоритеты"
+    }
+   ],
+   "context": {
+    "sheet": "Targets",
+    "sheet_ru": "Цели",
+    "title": "First human response",
+    "title_ru": "Первый ответ человеком",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+      "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header_ru": [
+     "Случай",
+     "Цель",
+     "Единица",
+     "Когда применяется"
+    ]
+   },
+   "section": "Targets",
+   "section_ru": "Цели",
+   "text_ru": "Случай: Starter; Цель: 2; Единица: рабочие дни; Когда применяется: Все поддерживаемые приоритеты",
+   "text_orig": "Case: Starter; Target: 2; Unit: business days; When it applies: All supported priorities",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-009",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Targets",
+    "row": 13,
+    "range": "A13:D13"
+   },
+   "locator_text": "лист «Targets», строка 13, ячейки A13:D13",
+   "segment_sha": "c10a6f2d1dd8",
+   "cells": [
+    {
+     "ref": "A13",
+     "header": "Case",
+     "value": "Business support hours",
+     "header_ru": "Случай",
+     "value_ru": "Рабочие часы поддержки"
+    },
+    {
+     "ref": "B13",
+     "header": "Target",
+     "value": "09:00 to 18:00",
+     "header_ru": "Цель",
+     "value_ru": "с 09:00 до 18:00"
+    },
+    {
+     "ref": "C13",
+     "header": "Unit",
+     "value": "Europe/Berlin",
+     "header_ru": "Единица",
+     "value_ru": "Europe/Berlin"
+    },
+    {
+     "ref": "D13",
+     "header": "When it applies",
+     "value": "Monday through Friday excluding contract holidays",
+     "header_ru": "Когда применяется",
+     "value_ru": "С понедельника по пятницу, кроме праздников по договору"
+    }
+   ],
+   "context": {
+    "sheet": "Targets",
+    "sheet_ru": "Цели",
+    "title": "First human response",
+    "title_ru": "Первый ответ человеком",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+      "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header_ru": [
+     "Случай",
+     "Цель",
+     "Единица",
+     "Когда применяется"
+    ]
+   },
+   "section": "Targets",
+   "section_ru": "Цели",
+   "text_ru": "Случай: Рабочие часы поддержки; Цель: с 09:00 до 18:00; Единица: Europe/Berlin; Когда применяется: С понедельника по пятницу, кроме праздников по договору",
+   "text_orig": "Case: Business support hours; Target: 09:00 to 18:00; Unit: Europe/Berlin; When it applies: Monday through Friday excluding contract holidays",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-010",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Targets",
+    "row": 14,
+    "range": "A14:D14"
+   },
+   "locator_text": "лист «Targets», строка 14, ячейки A14:D14",
+   "segment_sha": "8c289e4ab6a2",
+   "cells": [
+    {
+     "ref": "A14",
+     "header": "Case",
+     "value": "Required context",
+     "header_ru": "Случай",
+     "value_ru": "Обязательный контекст"
+    },
+    {
+     "ref": "B14",
+     "header": "Target",
+     "value": "Workspace ID and impact",
+     "header_ru": "Цель",
+     "value_ru": "Workspace ID и влияние"
+    },
+    {
+     "ref": "C14",
+     "header": "Unit",
+     "value": "evidence",
+     "header_ru": "Единица",
+     "value_ru": "доказательства"
+    },
+    {
+     "ref": "D14",
+     "header": "When it applies",
+     "value": "Also include UTC start time and contact",
+     "header_ru": "Когда применяется",
+     "value_ru": "Также указать время начала в UTC и контакт"
+    }
+   ],
+   "context": {
+    "sheet": "Targets",
+    "sheet_ru": "Цели",
+    "title": "First human response",
+    "title_ru": "Первый ответ человеком",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+      "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header_ru": [
+     "Случай",
+     "Цель",
+     "Единица",
+     "Когда применяется"
+    ]
+   },
+   "section": "Targets",
+   "section_ru": "Цели",
+   "text_ru": "Случай: Обязательный контекст; Цель: Workspace ID и влияние; Единица: доказательства; Когда применяется: Также указать время начала в UTC и контакт",
+   "text_orig": "Case: Required context; Target: Workspace ID and impact; Unit: evidence; When it applies: Also include UTC start time and contact",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-011",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Targets",
+    "row": 15,
+    "range": "A15:D15"
+   },
+   "locator_text": "лист «Targets», строка 15, ячейки A15:D15",
+   "segment_sha": "2dfc6f2dfe03",
+   "cells": [
+    {
+     "ref": "A15",
+     "header": "Case",
+     "value": "Clock start",
+     "header_ru": "Случай",
+     "value_ru": "Начало отсчёта"
+    },
+    {
+     "ref": "B15",
+     "header": "Target",
+     "value": "Complete report received",
+     "header_ru": "Цель",
+     "value_ru": "Получено полное сообщение"
+    },
+    {
+     "ref": "C15",
+     "header": "Unit",
+     "value": "event",
+     "header_ru": "Единица",
+     "value_ru": "событие"
+    },
+    {
+     "ref": "D15",
+     "header": "When it applies",
+     "value": "Missing required context pauses target measurement",
+     "header_ru": "Когда применяется",
+     "value_ru": "Отсутствие обязательного контекста приостанавливает измерение цели"
+    }
+   ],
+   "context": {
+    "sheet": "Targets",
+    "sheet_ru": "Цели",
+    "title": "First human response",
+    "title_ru": "Первый ответ человеком",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+      "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header_ru": [
+     "Случай",
+     "Цель",
+     "Единица",
+     "Когда применяется"
+    ]
+   },
+   "section": "Targets",
+   "section_ru": "Цели",
+   "text_ru": "Случай: Начало отсчёта; Цель: Получено полное сообщение; Единица: событие; Когда применяется: Отсутствие обязательного контекста приостанавливает измерение цели",
+   "text_orig": "Case: Clock start; Target: Complete report received; Unit: event; When it applies: Missing required context pauses target measurement",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-012",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Targets",
+    "row": 16,
+    "range": "A16:D16"
+   },
+   "locator_text": "лист «Targets», строка 16, ячейки A16:D16",
+   "segment_sha": "321e2d83ba47",
+   "cells": [
+    {
+     "ref": "A16",
+     "header": "Case",
+     "value": "Update frequency P1",
+     "header_ru": "Случай",
+     "value_ru": "Частота обновлений P1"
+    },
+    {
+     "ref": "B16",
+     "header": "Target",
+     "value": "30",
+     "header_ru": "Цель",
+     "value_ru": "30"
+    },
+    {
+     "ref": "C16",
+     "header": "Unit",
+     "value": "minutes",
+     "header_ru": "Единица",
+     "value_ru": "минуты"
+    },
+    {
+     "ref": "D16",
+     "header": "When it applies",
+     "value": "During active investigation",
+     "header_ru": "Когда применяется",
+     "value_ru": "Во время активного расследования"
+    }
+   ],
+   "context": {
+    "sheet": "Targets",
+    "sheet_ru": "Цели",
+    "title": "First human response",
+    "title_ru": "Первый ответ человеком",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+      "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header_ru": [
+     "Случай",
+     "Цель",
+     "Единица",
+     "Когда применяется"
+    ]
+   },
+   "section": "Targets",
+   "section_ru": "Цели",
+   "text_ru": "Случай: Частота обновлений P1; Цель: 30; Единица: минуты; Когда применяется: Во время активного расследования",
+   "text_orig": "Case: Update frequency P1; Target: 30; Unit: minutes; When it applies: During active investigation",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-013",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Targets",
+    "row": 17,
+    "range": "A17:D17"
+   },
+   "locator_text": "лист «Targets», строка 17, ячейки A17:D17",
+   "segment_sha": "f45ab348631f",
+   "cells": [
+    {
+     "ref": "A17",
+     "header": "Case",
+     "value": "Resolution",
+     "header_ru": "Случай",
+     "value_ru": "Устранение"
+    },
+    {
+     "ref": "B17",
+     "header": "Target",
+     "value": "No fixed time",
+     "header_ru": "Цель",
+     "value_ru": "Фиксированного срока нет"
+    },
+    {
+     "ref": "C17",
+     "header": "Unit",
+     "value": "rule",
+     "header_ru": "Единица",
+     "value_ru": "правило"
+    },
+    {
+     "ref": "D17",
+     "header": "When it applies",
+     "value": "Do not present first response as a repair guarantee",
+     "header_ru": "Когда применяется",
+     "value_ru": "Не представлять первый ответ как гарантию исправления"
+    }
+   ],
+   "context": {
+    "sheet": "Targets",
+    "sheet_ru": "Цели",
+    "title": "First human response",
+    "title_ru": "Первый ответ человеком",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+      "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header_ru": [
+     "Случай",
+     "Цель",
+     "Единица",
+     "Когда применяется"
+    ]
+   },
+   "section": "Targets",
+   "section_ru": "Цели",
+   "text_ru": "Случай: Устранение; Цель: Фиксированного срока нет; Единица: правило; Когда применяется: Не представлять первый ответ как гарантию исправления",
+   "text_orig": "Case: Resolution; Target: No fixed time; Unit: rule; When it applies: Do not present first response as a repair guarantee",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-014",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "sheet_title",
+   "locator": {
+    "sheet": "Queue review",
+    "range": "A1:F2"
+   },
+   "locator_text": "лист «Queue review», объединённые ячейки A1:F2",
+   "segment_sha": "8c4aa047f716",
+   "section": "Queue review",
+   "section_ru": "Разбор очереди",
+   "text_ru": "Примеры из очереди за сентябрь",
+   "text_orig": "September queue samples",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-015",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "table_header",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 5,
+    "range": "A5:F5"
+   },
+   "locator_text": "лист «Queue review», строка 5, ячейки A5:F5",
+   "segment_sha": "813ec7e91112",
+   "cells": [
+    {
+     "ref": "A5",
+     "value": "Received UTC",
+     "value_ru": "Получено (UTC)"
+    },
+    {
+     "ref": "B5",
+     "value": "Plan",
+     "value_ru": "Тариф"
+    },
+    {
+     "ref": "C5",
+     "value": "Priority",
+     "value_ru": "Приоритет"
+    },
+    {
+     "ref": "D5",
+     "value": "Complete context",
+     "value_ru": "Полнота контекста"
+    },
+    {
+     "ref": "E5",
+     "value": "Owner action",
+     "value_ru": "Действие ответственного"
+    },
+    {
+     "ref": "F5",
+     "value": "Observation",
+     "value_ru": "Наблюдение"
+    }
+   ],
+   "section": "Queue review",
+   "section_ru": "Разбор очереди",
+   "text_ru": "Получено (UTC) | Тариф | Приоритет | Полнота контекста | Действие ответственного | Наблюдение",
+   "text_orig": "Received UTC | Plan | Priority | Complete context | Owner action | Observation",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-016",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 6,
+    "range": "A6:F6"
+   },
+   "locator_text": "лист «Queue review», строка 6, ячейки A6:F6",
+   "segment_sha": "c9c7592aaace",
+   "cells": [
+    {
+     "ref": "A6",
+     "header": "Received UTC",
+     "value": "2026-09-07 07:12",
+     "header_ru": "Получено (UTC)",
+     "value_ru": "2026-09-07 07:12"
+    },
+    {
+     "ref": "B6",
+     "header": "Plan",
+     "value": "Enterprise",
+     "header_ru": "Тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "ref": "C6",
+     "header": "Priority",
+     "value": "P1",
+     "header_ru": "Приоритет",
+     "value_ru": "P1"
+    },
+    {
+     "ref": "D6",
+     "header": "Complete context",
+     "value": "Workspace and UTC start supplied",
+     "header_ru": "Полнота контекста",
+     "value_ru": "Указаны workspace и время начала в UTC"
+    },
+    {
+     "ref": "E6",
+     "header": "Owner action",
+     "value": "Response team paged",
+     "header_ru": "Действие ответственного",
+     "value_ru": "Вызвана команда реагирования"
+    },
+    {
+     "ref": "F6",
+     "header": "Observation",
+     "value": "All participants unable to open cards; no workaround",
+     "header_ru": "Наблюдение",
+     "value_ru": "Все участники не могут открыть карточки; обходного пути нет"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "sheet_ru": "Разбор очереди",
+    "title": "September queue samples",
+    "title_ru": "Примеры из очереди за сентябрь",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header_ru": [
+     "Получено (UTC)",
+     "Тариф",
+     "Приоритет",
+     "Полнота контекста",
+     "Действие ответственного",
+     "Наблюдение"
+    ]
+   },
+   "section": "Queue review",
+   "section_ru": "Разбор очереди",
+   "text_ru": "Получено (UTC): 2026-09-07 07:12; Тариф: Enterprise; Приоритет: P1; Полнота контекста: Указаны workspace и время начала в UTC; Действие ответственного: Вызвана команда реагирования; Наблюдение: Все участники не могут открыть карточки; обходного пути нет",
+   "text_orig": "Received UTC: 2026-09-07 07:12; Plan: Enterprise; Priority: P1; Complete context: Workspace and UTC start supplied; Owner action: Response team paged; Observation: All participants unable to open cards; no workaround",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-017",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 7,
+    "range": "A7:F7"
+   },
+   "locator_text": "лист «Queue review», строка 7, ячейки A7:F7",
+   "segment_sha": "3776420b6efc",
+   "cells": [
+    {
+     "ref": "A7",
+     "header": "Received UTC",
+     "value": "2026-09-07 09:38",
+     "header_ru": "Получено (UTC)",
+     "value_ru": "2026-09-07 09:38"
+    },
+    {
+     "ref": "B7",
+     "header": "Plan",
+     "value": "Team",
+     "header_ru": "Тариф",
+     "value_ru": "Team"
+    },
+    {
+     "ref": "C7",
+     "header": "Priority",
+     "value": "P2",
+     "header_ru": "Приоритет",
+     "value_ru": "P2"
+    },
+    {
+     "ref": "D7",
+     "header": "Complete context",
+     "value": "Complete",
+     "header_ru": "Полнота контекста",
+     "value_ru": "Полный"
+    },
+    {
+     "ref": "E7",
+     "header": "Owner action",
+     "value": "Reproduce attachment delay",
+     "header_ru": "Действие ответственного",
+     "value_ru": "Воспроизвести задержку вложений"
+    },
+    {
+     "ref": "F7",
+     "header": "Observation",
+     "value": "Uploads work after retry; customer can continue by link",
+     "header_ru": "Наблюдение",
+     "value_ru": "Загрузка работает после повтора; клиент может продолжать работу по ссылке"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "sheet_ru": "Разбор очереди",
+    "title": "September queue samples",
+    "title_ru": "Примеры из очереди за сентябрь",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header_ru": [
+     "Получено (UTC)",
+     "Тариф",
+     "Приоритет",
+     "Полнота контекста",
+     "Действие ответственного",
+     "Наблюдение"
+    ]
+   },
+   "section": "Queue review",
+   "section_ru": "Разбор очереди",
+   "text_ru": "Получено (UTC): 2026-09-07 09:38; Тариф: Team; Приоритет: P2; Полнота контекста: Полный; Действие ответственного: Воспроизвести задержку вложений; Наблюдение: Загрузка работает после повтора; клиент может продолжать работу по ссылке",
+   "text_orig": "Received UTC: 2026-09-07 09:38; Plan: Team; Priority: P2; Complete context: Complete; Owner action: Reproduce attachment delay; Observation: Uploads work after retry; customer can continue by link",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-018",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 8,
+    "range": "A8:F8"
+   },
+   "locator_text": "лист «Queue review», строка 8, ячейки A8:F8",
+   "segment_sha": "e5541261f2d2",
+   "cells": [
+    {
+     "ref": "A8",
+     "header": "Received UTC",
+     "value": "2026-09-07 13:04",
+     "header_ru": "Получено (UTC)",
+     "value_ru": "2026-09-07 13:04"
+    },
+    {
+     "ref": "B8",
+     "header": "Plan",
+     "value": "Starter",
+     "header_ru": "Тариф",
+     "value_ru": "Starter"
+    },
+    {
+     "ref": "C8",
+     "header": "Priority",
+     "value": "P3",
+     "header_ru": "Приоритет",
+     "value_ru": "P3"
+    },
+    {
+     "ref": "D8",
+     "header": "Complete context",
+     "value": "Browser version missing",
+     "header_ru": "Полнота контекста",
+     "value_ru": "Нет версии браузера"
+    },
+    {
+     "ref": "E8",
+     "header": "Owner action",
+     "value": "Request client version",
+     "header_ru": "Действие ответственного",
+     "value_ru": "Запросить версию клиента"
+    },
+    {
+     "ref": "F8",
+     "header": "Observation",
+     "value": "Only one participant sees a stale preview",
+     "header_ru": "Наблюдение",
+     "value_ru": "Устаревший предпросмотр видит только один участник"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "sheet_ru": "Разбор очереди",
+    "title": "September queue samples",
+    "title_ru": "Примеры из очереди за сентябрь",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header_ru": [
+     "Получено (UTC)",
+     "Тариф",
+     "Приоритет",
+     "Полнота контекста",
+     "Действие ответственного",
+     "Наблюдение"
+    ]
+   },
+   "section": "Queue review",
+   "section_ru": "Разбор очереди",
+   "text_ru": "Получено (UTC): 2026-09-07 13:04; Тариф: Starter; Приоритет: P3; Полнота контекста: Нет версии браузера; Действие ответственного: Запросить версию клиента; Наблюдение: Устаревший предпросмотр видит только один участник",
+   "text_orig": "Received UTC: 2026-09-07 13:04; Plan: Starter; Priority: P3; Complete context: Browser version missing; Owner action: Request client version; Observation: Only one participant sees a stale preview",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-019",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 9,
+    "range": "A9:F9"
+   },
+   "locator_text": "лист «Queue review», строка 9, ячейки A9:F9",
+   "segment_sha": "ac807c4b4a63",
+   "cells": [
+    {
+     "ref": "A9",
+     "header": "Received UTC",
+     "value": "2026-09-08 00:47",
+     "header_ru": "Получено (UTC)",
+     "value_ru": "2026-09-08 00:47"
+    },
+    {
+     "ref": "B9",
+     "header": "Plan",
+     "value": "Enterprise",
+     "header_ru": "Тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "ref": "C9",
+     "header": "Priority",
+     "value": "P1",
+     "header_ru": "Приоритет",
+     "value_ru": "P1"
+    },
+    {
+     "ref": "D9",
+     "header": "Complete context",
+     "value": "Complete",
+     "header_ru": "Полнота контекста",
+     "value_ru": "Полный"
+    },
+    {
+     "ref": "E9",
+     "header": "Owner action",
+     "value": "Acknowledge and coordinate",
+     "header_ru": "Действие ответственного",
+     "value_ru": "Подтвердить получение и координировать"
+    },
+    {
+     "ref": "F9",
+     "header": "Observation",
+     "value": "Emergency administrator remains available; impact confirmed",
+     "header_ru": "Наблюдение",
+     "value_ru": "Аварийный администратор остаётся доступен; влияние подтверждено"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "sheet_ru": "Разбор очереди",
+    "title": "September queue samples",
+    "title_ru": "Примеры из очереди за сентябрь",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header_ru": [
+     "Получено (UTC)",
+     "Тариф",
+     "Приоритет",
+     "Полнота контекста",
+     "Действие ответственного",
+     "Наблюдение"
+    ]
+   },
+   "section": "Queue review",
+   "section_ru": "Разбор очереди",
+   "text_ru": "Получено (UTC): 2026-09-08 00:47; Тариф: Enterprise; Приоритет: P1; Полнота контекста: Полный; Действие ответственного: Подтвердить получение и координировать; Наблюдение: Аварийный администратор остаётся доступен; влияние подтверждено",
+   "text_orig": "Received UTC: 2026-09-08 00:47; Plan: Enterprise; Priority: P1; Complete context: Complete; Owner action: Acknowledge and coordinate; Observation: Emergency administrator remains available; impact confirmed",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-020",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 10,
+    "range": "A10:F10"
+   },
+   "locator_text": "лист «Queue review», строка 10, ячейки A10:F10",
+   "segment_sha": "68db65d52b1c",
+   "cells": [
+    {
+     "ref": "A10",
+     "header": "Received UTC",
+     "value": "2026-09-08 10:16",
+     "header_ru": "Получено (UTC)",
+     "value_ru": "2026-09-08 10:16"
+    },
+    {
+     "ref": "B10",
+     "header": "Plan",
+     "value": "Team",
+     "header_ru": "Тариф",
+     "value_ru": "Team"
+    },
+    {
+     "ref": "C10",
+     "header": "Priority",
+     "value": "P2",
+     "header_ru": "Приоритет",
+     "value_ru": "P2"
+    },
+    {
+     "ref": "D10",
+     "header": "Complete context",
+     "value": "Impact not yet stated",
+     "header_ru": "Полнота контекста",
+     "value_ru": "Влияние ещё не указано"
+    },
+    {
+     "ref": "E10",
+     "header": "Owner action",
+     "value": "Ask what work is blocked",
+     "header_ru": "Действие ответственного",
+     "value_ru": "Спросить, какая работа заблокирована"
+    },
+    {
+     "ref": "F10",
+     "header": "Observation",
+     "value": "Report names an error but omits affected workflow",
+     "header_ru": "Наблюдение",
+     "value_ru": "В сообщении названа ошибка, но не указан затронутый рабочий процесс"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "sheet_ru": "Разбор очереди",
+    "title": "September queue samples",
+    "title_ru": "Примеры из очереди за сентябрь",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header_ru": [
+     "Получено (UTC)",
+     "Тариф",
+     "Приоритет",
+     "Полнота контекста",
+     "Действие ответственного",
+     "Наблюдение"
+    ]
+   },
+   "section": "Queue review",
+   "section_ru": "Разбор очереди",
+   "text_ru": "Получено (UTC): 2026-09-08 10:16; Тариф: Team; Приоритет: P2; Полнота контекста: Влияние ещё не указано; Действие ответственного: Спросить, какая работа заблокирована; Наблюдение: В сообщении названа ошибка, но не указан затронутый рабочий процесс",
+   "text_orig": "Received UTC: 2026-09-08 10:16; Plan: Team; Priority: P2; Complete context: Impact not yet stated; Owner action: Ask what work is blocked; Observation: Report names an error but omits affected workflow",
+   "translation": "translated",
+   "translation_review": {
+    "checks": [
+     "negation"
+    ],
+    "decision": "accepted",
+    "note": "«omits affected workflow» → «не указан затронутый рабочий процесс»."
+   },
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-021",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 11,
+    "range": "A11:F11"
+   },
+   "locator_text": "лист «Queue review», строка 11, ячейки A11:F11",
+   "segment_sha": "fc81e04b9efc",
+   "cells": [
+    {
+     "ref": "A11",
+     "header": "Received UTC",
+     "value": "2026-09-08 15:51",
+     "header_ru": "Получено (UTC)",
+     "value_ru": "2026-09-08 15:51"
+    },
+    {
+     "ref": "B11",
+     "header": "Plan",
+     "value": "Enterprise",
+     "header_ru": "Тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "ref": "C11",
+     "header": "Priority",
+     "value": "P2",
+     "header_ru": "Приоритет",
+     "value_ru": "P2"
+    },
+    {
+     "ref": "D11",
+     "header": "Complete context",
+     "value": "Complete",
+     "header_ru": "Полнота контекста",
+     "value_ru": "Полный"
+    },
+    {
+     "ref": "E11",
+     "header": "Owner action",
+     "value": "Check integration consent",
+     "header_ru": "Действие ответственного",
+     "value_ru": "Проверить согласие для интеграции"
+    },
+    {
+     "ref": "F11",
+     "header": "Observation",
+     "value": "Connector disabled after vendor scope change",
+     "header_ru": "Наблюдение",
+     "value_ru": "Коннектор отключён после изменения scopes у вендора"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "sheet_ru": "Разбор очереди",
+    "title": "September queue samples",
+    "title_ru": "Примеры из очереди за сентябрь",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header_ru": [
+     "Получено (UTC)",
+     "Тариф",
+     "Приоритет",
+     "Полнота контекста",
+     "Действие ответственного",
+     "Наблюдение"
+    ]
+   },
+   "section": "Queue review",
+   "section_ru": "Разбор очереди",
+   "text_ru": "Получено (UTC): 2026-09-08 15:51; Тариф: Enterprise; Приоритет: P2; Полнота контекста: Полный; Действие ответственного: Проверить согласие для интеграции; Наблюдение: Коннектор отключён после изменения scopes у вендора",
+   "text_orig": "Received UTC: 2026-09-08 15:51; Plan: Enterprise; Priority: P2; Complete context: Complete; Owner action: Check integration consent; Observation: Connector disabled after vendor scope change",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-022",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 12,
+    "range": "A12:F12"
+   },
+   "locator_text": "лист «Queue review», строка 12, ячейки A12:F12",
+   "segment_sha": "cba742d74ed3",
+   "cells": [
+    {
+     "ref": "A12",
+     "header": "Received UTC",
+     "value": "2026-09-09 08:13",
+     "header_ru": "Получено (UTC)",
+     "value_ru": "2026-09-09 08:13"
+    },
+    {
+     "ref": "B12",
+     "header": "Plan",
+     "value": "Starter",
+     "header_ru": "Тариф",
+     "value_ru": "Starter"
+    },
+    {
+     "ref": "C12",
+     "header": "Priority",
+     "value": "P4",
+     "header_ru": "Приоритет",
+     "value_ru": "P4"
+    },
+    {
+     "ref": "D12",
+     "header": "Complete context",
+     "value": "Complete",
+     "header_ru": "Полнота контекста",
+     "value_ru": "Полный"
+    },
+    {
+     "ref": "E12",
+     "header": "Owner action",
+     "value": "Answer configuration question",
+     "header_ru": "Действие ответственного",
+     "value_ru": "Ответить на вопрос о настройке"
+    },
+    {
+     "ref": "F12",
+     "header": "Observation",
+     "value": "Customer asks how to change their own timezone",
+     "header_ru": "Наблюдение",
+     "value_ru": "Клиент спрашивает, как изменить свой часовой пояс"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "sheet_ru": "Разбор очереди",
+    "title": "September queue samples",
+    "title_ru": "Примеры из очереди за сентябрь",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header_ru": [
+     "Получено (UTC)",
+     "Тариф",
+     "Приоритет",
+     "Полнота контекста",
+     "Действие ответственного",
+     "Наблюдение"
+    ]
+   },
+   "section": "Queue review",
+   "section_ru": "Разбор очереди",
+   "text_ru": "Получено (UTC): 2026-09-09 08:13; Тариф: Starter; Приоритет: P4; Полнота контекста: Полный; Действие ответственного: Ответить на вопрос о настройке; Наблюдение: Клиент спрашивает, как изменить свой часовой пояс",
+   "text_orig": "Received UTC: 2026-09-09 08:13; Plan: Starter; Priority: P4; Complete context: Complete; Owner action: Answer configuration question; Observation: Customer asks how to change their own timezone",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-023",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 13,
+    "range": "A13:F13"
+   },
+   "locator_text": "лист «Queue review», строка 13, ячейки A13:F13",
+   "segment_sha": "35627bef67b2",
+   "cells": [
+    {
+     "ref": "A13",
+     "header": "Received UTC",
+     "value": "2026-09-09 11:29",
+     "header_ru": "Получено (UTC)",
+     "value_ru": "2026-09-09 11:29"
+    },
+    {
+     "ref": "B13",
+     "header": "Plan",
+     "value": "Team",
+     "header_ru": "Тариф",
+     "value_ru": "Team"
+    },
+    {
+     "ref": "C13",
+     "header": "Priority",
+     "value": "P1",
+     "header_ru": "Приоритет",
+     "value_ru": "P1"
+    },
+    {
+     "ref": "D13",
+     "header": "Complete context",
+     "value": "Complete",
+     "header_ru": "Полнота контекста",
+     "value_ru": "Полный"
+    },
+    {
+     "ref": "E13",
+     "header": "Owner action",
+     "value": "Link confirmed incident",
+     "header_ru": "Действие ответственного",
+     "value_ru": "Связать с подтверждённым инцидентом"
+    },
+    {
+     "ref": "F13",
+     "header": "Observation",
+     "value": "Workspace unavailable; status update posted separately",
+     "header_ru": "Наблюдение",
+     "value_ru": "Workspace недоступен; обновление статуса опубликовано отдельно"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "sheet_ru": "Разбор очереди",
+    "title": "September queue samples",
+    "title_ru": "Примеры из очереди за сентябрь",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header_ru": [
+     "Получено (UTC)",
+     "Тариф",
+     "Приоритет",
+     "Полнота контекста",
+     "Действие ответственного",
+     "Наблюдение"
+    ]
+   },
+   "section": "Queue review",
+   "section_ru": "Разбор очереди",
+   "text_ru": "Получено (UTC): 2026-09-09 11:29; Тариф: Team; Приоритет: P1; Полнота контекста: Полный; Действие ответственного: Связать с подтверждённым инцидентом; Наблюдение: Workspace недоступен; обновление статуса опубликовано отдельно",
+   "text_orig": "Received UTC: 2026-09-09 11:29; Plan: Team; Priority: P1; Complete context: Complete; Owner action: Link confirmed incident; Observation: Workspace unavailable; status update posted separately",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-024",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 14,
+    "range": "A14:F14"
+   },
+   "locator_text": "лист «Queue review», строка 14, ячейки A14:F14",
+   "segment_sha": "3a626c5bcf1b",
+   "cells": [
+    {
+     "ref": "A14",
+     "header": "Received UTC",
+     "value": "2026-09-10 16:42",
+     "header_ru": "Получено (UTC)",
+     "value_ru": "2026-09-10 16:42"
+    },
+    {
+     "ref": "B14",
+     "header": "Plan",
+     "value": "Team",
+     "header_ru": "Тариф",
+     "value_ru": "Team"
+    },
+    {
+     "ref": "C14",
+     "header": "Priority",
+     "value": "P2",
+     "header_ru": "Приоритет",
+     "value_ru": "P2"
+    },
+    {
+     "ref": "D14",
+     "header": "Complete context",
+     "value": "UTC start missing",
+     "header_ru": "Полнота контекста",
+     "value_ru": "Нет времени начала в UTC"
+    },
+    {
+     "ref": "E14",
+     "header": "Owner action",
+     "value": "Clarify original local time",
+     "header_ru": "Действие ответственного",
+     "value_ru": "Уточнить исходное местное время"
+    },
+    {
+     "ref": "F14",
+     "header": "Observation",
+     "value": "Customer supplied Paris time without date",
+     "header_ru": "Наблюдение",
+     "value_ru": "Клиент указал парижское время без даты"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "sheet_ru": "Разбор очереди",
+    "title": "September queue samples",
+    "title_ru": "Примеры из очереди за сентябрь",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header_ru": [
+     "Получено (UTC)",
+     "Тариф",
+     "Приоритет",
+     "Полнота контекста",
+     "Действие ответственного",
+     "Наблюдение"
+    ]
+   },
+   "section": "Queue review",
+   "section_ru": "Разбор очереди",
+   "text_ru": "Получено (UTC): 2026-09-10 16:42; Тариф: Team; Приоритет: P2; Полнота контекста: Нет времени начала в UTC; Действие ответственного: Уточнить исходное местное время; Наблюдение: Клиент указал парижское время без даты",
+   "text_orig": "Received UTC: 2026-09-10 16:42; Plan: Team; Priority: P2; Complete context: UTC start missing; Owner action: Clarify original local time; Observation: Customer supplied Paris time without date",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-025",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 15,
+    "range": "A15:F15"
+   },
+   "locator_text": "лист «Queue review», строка 15, ячейки A15:F15",
+   "segment_sha": "9f40ad2eb5d2",
+   "cells": [
+    {
+     "ref": "A15",
+     "header": "Received UTC",
+     "value": "2026-09-11 06:03",
+     "header_ru": "Получено (UTC)",
+     "value_ru": "2026-09-11 06:03"
+    },
+    {
+     "ref": "B15",
+     "header": "Plan",
+     "value": "Enterprise",
+     "header_ru": "Тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "ref": "C15",
+     "header": "Priority",
+     "value": "P2",
+     "header_ru": "Приоритет",
+     "value_ru": "P2"
+    },
+    {
+     "ref": "D15",
+     "header": "Complete context",
+     "value": "Complete",
+     "header_ru": "Полнота контекста",
+     "value_ru": "Полный"
+    },
+    {
+     "ref": "E15",
+     "header": "Owner action",
+     "value": "Inspect safe request evidence",
+     "header_ru": "Действие ответственного",
+     "value_ru": "Изучить безопасные доказательства запроса"
+    },
+    {
+     "ref": "F15",
+     "header": "Observation",
+     "value": "Sign-in succeeds for pilots; one account still needs review",
+     "header_ru": "Наблюдение",
+     "value_ru": "Вход для пилотов успешен; одна учётная запись ещё требует проверки"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "sheet_ru": "Разбор очереди",
+    "title": "September queue samples",
+    "title_ru": "Примеры из очереди за сентябрь",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header_ru": [
+     "Получено (UTC)",
+     "Тариф",
+     "Приоритет",
+     "Полнота контекста",
+     "Действие ответственного",
+     "Наблюдение"
+    ]
+   },
+   "section": "Queue review",
+   "section_ru": "Разбор очереди",
+   "text_ru": "Получено (UTC): 2026-09-11 06:03; Тариф: Enterprise; Приоритет: P2; Полнота контекста: Полный; Действие ответственного: Изучить безопасные доказательства запроса; Наблюдение: Вход для пилотов успешен; одна учётная запись ещё требует проверки",
+   "text_orig": "Received UTC: 2026-09-11 06:03; Plan: Enterprise; Priority: P2; Complete context: Complete; Owner action: Inspect safe request evidence; Observation: Sign-in succeeds for pilots; one account still needs review",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-026",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 16,
+    "range": "A16:F16"
+   },
+   "locator_text": "лист «Queue review», строка 16, ячейки A16:F16",
+   "segment_sha": "fd9975a90ed1",
+   "cells": [
+    {
+     "ref": "A16",
+     "header": "Received UTC",
+     "value": "2026-09-11 14:37",
+     "header_ru": "Получено (UTC)",
+     "value_ru": "2026-09-11 14:37"
+    },
+    {
+     "ref": "B16",
+     "header": "Plan",
+     "value": "Team",
+     "header_ru": "Тариф",
+     "value_ru": "Team"
+    },
+    {
+     "ref": "C16",
+     "header": "Priority",
+     "value": "P3",
+     "header_ru": "Приоритет",
+     "value_ru": "P3"
+    },
+    {
+     "ref": "D16",
+     "header": "Complete context",
+     "value": "Complete",
+     "header_ru": "Полнота контекста",
+     "value_ru": "Полный"
+    },
+    {
+     "ref": "E16",
+     "header": "Owner action",
+     "value": "Verify search visibility",
+     "header_ru": "Действие ответственного",
+     "value_ru": "Проверить видимость в поиске"
+    },
+    {
+     "ref": "F16",
+     "header": "Observation",
+     "value": "Missing result belongs to a space the user cannot access",
+     "header_ru": "Наблюдение",
+     "value_ru": "Отсутствующий результат относится к пространству, к которому у пользователя нет доступа"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "sheet_ru": "Разбор очереди",
+    "title": "September queue samples",
+    "title_ru": "Примеры из очереди за сентябрь",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header_ru": [
+     "Получено (UTC)",
+     "Тариф",
+     "Приоритет",
+     "Полнота контекста",
+     "Действие ответственного",
+     "Наблюдение"
+    ]
+   },
+   "section": "Queue review",
+   "section_ru": "Разбор очереди",
+   "text_ru": "Получено (UTC): 2026-09-11 14:37; Тариф: Team; Приоритет: P3; Полнота контекста: Полный; Действие ответственного: Проверить видимость в поиске; Наблюдение: Отсутствующий результат относится к пространству, к которому у пользователя нет доступа",
+   "text_orig": "Received UTC: 2026-09-11 14:37; Plan: Team; Priority: P3; Complete context: Complete; Owner action: Verify search visibility; Observation: Missing result belongs to a space the user cannot access",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-027",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 17,
+    "range": "A17:F17"
+   },
+   "locator_text": "лист «Queue review», строка 17, ячейки A17:F17",
+   "segment_sha": "3f4f73b86451",
+   "cells": [
+    {
+     "ref": "A17",
+     "header": "Received UTC",
+     "value": "2026-09-12 09:22",
+     "header_ru": "Получено (UTC)",
+     "value_ru": "2026-09-12 09:22"
+    },
+    {
+     "ref": "B17",
+     "header": "Plan",
+     "value": "Starter",
+     "header_ru": "Тариф",
+     "value_ru": "Starter"
+    },
+    {
+     "ref": "C17",
+     "header": "Priority",
+     "value": "P4",
+     "header_ru": "Приоритет",
+     "value_ru": "P4"
+    },
+    {
+     "ref": "D17",
+     "header": "Complete context",
+     "value": "Invoice reference missing",
+     "header_ru": "Полнота контекста",
+     "value_ru": "Нет ссылки на счёт"
+    },
+    {
+     "ref": "E17",
+     "header": "Owner action",
+     "value": "Ask for invoice reference",
+     "header_ru": "Действие ответственного",
+     "value_ru": "Запросить ссылку на счёт"
+    },
+    {
+     "ref": "F17",
+     "header": "Observation",
+     "value": "Correction request must remain with Billing Support",
+     "header_ru": "Наблюдение",
+     "value_ru": "Запрос на исправление должен оставаться у Billing Support"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "sheet_ru": "Разбор очереди",
+    "title": "September queue samples",
+    "title_ru": "Примеры из очереди за сентябрь",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header_ru": [
+     "Получено (UTC)",
+     "Тариф",
+     "Приоритет",
+     "Полнота контекста",
+     "Действие ответственного",
+     "Наблюдение"
+    ]
+   },
+   "section": "Queue review",
+   "section_ru": "Разбор очереди",
+   "text_ru": "Получено (UTC): 2026-09-12 09:22; Тариф: Starter; Приоритет: P4; Полнота контекста: Нет ссылки на счёт; Действие ответственного: Запросить ссылку на счёт; Наблюдение: Запрос на исправление должен оставаться у Billing Support",
+   "text_orig": "Received UTC: 2026-09-12 09:22; Plan: Starter; Priority: P4; Complete context: Invoice reference missing; Owner action: Ask for invoice reference; Observation: Correction request must remain with Billing Support",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-028",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 18,
+    "range": "A18:F18"
+   },
+   "locator_text": "лист «Queue review», строка 18, ячейки A18:F18",
+   "segment_sha": "18ed2ee76933",
+   "cells": [
+    {
+     "ref": "A18",
+     "header": "Received UTC",
+     "value": "2026-09-14 09:06",
+     "header_ru": "Получено (UTC)",
+     "value_ru": "2026-09-14 09:06"
+    },
+    {
+     "ref": "B18",
+     "header": "Plan",
+     "value": "Team",
+     "header_ru": "Тариф",
+     "value_ru": "Team"
+    },
+    {
+     "ref": "C18",
+     "header": "Priority",
+     "value": "P2",
+     "header_ru": "Приоритет",
+     "value_ru": "P2"
+    },
+    {
+     "ref": "D18",
+     "header": "Complete context",
+     "value": "Complete",
+     "header_ru": "Полнота контекста",
+     "value_ru": "Полный"
+    },
+    {
+     "ref": "E18",
+     "header": "Owner action",
+     "value": "Check export filter",
+     "header_ru": "Действие ответственного",
+     "value_ru": "Проверить фильтр экспорта"
+    },
+    {
+     "ref": "F18",
+     "header": "Observation",
+     "value": "Selection exceeds current per-job allowance",
+     "header_ru": "Наблюдение",
+     "value_ru": "Выборка превышает текущий допустимый объём на одно задание"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "sheet_ru": "Разбор очереди",
+    "title": "September queue samples",
+    "title_ru": "Примеры из очереди за сентябрь",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header_ru": [
+     "Получено (UTC)",
+     "Тариф",
+     "Приоритет",
+     "Полнота контекста",
+     "Действие ответственного",
+     "Наблюдение"
+    ]
+   },
+   "section": "Queue review",
+   "section_ru": "Разбор очереди",
+   "text_ru": "Получено (UTC): 2026-09-14 09:06; Тариф: Team; Приоритет: P2; Полнота контекста: Полный; Действие ответственного: Проверить фильтр экспорта; Наблюдение: Выборка превышает текущий допустимый объём на одно задание",
+   "text_orig": "Received UTC: 2026-09-14 09:06; Plan: Team; Priority: P2; Complete context: Complete; Owner action: Check export filter; Observation: Selection exceeds current per-job allowance",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-029",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 19,
+    "range": "A19:F19"
+   },
+   "locator_text": "лист «Queue review», строка 19, ячейки A19:F19",
+   "segment_sha": "f5eeeab1aa87",
+   "cells": [
+    {
+     "ref": "A19",
+     "header": "Received UTC",
+     "value": "2026-09-14 11:48",
+     "header_ru": "Получено (UTC)",
+     "value_ru": "2026-09-14 11:48"
+    },
+    {
+     "ref": "B19",
+     "header": "Plan",
+     "value": "Enterprise",
+     "header_ru": "Тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "ref": "C19",
+     "header": "Priority",
+     "value": "P1",
+     "header_ru": "Приоритет",
+     "value_ru": "P1"
+    },
+    {
+     "ref": "D19",
+     "header": "Complete context",
+     "value": "Complete",
+     "header_ru": "Полнота контекста",
+     "value_ru": "Полный"
+    },
+    {
+     "ref": "E19",
+     "header": "Owner action",
+     "value": "Start response coordination",
+     "header_ru": "Действие ответственного",
+     "value_ru": "Начать координацию реагирования"
+    },
+    {
+     "ref": "F19",
+     "header": "Observation",
+     "value": "Report covers one affected region, not every workspace",
+     "header_ru": "Наблюдение",
+     "value_ru": "Сообщение относится к одному затронутому региону, а не ко всем workspace"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "sheet_ru": "Разбор очереди",
+    "title": "September queue samples",
+    "title_ru": "Примеры из очереди за сентябрь",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header_ru": [
+     "Получено (UTC)",
+     "Тариф",
+     "Приоритет",
+     "Полнота контекста",
+     "Действие ответственного",
+     "Наблюдение"
+    ]
+   },
+   "section": "Queue review",
+   "section_ru": "Разбор очереди",
+   "text_ru": "Получено (UTC): 2026-09-14 11:48; Тариф: Enterprise; Приоритет: P1; Полнота контекста: Полный; Действие ответственного: Начать координацию реагирования; Наблюдение: Сообщение относится к одному затронутому региону, а не ко всем workspace",
+   "text_orig": "Received UTC: 2026-09-14 11:48; Plan: Enterprise; Priority: P1; Complete context: Complete; Owner action: Start response coordination; Observation: Report covers one affected region, not every workspace",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-030",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 20,
+    "range": "A20:F20"
+   },
+   "locator_text": "лист «Queue review», строка 20, ячейки A20:F20",
+   "segment_sha": "e02f614b8d2c",
+   "cells": [
+    {
+     "ref": "A20",
+     "header": "Received UTC",
+     "value": "2026-09-15 10:31",
+     "header_ru": "Получено (UTC)",
+     "value_ru": "2026-09-15 10:31"
+    },
+    {
+     "ref": "B20",
+     "header": "Plan",
+     "value": "Team",
+     "header_ru": "Тариф",
+     "value_ru": "Team"
+    },
+    {
+     "ref": "C20",
+     "header": "Priority",
+     "value": "P3",
+     "header_ru": "Приоритет",
+     "value_ru": "P3"
+    },
+    {
+     "ref": "D20",
+     "header": "Complete context",
+     "value": "Complete",
+     "header_ru": "Полнота контекста",
+     "value_ru": "Полный"
+    },
+    {
+     "ref": "E20",
+     "header": "Owner action",
+     "value": "Review notification preference",
+     "header_ru": "Действие ответственного",
+     "value_ru": "Проверить настройку уведомлений"
+    },
+    {
+     "ref": "F20",
+     "header": "Observation",
+     "value": "Read event arrived before the email delay ended",
+     "header_ru": "Наблюдение",
+     "value_ru": "Событие прочтения произошло до окончания задержки email"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "sheet_ru": "Разбор очереди",
+    "title": "September queue samples",
+    "title_ru": "Примеры из очереди за сентябрь",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header_ru": [
+     "Получено (UTC)",
+     "Тариф",
+     "Приоритет",
+     "Полнота контекста",
+     "Действие ответственного",
+     "Наблюдение"
+    ]
+   },
+   "section": "Queue review",
+   "section_ru": "Разбор очереди",
+   "text_ru": "Получено (UTC): 2026-09-15 10:31; Тариф: Team; Приоритет: P3; Полнота контекста: Полный; Действие ответственного: Проверить настройку уведомлений; Наблюдение: Событие прочтения произошло до окончания задержки email",
+   "text_orig": "Received UTC: 2026-09-15 10:31; Plan: Team; Priority: P3; Complete context: Complete; Owner action: Review notification preference; Observation: Read event arrived before the email delay ended",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-031",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Queue review",
+    "row": 21,
+    "range": "A21:F21"
+   },
+   "locator_text": "лист «Queue review», строка 21, ячейки A21:F21",
+   "segment_sha": "736f3352f6de",
+   "cells": [
+    {
+     "ref": "A21",
+     "header": "Received UTC",
+     "value": "2026-09-16 12:17",
+     "header_ru": "Получено (UTC)",
+     "value_ru": "2026-09-16 12:17"
+    },
+    {
+     "ref": "B21",
+     "header": "Plan",
+     "value": "Enterprise",
+     "header_ru": "Тариф",
+     "value_ru": "Enterprise"
+    },
+    {
+     "ref": "C21",
+     "header": "Priority",
+     "value": "P2",
+     "header_ru": "Приоритет",
+     "value_ru": "P2"
+    },
+    {
+     "ref": "D21",
+     "header": "Complete context",
+     "value": "Contact missing",
+     "header_ru": "Полнота контекста",
+     "value_ru": "Нет контакта"
+    },
+    {
+     "ref": "E21",
+     "header": "Owner action",
+     "value": "Confirm available administrator",
+     "header_ru": "Действие ответственного",
+     "value_ru": "Подтвердить доступного администратора"
+    },
+    {
+     "ref": "F21",
+     "header": "Observation",
+     "value": "Technical context is complete, recovery contact still needed",
+     "header_ru": "Наблюдение",
+     "value_ru": "Технический контекст полный, контакт для восстановления ещё нужен"
+    }
+   ],
+   "context": {
+    "sheet": "Queue review",
+    "sheet_ru": "Разбор очереди",
+    "title": "September queue samples",
+    "title_ru": "Примеры из очереди за сентябрь",
+    "title_range": "A1:F2",
+    "notes": [],
+    "header_range": "A5:F5",
+    "header_ru": [
+     "Получено (UTC)",
+     "Тариф",
+     "Приоритет",
+     "Полнота контекста",
+     "Действие ответственного",
+     "Наблюдение"
+    ]
+   },
+   "section": "Queue review",
+   "section_ru": "Разбор очереди",
+   "text_ru": "Получено (UTC): 2026-09-16 12:17; Тариф: Enterprise; Приоритет: P2; Полнота контекста: Нет контакта; Действие ответственного: Подтвердить доступного администратора; Наблюдение: Технический контекст полный, контакт для восстановления ещё нужен",
+   "text_orig": "Received UTC: 2026-09-16 12:17; Plan: Enterprise; Priority: P2; Complete context: Contact missing; Owner action: Confirm available administrator; Observation: Technical context is complete, recovery contact still needed",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-032",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "sheet_title",
+   "locator": {
+    "sheet": "Shift discussion",
+    "range": "A1:B2"
+   },
+   "locator_text": "лист «Shift discussion», объединённые ячейки A1:B2",
+   "segment_sha": "2a4c010b0e0d",
+   "section": "Shift discussion",
+   "section_ru": "Обсуждение смены",
+   "text_ru": "Вопросы со встречи по графику дежурств",
+   "text_orig": "Questions from the rota meeting",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-033",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "table_header",
+   "locator": {
+    "sheet": "Shift discussion",
+    "row": 5,
+    "range": "A5:B5"
+   },
+   "locator_text": "лист «Shift discussion», строка 5, ячейки A5:B5",
+   "segment_sha": "facb8b83ce86",
+   "cells": [
+    {
+     "ref": "A5",
+     "value": "Topic",
+     "value_ru": "Тема"
+    },
+    {
+     "ref": "B5",
+     "value": "Agreed interpretation",
+     "value_ru": "Согласованное толкование"
+    }
+   ],
+   "section": "Shift discussion",
+   "section_ru": "Обсуждение смены",
+   "text_ru": "Тема | Согласованное толкование",
+   "text_orig": "Topic | Agreed interpretation",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": false,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-034",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Shift discussion",
+    "row": 6,
+    "range": "A6:B6"
+   },
+   "locator_text": "лист «Shift discussion», строка 6, ячейки A6:B6",
+   "segment_sha": "35a073032be2",
+   "cells": [
+    {
+     "ref": "A6",
+     "header": "Topic",
+     "value": "Working hours",
+     "header_ru": "Тема",
+     "value_ru": "Рабочие часы"
+    },
+    {
+     "ref": "B6",
+     "header": "Agreed interpretation",
+     "value": "09:00 to 18:00 Europe/Berlin, Monday to Friday, excluding contract holidays",
+     "header_ru": "Согласованное толкование",
+     "value_ru": "с 09:00 до 18:00 Europe/Berlin, с понедельника по пятницу, кроме праздников по договору"
+    }
+   ],
+   "context": {
+    "sheet": "Shift discussion",
+    "sheet_ru": "Обсуждение смены",
+    "title": "Questions from the rota meeting",
+    "title_ru": "Вопросы со встречи по графику дежурств",
+    "title_range": "A1:B2",
+    "notes": [],
+    "header_range": "A5:B5",
+    "header_ru": [
+     "Тема",
+     "Согласованное толкование"
+    ]
+   },
+   "section": "Shift discussion",
+   "section_ru": "Обсуждение смены",
+   "text_ru": "Тема: Рабочие часы; Согласованное толкование: с 09:00 до 18:00 Europe/Berlin, с понедельника по пятницу, кроме праздников по договору",
+   "text_orig": "Topic: Working hours; Agreed interpretation: 09:00 to 18:00 Europe/Berlin, Monday to Friday, excluding contract holidays",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-035",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Shift discussion",
+    "row": 7,
+    "range": "A7:B7"
+   },
+   "locator_text": "лист «Shift discussion», строка 7, ячейки A7:B7",
+   "segment_sha": "66c892ffb138",
+   "cells": [
+    {
+     "ref": "A7",
+     "header": "Topic",
+     "value": "Enterprise P1",
+     "header_ru": "Тема",
+     "value_ru": "Enterprise P1"
+    },
+    {
+     "ref": "B7",
+     "header": "Agreed interpretation",
+     "value": "15 minutes, every day around the clock",
+     "header_ru": "Согласованное толкование",
+     "value_ru": "15 минут, каждый день, круглосуточно"
+    }
+   ],
+   "context": {
+    "sheet": "Shift discussion",
+    "sheet_ru": "Обсуждение смены",
+    "title": "Questions from the rota meeting",
+    "title_ru": "Вопросы со встречи по графику дежурств",
+    "title_range": "A1:B2",
+    "notes": [],
+    "header_range": "A5:B5",
+    "header_ru": [
+     "Тема",
+     "Согласованное толкование"
+    ]
+   },
+   "section": "Shift discussion",
+   "section_ru": "Обсуждение смены",
+   "text_ru": "Тема: Enterprise P1; Согласованное толкование: 15 минут, каждый день, круглосуточно",
+   "text_orig": "Topic: Enterprise P1; Agreed interpretation: 15 minutes, every day around the clock",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-036",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Shift discussion",
+    "row": 8,
+    "range": "A8:B8"
+   },
+   "locator_text": "лист «Shift discussion», строка 8, ячейки A8:B8",
+   "segment_sha": "9a3de75c8550",
+   "cells": [
+    {
+     "ref": "A8",
+     "header": "Topic",
+     "value": "Team P1",
+     "header_ru": "Тема",
+     "value_ru": "Team P1"
+    },
+    {
+     "ref": "B8",
+     "header": "Agreed interpretation",
+     "value": "60 minutes during business support hours",
+     "header_ru": "Согласованное толкование",
+     "value_ru": "60 минут в рабочие часы поддержки"
+    }
+   ],
+   "context": {
+    "sheet": "Shift discussion",
+    "sheet_ru": "Обсуждение смены",
+    "title": "Questions from the rota meeting",
+    "title_ru": "Вопросы со встречи по графику дежурств",
+    "title_range": "A1:B2",
+    "notes": [],
+    "header_range": "A5:B5",
+    "header_ru": [
+     "Тема",
+     "Согласованное толкование"
+    ]
+   },
+   "section": "Shift discussion",
+   "section_ru": "Обсуждение смены",
+   "text_ru": "Тема: Team P1; Согласованное толкование: 60 минут в рабочие часы поддержки",
+   "text_orig": "Topic: Team P1; Agreed interpretation: 60 minutes during business support hours",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-037",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Shift discussion",
+    "row": 9,
+    "range": "A9:B9"
+   },
+   "locator_text": "лист «Shift discussion», строка 9, ячейки A9:B9",
+   "segment_sha": "bca494e348ba",
+   "cells": [
+    {
+     "ref": "A9",
+     "header": "Topic",
+     "value": "Missing evidence",
+     "header_ru": "Тема",
+     "value_ru": "Недостающие доказательства"
+    },
+    {
+     "ref": "B9",
+     "header": "Agreed interpretation",
+     "value": "Request workspace, impact, UTC start time and contact",
+     "header_ru": "Согласованное толкование",
+     "value_ru": "Запросить workspace, влияние, время начала в UTC и контакт"
+    }
+   ],
+   "context": {
+    "sheet": "Shift discussion",
+    "sheet_ru": "Обсуждение смены",
+    "title": "Questions from the rota meeting",
+    "title_ru": "Вопросы со встречи по графику дежурств",
+    "title_range": "A1:B2",
+    "notes": [],
+    "header_range": "A5:B5",
+    "header_ru": [
+     "Тема",
+     "Согласованное толкование"
+    ]
+   },
+   "section": "Shift discussion",
+   "section_ru": "Обсуждение смены",
+   "text_ru": "Тема: Недостающие доказательства; Согласованное толкование: Запросить workspace, влияние, время начала в UTC и контакт",
+   "text_orig": "Topic: Missing evidence; Agreed interpretation: Request workspace, impact, UTC start time and contact",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-038",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Shift discussion",
+    "row": 10,
+    "range": "A10:B10"
+   },
+   "locator_text": "лист «Shift discussion», строка 10, ячейки A10:B10",
+   "segment_sha": "86049810da84",
+   "cells": [
+    {
+     "ref": "A10",
+     "header": "Topic",
+     "value": "P1 communication",
+     "header_ru": "Тема",
+     "value_ru": "Коммуникация по P1"
+    },
+    {
+     "ref": "B10",
+     "header": "Agreed interpretation",
+     "value": "Updates every 30 minutes during investigation",
+     "header_ru": "Согласованное толкование",
+     "value_ru": "Обновления каждые 30 минут во время расследования"
+    }
+   ],
+   "context": {
+    "sheet": "Shift discussion",
+    "sheet_ru": "Обсуждение смены",
+    "title": "Questions from the rota meeting",
+    "title_ru": "Вопросы со встречи по графику дежурств",
+    "title_range": "A1:B2",
+    "notes": [],
+    "header_range": "A5:B5",
+    "header_ru": [
+     "Тема",
+     "Согласованное толкование"
+    ]
+   },
+   "section": "Shift discussion",
+   "section_ru": "Обсуждение смены",
+   "text_ru": "Тема: Коммуникация по P1; Согласованное толкование: Обновления каждые 30 минут во время расследования",
+   "text_orig": "Topic: P1 communication; Agreed interpretation: Updates every 30 minutes during investigation",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  },
+  {
+   "fragment_id": "11-039",
+   "doc_no": 11,
+   "doc_id": "response-targets",
+   "doc_version": "2026-09",
+   "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+   "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+   "source_lang": "en",
+   "format": "xlsx",
+   "kind": "record",
+   "locator": {
+    "sheet": "Shift discussion",
+    "row": 11,
+    "range": "A11:B11"
+   },
+   "locator_text": "лист «Shift discussion», строка 11, ячейки A11:B11",
+   "segment_sha": "b705189bb32b",
+   "cells": [
+    {
+     "ref": "A11",
+     "header": "Topic",
+     "value": "Resolution",
+     "header_ru": "Тема",
+     "value_ru": "Устранение"
+    },
+    {
+     "ref": "B11",
+     "header": "Agreed interpretation",
+     "value": "No fixed repair time is implied by first response",
+     "header_ru": "Согласованное толкование",
+     "value_ru": "Первый ответ не подразумевает фиксированного срока исправления"
+    }
+   ],
+   "context": {
+    "sheet": "Shift discussion",
+    "sheet_ru": "Обсуждение смены",
+    "title": "Questions from the rota meeting",
+    "title_ru": "Вопросы со встречи по графику дежурств",
+    "title_range": "A1:B2",
+    "notes": [],
+    "header_range": "A5:B5",
+    "header_ru": [
+     "Тема",
+     "Согласованное толкование"
+    ]
+   },
+   "section": "Shift discussion",
+   "section_ru": "Обсуждение смены",
+   "text_ru": "Тема: Устранение; Согласованное толкование: Первый ответ не подразумевает фиксированного срока исправления",
+   "text_orig": "Topic: Resolution; Agreed interpretation: No fixed repair time is implied by first response",
+   "translation": "translated",
+   "quarantine": false,
+   "status": "include",
+   "access": [
+    "support_agent",
+    "support_lead"
+   ],
+   "trust": "confirmed",
+   "dup_group": null,
+   "conflict_group": null,
+   "index": true,
+   "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+  }
+ ],
+ "_base": {
+  "no": 11,
+  "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+  "doc_id": "response-targets",
+  "title": "First human response",
+  "title_ru": null,
+  "lang": "en",
+  "format": "xlsx",
+  "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+  "decision": {
+   "no": 11,
+   "path": "documents/Клиентский сервис/response targets final.xlsx",
+   "doc_id": "response-targets",
+   "title": "First human response",
+   "lang": "en",
+   "owner": "Support Operations",
+   "version": "2026-09",
+   "updated": "2026-09-16",
+   "doc_type": "rule",
+   "status": "include",
+   "rule": "R1",
+   "reason": "Цели первого ответа Support Operations, сентябрь 2026.",
+   "access": "all",
+   "trust": "confirmed",
+   "related": [
+    16,
+    15,
+    36
+   ]
+  },
+  "fragments": [
+   {
+    "fragment_id": "11-001",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "sheet_title",
+    "locator": {
+     "sheet": "Targets",
+     "range": "A1:D2"
+    },
+    "locator_text": "лист «Targets», объединённые ячейки A1:D2",
+    "segment_sha": "4cde33b09f17",
+    "section": "Targets",
+    "section_ru": "Цели",
+    "text_ru": "Первый ответ человеком",
+    "text_orig": "First human response",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-002",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "sheet_note",
+    "locator": {
+     "sheet": "Targets",
+     "range": "A3:D5"
+    },
+    "locator_text": "лист «Targets», объединённые ячейки A3:D5",
+    "segment_sha": "826b89555c33",
+    "section": "Targets",
+    "section_ru": "Цели",
+    "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+    "text_orig": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-003",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "table_header",
+    "locator": {
+     "sheet": "Targets",
+     "row": 7,
+     "range": "A7:D7"
+    },
+    "locator_text": "лист «Targets», строка 7, ячейки A7:D7",
+    "segment_sha": "2fe20602bc05",
+    "cells": [
+     {
+      "ref": "A7",
+      "value": "Case",
+      "value_ru": "Случай"
+     },
+     {
+      "ref": "B7",
+      "value": "Target",
+      "value_ru": "Цель"
+     },
+     {
+      "ref": "C7",
+      "value": "Unit",
+      "value_ru": "Единица"
+     },
+     {
+      "ref": "D7",
+      "value": "When it applies",
+      "value_ru": "Когда применяется"
+     }
+    ],
+    "section": "Targets",
+    "section_ru": "Цели",
+    "text_ru": "Случай | Цель | Единица | Когда применяется",
+    "text_orig": "Case | Target | Unit | When it applies",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-004",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Targets",
+     "row": 8,
+     "range": "A8:D8"
+    },
+    "locator_text": "лист «Targets», строка 8, ячейки A8:D8",
+    "segment_sha": "ef89ac658c75",
+    "cells": [
+     {
+      "ref": "A8",
+      "header": "Case",
+      "value": "Enterprise P1",
+      "header_ru": "Случай",
+      "value_ru": "Enterprise P1"
+     },
+     {
+      "ref": "B8",
+      "header": "Target",
+      "value": "15",
+      "header_ru": "Цель",
+      "value_ru": "15"
+     },
+     {
+      "ref": "C8",
+      "header": "Unit",
+      "value": "minutes",
+      "header_ru": "Единица",
+      "value_ru": "минуты"
+     },
+     {
+      "ref": "D8",
+      "header": "When it applies",
+      "value": "24 hours every day",
+      "header_ru": "Когда применяется",
+      "value_ru": "24 часа, каждый день"
+     }
+    ],
+    "context": {
+     "sheet": "Targets",
+     "sheet_ru": "Цели",
+     "title": "First human response",
+     "title_ru": "Первый ответ человеком",
+     "title_range": "A1:D2",
+     "notes": [
+      {
+       "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+       "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+       "range": "A3:D5"
+      }
+     ],
+     "header_range": "A7:D7",
+     "header_ru": [
+      "Случай",
+      "Цель",
+      "Единица",
+      "Когда применяется"
+     ]
+    },
+    "section": "Targets",
+    "section_ru": "Цели",
+    "text_ru": "Случай: Enterprise P1; Цель: 15; Единица: минуты; Когда применяется: 24 часа, каждый день",
+    "text_orig": "Case: Enterprise P1; Target: 15; Unit: minutes; When it applies: 24 hours every day",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-005",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Targets",
+     "row": 9,
+     "range": "A9:D9"
+    },
+    "locator_text": "лист «Targets», строка 9, ячейки A9:D9",
+    "segment_sha": "1c05c929ed72",
+    "cells": [
+     {
+      "ref": "A9",
+      "header": "Case",
+      "value": "Enterprise P2",
+      "header_ru": "Случай",
+      "value_ru": "Enterprise P2"
+     },
+     {
+      "ref": "B9",
+      "header": "Target",
+      "value": "60",
+      "header_ru": "Цель",
+      "value_ru": "60"
+     },
+     {
+      "ref": "C9",
+      "header": "Unit",
+      "value": "minutes",
+      "header_ru": "Единица",
+      "value_ru": "минуты"
+     },
+     {
+      "ref": "D9",
+      "header": "When it applies",
+      "value": "24 hours every day",
+      "header_ru": "Когда применяется",
+      "value_ru": "24 часа, каждый день"
+     }
+    ],
+    "context": {
+     "sheet": "Targets",
+     "sheet_ru": "Цели",
+     "title": "First human response",
+     "title_ru": "Первый ответ человеком",
+     "title_range": "A1:D2",
+     "notes": [
+      {
+       "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+       "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+       "range": "A3:D5"
+      }
+     ],
+     "header_range": "A7:D7",
+     "header_ru": [
+      "Случай",
+      "Цель",
+      "Единица",
+      "Когда применяется"
+     ]
+    },
+    "section": "Targets",
+    "section_ru": "Цели",
+    "text_ru": "Случай: Enterprise P2; Цель: 60; Единица: минуты; Когда применяется: 24 часа, каждый день",
+    "text_orig": "Case: Enterprise P2; Target: 60; Unit: minutes; When it applies: 24 hours every day",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-006",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Targets",
+     "row": 10,
+     "range": "A10:D10"
+    },
+    "locator_text": "лист «Targets», строка 10, ячейки A10:D10",
+    "segment_sha": "50ce667b6f43",
+    "cells": [
+     {
+      "ref": "A10",
+      "header": "Case",
+      "value": "Team P1",
+      "header_ru": "Случай",
+      "value_ru": "Team P1"
+     },
+     {
+      "ref": "B10",
+      "header": "Target",
+      "value": "60",
+      "header_ru": "Цель",
+      "value_ru": "60"
+     },
+     {
+      "ref": "C10",
+      "header": "Unit",
+      "value": "minutes",
+      "header_ru": "Единица",
+      "value_ru": "минуты"
+     },
+     {
+      "ref": "D10",
+      "header": "When it applies",
+      "value": "Business support hours",
+      "header_ru": "Когда применяется",
+      "value_ru": "Рабочие часы поддержки"
+     }
+    ],
+    "context": {
+     "sheet": "Targets",
+     "sheet_ru": "Цели",
+     "title": "First human response",
+     "title_ru": "Первый ответ человеком",
+     "title_range": "A1:D2",
+     "notes": [
+      {
+       "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+       "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+       "range": "A3:D5"
+      }
+     ],
+     "header_range": "A7:D7",
+     "header_ru": [
+      "Случай",
+      "Цель",
+      "Единица",
+      "Когда применяется"
+     ]
+    },
+    "section": "Targets",
+    "section_ru": "Цели",
+    "text_ru": "Случай: Team P1; Цель: 60; Единица: минуты; Когда применяется: Рабочие часы поддержки",
+    "text_orig": "Case: Team P1; Target: 60; Unit: minutes; When it applies: Business support hours",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-007",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Targets",
+     "row": 11,
+     "range": "A11:D11"
+    },
+    "locator_text": "лист «Targets», строка 11, ячейки A11:D11",
+    "segment_sha": "b58a15b665fc",
+    "cells": [
+     {
+      "ref": "A11",
+      "header": "Case",
+      "value": "Team P2",
+      "header_ru": "Случай",
+      "value_ru": "Team P2"
+     },
+     {
+      "ref": "B11",
+      "header": "Target",
+      "value": "240",
+      "header_ru": "Цель",
+      "value_ru": "240"
+     },
+     {
+      "ref": "C11",
+      "header": "Unit",
+      "value": "minutes",
+      "header_ru": "Единица",
+      "value_ru": "минуты"
+     },
+     {
+      "ref": "D11",
+      "header": "When it applies",
+      "value": "Business support hours",
+      "header_ru": "Когда применяется",
+      "value_ru": "Рабочие часы поддержки"
+     }
+    ],
+    "context": {
+     "sheet": "Targets",
+     "sheet_ru": "Цели",
+     "title": "First human response",
+     "title_ru": "Первый ответ человеком",
+     "title_range": "A1:D2",
+     "notes": [
+      {
+       "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+       "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+       "range": "A3:D5"
+      }
+     ],
+     "header_range": "A7:D7",
+     "header_ru": [
+      "Случай",
+      "Цель",
+      "Единица",
+      "Когда применяется"
+     ]
+    },
+    "section": "Targets",
+    "section_ru": "Цели",
+    "text_ru": "Случай: Team P2; Цель: 240; Единица: минуты; Когда применяется: Рабочие часы поддержки",
+    "text_orig": "Case: Team P2; Target: 240; Unit: minutes; When it applies: Business support hours",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-008",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Targets",
+     "row": 12,
+     "range": "A12:D12"
+    },
+    "locator_text": "лист «Targets», строка 12, ячейки A12:D12",
+    "segment_sha": "3c0b1f8d3e4c",
+    "cells": [
+     {
+      "ref": "A12",
+      "header": "Case",
+      "value": "Starter",
+      "header_ru": "Случай",
+      "value_ru": "Starter"
+     },
+     {
+      "ref": "B12",
+      "header": "Target",
+      "value": "2",
+      "header_ru": "Цель",
+      "value_ru": "2"
+     },
+     {
+      "ref": "C12",
+      "header": "Unit",
+      "value": "business days",
+      "header_ru": "Единица",
+      "value_ru": "рабочие дни"
+     },
+     {
+      "ref": "D12",
+      "header": "When it applies",
+      "value": "All supported priorities",
+      "header_ru": "Когда применяется",
+      "value_ru": "Все поддерживаемые приоритеты"
+     }
+    ],
+    "context": {
+     "sheet": "Targets",
+     "sheet_ru": "Цели",
+     "title": "First human response",
+     "title_ru": "Первый ответ человеком",
+     "title_range": "A1:D2",
+     "notes": [
+      {
+       "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+       "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+       "range": "A3:D5"
+      }
+     ],
+     "header_range": "A7:D7",
+     "header_ru": [
+      "Случай",
+      "Цель",
+      "Единица",
+      "Когда применяется"
+     ]
+    },
+    "section": "Targets",
+    "section_ru": "Цели",
+    "text_ru": "Случай: Starter; Цель: 2; Единица: рабочие дни; Когда применяется: Все поддерживаемые приоритеты",
+    "text_orig": "Case: Starter; Target: 2; Unit: business days; When it applies: All supported priorities",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-009",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Targets",
+     "row": 13,
+     "range": "A13:D13"
+    },
+    "locator_text": "лист «Targets», строка 13, ячейки A13:D13",
+    "segment_sha": "c10a6f2d1dd8",
+    "cells": [
+     {
+      "ref": "A13",
+      "header": "Case",
+      "value": "Business support hours",
+      "header_ru": "Случай",
+      "value_ru": "Рабочие часы поддержки"
+     },
+     {
+      "ref": "B13",
+      "header": "Target",
+      "value": "09:00 to 18:00",
+      "header_ru": "Цель",
+      "value_ru": "с 09:00 до 18:00"
+     },
+     {
+      "ref": "C13",
+      "header": "Unit",
+      "value": "Europe/Berlin",
+      "header_ru": "Единица",
+      "value_ru": "Europe/Berlin"
+     },
+     {
+      "ref": "D13",
+      "header": "When it applies",
+      "value": "Monday through Friday excluding contract holidays",
+      "header_ru": "Когда применяется",
+      "value_ru": "С понедельника по пятницу, кроме праздников по договору"
+     }
+    ],
+    "context": {
+     "sheet": "Targets",
+     "sheet_ru": "Цели",
+     "title": "First human response",
+     "title_ru": "Первый ответ человеком",
+     "title_range": "A1:D2",
+     "notes": [
+      {
+       "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+       "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+       "range": "A3:D5"
+      }
+     ],
+     "header_range": "A7:D7",
+     "header_ru": [
+      "Случай",
+      "Цель",
+      "Единица",
+      "Когда применяется"
+     ]
+    },
+    "section": "Targets",
+    "section_ru": "Цели",
+    "text_ru": "Случай: Рабочие часы поддержки; Цель: с 09:00 до 18:00; Единица: Europe/Berlin; Когда применяется: С понедельника по пятницу, кроме праздников по договору",
+    "text_orig": "Case: Business support hours; Target: 09:00 to 18:00; Unit: Europe/Berlin; When it applies: Monday through Friday excluding contract holidays",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-010",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Targets",
+     "row": 14,
+     "range": "A14:D14"
+    },
+    "locator_text": "лист «Targets», строка 14, ячейки A14:D14",
+    "segment_sha": "8c289e4ab6a2",
+    "cells": [
+     {
+      "ref": "A14",
+      "header": "Case",
+      "value": "Required context",
+      "header_ru": "Случай",
+      "value_ru": "Обязательный контекст"
+     },
+     {
+      "ref": "B14",
+      "header": "Target",
+      "value": "Workspace ID and impact",
+      "header_ru": "Цель",
+      "value_ru": "Workspace ID и влияние"
+     },
+     {
+      "ref": "C14",
+      "header": "Unit",
+      "value": "evidence",
+      "header_ru": "Единица",
+      "value_ru": "доказательства"
+     },
+     {
+      "ref": "D14",
+      "header": "When it applies",
+      "value": "Also include UTC start time and contact",
+      "header_ru": "Когда применяется",
+      "value_ru": "Также указать время начала в UTC и контакт"
+     }
+    ],
+    "context": {
+     "sheet": "Targets",
+     "sheet_ru": "Цели",
+     "title": "First human response",
+     "title_ru": "Первый ответ человеком",
+     "title_range": "A1:D2",
+     "notes": [
+      {
+       "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+       "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+       "range": "A3:D5"
+      }
+     ],
+     "header_range": "A7:D7",
+     "header_ru": [
+      "Случай",
+      "Цель",
+      "Единица",
+      "Когда применяется"
+     ]
+    },
+    "section": "Targets",
+    "section_ru": "Цели",
+    "text_ru": "Случай: Обязательный контекст; Цель: Workspace ID и влияние; Единица: доказательства; Когда применяется: Также указать время начала в UTC и контакт",
+    "text_orig": "Case: Required context; Target: Workspace ID and impact; Unit: evidence; When it applies: Also include UTC start time and contact",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-011",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Targets",
+     "row": 15,
+     "range": "A15:D15"
+    },
+    "locator_text": "лист «Targets», строка 15, ячейки A15:D15",
+    "segment_sha": "2dfc6f2dfe03",
+    "cells": [
+     {
+      "ref": "A15",
+      "header": "Case",
+      "value": "Clock start",
+      "header_ru": "Случай",
+      "value_ru": "Начало отсчёта"
+     },
+     {
+      "ref": "B15",
+      "header": "Target",
+      "value": "Complete report received",
+      "header_ru": "Цель",
+      "value_ru": "Получено полное сообщение"
+     },
+     {
+      "ref": "C15",
+      "header": "Unit",
+      "value": "event",
+      "header_ru": "Единица",
+      "value_ru": "событие"
+     },
+     {
+      "ref": "D15",
+      "header": "When it applies",
+      "value": "Missing required context pauses target measurement",
+      "header_ru": "Когда применяется",
+      "value_ru": "Отсутствие обязательного контекста приостанавливает измерение цели"
+     }
+    ],
+    "context": {
+     "sheet": "Targets",
+     "sheet_ru": "Цели",
+     "title": "First human response",
+     "title_ru": "Первый ответ человеком",
+     "title_range": "A1:D2",
+     "notes": [
+      {
+       "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+       "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+       "range": "A3:D5"
+      }
+     ],
+     "header_range": "A7:D7",
+     "header_ru": [
+      "Случай",
+      "Цель",
+      "Единица",
+      "Когда применяется"
+     ]
+    },
+    "section": "Targets",
+    "section_ru": "Цели",
+    "text_ru": "Случай: Начало отсчёта; Цель: Получено полное сообщение; Единица: событие; Когда применяется: Отсутствие обязательного контекста приостанавливает измерение цели",
+    "text_orig": "Case: Clock start; Target: Complete report received; Unit: event; When it applies: Missing required context pauses target measurement",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-012",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Targets",
+     "row": 16,
+     "range": "A16:D16"
+    },
+    "locator_text": "лист «Targets», строка 16, ячейки A16:D16",
+    "segment_sha": "321e2d83ba47",
+    "cells": [
+     {
+      "ref": "A16",
+      "header": "Case",
+      "value": "Update frequency P1",
+      "header_ru": "Случай",
+      "value_ru": "Частота обновлений P1"
+     },
+     {
+      "ref": "B16",
+      "header": "Target",
+      "value": "30",
+      "header_ru": "Цель",
+      "value_ru": "30"
+     },
+     {
+      "ref": "C16",
+      "header": "Unit",
+      "value": "minutes",
+      "header_ru": "Единица",
+      "value_ru": "минуты"
+     },
+     {
+      "ref": "D16",
+      "header": "When it applies",
+      "value": "During active investigation",
+      "header_ru": "Когда применяется",
+      "value_ru": "Во время активного расследования"
+     }
+    ],
+    "context": {
+     "sheet": "Targets",
+     "sheet_ru": "Цели",
+     "title": "First human response",
+     "title_ru": "Первый ответ человеком",
+     "title_range": "A1:D2",
+     "notes": [
+      {
+       "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+       "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+       "range": "A3:D5"
+      }
+     ],
+     "header_range": "A7:D7",
+     "header_ru": [
+      "Случай",
+      "Цель",
+      "Единица",
+      "Когда применяется"
+     ]
+    },
+    "section": "Targets",
+    "section_ru": "Цели",
+    "text_ru": "Случай: Частота обновлений P1; Цель: 30; Единица: минуты; Когда применяется: Во время активного расследования",
+    "text_orig": "Case: Update frequency P1; Target: 30; Unit: minutes; When it applies: During active investigation",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-013",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Targets",
+     "row": 17,
+     "range": "A17:D17"
+    },
+    "locator_text": "лист «Targets», строка 17, ячейки A17:D17",
+    "segment_sha": "f45ab348631f",
+    "cells": [
+     {
+      "ref": "A17",
+      "header": "Case",
+      "value": "Resolution",
+      "header_ru": "Случай",
+      "value_ru": "Устранение"
+     },
+     {
+      "ref": "B17",
+      "header": "Target",
+      "value": "No fixed time",
+      "header_ru": "Цель",
+      "value_ru": "Фиксированного срока нет"
+     },
+     {
+      "ref": "C17",
+      "header": "Unit",
+      "value": "rule",
+      "header_ru": "Единица",
+      "value_ru": "правило"
+     },
+     {
+      "ref": "D17",
+      "header": "When it applies",
+      "value": "Do not present first response as a repair guarantee",
+      "header_ru": "Когда применяется",
+      "value_ru": "Не представлять первый ответ как гарантию исправления"
+     }
+    ],
+    "context": {
+     "sheet": "Targets",
+     "sheet_ru": "Цели",
+     "title": "First human response",
+     "title_ru": "Первый ответ человеком",
+     "title_range": "A1:D2",
+     "notes": [
+      {
+       "text": "Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+       "text_ru": "Support Operations, сентябрь 2026. Отсчёт цели начинается после получения полного сообщения об инциденте. Цель первого ответа не является обещанием срока исправления.",
+       "range": "A3:D5"
+      }
+     ],
+     "header_range": "A7:D7",
+     "header_ru": [
+      "Случай",
+      "Цель",
+      "Единица",
+      "Когда применяется"
+     ]
+    },
+    "section": "Targets",
+    "section_ru": "Цели",
+    "text_ru": "Случай: Устранение; Цель: Фиксированного срока нет; Единица: правило; Когда применяется: Не представлять первый ответ как гарантию исправления",
+    "text_orig": "Case: Resolution; Target: No fixed time; Unit: rule; When it applies: Do not present first response as a repair guarantee",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-014",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "sheet_title",
+    "locator": {
+     "sheet": "Queue review",
+     "range": "A1:F2"
+    },
+    "locator_text": "лист «Queue review», объединённые ячейки A1:F2",
+    "segment_sha": "8c4aa047f716",
+    "section": "Queue review",
+    "section_ru": "Разбор очереди",
+    "text_ru": "Примеры из очереди за сентябрь",
+    "text_orig": "September queue samples",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-015",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "table_header",
+    "locator": {
+     "sheet": "Queue review",
+     "row": 5,
+     "range": "A5:F5"
+    },
+    "locator_text": "лист «Queue review», строка 5, ячейки A5:F5",
+    "segment_sha": "813ec7e91112",
+    "cells": [
+     {
+      "ref": "A5",
+      "value": "Received UTC",
+      "value_ru": "Получено (UTC)"
+     },
+     {
+      "ref": "B5",
+      "value": "Plan",
+      "value_ru": "Тариф"
+     },
+     {
+      "ref": "C5",
+      "value": "Priority",
+      "value_ru": "Приоритет"
+     },
+     {
+      "ref": "D5",
+      "value": "Complete context",
+      "value_ru": "Полнота контекста"
+     },
+     {
+      "ref": "E5",
+      "value": "Owner action",
+      "value_ru": "Действие ответственного"
+     },
+     {
+      "ref": "F5",
+      "value": "Observation",
+      "value_ru": "Наблюдение"
+     }
+    ],
+    "section": "Queue review",
+    "section_ru": "Разбор очереди",
+    "text_ru": "Получено (UTC) | Тариф | Приоритет | Полнота контекста | Действие ответственного | Наблюдение",
+    "text_orig": "Received UTC | Plan | Priority | Complete context | Owner action | Observation",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-016",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Queue review",
+     "row": 6,
+     "range": "A6:F6"
+    },
+    "locator_text": "лист «Queue review», строка 6, ячейки A6:F6",
+    "segment_sha": "c9c7592aaace",
+    "cells": [
+     {
+      "ref": "A6",
+      "header": "Received UTC",
+      "value": "2026-09-07 07:12",
+      "header_ru": "Получено (UTC)",
+      "value_ru": "2026-09-07 07:12"
+     },
+     {
+      "ref": "B6",
+      "header": "Plan",
+      "value": "Enterprise",
+      "header_ru": "Тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "ref": "C6",
+      "header": "Priority",
+      "value": "P1",
+      "header_ru": "Приоритет",
+      "value_ru": "P1"
+     },
+     {
+      "ref": "D6",
+      "header": "Complete context",
+      "value": "Workspace and UTC start supplied",
+      "header_ru": "Полнота контекста",
+      "value_ru": "Указаны workspace и время начала в UTC"
+     },
+     {
+      "ref": "E6",
+      "header": "Owner action",
+      "value": "Response team paged",
+      "header_ru": "Действие ответственного",
+      "value_ru": "Вызвана команда реагирования"
+     },
+     {
+      "ref": "F6",
+      "header": "Observation",
+      "value": "All participants unable to open cards; no workaround",
+      "header_ru": "Наблюдение",
+      "value_ru": "Все участники не могут открыть карточки; обходного пути нет"
+     }
+    ],
+    "context": {
+     "sheet": "Queue review",
+     "sheet_ru": "Разбор очереди",
+     "title": "September queue samples",
+     "title_ru": "Примеры из очереди за сентябрь",
+     "title_range": "A1:F2",
+     "notes": [],
+     "header_range": "A5:F5",
+     "header_ru": [
+      "Получено (UTC)",
+      "Тариф",
+      "Приоритет",
+      "Полнота контекста",
+      "Действие ответственного",
+      "Наблюдение"
+     ]
+    },
+    "section": "Queue review",
+    "section_ru": "Разбор очереди",
+    "text_ru": "Получено (UTC): 2026-09-07 07:12; Тариф: Enterprise; Приоритет: P1; Полнота контекста: Указаны workspace и время начала в UTC; Действие ответственного: Вызвана команда реагирования; Наблюдение: Все участники не могут открыть карточки; обходного пути нет",
+    "text_orig": "Received UTC: 2026-09-07 07:12; Plan: Enterprise; Priority: P1; Complete context: Workspace and UTC start supplied; Owner action: Response team paged; Observation: All participants unable to open cards; no workaround",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-017",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Queue review",
+     "row": 7,
+     "range": "A7:F7"
+    },
+    "locator_text": "лист «Queue review», строка 7, ячейки A7:F7",
+    "segment_sha": "3776420b6efc",
+    "cells": [
+     {
+      "ref": "A7",
+      "header": "Received UTC",
+      "value": "2026-09-07 09:38",
+      "header_ru": "Получено (UTC)",
+      "value_ru": "2026-09-07 09:38"
+     },
+     {
+      "ref": "B7",
+      "header": "Plan",
+      "value": "Team",
+      "header_ru": "Тариф",
+      "value_ru": "Team"
+     },
+     {
+      "ref": "C7",
+      "header": "Priority",
+      "value": "P2",
+      "header_ru": "Приоритет",
+      "value_ru": "P2"
+     },
+     {
+      "ref": "D7",
+      "header": "Complete context",
+      "value": "Complete",
+      "header_ru": "Полнота контекста",
+      "value_ru": "Полный"
+     },
+     {
+      "ref": "E7",
+      "header": "Owner action",
+      "value": "Reproduce attachment delay",
+      "header_ru": "Действие ответственного",
+      "value_ru": "Воспроизвести задержку вложений"
+     },
+     {
+      "ref": "F7",
+      "header": "Observation",
+      "value": "Uploads work after retry; customer can continue by link",
+      "header_ru": "Наблюдение",
+      "value_ru": "Загрузка работает после повтора; клиент может продолжать работу по ссылке"
+     }
+    ],
+    "context": {
+     "sheet": "Queue review",
+     "sheet_ru": "Разбор очереди",
+     "title": "September queue samples",
+     "title_ru": "Примеры из очереди за сентябрь",
+     "title_range": "A1:F2",
+     "notes": [],
+     "header_range": "A5:F5",
+     "header_ru": [
+      "Получено (UTC)",
+      "Тариф",
+      "Приоритет",
+      "Полнота контекста",
+      "Действие ответственного",
+      "Наблюдение"
+     ]
+    },
+    "section": "Queue review",
+    "section_ru": "Разбор очереди",
+    "text_ru": "Получено (UTC): 2026-09-07 09:38; Тариф: Team; Приоритет: P2; Полнота контекста: Полный; Действие ответственного: Воспроизвести задержку вложений; Наблюдение: Загрузка работает после повтора; клиент может продолжать работу по ссылке",
+    "text_orig": "Received UTC: 2026-09-07 09:38; Plan: Team; Priority: P2; Complete context: Complete; Owner action: Reproduce attachment delay; Observation: Uploads work after retry; customer can continue by link",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-018",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Queue review",
+     "row": 8,
+     "range": "A8:F8"
+    },
+    "locator_text": "лист «Queue review», строка 8, ячейки A8:F8",
+    "segment_sha": "e5541261f2d2",
+    "cells": [
+     {
+      "ref": "A8",
+      "header": "Received UTC",
+      "value": "2026-09-07 13:04",
+      "header_ru": "Получено (UTC)",
+      "value_ru": "2026-09-07 13:04"
+     },
+     {
+      "ref": "B8",
+      "header": "Plan",
+      "value": "Starter",
+      "header_ru": "Тариф",
+      "value_ru": "Starter"
+     },
+     {
+      "ref": "C8",
+      "header": "Priority",
+      "value": "P3",
+      "header_ru": "Приоритет",
+      "value_ru": "P3"
+     },
+     {
+      "ref": "D8",
+      "header": "Complete context",
+      "value": "Browser version missing",
+      "header_ru": "Полнота контекста",
+      "value_ru": "Нет версии браузера"
+     },
+     {
+      "ref": "E8",
+      "header": "Owner action",
+      "value": "Request client version",
+      "header_ru": "Действие ответственного",
+      "value_ru": "Запросить версию клиента"
+     },
+     {
+      "ref": "F8",
+      "header": "Observation",
+      "value": "Only one participant sees a stale preview",
+      "header_ru": "Наблюдение",
+      "value_ru": "Устаревший предпросмотр видит только один участник"
+     }
+    ],
+    "context": {
+     "sheet": "Queue review",
+     "sheet_ru": "Разбор очереди",
+     "title": "September queue samples",
+     "title_ru": "Примеры из очереди за сентябрь",
+     "title_range": "A1:F2",
+     "notes": [],
+     "header_range": "A5:F5",
+     "header_ru": [
+      "Получено (UTC)",
+      "Тариф",
+      "Приоритет",
+      "Полнота контекста",
+      "Действие ответственного",
+      "Наблюдение"
+     ]
+    },
+    "section": "Queue review",
+    "section_ru": "Разбор очереди",
+    "text_ru": "Получено (UTC): 2026-09-07 13:04; Тариф: Starter; Приоритет: P3; Полнота контекста: Нет версии браузера; Действие ответственного: Запросить версию клиента; Наблюдение: Устаревший предпросмотр видит только один участник",
+    "text_orig": "Received UTC: 2026-09-07 13:04; Plan: Starter; Priority: P3; Complete context: Browser version missing; Owner action: Request client version; Observation: Only one participant sees a stale preview",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-019",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Queue review",
+     "row": 9,
+     "range": "A9:F9"
+    },
+    "locator_text": "лист «Queue review», строка 9, ячейки A9:F9",
+    "segment_sha": "ac807c4b4a63",
+    "cells": [
+     {
+      "ref": "A9",
+      "header": "Received UTC",
+      "value": "2026-09-08 00:47",
+      "header_ru": "Получено (UTC)",
+      "value_ru": "2026-09-08 00:47"
+     },
+     {
+      "ref": "B9",
+      "header": "Plan",
+      "value": "Enterprise",
+      "header_ru": "Тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "ref": "C9",
+      "header": "Priority",
+      "value": "P1",
+      "header_ru": "Приоритет",
+      "value_ru": "P1"
+     },
+     {
+      "ref": "D9",
+      "header": "Complete context",
+      "value": "Complete",
+      "header_ru": "Полнота контекста",
+      "value_ru": "Полный"
+     },
+     {
+      "ref": "E9",
+      "header": "Owner action",
+      "value": "Acknowledge and coordinate",
+      "header_ru": "Действие ответственного",
+      "value_ru": "Подтвердить получение и координировать"
+     },
+     {
+      "ref": "F9",
+      "header": "Observation",
+      "value": "Emergency administrator remains available; impact confirmed",
+      "header_ru": "Наблюдение",
+      "value_ru": "Аварийный администратор остаётся доступен; влияние подтверждено"
+     }
+    ],
+    "context": {
+     "sheet": "Queue review",
+     "sheet_ru": "Разбор очереди",
+     "title": "September queue samples",
+     "title_ru": "Примеры из очереди за сентябрь",
+     "title_range": "A1:F2",
+     "notes": [],
+     "header_range": "A5:F5",
+     "header_ru": [
+      "Получено (UTC)",
+      "Тариф",
+      "Приоритет",
+      "Полнота контекста",
+      "Действие ответственного",
+      "Наблюдение"
+     ]
+    },
+    "section": "Queue review",
+    "section_ru": "Разбор очереди",
+    "text_ru": "Получено (UTC): 2026-09-08 00:47; Тариф: Enterprise; Приоритет: P1; Полнота контекста: Полный; Действие ответственного: Подтвердить получение и координировать; Наблюдение: Аварийный администратор остаётся доступен; влияние подтверждено",
+    "text_orig": "Received UTC: 2026-09-08 00:47; Plan: Enterprise; Priority: P1; Complete context: Complete; Owner action: Acknowledge and coordinate; Observation: Emergency administrator remains available; impact confirmed",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-020",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Queue review",
+     "row": 10,
+     "range": "A10:F10"
+    },
+    "locator_text": "лист «Queue review», строка 10, ячейки A10:F10",
+    "segment_sha": "68db65d52b1c",
+    "cells": [
+     {
+      "ref": "A10",
+      "header": "Received UTC",
+      "value": "2026-09-08 10:16",
+      "header_ru": "Получено (UTC)",
+      "value_ru": "2026-09-08 10:16"
+     },
+     {
+      "ref": "B10",
+      "header": "Plan",
+      "value": "Team",
+      "header_ru": "Тариф",
+      "value_ru": "Team"
+     },
+     {
+      "ref": "C10",
+      "header": "Priority",
+      "value": "P2",
+      "header_ru": "Приоритет",
+      "value_ru": "P2"
+     },
+     {
+      "ref": "D10",
+      "header": "Complete context",
+      "value": "Impact not yet stated",
+      "header_ru": "Полнота контекста",
+      "value_ru": "Влияние ещё не указано"
+     },
+     {
+      "ref": "E10",
+      "header": "Owner action",
+      "value": "Ask what work is blocked",
+      "header_ru": "Действие ответственного",
+      "value_ru": "Спросить, какая работа заблокирована"
+     },
+     {
+      "ref": "F10",
+      "header": "Observation",
+      "value": "Report names an error but omits affected workflow",
+      "header_ru": "Наблюдение",
+      "value_ru": "В сообщении названа ошибка, но не указан затронутый рабочий процесс"
+     }
+    ],
+    "context": {
+     "sheet": "Queue review",
+     "sheet_ru": "Разбор очереди",
+     "title": "September queue samples",
+     "title_ru": "Примеры из очереди за сентябрь",
+     "title_range": "A1:F2",
+     "notes": [],
+     "header_range": "A5:F5",
+     "header_ru": [
+      "Получено (UTC)",
+      "Тариф",
+      "Приоритет",
+      "Полнота контекста",
+      "Действие ответственного",
+      "Наблюдение"
+     ]
+    },
+    "section": "Queue review",
+    "section_ru": "Разбор очереди",
+    "text_ru": "Получено (UTC): 2026-09-08 10:16; Тариф: Team; Приоритет: P2; Полнота контекста: Влияние ещё не указано; Действие ответственного: Спросить, какая работа заблокирована; Наблюдение: В сообщении названа ошибка, но не указан затронутый рабочий процесс",
+    "text_orig": "Received UTC: 2026-09-08 10:16; Plan: Team; Priority: P2; Complete context: Impact not yet stated; Owner action: Ask what work is blocked; Observation: Report names an error but omits affected workflow",
+    "translation": "translated",
+    "translation_review": {
+     "checks": [
+      "negation"
+     ],
+     "decision": "accepted",
+     "note": "«omits affected workflow» → «не указан затронутый рабочий процесс»."
+    },
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-021",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Queue review",
+     "row": 11,
+     "range": "A11:F11"
+    },
+    "locator_text": "лист «Queue review», строка 11, ячейки A11:F11",
+    "segment_sha": "fc81e04b9efc",
+    "cells": [
+     {
+      "ref": "A11",
+      "header": "Received UTC",
+      "value": "2026-09-08 15:51",
+      "header_ru": "Получено (UTC)",
+      "value_ru": "2026-09-08 15:51"
+     },
+     {
+      "ref": "B11",
+      "header": "Plan",
+      "value": "Enterprise",
+      "header_ru": "Тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "ref": "C11",
+      "header": "Priority",
+      "value": "P2",
+      "header_ru": "Приоритет",
+      "value_ru": "P2"
+     },
+     {
+      "ref": "D11",
+      "header": "Complete context",
+      "value": "Complete",
+      "header_ru": "Полнота контекста",
+      "value_ru": "Полный"
+     },
+     {
+      "ref": "E11",
+      "header": "Owner action",
+      "value": "Check integration consent",
+      "header_ru": "Действие ответственного",
+      "value_ru": "Проверить согласие для интеграции"
+     },
+     {
+      "ref": "F11",
+      "header": "Observation",
+      "value": "Connector disabled after vendor scope change",
+      "header_ru": "Наблюдение",
+      "value_ru": "Коннектор отключён после изменения scopes у вендора"
+     }
+    ],
+    "context": {
+     "sheet": "Queue review",
+     "sheet_ru": "Разбор очереди",
+     "title": "September queue samples",
+     "title_ru": "Примеры из очереди за сентябрь",
+     "title_range": "A1:F2",
+     "notes": [],
+     "header_range": "A5:F5",
+     "header_ru": [
+      "Получено (UTC)",
+      "Тариф",
+      "Приоритет",
+      "Полнота контекста",
+      "Действие ответственного",
+      "Наблюдение"
+     ]
+    },
+    "section": "Queue review",
+    "section_ru": "Разбор очереди",
+    "text_ru": "Получено (UTC): 2026-09-08 15:51; Тариф: Enterprise; Приоритет: P2; Полнота контекста: Полный; Действие ответственного: Проверить согласие для интеграции; Наблюдение: Коннектор отключён после изменения scopes у вендора",
+    "text_orig": "Received UTC: 2026-09-08 15:51; Plan: Enterprise; Priority: P2; Complete context: Complete; Owner action: Check integration consent; Observation: Connector disabled after vendor scope change",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-022",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Queue review",
+     "row": 12,
+     "range": "A12:F12"
+    },
+    "locator_text": "лист «Queue review», строка 12, ячейки A12:F12",
+    "segment_sha": "cba742d74ed3",
+    "cells": [
+     {
+      "ref": "A12",
+      "header": "Received UTC",
+      "value": "2026-09-09 08:13",
+      "header_ru": "Получено (UTC)",
+      "value_ru": "2026-09-09 08:13"
+     },
+     {
+      "ref": "B12",
+      "header": "Plan",
+      "value": "Starter",
+      "header_ru": "Тариф",
+      "value_ru": "Starter"
+     },
+     {
+      "ref": "C12",
+      "header": "Priority",
+      "value": "P4",
+      "header_ru": "Приоритет",
+      "value_ru": "P4"
+     },
+     {
+      "ref": "D12",
+      "header": "Complete context",
+      "value": "Complete",
+      "header_ru": "Полнота контекста",
+      "value_ru": "Полный"
+     },
+     {
+      "ref": "E12",
+      "header": "Owner action",
+      "value": "Answer configuration question",
+      "header_ru": "Действие ответственного",
+      "value_ru": "Ответить на вопрос о настройке"
+     },
+     {
+      "ref": "F12",
+      "header": "Observation",
+      "value": "Customer asks how to change their own timezone",
+      "header_ru": "Наблюдение",
+      "value_ru": "Клиент спрашивает, как изменить свой часовой пояс"
+     }
+    ],
+    "context": {
+     "sheet": "Queue review",
+     "sheet_ru": "Разбор очереди",
+     "title": "September queue samples",
+     "title_ru": "Примеры из очереди за сентябрь",
+     "title_range": "A1:F2",
+     "notes": [],
+     "header_range": "A5:F5",
+     "header_ru": [
+      "Получено (UTC)",
+      "Тариф",
+      "Приоритет",
+      "Полнота контекста",
+      "Действие ответственного",
+      "Наблюдение"
+     ]
+    },
+    "section": "Queue review",
+    "section_ru": "Разбор очереди",
+    "text_ru": "Получено (UTC): 2026-09-09 08:13; Тариф: Starter; Приоритет: P4; Полнота контекста: Полный; Действие ответственного: Ответить на вопрос о настройке; Наблюдение: Клиент спрашивает, как изменить свой часовой пояс",
+    "text_orig": "Received UTC: 2026-09-09 08:13; Plan: Starter; Priority: P4; Complete context: Complete; Owner action: Answer configuration question; Observation: Customer asks how to change their own timezone",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-023",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Queue review",
+     "row": 13,
+     "range": "A13:F13"
+    },
+    "locator_text": "лист «Queue review», строка 13, ячейки A13:F13",
+    "segment_sha": "35627bef67b2",
+    "cells": [
+     {
+      "ref": "A13",
+      "header": "Received UTC",
+      "value": "2026-09-09 11:29",
+      "header_ru": "Получено (UTC)",
+      "value_ru": "2026-09-09 11:29"
+     },
+     {
+      "ref": "B13",
+      "header": "Plan",
+      "value": "Team",
+      "header_ru": "Тариф",
+      "value_ru": "Team"
+     },
+     {
+      "ref": "C13",
+      "header": "Priority",
+      "value": "P1",
+      "header_ru": "Приоритет",
+      "value_ru": "P1"
+     },
+     {
+      "ref": "D13",
+      "header": "Complete context",
+      "value": "Complete",
+      "header_ru": "Полнота контекста",
+      "value_ru": "Полный"
+     },
+     {
+      "ref": "E13",
+      "header": "Owner action",
+      "value": "Link confirmed incident",
+      "header_ru": "Действие ответственного",
+      "value_ru": "Связать с подтверждённым инцидентом"
+     },
+     {
+      "ref": "F13",
+      "header": "Observation",
+      "value": "Workspace unavailable; status update posted separately",
+      "header_ru": "Наблюдение",
+      "value_ru": "Workspace недоступен; обновление статуса опубликовано отдельно"
+     }
+    ],
+    "context": {
+     "sheet": "Queue review",
+     "sheet_ru": "Разбор очереди",
+     "title": "September queue samples",
+     "title_ru": "Примеры из очереди за сентябрь",
+     "title_range": "A1:F2",
+     "notes": [],
+     "header_range": "A5:F5",
+     "header_ru": [
+      "Получено (UTC)",
+      "Тариф",
+      "Приоритет",
+      "Полнота контекста",
+      "Действие ответственного",
+      "Наблюдение"
+     ]
+    },
+    "section": "Queue review",
+    "section_ru": "Разбор очереди",
+    "text_ru": "Получено (UTC): 2026-09-09 11:29; Тариф: Team; Приоритет: P1; Полнота контекста: Полный; Действие ответственного: Связать с подтверждённым инцидентом; Наблюдение: Workspace недоступен; обновление статуса опубликовано отдельно",
+    "text_orig": "Received UTC: 2026-09-09 11:29; Plan: Team; Priority: P1; Complete context: Complete; Owner action: Link confirmed incident; Observation: Workspace unavailable; status update posted separately",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-024",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Queue review",
+     "row": 14,
+     "range": "A14:F14"
+    },
+    "locator_text": "лист «Queue review», строка 14, ячейки A14:F14",
+    "segment_sha": "3a626c5bcf1b",
+    "cells": [
+     {
+      "ref": "A14",
+      "header": "Received UTC",
+      "value": "2026-09-10 16:42",
+      "header_ru": "Получено (UTC)",
+      "value_ru": "2026-09-10 16:42"
+     },
+     {
+      "ref": "B14",
+      "header": "Plan",
+      "value": "Team",
+      "header_ru": "Тариф",
+      "value_ru": "Team"
+     },
+     {
+      "ref": "C14",
+      "header": "Priority",
+      "value": "P2",
+      "header_ru": "Приоритет",
+      "value_ru": "P2"
+     },
+     {
+      "ref": "D14",
+      "header": "Complete context",
+      "value": "UTC start missing",
+      "header_ru": "Полнота контекста",
+      "value_ru": "Нет времени начала в UTC"
+     },
+     {
+      "ref": "E14",
+      "header": "Owner action",
+      "value": "Clarify original local time",
+      "header_ru": "Действие ответственного",
+      "value_ru": "Уточнить исходное местное время"
+     },
+     {
+      "ref": "F14",
+      "header": "Observation",
+      "value": "Customer supplied Paris time without date",
+      "header_ru": "Наблюдение",
+      "value_ru": "Клиент указал парижское время без даты"
+     }
+    ],
+    "context": {
+     "sheet": "Queue review",
+     "sheet_ru": "Разбор очереди",
+     "title": "September queue samples",
+     "title_ru": "Примеры из очереди за сентябрь",
+     "title_range": "A1:F2",
+     "notes": [],
+     "header_range": "A5:F5",
+     "header_ru": [
+      "Получено (UTC)",
+      "Тариф",
+      "Приоритет",
+      "Полнота контекста",
+      "Действие ответственного",
+      "Наблюдение"
+     ]
+    },
+    "section": "Queue review",
+    "section_ru": "Разбор очереди",
+    "text_ru": "Получено (UTC): 2026-09-10 16:42; Тариф: Team; Приоритет: P2; Полнота контекста: Нет времени начала в UTC; Действие ответственного: Уточнить исходное местное время; Наблюдение: Клиент указал парижское время без даты",
+    "text_orig": "Received UTC: 2026-09-10 16:42; Plan: Team; Priority: P2; Complete context: UTC start missing; Owner action: Clarify original local time; Observation: Customer supplied Paris time without date",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-025",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Queue review",
+     "row": 15,
+     "range": "A15:F15"
+    },
+    "locator_text": "лист «Queue review», строка 15, ячейки A15:F15",
+    "segment_sha": "9f40ad2eb5d2",
+    "cells": [
+     {
+      "ref": "A15",
+      "header": "Received UTC",
+      "value": "2026-09-11 06:03",
+      "header_ru": "Получено (UTC)",
+      "value_ru": "2026-09-11 06:03"
+     },
+     {
+      "ref": "B15",
+      "header": "Plan",
+      "value": "Enterprise",
+      "header_ru": "Тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "ref": "C15",
+      "header": "Priority",
+      "value": "P2",
+      "header_ru": "Приоритет",
+      "value_ru": "P2"
+     },
+     {
+      "ref": "D15",
+      "header": "Complete context",
+      "value": "Complete",
+      "header_ru": "Полнота контекста",
+      "value_ru": "Полный"
+     },
+     {
+      "ref": "E15",
+      "header": "Owner action",
+      "value": "Inspect safe request evidence",
+      "header_ru": "Действие ответственного",
+      "value_ru": "Изучить безопасные доказательства запроса"
+     },
+     {
+      "ref": "F15",
+      "header": "Observation",
+      "value": "Sign-in succeeds for pilots; one account still needs review",
+      "header_ru": "Наблюдение",
+      "value_ru": "Вход для пилотов успешен; одна учётная запись ещё требует проверки"
+     }
+    ],
+    "context": {
+     "sheet": "Queue review",
+     "sheet_ru": "Разбор очереди",
+     "title": "September queue samples",
+     "title_ru": "Примеры из очереди за сентябрь",
+     "title_range": "A1:F2",
+     "notes": [],
+     "header_range": "A5:F5",
+     "header_ru": [
+      "Получено (UTC)",
+      "Тариф",
+      "Приоритет",
+      "Полнота контекста",
+      "Действие ответственного",
+      "Наблюдение"
+     ]
+    },
+    "section": "Queue review",
+    "section_ru": "Разбор очереди",
+    "text_ru": "Получено (UTC): 2026-09-11 06:03; Тариф: Enterprise; Приоритет: P2; Полнота контекста: Полный; Действие ответственного: Изучить безопасные доказательства запроса; Наблюдение: Вход для пилотов успешен; одна учётная запись ещё требует проверки",
+    "text_orig": "Received UTC: 2026-09-11 06:03; Plan: Enterprise; Priority: P2; Complete context: Complete; Owner action: Inspect safe request evidence; Observation: Sign-in succeeds for pilots; one account still needs review",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-026",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Queue review",
+     "row": 16,
+     "range": "A16:F16"
+    },
+    "locator_text": "лист «Queue review», строка 16, ячейки A16:F16",
+    "segment_sha": "fd9975a90ed1",
+    "cells": [
+     {
+      "ref": "A16",
+      "header": "Received UTC",
+      "value": "2026-09-11 14:37",
+      "header_ru": "Получено (UTC)",
+      "value_ru": "2026-09-11 14:37"
+     },
+     {
+      "ref": "B16",
+      "header": "Plan",
+      "value": "Team",
+      "header_ru": "Тариф",
+      "value_ru": "Team"
+     },
+     {
+      "ref": "C16",
+      "header": "Priority",
+      "value": "P3",
+      "header_ru": "Приоритет",
+      "value_ru": "P3"
+     },
+     {
+      "ref": "D16",
+      "header": "Complete context",
+      "value": "Complete",
+      "header_ru": "Полнота контекста",
+      "value_ru": "Полный"
+     },
+     {
+      "ref": "E16",
+      "header": "Owner action",
+      "value": "Verify search visibility",
+      "header_ru": "Действие ответственного",
+      "value_ru": "Проверить видимость в поиске"
+     },
+     {
+      "ref": "F16",
+      "header": "Observation",
+      "value": "Missing result belongs to a space the user cannot access",
+      "header_ru": "Наблюдение",
+      "value_ru": "Отсутствующий результат относится к пространству, к которому у пользователя нет доступа"
+     }
+    ],
+    "context": {
+     "sheet": "Queue review",
+     "sheet_ru": "Разбор очереди",
+     "title": "September queue samples",
+     "title_ru": "Примеры из очереди за сентябрь",
+     "title_range": "A1:F2",
+     "notes": [],
+     "header_range": "A5:F5",
+     "header_ru": [
+      "Получено (UTC)",
+      "Тариф",
+      "Приоритет",
+      "Полнота контекста",
+      "Действие ответственного",
+      "Наблюдение"
+     ]
+    },
+    "section": "Queue review",
+    "section_ru": "Разбор очереди",
+    "text_ru": "Получено (UTC): 2026-09-11 14:37; Тариф: Team; Приоритет: P3; Полнота контекста: Полный; Действие ответственного: Проверить видимость в поиске; Наблюдение: Отсутствующий результат относится к пространству, к которому у пользователя нет доступа",
+    "text_orig": "Received UTC: 2026-09-11 14:37; Plan: Team; Priority: P3; Complete context: Complete; Owner action: Verify search visibility; Observation: Missing result belongs to a space the user cannot access",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-027",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Queue review",
+     "row": 17,
+     "range": "A17:F17"
+    },
+    "locator_text": "лист «Queue review», строка 17, ячейки A17:F17",
+    "segment_sha": "3f4f73b86451",
+    "cells": [
+     {
+      "ref": "A17",
+      "header": "Received UTC",
+      "value": "2026-09-12 09:22",
+      "header_ru": "Получено (UTC)",
+      "value_ru": "2026-09-12 09:22"
+     },
+     {
+      "ref": "B17",
+      "header": "Plan",
+      "value": "Starter",
+      "header_ru": "Тариф",
+      "value_ru": "Starter"
+     },
+     {
+      "ref": "C17",
+      "header": "Priority",
+      "value": "P4",
+      "header_ru": "Приоритет",
+      "value_ru": "P4"
+     },
+     {
+      "ref": "D17",
+      "header": "Complete context",
+      "value": "Invoice reference missing",
+      "header_ru": "Полнота контекста",
+      "value_ru": "Нет ссылки на счёт"
+     },
+     {
+      "ref": "E17",
+      "header": "Owner action",
+      "value": "Ask for invoice reference",
+      "header_ru": "Действие ответственного",
+      "value_ru": "Запросить ссылку на счёт"
+     },
+     {
+      "ref": "F17",
+      "header": "Observation",
+      "value": "Correction request must remain with Billing Support",
+      "header_ru": "Наблюдение",
+      "value_ru": "Запрос на исправление должен оставаться у Billing Support"
+     }
+    ],
+    "context": {
+     "sheet": "Queue review",
+     "sheet_ru": "Разбор очереди",
+     "title": "September queue samples",
+     "title_ru": "Примеры из очереди за сентябрь",
+     "title_range": "A1:F2",
+     "notes": [],
+     "header_range": "A5:F5",
+     "header_ru": [
+      "Получено (UTC)",
+      "Тариф",
+      "Приоритет",
+      "Полнота контекста",
+      "Действие ответственного",
+      "Наблюдение"
+     ]
+    },
+    "section": "Queue review",
+    "section_ru": "Разбор очереди",
+    "text_ru": "Получено (UTC): 2026-09-12 09:22; Тариф: Starter; Приоритет: P4; Полнота контекста: Нет ссылки на счёт; Действие ответственного: Запросить ссылку на счёт; Наблюдение: Запрос на исправление должен оставаться у Billing Support",
+    "text_orig": "Received UTC: 2026-09-12 09:22; Plan: Starter; Priority: P4; Complete context: Invoice reference missing; Owner action: Ask for invoice reference; Observation: Correction request must remain with Billing Support",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-028",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Queue review",
+     "row": 18,
+     "range": "A18:F18"
+    },
+    "locator_text": "лист «Queue review», строка 18, ячейки A18:F18",
+    "segment_sha": "18ed2ee76933",
+    "cells": [
+     {
+      "ref": "A18",
+      "header": "Received UTC",
+      "value": "2026-09-14 09:06",
+      "header_ru": "Получено (UTC)",
+      "value_ru": "2026-09-14 09:06"
+     },
+     {
+      "ref": "B18",
+      "header": "Plan",
+      "value": "Team",
+      "header_ru": "Тариф",
+      "value_ru": "Team"
+     },
+     {
+      "ref": "C18",
+      "header": "Priority",
+      "value": "P2",
+      "header_ru": "Приоритет",
+      "value_ru": "P2"
+     },
+     {
+      "ref": "D18",
+      "header": "Complete context",
+      "value": "Complete",
+      "header_ru": "Полнота контекста",
+      "value_ru": "Полный"
+     },
+     {
+      "ref": "E18",
+      "header": "Owner action",
+      "value": "Check export filter",
+      "header_ru": "Действие ответственного",
+      "value_ru": "Проверить фильтр экспорта"
+     },
+     {
+      "ref": "F18",
+      "header": "Observation",
+      "value": "Selection exceeds current per-job allowance",
+      "header_ru": "Наблюдение",
+      "value_ru": "Выборка превышает текущий допустимый объём на одно задание"
+     }
+    ],
+    "context": {
+     "sheet": "Queue review",
+     "sheet_ru": "Разбор очереди",
+     "title": "September queue samples",
+     "title_ru": "Примеры из очереди за сентябрь",
+     "title_range": "A1:F2",
+     "notes": [],
+     "header_range": "A5:F5",
+     "header_ru": [
+      "Получено (UTC)",
+      "Тариф",
+      "Приоритет",
+      "Полнота контекста",
+      "Действие ответственного",
+      "Наблюдение"
+     ]
+    },
+    "section": "Queue review",
+    "section_ru": "Разбор очереди",
+    "text_ru": "Получено (UTC): 2026-09-14 09:06; Тариф: Team; Приоритет: P2; Полнота контекста: Полный; Действие ответственного: Проверить фильтр экспорта; Наблюдение: Выборка превышает текущий допустимый объём на одно задание",
+    "text_orig": "Received UTC: 2026-09-14 09:06; Plan: Team; Priority: P2; Complete context: Complete; Owner action: Check export filter; Observation: Selection exceeds current per-job allowance",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-029",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Queue review",
+     "row": 19,
+     "range": "A19:F19"
+    },
+    "locator_text": "лист «Queue review», строка 19, ячейки A19:F19",
+    "segment_sha": "f5eeeab1aa87",
+    "cells": [
+     {
+      "ref": "A19",
+      "header": "Received UTC",
+      "value": "2026-09-14 11:48",
+      "header_ru": "Получено (UTC)",
+      "value_ru": "2026-09-14 11:48"
+     },
+     {
+      "ref": "B19",
+      "header": "Plan",
+      "value": "Enterprise",
+      "header_ru": "Тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "ref": "C19",
+      "header": "Priority",
+      "value": "P1",
+      "header_ru": "Приоритет",
+      "value_ru": "P1"
+     },
+     {
+      "ref": "D19",
+      "header": "Complete context",
+      "value": "Complete",
+      "header_ru": "Полнота контекста",
+      "value_ru": "Полный"
+     },
+     {
+      "ref": "E19",
+      "header": "Owner action",
+      "value": "Start response coordination",
+      "header_ru": "Действие ответственного",
+      "value_ru": "Начать координацию реагирования"
+     },
+     {
+      "ref": "F19",
+      "header": "Observation",
+      "value": "Report covers one affected region, not every workspace",
+      "header_ru": "Наблюдение",
+      "value_ru": "Сообщение относится к одному затронутому региону, а не ко всем workspace"
+     }
+    ],
+    "context": {
+     "sheet": "Queue review",
+     "sheet_ru": "Разбор очереди",
+     "title": "September queue samples",
+     "title_ru": "Примеры из очереди за сентябрь",
+     "title_range": "A1:F2",
+     "notes": [],
+     "header_range": "A5:F5",
+     "header_ru": [
+      "Получено (UTC)",
+      "Тариф",
+      "Приоритет",
+      "Полнота контекста",
+      "Действие ответственного",
+      "Наблюдение"
+     ]
+    },
+    "section": "Queue review",
+    "section_ru": "Разбор очереди",
+    "text_ru": "Получено (UTC): 2026-09-14 11:48; Тариф: Enterprise; Приоритет: P1; Полнота контекста: Полный; Действие ответственного: Начать координацию реагирования; Наблюдение: Сообщение относится к одному затронутому региону, а не ко всем workspace",
+    "text_orig": "Received UTC: 2026-09-14 11:48; Plan: Enterprise; Priority: P1; Complete context: Complete; Owner action: Start response coordination; Observation: Report covers one affected region, not every workspace",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-030",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Queue review",
+     "row": 20,
+     "range": "A20:F20"
+    },
+    "locator_text": "лист «Queue review», строка 20, ячейки A20:F20",
+    "segment_sha": "e02f614b8d2c",
+    "cells": [
+     {
+      "ref": "A20",
+      "header": "Received UTC",
+      "value": "2026-09-15 10:31",
+      "header_ru": "Получено (UTC)",
+      "value_ru": "2026-09-15 10:31"
+     },
+     {
+      "ref": "B20",
+      "header": "Plan",
+      "value": "Team",
+      "header_ru": "Тариф",
+      "value_ru": "Team"
+     },
+     {
+      "ref": "C20",
+      "header": "Priority",
+      "value": "P3",
+      "header_ru": "Приоритет",
+      "value_ru": "P3"
+     },
+     {
+      "ref": "D20",
+      "header": "Complete context",
+      "value": "Complete",
+      "header_ru": "Полнота контекста",
+      "value_ru": "Полный"
+     },
+     {
+      "ref": "E20",
+      "header": "Owner action",
+      "value": "Review notification preference",
+      "header_ru": "Действие ответственного",
+      "value_ru": "Проверить настройку уведомлений"
+     },
+     {
+      "ref": "F20",
+      "header": "Observation",
+      "value": "Read event arrived before the email delay ended",
+      "header_ru": "Наблюдение",
+      "value_ru": "Событие прочтения произошло до окончания задержки email"
+     }
+    ],
+    "context": {
+     "sheet": "Queue review",
+     "sheet_ru": "Разбор очереди",
+     "title": "September queue samples",
+     "title_ru": "Примеры из очереди за сентябрь",
+     "title_range": "A1:F2",
+     "notes": [],
+     "header_range": "A5:F5",
+     "header_ru": [
+      "Получено (UTC)",
+      "Тариф",
+      "Приоритет",
+      "Полнота контекста",
+      "Действие ответственного",
+      "Наблюдение"
+     ]
+    },
+    "section": "Queue review",
+    "section_ru": "Разбор очереди",
+    "text_ru": "Получено (UTC): 2026-09-15 10:31; Тариф: Team; Приоритет: P3; Полнота контекста: Полный; Действие ответственного: Проверить настройку уведомлений; Наблюдение: Событие прочтения произошло до окончания задержки email",
+    "text_orig": "Received UTC: 2026-09-15 10:31; Plan: Team; Priority: P3; Complete context: Complete; Owner action: Review notification preference; Observation: Read event arrived before the email delay ended",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-031",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Queue review",
+     "row": 21,
+     "range": "A21:F21"
+    },
+    "locator_text": "лист «Queue review», строка 21, ячейки A21:F21",
+    "segment_sha": "736f3352f6de",
+    "cells": [
+     {
+      "ref": "A21",
+      "header": "Received UTC",
+      "value": "2026-09-16 12:17",
+      "header_ru": "Получено (UTC)",
+      "value_ru": "2026-09-16 12:17"
+     },
+     {
+      "ref": "B21",
+      "header": "Plan",
+      "value": "Enterprise",
+      "header_ru": "Тариф",
+      "value_ru": "Enterprise"
+     },
+     {
+      "ref": "C21",
+      "header": "Priority",
+      "value": "P2",
+      "header_ru": "Приоритет",
+      "value_ru": "P2"
+     },
+     {
+      "ref": "D21",
+      "header": "Complete context",
+      "value": "Contact missing",
+      "header_ru": "Полнота контекста",
+      "value_ru": "Нет контакта"
+     },
+     {
+      "ref": "E21",
+      "header": "Owner action",
+      "value": "Confirm available administrator",
+      "header_ru": "Действие ответственного",
+      "value_ru": "Подтвердить доступного администратора"
+     },
+     {
+      "ref": "F21",
+      "header": "Observation",
+      "value": "Technical context is complete, recovery contact still needed",
+      "header_ru": "Наблюдение",
+      "value_ru": "Технический контекст полный, контакт для восстановления ещё нужен"
+     }
+    ],
+    "context": {
+     "sheet": "Queue review",
+     "sheet_ru": "Разбор очереди",
+     "title": "September queue samples",
+     "title_ru": "Примеры из очереди за сентябрь",
+     "title_range": "A1:F2",
+     "notes": [],
+     "header_range": "A5:F5",
+     "header_ru": [
+      "Получено (UTC)",
+      "Тариф",
+      "Приоритет",
+      "Полнота контекста",
+      "Действие ответственного",
+      "Наблюдение"
+     ]
+    },
+    "section": "Queue review",
+    "section_ru": "Разбор очереди",
+    "text_ru": "Получено (UTC): 2026-09-16 12:17; Тариф: Enterprise; Приоритет: P2; Полнота контекста: Нет контакта; Действие ответственного: Подтвердить доступного администратора; Наблюдение: Технический контекст полный, контакт для восстановления ещё нужен",
+    "text_orig": "Received UTC: 2026-09-16 12:17; Plan: Enterprise; Priority: P2; Complete context: Contact missing; Owner action: Confirm available administrator; Observation: Technical context is complete, recovery contact still needed",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-032",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "sheet_title",
+    "locator": {
+     "sheet": "Shift discussion",
+     "range": "A1:B2"
+    },
+    "locator_text": "лист «Shift discussion», объединённые ячейки A1:B2",
+    "segment_sha": "2a4c010b0e0d",
+    "section": "Shift discussion",
+    "section_ru": "Обсуждение смены",
+    "text_ru": "Вопросы со встречи по графику дежурств",
+    "text_orig": "Questions from the rota meeting",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-033",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "table_header",
+    "locator": {
+     "sheet": "Shift discussion",
+     "row": 5,
+     "range": "A5:B5"
+    },
+    "locator_text": "лист «Shift discussion», строка 5, ячейки A5:B5",
+    "segment_sha": "facb8b83ce86",
+    "cells": [
+     {
+      "ref": "A5",
+      "value": "Topic",
+      "value_ru": "Тема"
+     },
+     {
+      "ref": "B5",
+      "value": "Agreed interpretation",
+      "value_ru": "Согласованное толкование"
+     }
+    ],
+    "section": "Shift discussion",
+    "section_ru": "Обсуждение смены",
+    "text_ru": "Тема | Согласованное толкование",
+    "text_orig": "Topic | Agreed interpretation",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-034",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Shift discussion",
+     "row": 6,
+     "range": "A6:B6"
+    },
+    "locator_text": "лист «Shift discussion», строка 6, ячейки A6:B6",
+    "segment_sha": "35a073032be2",
+    "cells": [
+     {
+      "ref": "A6",
+      "header": "Topic",
+      "value": "Working hours",
+      "header_ru": "Тема",
+      "value_ru": "Рабочие часы"
+     },
+     {
+      "ref": "B6",
+      "header": "Agreed interpretation",
+      "value": "09:00 to 18:00 Europe/Berlin, Monday to Friday, excluding contract holidays",
+      "header_ru": "Согласованное толкование",
+      "value_ru": "с 09:00 до 18:00 Europe/Berlin, с понедельника по пятницу, кроме праздников по договору"
+     }
+    ],
+    "context": {
+     "sheet": "Shift discussion",
+     "sheet_ru": "Обсуждение смены",
+     "title": "Questions from the rota meeting",
+     "title_ru": "Вопросы со встречи по графику дежурств",
+     "title_range": "A1:B2",
+     "notes": [],
+     "header_range": "A5:B5",
+     "header_ru": [
+      "Тема",
+      "Согласованное толкование"
+     ]
+    },
+    "section": "Shift discussion",
+    "section_ru": "Обсуждение смены",
+    "text_ru": "Тема: Рабочие часы; Согласованное толкование: с 09:00 до 18:00 Europe/Berlin, с понедельника по пятницу, кроме праздников по договору",
+    "text_orig": "Topic: Working hours; Agreed interpretation: 09:00 to 18:00 Europe/Berlin, Monday to Friday, excluding contract holidays",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-035",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Shift discussion",
+     "row": 7,
+     "range": "A7:B7"
+    },
+    "locator_text": "лист «Shift discussion», строка 7, ячейки A7:B7",
+    "segment_sha": "66c892ffb138",
+    "cells": [
+     {
+      "ref": "A7",
+      "header": "Topic",
+      "value": "Enterprise P1",
+      "header_ru": "Тема",
+      "value_ru": "Enterprise P1"
+     },
+     {
+      "ref": "B7",
+      "header": "Agreed interpretation",
+      "value": "15 minutes, every day around the clock",
+      "header_ru": "Согласованное толкование",
+      "value_ru": "15 минут, каждый день, круглосуточно"
+     }
+    ],
+    "context": {
+     "sheet": "Shift discussion",
+     "sheet_ru": "Обсуждение смены",
+     "title": "Questions from the rota meeting",
+     "title_ru": "Вопросы со встречи по графику дежурств",
+     "title_range": "A1:B2",
+     "notes": [],
+     "header_range": "A5:B5",
+     "header_ru": [
+      "Тема",
+      "Согласованное толкование"
+     ]
+    },
+    "section": "Shift discussion",
+    "section_ru": "Обсуждение смены",
+    "text_ru": "Тема: Enterprise P1; Согласованное толкование: 15 минут, каждый день, круглосуточно",
+    "text_orig": "Topic: Enterprise P1; Agreed interpretation: 15 minutes, every day around the clock",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-036",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Shift discussion",
+     "row": 8,
+     "range": "A8:B8"
+    },
+    "locator_text": "лист «Shift discussion», строка 8, ячейки A8:B8",
+    "segment_sha": "9a3de75c8550",
+    "cells": [
+     {
+      "ref": "A8",
+      "header": "Topic",
+      "value": "Team P1",
+      "header_ru": "Тема",
+      "value_ru": "Team P1"
+     },
+     {
+      "ref": "B8",
+      "header": "Agreed interpretation",
+      "value": "60 minutes during business support hours",
+      "header_ru": "Согласованное толкование",
+      "value_ru": "60 минут в рабочие часы поддержки"
+     }
+    ],
+    "context": {
+     "sheet": "Shift discussion",
+     "sheet_ru": "Обсуждение смены",
+     "title": "Questions from the rota meeting",
+     "title_ru": "Вопросы со встречи по графику дежурств",
+     "title_range": "A1:B2",
+     "notes": [],
+     "header_range": "A5:B5",
+     "header_ru": [
+      "Тема",
+      "Согласованное толкование"
+     ]
+    },
+    "section": "Shift discussion",
+    "section_ru": "Обсуждение смены",
+    "text_ru": "Тема: Team P1; Согласованное толкование: 60 минут в рабочие часы поддержки",
+    "text_orig": "Topic: Team P1; Agreed interpretation: 60 minutes during business support hours",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-037",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Shift discussion",
+     "row": 9,
+     "range": "A9:B9"
+    },
+    "locator_text": "лист «Shift discussion», строка 9, ячейки A9:B9",
+    "segment_sha": "bca494e348ba",
+    "cells": [
+     {
+      "ref": "A9",
+      "header": "Topic",
+      "value": "Missing evidence",
+      "header_ru": "Тема",
+      "value_ru": "Недостающие доказательства"
+     },
+     {
+      "ref": "B9",
+      "header": "Agreed interpretation",
+      "value": "Request workspace, impact, UTC start time and contact",
+      "header_ru": "Согласованное толкование",
+      "value_ru": "Запросить workspace, влияние, время начала в UTC и контакт"
+     }
+    ],
+    "context": {
+     "sheet": "Shift discussion",
+     "sheet_ru": "Обсуждение смены",
+     "title": "Questions from the rota meeting",
+     "title_ru": "Вопросы со встречи по графику дежурств",
+     "title_range": "A1:B2",
+     "notes": [],
+     "header_range": "A5:B5",
+     "header_ru": [
+      "Тема",
+      "Согласованное толкование"
+     ]
+    },
+    "section": "Shift discussion",
+    "section_ru": "Обсуждение смены",
+    "text_ru": "Тема: Недостающие доказательства; Согласованное толкование: Запросить workspace, влияние, время начала в UTC и контакт",
+    "text_orig": "Topic: Missing evidence; Agreed interpretation: Request workspace, impact, UTC start time and contact",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-038",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Shift discussion",
+     "row": 10,
+     "range": "A10:B10"
+    },
+    "locator_text": "лист «Shift discussion», строка 10, ячейки A10:B10",
+    "segment_sha": "86049810da84",
+    "cells": [
+     {
+      "ref": "A10",
+      "header": "Topic",
+      "value": "P1 communication",
+      "header_ru": "Тема",
+      "value_ru": "Коммуникация по P1"
+     },
+     {
+      "ref": "B10",
+      "header": "Agreed interpretation",
+      "value": "Updates every 30 minutes during investigation",
+      "header_ru": "Согласованное толкование",
+      "value_ru": "Обновления каждые 30 минут во время расследования"
+     }
+    ],
+    "context": {
+     "sheet": "Shift discussion",
+     "sheet_ru": "Обсуждение смены",
+     "title": "Questions from the rota meeting",
+     "title_ru": "Вопросы со встречи по графику дежурств",
+     "title_range": "A1:B2",
+     "notes": [],
+     "header_range": "A5:B5",
+     "header_ru": [
+      "Тема",
+      "Согласованное толкование"
+     ]
+    },
+    "section": "Shift discussion",
+    "section_ru": "Обсуждение смены",
+    "text_ru": "Тема: Коммуникация по P1; Согласованное толкование: Обновления каждые 30 минут во время расследования",
+    "text_orig": "Topic: P1 communication; Agreed interpretation: Updates every 30 minutes during investigation",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   },
+   {
+    "fragment_id": "11-039",
+    "doc_no": 11,
+    "doc_id": "response-targets",
+    "doc_version": "2026-09",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "source_lang": "en",
+    "format": "xlsx",
+    "kind": "record",
+    "locator": {
+     "sheet": "Shift discussion",
+     "row": 11,
+     "range": "A11:B11"
+    },
+    "locator_text": "лист «Shift discussion», строка 11, ячейки A11:B11",
+    "segment_sha": "b705189bb32b",
+    "cells": [
+     {
+      "ref": "A11",
+      "header": "Topic",
+      "value": "Resolution",
+      "header_ru": "Тема",
+      "value_ru": "Устранение"
+     },
+     {
+      "ref": "B11",
+      "header": "Agreed interpretation",
+      "value": "No fixed repair time is implied by first response",
+      "header_ru": "Согласованное толкование",
+      "value_ru": "Первый ответ не подразумевает фиксированного срока исправления"
+     }
+    ],
+    "context": {
+     "sheet": "Shift discussion",
+     "sheet_ru": "Обсуждение смены",
+     "title": "Questions from the rota meeting",
+     "title_ru": "Вопросы со встречи по графику дежурств",
+     "title_range": "A1:B2",
+     "notes": [],
+     "header_range": "A5:B5",
+     "header_ru": [
+      "Тема",
+      "Согласованное толкование"
+     ]
+    },
+    "section": "Shift discussion",
+    "section_ru": "Обсуждение смены",
+    "text_ru": "Тема: Устранение; Согласованное толкование: Первый ответ не подразумевает фиксированного срока исправления",
+    "text_orig": "Topic: Resolution; Agreed interpretation: No fixed repair time is implied by first response",
+    "translation": "translated",
+    "quarantine": false,
+    "status": "include",
+    "access": [
+     "support_agent",
+     "support_lead"
+    ],
+    "trust": "confirmed",
+    "dup_group": null,
+    "conflict_group": null
+   }
+  ]
+ }
+}

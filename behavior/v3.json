@@ -1,0 +1,19 @@
+{
+ "version": "v3",
+ "description": "v2 + исправления по прогону 2026-11-18: forbidden только если закрытый фрагмент ближе лучшего разрешённого; гибридное дополнение выдачи по совпадению слов.",
+ "top_k": 8,
+ "retrieval_threshold": 0.20,
+ "retrieval_threshold_note": "косинусное расстояние; кандидаты с distance > 0.20 не входят в контекст.",
+ "authorization_probe_distance": 0.35,
+ "forbidden_rule": "probe_and_closer_than_allowed",
+ "forbidden_rule_note": "в v2 любой закрытый фрагмент ближе 0.35 давал forbidden, и вопросы вне базы (погода) получали «недоступно для роли». В v3 нужно ещё, чтобы закрытый фрагмент был ближе лучшего разрешённого кандидата.",
+ "lexical_extra": 2,
+ "lexical_pool": 40,
+ "lexical_stem": 6,
+ "lexical_note": "векторный top_k не меняется; из кандидатов в пределах порога, не вошедших в top_k (пул 40), добавляются до 2 лучших по BM25. Причина: в составном вопросе (№12) фрагменты одного runbook вытесняли строку реестра с прямым ответом.",
+ "roles": ["support_agent", "support_lead"],
+ "role_note": "параметр --role не является аутентификацией; соответствие документов ролям — access.csv",
+ "decisions": ["answer", "clarify", "escalate", "refuse"],
+ "context_states": ["available", "empty", "forbidden"],
+ "system_file": "behavior/system-v3.md"
+}

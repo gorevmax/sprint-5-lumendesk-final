@@ -1,0 +1,1643 @@
+{
+ "source_path": "documents/Выгрузки/hosting regions export.csv",
+ "source_sha256": "14a557ccd85d589fba85e33cb3283cf00674888ab251b857b9045afc65197fe6",
+ "segmenter": "segment-2",
+ "segments": [
+  {
+   "kind": "table_header",
+   "text": "Region or subject | Location or workspace | Plan | Created or rule | Operations note",
+   "sha": "d85df6fc9b0e",
+   "section": null,
+   "locator": {
+    "csv_row": 1
+   },
+   "cells": [
+    {
+     "col": 1,
+     "value": "Region or subject"
+    },
+    {
+     "col": 2,
+     "value": "Location or workspace"
+    },
+    {
+     "col": 3,
+     "value": "Plan"
+    },
+    {
+     "col": 4,
+     "value": "Created or rule"
+    },
+    {
+     "col": 5,
+     "value": "Operations note"
+    }
+   ],
+   "seg": 1
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: EU-1; Location or workspace: Primary storage in Frankfurt, Germany.",
+   "sha": "02e77b99ae69",
+   "section": null,
+   "locator": {
+    "csv_row": 2
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Primary storage in Frankfurt, Germany."
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 2
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: EU-2; Location or workspace: Primary storage in Paris, France.",
+   "sha": "e91a3ba70fe2",
+   "section": null,
+   "locator": {
+    "csv_row": 3
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-2"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Primary storage in Paris, France."
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 3
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: US-1; Location or workspace: Primary storage in Northern Virginia, United States.",
+   "sha": "155e3fb8c464",
+   "section": null,
+   "locator": {
+    "csv_row": 4
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Primary storage in Northern Virginia, United States."
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 4
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: CA-1; Location or workspace: Primary storage in Montreal, Canada.",
+   "sha": "ff27e590c4fd",
+   "section": null,
+   "locator": {
+    "csv_row": 5
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "CA-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Primary storage in Montreal, Canada."
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 5
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: Selection; Location or workspace: Starter uses EU-1 by default for contracts signed in the European Union.",
+   "sha": "7e20a21827e3",
+   "section": null,
+   "locator": {
+    "csv_row": 6
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "Selection"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Starter uses EU-1 by default for contracts signed in the European Union."
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 6
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: Team; Location or workspace: Team may choose EU-1 or US-1 at workspace creation.",
+   "sha": "f84cb5814278",
+   "section": null,
+   "locator": {
+    "csv_row": 7
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "Team"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Team may choose EU-1 or US-1 at workspace creation."
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 7
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: Enterprise; Location or workspace: Enterprise may select any listed region at creation.",
+   "sha": "a69ea6838bff",
+   "section": null,
+   "locator": {
+    "csv_row": 8
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "Enterprise"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Enterprise may select any listed region at creation."
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 8
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: Migration; Location or workspace: A region migration requires Enterprise and a scheduled maintenance window.",
+   "sha": "e64f59d7fb9a",
+   "section": null,
+   "locator": {
+    "csv_row": 9
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "Migration"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "A region migration requires Enterprise and a scheduled maintenance window."
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 9
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: Support access; Location or workspace: Support routing language does not change the storage region.",
+   "sha": "2247490c40a0",
+   "section": null,
+   "locator": {
+    "csv_row": 10
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "Support access"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Support routing language does not change the storage region."
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 10
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: EU-1; Location or workspace: Cedar Studio / 1; Plan: Starter; Created or rule: 2026-09-01; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "ff1694bef25b",
+   "section": null,
+   "locator": {
+    "csv_row": 11
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Cedar Studio / 1"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Starter"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-01"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 11
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: US-1; Location or workspace: North Paper / 1; Plan: Team; Created or rule: 2026-09-02; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "e00fd3ae3ee8",
+   "section": null,
+   "locator": {
+    "csv_row": 12
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "North Paper / 1"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-02"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 12
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: EU-1; Location or workspace: Atelier Nacre / 1; Plan: Enterprise; Created or rule: 2026-09-03; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "cafa36351c64",
+   "section": null,
+   "locator": {
+    "csv_row": 13
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Atelier Nacre / 1"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Enterprise"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-03"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 13
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: US-1; Location or workspace: Open Lane / 1; Plan: Team; Created or rule: 2026-09-04; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "da872c8a3ce5",
+   "section": null,
+   "locator": {
+    "csv_row": 14
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Open Lane / 1"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-04"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 14
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: EU-1; Location or workspace: Harbor Works / 1; Plan: Starter; Created or rule: 2026-09-05; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "931799a752e3",
+   "section": null,
+   "locator": {
+    "csv_row": 15
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Harbor Works / 1"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Starter"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-05"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 15
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: US-1; Location or workspace: Maple Research / 1; Plan: Team; Created or rule: 2026-09-06; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "dc0d250309d8",
+   "section": null,
+   "locator": {
+    "csv_row": 16
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Maple Research / 1"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-06"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 16
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: EU-2; Location or workspace: Quartz Lab / 1; Plan: Enterprise; Created or rule: 2026-09-07; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "2e90c3fde64a",
+   "section": null,
+   "locator": {
+    "csv_row": 17
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-2"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Quartz Lab / 1"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Enterprise"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-07"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 17
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: US-1; Location or workspace: Plain Supply / 1; Plan: Team; Created or rule: 2026-09-08; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "952d956eac2e",
+   "section": null,
+   "locator": {
+    "csv_row": 18
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Plain Supply / 1"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-08"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 18
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: EU-1; Location or workspace: Cedar Studio / 2; Plan: Starter; Created or rule: 2026-09-09; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "bb82e3abdf0d",
+   "section": null,
+   "locator": {
+    "csv_row": 19
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Cedar Studio / 2"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Starter"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-09"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 19
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: US-1; Location or workspace: North Paper / 2; Plan: Team; Created or rule: 2026-09-10; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "08e5dcd0d989",
+   "section": null,
+   "locator": {
+    "csv_row": 20
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "North Paper / 2"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-10"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 20
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: CA-1; Location or workspace: Atelier Nacre / 2; Plan: Enterprise; Created or rule: 2026-09-11; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "06bd127dd43c",
+   "section": null,
+   "locator": {
+    "csv_row": 21
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "CA-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Atelier Nacre / 2"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Enterprise"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-11"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 21
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: US-1; Location or workspace: Open Lane / 2; Plan: Team; Created or rule: 2026-09-12; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "d77537bc80a9",
+   "section": null,
+   "locator": {
+    "csv_row": 22
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Open Lane / 2"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-12"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 22
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: EU-1; Location or workspace: Harbor Works / 2; Plan: Starter; Created or rule: 2026-09-13; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "e55a5e6695ab",
+   "section": null,
+   "locator": {
+    "csv_row": 23
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Harbor Works / 2"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Starter"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-13"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 23
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: US-1; Location or workspace: Maple Research / 2; Plan: Team; Created or rule: 2026-09-14; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "0f8323618454",
+   "section": null,
+   "locator": {
+    "csv_row": 24
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Maple Research / 2"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-14"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 24
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: EU-1; Location or workspace: Quartz Lab / 2; Plan: Enterprise; Created or rule: 2026-09-15; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "d3e6757ac274",
+   "section": null,
+   "locator": {
+    "csv_row": 25
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Quartz Lab / 2"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Enterprise"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-15"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 25
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: US-1; Location or workspace: Plain Supply / 2; Plan: Team; Created or rule: 2026-09-16; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "64bfba0e2a97",
+   "section": null,
+   "locator": {
+    "csv_row": 26
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Plain Supply / 2"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-16"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 26
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: EU-1; Location or workspace: Cedar Studio / 3; Plan: Starter; Created or rule: 2026-09-17; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "f3e2df302351",
+   "section": null,
+   "locator": {
+    "csv_row": 27
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Cedar Studio / 3"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Starter"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-17"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 27
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: US-1; Location or workspace: North Paper / 3; Plan: Team; Created or rule: 2026-09-18; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "6a86034a19d3",
+   "section": null,
+   "locator": {
+    "csv_row": 28
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "North Paper / 3"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-18"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 28
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: EU-2; Location or workspace: Atelier Nacre / 3; Plan: Enterprise; Created or rule: 2026-09-19; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "c2cd97ecf41b",
+   "section": null,
+   "locator": {
+    "csv_row": 29
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-2"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Atelier Nacre / 3"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Enterprise"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-19"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 29
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: US-1; Location or workspace: Open Lane / 3; Plan: Team; Created or rule: 2026-09-20; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "a7cbee363f75",
+   "section": null,
+   "locator": {
+    "csv_row": 30
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Open Lane / 3"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-20"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 30
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: EU-1; Location or workspace: Harbor Works / 3; Plan: Starter; Created or rule: 2026-09-21; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "b7af8c03d7e1",
+   "section": null,
+   "locator": {
+    "csv_row": 31
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Harbor Works / 3"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Starter"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-21"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 31
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: US-1; Location or workspace: Maple Research / 3; Plan: Team; Created or rule: 2026-09-22; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "f191c21a75ee",
+   "section": null,
+   "locator": {
+    "csv_row": 32
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Maple Research / 3"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-22"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 32
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: CA-1; Location or workspace: Quartz Lab / 3; Plan: Enterprise; Created or rule: 2026-09-23; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "d7c2c4815a4d",
+   "section": null,
+   "locator": {
+    "csv_row": 33
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "CA-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Quartz Lab / 3"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Enterprise"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-23"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 33
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: US-1; Location or workspace: Plain Supply / 3; Plan: Team; Created or rule: 2026-09-24; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "405b58c8921e",
+   "section": null,
+   "locator": {
+    "csv_row": 34
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Plain Supply / 3"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-24"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 34
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: EU-1; Location or workspace: Cedar Studio / 4; Plan: Starter; Created or rule: 2026-09-01; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "7b7de013ec91",
+   "section": null,
+   "locator": {
+    "csv_row": 35
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Cedar Studio / 4"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Starter"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-01"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 35
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: US-1; Location or workspace: North Paper / 4; Plan: Team; Created or rule: 2026-09-02; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "8c5070454264",
+   "section": null,
+   "locator": {
+    "csv_row": 36
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "North Paper / 4"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-02"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 36
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: EU-1; Location or workspace: Atelier Nacre / 4; Plan: Enterprise; Created or rule: 2026-09-03; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "7c4db7a368bb",
+   "section": null,
+   "locator": {
+    "csv_row": 37
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "EU-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Atelier Nacre / 4"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Enterprise"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-03"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 37
+  },
+  {
+   "kind": "record",
+   "text": "Region or subject: US-1; Location or workspace: Open Lane / 4; Plan: Team; Created or rule: 2026-09-04; Operations note: selection captured before workspace creation; interface language does not set region",
+   "sha": "7ac23ea5e2d4",
+   "section": null,
+   "locator": {
+    "csv_row": 38
+   },
+   "cells": [
+    {
+     "col": 1,
+     "header": "Region or subject",
+     "value": "US-1"
+    },
+    {
+     "col": 2,
+     "header": "Location or workspace",
+     "value": "Open Lane / 4"
+    },
+    {
+     "col": 3,
+     "header": "Plan",
+     "value": "Team"
+    },
+    {
+     "col": 4,
+     "header": "Created or rule",
+     "value": "2026-09-04"
+    },
+    {
+     "col": 5,
+     "header": "Operations note",
+     "value": "selection captured before workspace creation; interface language does not set region"
+    }
+   ],
+   "context": {
+    "header": [
+     "Region or subject",
+     "Location or workspace",
+     "Plan",
+     "Created or rule",
+     "Operations note"
+    ],
+    "delimiter": ","
+   },
+   "seg": 38
+  }
+ ]
+}

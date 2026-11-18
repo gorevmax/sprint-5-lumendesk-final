@@ -1,0 +1,1978 @@
+{
+ "source_path": "documents/Платформа и интеграции/marketplace capabilities.xlsx",
+ "source_sha256": "bfe2848e167218e3cb65533c3313f17bf2dccbcab02a748e82fd04ad1f85a247",
+ "segmenter": "segment-2",
+ "segments": [
+  {
+   "kind": "sheet_title",
+   "text": "Marketplace integration capabilities",
+   "sha": "8bc2b95e855f",
+   "section": "Capabilities",
+   "locator": {
+    "sheet": "Capabilities",
+    "range": "A1:D2"
+   },
+   "seg": 1
+  },
+  {
+   "kind": "sheet_note",
+   "text": "Integrations reviewed this catalogue for the September release. Customer-hosted middleware remains the customer responsibility. A link never grants access to a private resource.",
+   "sha": "4380c78d770d",
+   "section": "Capabilities",
+   "locator": {
+    "sheet": "Capabilities",
+    "range": "A3:D5"
+   },
+   "seg": 2
+  },
+  {
+   "kind": "table_header",
+   "text": "Integration or subject | Capability | Availability | Boundary",
+   "sha": "aef870f6cb6d",
+   "section": "Capabilities",
+   "locator": {
+    "sheet": "Capabilities",
+    "row": 7,
+    "range": "A7:D7"
+   },
+   "cells": [
+    {
+     "ref": "A7",
+     "value": "Integration or subject"
+    },
+    {
+     "ref": "B7",
+     "value": "Capability"
+    },
+    {
+     "ref": "C7",
+     "value": "Availability"
+    },
+    {
+     "ref": "D7",
+     "value": "Boundary"
+    }
+   ],
+   "seg": 3
+  },
+  {
+   "kind": "record",
+   "text": "Integration or subject: Slack; Capability: Mentions and card links; Availability: supported; Boundary: OAuth workspace approval required",
+   "sha": "91802114387b",
+   "section": "Capabilities",
+   "locator": {
+    "sheet": "Capabilities",
+    "row": 8,
+    "range": "A8:D8"
+   },
+   "cells": [
+    {
+     "ref": "A8",
+     "header": "Integration or subject",
+     "value": "Slack"
+    },
+    {
+     "ref": "B8",
+     "header": "Capability",
+     "value": "Mentions and card links"
+    },
+    {
+     "ref": "C8",
+     "header": "Availability",
+     "value": "supported"
+    },
+    {
+     "ref": "D8",
+     "header": "Boundary",
+     "value": "OAuth workspace approval required"
+    }
+   ],
+   "context": {
+    "sheet": "Capabilities",
+    "title": "Marketplace integration capabilities",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Integrations reviewed this catalogue for the September release. Customer-hosted middleware remains the customer responsibility. A link never grants access to a private resource.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Integration or subject",
+     "Capability",
+     "Availability",
+     "Boundary"
+    ]
+   },
+   "seg": 4
+  },
+  {
+   "kind": "record",
+   "text": "Integration or subject: Microsoft Teams; Capability: Channel notifications; Availability: supported; Boundary: Tenant administrator approval required",
+   "sha": "55c303f79352",
+   "section": "Capabilities",
+   "locator": {
+    "sheet": "Capabilities",
+    "row": 9,
+    "range": "A9:D9"
+   },
+   "cells": [
+    {
+     "ref": "A9",
+     "header": "Integration or subject",
+     "value": "Microsoft Teams"
+    },
+    {
+     "ref": "B9",
+     "header": "Capability",
+     "value": "Channel notifications"
+    },
+    {
+     "ref": "C9",
+     "header": "Availability",
+     "value": "supported"
+    },
+    {
+     "ref": "D9",
+     "header": "Boundary",
+     "value": "Tenant administrator approval required"
+    }
+   ],
+   "context": {
+    "sheet": "Capabilities",
+    "title": "Marketplace integration capabilities",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Integrations reviewed this catalogue for the September release. Customer-hosted middleware remains the customer responsibility. A link never grants access to a private resource.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Integration or subject",
+     "Capability",
+     "Availability",
+     "Boundary"
+    ]
+   },
+   "seg": 5
+  },
+  {
+   "kind": "record",
+   "text": "Integration or subject: GitHub; Capability: Pull request links; Availability: supported; Boundary: Repository permissions are checked",
+   "sha": "3671091d8aef",
+   "section": "Capabilities",
+   "locator": {
+    "sheet": "Capabilities",
+    "row": 10,
+    "range": "A10:D10"
+   },
+   "cells": [
+    {
+     "ref": "A10",
+     "header": "Integration or subject",
+     "value": "GitHub"
+    },
+    {
+     "ref": "B10",
+     "header": "Capability",
+     "value": "Pull request links"
+    },
+    {
+     "ref": "C10",
+     "header": "Availability",
+     "value": "supported"
+    },
+    {
+     "ref": "D10",
+     "header": "Boundary",
+     "value": "Repository permissions are checked"
+    }
+   ],
+   "context": {
+    "sheet": "Capabilities",
+    "title": "Marketplace integration capabilities",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Integrations reviewed this catalogue for the September release. Customer-hosted middleware remains the customer responsibility. A link never grants access to a private resource.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Integration or subject",
+     "Capability",
+     "Availability",
+     "Boundary"
+    ]
+   },
+   "seg": 6
+  },
+  {
+   "kind": "record",
+   "text": "Integration or subject: Google Drive; Capability: File links and previews; Availability: supported; Boundary: LumenDesk does not copy Drive permissions",
+   "sha": "a8cca6b31d94",
+   "section": "Capabilities",
+   "locator": {
+    "sheet": "Capabilities",
+    "row": 11,
+    "range": "A11:D11"
+   },
+   "cells": [
+    {
+     "ref": "A11",
+     "header": "Integration or subject",
+     "value": "Google Drive"
+    },
+    {
+     "ref": "B11",
+     "header": "Capability",
+     "value": "File links and previews"
+    },
+    {
+     "ref": "C11",
+     "header": "Availability",
+     "value": "supported"
+    },
+    {
+     "ref": "D11",
+     "header": "Boundary",
+     "value": "LumenDesk does not copy Drive permissions"
+    }
+   ],
+   "context": {
+    "sheet": "Capabilities",
+    "title": "Marketplace integration capabilities",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Integrations reviewed this catalogue for the September release. Customer-hosted middleware remains the customer responsibility. A link never grants access to a private resource.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Integration or subject",
+     "Capability",
+     "Availability",
+     "Boundary"
+    ]
+   },
+   "seg": 7
+  },
+  {
+   "kind": "record",
+   "text": "Integration or subject: Jira Cloud; Capability: One-way issue links; Availability: supported; Boundary: No bidirectional field sync",
+   "sha": "d755548aec86",
+   "section": "Capabilities",
+   "locator": {
+    "sheet": "Capabilities",
+    "row": 12,
+    "range": "A12:D12"
+   },
+   "cells": [
+    {
+     "ref": "A12",
+     "header": "Integration or subject",
+     "value": "Jira Cloud"
+    },
+    {
+     "ref": "B12",
+     "header": "Capability",
+     "value": "One-way issue links"
+    },
+    {
+     "ref": "C12",
+     "header": "Availability",
+     "value": "supported"
+    },
+    {
+     "ref": "D12",
+     "header": "Boundary",
+     "value": "No bidirectional field sync"
+    }
+   ],
+   "context": {
+    "sheet": "Capabilities",
+    "title": "Marketplace integration capabilities",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Integrations reviewed this catalogue for the September release. Customer-hosted middleware remains the customer responsibility. A link never grants access to a private resource.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Integration or subject",
+     "Capability",
+     "Availability",
+     "Boundary"
+    ]
+   },
+   "seg": 8
+  },
+  {
+   "kind": "record",
+   "text": "Integration or subject: Rate limits; Capability: Vendor limits apply; Availability: rule; Boundary: LumenDesk retries temporary vendor failures",
+   "sha": "ca2b3b751e4d",
+   "section": "Capabilities",
+   "locator": {
+    "sheet": "Capabilities",
+    "row": 13,
+    "range": "A13:D13"
+   },
+   "cells": [
+    {
+     "ref": "A13",
+     "header": "Integration or subject",
+     "value": "Rate limits"
+    },
+    {
+     "ref": "B13",
+     "header": "Capability",
+     "value": "Vendor limits apply"
+    },
+    {
+     "ref": "C13",
+     "header": "Availability",
+     "value": "rule"
+    },
+    {
+     "ref": "D13",
+     "header": "Boundary",
+     "value": "LumenDesk retries temporary vendor failures"
+    }
+   ],
+   "context": {
+    "sheet": "Capabilities",
+    "title": "Marketplace integration capabilities",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Integrations reviewed this catalogue for the September release. Customer-hosted middleware remains the customer responsibility. A link never grants access to a private resource.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Integration or subject",
+     "Capability",
+     "Availability",
+     "Boundary"
+    ]
+   },
+   "seg": 9
+  },
+  {
+   "kind": "record",
+   "text": "Integration or subject: Private resources; Capability: Existing access required; Availability: rule; Boundary: A link never grants access",
+   "sha": "fde46318fedc",
+   "section": "Capabilities",
+   "locator": {
+    "sheet": "Capabilities",
+    "row": 14,
+    "range": "A14:D14"
+   },
+   "cells": [
+    {
+     "ref": "A14",
+     "header": "Integration or subject",
+     "value": "Private resources"
+    },
+    {
+     "ref": "B14",
+     "header": "Capability",
+     "value": "Existing access required"
+    },
+    {
+     "ref": "C14",
+     "header": "Availability",
+     "value": "rule"
+    },
+    {
+     "ref": "D14",
+     "header": "Boundary",
+     "value": "A link never grants access"
+    }
+   ],
+   "context": {
+    "sheet": "Capabilities",
+    "title": "Marketplace integration capabilities",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Integrations reviewed this catalogue for the September release. Customer-hosted middleware remains the customer responsibility. A link never grants access to a private resource.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Integration or subject",
+     "Capability",
+     "Availability",
+     "Boundary"
+    ]
+   },
+   "seg": 10
+  },
+  {
+   "kind": "record",
+   "text": "Integration or subject: Scope change; Capability: Administrator approval; Availability: rule; Boundary: New write scopes require fresh consent",
+   "sha": "3d24e00339fc",
+   "section": "Capabilities",
+   "locator": {
+    "sheet": "Capabilities",
+    "row": 15,
+    "range": "A15:D15"
+   },
+   "cells": [
+    {
+     "ref": "A15",
+     "header": "Integration or subject",
+     "value": "Scope change"
+    },
+    {
+     "ref": "B15",
+     "header": "Capability",
+     "value": "Administrator approval"
+    },
+    {
+     "ref": "C15",
+     "header": "Availability",
+     "value": "rule"
+    },
+    {
+     "ref": "D15",
+     "header": "Boundary",
+     "value": "New write scopes require fresh consent"
+    }
+   ],
+   "context": {
+    "sheet": "Capabilities",
+    "title": "Marketplace integration capabilities",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Integrations reviewed this catalogue for the September release. Customer-hosted middleware remains the customer responsibility. A link never grants access to a private resource.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Integration or subject",
+     "Capability",
+     "Availability",
+     "Boundary"
+    ]
+   },
+   "seg": 11
+  },
+  {
+   "kind": "record",
+   "text": "Integration or subject: Retirement; Capability: Disable then revoke; Availability: order; Boundary: Drain outbound queue for up to 15 minutes",
+   "sha": "215ec1cb9b8d",
+   "section": "Capabilities",
+   "locator": {
+    "sheet": "Capabilities",
+    "row": 16,
+    "range": "A16:D16"
+   },
+   "cells": [
+    {
+     "ref": "A16",
+     "header": "Integration or subject",
+     "value": "Retirement"
+    },
+    {
+     "ref": "B16",
+     "header": "Capability",
+     "value": "Disable then revoke"
+    },
+    {
+     "ref": "C16",
+     "header": "Availability",
+     "value": "order"
+    },
+    {
+     "ref": "D16",
+     "header": "Boundary",
+     "value": "Drain outbound queue for up to 15 minutes"
+    }
+   ],
+   "context": {
+    "sheet": "Capabilities",
+    "title": "Marketplace integration capabilities",
+    "title_range": "A1:D2",
+    "notes": [
+     {
+      "text": "Integrations reviewed this catalogue for the September release. Customer-hosted middleware remains the customer responsibility. A link never grants access to a private resource.",
+      "range": "A3:D5"
+     }
+    ],
+    "header_range": "A7:D7",
+    "header": [
+     "Integration or subject",
+     "Capability",
+     "Availability",
+     "Boundary"
+    ]
+   },
+   "seg": 12
+  },
+  {
+   "kind": "sheet_title",
+   "text": "Connector review observations",
+   "sha": "3bc5e39cae09",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "range": "A1:D2"
+   },
+   "seg": 13
+  },
+  {
+   "kind": "table_header",
+   "text": "Connector | Check | Account condition | Result or follow-up",
+   "sha": "1245bd544430",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 5,
+    "range": "A5:D5"
+   },
+   "cells": [
+    {
+     "ref": "A5",
+     "value": "Connector"
+    },
+    {
+     "ref": "B5",
+     "value": "Check"
+    },
+    {
+     "ref": "C5",
+     "value": "Account condition"
+    },
+    {
+     "ref": "D5",
+     "value": "Result or follow-up"
+    }
+   ],
+   "seg": 14
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Slack; Check: Approval; Account condition: Workspace approved; Result or follow-up: Check consent for the requested workspace",
+   "sha": "f184add37508",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 6,
+    "range": "A6:D6"
+   },
+   "cells": [
+    {
+     "ref": "A6",
+     "header": "Connector",
+     "value": "Slack"
+    },
+    {
+     "ref": "B6",
+     "header": "Check",
+     "value": "Approval"
+    },
+    {
+     "ref": "C6",
+     "header": "Account condition",
+     "value": "Workspace approved"
+    },
+    {
+     "ref": "D6",
+     "header": "Result or follow-up",
+     "value": "Check consent for the requested workspace"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 15
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Microsoft Teams; Check: Approval; Account condition: Tenant administrator available; Result or follow-up: Check consent for the requested workspace",
+   "sha": "7105f413cf8c",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 7,
+    "range": "A7:D7"
+   },
+   "cells": [
+    {
+     "ref": "A7",
+     "header": "Connector",
+     "value": "Microsoft Teams"
+    },
+    {
+     "ref": "B7",
+     "header": "Check",
+     "value": "Approval"
+    },
+    {
+     "ref": "C7",
+     "header": "Account condition",
+     "value": "Tenant administrator available"
+    },
+    {
+     "ref": "D7",
+     "header": "Result or follow-up",
+     "value": "Check consent for the requested workspace"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 16
+  },
+  {
+   "kind": "record",
+   "text": "Connector: GitHub; Check: Approval; Account condition: Repository permission checked; Result or follow-up: Check consent for the requested workspace",
+   "sha": "366630fd82d3",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 8,
+    "range": "A8:D8"
+   },
+   "cells": [
+    {
+     "ref": "A8",
+     "header": "Connector",
+     "value": "GitHub"
+    },
+    {
+     "ref": "B8",
+     "header": "Check",
+     "value": "Approval"
+    },
+    {
+     "ref": "C8",
+     "header": "Account condition",
+     "value": "Repository permission checked"
+    },
+    {
+     "ref": "D8",
+     "header": "Result or follow-up",
+     "value": "Check consent for the requested workspace"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 17
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Google Drive; Check: Approval; Account condition: Existing Drive access; Result or follow-up: Check consent for the requested workspace",
+   "sha": "372342295827",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 9,
+    "range": "A9:D9"
+   },
+   "cells": [
+    {
+     "ref": "A9",
+     "header": "Connector",
+     "value": "Google Drive"
+    },
+    {
+     "ref": "B9",
+     "header": "Check",
+     "value": "Approval"
+    },
+    {
+     "ref": "C9",
+     "header": "Account condition",
+     "value": "Existing Drive access"
+    },
+    {
+     "ref": "D9",
+     "header": "Result or follow-up",
+     "value": "Check consent for the requested workspace"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 18
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Jira Cloud; Check: Approval; Account condition: One-way link only; Result or follow-up: Check consent for the requested workspace",
+   "sha": "f457fb7b05ad",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 10,
+    "range": "A10:D10"
+   },
+   "cells": [
+    {
+     "ref": "A10",
+     "header": "Connector",
+     "value": "Jira Cloud"
+    },
+    {
+     "ref": "B10",
+     "header": "Check",
+     "value": "Approval"
+    },
+    {
+     "ref": "C10",
+     "header": "Account condition",
+     "value": "One-way link only"
+    },
+    {
+     "ref": "D10",
+     "header": "Result or follow-up",
+     "value": "Check consent for the requested workspace"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 19
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Slack; Check: Private resource; Account condition: Workspace approved; Result or follow-up: No access granted by the posted link",
+   "sha": "c596122fd507",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 11,
+    "range": "A11:D11"
+   },
+   "cells": [
+    {
+     "ref": "A11",
+     "header": "Connector",
+     "value": "Slack"
+    },
+    {
+     "ref": "B11",
+     "header": "Check",
+     "value": "Private resource"
+    },
+    {
+     "ref": "C11",
+     "header": "Account condition",
+     "value": "Workspace approved"
+    },
+    {
+     "ref": "D11",
+     "header": "Result or follow-up",
+     "value": "No access granted by the posted link"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 20
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Microsoft Teams; Check: Private resource; Account condition: Tenant administrator available; Result or follow-up: No access granted by the posted link",
+   "sha": "7917900a9e98",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 12,
+    "range": "A12:D12"
+   },
+   "cells": [
+    {
+     "ref": "A12",
+     "header": "Connector",
+     "value": "Microsoft Teams"
+    },
+    {
+     "ref": "B12",
+     "header": "Check",
+     "value": "Private resource"
+    },
+    {
+     "ref": "C12",
+     "header": "Account condition",
+     "value": "Tenant administrator available"
+    },
+    {
+     "ref": "D12",
+     "header": "Result or follow-up",
+     "value": "No access granted by the posted link"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 21
+  },
+  {
+   "kind": "record",
+   "text": "Connector: GitHub; Check: Private resource; Account condition: Repository permission checked; Result or follow-up: No access granted by the posted link",
+   "sha": "1d2ba9529495",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 13,
+    "range": "A13:D13"
+   },
+   "cells": [
+    {
+     "ref": "A13",
+     "header": "Connector",
+     "value": "GitHub"
+    },
+    {
+     "ref": "B13",
+     "header": "Check",
+     "value": "Private resource"
+    },
+    {
+     "ref": "C13",
+     "header": "Account condition",
+     "value": "Repository permission checked"
+    },
+    {
+     "ref": "D13",
+     "header": "Result or follow-up",
+     "value": "No access granted by the posted link"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 22
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Google Drive; Check: Private resource; Account condition: Existing Drive access; Result or follow-up: No access granted by the posted link",
+   "sha": "d05626bab700",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 14,
+    "range": "A14:D14"
+   },
+   "cells": [
+    {
+     "ref": "A14",
+     "header": "Connector",
+     "value": "Google Drive"
+    },
+    {
+     "ref": "B14",
+     "header": "Check",
+     "value": "Private resource"
+    },
+    {
+     "ref": "C14",
+     "header": "Account condition",
+     "value": "Existing Drive access"
+    },
+    {
+     "ref": "D14",
+     "header": "Result or follow-up",
+     "value": "No access granted by the posted link"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 23
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Jira Cloud; Check: Private resource; Account condition: One-way link only; Result or follow-up: No access granted by the posted link",
+   "sha": "ccdde629e639",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 15,
+    "range": "A15:D15"
+   },
+   "cells": [
+    {
+     "ref": "A15",
+     "header": "Connector",
+     "value": "Jira Cloud"
+    },
+    {
+     "ref": "B15",
+     "header": "Check",
+     "value": "Private resource"
+    },
+    {
+     "ref": "C15",
+     "header": "Account condition",
+     "value": "One-way link only"
+    },
+    {
+     "ref": "D15",
+     "header": "Result or follow-up",
+     "value": "No access granted by the posted link"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 24
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Slack; Check: Scope change; Account condition: Workspace approved; Result or follow-up: Fresh consent required for new write scopes",
+   "sha": "0342698f1d80",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 16,
+    "range": "A16:D16"
+   },
+   "cells": [
+    {
+     "ref": "A16",
+     "header": "Connector",
+     "value": "Slack"
+    },
+    {
+     "ref": "B16",
+     "header": "Check",
+     "value": "Scope change"
+    },
+    {
+     "ref": "C16",
+     "header": "Account condition",
+     "value": "Workspace approved"
+    },
+    {
+     "ref": "D16",
+     "header": "Result or follow-up",
+     "value": "Fresh consent required for new write scopes"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 25
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Microsoft Teams; Check: Scope change; Account condition: Tenant administrator available; Result or follow-up: Fresh consent required for new write scopes",
+   "sha": "8cbe98c0db06",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 17,
+    "range": "A17:D17"
+   },
+   "cells": [
+    {
+     "ref": "A17",
+     "header": "Connector",
+     "value": "Microsoft Teams"
+    },
+    {
+     "ref": "B17",
+     "header": "Check",
+     "value": "Scope change"
+    },
+    {
+     "ref": "C17",
+     "header": "Account condition",
+     "value": "Tenant administrator available"
+    },
+    {
+     "ref": "D17",
+     "header": "Result or follow-up",
+     "value": "Fresh consent required for new write scopes"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 26
+  },
+  {
+   "kind": "record",
+   "text": "Connector: GitHub; Check: Scope change; Account condition: Repository permission checked; Result or follow-up: Fresh consent required for new write scopes",
+   "sha": "9684c378047f",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 18,
+    "range": "A18:D18"
+   },
+   "cells": [
+    {
+     "ref": "A18",
+     "header": "Connector",
+     "value": "GitHub"
+    },
+    {
+     "ref": "B18",
+     "header": "Check",
+     "value": "Scope change"
+    },
+    {
+     "ref": "C18",
+     "header": "Account condition",
+     "value": "Repository permission checked"
+    },
+    {
+     "ref": "D18",
+     "header": "Result or follow-up",
+     "value": "Fresh consent required for new write scopes"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 27
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Google Drive; Check: Scope change; Account condition: Existing Drive access; Result or follow-up: Fresh consent required for new write scopes",
+   "sha": "6059ac26032c",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 19,
+    "range": "A19:D19"
+   },
+   "cells": [
+    {
+     "ref": "A19",
+     "header": "Connector",
+     "value": "Google Drive"
+    },
+    {
+     "ref": "B19",
+     "header": "Check",
+     "value": "Scope change"
+    },
+    {
+     "ref": "C19",
+     "header": "Account condition",
+     "value": "Existing Drive access"
+    },
+    {
+     "ref": "D19",
+     "header": "Result or follow-up",
+     "value": "Fresh consent required for new write scopes"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 28
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Jira Cloud; Check: Scope change; Account condition: One-way link only; Result or follow-up: Fresh consent required for new write scopes",
+   "sha": "42533c3e908f",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 20,
+    "range": "A20:D20"
+   },
+   "cells": [
+    {
+     "ref": "A20",
+     "header": "Connector",
+     "value": "Jira Cloud"
+    },
+    {
+     "ref": "B20",
+     "header": "Check",
+     "value": "Scope change"
+    },
+    {
+     "ref": "C20",
+     "header": "Account condition",
+     "value": "One-way link only"
+    },
+    {
+     "ref": "D20",
+     "header": "Result or follow-up",
+     "value": "Fresh consent required for new write scopes"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 29
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Slack; Check: Link opening; Account condition: Workspace approved; Result or follow-up: Open with the recipient’s own permissions",
+   "sha": "0feb099db1bc",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 21,
+    "range": "A21:D21"
+   },
+   "cells": [
+    {
+     "ref": "A21",
+     "header": "Connector",
+     "value": "Slack"
+    },
+    {
+     "ref": "B21",
+     "header": "Check",
+     "value": "Link opening"
+    },
+    {
+     "ref": "C21",
+     "header": "Account condition",
+     "value": "Workspace approved"
+    },
+    {
+     "ref": "D21",
+     "header": "Result or follow-up",
+     "value": "Open with the recipient’s own permissions"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 30
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Microsoft Teams; Check: Link opening; Account condition: Tenant administrator available; Result or follow-up: Open with the recipient’s own permissions",
+   "sha": "779e31c6d425",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 22,
+    "range": "A22:D22"
+   },
+   "cells": [
+    {
+     "ref": "A22",
+     "header": "Connector",
+     "value": "Microsoft Teams"
+    },
+    {
+     "ref": "B22",
+     "header": "Check",
+     "value": "Link opening"
+    },
+    {
+     "ref": "C22",
+     "header": "Account condition",
+     "value": "Tenant administrator available"
+    },
+    {
+     "ref": "D22",
+     "header": "Result or follow-up",
+     "value": "Open with the recipient’s own permissions"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 31
+  },
+  {
+   "kind": "record",
+   "text": "Connector: GitHub; Check: Link opening; Account condition: Repository permission checked; Result or follow-up: Open with the recipient’s own permissions",
+   "sha": "9d29fd1ade9d",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 23,
+    "range": "A23:D23"
+   },
+   "cells": [
+    {
+     "ref": "A23",
+     "header": "Connector",
+     "value": "GitHub"
+    },
+    {
+     "ref": "B23",
+     "header": "Check",
+     "value": "Link opening"
+    },
+    {
+     "ref": "C23",
+     "header": "Account condition",
+     "value": "Repository permission checked"
+    },
+    {
+     "ref": "D23",
+     "header": "Result or follow-up",
+     "value": "Open with the recipient’s own permissions"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 32
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Google Drive; Check: Link opening; Account condition: Existing Drive access; Result or follow-up: Open with the recipient’s own permissions",
+   "sha": "0f3f82a92179",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 24,
+    "range": "A24:D24"
+   },
+   "cells": [
+    {
+     "ref": "A24",
+     "header": "Connector",
+     "value": "Google Drive"
+    },
+    {
+     "ref": "B24",
+     "header": "Check",
+     "value": "Link opening"
+    },
+    {
+     "ref": "C24",
+     "header": "Account condition",
+     "value": "Existing Drive access"
+    },
+    {
+     "ref": "D24",
+     "header": "Result or follow-up",
+     "value": "Open with the recipient’s own permissions"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 33
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Jira Cloud; Check: Link opening; Account condition: One-way link only; Result or follow-up: Open with the recipient’s own permissions",
+   "sha": "e47d3356c2e5",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 25,
+    "range": "A25:D25"
+   },
+   "cells": [
+    {
+     "ref": "A25",
+     "header": "Connector",
+     "value": "Jira Cloud"
+    },
+    {
+     "ref": "B25",
+     "header": "Check",
+     "value": "Link opening"
+    },
+    {
+     "ref": "C25",
+     "header": "Account condition",
+     "value": "One-way link only"
+    },
+    {
+     "ref": "D25",
+     "header": "Result or follow-up",
+     "value": "Open with the recipient’s own permissions"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 34
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Slack; Check: Retirement queue; Account condition: Workspace approved; Result or follow-up: Disable then revoke; drain queue for up to 15 minutes",
+   "sha": "489e8b775a62",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 26,
+    "range": "A26:D26"
+   },
+   "cells": [
+    {
+     "ref": "A26",
+     "header": "Connector",
+     "value": "Slack"
+    },
+    {
+     "ref": "B26",
+     "header": "Check",
+     "value": "Retirement queue"
+    },
+    {
+     "ref": "C26",
+     "header": "Account condition",
+     "value": "Workspace approved"
+    },
+    {
+     "ref": "D26",
+     "header": "Result or follow-up",
+     "value": "Disable then revoke; drain queue for up to 15 minutes"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 35
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Microsoft Teams; Check: Retirement queue; Account condition: Tenant administrator available; Result or follow-up: Disable then revoke; drain queue for up to 15 minutes",
+   "sha": "62bc5e5174d5",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 27,
+    "range": "A27:D27"
+   },
+   "cells": [
+    {
+     "ref": "A27",
+     "header": "Connector",
+     "value": "Microsoft Teams"
+    },
+    {
+     "ref": "B27",
+     "header": "Check",
+     "value": "Retirement queue"
+    },
+    {
+     "ref": "C27",
+     "header": "Account condition",
+     "value": "Tenant administrator available"
+    },
+    {
+     "ref": "D27",
+     "header": "Result or follow-up",
+     "value": "Disable then revoke; drain queue for up to 15 minutes"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 36
+  },
+  {
+   "kind": "record",
+   "text": "Connector: GitHub; Check: Retirement queue; Account condition: Repository permission checked; Result or follow-up: Disable then revoke; drain queue for up to 15 minutes",
+   "sha": "f60ff02a40e1",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 28,
+    "range": "A28:D28"
+   },
+   "cells": [
+    {
+     "ref": "A28",
+     "header": "Connector",
+     "value": "GitHub"
+    },
+    {
+     "ref": "B28",
+     "header": "Check",
+     "value": "Retirement queue"
+    },
+    {
+     "ref": "C28",
+     "header": "Account condition",
+     "value": "Repository permission checked"
+    },
+    {
+     "ref": "D28",
+     "header": "Result or follow-up",
+     "value": "Disable then revoke; drain queue for up to 15 minutes"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 37
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Google Drive; Check: Retirement queue; Account condition: Existing Drive access; Result or follow-up: Disable then revoke; drain queue for up to 15 minutes",
+   "sha": "6daff4ed593b",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 29,
+    "range": "A29:D29"
+   },
+   "cells": [
+    {
+     "ref": "A29",
+     "header": "Connector",
+     "value": "Google Drive"
+    },
+    {
+     "ref": "B29",
+     "header": "Check",
+     "value": "Retirement queue"
+    },
+    {
+     "ref": "C29",
+     "header": "Account condition",
+     "value": "Existing Drive access"
+    },
+    {
+     "ref": "D29",
+     "header": "Result or follow-up",
+     "value": "Disable then revoke; drain queue for up to 15 minutes"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 38
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Jira Cloud; Check: Retirement queue; Account condition: One-way link only; Result or follow-up: Disable then revoke; drain queue for up to 15 minutes",
+   "sha": "008c7d20b658",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 30,
+    "range": "A30:D30"
+   },
+   "cells": [
+    {
+     "ref": "A30",
+     "header": "Connector",
+     "value": "Jira Cloud"
+    },
+    {
+     "ref": "B30",
+     "header": "Check",
+     "value": "Retirement queue"
+    },
+    {
+     "ref": "C30",
+     "header": "Account condition",
+     "value": "One-way link only"
+    },
+    {
+     "ref": "D30",
+     "header": "Result or follow-up",
+     "value": "Disable then revoke; drain queue for up to 15 minutes"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 39
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Slack; Check: Vendor limit; Account condition: Workspace approved; Result or follow-up: Temporary vendor failures use retry handling",
+   "sha": "3ed25317888a",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 31,
+    "range": "A31:D31"
+   },
+   "cells": [
+    {
+     "ref": "A31",
+     "header": "Connector",
+     "value": "Slack"
+    },
+    {
+     "ref": "B31",
+     "header": "Check",
+     "value": "Vendor limit"
+    },
+    {
+     "ref": "C31",
+     "header": "Account condition",
+     "value": "Workspace approved"
+    },
+    {
+     "ref": "D31",
+     "header": "Result or follow-up",
+     "value": "Temporary vendor failures use retry handling"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 40
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Microsoft Teams; Check: Vendor limit; Account condition: Tenant administrator available; Result or follow-up: Temporary vendor failures use retry handling",
+   "sha": "d837d82aff31",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 32,
+    "range": "A32:D32"
+   },
+   "cells": [
+    {
+     "ref": "A32",
+     "header": "Connector",
+     "value": "Microsoft Teams"
+    },
+    {
+     "ref": "B32",
+     "header": "Check",
+     "value": "Vendor limit"
+    },
+    {
+     "ref": "C32",
+     "header": "Account condition",
+     "value": "Tenant administrator available"
+    },
+    {
+     "ref": "D32",
+     "header": "Result or follow-up",
+     "value": "Temporary vendor failures use retry handling"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 41
+  },
+  {
+   "kind": "record",
+   "text": "Connector: GitHub; Check: Vendor limit; Account condition: Repository permission checked; Result or follow-up: Temporary vendor failures use retry handling",
+   "sha": "78e5c82c0e9d",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 33,
+    "range": "A33:D33"
+   },
+   "cells": [
+    {
+     "ref": "A33",
+     "header": "Connector",
+     "value": "GitHub"
+    },
+    {
+     "ref": "B33",
+     "header": "Check",
+     "value": "Vendor limit"
+    },
+    {
+     "ref": "C33",
+     "header": "Account condition",
+     "value": "Repository permission checked"
+    },
+    {
+     "ref": "D33",
+     "header": "Result or follow-up",
+     "value": "Temporary vendor failures use retry handling"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 42
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Google Drive; Check: Vendor limit; Account condition: Existing Drive access; Result or follow-up: Temporary vendor failures use retry handling",
+   "sha": "a26cafab08e5",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 34,
+    "range": "A34:D34"
+   },
+   "cells": [
+    {
+     "ref": "A34",
+     "header": "Connector",
+     "value": "Google Drive"
+    },
+    {
+     "ref": "B34",
+     "header": "Check",
+     "value": "Vendor limit"
+    },
+    {
+     "ref": "C34",
+     "header": "Account condition",
+     "value": "Existing Drive access"
+    },
+    {
+     "ref": "D34",
+     "header": "Result or follow-up",
+     "value": "Temporary vendor failures use retry handling"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 43
+  },
+  {
+   "kind": "record",
+   "text": "Connector: Jira Cloud; Check: Vendor limit; Account condition: One-way link only; Result or follow-up: Temporary vendor failures use retry handling",
+   "sha": "77baf7249b9e",
+   "section": "Vendor checks",
+   "locator": {
+    "sheet": "Vendor checks",
+    "row": 35,
+    "range": "A35:D35"
+   },
+   "cells": [
+    {
+     "ref": "A35",
+     "header": "Connector",
+     "value": "Jira Cloud"
+    },
+    {
+     "ref": "B35",
+     "header": "Check",
+     "value": "Vendor limit"
+    },
+    {
+     "ref": "C35",
+     "header": "Account condition",
+     "value": "One-way link only"
+    },
+    {
+     "ref": "D35",
+     "header": "Result or follow-up",
+     "value": "Temporary vendor failures use retry handling"
+    }
+   ],
+   "context": {
+    "sheet": "Vendor checks",
+    "title": "Connector review observations",
+    "title_range": "A1:D2",
+    "notes": [],
+    "header_range": "A5:D5",
+    "header": [
+     "Connector",
+     "Check",
+     "Account condition",
+     "Result or follow-up"
+    ]
+   },
+   "seg": 44
+  }
+ ]
+}
