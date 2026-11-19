@@ -1,0 +1,17 @@
+{
+ "answer": "Нужна проверка сотрудником: два действующих документа дают разную ставку. По выпуску Support Operations (documents/Клиентский сервис/Team service credits.docx, раздел «Урегулирование», абзац 10) за подходящий сбой P1 на Team не менее 120 минут подряд сервисный кредит — 20 % ежемесячной платы за подписку. По рассылке Finance (documents/Финансы/Team service credits.pdf, стр. 1) — 15 %. Оба документа действуют с 15 сентября 2026 года, оба прямо применяются к сбою ровно 120 минут подряд, поэтому по датам выбрать один нельзя. Совпадает в обоих: кредит зачитывается в следующий счёт и не является денежной выплатой; сумма кредитов не может превышать 50 % той же ежемесячной платы; процент берётся от ежемесячной платы затронутого workspace без налогов и дополнений за использование; billing owner подаёт заявку в течение 10 календарных дней после окончания инцидента. Ставку клиенту не обещать до совместной проверки Finance и Support Operations — эскалировать им расхождение 20 % / 15 %.",
+ "citations": [
+  {"document_id": "team-service-credits-support", "chunk_id": "team-service-credits-support::chunk-03", "quote": "При подходящем сбое P1 на Team продолжительностью не менее 120 минут подряд сервисный кредит составляет 20 процентов ежемесячной платы за подписку."},
+  {"document_id": "team-service-credits-finance", "chunk_id": "team-service-credits-finance::chunk-03", "quote": "Ставка. При подходящем сбое P1 на Team продолжительностью не менее 120 минут подряд сервисный кредит составляет 15 процентов ежемесячной платы за подписку."},
+  {"document_id": "team-service-credits-support", "chunk_id": "team-service-credits-support::chunk-01", "quote": "Выпуск Support Operations, действует с 15 сентября 2026 года."},
+  {"document_id": "team-service-credits-finance", "chunk_id": "team-service-credits-finance::chunk-01", "quote": "Рассылка Finance, действует с 15 сентября 2026 года."},
+  {"document_id": "team-service-credits-finance", "chunk_id": "team-service-credits-finance::chunk-01", "quote": "в том числе к сбою продолжительностью ровно 120 минут подряд"},
+  {"document_id": "team-service-credits-support", "chunk_id": "team-service-credits-support::chunk-01", "quote": "в том числе при сбое продолжительностью ровно 120 минут подряд"},
+  {"document_id": "team-service-credits-support", "chunk_id": "team-service-credits-support::chunk-03", "quote": "Одобренный кредит зачитывается в следующий счёт и не является денежной выплатой."},
+  {"document_id": "team-service-credits-finance", "chunk_id": "team-service-credits-finance::chunk-03", "quote": "Предел. Сумма кредитов за инциденты не может превышать 50 процентов той же ежемесячной платы за подписку."},
+  {"document_id": "team-service-credits-support", "chunk_id": "team-service-credits-support::chunk-02", "quote": "Процент применяется к ежемесячной плате за подписку затронутого workspace без учёта налогов и дополнений за использование."},
+  {"document_id": "team-service-credits-support", "chunk_id": "team-service-credits-support::chunk-02", "quote": "Billing owner должен подать заявку в течение 10 календарных дней после окончания инцидента."},
+  {"document_id": "team-service-credits-support", "chunk_id": "team-service-credits-support::chunk-03", "quote": "Неполные или оспариваемые заявки Finance и Support Operations проверяют совместно."}
+ ],
+ "decision": "escalate"
+}

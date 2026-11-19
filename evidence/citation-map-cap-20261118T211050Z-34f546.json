@@ -1,0 +1,467 @@
+{
+ "capture_id": "cap-20261118T211050Z-34f546",
+ "question": "Какие условия ротации ключа API?",
+ "role": "support_agent",
+ "citations": [
+  {
+   "citation_index": 0,
+   "document_id": "api-key-rotation",
+   "chunk_id": "api-key-rotation::chunk-01",
+   "quote": "Ключ API ротируют не реже одного раза в 90 календарных дней.",
+   "rank": 1,
+   "distance": 0.119422,
+   "title": "Ротация сервисного ключа без потери контекста",
+   "title_orig": "Ротация сервисного ключа без потери контекста",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "section": "(введение)",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Security Operations",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "31-003",
+     "location": {
+      "file": "documents/Платформа и интеграции/Ротация ключей.md",
+      "format": "md",
+      "fragment_id": "31-003",
+      "section": "(введение)",
+      "lines": [
+       5,
+       5
+      ],
+      "where": "введение, строка 5"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": null,
+     "handling": "Действующий материал.",
+     "also_in": [
+      {
+       "fragment_id": "39-003",
+       "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+       "locator_text": "стр. 1, блок 3",
+       "source_lang": "ru"
+      }
+     ],
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 1,
+   "document_id": "api-key-rotation",
+   "chunk_id": "api-key-rotation::chunk-01",
+   "quote": "Переход закончен тогда, когда новый проверен, а старый отозван.",
+   "rank": 1,
+   "distance": 0.119422,
+   "title": "Ротация сервисного ключа без потери контекста",
+   "title_orig": "Ротация сервисного ключа без потери контекста",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "section": "(введение)",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Security Operations",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "31-003",
+     "location": {
+      "file": "documents/Платформа и интеграции/Ротация ключей.md",
+      "format": "md",
+      "fragment_id": "31-003",
+      "section": "(введение)",
+      "lines": [
+       5,
+       5
+      ],
+      "where": "введение, строка 5"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": null,
+     "handling": "Действующий материал.",
+     "also_in": [
+      {
+       "fragment_id": "39-003",
+       "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+       "locator_text": "стр. 1, блок 3",
+       "source_lang": "ru"
+      }
+     ],
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 2,
+   "document_id": "api-key-rotation",
+   "chunk_id": "api-key-rotation::chunk-02",
+   "quote": "Новый ключ создаёт администратор интеграции с минимальным набором scopes.",
+   "rank": 3,
+   "distance": 0.145379,
+   "title": "Ротация сервисного ключа без потери контекста",
+   "title_orig": "Ротация сервисного ключа без потери контекста",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "section": "Подготовить смену",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Security Operations",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "31-005",
+     "location": {
+      "file": "documents/Платформа и интеграции/Ротация ключей.md",
+      "format": "md",
+      "fragment_id": "31-005",
+      "section": "Подготовить смену",
+      "lines": [
+       9,
+       9
+      ],
+      "where": "раздел «Подготовить смену», строка 9"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": null,
+     "handling": "Действующий материал.",
+     "also_in": [
+      {
+       "fragment_id": "39-005",
+       "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+       "locator_text": "стр. 1, блок 5",
+       "source_lang": "ru"
+      }
+     ],
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 3,
+   "document_id": "api-key-rotation",
+   "chunk_id": "api-key-rotation::chunk-02",
+   "quote": "Одновременно допускаются два активных ключа в течение 24 часов.",
+   "rank": 3,
+   "distance": 0.145379,
+   "title": "Ротация сервисного ключа без потери контекста",
+   "title_orig": "Ротация сервисного ключа без потери контекста",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "section": "Подготовить смену",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Security Operations",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "31-006",
+     "location": {
+      "file": "documents/Платформа и интеграции/Ротация ключей.md",
+      "format": "md",
+      "fragment_id": "31-006",
+      "section": "Подготовить смену",
+      "lines": [
+       11,
+       11
+      ],
+      "where": "раздел «Подготовить смену», строка 11"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": null,
+     "handling": "Действующий материал.",
+     "also_in": [
+      {
+       "fragment_id": "39-006",
+       "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+       "locator_text": "стр. 1, блок 6",
+       "source_lang": "ru"
+      }
+     ],
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 4,
+   "document_id": "api-key-rotation",
+   "chunk_id": "api-key-rotation::chunk-02",
+   "quote": "Полное значение ключа нельзя отправлять в поддержку, по почте или в чат.",
+   "rank": 3,
+   "distance": 0.145379,
+   "title": "Ротация сервисного ключа без потери контекста",
+   "title_orig": "Ротация сервисного ключа без потери контекста",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "section": "Подготовить смену",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Security Operations",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "31-007",
+     "location": {
+      "file": "documents/Платформа и интеграции/Ротация ключей.md",
+      "format": "md",
+      "fragment_id": "31-007",
+      "section": "Подготовить смену",
+      "lines": [
+       13,
+       13
+      ],
+      "where": "раздел «Подготовить смену», строка 13"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": null,
+     "handling": "Действующий материал.",
+     "also_in": [
+      {
+       "fragment_id": "39-007",
+       "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+       "locator_text": "стр. 1, блок 7",
+       "source_lang": "ru"
+      }
+     ],
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 5,
+   "document_id": "api-key-rotation",
+   "chunk_id": "api-key-rotation::chunk-03",
+   "quote": "До отзыва старого ключа выполните с новым один запрос чтения и один разрешённый запрос записи.",
+   "rank": 2,
+   "distance": 0.137167,
+   "title": "Ротация сервисного ключа без потери контекста",
+   "title_orig": "Ротация сервисного ключа без потери контекста",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "section": "Проверить до отзыва",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Security Operations",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "31-009",
+     "location": {
+      "file": "documents/Платформа и интеграции/Ротация ключей.md",
+      "format": "md",
+      "fragment_id": "31-009",
+      "section": "Проверить до отзыва",
+      "lines": [
+       17,
+       17
+      ],
+      "where": "раздел «Проверить до отзыва», строка 17"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": null,
+     "handling": "Действующий материал.",
+     "also_in": [
+      {
+       "fragment_id": "39-009",
+       "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+       "locator_text": "стр. 1, блок 9",
+       "source_lang": "ru"
+      }
+     ],
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 6,
+   "document_id": "api-key-rotation",
+   "chunk_id": "api-key-rotation::chunk-03",
+   "quote": "В обращении допустимы key ID, время UTC, endpoint и request ID без заголовка Authorization.",
+   "rank": 2,
+   "distance": 0.137167,
+   "title": "Ротация сервисного ключа без потери контекста",
+   "title_orig": "Ротация сервисного ключа без потери контекста",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "section": "Проверить до отзыва",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Security Operations",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "31-010",
+     "location": {
+      "file": "documents/Платформа и интеграции/Ротация ключей.md",
+      "format": "md",
+      "fragment_id": "31-010",
+      "section": "Проверить до отзыва",
+      "lines": [
+       19,
+       19
+      ],
+      "where": "раздел «Проверить до отзыва», строка 19"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": null,
+     "handling": "Действующий материал.",
+     "also_in": [
+      {
+       "fragment_id": "39-010",
+       "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+       "locator_text": "стр. 1–2, блок 10",
+       "source_lang": "ru"
+      }
+     ],
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 7,
+   "document_id": "api-key-rotation",
+   "chunk_id": "api-key-rotation::chunk-03",
+   "quote": "После успешной проверки нового старый ключ отзывают. Это нужно сделать не позднее конца 24-часового окна перекрытия.",
+   "rank": 2,
+   "distance": 0.137167,
+   "title": "Ротация сервисного ключа без потери контекста",
+   "title_orig": "Ротация сервисного ключа без потери контекста",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "section": "Проверить до отзыва",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Security Operations",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "31-011",
+     "location": {
+      "file": "documents/Платформа и интеграции/Ротация ключей.md",
+      "format": "md",
+      "fragment_id": "31-011",
+      "section": "Проверить до отзыва",
+      "lines": [
+       21,
+       21
+      ],
+      "where": "раздел «Проверить до отзыва», строка 21"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": null,
+     "handling": "Действующий материал.",
+     "also_in": [
+      {
+       "fragment_id": "39-011",
+       "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+       "locator_text": "стр. 2, блок 1",
+       "source_lang": "ru"
+      }
+     ],
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 8,
+   "document_id": "api-key-rotation",
+   "chunk_id": "api-key-rotation::chunk-04",
+   "quote": "При подозрении на раскрытие ключ отзывают немедленно и передают incident ID руководителю поддержки.",
+   "rank": 4,
+   "distance": 0.146044,
+   "title": "Ротация сервисного ключа без потери контекста",
+   "title_orig": "Ротация сервисного ключа без потери контекста",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "section": "Когда разговор становится инцидентом",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Security Operations",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "31-013",
+     "location": {
+      "file": "documents/Платформа и интеграции/Ротация ключей.md",
+      "format": "md",
+      "fragment_id": "31-013",
+      "section": "Когда разговор становится инцидентом",
+      "lines": [
+       25,
+       25
+      ],
+      "where": "раздел «Когда разговор становится инцидентом», строка 25"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": null,
+     "handling": "Действующий материал.",
+     "also_in": [
+      {
+       "fragment_id": "39-013",
+       "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+       "locator_text": "стр. 2, блок 3",
+       "source_lang": "ru"
+      }
+     ],
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 9,
+   "document_id": "api-key-rotation",
+   "chunk_id": "api-key-rotation::chunk-04",
+   "quote": "Создание и отзыв записываются в журнал аудита workspace.",
+   "rank": 4,
+   "distance": 0.146044,
+   "title": "Ротация сервисного ключа без потери контекста",
+   "title_orig": "Ротация сервисного ключа без потери контекста",
+   "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+   "section": "Когда разговор становится инцидентом",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Security Operations",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "31-014",
+     "location": {
+      "file": "documents/Платформа и интеграции/Ротация ключей.md",
+      "format": "md",
+      "fragment_id": "31-014",
+      "section": "Когда разговор становится инцидентом",
+      "lines": [
+       27,
+       27
+      ],
+      "where": "раздел «Когда разговор становится инцидентом», строка 27"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": null,
+     "handling": "Действующий материал.",
+     "also_in": [
+      {
+       "fragment_id": "39-014",
+       "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+       "locator_text": "стр. 2, блок 4",
+       "source_lang": "ru"
+      }
+     ],
+     "similar_to": null
+    }
+   ]
+  }
+ ]
+}

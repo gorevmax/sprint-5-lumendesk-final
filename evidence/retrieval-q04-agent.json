@@ -1,0 +1,674 @@
+{
+ "status": "retrieval_only",
+ "query_id": "q-20261118T203445Z-b56778",
+ "created_at": "2026-11-18T20:34:45Z",
+ "index_id": "idx-20261118T202118Z-d51167",
+ "question": "По какому расписанию повторяется доставка вебхука и когда приостанавливается подписка?",
+ "question_tokens": 26,
+ "role": "support_agent",
+ "top_k": 8,
+ "policy": {
+  "version": "v2",
+  "retrieval_threshold": 0.2,
+  "authorization_probe_distance": 0.35,
+  "top_k": 8,
+  "config_path": "behavior/v2.json",
+  "config_sha256": "72266e97822de6c04c3d08264ae1a8ffdc2e893faa4a416ba55401c492a1d324",
+  "system_file": "behavior/system-v2.md",
+  "system_sha256": "d01b2da6db28fbaedbee3dc12026806b62168db0be02e9ad5ec693256f195354"
+ },
+ "collection": "lumendesk-support",
+ "metric": "cosine",
+ "context_state": "available",
+ "filtering": {
+  "role": "support_agent",
+  "allowed_documents": 39,
+  "n_results": 8,
+  "candidates": 8,
+  "admitted": 8,
+  "rejected_by_threshold": [],
+  "retrieval_threshold": 0.2,
+  "restricted_probe": {
+   "checked": true,
+   "denied_documents": 3,
+   "nearest_distance": 0.210984,
+   "within_probe": 8,
+   "probe_distance": 0.35,
+   "closer_than_best_admitted": 0
+  },
+  "note": "available не доказывает полноту; empty не является технической ошибкой; forbidden не раскрывает закрытый источник"
+ },
+ "hits": [
+  {
+   "rank": 1,
+   "chunk_id": "webhook-retries::chunk-08",
+   "text": "Вид: правило; Этап или доставка: Приостановка; Наблюдение: Три события dead_letter в течение одного часа приостанавливают подписку.",
+   "metadata": {
+    "token_count": 46,
+    "line_end": 9,
+    "locator": "строка 9",
+    "page_start": 0,
+    "title_orig": "",
+    "title_source": "имя файла",
+    "chunk_sha256": "f102a29d9f66ddc6037132f14fa24d5744a3b9e7b65b6d6cf2dfbf2cd6e99b8b",
+    "trust": "unconfirmed_origin",
+    "owner": "",
+    "is_translation": true,
+    "section": "(введение)",
+    "title": "webhooks-reprises",
+    "document_id": "webhook-retries",
+    "document_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "source_lang": "fr",
+    "format": "csv",
+    "conflict_group": "",
+    "page_end": 0,
+    "line_start": 9,
+    "updated": "",
+    "fragment_ids": "06-009",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "related": "23 4 15",
+    "version": ""
+   },
+   "distance": 0.127655,
+   "provenance": [
+    {
+     "fragment_id": "06-009",
+     "role": "content",
+     "start": 0,
+     "end": 131,
+     "locator": {
+      "csv_row": 9
+     },
+     "locator_text": "строка 9",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Nature: consigne; Étape ou livraison: Suspension; Observation: Trois événements dead_letter en une heure suspendent l’abonnement.",
+     "cells": [
+      {
+       "col": 1,
+       "header": "Nature",
+       "header_ru": "Вид",
+       "value": "consigne",
+       "value_ru": "правило"
+      },
+      {
+       "col": 2,
+       "header": "Étape ou livraison",
+       "header_ru": "Этап или доставка",
+       "value": "Suspension",
+       "value_ru": "Приостановка"
+      },
+      {
+       "col": 6,
+       "header": "Observation",
+       "header_ru": "Наблюдение",
+       "value": "Trois événements dead_letter en une heure suspendent l’abonnement.",
+       "value_ru": "Три события dead_letter в течение одного часа приостанавливают подписку."
+      }
+     ],
+     "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 2,
+   "chunk_id": "webhook-retries::chunk-04",
+   "text": "Вид: расписание; Этап или доставка: Попытка 4; Минут с первоначальной отправки: 15; Наблюдение: Повторная отправка на 15-й минуте.",
+   "metadata": {
+    "fragment_ids": "06-005",
+    "updated": "",
+    "related": "23 4 15",
+    "source_lang": "fr",
+    "title_orig": "",
+    "section": "(введение)",
+    "version": "",
+    "owner": "",
+    "line_end": 5,
+    "is_translation": true,
+    "document_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "locator": "строка 5",
+    "token_count": 52,
+    "conflict_group": "",
+    "line_start": 5,
+    "format": "csv",
+    "chunk_sha256": "7141762fc1fecbd6ebc100476c8fecfa78b88ed3f2a7781090b12dd07ff8737c",
+    "title": "webhooks-reprises",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "title_source": "имя файла",
+    "page_end": 0,
+    "page_start": 0,
+    "trust": "unconfirmed_origin",
+    "document_id": "webhook-retries"
+   },
+   "distance": 0.133313,
+   "provenance": [
+    {
+     "fragment_id": "06-005",
+     "role": "content",
+     "start": 0,
+     "end": 130,
+     "locator": {
+      "csv_row": 5
+     },
+     "locator_text": "строка 5",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Nature: calendrier; Étape ou livraison: Tentative 4; Minutes depuis envoi initial: 15; Observation: Nouvel envoi à 15 minutes.",
+     "cells": [
+      {
+       "col": 1,
+       "header": "Nature",
+       "header_ru": "Вид",
+       "value": "calendrier",
+       "value_ru": "расписание"
+      },
+      {
+       "col": 2,
+       "header": "Étape ou livraison",
+       "header_ru": "Этап или доставка",
+       "value": "Tentative 4",
+       "value_ru": "Попытка 4"
+      },
+      {
+       "col": 3,
+       "header": "Minutes depuis envoi initial",
+       "header_ru": "Минут с первоначальной отправки",
+       "value": "15",
+       "value_ru": "15"
+      },
+      {
+       "col": 6,
+       "header": "Observation",
+       "header_ru": "Наблюдение",
+       "value": "Nouvel envoi à 15 minutes.",
+       "value_ru": "Повторная отправка на 15-й минуте."
+      }
+     ],
+     "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "chunk_id": "webhook-retries::chunk-03",
+   "text": "Вид: расписание; Этап или доставка: Попытка 3; Минут с первоначальной отправки: 5; Наблюдение: Повторная отправка на 5-й минуте.",
+   "metadata": {
+    "line_end": 4,
+    "conflict_group": "",
+    "fragment_ids": "06-004",
+    "document_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "line_start": 4,
+    "page_end": 0,
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "document_id": "webhook-retries",
+    "title_source": "имя файла",
+    "title": "webhooks-reprises",
+    "page_start": 0,
+    "chunk_sha256": "f2973134ef661d2a191119ab160c983b75c5376d88084e86e396e7a6fca45e30",
+    "updated": "",
+    "is_translation": true,
+    "title_orig": "",
+    "token_count": 52,
+    "version": "",
+    "locator": "строка 4",
+    "section": "(введение)",
+    "source_lang": "fr",
+    "owner": "",
+    "format": "csv",
+    "related": "23 4 15",
+    "trust": "unconfirmed_origin"
+   },
+   "distance": 0.133423,
+   "provenance": [
+    {
+     "fragment_id": "06-004",
+     "role": "content",
+     "start": 0,
+     "end": 128,
+     "locator": {
+      "csv_row": 4
+     },
+     "locator_text": "строка 4",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Nature: calendrier; Étape ou livraison: Tentative 3; Minutes depuis envoi initial: 5; Observation: Nouvel envoi à 5 minutes.",
+     "cells": [
+      {
+       "col": 1,
+       "header": "Nature",
+       "header_ru": "Вид",
+       "value": "calendrier",
+       "value_ru": "расписание"
+      },
+      {
+       "col": 2,
+       "header": "Étape ou livraison",
+       "header_ru": "Этап или доставка",
+       "value": "Tentative 3",
+       "value_ru": "Попытка 3"
+      },
+      {
+       "col": 3,
+       "header": "Minutes depuis envoi initial",
+       "header_ru": "Минут с первоначальной отправки",
+       "value": "5",
+       "value_ru": "5"
+      },
+      {
+       "col": 6,
+       "header": "Observation",
+       "header_ru": "Наблюдение",
+       "value": "Nouvel envoi à 5 minutes.",
+       "value_ru": "Повторная отправка на 5-й минуте."
+      }
+     ],
+     "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "chunk_id": "webhook-retries::chunk-05",
+   "text": "Вид: расписание; Этап или доставка: Попытка 5; Минут с первоначальной отправки: 60; Наблюдение: Повторная отправка на 60-й минуте.",
+   "metadata": {
+    "related": "23 4 15",
+    "page_start": 0,
+    "line_start": 6,
+    "version": "",
+    "document_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "owner": "",
+    "source_lang": "fr",
+    "is_translation": true,
+    "title_source": "имя файла",
+    "locator": "строка 6",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "trust": "unconfirmed_origin",
+    "title": "webhooks-reprises",
+    "updated": "",
+    "section": "(введение)",
+    "page_end": 0,
+    "line_end": 6,
+    "conflict_group": "",
+    "fragment_ids": "06-006",
+    "chunk_sha256": "e547c5f1c48c2fc54928c0425edf0e6cc7728a14309798b4fa5028647de5b96e",
+    "format": "csv",
+    "token_count": 52,
+    "title_orig": "",
+    "document_id": "webhook-retries"
+   },
+   "distance": 0.133604,
+   "provenance": [
+    {
+     "fragment_id": "06-006",
+     "role": "content",
+     "start": 0,
+     "end": 130,
+     "locator": {
+      "csv_row": 6
+     },
+     "locator_text": "строка 6",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Nature: calendrier; Étape ou livraison: Tentative 5; Minutes depuis envoi initial: 60; Observation: Nouvel envoi à 60 minutes.",
+     "cells": [
+      {
+       "col": 1,
+       "header": "Nature",
+       "header_ru": "Вид",
+       "value": "calendrier",
+       "value_ru": "расписание"
+      },
+      {
+       "col": 2,
+       "header": "Étape ou livraison",
+       "header_ru": "Этап или доставка",
+       "value": "Tentative 5",
+       "value_ru": "Попытка 5"
+      },
+      {
+       "col": 3,
+       "header": "Minutes depuis envoi initial",
+       "header_ru": "Минут с первоначальной отправки",
+       "value": "60",
+       "value_ru": "60"
+      },
+      {
+       "col": 6,
+       "header": "Observation",
+       "header_ru": "Наблюдение",
+       "value": "Nouvel envoi à 60 minutes.",
+       "value_ru": "Повторная отправка на 60-й минуте."
+      }
+     ],
+     "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "chunk_id": "webhook-retries::chunk-06",
+   "text": "Вид: расписание; Этап или доставка: Попытка 6; Минут с первоначальной отправки: 240; Наблюдение: Последняя отправка на 240-й минуте.",
+   "metadata": {
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "title": "webhooks-reprises",
+    "page_start": 0,
+    "updated": "",
+    "title_source": "имя файла",
+    "owner": "",
+    "page_end": 0,
+    "document_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "document_id": "webhook-retries",
+    "version": "",
+    "related": "23 4 15",
+    "chunk_sha256": "c217d00477fafdba622804020cc50ad4addc1ffd6e0f3fba990225b591af0b40",
+    "conflict_group": "",
+    "token_count": 54,
+    "section": "(введение)",
+    "format": "csv",
+    "fragment_ids": "06-007",
+    "is_translation": true,
+    "line_end": 7,
+    "title_orig": "",
+    "source_lang": "fr",
+    "line_start": 7,
+    "locator": "строка 7",
+    "trust": "unconfirmed_origin"
+   },
+   "distance": 0.13495,
+   "provenance": [
+    {
+     "fragment_id": "06-007",
+     "role": "content",
+     "start": 0,
+     "end": 132,
+     "locator": {
+      "csv_row": 7
+     },
+     "locator_text": "строка 7",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Nature: calendrier; Étape ou livraison: Tentative 6; Minutes depuis envoi initial: 240; Observation: Dernier envoi à 240 minutes.",
+     "cells": [
+      {
+       "col": 1,
+       "header": "Nature",
+       "header_ru": "Вид",
+       "value": "calendrier",
+       "value_ru": "расписание"
+      },
+      {
+       "col": 2,
+       "header": "Étape ou livraison",
+       "header_ru": "Этап или доставка",
+       "value": "Tentative 6",
+       "value_ru": "Попытка 6"
+      },
+      {
+       "col": 3,
+       "header": "Minutes depuis envoi initial",
+       "header_ru": "Минут с первоначальной отправки",
+       "value": "240",
+       "value_ru": "240"
+      },
+      {
+       "col": 6,
+       "header": "Observation",
+       "header_ru": "Наблюдение",
+       "value": "Dernier envoi à 240 minutes.",
+       "value_ru": "Последняя отправка на 240-й минуте."
+      }
+     ],
+     "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "chunk_id": "webhook-retries::chunk-09",
+   "text": "Вид: правило; Этап или доставка: Возобновление; Наблюдение: Администратор повторно включает подписку после теста с ответом HTTP 2xx.",
+   "metadata": {
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "trust": "unconfirmed_origin",
+    "title_orig": "",
+    "document_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "version": "",
+    "title_source": "имя файла",
+    "title": "webhooks-reprises",
+    "page_start": 0,
+    "is_translation": true,
+    "source_lang": "fr",
+    "document_id": "webhook-retries",
+    "updated": "",
+    "token_count": 45,
+    "locator": "строка 10",
+    "chunk_sha256": "216200fea732704d0b8f3664f024834c18d3e8ae3139177d9b4bd67c799022e3",
+    "related": "23 4 15",
+    "conflict_group": "",
+    "page_end": 0,
+    "fragment_ids": "06-010",
+    "line_start": 10,
+    "owner": "",
+    "line_end": 10,
+    "section": "(введение)",
+    "format": "csv"
+   },
+   "distance": 0.135744,
+   "provenance": [
+    {
+     "fragment_id": "06-010",
+     "role": "content",
+     "start": 0,
+     "end": 132,
+     "locator": {
+      "csv_row": 10
+     },
+     "locator_text": "строка 10",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Nature: consigne; Étape ou livraison: Reprise; Observation: Un administrateur réactive l’abonnement après un test HTTP 2xx.",
+     "cells": [
+      {
+       "col": 1,
+       "header": "Nature",
+       "header_ru": "Вид",
+       "value": "consigne",
+       "value_ru": "правило"
+      },
+      {
+       "col": 2,
+       "header": "Étape ou livraison",
+       "header_ru": "Этап или доставка",
+       "value": "Reprise",
+       "value_ru": "Возобновление"
+      },
+      {
+       "col": 6,
+       "header": "Observation",
+       "header_ru": "Наблюдение",
+       "value": "Un administrateur réactive l’abonnement après un test HTTP 2xx.",
+       "value_ru": "Администратор повторно включает подписку после теста с ответом HTTP 2xx."
+      }
+     ],
+     "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "chunk_id": "webhook-retries::chunk-02",
+   "text": "Вид: расписание; Этап или доставка: Попытка 2; Минут с первоначальной отправки: 1; Наблюдение: Повторная отправка на 1-й минуте.",
+   "metadata": {
+    "version": "",
+    "page_end": 0,
+    "trust": "unconfirmed_origin",
+    "document_id": "webhook-retries",
+    "token_count": 52,
+    "is_translation": true,
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "page_start": 0,
+    "title_orig": "",
+    "document_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5",
+    "updated": "",
+    "source_lang": "fr",
+    "chunk_sha256": "54ba0ce2eded21ad14264e867e40c21ebfd5ee6f5ead3bf8343e0a0879a1ed70",
+    "fragment_ids": "06-003",
+    "format": "csv",
+    "section": "(введение)",
+    "related": "23 4 15",
+    "line_end": 3,
+    "conflict_group": "",
+    "line_start": 3,
+    "locator": "строка 3",
+    "title_source": "имя файла",
+    "title": "webhooks-reprises",
+    "owner": ""
+   },
+   "distance": 0.140318,
+   "provenance": [
+    {
+     "fragment_id": "06-003",
+     "role": "content",
+     "start": 0,
+     "end": 128,
+     "locator": {
+      "csv_row": 3
+     },
+     "locator_text": "строка 3",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Nature: calendrier; Étape ou livraison: Tentative 2; Minutes depuis envoi initial: 1; Observation: Nouvel envoi à 1 minute.",
+     "cells": [
+      {
+       "col": 1,
+       "header": "Nature",
+       "header_ru": "Вид",
+       "value": "calendrier",
+       "value_ru": "расписание"
+      },
+      {
+       "col": 2,
+       "header": "Étape ou livraison",
+       "header_ru": "Этап или доставка",
+       "value": "Tentative 2",
+       "value_ru": "Попытка 2"
+      },
+      {
+       "col": 3,
+       "header": "Minutes depuis envoi initial",
+       "header_ru": "Минут с первоначальной отправки",
+       "value": "1",
+       "value_ru": "1"
+      },
+      {
+       "col": 6,
+       "header": "Observation",
+       "header_ru": "Наблюдение",
+       "value": "Nouvel envoi à 1 minute.",
+       "value_ru": "Повторная отправка на 1-й минуте."
+      }
+     ],
+     "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "chunk_id": "webhook-retries::chunk-01",
+   "text": "Вид: расписание; Этап или доставка: Попытка 1; Минут с первоначальной отправки: 0; Наблюдение: Первоначальная отправка на 0-й минуте.",
+   "metadata": {
+    "trust": "unconfirmed_origin",
+    "chunk_sha256": "71e1e82505acb62f07cccd09dfb6c72fdb0d31a9f1faab761689d20c143f0ef8",
+    "title_source": "имя файла",
+    "source_lang": "fr",
+    "line_start": 2,
+    "version": "",
+    "section": "(введение)",
+    "title": "webhooks-reprises",
+    "line_end": 2,
+    "conflict_group": "",
+    "fragment_ids": "06-002",
+    "token_count": 54,
+    "locator": "строка 2",
+    "page_start": 0,
+    "owner": "",
+    "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+    "related": "23 4 15",
+    "page_end": 0,
+    "updated": "",
+    "document_id": "webhook-retries",
+    "format": "csv",
+    "title_orig": "",
+    "is_translation": true,
+    "document_sha256": "10a7bb9caae6eaf623872d5b4eb5e2e2f97c12afb3aadb07aa60092c5ff70ee5"
+   },
+   "distance": 0.145415,
+   "provenance": [
+    {
+     "fragment_id": "06-002",
+     "role": "content",
+     "start": 0,
+     "end": 133,
+     "locator": {
+      "csv_row": 2
+     },
+     "locator_text": "строка 2",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Nature: calendrier; Étape ou livraison: Tentative 1; Minutes depuis envoi initial: 0; Observation: Envoi initial à 0 minute.",
+     "cells": [
+      {
+       "col": 1,
+       "header": "Nature",
+       "header_ru": "Вид",
+       "value": "calendrier",
+       "value_ru": "расписание"
+      },
+      {
+       "col": 2,
+       "header": "Étape ou livraison",
+       "header_ru": "Этап или доставка",
+       "value": "Tentative 1",
+       "value_ru": "Попытка 1"
+      },
+      {
+       "col": 3,
+       "header": "Minutes depuis envoi initial",
+       "header_ru": "Минут с первоначальной отправки",
+       "value": "0",
+       "value_ru": "0"
+      },
+      {
+       "col": 6,
+       "header": "Observation",
+       "header_ru": "Наблюдение",
+       "value": "Envoi initial à 0 minute.",
+       "value_ru": "Первоначальная отправка на 0-й минуте."
+      }
+     ],
+     "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту."
+    }
+   ]
+  }
+ ],
+ "context": "[webhook-retries::chunk-08] webhooks-reprises — documents/Выгрузки/webhooks-reprises.csv, строка 9\nВид: правило; Этап или доставка: Приостановка; Наблюдение: Три события dead_letter в течение одного часа приостанавливают подписку.\n\n[webhook-retries::chunk-04] webhooks-reprises — documents/Выгрузки/webhooks-reprises.csv, строка 5\nВид: расписание; Этап или доставка: Попытка 4; Минут с первоначальной отправки: 15; Наблюдение: Повторная отправка на 15-й минуте.\n\n[webhook-retries::chunk-03] webhooks-reprises — documents/Выгрузки/webhooks-reprises.csv, строка 4\nВид: расписание; Этап или доставка: Попытка 3; Минут с первоначальной отправки: 5; Наблюдение: Повторная отправка на 5-й минуте.\n\n[webhook-retries::chunk-05] webhooks-reprises — documents/Выгрузки/webhooks-reprises.csv, строка 6\nВид: расписание; Этап или доставка: Попытка 5; Минут с первоначальной отправки: 60; Наблюдение: Повторная отправка на 60-й минуте.\n\n[webhook-retries::chunk-06] webhooks-reprises — documents/Выгрузки/webhooks-reprises.csv, строка 7\nВид: расписание; Этап или доставка: Попытка 6; Минут с первоначальной отправки: 240; Наблюдение: Последняя отправка на 240-й минуте.\n\n[webhook-retries::chunk-09] webhooks-reprises — documents/Выгрузки/webhooks-reprises.csv, строка 10\nВид: правило; Этап или доставка: Возобновление; Наблюдение: Администратор повторно включает подписку после теста с ответом HTTP 2xx.\n\n[webhook-retries::chunk-02] webhooks-reprises — documents/Выгрузки/webhooks-reprises.csv, строка 3\nВид: расписание; Этап или доставка: Попытка 2; Минут с первоначальной отправки: 1; Наблюдение: Повторная отправка на 1-й минуте.\n\n[webhook-retries::chunk-01] webhooks-reprises — documents/Выгрузки/webhooks-reprises.csv, строка 2\nВид: расписание; Этап или доставка: Попытка 1; Минут с первоначальной отправки: 0; Наблюдение: Первоначальная отправка на 0-й минуте.",
+ "context_chunk_ids": [
+  "webhook-retries::chunk-08",
+  "webhook-retries::chunk-04",
+  "webhook-retries::chunk-03",
+  "webhook-retries::chunk-05",
+  "webhook-retries::chunk-06",
+  "webhook-retries::chunk-09",
+  "webhook-retries::chunk-02",
+  "webhook-retries::chunk-01"
+ ],
+ "retrieval_trace_path": "evidence/retrieval-trace-q-20261118T203445Z-b56778.json",
+ "output_path": "evidence/retrieval-q04-agent.json"
+}

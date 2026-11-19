@@ -1,0 +1,415 @@
+{
+ "query_id": "q-20261118T210510Z-4cb97e",
+ "created_at": "2026-11-18T21:05:10Z",
+ "question": "По какому расписанию повторяется доставка вебхука и когда приостанавливается подписка?",
+ "role": "support_agent",
+ "top_k": 8,
+ "policy": {
+  "version": "v3",
+  "retrieval_threshold": 0.2,
+  "authorization_probe_distance": 0.35,
+  "top_k": 8,
+  "config_path": "behavior/v3.json",
+  "config_sha256": "fb9c58195459e0f13fdcf87b80ce3255c6df888ee819d292a1a1536b6f67d82d",
+  "system_file": "behavior/system-v3.md",
+  "system_sha256": "7bfb0b5462c7c2e7dcab75888f8fd12595cb398932f81bd3fa26eb55ceb4b137",
+  "lexical_extra": 2,
+  "lexical_pool": 40,
+  "lexical_stem": 6,
+  "forbidden_rule": "probe_and_closer_than_allowed"
+ },
+ "profile": {
+  "model_id": "intfloat/multilingual-e5-base",
+  "dimension": 768,
+  "device": "cpu",
+  "normalize_embeddings": true,
+  "passage_prefix": "passage: ",
+  "query_prefix": "query: ",
+  "embedding_text": "title_ru + '\\n' + chunk text (NFC, пробелы схлопнуты); префикс добавляется один раз при encode",
+  "text_normalization": "NFC + whitespace collapse, только для эмбеддингов",
+  "chunker": "structural-v1",
+  "chunk_rule": "введение и разделы H2 (лист для xlsx), по границам подготовленных фрагментов; строка таблицы — отдельный чанк с названием листа",
+  "chunk_token_limit": 384,
+  "chunk_overlap": 0,
+  "query_token_limit": 512,
+  "metric": "cosine",
+  "collection": "lumendesk-support",
+  "corpus_text": "text_ru из corpus/prepared (русский оригинал или проверенный перевод)"
+ },
+ "index_id": "idx-20261118T202118Z-d51167",
+ "allowed_document_ids": [
+  "accessibility-fr",
+  "api-errors",
+  "api-key-rotation",
+  "assistant-quota",
+  "browser-support",
+  "callbacks-fr",
+  "card-export",
+  "domain-verification",
+  "export-security",
+  "file-limits",
+  "france-data-residency",
+  "french-handoff",
+  "guest-access",
+  "hosting-regions",
+  "incident-priority",
+  "incident-register-2026-09",
+  "invoice-correction",
+  "marketplace-approval-retirement",
+  "marketplace-catalogue",
+  "notification-explainer",
+  "notification-rules",
+  "onboarding-handover",
+  "outage-communication",
+  "password-reset",
+  "plan-capabilities",
+  "privacy-requests",
+  "response-targets",
+  "retention-reconciliation",
+  "saml-cutover-notes",
+  "saml-incident-escalation",
+  "saml-parameters",
+  "search-notes",
+  "support-calendar-fr",
+  "team-service-credits-finance",
+  "team-service-credits-support",
+  "trash-recovery",
+  "webhook-retries",
+  "workshop-fr",
+  "workspace-ownership-transfer"
+ ],
+ "denied_document_count": 3,
+ "candidates": [
+  {
+   "chunk_id": "webhook-retries::chunk-08",
+   "distance": 0.127655,
+   "document_id": "webhook-retries",
+   "admitted": true,
+   "within_threshold": true,
+   "text": "Вид: правило; Этап или доставка: Приостановка; Наблюдение: Три события dead_letter в течение одного часа приостанавливают подписку."
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-04",
+   "distance": 0.133313,
+   "document_id": "webhook-retries",
+   "admitted": true,
+   "within_threshold": true,
+   "text": "Вид: расписание; Этап или доставка: Попытка 4; Минут с первоначальной отправки: 15; Наблюдение: Повторная отправка на 15-й минуте."
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-03",
+   "distance": 0.133423,
+   "document_id": "webhook-retries",
+   "admitted": true,
+   "within_threshold": true,
+   "text": "Вид: расписание; Этап или доставка: Попытка 3; Минут с первоначальной отправки: 5; Наблюдение: Повторная отправка на 5-й минуте."
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-05",
+   "distance": 0.133604,
+   "document_id": "webhook-retries",
+   "admitted": true,
+   "within_threshold": true,
+   "text": "Вид: расписание; Этап или доставка: Попытка 5; Минут с первоначальной отправки: 60; Наблюдение: Повторная отправка на 60-й минуте."
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-06",
+   "distance": 0.13495,
+   "document_id": "webhook-retries",
+   "admitted": true,
+   "within_threshold": true,
+   "text": "Вид: расписание; Этап или доставка: Попытка 6; Минут с первоначальной отправки: 240; Наблюдение: Последняя отправка на 240-й минуте."
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-09",
+   "distance": 0.135744,
+   "document_id": "webhook-retries",
+   "admitted": true,
+   "within_threshold": true,
+   "text": "Вид: правило; Этап или доставка: Возобновление; Наблюдение: Администратор повторно включает подписку после теста с ответом HTTP 2xx."
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-02",
+   "distance": 0.140318,
+   "document_id": "webhook-retries",
+   "admitted": true,
+   "within_threshold": true,
+   "text": "Вид: расписание; Этап или доставка: Попытка 2; Минут с первоначальной отправки: 1; Наблюдение: Повторная отправка на 1-й минуте."
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-01",
+   "distance": 0.145415,
+   "document_id": "webhook-retries",
+   "admitted": true,
+   "within_threshold": true,
+   "text": "Вид: расписание; Этап или доставка: Попытка 1; Минут с первоначальной отправки: 0; Наблюдение: Первоначальная отправка на 0-й минуте."
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-11",
+   "distance": 0.153879,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: правило; Этап или доставка: Сетевой таймаут; Наблюдение: Для каждой попытки максимальное время ожидания ответа — 10 секунд."
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-27",
+   "distance": 0.154293,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-46; Минут с первоначальной отправки: 15; Событие: fichier.disponible; HTTP: 504; Наблюдение: превышен сетевой таймаут; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-33",
+   "distance": 0.154417,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-52; Минут с первоначальной отправки: 15; Событие: fichier.disponible; HTTP: 504; Наблюдение: превышен сетевой таймаут; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-15",
+   "distance": 0.154604,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-34; Минут с первоначальной отправки: 15; Событие: fichier.disponible; HTTP: 504; Наблюдение: превышен сетевой таймаут; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-21",
+   "distance": 0.154987,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-40; Минут с первоначальной отправки: 15; Событие: fichier.disponible; HTTP: 504; Наблюдение: превышен сетевой таймаут; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-25",
+   "distance": 0.15549,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-44; Минут с первоначальной отправки: 1; Событие: commentaire.ajoute; HTTP: 429; Наблюдение: получен Retry-After; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-13",
+   "distance": 0.155609,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-32; Минут с первоначальной отправки: 1; Событие: commentaire.ajoute; HTTP: 429; Наблюдение: получен Retry-After; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-19",
+   "distance": 0.15584,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-38; Минут с первоначальной отправки: 1; Событие: commentaire.ajoute; HTTP: 429; Наблюдение: получен Retry-After; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-31",
+   "distance": 0.156055,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-50; Минут с первоначальной отправки: 1; Событие: commentaire.ajoute; HTTP: 429; Наблюдение: получен Retry-After; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-22",
+   "distance": 0.160413,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-41; Минут с первоначальной отправки: 60; Событие: membre.invite; HTTP: 202; Наблюдение: обработка принята; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-34",
+   "distance": 0.160423,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-53; Минут с первоначальной отправки: 60; Событие: membre.invite; HTTP: 202; Наблюдение: обработка принята; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-28",
+   "distance": 0.160495,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-47; Минут с первоначальной отправки: 60; Событие: membre.invite; HTTP: 202; Наблюдение: обработка принята; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-16",
+   "distance": 0.160496,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-35; Минут с первоначальной отправки: 60; Событие: membre.invite; HTTP: 202; Наблюдение: обработка принята; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-35",
+   "distance": 0.162716,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-54; Минут с первоначальной отправки: 240; Событие: carte.archive; HTTP: 500; Наблюдение: ошибка получателя; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-29",
+   "distance": 0.16285,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-48; Минут с первоначальной отправки: 240; Событие: carte.archive; HTTP: 500; Наблюдение: ошибка получателя; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-17",
+   "distance": 0.163309,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-36; Минут с первоначальной отправки: 240; Событие: carte.archive; HTTP: 500; Наблюдение: ошибка получателя; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-23",
+   "distance": 0.163498,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-42; Минут с первоначальной отправки: 240; Событие: carte.archive; HTTP: 500; Наблюдение: ошибка получателя; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-20",
+   "distance": 0.166839,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-39; Минут с первоначальной отправки: 5; Событие: carte.modifie; HTTP: 200; Наблюдение: подтверждение получения; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-12",
+   "distance": 0.167347,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-31; Минут с первоначальной отправки: 0; Событие: cartes.cree; HTTP: 503; Наблюдение: нижестоящий сервис недоступен; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-24",
+   "distance": 0.167563,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-43; Минут с первоначальной отправки: 0; Событие: cartes.cree; HTTP: 503; Наблюдение: нижестоящий сервис недоступен; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-30",
+   "distance": 0.167849,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-49; Минут с первоначальной отправки: 0; Событие: cartes.cree; HTTP: 503; Наблюдение: нижестоящий сервис недоступен; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-32",
+   "distance": 0.168056,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-51; Минут с первоначальной отправки: 5; Событие: carte.modifie; HTTP: 200; Наблюдение: подтверждение получения; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-14",
+   "distance": 0.168078,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-33; Минут с первоначальной отправки: 5; Событие: carte.modifie; HTTP: 200; Наблюдение: подтверждение получения; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-26",
+   "distance": 0.168239,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-45; Минут с первоначальной отправки: 5; Событие: carte.modifie; HTTP: 200; Наблюдение: подтверждение получения; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-10",
+   "distance": 0.168277,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: правило; Этап или доставка: Идентификатор; Наблюдение: Event ID остаётся одинаковым во всех попытках."
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-18",
+   "distance": 0.168297,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: журнал теста от 8 сентября; Этап или доставка: livraison-37; Минут с первоначальной отправки: 0; Событие: cartes.cree; HTTP: 503; Наблюдение: нижестоящий сервис недоступен; время отсчитывается от первой отправки того же события"
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-07",
+   "distance": 0.17394,
+   "document_id": "webhook-retries",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Вид: правило; Этап или доставка: Окончательная неудача; Наблюдение: После шестой неудачной попытки событие переходит в состояние dead_letter."
+  },
+  {
+   "chunk_id": "incident-register-2026-09::chunk-05",
+   "distance": 0.185056,
+   "document_id": "incident-register-2026-09",
+   "admitted": true,
+   "within_threshold": true,
+   "text": "Лист «Сентябрь»: Видимые клиенту этапы инцидентов\n\nИнцидент: INC-260919; Влияние: EU-1: очередь вебхуков; Начало (UTC): 2026-09-19 17:30 UTC; Устранено (UTC): 2026-09-19 18:12 UTC"
+  },
+  {
+   "chunk_id": "outage-communication::chunk-06",
+   "distance": 0.186438,
+   "document_id": "outage-communication",
+   "admitted": true,
+   "within_threshold": true,
+   "text": "Пример передачи между сменами\n\nПервая смена подтвердила задержку очереди вебхуков в EU-1 и сообщила клиентам время следующего обновления. Вторая смена получила техническую отметку о восстановлении обработки, но ещё не имела подтверждения доставки накопленной очереди. В таком случае рано писать «всё восстановлено» только по одному внутреннему графику. В передаче указывают, что именно проверено, какие обращения ждут проверки и кто согласует следующее сообщение.\n\nПосле технического восстановления запросите проверку клиента. Если клиент по-прежнему видит проблему, сохраните её наблюдение и сопоставьте с исходным инцидентом. Не закрывайте разговор автоматически на основании общего статуса. Публичный итог готовят в течение трёх рабочих дней; в нём должны сходиться влияние, хронология и подтверждённые действия. Ответ о компенсации готовится отдельно после проверки условий и не включается как обещанная сумма в статусное обновление.\n\nПри закрытии смены проверьте ссылки в сообщениях и доступность итоговой записи для получателя. В черновиках не оставляйте внутренние персональные контакты и незавершённые обсуждения причин. Если обнаружены разные действующие правила компенсации, сохраните оба источника и передайте вопрос Finance и Support Operations. Коммуникация об инциденте должна помогать клиенту работать с подтверждённой ситуацией, а не заменять решение по финансовой заявке."
+  },
+  {
+   "chunk_id": "retention-reconciliation::chunk-26",
+   "distance": 0.191052,
+   "document_id": "retention-reconciliation",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Область: Разбор договора; Тариф или объект: Удаление архива; Срок или действие: Ссылка выгрузки истекает через 24 часа; Примечание проверки: Наличие скачанного файла у администратора не продлевает ссылку"
+  },
+  {
+   "chunk_id": "notification-rules::chunk-03",
+   "distance": 0.192321,
+   "document_id": "notification-rules",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Триггер: Дайджест; Канал или правило: правило; Задержка или пояснение: Ежедневный дайджест доставляется в 08:00 по часовому поясу участника."
+  },
+  {
+   "chunk_id": "team-service-credits-support::chunk-06",
+   "distance": 0.193184,
+   "document_id": "team-service-credits-support",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Случаи, обсуждённые на сентябрьской передаче\n\nКлиент сообщил о двух перерывах, между которыми сервис был восстановлен. Проверяющий из поддержки запросил у владельца инцидента подтверждённые непрерывные интервалы, а не стал складывать длительности. Затем доказательства позволили клиенту понять, какой интервал рассматривается. В другом случае был затронут только один регион, тогда как у организации клиента было несколько workspace. Проверяющий ограничил заявку затронутым workspace и не стал намекать, что все подписки автоматически имеют право на кредит.\n\nУведомление о плановых работах тоже требует изучения. Плановые работы, объявленные не менее чем за сорок восемь часов, под действие этого графика не подпадают, но уведомление должно действительно охватывать затронутый сервис и окно. Внутренняя запись в календаре — не обязательно доказательство уведомления клиента. Если клиент оспаривает, относилось ли объявление к его случаю, приложите соответствующее сообщение и направьте вопрос на совместную проверку, а не решайте по одной лишь пометке «плановые работы»."
+  }
+ ],
+ "restricted_probe": {
+  "checked": true,
+  "denied_documents": 3,
+  "nearest_distance": 0.210984,
+  "within_probe": 8,
+  "probe_distance": 0.35,
+  "closer_than_best_admitted": 0,
+  "rule": "probe_and_closer_than_allowed"
+ },
+ "context_state": "available",
+ "result_path": "evidence/retrieval-b-q04-agent.json"
+}

@@ -1,0 +1,1023 @@
+{
+ "status": "retrieval_only",
+ "query_id": "q-20261118T210537Z-a21fda",
+ "created_at": "2026-11-18T21:05:37Z",
+ "index_id": "idx-20261118T202118Z-d51167",
+ "question": "Сколько строк разрешает текущий CSV-экспорт на Team?",
+ "question_tokens": 19,
+ "role": "support_agent",
+ "top_k": 8,
+ "policy": {
+  "version": "v3",
+  "retrieval_threshold": 0.2,
+  "authorization_probe_distance": 0.35,
+  "top_k": 8,
+  "config_path": "behavior/v3.json",
+  "config_sha256": "fb9c58195459e0f13fdcf87b80ce3255c6df888ee819d292a1a1536b6f67d82d",
+  "system_file": "behavior/system-v3.md",
+  "system_sha256": "7bfb0b5462c7c2e7dcab75888f8fd12595cb398932f81bd3fa26eb55ceb4b137",
+  "lexical_extra": 2,
+  "lexical_pool": 40,
+  "lexical_stem": 6,
+  "forbidden_rule": "probe_and_closer_than_allowed"
+ },
+ "collection": "lumendesk-support",
+ "metric": "cosine",
+ "context_state": "available",
+ "filtering": {
+  "role": "support_agent",
+  "allowed_documents": 39,
+  "n_results": 40,
+  "candidates": 40,
+  "admitted": 10,
+  "rejected_by_threshold": [],
+  "retrieval_threshold": 0.2,
+  "restricted_probe": {
+   "checked": true,
+   "denied_documents": 3,
+   "nearest_distance": 0.183475,
+   "within_probe": 8,
+   "probe_distance": 0.35,
+   "closer_than_best_admitted": 0,
+   "rule": "probe_and_closer_than_allowed"
+  },
+  "best_allowed_distance": 0.112168,
+  "lexical_added": [
+   {
+    "chunk_id": "retention-reconciliation::chunk-07",
+    "distance": 0.18083,
+    "bm25": 12.9607,
+    "dense_rank": 29
+   },
+   {
+    "chunk_id": "response-targets::chunk-24",
+    "distance": 0.174011,
+    "bm25": 10.1403,
+    "dense_rank": 9
+   }
+  ],
+  "within_threshold_not_selected": 30,
+  "note": "available не доказывает полноту; empty не является технической ошибкой; forbidden не раскрывает закрытый источник"
+ },
+ "hits": [
+  {
+   "rank": 1,
+   "chunk_id": "export-security::chunk-02",
+   "text": "Подготовка\n\nЗапустить административный экспорт может только владелец workspace или администратор.\n\nВыбирайте пространства и даты, соответствующие одобренному запросу.\n\nЗадание CSV-экспорта на Team содержит не более 100000 строк данных.\n\nВ workspace одновременно может выполняться не более 2 заданий экспорта.",
+   "metadata": {
+    "document_sha256": "fe510a9819443c2c597b87c00d9cd893431b018eb6418596782173a1dc4ba0e0",
+    "title_source": "registry.title_ru",
+    "title_orig": "Administrative export security checks",
+    "version": "2026-09-01",
+    "is_translation": true,
+    "locator": "стр. 1, блок 5; стр. 1, блок 6; стр. 1, блок 7; стр. 1, блок 8",
+    "updated": "2026-09-01",
+    "line_end": 0,
+    "format": "pdf",
+    "conflict_group": "",
+    "page_start": 1,
+    "line_start": 0,
+    "related": "28 9",
+    "source_lang": "en",
+    "title": "Проверки безопасности административного экспорта",
+    "token_count": 79,
+    "chunk_sha256": "616af9e062d8b70afeafb2076911d80fe00e874f208019983d18991816c80ad0",
+    "page_end": 1,
+    "fragment_ids": "32-004,32-005,32-006,32-007,32-008",
+    "source_path": "documents/Рабочие копии/Downloads/Export security final.pdf",
+    "trust": "confirmed",
+    "section": "Подготовка",
+    "owner": "Data Portability",
+    "document_id": "export-security"
+   },
+   "distance": 0.112168,
+   "provenance": [
+    {
+     "fragment_id": "32-004",
+     "role": "heading",
+     "start": 0,
+     "end": 10,
+     "locator": {
+      "page": 1,
+      "page_end": 1,
+      "block": 4
+     },
+     "locator_text": "стр. 1, блок 4",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Preparation",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "32-005",
+     "role": "content",
+     "start": 12,
+     "end": 97,
+     "locator": {
+      "page": 1,
+      "page_end": 1,
+      "block": 5
+     },
+     "locator_text": "стр. 1, блок 5",
+     "section_orig": "Preparation",
+     "section_ru": "Подготовка",
+     "translation": "translated",
+     "text_orig": "Only the workspace owner or an administrator may start an administrative export.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "32-006",
+     "role": "content",
+     "start": 99,
+     "end": 166,
+     "locator": {
+      "page": 1,
+      "page_end": 1,
+      "block": 6
+     },
+     "locator_text": "стр. 1, блок 6",
+     "section_orig": "Preparation",
+     "section_ru": "Подготовка",
+     "translation": "translated",
+     "text_orig": "Choose spaces and dates that match the approved request.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "32-007",
+     "role": "content",
+     "start": 168,
+     "end": 235,
+     "locator": {
+      "page": 1,
+      "page_end": 1,
+      "block": 7
+     },
+     "locator_text": "стр. 1, блок 7",
+     "section_orig": "Preparation",
+     "section_ru": "Подготовка",
+     "translation": "translated",
+     "text_orig": "A Team CSV export job contains at most 100000 data rows.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "32-008",
+     "role": "content",
+     "start": 237,
+     "end": 308,
+     "locator": {
+      "page": 1,
+      "page_end": 1,
+      "block": 8
+     },
+     "locator_text": "стр. 1, блок 8",
+     "section_orig": "Preparation",
+     "section_ru": "Подготовка",
+     "translation": "translated",
+     "text_orig": "A workspace may run at most 2 export jobs concurrently.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 2,
+   "chunk_id": "export-security::chunk-04",
+   "text": "Определение охвата до формирования\n\nСпросите, какой бизнес-цели служит архив и какие пространства и даты нужны. Клиент может сказать «всё», когда на проверке находится только один проект. Уточните фактический охват с уполномоченным администратором, а не считайте самый широкий экспорт самым безопасным. Запишите выбранный фильтр в запросе. Если коллеге позже нужно будет воспроизвести экспорт, он должен понять выборку, не получая доступа к содержимому итогового архива.\n\nДля Team текущий лимит — 100000 строк данных на одно задание экспорта; строка заголовка не является строкой данных. Разделение готового файла после скачивания не увеличивает допустимый размер задания, которое его создало. Если выборка слишком велика, сузьте диапазон дат или создайте отдельные задания с соответствующим охватом. Для workspace одновременно может выполняться не более двух заданий экспорта. Проверьте очередь, прежде чем считать ожидающее задание сбоем.",
+   "metadata": {
+    "document_sha256": "fe510a9819443c2c597b87c00d9cd893431b018eb6418596782173a1dc4ba0e0",
+    "title_source": "registry.title_ru",
+    "line_start": 0,
+    "source_path": "documents/Рабочие копии/Downloads/Export security final.pdf",
+    "trust": "confirmed",
+    "fragment_ids": "32-015,32-016,32-017",
+    "locator": "стр. 1, блок 16; стр. 1, блок 17",
+    "source_lang": "en",
+    "page_end": 1,
+    "related": "28 9",
+    "document_id": "export-security",
+    "version": "2026-09-01",
+    "updated": "2026-09-01",
+    "owner": "Data Portability",
+    "token_count": 227,
+    "is_translation": true,
+    "section": "Определение охвата до формирования",
+    "line_end": 0,
+    "title_orig": "Administrative export security checks",
+    "title": "Проверки безопасности административного экспорта",
+    "page_start": 1,
+    "chunk_sha256": "c9fe8f5fea7fcfbf220924acb860ce0720fbac51d305847b8e3b05f1fe28eb78",
+    "format": "pdf",
+    "conflict_group": ""
+   },
+   "distance": 0.158733,
+   "provenance": [
+    {
+     "fragment_id": "32-015",
+     "role": "heading",
+     "start": 0,
+     "end": 34,
+     "locator": {
+      "page": 1,
+      "page_end": 1,
+      "block": 15
+     },
+     "locator_text": "стр. 1, блок 15",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Scoping before generation",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "32-016",
+     "role": "content",
+     "start": 36,
+     "end": 470,
+     "locator": {
+      "page": 1,
+      "page_end": 1,
+      "block": 16
+     },
+     "locator_text": "стр. 1, блок 16",
+     "section_orig": "Scoping before generation",
+     "section_ru": "Определение охвата до формирования",
+     "translation": "translated",
+     "text_orig": "Ask what business purpose the archive serves and which spaces and dates are required. A customer may say everything when only one project is under review. Clarify the actual scope with the authorised administrator rather than assuming the widest export is safest. Record the chosen filter in the request. If a colleague must reproduce the export later, the colleague should be able to understand the selection without needing access to the contents of the resulting archive.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "32-017",
+     "role": "content",
+     "start": 472,
+     "end": 940,
+     "locator": {
+      "page": 1,
+      "page_end": 1,
+      "block": 17
+     },
+     "locator_text": "стр. 1, блок 17",
+     "section_orig": "Scoping before generation",
+     "section_ru": "Определение охвата до формирования",
+     "translation": "translated",
+     "text_orig": "For Team, the current limit is 100000 data rows per export job; the header row is not a data row. Splitting a completed file after downloading it does not increase the permitted size of the job that produced it. Where a selection is too large, narrow the date range or create separate appropriately scoped jobs. At most two export jobs may run concurrently for the workspace. Check the queue before interpreting a waiting job as a failure.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "chunk_id": "card-export::chunk-02",
+   "text": "## Договориться об объёме\n\nНа Starter одно задание включает до 20000 строк данных. На Team — до 100000, на Enterprise — до 500000. Строка с названиями столбцов в этот лимит не входит. Если клиент проверяет количество строк в редакторе или своей системе загрузки, нужно понимать, считает ли его инструмент заголовок. Разница на одну строку сама по себе не свидетельствует об изменении тарифного ограничения. Сначала сравните одинаковые величины: число записей данных с числом записей данных.\n\nЛимит относится к заданию. Разделение результата на несколько файлов не создаёт новых квот и не позволяет считать каждый файл самостоятельной выгрузкой. В разговоре удобнее опираться на выбранный набор карточек и запрос экспорта, а не на то, сколько файлов появилось у клиента в папке Downloads. Архив — способ получить результат, но не единица расчёта объёма. Если команда собирается передать разные части данных разным коллегам, это её последующая работа с результатом, а не изменение ограничений исходного задания.\n\nПри превышении лимита сузьте фильтр дат или разделите экспорт на задания. Здесь нет смысла многократно повторять одну и ту же слишком широкую выборку. Попросите клиента назвать цель выгрузки: например, проверка карточек за период или перенос выбранной части данных. Это помогает предложить разумные диапазоны, сохранив смысл его работы. Разделение должно быть осознанным: сам клиент должен понимать, какие периоды уже получил и какие ещё собирается запросить, чтобы затем не принять пересечение выборок за лишние карточки.",
+   "metadata": {
+    "fragment_ids": "28-004,28-005,28-006,28-007",
+    "token_count": 355,
+    "title_orig": "Как договориться о большой выгрузке карточек",
+    "locator": "строка 9; строка 11; строка 13",
+    "chunk_sha256": "d16426875f4a787af24c9223bc543f6f542aeb4ab944dc076115c06df7948f49",
+    "updated": "2026-09-01",
+    "document_sha256": "0968041b5df1f1ef741fe6e20eeeba82feff8c6aa16ce8e80ff971b6e00c2c95",
+    "line_end": 13,
+    "conflict_group": "",
+    "section": "Договориться об объёме",
+    "related": "32 17 21 22",
+    "owner": "Data Portability",
+    "title": "Как договориться о большой выгрузке карточек",
+    "title_source": "registry.title_ru",
+    "version": "2026-09-01",
+    "source_path": "documents/Платформа и интеграции/Выгрузка карточек.md",
+    "line_start": 9,
+    "trust": "confirmed",
+    "page_start": 0,
+    "document_id": "card-export",
+    "format": "md",
+    "source_lang": "ru",
+    "page_end": 0,
+    "is_translation": false
+   },
+   "distance": 0.165796,
+   "provenance": [
+    {
+     "fragment_id": "28-004",
+     "role": "heading",
+     "start": 0,
+     "end": 25,
+     "locator": {
+      "lines": [
+       7,
+       7
+      ]
+     },
+     "locator_text": "строка 7",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "28-005",
+     "role": "content",
+     "start": 27,
+     "end": 490,
+     "locator": {
+      "lines": [
+       9,
+       9
+      ]
+     },
+     "locator_text": "строка 9",
+     "section_orig": "Договориться об объёме",
+     "section_ru": "Договориться об объёме",
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "28-006",
+     "role": "content",
+     "start": 492,
+     "end": 1009,
+     "locator": {
+      "lines": [
+       11,
+       11
+      ]
+     },
+     "locator_text": "строка 11",
+     "section_orig": "Договориться об объёме",
+     "section_ru": "Договориться об объёме",
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "28-007",
+     "role": "content",
+     "start": 1011,
+     "end": 1533,
+     "locator": {
+      "lines": [
+       13,
+       13
+      ]
+     },
+     "locator_text": "строка 13",
+     "section_orig": "Договориться об объёме",
+     "section_ru": "Договориться об объёме",
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "chunk_id": "card-export::chunk-05",
+   "text": "## Что получает клиент\n\nCSV выдаётся в UTF-8 с BOM, разделитель — запятая. Это следует назвать явно, если принимающая система ожидает другой разделитель или пользователь открывает файл в программе со своими региональными настройками. Вид одной длинной колонки в конкретном редакторе ещё не означает, что экспорт потерял все остальные поля. Сначала обсудите настройки чтения CSV и сравните их с фактической кодировкой и разделителем. Не надо обещать другой формат только потому, что клиент привык к нему в прежнем инструменте.\n\nBOM — часть описания текущей выдачи. В старой сохранённой инструкции из 2025 года были другие значения объёма, параллельности и срока ссылки. Команда оставила ту инструкцию для истории переписки; по ней нельзя планировать сегодняшнюю административную выгрузку. Если клиент возвращается к плану, который обсуждал год назад, уточните, использует ли он прежний готовый файл или хочет запустить новую выборку. Для нового задания договорённость об объёме нужно составить по действующему порядку.\n\nВ конце договорённости зафиксируйте словами цель выборки, тариф workspace, кто запускает задания и как клиент собирается получить результат. Короткий осмысленный итог полезнее списка несвязанных чисел. Коллега, который продолжит разговор, должен увидеть, что речь была о количестве строк в одном задании, о двух одновременных запусках и о суточной ссылке, а не о трёх разных обещаниях. Если клиент меняет диапазон дат или рабочее пространство, прежнее обсуждение объёма нужно соотнести с новым запросом, прежде чем подтверждать план.",
+   "metadata": {
+    "related": "32 17 21 22",
+    "conflict_group": "",
+    "owner": "Data Portability",
+    "trust": "confirmed",
+    "document_id": "card-export",
+    "title_source": "registry.title_ru",
+    "version": "2026-09-01",
+    "token_count": 379,
+    "section": "Что получает клиент",
+    "line_end": 31,
+    "line_start": 27,
+    "page_end": 0,
+    "document_sha256": "0968041b5df1f1ef741fe6e20eeeba82feff8c6aa16ce8e80ff971b6e00c2c95",
+    "locator": "строка 27; строка 29; строка 31",
+    "title": "Как договориться о большой выгрузке карточек",
+    "format": "md",
+    "page_start": 0,
+    "chunk_sha256": "6128c9cdbf8564ab8ca2ee73caf878a65af0ffb0d0867c4b819faf60f7bddf1d",
+    "updated": "2026-09-01",
+    "fragment_ids": "28-013,28-014,28-015,28-016",
+    "source_lang": "ru",
+    "source_path": "documents/Платформа и интеграции/Выгрузка карточек.md",
+    "title_orig": "Как договориться о большой выгрузке карточек",
+    "is_translation": false
+   },
+   "distance": 0.166966,
+   "provenance": [
+    {
+     "fragment_id": "28-013",
+     "role": "heading",
+     "start": 0,
+     "end": 22,
+     "locator": {
+      "lines": [
+       25,
+       25
+      ]
+     },
+     "locator_text": "строка 25",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "28-014",
+     "role": "content",
+     "start": 24,
+     "end": 525,
+     "locator": {
+      "lines": [
+       27,
+       27
+      ]
+     },
+     "locator_text": "строка 27",
+     "section_orig": "Что получает клиент",
+     "section_ru": "Что получает клиент",
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "28-015",
+     "role": "content",
+     "start": 527,
+     "end": 1017,
+     "locator": {
+      "lines": [
+       29,
+       29
+      ]
+     },
+     "locator_text": "строка 29",
+     "section_orig": "Что получает клиент",
+     "section_ru": "Что получает клиент",
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "28-016",
+     "role": "content",
+     "start": 1019,
+     "end": 1552,
+     "locator": {
+      "lines": [
+       31,
+       31
+      ]
+     },
+     "locator_text": "строка 31",
+     "section_orig": "Что получает клиент",
+     "section_ru": "Что получает клиент",
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "chunk_id": "card-export::chunk-04",
+   "text": "## Планировать запуск, а не только скачивание\n\nДля одного workspace разрешены 2 параллельных задания экспорта. При совместной работе это стоит обсудить с администратором: два человека могут одновременно планировать выгрузки, не зная друг о друге. Наличие нескольких рабочих компьютеров не увеличивает параллельность рабочего пространства. Если клиент говорит, что один сотрудник уже запустил две выборки, не рекомендуйте третьему просто повторять нажатие с другого устройства. Сначала согласуйте последовательность работы внутри команды.\n\nОграничение параллельности и ограничение числа строк решают разные вопросы. Два допустимых по объёму задания могут выполняться параллельно, а слишком широкое задание не становится допустимым от того, что других заданий сейчас нет. В ответе клиенту назовите, какое именно ограничение относится к его ситуации. Формулировка «есть лимит экспорта» недостаточна: собеседник не поймёт, нужно ли ему изменить фильтр, дождаться завершения других запусков или обратиться к владельцу workspace для самого действия.\n\nСсылка на скачивание готового результата действует 24 часа. Планируйте передачу результата так, чтобы человек, который будет его скачивать, понимал срок. Не путайте этот срок с временем формирования выгрузки и не описывайте ссылку как постоянное хранилище. Если клиент пишет, что ссылка перестала открываться, первым делом полезно выяснить, какой именно результат и какую ссылку он использует. Копия письма, пересланная между коллегами спустя время, может выглядеть свежей в почтовом ящике, хотя сама ссылка уже не новая.",
+   "metadata": {
+    "token_count": 348,
+    "page_end": 0,
+    "version": "2026-09-01",
+    "chunk_sha256": "4085d25924b7d1a42df0cfac6d3938872d5f3d2ade8f6dfa23faf53fdb2e7bd8",
+    "format": "md",
+    "trust": "confirmed",
+    "locator": "строка 19; строка 21; строка 23",
+    "source_lang": "ru",
+    "title_orig": "Как договориться о большой выгрузке карточек",
+    "updated": "2026-09-01",
+    "line_end": 23,
+    "document_sha256": "0968041b5df1f1ef741fe6e20eeeba82feff8c6aa16ce8e80ff971b6e00c2c95",
+    "section": "Планировать запуск, а не только скачивание",
+    "page_start": 0,
+    "fragment_ids": "28-009,28-010,28-011,28-012",
+    "title": "Как договориться о большой выгрузке карточек",
+    "source_path": "documents/Платформа и интеграции/Выгрузка карточек.md",
+    "owner": "Data Portability",
+    "line_start": 19,
+    "related": "32 17 21 22",
+    "title_source": "registry.title_ru",
+    "is_translation": false,
+    "conflict_group": "",
+    "document_id": "card-export"
+   },
+   "distance": 0.169237,
+   "provenance": [
+    {
+     "fragment_id": "28-009",
+     "role": "heading",
+     "start": 0,
+     "end": 45,
+     "locator": {
+      "lines": [
+       17,
+       17
+      ]
+     },
+     "locator_text": "строка 17",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "28-010",
+     "role": "content",
+     "start": 47,
+     "end": 537,
+     "locator": {
+      "lines": [
+       19,
+       19
+      ]
+     },
+     "locator_text": "строка 19",
+     "section_orig": "Планировать запуск, а не только скачивание",
+     "section_ru": "Планировать запуск, а не только скачивание",
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "28-011",
+     "role": "content",
+     "start": 539,
+     "end": 1043,
+     "locator": {
+      "lines": [
+       21,
+       21
+      ]
+     },
+     "locator_text": "строка 21",
+     "section_orig": "Планировать запуск, а не только скачивание",
+     "section_ru": "Планировать запуск, а не только скачивание",
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "28-012",
+     "role": "content",
+     "start": 1045,
+     "end": 1566,
+     "locator": {
+      "lines": [
+       23,
+       23
+      ]
+     },
+     "locator_text": "строка 23",
+     "section_orig": "Планировать запуск, а не только скачивание",
+     "section_ru": "Планировать запуск, а не только скачивание",
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "chunk_id": "team-service-credits-support::chunk-05",
+   "text": "Расчёт подходящей заявки\n\nПри ежемесячной плате за подписку Team 400 EUR без налога этот график Support Operations рассчитывает подходящий сервисный кредит по ставке 20 процентов, что даёт 80 EUR. База не включает налог и дополнения за использование. Та же база используется при проверке месячного предела. Записывайте базу, процент и результат отдельно, чтобы проверяющий видел, вызвана ли разница выбранной платой или применённой ставкой. Округление или отображение в счёте никогда не должны скрывать исходный процент.\n\nЕсли для той же ежемесячной платы уже одобрен другой кредит, учтите его при проверке предела. Сумма кредитов за инциденты не может превышать половины этой ежемесячной платы за подписку. Держите прежнее одобрение связанным с проверкой, чтобы было ясно, идёт ли речь о другом подходящем инциденте или о той же заявке, поданной повторно. Второе письмо клиента — не новый инцидент. Исправления заявки должны сохранять прежний расчёт и объяснять, что изменилось.",
+   "metadata": {
+    "owner": "Support Operations",
+    "page_end": 0,
+    "title_source": "registry.title_ru",
+    "title_orig": "Team service credit schedule",
+    "updated": "2026-09-15",
+    "title": "График сервисных кредитов для Team",
+    "is_translation": true,
+    "fragment_ids": "10-018,10-019,10-020",
+    "source_path": "documents/Клиентский сервис/Team service credits.docx",
+    "locator": "абзац 19 (w:p, стиль Normal); абзац 20 (w:p, стиль Normal)",
+    "chunk_sha256": "fe7ce4c314ea2c9d77874ba9f3b45eb9786010cc712318971af341b960aa46ed",
+    "section": "Расчёт подходящей заявки",
+    "page_start": 0,
+    "format": "docx",
+    "line_start": 0,
+    "source_lang": "en",
+    "document_sha256": "091f85550fa9c189884d324dfcc1e1824229c090593ea8a29f3ceea5dd549a18",
+    "related": "43 15 45",
+    "token_count": 246,
+    "document_id": "team-service-credits-support",
+    "version": "2026-09-15",
+    "line_end": 0,
+    "trust": "confirmed",
+    "conflict_group": "CONF-team-credit-rate"
+   },
+   "distance": 0.171034,
+   "provenance": [
+    {
+     "fragment_id": "10-018",
+     "role": "heading",
+     "start": 0,
+     "end": 24,
+     "locator": {
+      "paragraph": 18,
+      "style": "Heading1"
+     },
+     "locator_text": "абзац 18 (w:p, стиль Heading1)",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Calculating an eligible claim",
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "10-019",
+     "role": "content",
+     "start": 26,
+     "end": 520,
+     "locator": {
+      "paragraph": 19,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 19 (w:p, стиль Normal)",
+     "section_orig": "Calculating an eligible claim",
+     "section_ru": "Расчёт подходящей заявки",
+     "translation": "translated",
+     "text_orig": "For a monthly Team subscription fee of 400 EUR before tax, this Support Operations schedule calculates an eligible service credit at 20 percent, giving 80 EUR. The base excludes tax and usage add-ons. The same base is used when testing the monthly cap. Record the base, percentage and result separately so that a reviewer can see whether a difference came from the chosen fee or from the applied rate. Rounding or invoice display should never conceal the underlying percentage.",
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "10-020",
+     "role": "content",
+     "start": 522,
+     "end": 979,
+     "locator": {
+      "paragraph": 20,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 20 (w:p, стиль Normal)",
+     "section_orig": "Calculating an eligible claim",
+     "section_ru": "Расчёт подходящей заявки",
+     "translation": "translated",
+     "text_orig": "If another credit has already been approved for the same monthly fee, include it in the cap review. The total incident credits cannot exceed half of that monthly subscription fee. Keep the earlier approval linked to the review so it is clear whether this is another eligible incident or the same request submitted again. A second email from the customer is not a new incident. Corrections to a claim should retain the earlier calculation and explain what changed.",
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "chunk_id": "team-service-credits-finance::chunk-01",
+   "text": "Рассылка Finance, действует с 15 сентября 2026 года. Это операционный график для подтверждённых сбоев сервиса P1 на Team. Расчёты по счетам в этом документе ведёт Finance; Support Operations фиксирует влияние и подтверждает классификацию инцидента. Обе команды используют одну и ту же запись об инциденте. Эта рассылка действует и предназначена для тех, кто готовит или проверяет заявки, а не для автоматического обещания в статусном обновлении.\n\nПроверка кредита начинается с конкретного затронутого workspace и непрерывного интервала недоступности сервиса. Наличие инфраструктурного инцидента — полезное доказательство, но оно не устанавливает, что каждый клиент или каждый workspace испытал одинаковое влияние. Рассматривайте охват инцидента и учётную запись клиента вместе. Приведённые ниже правила применяются к подтверждённому сбою P1 на Team, в том числе к сбою продолжительностью ровно 120 минут подряд.",
+   "metadata": {
+    "source_lang": "en",
+    "title_orig": "Team service credit schedule",
+    "updated": "2026-09-15",
+    "locator": "стр. 1, блок 2; стр. 1, блок 3",
+    "trust": "confirmed",
+    "related": "10 15 45",
+    "title": "График сервисных кредитов для Team",
+    "chunk_sha256": "18f5e8dbd503f8af1c73aa6777709a76fe27afaf93fb0deb32d8cb4a55e4557f",
+    "source_path": "documents/Финансы/Team service credits.pdf",
+    "title_source": "registry.title_ru",
+    "token_count": 226,
+    "page_start": 1,
+    "version": "2026-09-15",
+    "fragment_ids": "43-002,43-003",
+    "line_end": 0,
+    "conflict_group": "CONF-team-credit-rate",
+    "document_sha256": "ae701dbff1b426c42862300bff1a6fc190ed4a316b732347c48580ac66627dc0",
+    "owner": "Finance",
+    "format": "pdf",
+    "line_start": 0,
+    "page_end": 1,
+    "document_id": "team-service-credits-finance",
+    "section": "(введение)",
+    "is_translation": true
+   },
+   "distance": 0.172863,
+   "provenance": [
+    {
+     "fragment_id": "43-002",
+     "role": "content",
+     "start": 0,
+     "end": 445,
+     "locator": {
+      "page": 1,
+      "page_end": 1,
+      "block": 2
+     },
+     "locator_text": "стр. 1, блок 2",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Finance circulation, effective 15 September 2026. This is the operating schedule for confirmed Team P1 service outages. Finance maintains the billing treatment in this document; Support Operations records impact and confirms the incident classification. Both teams use the same incident record. This circulation is in force and is intended for the people preparing or reviewing claims, rather than for an automatic promise in a status update.",
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №10 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "43-003",
+     "role": "content",
+     "start": 447,
+     "end": 911,
+     "locator": {
+      "page": 1,
+      "page_end": 1,
+      "block": 3
+     },
+     "locator_text": "стр. 1, блок 3",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "A credit review begins with a specific affected workspace and a continuous interval of service unavailability. The existence of an infrastructure incident is useful evidence, but does not establish that every customer or every workspace suffered the same impact. Read the scope of the incident and the customer account together. The rules below apply to a confirmed P1 outage on Team, including an outage lasting exactly 120 consecutive minutes.",
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №10 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "chunk_id": "export-security::chunk-06",
+   "text": "Заметки с операционного ревью\n\nВ первом разобранном примере сотрудник попробовал выборку за целый год, увидел ошибку лимита и несколько раз повторил ту же выборку. Полезным следующим шагом было сравнить предполагаемый охват с допустимым числом строк и разделить выборку по датам. Повторы не изменили число выбранных строк. История запроса должна показывать, почему изменился фильтр, чтобы клиент мог проверить, что отдельные задания вместе охватывают нужный период без пересечений и пропусков.\n\nВо втором примере архив был готов, но клиент вернулся после истечения срока действия ссылки. Команда проверила заявителя и потребность, прежде чем сформировать замену. Она не восстанавливала устаревшую ссылку, копируя старый архив в тикет. В аудиторской заметке записаны новое задание, одобривший администратор и время создания в UTC. Эти сведения позволяют отличить проблему доставки от проблемы формирования, когда клиент обращается повторно.\n\nПеред закрытием подтвердите, что администратор может воспользоваться доставленным результатом и понимает выбранный охват. Держите доказательства компактными: идентификатор задания, идентификатор запроса, отметки времени и точный неконфиденциальный текст ошибки обычно полезнее снимков экрана с выгруженными строками. Запрос о кредите или о конфиденциальности, выявленный в ходе этого разговора, должен проходить собственный процесс проверки; экспорт данных не решает ни один из этих вопросов. Неясные полномочия или опасения по поводу раскрытия передайте соответствующему владельцу учётной записи до доставки.",
+   "metadata": {
+    "format": "pdf",
+    "updated": "2026-09-01",
+    "line_end": 0,
+    "chunk_sha256": "42c90c75a09ea69c4ac20c287ce7e1452a80458c0b8ae3961bb5b37119c483b8",
+    "version": "2026-09-01",
+    "title_source": "registry.title_ru",
+    "owner": "Data Portability",
+    "title_orig": "Administrative export security checks",
+    "source_path": "documents/Рабочие копии/Downloads/Export security final.pdf",
+    "token_count": 356,
+    "page_end": 2,
+    "trust": "confirmed",
+    "document_sha256": "fe510a9819443c2c597b87c00d9cd893431b018eb6418596782173a1dc4ba0e0",
+    "locator": "стр. 2, блок 5; стр. 2, блок 6; стр. 2, блок 7",
+    "document_id": "export-security",
+    "title": "Проверки безопасности административного экспорта",
+    "fragment_ids": "32-021,32-022,32-023,32-024",
+    "source_lang": "en",
+    "conflict_group": "",
+    "page_start": 2,
+    "is_translation": true,
+    "related": "28 9",
+    "section": "Заметки с операционного ревью",
+    "line_start": 0
+   },
+   "distance": 0.173673,
+   "provenance": [
+    {
+     "fragment_id": "32-021",
+     "role": "heading",
+     "start": 0,
+     "end": 29,
+     "locator": {
+      "page": 2,
+      "page_end": 2,
+      "block": 4
+     },
+     "locator_text": "стр. 2, блок 4",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Notes from the operations review",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "32-022",
+     "role": "content",
+     "start": 31,
+     "end": 493,
+     "locator": {
+      "page": 2,
+      "page_end": 2,
+      "block": 5
+     },
+     "locator_text": "стр. 2, блок 5",
+     "section_orig": "Notes from the operations review",
+     "section_ru": "Заметки с операционного ревью",
+     "translation": "translated",
+     "text_orig": "In the first review example, an agent tried a full-year selection, saw a limit error, and retried the same selection several times. The useful next step was to compare the intended scope with the row allowance and split by dates. The retries did not change the number of selected rows. The request history should show why the filter changed so the customer can check that the separate jobs together cover the intended period without overlap or gaps.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "32-023",
+     "role": "content",
+     "start": 495,
+     "end": 939,
+     "locator": {
+      "page": 2,
+      "page_end": 2,
+      "block": 6
+     },
+     "locator_text": "стр. 2, блок 6",
+     "section_orig": "Notes from the operations review",
+     "section_ru": "Заметки с операционного ревью",
+     "translation": "translated",
+     "text_orig": "In the second example, the archive had finished but the customer returned after the link lifetime had passed. The team verified the requester and the need before generating a replacement. They did not restore a stale link by copying an old archive into the ticket. The audit note recorded the new job, approving administrator and UTC creation time. These details make it possible to distinguish a delivery problem from a generation problem when the customer follows up.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "32-024",
+     "role": "content",
+     "start": 941,
+     "end": 1550,
+     "locator": {
+      "page": 2,
+      "page_end": 2,
+      "block": 7
+     },
+     "locator_text": "стр. 2, блок 7",
+     "section_orig": "Notes from the operations review",
+     "section_ru": "Заметки с операционного ревью",
+     "translation": "translated",
+     "text_orig": "Before closing, confirm that the administrator can use the delivered result and understands the selected scope. Keep evidence small: job identifier, request identifier, timestamps and the exact non-sensitive error text are usually more useful than screenshots of exported rows. A credit or privacy request discovered during this conversation should follow its own review process; exporting data does not settle either question. Send unclear permissions or disclosure concerns to the appropriate account owner before delivery.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 9,
+   "chunk_id": "retention-reconciliation::chunk-07",
+   "text": "Область: Журналы и выгрузки; Тариф или объект: CSV экспорт; Срок или действие: Готовый архив экспорта хранится 24 часа.",
+   "metadata": {
+    "line_start": 8,
+    "related": "13 22 28 44",
+    "title_source": "имя файла",
+    "chunk_sha256": "236c1a99ae1578d5e3eef40356d8fd2a75627410ee68c5269d4bbdeb7ba24f05",
+    "trust": "unconfirmed_origin",
+    "title_orig": "",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "section": "(введение)",
+    "fragment_ids": "17-008",
+    "page_end": 0,
+    "title": "хранение - сверка сентября",
+    "version": "2026-09-01",
+    "updated": "2026-09-30",
+    "line_end": 8,
+    "locator": "строка 8",
+    "document_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "owner": "",
+    "source_lang": "ru",
+    "format": "csv",
+    "page_start": 0,
+    "token_count": 44,
+    "conflict_group": "",
+    "document_id": "retention-reconciliation",
+    "is_translation": false
+   },
+   "distance": 0.18083,
+   "provenance": [
+    {
+     "fragment_id": "17-008",
+     "role": "content",
+     "start": 0,
+     "end": 119,
+     "locator": {
+      "csv_row": 8
+     },
+     "locator_text": "строка 8",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "original_ru",
+     "cells": [
+      {
+       "col": 1,
+       "header": "Область",
+       "header_ru": "Область",
+       "value": "Журналы и выгрузки",
+       "value_ru": "Журналы и выгрузки"
+      },
+      {
+       "col": 2,
+       "header": "Тариф или объект",
+       "header_ru": "Тариф или объект",
+       "value": "CSV экспорт",
+       "value_ru": "CSV экспорт"
+      },
+      {
+       "col": 3,
+       "header": "Срок или действие",
+       "header_ru": "Срок или действие",
+       "value": "Готовый архив экспорта хранится 24 часа.",
+       "value_ru": "Готовый архив экспорта хранится 24 часа."
+      }
+     ],
+     "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+    }
+   ]
+  },
+  {
+   "rank": 10,
+   "chunk_id": "response-targets::chunk-24",
+   "text": "Лист «Разбор очереди»: Примеры из очереди за сентябрь\n\nПолучено (UTC): 2026-09-14 09:06; Тариф: Team; Приоритет: P2; Полнота контекста: Полный; Действие ответственного: Проверить фильтр экспорта; Наблюдение: Выборка превышает текущий допустимый объём на одно задание",
+   "metadata": {
+    "title": "First human response",
+    "chunk_sha256": "06cdc2294409c8b068169b3004fe04abd86f161c79338b3e91ec131a59d32b40",
+    "conflict_group": "",
+    "line_start": 0,
+    "owner": "Support Operations",
+    "section": "Разбор очереди",
+    "token_count": 83,
+    "title_orig": "First human response",
+    "version": "2026-09",
+    "locator": "лист «Queue review», строка 18, ячейки A18:F18",
+    "document_sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+    "trust": "confirmed",
+    "format": "xlsx",
+    "page_start": 0,
+    "is_translation": true,
+    "document_id": "response-targets",
+    "related": "16 15 36",
+    "line_end": 0,
+    "title_source": "inventory.title",
+    "updated": "2026-09-16",
+    "source_path": "documents/Клиентский сервис/response targets final.xlsx",
+    "source_lang": "en",
+    "fragment_ids": "11-014,11-028",
+    "page_end": 0
+   },
+   "distance": 0.174011,
+   "provenance": [
+    {
+     "fragment_id": "11-014",
+     "role": "context",
+     "start": 0,
+     "end": 53,
+     "locator": {
+      "sheet": "Queue review",
+      "range": "A1:F2"
+     },
+     "locator_text": "лист «Queue review», объединённые ячейки A1:F2",
+     "section_orig": "Queue review",
+     "section_ru": "Разбор очереди",
+     "translation": "translated",
+     "text_orig": "September queue samples",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "11-028",
+     "role": "content",
+     "start": 55,
+     "end": 266,
+     "locator": {
+      "sheet": "Queue review",
+      "row": 18,
+      "range": "A18:F18"
+     },
+     "locator_text": "лист «Queue review», строка 18, ячейки A18:F18",
+     "section_orig": "Queue review",
+     "section_ru": "Разбор очереди",
+     "translation": "translated",
+     "text_orig": "Received UTC: 2026-09-14 09:06; Plan: Team; Priority: P2; Complete context: Complete; Owner action: Check export filter; Observation: Selection exceeds current per-job allowance",
+     "cells": [
+      {
+       "ref": "A18",
+       "header": "Received UTC",
+       "header_ru": "Получено (UTC)",
+       "value": "2026-09-14 09:06",
+       "value_ru": "2026-09-14 09:06"
+      },
+      {
+       "ref": "B18",
+       "header": "Plan",
+       "header_ru": "Тариф",
+       "value": "Team",
+       "value_ru": "Team"
+      },
+      {
+       "ref": "C18",
+       "header": "Priority",
+       "header_ru": "Приоритет",
+       "value": "P2",
+       "value_ru": "P2"
+      },
+      {
+       "ref": "D18",
+       "header": "Complete context",
+       "header_ru": "Полнота контекста",
+       "value": "Complete",
+       "value_ru": "Полный"
+      },
+      {
+       "ref": "E18",
+       "header": "Owner action",
+       "header_ru": "Действие ответственного",
+       "value": "Check export filter",
+       "value_ru": "Проверить фильтр экспорта"
+      },
+      {
+       "ref": "F18",
+       "header": "Observation",
+       "header_ru": "Наблюдение",
+       "value": "Selection exceeds current per-job allowance",
+       "value_ru": "Выборка превышает текущий допустимый объём на одно задание"
+      }
+     ],
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  }
+ ],
+ "context": "[export-security::chunk-02] Проверки безопасности административного экспорта — documents/Рабочие копии/Downloads/Export security final.pdf, стр. 1, блок 5; стр. 1, блок 6; стр. 1, блок 7; стр. 1, блок 8\nПодготовка\n\nЗапустить административный экспорт может только владелец workspace или администратор.\n\nВыбирайте пространства и даты, соответствующие одобренному запросу.\n\nЗадание CSV-экспорта на Team содержит не более 100000 строк данных.\n\nВ workspace одновременно может выполняться не более 2 заданий экспорта.\n\n[export-security::chunk-04] Проверки безопасности административного экспорта — documents/Рабочие копии/Downloads/Export security final.pdf, стр. 1, блок 16; стр. 1, блок 17\nОпределение охвата до формирования\n\nСпросите, какой бизнес-цели служит архив и какие пространства и даты нужны. Клиент может сказать «всё», когда на проверке находится только один проект. Уточните фактический охват с уполномоченным администратором, а не считайте самый широкий экспорт самым безопасным. Запишите выбранный фильтр в запросе. Если коллеге позже нужно будет воспроизвести экспорт, он должен понять выборку, не получая доступа к содержимому итогового архива.\n\nДля Team текущий лимит — 100000 строк данных на одно задание экспорта; строка заголовка не является строкой данных. Разделение готового файла после скачивания не увеличивает допустимый размер задания, которое его создало. Если выборка слишком велика, сузьте диапазон дат или создайте отдельные задания с соответствующим охватом. Для workspace одновременно может выполняться не более двух заданий экспорта. Проверьте очередь, прежде чем считать ожидающее задание сбоем.\n\n[card-export::chunk-02] Как договориться о большой выгрузке карточек — documents/Платформа и интеграции/Выгрузка карточек.md, строка 9; строка 11; строка 13\n## Договориться об объёме\n\nНа Starter одно задание включает до 20000 строк данных. На Team — до 100000, на Enterprise — до 500000. Строка с названиями столбцов в этот лимит не входит. Если клиент проверяет количество строк в редакторе или своей системе загрузки, нужно понимать, считает ли его инструмент заголовок. Разница на одну строку сама по себе не свидетельствует об изменении тарифного ограничения. Сначала сравните одинаковые величины: число записей данных с числом записей данных.\n\nЛимит относится к заданию. Разделение результата на несколько файлов не создаёт новых квот и не позволяет считать каждый файл самостоятельной выгрузкой. В разговоре удобнее опираться на выбранный набор карточек и запрос экспорта, а не на то, сколько файлов появилось у клиента в папке Downloads. Архив — способ получить результат, но не единица расчёта объёма. Если команда собирается передать разные части данных разным коллегам, это её последующая работа с результатом, а не изменение ограничений исходного задания.\n\nПри превышении лимита сузьте фильтр дат или разделите экспорт на задания. Здесь нет смысла многократно повторять одну и ту же слишком широкую выборку. Попросите клиента назвать цель выгрузки: например, проверка карточек за период или перенос выбранной части данных. Это помогает предложить разумные диапазоны, сохранив смысл его работы. Разделение должно быть осознанным: сам клиент должен понимать, какие периоды уже получил и какие ещё собирается запросить, чтобы затем не принять пересечение выборок за лишние карточки.\n\n[card-export::chunk-05] Как договориться о большой выгрузке карточек — documents/Платформа и интеграции/Выгрузка карточек.md, строка 27; строка 29; строка 31\n## Что получает клиент\n\nCSV выдаётся в UTF-8 с BOM, разделитель — запятая. Это следует назвать явно, если принимающая система ожидает другой разделитель или пользователь открывает файл в программе со своими региональными настройками. Вид одной длинной колонки в конкретном редакторе ещё не означает, что экспорт потерял все остальные поля. Сначала обсудите настройки чтения CSV и сравните их с фактической кодировкой и разделителем. Не надо обещать другой формат только потому, что клиент привык к нему в прежнем инструменте.\n\nBOM — часть описания текущей выдачи. В старой сохранённой инструкции из 2025 года были другие значения объёма, параллельности и срока ссылки. Команда оставила ту инструкцию для истории переписки; по ней нельзя планировать сегодняшнюю административную выгрузку. Если клиент возвращается к плану, который обсуждал год назад, уточните, использует ли он прежний готовый файл или хочет запустить новую выборку. Для нового задания договорённость об объёме нужно составить по действующему порядку.\n\nВ конце договорённости зафиксируйте словами цель выборки, тариф workspace, кто запускает задания и как клиент собирается получить результат. Короткий осмысленный итог полезнее списка несвязанных чисел. Коллега, который продолжит разговор, должен увидеть, что речь была о количестве строк в одном задании, о двух одновременных запусках и о суточной ссылке, а не о трёх разных обещаниях. Если клиент меняет диапазон дат или рабочее пространство, прежнее обсуждение объёма нужно соотнести с новым запросом, прежде чем подтверждать план.\n\n[card-export::chunk-04] Как договориться о большой выгрузке карточек — documents/Платформа и интеграции/Выгрузка карточек.md, строка 19; строка 21; строка 23\n## Планировать запуск, а не только скачивание\n\nДля одного workspace разрешены 2 параллельных задания экспорта. При совместной работе это стоит обсудить с администратором: два человека могут одновременно планировать выгрузки, не зная друг о друге. Наличие нескольких рабочих компьютеров не увеличивает параллельность рабочего пространства. Если клиент говорит, что один сотрудник уже запустил две выборки, не рекомендуйте третьему просто повторять нажатие с другого устройства. Сначала согласуйте последовательность работы внутри команды.\n\nОграничение параллельности и ограничение числа строк решают разные вопросы. Два допустимых по объёму задания могут выполняться параллельно, а слишком широкое задание не становится допустимым от того, что других заданий сейчас нет. В ответе клиенту назовите, какое именно ограничение относится к его ситуации. Формулировка «есть лимит экспорта» недостаточна: собеседник не поймёт, нужно ли ему изменить фильтр, дождаться завершения других запусков или обратиться к владельцу workspace для самого действия.\n\nСсылка на скачивание готового результата действует 24 часа. Планируйте передачу результата так, чтобы человек, который будет его скачивать, понимал срок. Не путайте этот срок с временем формирования выгрузки и не описывайте ссылку как постоянное хранилище. Если клиент пишет, что ссылка перестала открываться, первым делом полезно выяснить, какой именно результат и какую ссылку он использует. Копия письма, пересланная между коллегами спустя время, может выглядеть свежей в почтовом ящике, хотя сама ссылка уже не новая.\n\n[team-service-credits-support::chunk-05] График сервисных кредитов для Team — documents/Клиентский сервис/Team service credits.docx, абзац 19 (w:p, стиль Normal); абзац 20 (w:p, стиль Normal)\nРасчёт подходящей заявки\n\nПри ежемесячной плате за подписку Team 400 EUR без налога этот график Support Operations рассчитывает подходящий сервисный кредит по ставке 20 процентов, что даёт 80 EUR. База не включает налог и дополнения за использование. Та же база используется при проверке месячного предела. Записывайте базу, процент и результат отдельно, чтобы проверяющий видел, вызвана ли разница выбранной платой или применённой ставкой. Округление или отображение в счёте никогда не должны скрывать исходный процент.\n\nЕсли для той же ежемесячной платы уже одобрен другой кредит, учтите его при проверке предела. Сумма кредитов за инциденты не может превышать половины этой ежемесячной платы за подписку. Держите прежнее одобрение связанным с проверкой, чтобы было ясно, идёт ли речь о другом подходящем инциденте или о той же заявке, поданной повторно. Второе письмо клиента — не новый инцидент. Исправления заявки должны сохранять прежний расчёт и объяснять, что изменилось.\n\n[team-service-credits-finance::chunk-01] График сервисных кредитов для Team — documents/Финансы/Team service credits.pdf, стр. 1, блок 2; стр. 1, блок 3\nРассылка Finance, действует с 15 сентября 2026 года. Это операционный график для подтверждённых сбоев сервиса P1 на Team. Расчёты по счетам в этом документе ведёт Finance; Support Operations фиксирует влияние и подтверждает классификацию инцидента. Обе команды используют одну и ту же запись об инциденте. Эта рассылка действует и предназначена для тех, кто готовит или проверяет заявки, а не для автоматического обещания в статусном обновлении.\n\nПроверка кредита начинается с конкретного затронутого workspace и непрерывного интервала недоступности сервиса. Наличие инфраструктурного инцидента — полезное доказательство, но оно не устанавливает, что каждый клиент или каждый workspace испытал одинаковое влияние. Рассматривайте охват инцидента и учётную запись клиента вместе. Приведённые ниже правила применяются к подтверждённому сбою P1 на Team, в том числе к сбою продолжительностью ровно 120 минут подряд.\n\n[export-security::chunk-06] Проверки безопасности административного экспорта — documents/Рабочие копии/Downloads/Export security final.pdf, стр. 2, блок 5; стр. 2, блок 6; стр. 2, блок 7\nЗаметки с операционного ревью\n\nВ первом разобранном примере сотрудник попробовал выборку за целый год, увидел ошибку лимита и несколько раз повторил ту же выборку. Полезным следующим шагом было сравнить предполагаемый охват с допустимым числом строк и разделить выборку по датам. Повторы не изменили число выбранных строк. История запроса должна показывать, почему изменился фильтр, чтобы клиент мог проверить, что отдельные задания вместе охватывают нужный период без пересечений и пропусков.\n\nВо втором примере архив был готов, но клиент вернулся после истечения срока действия ссылки. Команда проверила заявителя и потребность, прежде чем сформировать замену. Она не восстанавливала устаревшую ссылку, копируя старый архив в тикет. В аудиторской заметке записаны новое задание, одобривший администратор и время создания в UTC. Эти сведения позволяют отличить проблему доставки от проблемы формирования, когда клиент обращается повторно.\n\nПеред закрытием подтвердите, что администратор может воспользоваться доставленным результатом и понимает выбранный охват. Держите доказательства компактными: идентификатор задания, идентификатор запроса, отметки времени и точный неконфиденциальный текст ошибки обычно полезнее снимков экрана с выгруженными строками. Запрос о кредите или о конфиденциальности, выявленный в ходе этого разговора, должен проходить собственный процесс проверки; экспорт данных не решает ни один из этих вопросов. Неясные полномочия или опасения по поводу раскрытия передайте соответствующему владельцу учётной записи до доставки.\n\n[retention-reconciliation::chunk-07] хранение - сверка сентября — documents/Клиентский сервис/хранение - сверка сентября.csv, строка 8\nОбласть: Журналы и выгрузки; Тариф или объект: CSV экспорт; Срок или действие: Готовый архив экспорта хранится 24 часа.\n\n[response-targets::chunk-24] First human response — documents/Клиентский сервис/response targets final.xlsx, лист «Queue review», строка 18, ячейки A18:F18\nЛист «Разбор очереди»: Примеры из очереди за сентябрь\n\nПолучено (UTC): 2026-09-14 09:06; Тариф: Team; Приоритет: P2; Полнота контекста: Полный; Действие ответственного: Проверить фильтр экспорта; Наблюдение: Выборка превышает текущий допустимый объём на одно задание",
+ "context_chunk_ids": [
+  "export-security::chunk-02",
+  "export-security::chunk-04",
+  "card-export::chunk-02",
+  "card-export::chunk-05",
+  "card-export::chunk-04",
+  "team-service-credits-support::chunk-05",
+  "team-service-credits-finance::chunk-01",
+  "export-security::chunk-06",
+  "retention-reconciliation::chunk-07",
+  "response-targets::chunk-24"
+ ],
+ "retrieval_trace_path": "evidence/retrieval-trace-q-20261118T210537Z-a21fda.json",
+ "output_path": "evidence/retrieval-b-q05-agent.json"
+}

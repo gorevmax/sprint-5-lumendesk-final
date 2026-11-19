@@ -1,0 +1,804 @@
+{
+ "status": "retrieval_only",
+ "query_id": "q-20261118T205750Z-761022",
+ "created_at": "2026-11-18T20:57:50Z",
+ "index_id": "idx-20261118T202118Z-d51167",
+ "question": "Как долго старый и ожидающий SAML-сертификаты принимаются одновременно и в каких случаях нужен руководитель поддержки?",
+ "question_tokens": 32,
+ "role": "support_agent",
+ "top_k": 8,
+ "policy": {
+  "version": "v2",
+  "retrieval_threshold": 0.2,
+  "authorization_probe_distance": 0.35,
+  "top_k": 8,
+  "config_path": "behavior/v2.json",
+  "config_sha256": "72266e97822de6c04c3d08264ae1a8ffdc2e893faa4a416ba55401c492a1d324",
+  "system_file": "behavior/system-v2.md",
+  "system_sha256": "d01b2da6db28fbaedbee3dc12026806b62168db0be02e9ad5ec693256f195354"
+ },
+ "collection": "lumendesk-support",
+ "metric": "cosine",
+ "context_state": "available",
+ "filtering": {
+  "role": "support_agent",
+  "allowed_documents": 39,
+  "n_results": 8,
+  "candidates": 8,
+  "admitted": 8,
+  "rejected_by_threshold": [],
+  "retrieval_threshold": 0.2,
+  "restricted_probe": {
+   "checked": true,
+   "denied_documents": 3,
+   "nearest_distance": 0.174312,
+   "within_probe": 8,
+   "probe_distance": 0.35,
+   "closer_than_best_admitted": 0
+  },
+  "note": "available не доказывает полноту; empty не является технической ошибкой; forbidden не раскрывает закрытый источник"
+ },
+ "hits": [
+  {
+   "rank": 1,
+   "chunk_id": "saml-cutover-notes::chunk-07",
+   "text": "## Сертификаты и время\n\nВо время звонка я обычно оставляю короткое описание того, что произошло, а не стену настроек: какой workspace дал entity ID и ACS URL, вошли ли обе пилотные учётные записи, что произошло с ожидающим сертификатом и остался ли аварийный администратор вне принудительного режима. Такое описание полезно, потому что другой инженер видит порядок событий. В нём не должно быть написано «SAML работает», если единственное доказательство — то, что форма конфигурации приняла значение. Принятие формой и успешный вход — разные наблюдения.\n\nСуществующая сессия администратора остаётся открытой, пока вход не будет успешным. В конце попросите администратора своими словами описать результат и устраните любую неясность о том, какую учётную запись он проверял. Если настройка прервана, оставьте заметки на фактически достигнутом этапе, с видимыми неотвеченными вопросами. Последующий звонок не должен принять запланированный пилот за завершённый, а загрузку сертификата — за отзыв предыдущего сертификата. Это обычные ошибки координации, и аккуратные формулировки часто оказываются самым простым способом их предотвратить.",
+   "metadata": {
+    "format": "md",
+    "chunk_sha256": "ab798180f871c8a117c635761bae67a22221b8767ee391a9826b64feab79b37e",
+    "is_translation": true,
+    "page_end": 0,
+    "fragment_ids": "02-012,02-015,02-016",
+    "section": "Сертификаты и время",
+    "page_start": 0,
+    "source_lang": "en",
+    "document_id": "saml-cutover-notes",
+    "title_orig": "Before the SAML cutover call",
+    "conflict_group": "",
+    "title_source": "registry.title_ru",
+    "updated": "2026-09-01",
+    "title": "Перед звонком о переключении на SAML",
+    "owner": "Identity Platform",
+    "document_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+    "token_count": 280,
+    "version": "2026-09-01",
+    "line_end": 31,
+    "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+    "related": "26 7 14",
+    "locator": "строка 29; строка 31",
+    "trust": "personal_copy",
+    "line_start": 29
+   },
+   "distance": 0.130534,
+   "provenance": [
+    {
+     "fragment_id": "02-012",
+     "role": "heading",
+     "start": 0,
+     "end": 22,
+     "locator": {
+      "lines": [
+       23,
+       23
+      ]
+     },
+     "locator_text": "строка 23",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "## Certificates and time",
+     "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "02-015",
+     "role": "content",
+     "start": 24,
+     "end": 553,
+     "locator": {
+      "lines": [
+       29,
+       29
+      ]
+     },
+     "locator_text": "строка 29",
+     "section_orig": "Certificates and time",
+     "section_ru": "Сертификаты и время",
+     "translation": "translated",
+     "text_orig": "During the call I usually leave a short narrative of what happened rather than a wall of settings: which workspace supplied the entity ID and ACS URL, whether both pilot accounts signed in, what happened with the pending certificate, and whether the emergency administrator remained outside enforcement. The narrative is useful because another engineer can see the order of events. It should not say “SAML works” when the only evidence is that a configuration form accepted a value. Form acceptance and successful sign in are different observations.",
+     "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "02-016",
+     "role": "content",
+     "start": 555,
+     "end": 1134,
+     "locator": {
+      "lines": [
+       31,
+       31
+      ]
+     },
+     "locator_text": "строка 31",
+     "section_orig": "Certificates and time",
+     "section_ru": "Сертификаты и время",
+     "translation": "translated",
+     "text_orig": "The existing administrator session stays open until sign in succeeds. At the end, have the administrator describe the outcome in their own words and resolve any ambiguity about which account they tested. If the setup is interrupted, leave the notes at the point actually reached, with unanswered questions visible. A later call should not mistake a planned pilot for a completed one or a certificate upload for revocation of the previous certificate. These are ordinary coordination mistakes, and careful language is often the simplest way to prevent them.",
+     "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 2,
+   "chunk_id": "saml-incident-escalation::chunk-01",
+   "text": "Identity Platform и Support Operations проверили этот runbook по SAML для Enterprise 1 сентября 2026 года. Он предназначен для сотрудника поддержки, который разбирает неудачные входы после настройки или смены сертификата. Сохраняйте рабочую сессию аварийного администратора, пока собираете доказательства. Ближайшая цель — понять, кто не может войти, и сохранить безопасный путь восстановления, а не многократно менять настройки идентификации без подтверждённого диагноза.\n\nВыгрузка операционных параметров, которую ведёт Identity Platform, содержит окно приёма сертификатов. Используйте этот реестр для длительности перекрытия старого и ожидающего сертификатов. Этот runbook определяет события, требующие участия руководителя поддержки, и доказательства, которые нужно собрать. Не подставляйте обычное окно ротации API-ключей вместо окна сертификата SAML: это разные механизмы, с разными участниками и разными операционными инструкциями.",
+   "metadata": {
+    "conflict_group": "",
+    "page_start": 0,
+    "format": "docx",
+    "version": "2026-09-01",
+    "line_end": 0,
+    "locator": "абзац 2 (w:p, стиль Normal); абзац 3 (w:p, стиль Normal)",
+    "fragment_ids": "26-002,26-003",
+    "is_translation": true,
+    "related": "7 2 31",
+    "document_sha256": "f9db7727c20305a90dc68f28f2fc889f67075b8420ebb8aad31ff0510f0db054",
+    "token_count": 223,
+    "chunk_sha256": "67b10063d2ffa8a7d583e54f24479ac29965fe0a9c2addded806ac00f4a21a2d",
+    "document_id": "saml-incident-escalation",
+    "trust": "confirmed",
+    "line_start": 0,
+    "source_lang": "en",
+    "page_end": 0,
+    "title_orig": "SAML incident escalation",
+    "source_path": "documents/Платформа и интеграции/SAML incident handling.docx",
+    "updated": "2026-09-01",
+    "owner": "Identity Platform; Support Operations",
+    "section": "(введение)",
+    "title_source": "registry.title_ru",
+    "title": "Эскалация инцидентов SAML"
+   },
+   "distance": 0.137181,
+   "provenance": [
+    {
+     "fragment_id": "26-002",
+     "role": "content",
+     "start": 0,
+     "end": 472,
+     "locator": {
+      "paragraph": 2,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 2 (w:p, стиль Normal)",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Identity Platform and Support Operations reviewed this Enterprise SAML runbook on 1 September 2026. It is for the support colleague handling failed sign-ins after setup or certificate changes. Keep a working emergency administrator session while collecting evidence. The immediate objective is to understand who cannot sign in and preserve a safe recovery route, rather than repeatedly change identity settings without a confirmed diagnosis.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "26-003",
+     "role": "content",
+     "start": 474,
+     "end": 938,
+     "locator": {
+      "paragraph": 3,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 3 (w:p, стиль Normal)",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "The operating-parameters export maintained by Identity Platform contains the certificate acceptance window. Use that register for the duration of old and pending certificate overlap. This runbook defines the events that need a support lead and the evidence to collect. Do not substitute the ordinary API-key rotation window for a SAML certificate window: they are separate mechanisms, with different participants and different operating instructions.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "chunk_id": "saml-cutover-notes::chunk-06",
+   "text": "## Сертификаты и время\n\nЗагрузите ожидающий сертификат до отзыва старого сертификата. Проверьте окно приёма в реестре операционных параметров. В этой записной книжке число для этого окна сознательно не приводится: не копируйте число по памяти и не придумывайте его только потому, что на звонке нужен быстрый ответ. Запишите, какую запись реестра команда использовала при планировании смены сертификата. Важен порядок: ожидающий сертификат загружается до отзыва старого, а применимое окно приёма проверяется по его собственному источнику.\n\nЧасы провайдера идентификации и LumenDesk могут расходиться не более чем на 120 секунд. Когда люди сравнивают отметки времени при диагностике, спрашивайте, какие часы дали каждое значение. Снимок экрана с местным временем компьютера и событие у провайдера — не обязательно одно и то же наблюдение. Допуск в 120 секунд — ограничение подключения, а не повод игнорировать постоянное расхождение. Говорите точно о сравниваемых системах, особенно когда участники находятся в разных часовых поясах и небрежно описывают событие как произошедшее «минуту назад».",
+   "metadata": {
+    "updated": "2026-09-01",
+    "chunk_sha256": "34be8ecf65c0dac11c41badfa5c8b47fc095def5d11c2cd65568631cb6d21300",
+    "related": "26 7 14",
+    "section": "Сертификаты и время",
+    "document_sha256": "e2db5d30b80be8780160d15c6637f467545053104f64edcc407436e31cc6c159",
+    "title_source": "registry.title_ru",
+    "is_translation": true,
+    "conflict_group": "",
+    "page_end": 0,
+    "document_id": "saml-cutover-notes",
+    "source_lang": "en",
+    "title_orig": "Before the SAML cutover call",
+    "format": "md",
+    "locator": "строка 25; строка 27",
+    "source_path": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+    "line_end": 27,
+    "owner": "Identity Platform",
+    "version": "2026-09-01",
+    "line_start": 25,
+    "title": "Перед звонком о переключении на SAML",
+    "token_count": 274,
+    "fragment_ids": "02-012,02-013,02-014",
+    "page_start": 0,
+    "trust": "personal_copy"
+   },
+   "distance": 0.138022,
+   "provenance": [
+    {
+     "fragment_id": "02-012",
+     "role": "heading",
+     "start": 0,
+     "end": 22,
+     "locator": {
+      "lines": [
+       23,
+       23
+      ]
+     },
+     "locator_text": "строка 23",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "## Certificates and time",
+     "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "02-013",
+     "role": "content",
+     "start": 24,
+     "end": 537,
+     "locator": {
+      "lines": [
+       25,
+       25
+      ]
+     },
+     "locator_text": "строка 25",
+     "section_orig": "Certificates and time",
+     "section_ru": "Сертификаты и время",
+     "translation": "translated",
+     "text_orig": "Upload the pending certificate before revoking the old certificate. Check the acceptance window in the operating parameters register. This notebook deliberately does not supply a number for that window: do not copy a number from memory or invent one because the call needs a quick answer. Record which register entry the team used when planning the certificate transition. The important ordering here is that the pending certificate is uploaded before the old one is revoked, with the applicable acceptance window checked in its own source.",
+     "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "02-014",
+     "role": "content",
+     "start": 539,
+     "end": 1092,
+     "locator": {
+      "lines": [
+       27,
+       27
+      ]
+     },
+     "locator_text": "строка 27",
+     "section_orig": "Certificates and time",
+     "section_ru": "Сертификаты и время",
+     "translation": "translated",
+     "text_orig": "The identity provider and LumenDesk clocks may differ by at most 120 seconds. When people compare timestamps during troubleshooting, ask which clock produced each value. A screenshot of local desktop time and a provider event are not automatically the same observation. The 120-second allowance is a connection constraint, not an invitation to ignore a persistent difference. Keep the discussion precise about the compared systems, especially when participants are in different time zones and casually describe the event as happening “a minute ago.”",
+     "handling": "Действующий материал. Личная копия заметок; при расхождении приоритет у регламента. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "chunk_id": "saml-incident-escalation::chunk-02",
+   "text": "Триггер и маршрут\n\nПовторяющиеся неудачи. Эскалируйте руководителю поддержки, если в течение 15 минут произошло 3 неудачных входа.\n\nБлокировка привилегированной учётной записи. Немедленно эскалируйте руководителю поддержки блокировку привилегированной учётной записи.\n\nПроверка сертификата. Перед отзывом сертификата проверьте активацию ожидающего сертификата и окно приёма в реестре операционных параметров.\n\nПроверка часов. Допустимое расхождение часов — 120 секунд.",
+   "metadata": {
+    "document_id": "saml-incident-escalation",
+    "format": "docx",
+    "locator": "абзац 5 (w:p, стиль Normal); абзац 6 (w:p, стиль Normal); абзац 7 (w:p, стиль Normal); абзац 8 (w:p, стиль Normal)",
+    "section": "Триггер и маршрут",
+    "chunk_sha256": "8f30b68479534cb49043471bc25ca445090df1818e75af5bdf71f96b359256ec",
+    "source_path": "documents/Платформа и интеграции/SAML incident handling.docx",
+    "line_end": 0,
+    "page_start": 0,
+    "title": "Эскалация инцидентов SAML",
+    "owner": "Identity Platform; Support Operations",
+    "document_sha256": "f9db7727c20305a90dc68f28f2fc889f67075b8420ebb8aad31ff0510f0db054",
+    "related": "7 2 31",
+    "line_start": 0,
+    "fragment_ids": "26-004,26-005,26-006,26-007,26-008",
+    "conflict_group": "",
+    "source_lang": "en",
+    "page_end": 0,
+    "title_orig": "SAML incident escalation",
+    "title_source": "registry.title_ru",
+    "is_translation": true,
+    "trust": "confirmed",
+    "version": "2026-09-01",
+    "token_count": 127,
+    "updated": "2026-09-01"
+   },
+   "distance": 0.138807,
+   "provenance": [
+    {
+     "fragment_id": "26-004",
+     "role": "heading",
+     "start": 0,
+     "end": 17,
+     "locator": {
+      "paragraph": 4,
+      "style": "Heading1"
+     },
+     "locator_text": "абзац 4 (w:p, стиль Heading1)",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Trigger and route",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "26-005",
+     "role": "content",
+     "start": 19,
+     "end": 130,
+     "locator": {
+      "paragraph": 5,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 5 (w:p, стиль Normal)",
+     "section_orig": "Trigger and route",
+     "section_ru": "Триггер и маршрут",
+     "translation": "translated",
+     "text_orig": "Repeated failure. Escalate to support lead when 3 sign-in failures occur within 15 minutes.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "26-006",
+     "role": "content",
+     "start": 132,
+     "end": 267,
+     "locator": {
+      "paragraph": 6,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 6 (w:p, стиль Normal)",
+     "section_orig": "Trigger and route",
+     "section_ru": "Триггер и маршрут",
+     "translation": "translated",
+     "text_orig": "Privileged lockout. Escalate a privileged-account lockout to support lead immediately.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "26-007",
+     "role": "content",
+     "start": 269,
+     "end": 408,
+     "locator": {
+      "paragraph": 7,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 7 (w:p, стиль Normal)",
+     "section_orig": "Trigger and route",
+     "section_ru": "Триггер и маршрут",
+     "translation": "translated",
+     "text_orig": "Certificate check. Check pending-certificate activation and the acceptance window in the operating parameters register before revoking a certificate.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "26-008",
+     "role": "content",
+     "start": 410,
+     "end": 468,
+     "locator": {
+      "paragraph": 8,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 8 (w:p, стиль Normal)",
+     "section_orig": "Trigger and route",
+     "section_ru": "Триггер и маршрут",
+     "translation": "translated",
+     "text_orig": "Clock check. The permitted clock difference is 120 seconds.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "chunk_id": "saml-incident-escalation::chunk-06",
+   "text": "Доказательства, которыми безопасно делиться\n\nСоберите идентификатор workspace, issuer, идентификатор запроса и время неудач в UTC. Полный SAML assertion может содержать конфиденциальные данные учётной записи, и его нельзя вставлять в запрос в поддержку. Попросите очищенный результат диагностики, сохраняющий нужные идентификаторы и контекст ошибки. Когда коллега присылает снимок экрана, проверьте его, прежде чем пересылать в более широкое обсуждение инцидента. Запись об инциденте должна связывать доказательства, не создавая лишних копий материалов аутентификации.\n\nОтделяйте наблюдения клиента от технических выводов. Утверждение, что сертификат загружен, — наблюдение о действии; приём входа, подписанного этим сертификатом, — отдельная проверка. Точно так же сообщение о том, что кто-то не может войти, не доказывает, что принудительный режим нужно отключить. Объясняйте нерешённые моменты при передаче, чтобы принимающий коллега не повторил небезопасное изменение из-за того, что краткое резюме создало впечатление законченного диагноза.",
+   "metadata": {
+    "fragment_ids": "26-022,26-023,26-024",
+    "document_id": "saml-incident-escalation",
+    "owner": "Identity Platform; Support Operations",
+    "trust": "confirmed",
+    "updated": "2026-09-01",
+    "related": "7 2 31",
+    "title_source": "registry.title_ru",
+    "source_path": "documents/Платформа и интеграции/SAML incident handling.docx",
+    "conflict_group": "",
+    "version": "2026-09-01",
+    "locator": "абзац 23 (w:p, стиль Normal); абзац 24 (w:p, стиль Normal)",
+    "section": "Доказательства, которыми безопасно делиться",
+    "title": "Эскалация инцидентов SAML",
+    "line_start": 0,
+    "title_orig": "SAML incident escalation",
+    "token_count": 274,
+    "chunk_sha256": "026a8852bac6a9909a4e5fc449dc255ccdb6081ec7a16bfa270ba5bf9af24c14",
+    "is_translation": true,
+    "document_sha256": "f9db7727c20305a90dc68f28f2fc889f67075b8420ebb8aad31ff0510f0db054",
+    "page_start": 0,
+    "page_end": 0,
+    "source_lang": "en",
+    "line_end": 0,
+    "format": "docx"
+   },
+   "distance": 0.142908,
+   "provenance": [
+    {
+     "fragment_id": "26-022",
+     "role": "heading",
+     "start": 0,
+     "end": 43,
+     "locator": {
+      "paragraph": 22,
+      "style": "Heading1"
+     },
+     "locator_text": "абзац 22 (w:p, стиль Heading1)",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Evidence that is safe to share",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "26-023",
+     "role": "content",
+     "start": 45,
+     "end": 568,
+     "locator": {
+      "paragraph": 23,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 23 (w:p, стиль Normal)",
+     "section_orig": "Evidence that is safe to share",
+     "section_ru": "Доказательства, которыми безопасно делиться",
+     "translation": "translated",
+     "text_orig": "Collect the workspace identifier, issuer, request identifier and failure times in UTC. A full SAML assertion can contain sensitive account data and must not be pasted into a support request. Ask for a sanitised diagnostic result that preserves the needed identifiers and error context. When a colleague sends a screenshot, check it before forwarding it into a wider incident discussion. The incident record should connect the evidence without creating unnecessary copies of authentication material.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "26-024",
+     "role": "content",
+     "start": 570,
+     "end": 1045,
+     "locator": {
+      "paragraph": 24,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 24 (w:p, стиль Normal)",
+     "section_orig": "Evidence that is safe to share",
+     "section_ru": "Доказательства, которыми безопасно делиться",
+     "translation": "translated",
+     "text_orig": "Keep customer observations distinct from technical conclusions. The statement that a certificate was uploaded is an observation about an action; acceptance of a sign-in signed by that certificate is a separate check. Likewise, a report that someone cannot log in does not prove that enforcement should be disabled. Explain unresolved points in the handover so the receiving colleague does not repeat an unsafe change because a short summary implied that the diagnosis was complete.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "chunk_id": "saml-incident-escalation::chunk-07",
+   "text": "Разбор инцидента со сменой сертификата\n\nКлиент сообщил о неудачах вскоре после обновления у провайдера идентификации. Первый коллега держал сессию аварийного администратора открытой и собрал идентификаторы workspace, issuer и запросов. Для последующей повторной проверки были доступны две обычные пилотные учётные записи. Прежде чем просить о новом входе, коллега проверил прежние неудачи и нашёл три в течение пятнадцати минут. Случай был эскалирован руководителю поддержки с указанием времени, а не оставлен в обычной очереди для новой серии повторов.\n\nЗатем отдельное сообщение описало привилегированную учётную запись, которая больше не могла войти в workspace. Это сообщение было немедленно передано руководителю поддержки. Команда не сочла прежний триггер трёх неудач поводом ждать новых привилегированных неудач. Руководитель согласовал с владельцем и контактом у провайдера идентификации проверку активации сертификата и доказательств по часам. Само окно приёма было взято из реестра операционных параметров, без придумывания новой длительности в заметке об инциденте.\n\nКогда для восстановления потребовалось отключить принудительный режим, аварийный администратор сделал это после одобрения владельца workspace. В записи указано, кто одобрил действие и что было изменено. После исправления конфигурации команда проверила две непривилегированные пилотные учётные записи до принудительного включения. Успешная сессия аварийного администратора не использовалась вместо этих пилотных проверок. Успешная повторная проверка включала отпечаток сертификата, чтобы команда могла определить, какая конфигурация фактически сработала.",
+   "metadata": {
+    "section": "Разбор инцидента со сменой сертификата",
+    "format": "docx",
+    "token_count": 377,
+    "document_id": "saml-incident-escalation",
+    "source_path": "documents/Платформа и интеграции/SAML incident handling.docx",
+    "title": "Эскалация инцидентов SAML",
+    "is_translation": true,
+    "page_start": 0,
+    "fragment_ids": "26-025,26-026,26-027,26-028",
+    "line_end": 0,
+    "document_sha256": "f9db7727c20305a90dc68f28f2fc889f67075b8420ebb8aad31ff0510f0db054",
+    "page_end": 0,
+    "trust": "confirmed",
+    "line_start": 0,
+    "updated": "2026-09-01",
+    "owner": "Identity Platform; Support Operations",
+    "version": "2026-09-01",
+    "conflict_group": "",
+    "source_lang": "en",
+    "locator": "абзац 26 (w:p, стиль Normal); абзац 27 (w:p, стиль Normal); абзац 28 (w:p, стиль Normal)",
+    "title_source": "registry.title_ru",
+    "related": "7 2 31",
+    "chunk_sha256": "9e16bfb92c985e0d820f8f3603813e3c8e614b99db845fb4448ddafe22943a50",
+    "title_orig": "SAML incident escalation"
+   },
+   "distance": 0.146118,
+   "provenance": [
+    {
+     "fragment_id": "26-025",
+     "role": "heading",
+     "start": 0,
+     "end": 38,
+     "locator": {
+      "paragraph": 25,
+      "style": "Heading1"
+     },
+     "locator_text": "абзац 25 (w:p, стиль Heading1)",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Walkthrough from a certificate-change incident",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "26-026",
+     "role": "content",
+     "start": 40,
+     "end": 553,
+     "locator": {
+      "paragraph": 26,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 26 (w:p, стиль Normal)",
+     "section_orig": "Walkthrough from a certificate-change incident",
+     "section_ru": "Разбор инцидента со сменой сертификата",
+     "translation": "translated",
+     "text_orig": "The customer reported failures shortly after an identity-provider update. The first colleague kept the emergency administrator session open and collected the workspace, issuer and request identifiers. Two ordinary pilot accounts were available for later retesting. Before asking for another sign-in, the colleague checked the earlier failures and found three within fifteen minutes. The case was escalated to the support lead with the times, rather than left in the ordinary queue for another series of retries.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "26-027",
+     "role": "content",
+     "start": 555,
+     "end": 1076,
+     "locator": {
+      "paragraph": 27,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 27 (w:p, стиль Normal)",
+     "section_orig": "Walkthrough from a certificate-change incident",
+     "section_ru": "Разбор инцидента со сменой сертификата",
+     "translation": "translated",
+     "text_orig": "A separate report then described a privileged account that could no longer enter the workspace. That report was passed to the support lead immediately. The team did not treat the earlier three-failure trigger as a reason to wait for more privileged failures. The lead coordinated with the owner and the identity-provider contact to check certificate activation and clock evidence. The acceptance window itself was read from the operating-parameters register, without inventing a new duration in the incident note.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "26-028",
+     "role": "content",
+     "start": 1078,
+     "end": 1631,
+     "locator": {
+      "paragraph": 28,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 28 (w:p, стиль Normal)",
+     "section_orig": "Walkthrough from a certificate-change incident",
+     "section_ru": "Разбор инцидента со сменой сертификата",
+     "translation": "translated",
+     "text_orig": "When recovery required disabling enforcement, the emergency administrator did so after the workspace owner's approval. The record states who approved the action and what was changed. After the configuration was corrected, the team tested two non-privileged pilot accounts before enforcement. A successful emergency administrator session was not used as a substitute for those pilot checks. The successful retest included the certificate fingerprint so the team could tell which configuration had actually worked.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "chunk_id": "saml-incident-escalation::chunk-08",
+   "text": "Закрытие и передача\n\nПеред закрытием запишите успешную повторную проверку, отпечаток сертификата и одобрившего владельца. Подтвердите, какие пользователи проверены и что остаётся вне проверенного охвата. Если другая команда должна продолжить работу, передайте ей следующее действие и ссылки на безопасные доказательства. Не оставляйте полный assertion в итоговой передаче только потому, что он был полезен во внутреннем диагностическом разговоре. Обычные правила минимизации доказательств продолжают действовать и после восстановления сервиса.\n\nЕсли ожидаемый операционный параметр найти не удаётся, сохраните эту неопределённость и попросите Identity Platform её прояснить. Личная заметка, инструкция по API-ключам или запомненное значение из другого workspace — неподходящая замена. Это особенно важно, когда сертификат приближается к концу периода перекрытия. Чёткое указание на недостающий параметр помогает руководителю согласовать безопасное действие; придуманный срок может привести к потере доступа ко входу, которой можно было избежать.",
+   "metadata": {
+    "format": "docx",
+    "version": "2026-09-01",
+    "section": "Закрытие и передача",
+    "fragment_ids": "26-029,26-030,26-031",
+    "document_id": "saml-incident-escalation",
+    "locator": "абзац 30 (w:p, стиль Normal); абзац 31 (w:p, стиль Normal)",
+    "updated": "2026-09-01",
+    "owner": "Identity Platform; Support Operations",
+    "conflict_group": "",
+    "document_sha256": "f9db7727c20305a90dc68f28f2fc889f67075b8420ebb8aad31ff0510f0db054",
+    "title_source": "registry.title_ru",
+    "trust": "confirmed",
+    "line_start": 0,
+    "source_path": "documents/Платформа и интеграции/SAML incident handling.docx",
+    "title": "Эскалация инцидентов SAML",
+    "page_end": 0,
+    "title_orig": "SAML incident escalation",
+    "related": "7 2 31",
+    "token_count": 237,
+    "line_end": 0,
+    "chunk_sha256": "ee4adcfcae99ce38b2e392cc72a63ac8b3a1535fda070f2b7b4d988263848018",
+    "source_lang": "en",
+    "page_start": 0,
+    "is_translation": true
+   },
+   "distance": 0.148083,
+   "provenance": [
+    {
+     "fragment_id": "26-029",
+     "role": "heading",
+     "start": 0,
+     "end": 19,
+     "locator": {
+      "paragraph": 29,
+      "style": "Heading1"
+     },
+     "locator_text": "абзац 29 (w:p, стиль Heading1)",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Close and hand over",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "26-030",
+     "role": "content",
+     "start": 21,
+     "end": 543,
+     "locator": {
+      "paragraph": 30,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 30 (w:p, стиль Normal)",
+     "section_orig": "Close and hand over",
+     "section_ru": "Закрытие и передача",
+     "translation": "translated",
+     "text_orig": "Before closing, record the successful retest, the certificate fingerprint and the approving owner. Confirm which users have been checked and what remains outside the tested scope. If another team must follow up, give it the next action and the safe evidence references. Do not leave a full assertion in the final handover merely because it was useful during an internal diagnostic conversation. The normal evidence-minimisation rules still apply after service is restored.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "26-031",
+     "role": "content",
+     "start": 545,
+     "end": 1045,
+     "locator": {
+      "paragraph": 31,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 31 (w:p, стиль Normal)",
+     "section_orig": "Close and hand over",
+     "section_ru": "Закрытие и передача",
+     "translation": "translated",
+     "text_orig": "If the expected operating parameter cannot be found, preserve that uncertainty and ask Identity Platform to clarify it. A personal note, an API-key instruction or a remembered value from another workspace is not an adequate substitute. This is especially important when a certificate is approaching the end of its overlap period. A clear statement of the missing parameter helps the lead coordinate a safe action; an invented deadline can cause an avoidable loss of sign-in access.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "chunk_id": "saml-incident-escalation::chunk-03",
+   "text": "Доказательства и восстановление\n\nДоказательства. Соберите workspace ID, issuer, request ID и время неудач в UTC.\n\nКонфиденциальные данные. Не вставляйте полный SAML assertion в запрос в поддержку.\n\nПилотная проверка. До принудительного включения повторите проверку на двух непривилегированных пилотных учётных записях.\n\nВосстановление. Аварийный администратор может отключить принудительный режим после одобрения владельца workspace.\n\nЗакрытие. Запишите отпечаток сертификата, использованного при успешной повторной проверке, и одобрившего владельца.",
+   "metadata": {
+    "section": "Доказательства и восстановление",
+    "title": "Эскалация инцидентов SAML",
+    "locator": "абзац 10 (w:p, стиль Normal); абзац 11 (w:p, стиль Normal); абзац 12 (w:p, стиль Normal); абзац 13 (w:p, стиль Normal); абзац 14 (w:p, стиль Normal)",
+    "title_orig": "SAML incident escalation",
+    "page_end": 0,
+    "line_end": 0,
+    "trust": "confirmed",
+    "token_count": 143,
+    "conflict_group": "",
+    "source_lang": "en",
+    "fragment_ids": "26-009,26-010,26-011,26-012,26-013,26-014",
+    "is_translation": true,
+    "updated": "2026-09-01",
+    "owner": "Identity Platform; Support Operations",
+    "title_source": "registry.title_ru",
+    "format": "docx",
+    "chunk_sha256": "4f13fcc72d1f99985e3421ab1ac8ea75440ed84d3312b20262b3eb5de1b3e197",
+    "related": "7 2 31",
+    "document_sha256": "f9db7727c20305a90dc68f28f2fc889f67075b8420ebb8aad31ff0510f0db054",
+    "version": "2026-09-01",
+    "document_id": "saml-incident-escalation",
+    "page_start": 0,
+    "source_path": "documents/Платформа и интеграции/SAML incident handling.docx",
+    "line_start": 0
+   },
+   "distance": 0.153016,
+   "provenance": [
+    {
+     "fragment_id": "26-009",
+     "role": "heading",
+     "start": 0,
+     "end": 31,
+     "locator": {
+      "paragraph": 9,
+      "style": "Heading1"
+     },
+     "locator_text": "абзац 9 (w:p, стиль Heading1)",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Evidence and recovery",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "26-010",
+     "role": "content",
+     "start": 33,
+     "end": 112,
+     "locator": {
+      "paragraph": 10,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 10 (w:p, стиль Normal)",
+     "section_orig": "Evidence and recovery",
+     "section_ru": "Доказательства и восстановление",
+     "translation": "translated",
+     "text_orig": "Evidence. Collect workspace ID, issuer, request ID and failure times in UTC.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "26-011",
+     "role": "content",
+     "start": 114,
+     "end": 196,
+     "locator": {
+      "paragraph": 11,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 11 (w:p, стиль Normal)",
+     "section_orig": "Evidence and recovery",
+     "section_ru": "Доказательства и восстановление",
+     "translation": "translated",
+     "text_orig": "Sensitive data. Do not paste a full SAML assertion into a support request.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "26-012",
+     "role": "content",
+     "start": 198,
+     "end": 318,
+     "locator": {
+      "paragraph": 12,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 12 (w:p, стиль Normal)",
+     "section_orig": "Evidence and recovery",
+     "section_ru": "Доказательства и восстановление",
+     "translation": "translated",
+     "text_orig": "Pilot check. Retest with two non-privileged pilot accounts before enforcement.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "26-013",
+     "role": "content",
+     "start": 320,
+     "end": 433,
+     "locator": {
+      "paragraph": 13,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 13 (w:p, стиль Normal)",
+     "section_orig": "Evidence and recovery",
+     "section_ru": "Доказательства и восстановление",
+     "translation": "translated",
+     "text_orig": "Recovery. The emergency administrator may disable enforcement after approval by the workspace owner.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "26-014",
+     "role": "content",
+     "start": 435,
+     "end": 550,
+     "locator": {
+      "paragraph": 14,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 14 (w:p, стиль Normal)",
+     "section_orig": "Evidence and recovery",
+     "section_ru": "Доказательства и восстановление",
+     "translation": "translated",
+     "text_orig": "Close. Record the certificate fingerprint used for the successful retest and the approving owner.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  }
+ ],
+ "context": "[saml-cutover-notes::chunk-07] Перед звонком о переключении на SAML — documents/Выгрузки/Downloads/SAML cutover - September.md, строка 29; строка 31\n## Сертификаты и время\n\nВо время звонка я обычно оставляю короткое описание того, что произошло, а не стену настроек: какой workspace дал entity ID и ACS URL, вошли ли обе пилотные учётные записи, что произошло с ожидающим сертификатом и остался ли аварийный администратор вне принудительного режима. Такое описание полезно, потому что другой инженер видит порядок событий. В нём не должно быть написано «SAML работает», если единственное доказательство — то, что форма конфигурации приняла значение. Принятие формой и успешный вход — разные наблюдения.\n\nСуществующая сессия администратора остаётся открытой, пока вход не будет успешным. В конце попросите администратора своими словами описать результат и устраните любую неясность о том, какую учётную запись он проверял. Если настройка прервана, оставьте заметки на фактически достигнутом этапе, с видимыми неотвеченными вопросами. Последующий звонок не должен принять запланированный пилот за завершённый, а загрузку сертификата — за отзыв предыдущего сертификата. Это обычные ошибки координации, и аккуратные формулировки часто оказываются самым простым способом их предотвратить.\n\n[saml-incident-escalation::chunk-01] Эскалация инцидентов SAML — documents/Платформа и интеграции/SAML incident handling.docx, абзац 2 (w:p, стиль Normal); абзац 3 (w:p, стиль Normal)\nIdentity Platform и Support Operations проверили этот runbook по SAML для Enterprise 1 сентября 2026 года. Он предназначен для сотрудника поддержки, который разбирает неудачные входы после настройки или смены сертификата. Сохраняйте рабочую сессию аварийного администратора, пока собираете доказательства. Ближайшая цель — понять, кто не может войти, и сохранить безопасный путь восстановления, а не многократно менять настройки идентификации без подтверждённого диагноза.\n\nВыгрузка операционных параметров, которую ведёт Identity Platform, содержит окно приёма сертификатов. Используйте этот реестр для длительности перекрытия старого и ожидающего сертификатов. Этот runbook определяет события, требующие участия руководителя поддержки, и доказательства, которые нужно собрать. Не подставляйте обычное окно ротации API-ключей вместо окна сертификата SAML: это разные механизмы, с разными участниками и разными операционными инструкциями.\n\n[saml-cutover-notes::chunk-06] Перед звонком о переключении на SAML — documents/Выгрузки/Downloads/SAML cutover - September.md, строка 25; строка 27\n## Сертификаты и время\n\nЗагрузите ожидающий сертификат до отзыва старого сертификата. Проверьте окно приёма в реестре операционных параметров. В этой записной книжке число для этого окна сознательно не приводится: не копируйте число по памяти и не придумывайте его только потому, что на звонке нужен быстрый ответ. Запишите, какую запись реестра команда использовала при планировании смены сертификата. Важен порядок: ожидающий сертификат загружается до отзыва старого, а применимое окно приёма проверяется по его собственному источнику.\n\nЧасы провайдера идентификации и LumenDesk могут расходиться не более чем на 120 секунд. Когда люди сравнивают отметки времени при диагностике, спрашивайте, какие часы дали каждое значение. Снимок экрана с местным временем компьютера и событие у провайдера — не обязательно одно и то же наблюдение. Допуск в 120 секунд — ограничение подключения, а не повод игнорировать постоянное расхождение. Говорите точно о сравниваемых системах, особенно когда участники находятся в разных часовых поясах и небрежно описывают событие как произошедшее «минуту назад».\n\n[saml-incident-escalation::chunk-02] Эскалация инцидентов SAML — documents/Платформа и интеграции/SAML incident handling.docx, абзац 5 (w:p, стиль Normal); абзац 6 (w:p, стиль Normal); абзац 7 (w:p, стиль Normal); абзац 8 (w:p, стиль Normal)\nТриггер и маршрут\n\nПовторяющиеся неудачи. Эскалируйте руководителю поддержки, если в течение 15 минут произошло 3 неудачных входа.\n\nБлокировка привилегированной учётной записи. Немедленно эскалируйте руководителю поддержки блокировку привилегированной учётной записи.\n\nПроверка сертификата. Перед отзывом сертификата проверьте активацию ожидающего сертификата и окно приёма в реестре операционных параметров.\n\nПроверка часов. Допустимое расхождение часов — 120 секунд.\n\n[saml-incident-escalation::chunk-06] Эскалация инцидентов SAML — documents/Платформа и интеграции/SAML incident handling.docx, абзац 23 (w:p, стиль Normal); абзац 24 (w:p, стиль Normal)\nДоказательства, которыми безопасно делиться\n\nСоберите идентификатор workspace, issuer, идентификатор запроса и время неудач в UTC. Полный SAML assertion может содержать конфиденциальные данные учётной записи, и его нельзя вставлять в запрос в поддержку. Попросите очищенный результат диагностики, сохраняющий нужные идентификаторы и контекст ошибки. Когда коллега присылает снимок экрана, проверьте его, прежде чем пересылать в более широкое обсуждение инцидента. Запись об инциденте должна связывать доказательства, не создавая лишних копий материалов аутентификации.\n\nОтделяйте наблюдения клиента от технических выводов. Утверждение, что сертификат загружен, — наблюдение о действии; приём входа, подписанного этим сертификатом, — отдельная проверка. Точно так же сообщение о том, что кто-то не может войти, не доказывает, что принудительный режим нужно отключить. Объясняйте нерешённые моменты при передаче, чтобы принимающий коллега не повторил небезопасное изменение из-за того, что краткое резюме создало впечатление законченного диагноза.\n\n[saml-incident-escalation::chunk-07] Эскалация инцидентов SAML — documents/Платформа и интеграции/SAML incident handling.docx, абзац 26 (w:p, стиль Normal); абзац 27 (w:p, стиль Normal); абзац 28 (w:p, стиль Normal)\nРазбор инцидента со сменой сертификата\n\nКлиент сообщил о неудачах вскоре после обновления у провайдера идентификации. Первый коллега держал сессию аварийного администратора открытой и собрал идентификаторы workspace, issuer и запросов. Для последующей повторной проверки были доступны две обычные пилотные учётные записи. Прежде чем просить о новом входе, коллега проверил прежние неудачи и нашёл три в течение пятнадцати минут. Случай был эскалирован руководителю поддержки с указанием времени, а не оставлен в обычной очереди для новой серии повторов.\n\nЗатем отдельное сообщение описало привилегированную учётную запись, которая больше не могла войти в workspace. Это сообщение было немедленно передано руководителю поддержки. Команда не сочла прежний триггер трёх неудач поводом ждать новых привилегированных неудач. Руководитель согласовал с владельцем и контактом у провайдера идентификации проверку активации сертификата и доказательств по часам. Само окно приёма было взято из реестра операционных параметров, без придумывания новой длительности в заметке об инциденте.\n\nКогда для восстановления потребовалось отключить принудительный режим, аварийный администратор сделал это после одобрения владельца workspace. В записи указано, кто одобрил действие и что было изменено. После исправления конфигурации команда проверила две непривилегированные пилотные учётные записи до принудительного включения. Успешная сессия аварийного администратора не использовалась вместо этих пилотных проверок. Успешная повторная проверка включала отпечаток сертификата, чтобы команда могла определить, какая конфигурация фактически сработала.\n\n[saml-incident-escalation::chunk-08] Эскалация инцидентов SAML — documents/Платформа и интеграции/SAML incident handling.docx, абзац 30 (w:p, стиль Normal); абзац 31 (w:p, стиль Normal)\nЗакрытие и передача\n\nПеред закрытием запишите успешную повторную проверку, отпечаток сертификата и одобрившего владельца. Подтвердите, какие пользователи проверены и что остаётся вне проверенного охвата. Если другая команда должна продолжить работу, передайте ей следующее действие и ссылки на безопасные доказательства. Не оставляйте полный assertion в итоговой передаче только потому, что он был полезен во внутреннем диагностическом разговоре. Обычные правила минимизации доказательств продолжают действовать и после восстановления сервиса.\n\nЕсли ожидаемый операционный параметр найти не удаётся, сохраните эту неопределённость и попросите Identity Platform её прояснить. Личная заметка, инструкция по API-ключам или запомненное значение из другого workspace — неподходящая замена. Это особенно важно, когда сертификат приближается к концу периода перекрытия. Чёткое указание на недостающий параметр помогает руководителю согласовать безопасное действие; придуманный срок может привести к потере доступа ко входу, которой можно было избежать.\n\n[saml-incident-escalation::chunk-03] Эскалация инцидентов SAML — documents/Платформа и интеграции/SAML incident handling.docx, абзац 10 (w:p, стиль Normal); абзац 11 (w:p, стиль Normal); абзац 12 (w:p, стиль Normal); абзац 13 (w:p, стиль Normal); абзац 14 (w:p, стиль Normal)\nДоказательства и восстановление\n\nДоказательства. Соберите workspace ID, issuer, request ID и время неудач в UTC.\n\nКонфиденциальные данные. Не вставляйте полный SAML assertion в запрос в поддержку.\n\nПилотная проверка. До принудительного включения повторите проверку на двух непривилегированных пилотных учётных записях.\n\nВосстановление. Аварийный администратор может отключить принудительный режим после одобрения владельца workspace.\n\nЗакрытие. Запишите отпечаток сертификата, использованного при успешной повторной проверке, и одобрившего владельца.",
+ "context_chunk_ids": [
+  "saml-cutover-notes::chunk-07",
+  "saml-incident-escalation::chunk-01",
+  "saml-cutover-notes::chunk-06",
+  "saml-incident-escalation::chunk-02",
+  "saml-incident-escalation::chunk-06",
+  "saml-incident-escalation::chunk-07",
+  "saml-incident-escalation::chunk-08",
+  "saml-incident-escalation::chunk-03"
+ ],
+ "retrieval_trace_path": "evidence/retrieval-trace-q-20261118T205750Z-761022.json",
+ "output_path": "evidence/retrieval-a-q12-agent.json"
+}

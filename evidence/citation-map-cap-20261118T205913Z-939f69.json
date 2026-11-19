@@ -1,0 +1,199 @@
+{
+ "capture_id": "cap-20261118T205913Z-939f69",
+ "question": "Сколько строк разрешает текущий CSV-экспорт на Team?",
+ "role": "support_agent",
+ "citations": [
+  {
+   "citation_index": 0,
+   "document_id": "export-security",
+   "chunk_id": "export-security::chunk-02",
+   "quote": "Задание CSV-экспорта на Team содержит не более 100000 строк данных.",
+   "rank": 1,
+   "distance": 0.112168,
+   "title": "Проверки безопасности административного экспорта",
+   "title_orig": "Administrative export security checks",
+   "source_path": "documents/Рабочие копии/Downloads/Export security final.pdf",
+   "section": "Подготовка",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Data Portability",
+   "source_lang": "en",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "32-007",
+     "location": {
+      "file": "documents/Рабочие копии/Downloads/Export security final.pdf",
+      "format": "pdf",
+      "fragment_id": "32-007",
+      "pages": [
+       1
+      ],
+      "block": 7,
+      "where": "стр. 1"
+     },
+     "translation": "translated",
+     "original_excerpt": "A Team CSV export job contains at most 100000 data rows.",
+     "original_cells": null,
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 1,
+   "document_id": "export-security",
+   "chunk_id": "export-security::chunk-04",
+   "quote": "Для Team текущий лимит — 100000 строк данных на одно задание экспорта; строка заголовка не является строкой данных.",
+   "rank": 2,
+   "distance": 0.158733,
+   "title": "Проверки безопасности административного экспорта",
+   "title_orig": "Administrative export security checks",
+   "source_path": "documents/Рабочие копии/Downloads/Export security final.pdf",
+   "section": "Определение охвата до формирования",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Data Portability",
+   "source_lang": "en",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "32-017",
+     "location": {
+      "file": "documents/Рабочие копии/Downloads/Export security final.pdf",
+      "format": "pdf",
+      "fragment_id": "32-017",
+      "pages": [
+       1
+      ],
+      "block": 17,
+      "where": "стр. 1"
+     },
+     "translation": "translated",
+     "original_excerpt": "For Team, the current limit is 100000 data rows per export job; the header row is not a data row. Splitting a completed file after downloading it does not increase the permitted size of the job that produced it. Where a selection is too large, narrow the date range or create separate appropriately scoped jobs. At most two export jobs may run concurrently for the workspace. Check the queue before interpreting a waiting job as a failure.",
+     "original_cells": null,
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 2,
+   "document_id": "export-security",
+   "chunk_id": "export-security::chunk-04",
+   "quote": "Разделение готового файла после скачивания не увеличивает допустимый размер задания, которое его создало.",
+   "rank": 2,
+   "distance": 0.158733,
+   "title": "Проверки безопасности административного экспорта",
+   "title_orig": "Administrative export security checks",
+   "source_path": "documents/Рабочие копии/Downloads/Export security final.pdf",
+   "section": "Определение охвата до формирования",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Data Portability",
+   "source_lang": "en",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "32-017",
+     "location": {
+      "file": "documents/Рабочие копии/Downloads/Export security final.pdf",
+      "format": "pdf",
+      "fragment_id": "32-017",
+      "pages": [
+       1
+      ],
+      "block": 17,
+      "where": "стр. 1"
+     },
+     "translation": "translated",
+     "original_excerpt": "For Team, the current limit is 100000 data rows per export job; the header row is not a data row. Splitting a completed file after downloading it does not increase the permitted size of the job that produced it. Where a selection is too large, narrow the date range or create separate appropriately scoped jobs. At most two export jobs may run concurrently for the workspace. Check the queue before interpreting a waiting job as a failure.",
+     "original_cells": null,
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 3,
+   "document_id": "card-export",
+   "chunk_id": "card-export::chunk-02",
+   "quote": "На Team — до 100000, на Enterprise — до 500000. Строка с названиями столбцов в этот лимит не входит.",
+   "rank": 3,
+   "distance": 0.165796,
+   "title": "Как договориться о большой выгрузке карточек",
+   "title_orig": "Как договориться о большой выгрузке карточек",
+   "source_path": "documents/Платформа и интеграции/Выгрузка карточек.md",
+   "section": "Договориться об объёме",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Data Portability",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "28-005",
+     "location": {
+      "file": "documents/Платформа и интеграции/Выгрузка карточек.md",
+      "format": "md",
+      "fragment_id": "28-005",
+      "section": "Договориться об объёме",
+      "lines": [
+       9,
+       9
+      ],
+      "where": "раздел «Договориться об объёме», строка 9"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": null,
+     "handling": "Действующий материал.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 4,
+   "document_id": "card-export",
+   "chunk_id": "card-export::chunk-02",
+   "quote": "При превышении лимита сузьте фильтр дат или разделите экспорт на задания.",
+   "rank": 3,
+   "distance": 0.165796,
+   "title": "Как договориться о большой выгрузке карточек",
+   "title_orig": "Как договориться о большой выгрузке карточек",
+   "source_path": "documents/Платформа и интеграции/Выгрузка карточек.md",
+   "section": "Договориться об объёме",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Data Portability",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "28-007",
+     "location": {
+      "file": "documents/Платформа и интеграции/Выгрузка карточек.md",
+      "format": "md",
+      "fragment_id": "28-007",
+      "section": "Договориться об объёме",
+      "lines": [
+       13,
+       13
+      ],
+      "where": "раздел «Договориться об объёме», строка 13"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": null,
+     "handling": "Действующий материал.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  }
+ ]
+}

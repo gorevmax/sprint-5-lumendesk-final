@@ -1,0 +1,1210 @@
+{
+ "capture_id": "cap-20261118T220302Z-e86dad",
+ "created_at": "2026-11-18T22:03:02Z",
+ "question": "Когда доступен обратный звонок во Франции и что меняется 14 июля?",
+ "role": "support_agent",
+ "index_id": "idx-20261118T202118Z-d51167",
+ "policy": {
+  "version": "v3",
+  "retrieval_threshold": 0.2,
+  "authorization_probe_distance": 0.35,
+  "top_k": 8,
+  "config_path": "behavior/v3.json",
+  "config_sha256": "fb9c58195459e0f13fdcf87b80ce3255c6df888ee819d292a1a1536b6f67d82d",
+  "system_file": "behavior/system-v3.md",
+  "system_sha256": "7bfb0b5462c7c2e7dcab75888f8fd12595cb398932f81bd3fa26eb55ceb4b137",
+  "lexical_extra": 2,
+  "lexical_pool": 40,
+  "lexical_stem": 6,
+  "forbidden_rule": "probe_and_closer_than_allowed"
+ },
+ "profile": {
+  "model_id": "intfloat/multilingual-e5-base",
+  "dimension": 768,
+  "device": "cpu",
+  "normalize_embeddings": true,
+  "passage_prefix": "passage: ",
+  "query_prefix": "query: ",
+  "embedding_text": "title_ru + '\\n' + chunk text (NFC, пробелы схлопнуты); префикс добавляется один раз при encode",
+  "text_normalization": "NFC + whitespace collapse, только для эмбеддингов",
+  "chunker": "structural-v1",
+  "chunk_rule": "введение и разделы H2 (лист для xlsx), по границам подготовленных фрагментов; строка таблицы — отдельный чанк с названием листа",
+  "chunk_token_limit": 384,
+  "chunk_overlap": 0,
+  "query_token_limit": 512,
+  "metric": "cosine",
+  "collection": "lumendesk-support",
+  "corpus_text": "text_ru из corpus/prepared (русский оригинал или проверенный перевод)"
+ },
+ "retrieval": {
+  "status": "retrieval_only",
+  "query_id": "q-20261118T220236Z-d8dd34",
+  "created_at": "2026-11-18T22:02:36Z",
+  "index_id": "idx-20261118T202118Z-d51167",
+  "question": "Когда доступен обратный звонок во Франции и что меняется 14 июля?",
+  "question_tokens": 21,
+  "role": "support_agent",
+  "top_k": 8,
+  "policy": {
+   "version": "v3",
+   "retrieval_threshold": 0.2,
+   "authorization_probe_distance": 0.35,
+   "top_k": 8,
+   "config_path": "behavior/v3.json",
+   "config_sha256": "fb9c58195459e0f13fdcf87b80ce3255c6df888ee819d292a1a1536b6f67d82d",
+   "system_file": "behavior/system-v3.md",
+   "system_sha256": "7bfb0b5462c7c2e7dcab75888f8fd12595cb398932f81bd3fa26eb55ceb4b137",
+   "lexical_extra": 2,
+   "lexical_pool": 40,
+   "lexical_stem": 6,
+   "forbidden_rule": "probe_and_closer_than_allowed"
+  },
+  "collection": "lumendesk-support",
+  "metric": "cosine",
+  "context_state": "available",
+  "filtering": {
+   "role": "support_agent",
+   "allowed_documents": 39,
+   "n_results": 40,
+   "candidates": 40,
+   "admitted": 10,
+   "rejected_by_threshold": [
+    {
+     "chunk_id": "assistant-quota::chunk-42",
+     "distance": 0.201157
+    },
+    {
+     "chunk_id": "onboarding-handover::chunk-01",
+     "distance": 0.206241
+    },
+    {
+     "chunk_id": "assistant-quota::chunk-46",
+     "distance": 0.210074
+    },
+    {
+     "chunk_id": "outage-communication::chunk-01",
+     "distance": 0.210103
+    },
+    {
+     "chunk_id": "plan-capabilities::chunk-01",
+     "distance": 0.211431
+    },
+    {
+     "chunk_id": "accessibility-fr::chunk-04",
+     "distance": 0.211661
+    },
+    {
+     "chunk_id": "france-data-residency::chunk-01",
+     "distance": 0.211892
+    },
+    {
+     "chunk_id": "trash-recovery::chunk-05",
+     "distance": 0.212724
+    },
+    {
+     "chunk_id": "workshop-fr::chunk-05",
+     "distance": 0.213035
+    },
+    {
+     "chunk_id": "outage-communication::chunk-06",
+     "distance": 0.213181
+    },
+    {
+     "chunk_id": "assistant-quota::chunk-43",
+     "distance": 0.213533
+    },
+    {
+     "chunk_id": "assistant-quota::chunk-47",
+     "distance": 0.213693
+    },
+    {
+     "chunk_id": "french-handoff::chunk-04",
+     "distance": 0.214042
+    },
+    {
+     "chunk_id": "api-key-rotation::chunk-02",
+     "distance": 0.214161
+    },
+    {
+     "chunk_id": "assistant-quota::chunk-19",
+     "distance": 0.214174
+    },
+    {
+     "chunk_id": "notification-explainer::chunk-03",
+     "distance": 0.214287
+    },
+    {
+     "chunk_id": "france-data-residency::chunk-05",
+     "distance": 0.214637
+    },
+    {
+     "chunk_id": "team-service-credits-finance::chunk-06",
+     "distance": 0.214983
+    },
+    {
+     "chunk_id": "assistant-quota::chunk-11",
+     "distance": 0.215397
+    }
+   ],
+   "retrieval_threshold": 0.2,
+   "restricted_probe": {
+    "checked": true,
+    "denied_documents": 3,
+    "nearest_distance": 0.206859,
+    "within_probe": 8,
+    "probe_distance": 0.35,
+    "closer_than_best_admitted": 0,
+    "rule": "probe_and_closer_than_allowed"
+   },
+   "best_allowed_distance": 0.104027,
+   "lexical_added": [
+    {
+     "chunk_id": "callbacks-fr::chunk-03",
+     "distance": 0.159679,
+     "bm25": 16.6508,
+     "dense_rank": 9
+    },
+    {
+     "chunk_id": "support-calendar-fr::chunk-06",
+     "distance": 0.159854,
+     "bm25": 11.6652,
+     "dense_rank": 10
+    }
+   ],
+   "within_threshold_not_selected": 11,
+   "note": "available не доказывает полноту; empty не является технической ошибкой; forbidden не раскрывает закрытый источник"
+  },
+  "hits": [
+   {
+    "rank": 1,
+    "chunk_id": "callbacks-fr::chunk-05",
+    "text": "Случай 14 июля\n\nДля обычного запроса, полученного 14 июля, объясните, что обычные обратные звонки закрыты, и предложите ближайшую подходящую доступность. Не обещайте звонок в тот же день, опираясь только на часы работы с понедельника по пятницу. Национальный праздник действует, даже если он приходится на обычный рабочий день. В деле разделяйте закрытие обычного канала и техническое расследование, которое может продолжаться отдельно.\n\nИсключение, которое нужно обрабатывать отдельно, — инцидент P1 по договору Enterprise. Обратный звонок 14 июля остаётся возможным и выполняется не позднее чем через 45 минут после подтверждения контактного номера. Время этого подтверждения нужно сохранить, потому что оно запускает исключительный срок. Начало срока — это не время первого сообщения без номера и не время, выбранное сотрудником позже для дополнения своей заметки. Не распространяйте это исключение на простой вопрос о настройке или на другой тариф.",
+    "metadata": {
+     "line_end": 0,
+     "document_id": "callbacks-fr",
+     "format": "pdf",
+     "updated": "2026-09-01",
+     "version": "2026-09-01",
+     "title_source": "registry.title_ru",
+     "source_path": "documents/Франция/Rappels et jours fériés.pdf",
+     "locator": "стр. 2, блок 2; стр. 2, блок 3",
+     "related": "50 36 46",
+     "owner": "Support France",
+     "trust": "confirmed",
+     "page_end": 2,
+     "is_translation": true,
+     "source_lang": "fr",
+     "page_start": 2,
+     "fragment_ids": "49-018,49-019,49-020",
+     "line_start": 0,
+     "chunk_sha256": "3accf35ac2015d73f93e7aabbafb3633980684da76b527226197dd2c314c6549",
+     "title": "Обратные телефонные звонки во Франции",
+     "conflict_group": "",
+     "title_orig": "Rappels téléphoniques en France",
+     "section": "Случай 14 июля",
+     "token_count": 220,
+     "document_sha256": "4c0eb6beb4f2f85ee234682e72d84094b3addfdce064e99939a2c2b6aa9ca29c"
+    },
+    "distance": 0.104027,
+    "provenance": [
+     {
+      "fragment_id": "49-018",
+      "role": "heading",
+      "start": 0,
+      "end": 14,
+      "locator": {
+       "page": 2,
+       "page_end": 2,
+       "block": 1
+      },
+      "locator_text": "стр. 2, блок 1",
+      "section_orig": null,
+      "section_ru": null,
+      "translation": "translated",
+      "text_orig": "Le cas du 14 juillet",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "49-019",
+      "role": "content",
+      "start": 16,
+      "end": 436,
+      "locator": {
+       "page": 2,
+       "page_end": 2,
+       "block": 2
+      },
+      "locator_text": "стр. 2, блок 2",
+      "section_orig": "Le cas du 14 juillet",
+      "section_ru": "Случай 14 июля",
+      "translation": "translated",
+      "text_orig": "Pour une demande ordinaire reçue le 14 juillet, expliquer la fermeture des rappels ordinaires et proposer la prochaine disponibilité adaptée. Ne pas annoncer un appel dans la journée en se fondant seulement sur les horaires du lundi au vendredi. La fête nationale reste applicable même si elle tombe un jour habituellement ouvré. Dans le dossier, distinguer la fermeture du canal ordinaire d’une éventuelle investigation technique qui se poursuit par ailleurs.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "49-020",
+      "role": "content",
+      "start": 438,
+      "end": 952,
+      "locator": {
+       "page": 2,
+       "page_end": 2,
+       "block": 3
+      },
+      "locator_text": "стр. 2, блок 3",
+      "section_orig": "Le cas du 14 juillet",
+      "section_ru": "Случай 14 июля",
+      "translation": "translated",
+      "text_orig": "L’exception à traiter séparément est un incident P1 sur un contrat Enterprise. Le rappel reste possible le 14 juillet et intervient au plus tard 45 minutes après la confirmation du numéro de contact. L’heure de cette confirmation doit être conservée, car elle déclenche le délai exceptionnel. Le début du délai n’est ni l’heure d’un premier message dépourvu de numéro, ni l’heure choisie plus tard par l’agent pour compléter sa note. Ne pas étendre cette exception à une simple question de configuration ou à un autre tarif.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     }
+    ]
+   },
+   {
+    "rank": 2,
+    "chunk_id": "support-calendar-fr::chunk-02",
+    "text": "Дни и часы\n\nОбычные обратные звонки не проводятся 14 июля.\n\nОбычные обратные звонки не проводятся 25 декабря.\n\nКроме праздников, обычные обратные звонки проводятся с 09:00 до 17:00 Europe/Paris с понедельника по пятницу.\n\nФорма остаётся доступной в праздничные дни.",
+    "metadata": {
+     "updated": "2026-09-01",
+     "section": "Дни и часы",
+     "token_count": 77,
+     "related": "49 36 41",
+     "title": "Календарь поддержки во Франции",
+     "chunk_sha256": "9dfe964f03c7cd029cc90210f19d384c47aadc08973c98867820a68907c1c463",
+     "fragment_ids": "50-004,50-005,50-006,50-007,50-008",
+     "locator": "абзац 5 (w:p, стиль Normal); абзац 6 (w:p, стиль Normal); абзац 7 (w:p, стиль Normal); абзац 8 (w:p, стиль Normal)",
+     "format": "docx",
+     "conflict_group": "",
+     "is_translation": true,
+     "source_lang": "fr",
+     "document_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+     "version": "2026-09-01",
+     "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+     "document_id": "support-calendar-fr",
+     "owner": "Support France",
+     "title_orig": "Calendrier du support en France",
+     "line_end": 0,
+     "page_end": 0,
+     "line_start": 0,
+     "page_start": 0,
+     "title_source": "registry.title_ru",
+     "trust": "confirmed"
+    },
+    "distance": 0.115708,
+    "provenance": [
+     {
+      "fragment_id": "50-004",
+      "role": "heading",
+      "start": 0,
+      "end": 10,
+      "locator": {
+       "paragraph": 4,
+       "style": "Heading1"
+      },
+      "locator_text": "абзац 4 (w:p, стиль Heading1)",
+      "section_orig": null,
+      "section_ru": null,
+      "translation": "translated",
+      "text_orig": "Jours et horaires",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "50-005",
+      "role": "content",
+      "start": 12,
+      "end": 58,
+      "locator": {
+       "paragraph": 5,
+       "style": "Normal"
+      },
+      "locator_text": "абзац 5 (w:p, стиль Normal)",
+      "section_orig": "Jours et horaires",
+      "section_ru": "Дни и часы",
+      "translation": "translated",
+      "text_orig": "Les rappels ordinaires sont fermés le 14 juillet.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "50-006",
+      "role": "content",
+      "start": 60,
+      "end": 109,
+      "locator": {
+       "paragraph": 6,
+       "style": "Normal"
+      },
+      "locator_text": "абзац 6 (w:p, стиль Normal)",
+      "section_orig": "Jours et horaires",
+      "section_ru": "Дни и часы",
+      "translation": "translated",
+      "text_orig": "Les rappels ordinaires sont fermés le 25 décembre.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "50-007",
+      "role": "content",
+      "start": 111,
+      "end": 220,
+      "locator": {
+       "paragraph": 7,
+       "style": "Normal"
+      },
+      "locator_text": "абзац 7 (w:p, стиль Normal)",
+      "section_orig": "Jours et horaires",
+      "section_ru": "Дни и часы",
+      "translation": "translated",
+      "text_orig": "Hors jours fériés, les rappels ordinaires ont lieu de 09:00 à 17:00 Europe/Paris du lundi au vendredi.",
+      "similar_to": [
+       {
+        "fragment_id": "49-005",
+        "jaccard": 0.75
+       }
+      ],
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "50-008",
+      "role": "content",
+      "start": 222,
+      "end": 265,
+      "locator": {
+       "paragraph": 8,
+       "style": "Normal"
+      },
+      "locator_text": "абзац 8 (w:p, стиль Normal)",
+      "section_orig": "Jours et horaires",
+      "section_ru": "Дни и часы",
+      "translation": "translated",
+      "text_orig": "Le formulaire reste accessible pendant les jours fériés.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     }
+    ]
+   },
+   {
+    "rank": 3,
+    "chunk_id": "callbacks-fr::chunk-02",
+    "text": "Доступность\n\nОбычные обратные звонки доступны с понедельника по пятницу с 09:00 до 17:00 Europe/Paris.\n\n14 июля обычные обратные звонки не предлагаются.\n\nИнцидент P1 по договору Enterprise остаётся основанием для обратного звонка 14 июля.\n\nДля этого исключения P1 Enterprise обратный звонок выполняется не позднее чем через 45 минут после подтверждения контактного номера.",
+    "metadata": {
+     "title": "Обратные телефонные звонки во Франции",
+     "format": "pdf",
+     "line_start": 0,
+     "page_end": 1,
+     "page_start": 1,
+     "related": "50 36 46",
+     "chunk_sha256": "e41bcfdfce71bb6c455f0bbf0d123203ca54584496ed0ebadc9ec042d52b2ba4",
+     "owner": "Support France",
+     "is_translation": true,
+     "document_id": "callbacks-fr",
+     "version": "2026-09-01",
+     "source_lang": "fr",
+     "source_path": "documents/Франция/Rappels et jours fériés.pdf",
+     "line_end": 0,
+     "document_sha256": "4c0eb6beb4f2f85ee234682e72d84094b3addfdce064e99939a2c2b6aa9ca29c",
+     "title_source": "registry.title_ru",
+     "locator": "стр. 1, блок 5; стр. 1, блок 6; стр. 1, блок 7; стр. 1, блок 8",
+     "token_count": 97,
+     "conflict_group": "",
+     "title_orig": "Rappels téléphoniques en France",
+     "section": "Доступность",
+     "trust": "confirmed",
+     "fragment_ids": "49-004,49-005,49-006,49-007,49-008",
+     "updated": "2026-09-01"
+    },
+    "distance": 0.122268,
+    "provenance": [
+     {
+      "fragment_id": "49-004",
+      "role": "heading",
+      "start": 0,
+      "end": 11,
+      "locator": {
+       "page": 1,
+       "page_end": 1,
+       "block": 4
+      },
+      "locator_text": "стр. 1, блок 4",
+      "section_orig": null,
+      "section_ru": null,
+      "translation": "translated",
+      "text_orig": "Disponibilité",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "49-005",
+      "role": "content",
+      "start": 13,
+      "end": 102,
+      "locator": {
+       "page": 1,
+       "page_end": 1,
+       "block": 5
+      },
+      "locator_text": "стр. 1, блок 5",
+      "section_orig": "Disponibilité",
+      "section_ru": "Доступность",
+      "translation": "translated",
+      "text_orig": "Les rappels ordinaires sont disponibles du lundi au vendredi de 09:00 à 17:00 Europe/Paris.",
+      "similar_to": [
+       {
+        "fragment_id": "50-007",
+        "jaccard": 0.75
+       }
+      ],
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "49-006",
+      "role": "content",
+      "start": 104,
+      "end": 152,
+      "locator": {
+       "page": 1,
+       "page_end": 1,
+       "block": 6
+      },
+      "locator_text": "стр. 1, блок 6",
+      "section_orig": "Disponibilité",
+      "section_ru": "Доступность",
+      "translation": "translated",
+      "text_orig": "Le 14 juillet, aucun rappel ordinaire n’est proposé.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "49-007",
+      "role": "content",
+      "start": 154,
+      "end": 238,
+      "locator": {
+       "page": 1,
+       "page_end": 1,
+       "block": 7
+      },
+      "locator_text": "стр. 1, блок 7",
+      "section_orig": "Disponibilité",
+      "section_ru": "Доступность",
+      "translation": "translated",
+      "text_orig": "Un incident P1 sur un contrat Enterprise reste éligible au rappel le 14 juillet.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "49-008",
+      "role": "content",
+      "start": 240,
+      "end": 372,
+      "locator": {
+       "page": 1,
+       "page_end": 1,
+       "block": 8
+      },
+      "locator_text": "стр. 1, блок 8",
+      "section_orig": "Disponibilité",
+      "section_ru": "Доступность",
+      "translation": "translated",
+      "text_orig": "Pour cette exception P1 Enterprise, le rappel intervient au plus tard 45 minutes après confirmation du numéro de contact.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     }
+    ]
+   },
+   {
+    "rank": 4,
+    "chunk_id": "support-calendar-fr::chunk-04",
+    "text": "Организация переноса\n\nКогда обычный обратный звонок приходится на день закрытия, предложите ближайший доступный рабочий день, подходящий клиенту. Сохраните номер запроса и объясните причину переноса. Изменение встречи не должно стирать исходный вопрос и уже выполненные проверки. Если коллега, принимающий дело, не участвовал в переписке, он должен понимать, что осталось сделать и почему прежний интервал не сохранён.\n\nОбычные часы — с 09:00 до 17:00 Europe/Paris с понедельника по пятницу, кроме праздников. 14 июля и 25 декабря обычные обратные звонки не проводятся. Не считайте эти две даты универсальным списком для календарей всех стран. Эта записка напоминает об их обработке для Франции. По вопросу о другой договорной дате или другой организации проверьте применимое досье, прежде чем обещать интервал.",
+    "metadata": {
+     "title_source": "registry.title_ru",
+     "page_end": 0,
+     "page_start": 0,
+     "source_lang": "fr",
+     "version": "2026-09-01",
+     "token_count": 199,
+     "locator": "абзац 16 (w:p, стиль Normal); абзац 17 (w:p, стиль Normal)",
+     "updated": "2026-09-01",
+     "format": "docx",
+     "trust": "confirmed",
+     "related": "49 36 41",
+     "owner": "Support France",
+     "fragment_ids": "50-015,50-016,50-017",
+     "title": "Календарь поддержки во Франции",
+     "document_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+     "line_end": 0,
+     "section": "Организация переноса",
+     "conflict_group": "",
+     "document_id": "support-calendar-fr",
+     "title_orig": "Calendrier du support en France",
+     "is_translation": true,
+     "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+     "line_start": 0,
+     "chunk_sha256": "ad256e4103d73149559ce4cff46bedd82769ef5b24846c5b012167de2b609660"
+    },
+    "distance": 0.125715,
+    "provenance": [
+     {
+      "fragment_id": "50-015",
+      "role": "heading",
+      "start": 0,
+      "end": 20,
+      "locator": {
+       "paragraph": 15,
+       "style": "Heading1"
+      },
+      "locator_text": "абзац 15 (w:p, стиль Heading1)",
+      "section_orig": null,
+      "section_ru": null,
+      "translation": "translated",
+      "text_orig": "Organiser le report",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "50-016",
+      "role": "content",
+      "start": 22,
+      "end": 418,
+      "locator": {
+       "paragraph": 16,
+       "style": "Normal"
+      },
+      "locator_text": "абзац 16 (w:p, стиль Normal)",
+      "section_orig": "Organiser le report",
+      "section_ru": "Организация переноса",
+      "translation": "translated",
+      "text_orig": "Lorsqu’un rappel ordinaire tombe un jour de fermeture, proposer le prochain jour ouvré disponible qui convient au client. Conserver le numéro de demande et expliquer la raison du report. Le changement de rendez-vous ne doit pas effacer la question initiale ni les vérifications déjà réalisées. Si le collègue qui reprend le dossier n’a pas participé à l’échange, il doit comprendre ce qui reste à faire et pourquoi l’ancien créneau n’a pas été conservé.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "50-017",
+      "role": "content",
+      "start": 420,
+      "end": 811,
+      "locator": {
+       "paragraph": 17,
+       "style": "Normal"
+      },
+      "locator_text": "абзац 17 (w:p, стиль Normal)",
+      "section_orig": "Organiser le report",
+      "section_ru": "Организация переноса",
+      "translation": "translated",
+      "text_orig": "Les horaires ordinaires sont de 09:00 à 17:00 Europe/Paris du lundi au vendredi hors jours fériés. Le 14 juillet et le 25 décembre, les rappels ordinaires sont fermés. Ne pas considérer ces deux dates comme une liste universelle des calendriers de tous les pays. Cette note rappelle leur traitement pour la France. Pour une question concernant une autre date contractuelle ou une autre organisation, vérifier le dossier applicable avant de promettre un créneau.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     }
+    ]
+   },
+   {
+    "rank": 5,
+    "chunk_id": "callbacks-fr::chunk-01",
+    "text": "Support France пересмотрела эту процедуру 1 сентября 2026 года после подготовки летних дежурств. Она касается контактов, чей договор относится к Франции. Расписание обычного обратного звонка и обработку срочного случая Enterprise нужно читать вместе. Клиент может путешествовать или звонить из другой страны; это не меняет автоматически ни договорный календарь, ни часовой пояс, используемый для подтверждения встречи.\n\nОбратный звонок служит для продолжения запроса, уже открытого в LumenDesk. Прежде чем предлагать интервал, перечитайте потребность, влияние и номер запроса. Сотрудник не создаёт разговор, не связанный с письменной перепиской, потому что дежурный коллега должен находить уже выполненные проверки. Запросите рабочий номер, по которому можно дозвониться, и подтвердите, что он действительно принадлежит ожидаемому контакту, не запрашивая пароль или код MFA.",
+    "metadata": {
+     "updated": "2026-09-01",
+     "source_path": "documents/Франция/Rappels et jours fériés.pdf",
+     "title": "Обратные телефонные звонки во Франции",
+     "locator": "стр. 1, блок 2; стр. 1, блок 3",
+     "trust": "confirmed",
+     "page_start": 1,
+     "document_sha256": "4c0eb6beb4f2f85ee234682e72d84094b3addfdce064e99939a2c2b6aa9ca29c",
+     "source_lang": "fr",
+     "is_translation": true,
+     "owner": "Support France",
+     "version": "2026-09-01",
+     "section": "(введение)",
+     "fragment_ids": "49-002,49-003",
+     "title_orig": "Rappels téléphoniques en France",
+     "document_id": "callbacks-fr",
+     "page_end": 1,
+     "line_end": 0,
+     "conflict_group": "",
+     "format": "pdf",
+     "line_start": 0,
+     "title_source": "registry.title_ru",
+     "related": "50 36 46",
+     "chunk_sha256": "d22f7108f5751143256947f9ec192e5c016837a8c77b618c81586154b4458057",
+     "token_count": 211
+    },
+    "distance": 0.132239,
+    "provenance": [
+     {
+      "fragment_id": "49-002",
+      "role": "content",
+      "start": 0,
+      "end": 418,
+      "locator": {
+       "page": 1,
+       "page_end": 1,
+       "block": 2
+      },
+      "locator_text": "стр. 1, блок 2",
+      "section_orig": null,
+      "section_ru": null,
+      "translation": "translated",
+      "text_orig": "Support France a revu cette procédure le 1er septembre 2026 après la préparation des permanences d’été. Elle concerne les contacts dont le contrat relève de la France. Le calendrier du rappel ordinaire et le traitement d’une urgence Enterprise doivent être lus ensemble. Un client peut voyager ou appeler depuis un autre pays; cela ne change pas automatiquement le calendrier contractuel ni le fuseau utilisé pour la confirmation du rendez-vous.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "49-003",
+      "role": "content",
+      "start": 420,
+      "end": 874,
+      "locator": {
+       "page": 1,
+       "page_end": 1,
+       "block": 3
+      },
+      "locator_text": "стр. 1, блок 3",
+      "section_orig": null,
+      "section_ru": null,
+      "translation": "translated",
+      "text_orig": "Le rappel sert à poursuivre une demande déjà ouverte dans LumenDesk. Avant de proposer un créneau, relire le besoin, l’impact et le numéro de demande. L’agent ne crée pas une conversation sans lien avec l’écrit, car le collègue de permanence doit pouvoir retrouver les vérifications déjà faites. Demander un numéro professionnel joignable et confirmer qu’il correspond bien au contact attendu, sans demander de mot de passe ni de code MFA.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     }
+    ]
+   },
+   {
+    "rank": 6,
+    "chunk_id": "support-calendar-fr::chunk-05",
+    "text": "Что остаётся открытым\n\nПисьменная форма остаётся доступной в праздничные дни. Объясняйте эту возможность клиенту, не создавая впечатления, что обычный обратный звонок обязательно состоится в этот день. Инциденты P1 Enterprise по-прежнему направляются дежурной смене. Сотрудник проверяет влияние и договор, а затем применяет подробные указания по срочному обратному звонку. Перенесённая коммерческая встреча и производственный инцидент обрабатываются по-разному, даже если они появились в одной переписке.\n\nПри передаче смены сообщайте выбранный клиентом канал, подтверждённый часовой пояс и последнее согласованное действие. Списка интервалов без контекста недостаточно, когда делу требуется адаптация общения или присутствие администратора. Если клиент меняет страну во время поездки, подтвердите время его доступности, сохраняя договорный календарь. Физическое местонахождение заявителя само по себе не меняет правил обратных звонков его организации.",
+    "metadata": {
+     "trust": "confirmed",
+     "token_count": 224,
+     "locator": "абзац 19 (w:p, стиль Normal); абзац 20 (w:p, стиль Normal)",
+     "section": "Что остаётся открытым",
+     "is_translation": true,
+     "related": "49 36 41",
+     "line_start": 0,
+     "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+     "page_end": 0,
+     "chunk_sha256": "abc1213e5ec16db28dd101d8f6d1ecbd0330d27251381dea06311565ec221cb9",
+     "title_source": "registry.title_ru",
+     "updated": "2026-09-01",
+     "source_lang": "fr",
+     "fragment_ids": "50-018,50-019,50-020",
+     "owner": "Support France",
+     "conflict_group": "",
+     "format": "docx",
+     "line_end": 0,
+     "page_start": 0,
+     "document_id": "support-calendar-fr",
+     "document_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+     "title": "Календарь поддержки во Франции",
+     "version": "2026-09-01",
+     "title_orig": "Calendrier du support en France"
+    },
+    "distance": 0.138265,
+    "provenance": [
+     {
+      "fragment_id": "50-018",
+      "role": "heading",
+      "start": 0,
+      "end": 21,
+      "locator": {
+       "paragraph": 18,
+       "style": "Heading1"
+      },
+      "locator_text": "абзац 18 (w:p, стиль Heading1)",
+      "section_orig": null,
+      "section_ru": null,
+      "translation": "translated",
+      "text_orig": "Ce qui reste ouvert",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "50-019",
+      "role": "content",
+      "start": 23,
+      "end": 504,
+      "locator": {
+       "paragraph": 19,
+       "style": "Normal"
+      },
+      "locator_text": "абзац 19 (w:p, стиль Normal)",
+      "section_orig": "Ce qui reste ouvert",
+      "section_ru": "Что остаётся открытым",
+      "translation": "translated",
+      "text_orig": "Le formulaire écrit reste accessible pendant les jours fériés. Expliquer cette possibilité au client sans laisser entendre qu’un rappel ordinaire sera forcément effectué ce jour-là. Les incidents P1 Enterprise restent orientés vers l’astreinte. L’agent vérifie l’impact et le contrat, puis applique les consignes détaillées de rappel d’urgence. Un rendez-vous commercial reporté et un incident de production n’ont pas le même traitement, même s’ils arrivent dans la même conversation.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "50-020",
+      "role": "content",
+      "start": 506,
+      "end": 952,
+      "locator": {
+       "paragraph": 20,
+       "style": "Normal"
+      },
+      "locator_text": "абзац 20 (w:p, стиль Normal)",
+      "section_orig": "Ce qui reste ouvert",
+      "section_ru": "Что остаётся открытым",
+      "translation": "translated",
+      "text_orig": "Pendant une relève, transmettre le canal choisi par le client, le fuseau confirmé et la dernière action convenue. Une liste de créneaux sans contexte est insuffisante lorsque le dossier nécessite une adaptation de communication ou la présence d’un administrateur. Si le client change de pays pendant un déplacement, confirmer son heure de disponibilité tout en gardant le calendrier contractuel. Le lieu physique du demandeur ne modifie pas à lui seul les règles de rappel de son organisation.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     }
+    ]
+   },
+   {
+    "rank": 7,
+    "chunk_id": "callbacks-fr::chunk-04",
+    "text": "Подготовка обычной встречи\n\nВ подтверждении явно указывайте Europe/Paris рядом со временем. Не ограничивайтесь «завтра утром», если заявитель работает в Монреале или находится в поездке в Лондоне. Доступность клиента и доступность службы — два разных вида сведений. Если эти два интервала не пересекаются, предложите другой доступный интервал или продолжайте письменно. Форма остаётся точкой входа, даже когда обычные обратные звонки закрыты.\n\nПри переносе сохраняются номер запроса и технический контекст. Коллега, принимающий дело, должен видеть причину переноса, уже выполненные проверки и последний ещё открытый вопрос. Передача франкоязычному сотруднику не должна превращать срочный инцидент в простой запрос на встречу. Проверяйте страну договора, а не выводите её из языка сообщения; бельгийская организация тоже может писать по-французски.",
+    "metadata": {
+     "line_end": 0,
+     "owner": "Support France",
+     "trust": "confirmed",
+     "is_translation": true,
+     "title_orig": "Rappels téléphoniques en France",
+     "page_end": 1,
+     "locator": "стр. 1, блок 16; стр. 1, блок 17",
+     "chunk_sha256": "94df18a13abe2bad1245eb95874e600b9f5add9bb23b83a2a5807d2b9678b9ef",
+     "section": "Подготовка обычной встречи",
+     "document_sha256": "4c0eb6beb4f2f85ee234682e72d84094b3addfdce064e99939a2c2b6aa9ca29c",
+     "title_source": "registry.title_ru",
+     "document_id": "callbacks-fr",
+     "updated": "2026-09-01",
+     "source_path": "documents/Франция/Rappels et jours fériés.pdf",
+     "line_start": 0,
+     "related": "50 36 46",
+     "fragment_ids": "49-015,49-016,49-017",
+     "source_lang": "fr",
+     "conflict_group": "",
+     "title": "Обратные телефонные звонки во Франции",
+     "token_count": 208,
+     "version": "2026-09-01",
+     "page_start": 1,
+     "format": "pdf"
+    },
+    "distance": 0.155874,
+    "provenance": [
+     {
+      "fragment_id": "49-015",
+      "role": "heading",
+      "start": 0,
+      "end": 26,
+      "locator": {
+       "page": 1,
+       "page_end": 1,
+       "block": 15
+      },
+      "locator_text": "стр. 1, блок 15",
+      "section_orig": null,
+      "section_ru": null,
+      "translation": "translated",
+      "text_orig": "Préparer un rendez-vous ordinaire",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "49-016",
+      "role": "content",
+      "start": 28,
+      "end": 442,
+      "locator": {
+       "page": 1,
+       "page_end": 1,
+       "block": 16
+      },
+      "locator_text": "стр. 1, блок 16",
+      "section_orig": "Préparer un rendez-vous ordinaire",
+      "section_ru": "Подготовка обычной встречи",
+      "translation": "translated",
+      "text_orig": "Dans la confirmation, écrire explicitement Europe/Paris à côté de l’heure. Ne pas se contenter de «demain matin» lorsque le demandeur travaille à Montréal ou se déplace à Londres. La disponibilité du client et la disponibilité du service sont deux informations distinctes. Si les deux plages ne se rencontrent pas, proposer un autre créneau disponible ou poursuivre par écrit. Le formulaire reste un point d’entrée même lorsque les rappels ordinaires sont fermés.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "49-017",
+      "role": "content",
+      "start": 444,
+      "end": 847,
+      "locator": {
+       "page": 1,
+       "page_end": 1,
+       "block": 17
+      },
+      "locator_text": "стр. 1, блок 17",
+      "section_orig": "Préparer un rendez-vous ordinaire",
+      "section_ru": "Подготовка обычной встречи",
+      "translation": "translated",
+      "text_orig": "Un report conserve le numéro de demande et le contexte technique. Le collègue qui reprend le dossier doit voir la raison du report, les vérifications déjà réalisées et la dernière question encore ouverte. Le transfert vers un agent francophone ne doit pas transformer un incident urgent en simple demande de rendez-vous. Vérifier le pays du contrat plutôt que déduire ce pays de la langue du message; une organisation belge peut aussi écrire en français.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     }
+    ]
+   },
+   {
+    "rank": 8,
+    "chunk_id": "support-calendar-fr::chunk-01",
+    "text": "Записка Support France по организации календаря на 2026 год, перечитана 1 сентября. Она объясняет, как предложить или перенести обычный обратный звонок, когда договор относится к Франции. Срочные обязательства Enterprise продолжают действовать согласно договору и указаниям для дежурства. Поэтому наличие праздника в этом календаре не означает, что любой запрос или любой инцидент остаётся без маршрута.\n\nПрименимый календарь определяется страной договора, а не только языком, которым пользуется клиент. Бельгийская организация может писать по-французски и должна сохранять свой бельгийский календарь. Прежде чем переносить встречу, проверьте страну договора и фактическую доступность контакта. В подтверждении встречи указывается часовой пояс, чтобы клиент и коллега, который будет звонить, говорили об одном и том же интервале.",
+    "metadata": {
+     "section": "(введение)",
+     "is_translation": true,
+     "document_id": "support-calendar-fr",
+     "fragment_ids": "50-002,50-003",
+     "token_count": 186,
+     "document_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+     "title": "Календарь поддержки во Франции",
+     "version": "2026-09-01",
+     "page_start": 0,
+     "title_orig": "Calendrier du support en France",
+     "chunk_sha256": "19978a86b87bf8156f57141616a7520c728f9c24be630dc1b5bcb646ecd1fcae",
+     "owner": "Support France",
+     "page_end": 0,
+     "conflict_group": "",
+     "line_start": 0,
+     "format": "docx",
+     "source_lang": "fr",
+     "title_source": "registry.title_ru",
+     "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+     "trust": "confirmed",
+     "related": "49 36 41",
+     "updated": "2026-09-01",
+     "line_end": 0,
+     "locator": "абзац 2 (w:p, стиль Normal); абзац 3 (w:p, стиль Normal)"
+    },
+    "distance": 0.159233,
+    "provenance": [
+     {
+      "fragment_id": "50-002",
+      "role": "content",
+      "start": 0,
+      "end": 403,
+      "locator": {
+       "paragraph": 2,
+       "style": "Normal"
+      },
+      "locator_text": "абзац 2 (w:p, стиль Normal)",
+      "section_orig": null,
+      "section_ru": null,
+      "translation": "translated",
+      "text_orig": "Note de Support France pour l’organisation du calendrier 2026, relue le 1er septembre. Elle explique comment proposer ou reporter un rappel ordinaire lorsque le contrat relève de la France. Les engagements d’urgence Enterprise continuent selon le contrat et les consignes de permanence. La présence d’un jour férié dans ce calendrier ne signifie donc pas que toute demande ou tout incident est laissé sans orientation.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "50-003",
+      "role": "content",
+      "start": 405,
+      "end": 829,
+      "locator": {
+       "paragraph": 3,
+       "style": "Normal"
+      },
+      "locator_text": "абзац 3 (w:p, стиль Normal)",
+      "section_orig": null,
+      "section_ru": null,
+      "translation": "translated",
+      "text_orig": "Le calendrier applicable vient du pays du contrat, pas seulement de la langue utilisée par le client. Une organisation belge peut écrire en français et doit conserver son calendrier belge. Avant de déplacer un rendez-vous, vérifier le pays du contrat et la disponibilité réelle du contact. La confirmation du rendez-vous affiche le fuseau horaire afin que le client et le collègue chargé de l’appel parlent du même créneau.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     }
+    ]
+   },
+   {
+    "rank": 9,
+    "chunk_id": "callbacks-fr::chunk-03",
+    "text": "Подготовка\n\nЗаявитель предоставляет рабочий номер и интервал, когда он доступен.\n\nОбратный звонок проводится на французском, если нет явного согласия на английский.\n\nПосле двух неотвеченных звонков с интервалом 10 минут сопровождение продолжается письменно.\n\nСотрудник записывает резюме звонка в существующий запрос.\n\nНикогда не запрашивать пароль или код MFA во время звонка.",
+    "metadata": {
+     "document_id": "callbacks-fr",
+     "title": "Обратные телефонные звонки во Франции",
+     "related": "50 36 46",
+     "page_end": 1,
+     "source_path": "documents/Франция/Rappels et jours fériés.pdf",
+     "format": "pdf",
+     "page_start": 1,
+     "updated": "2026-09-01",
+     "conflict_group": "",
+     "token_count": 98,
+     "trust": "confirmed",
+     "title_source": "registry.title_ru",
+     "title_orig": "Rappels téléphoniques en France",
+     "line_start": 0,
+     "locator": "стр. 1, блок 10; стр. 1, блок 11; стр. 1, блок 12; стр. 1, блок 13; стр. 1, блок 14",
+     "version": "2026-09-01",
+     "owner": "Support France",
+     "line_end": 0,
+     "section": "Подготовка",
+     "document_sha256": "4c0eb6beb4f2f85ee234682e72d84094b3addfdce064e99939a2c2b6aa9ca29c",
+     "fragment_ids": "49-009,49-010,49-011,49-012,49-013,49-014",
+     "chunk_sha256": "d09955eea46f7b411fbf8dcae0216ccafad3df281729f69a55c18ee80b81a0a4",
+     "source_lang": "fr",
+     "is_translation": true
+    },
+    "distance": 0.159679,
+    "provenance": [
+     {
+      "fragment_id": "49-009",
+      "role": "heading",
+      "start": 0,
+      "end": 10,
+      "locator": {
+       "page": 1,
+       "page_end": 1,
+       "block": 9
+      },
+      "locator_text": "стр. 1, блок 9",
+      "section_orig": null,
+      "section_ru": null,
+      "translation": "translated",
+      "text_orig": "Préparation",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "49-010",
+      "role": "content",
+      "start": 12,
+      "end": 80,
+      "locator": {
+       "page": 1,
+       "page_end": 1,
+       "block": 10
+      },
+      "locator_text": "стр. 1, блок 10",
+      "section_orig": "Préparation",
+      "section_ru": "Подготовка",
+      "translation": "translated",
+      "text_orig": "Le demandeur fournit un numéro professionnel et un créneau de disponibilité.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "49-011",
+      "role": "content",
+      "start": 82,
+      "end": 164,
+      "locator": {
+       "page": 1,
+       "page_end": 1,
+       "block": 11
+      },
+      "locator_text": "стр. 1, блок 11",
+      "section_orig": "Préparation",
+      "section_ru": "Подготовка",
+      "translation": "translated",
+      "text_orig": "Le rappel est effectué en français sauf accord explicite pour l’anglais.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "49-012",
+      "role": "content",
+      "start": 166,
+      "end": 257,
+      "locator": {
+       "page": 1,
+       "page_end": 1,
+       "block": 12
+      },
+      "locator_text": "стр. 1, блок 12",
+      "section_orig": "Préparation",
+      "section_ru": "Подготовка",
+      "translation": "translated",
+      "text_orig": "Après deux appels sans réponse espacés de 10 minutes, le suivi continue par écrit.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "49-013",
+      "role": "content",
+      "start": 259,
+      "end": 316,
+      "locator": {
+       "page": 1,
+       "page_end": 1,
+       "block": 13
+      },
+      "locator_text": "стр. 1, блок 13",
+      "section_orig": "Préparation",
+      "section_ru": "Подготовка",
+      "translation": "translated",
+      "text_orig": "L’agent consigne le résumé de l’appel dans la demande existante.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "49-014",
+      "role": "content",
+      "start": 318,
+      "end": 376,
+      "locator": {
+       "page": 1,
+       "page_end": 1,
+       "block": 14
+      },
+      "locator_text": "стр. 1, блок 14",
+      "section_orig": "Préparation",
+      "section_ru": "Подготовка",
+      "translation": "translated",
+      "text_orig": "Ne jamais demander de mot de passe ni de code MFA pendant l’appel.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     }
+    ]
+   },
+   {
+    "rank": 10,
+    "chunk_id": "support-calendar-fr::chunk-06",
+    "text": "Примеры со встречи по планированию\n\nОбычный запрос был запланирован на 14 июля в общем календаре. Команда перенесла его на ближайший доступный рабочий день с согласия клиента и сохранила тот же запрос. В отчёте не было написано «инцидент закрыт», потому что этим переносом не была завершена никакая техническая диагностика. Клиент получил новое подтверждение с указанием Europe/Paris и темы звонка. Уже выполненные проверки остались в исходном деле.\n\nДругое сообщение, написанное по-французски, относилось к бельгийскому договору. Коллега проверил страну, а не применил автоматически французский календарь. Правильная маршрутизация не позволяет закрыть интервал на основании предположения о языке. Наконец, P1 Enterprise, о котором сообщили в праздничный день, был направлен дежурной смене и не попал в число простых переносов. Подробности исключительного срока приведены в процедуре обратных звонков во Франции; к ней нужно обращаться, когда возникает такой случай.\n\nПеред отпусками каждый ответственный за смену проверяет запросы, которые нужно будет подхватить, и коллегу на замене. Личные заметки могут помочь подготовить передачу, но следующее действие должно быть записано в запросе, доступном команде. Если в календаре клиента осталось старое приглашение, явно исправьте его, чтобы не было двух конкурирующих времён. Сопровождение завершено, когда клиент знает, каким каналом пользоваться и когда ожидать продолжения.",
+    "metadata": {
+     "format": "docx",
+     "token_count": 326,
+     "title_orig": "Calendrier du support en France",
+     "conflict_group": "",
+     "locator": "абзац 22 (w:p, стиль Normal); абзац 23 (w:p, стиль Normal); абзац 24 (w:p, стиль Normal)",
+     "version": "2026-09-01",
+     "page_end": 0,
+     "title_source": "registry.title_ru",
+     "is_translation": true,
+     "page_start": 0,
+     "title": "Календарь поддержки во Франции",
+     "chunk_sha256": "9b78846359d4d1f5821db0c1d2afb9451c58d5c6a084c3857c20efa2260c79df",
+     "trust": "confirmed",
+     "related": "49 36 41",
+     "source_lang": "fr",
+     "fragment_ids": "50-021,50-022,50-023,50-024",
+     "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+     "document_id": "support-calendar-fr",
+     "owner": "Support France",
+     "updated": "2026-09-01",
+     "section": "Примеры со встречи по планированию",
+     "line_end": 0,
+     "document_sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+     "line_start": 0
+    },
+    "distance": 0.159854,
+    "provenance": [
+     {
+      "fragment_id": "50-021",
+      "role": "heading",
+      "start": 0,
+      "end": 34,
+      "locator": {
+       "paragraph": 21,
+       "style": "Heading1"
+      },
+      "locator_text": "абзац 21 (w:p, стиль Heading1)",
+      "section_orig": null,
+      "section_ru": null,
+      "translation": "translated",
+      "text_orig": "Exemples de la réunion de planning",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "50-022",
+      "role": "content",
+      "start": 36,
+      "end": 449,
+      "locator": {
+       "paragraph": 22,
+       "style": "Normal"
+      },
+      "locator_text": "абзац 22 (w:p, стиль Normal)",
+      "section_orig": "Exemples de la réunion de planning",
+      "section_ru": "Примеры со встречи по планированию",
+      "translation": "translated",
+      "text_orig": "Une demande ordinaire était prévue le 14 juillet dans le calendrier partagé. L’équipe l’a déplacée au prochain jour ouvré disponible avec l’accord du client et a conservé la même demande. Le compte rendu ne disait pas «incident clos», car aucun diagnostic technique n’avait été terminé par ce déplacement. Le client a reçu une nouvelle confirmation mentionnant Europe/Paris et le sujet de l’appel. Les vérifications déjà faites sont restées dans le dossier initial.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "50-023",
+      "role": "content",
+      "start": 451,
+      "end": 966,
+      "locator": {
+       "paragraph": 23,
+       "style": "Normal"
+      },
+      "locator_text": "абзац 23 (w:p, стиль Normal)",
+      "section_orig": "Exemples de la réunion de planning",
+      "section_ru": "Примеры со встречи по планированию",
+      "translation": "translated",
+      "text_orig": "Un autre message rédigé en français provenait d’un contrat belge. Le collègue a vérifié le pays au lieu de reprendre automatiquement le calendrier français. La bonne orientation évite de fermer un créneau sur la base d’une hypothèse de langue. Enfin, un P1 Enterprise signalé pendant un jour férié a été adressé à la permanence, sans être rangé parmi les simples reports. Le détail du délai exceptionnel se trouve dans la procédure de rappels France, à consulter lorsque ce cas se présente.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     },
+     {
+      "fragment_id": "50-024",
+      "role": "content",
+      "start": 968,
+      "end": 1424,
+      "locator": {
+       "paragraph": 24,
+       "style": "Normal"
+      },
+      "locator_text": "абзац 24 (w:p, стиль Normal)",
+      "section_orig": "Exemples de la réunion de planning",
+      "section_ru": "Примеры со встречи по планированию",
+      "translation": "translated",
+      "text_orig": "Avant les congés, chaque responsable de plage vérifie les demandes à reprendre et le collègue de relais. Les notes personnelles peuvent aider à préparer la relève, mais la prochaine action doit être inscrite dans la demande accessible à l’équipe. Si une ancienne invitation subsiste dans le calendrier du client, la corriger explicitement pour éviter deux horaires concurrents. Le suivi est terminé lorsque le client sait quel canal utiliser et à quel moment la suite est attendue.",
+      "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+     }
+    ]
+   }
+  ],
+  "context": "[callbacks-fr::chunk-05] Обратные телефонные звонки во Франции — documents/Франция/Rappels et jours fériés.pdf, стр. 2, блок 2; стр. 2, блок 3\nСлучай 14 июля\n\nДля обычного запроса, полученного 14 июля, объясните, что обычные обратные звонки закрыты, и предложите ближайшую подходящую доступность. Не обещайте звонок в тот же день, опираясь только на часы работы с понедельника по пятницу. Национальный праздник действует, даже если он приходится на обычный рабочий день. В деле разделяйте закрытие обычного канала и техническое расследование, которое может продолжаться отдельно.\n\nИсключение, которое нужно обрабатывать отдельно, — инцидент P1 по договору Enterprise. Обратный звонок 14 июля остаётся возможным и выполняется не позднее чем через 45 минут после подтверждения контактного номера. Время этого подтверждения нужно сохранить, потому что оно запускает исключительный срок. Начало срока — это не время первого сообщения без номера и не время, выбранное сотрудником позже для дополнения своей заметки. Не распространяйте это исключение на простой вопрос о настройке или на другой тариф.\n\n[support-calendar-fr::chunk-02] Календарь поддержки во Франции — documents/Франция/organisation/Calendrier support 2026.docx, абзац 5 (w:p, стиль Normal); абзац 6 (w:p, стиль Normal); абзац 7 (w:p, стиль Normal); абзац 8 (w:p, стиль Normal)\nДни и часы\n\nОбычные обратные звонки не проводятся 14 июля.\n\nОбычные обратные звонки не проводятся 25 декабря.\n\nКроме праздников, обычные обратные звонки проводятся с 09:00 до 17:00 Europe/Paris с понедельника по пятницу.\n\nФорма остаётся доступной в праздничные дни.\n\n[callbacks-fr::chunk-02] Обратные телефонные звонки во Франции — documents/Франция/Rappels et jours fériés.pdf, стр. 1, блок 5; стр. 1, блок 6; стр. 1, блок 7; стр. 1, блок 8\nДоступность\n\nОбычные обратные звонки доступны с понедельника по пятницу с 09:00 до 17:00 Europe/Paris.\n\n14 июля обычные обратные звонки не предлагаются.\n\nИнцидент P1 по договору Enterprise остаётся основанием для обратного звонка 14 июля.\n\nДля этого исключения P1 Enterprise обратный звонок выполняется не позднее чем через 45 минут после подтверждения контактного номера.\n\n[support-calendar-fr::chunk-04] Календарь поддержки во Франции — documents/Франция/organisation/Calendrier support 2026.docx, абзац 16 (w:p, стиль Normal); абзац 17 (w:p, стиль Normal)\nОрганизация переноса\n\nКогда обычный обратный звонок приходится на день закрытия, предложите ближайший доступный рабочий день, подходящий клиенту. Сохраните номер запроса и объясните причину переноса. Изменение встречи не должно стирать исходный вопрос и уже выполненные проверки. Если коллега, принимающий дело, не участвовал в переписке, он должен понимать, что осталось сделать и почему прежний интервал не сохранён.\n\nОбычные часы — с 09:00 до 17:00 Europe/Paris с понедельника по пятницу, кроме праздников. 14 июля и 25 декабря обычные обратные звонки не проводятся. Не считайте эти две даты универсальным списком для календарей всех стран. Эта записка напоминает об их обработке для Франции. По вопросу о другой договорной дате или другой организации проверьте применимое досье, прежде чем обещать интервал.\n\n[callbacks-fr::chunk-01] Обратные телефонные звонки во Франции — documents/Франция/Rappels et jours fériés.pdf, стр. 1, блок 2; стр. 1, блок 3\nSupport France пересмотрела эту процедуру 1 сентября 2026 года после подготовки летних дежурств. Она касается контактов, чей договор относится к Франции. Расписание обычного обратного звонка и обработку срочного случая Enterprise нужно читать вместе. Клиент может путешествовать или звонить из другой страны; это не меняет автоматически ни договорный календарь, ни часовой пояс, используемый для подтверждения встречи.\n\nОбратный звонок служит для продолжения запроса, уже открытого в LumenDesk. Прежде чем предлагать интервал, перечитайте потребность, влияние и номер запроса. Сотрудник не создаёт разговор, не связанный с письменной перепиской, потому что дежурный коллега должен находить уже выполненные проверки. Запросите рабочий номер, по которому можно дозвониться, и подтвердите, что он действительно принадлежит ожидаемому контакту, не запрашивая пароль или код MFA.\n\n[support-calendar-fr::chunk-05] Календарь поддержки во Франции — documents/Франция/organisation/Calendrier support 2026.docx, абзац 19 (w:p, стиль Normal); абзац 20 (w:p, стиль Normal)\nЧто остаётся открытым\n\nПисьменная форма остаётся доступной в праздничные дни. Объясняйте эту возможность клиенту, не создавая впечатления, что обычный обратный звонок обязательно состоится в этот день. Инциденты P1 Enterprise по-прежнему направляются дежурной смене. Сотрудник проверяет влияние и договор, а затем применяет подробные указания по срочному обратному звонку. Перенесённая коммерческая встреча и производственный инцидент обрабатываются по-разному, даже если они появились в одной переписке.\n\nПри передаче смены сообщайте выбранный клиентом канал, подтверждённый часовой пояс и последнее согласованное действие. Списка интервалов без контекста недостаточно, когда делу требуется адаптация общения или присутствие администратора. Если клиент меняет страну во время поездки, подтвердите время его доступности, сохраняя договорный календарь. Физическое местонахождение заявителя само по себе не меняет правил обратных звонков его организации.\n\n[callbacks-fr::chunk-04] Обратные телефонные звонки во Франции — documents/Франция/Rappels et jours fériés.pdf, стр. 1, блок 16; стр. 1, блок 17\nПодготовка обычной встречи\n\nВ подтверждении явно указывайте Europe/Paris рядом со временем. Не ограничивайтесь «завтра утром», если заявитель работает в Монреале или находится в поездке в Лондоне. Доступность клиента и доступность службы — два разных вида сведений. Если эти два интервала не пересекаются, предложите другой доступный интервал или продолжайте письменно. Форма остаётся точкой входа, даже когда обычные обратные звонки закрыты.\n\nПри переносе сохраняются номер запроса и технический контекст. Коллега, принимающий дело, должен видеть причину переноса, уже выполненные проверки и последний ещё открытый вопрос. Передача франкоязычному сотруднику не должна превращать срочный инцидент в простой запрос на встречу. Проверяйте страну договора, а не выводите её из языка сообщения; бельгийская организация тоже может писать по-французски.\n\n[support-calendar-fr::chunk-01] Календарь поддержки во Франции — documents/Франция/organisation/Calendrier support 2026.docx, абзац 2 (w:p, стиль Normal); абзац 3 (w:p, стиль Normal)\nЗаписка Support France по организации календаря на 2026 год, перечитана 1 сентября. Она объясняет, как предложить или перенести обычный обратный звонок, когда договор относится к Франции. Срочные обязательства Enterprise продолжают действовать согласно договору и указаниям для дежурства. Поэтому наличие праздника в этом календаре не означает, что любой запрос или любой инцидент остаётся без маршрута.\n\nПрименимый календарь определяется страной договора, а не только языком, которым пользуется клиент. Бельгийская организация может писать по-французски и должна сохранять свой бельгийский календарь. Прежде чем переносить встречу, проверьте страну договора и фактическую доступность контакта. В подтверждении встречи указывается часовой пояс, чтобы клиент и коллега, который будет звонить, говорили об одном и том же интервале.\n\n[callbacks-fr::chunk-03] Обратные телефонные звонки во Франции — documents/Франция/Rappels et jours fériés.pdf, стр. 1, блок 10; стр. 1, блок 11; стр. 1, блок 12; стр. 1, блок 13; стр. 1, блок 14\nПодготовка\n\nЗаявитель предоставляет рабочий номер и интервал, когда он доступен.\n\nОбратный звонок проводится на французском, если нет явного согласия на английский.\n\nПосле двух неотвеченных звонков с интервалом 10 минут сопровождение продолжается письменно.\n\nСотрудник записывает резюме звонка в существующий запрос.\n\nНикогда не запрашивать пароль или код MFA во время звонка.\n\n[support-calendar-fr::chunk-06] Календарь поддержки во Франции — documents/Франция/organisation/Calendrier support 2026.docx, абзац 22 (w:p, стиль Normal); абзац 23 (w:p, стиль Normal); абзац 24 (w:p, стиль Normal)\nПримеры со встречи по планированию\n\nОбычный запрос был запланирован на 14 июля в общем календаре. Команда перенесла его на ближайший доступный рабочий день с согласия клиента и сохранила тот же запрос. В отчёте не было написано «инцидент закрыт», потому что этим переносом не была завершена никакая техническая диагностика. Клиент получил новое подтверждение с указанием Europe/Paris и темы звонка. Уже выполненные проверки остались в исходном деле.\n\nДругое сообщение, написанное по-французски, относилось к бельгийскому договору. Коллега проверил страну, а не применил автоматически французский календарь. Правильная маршрутизация не позволяет закрыть интервал на основании предположения о языке. Наконец, P1 Enterprise, о котором сообщили в праздничный день, был направлен дежурной смене и не попал в число простых переносов. Подробности исключительного срока приведены в процедуре обратных звонков во Франции; к ней нужно обращаться, когда возникает такой случай.\n\nПеред отпусками каждый ответственный за смену проверяет запросы, которые нужно будет подхватить, и коллегу на замене. Личные заметки могут помочь подготовить передачу, но следующее действие должно быть записано в запросе, доступном команде. Если в календаре клиента осталось старое приглашение, явно исправьте его, чтобы не было двух конкурирующих времён. Сопровождение завершено, когда клиент знает, каким каналом пользоваться и когда ожидать продолжения.",
+  "context_chunk_ids": [
+   "callbacks-fr::chunk-05",
+   "support-calendar-fr::chunk-02",
+   "callbacks-fr::chunk-02",
+   "support-calendar-fr::chunk-04",
+   "callbacks-fr::chunk-01",
+   "support-calendar-fr::chunk-05",
+   "callbacks-fr::chunk-04",
+   "support-calendar-fr::chunk-01",
+   "callbacks-fr::chunk-03",
+   "support-calendar-fr::chunk-06"
+  ],
+  "retrieval_trace_path": "evidence/retrieval-trace-q-20261118T220236Z-d8dd34.json",
+  "output_path": "evidence/retrieval-d-q03-agent.json"
+ },
+ "context": "[callbacks-fr::chunk-05] Обратные телефонные звонки во Франции — documents/Франция/Rappels et jours fériés.pdf, стр. 2, блок 2; стр. 2, блок 3\nСлучай 14 июля\n\nДля обычного запроса, полученного 14 июля, объясните, что обычные обратные звонки закрыты, и предложите ближайшую подходящую доступность. Не обещайте звонок в тот же день, опираясь только на часы работы с понедельника по пятницу. Национальный праздник действует, даже если он приходится на обычный рабочий день. В деле разделяйте закрытие обычного канала и техническое расследование, которое может продолжаться отдельно.\n\nИсключение, которое нужно обрабатывать отдельно, — инцидент P1 по договору Enterprise. Обратный звонок 14 июля остаётся возможным и выполняется не позднее чем через 45 минут после подтверждения контактного номера. Время этого подтверждения нужно сохранить, потому что оно запускает исключительный срок. Начало срока — это не время первого сообщения без номера и не время, выбранное сотрудником позже для дополнения своей заметки. Не распространяйте это исключение на простой вопрос о настройке или на другой тариф.\n\n[support-calendar-fr::chunk-02] Календарь поддержки во Франции — documents/Франция/organisation/Calendrier support 2026.docx, абзац 5 (w:p, стиль Normal); абзац 6 (w:p, стиль Normal); абзац 7 (w:p, стиль Normal); абзац 8 (w:p, стиль Normal)\nДни и часы\n\nОбычные обратные звонки не проводятся 14 июля.\n\nОбычные обратные звонки не проводятся 25 декабря.\n\nКроме праздников, обычные обратные звонки проводятся с 09:00 до 17:00 Europe/Paris с понедельника по пятницу.\n\nФорма остаётся доступной в праздничные дни.\n\n[callbacks-fr::chunk-02] Обратные телефонные звонки во Франции — documents/Франция/Rappels et jours fériés.pdf, стр. 1, блок 5; стр. 1, блок 6; стр. 1, блок 7; стр. 1, блок 8\nДоступность\n\nОбычные обратные звонки доступны с понедельника по пятницу с 09:00 до 17:00 Europe/Paris.\n\n14 июля обычные обратные звонки не предлагаются.\n\nИнцидент P1 по договору Enterprise остаётся основанием для обратного звонка 14 июля.\n\nДля этого исключения P1 Enterprise обратный звонок выполняется не позднее чем через 45 минут после подтверждения контактного номера.\n\n[support-calendar-fr::chunk-04] Календарь поддержки во Франции — documents/Франция/organisation/Calendrier support 2026.docx, абзац 16 (w:p, стиль Normal); абзац 17 (w:p, стиль Normal)\nОрганизация переноса\n\nКогда обычный обратный звонок приходится на день закрытия, предложите ближайший доступный рабочий день, подходящий клиенту. Сохраните номер запроса и объясните причину переноса. Изменение встречи не должно стирать исходный вопрос и уже выполненные проверки. Если коллега, принимающий дело, не участвовал в переписке, он должен понимать, что осталось сделать и почему прежний интервал не сохранён.\n\nОбычные часы — с 09:00 до 17:00 Europe/Paris с понедельника по пятницу, кроме праздников. 14 июля и 25 декабря обычные обратные звонки не проводятся. Не считайте эти две даты универсальным списком для календарей всех стран. Эта записка напоминает об их обработке для Франции. По вопросу о другой договорной дате или другой организации проверьте применимое досье, прежде чем обещать интервал.\n\n[callbacks-fr::chunk-01] Обратные телефонные звонки во Франции — documents/Франция/Rappels et jours fériés.pdf, стр. 1, блок 2; стр. 1, блок 3\nSupport France пересмотрела эту процедуру 1 сентября 2026 года после подготовки летних дежурств. Она касается контактов, чей договор относится к Франции. Расписание обычного обратного звонка и обработку срочного случая Enterprise нужно читать вместе. Клиент может путешествовать или звонить из другой страны; это не меняет автоматически ни договорный календарь, ни часовой пояс, используемый для подтверждения встречи.\n\nОбратный звонок служит для продолжения запроса, уже открытого в LumenDesk. Прежде чем предлагать интервал, перечитайте потребность, влияние и номер запроса. Сотрудник не создаёт разговор, не связанный с письменной перепиской, потому что дежурный коллега должен находить уже выполненные проверки. Запросите рабочий номер, по которому можно дозвониться, и подтвердите, что он действительно принадлежит ожидаемому контакту, не запрашивая пароль или код MFA.\n\n[support-calendar-fr::chunk-05] Календарь поддержки во Франции — documents/Франция/organisation/Calendrier support 2026.docx, абзац 19 (w:p, стиль Normal); абзац 20 (w:p, стиль Normal)\nЧто остаётся открытым\n\nПисьменная форма остаётся доступной в праздничные дни. Объясняйте эту возможность клиенту, не создавая впечатления, что обычный обратный звонок обязательно состоится в этот день. Инциденты P1 Enterprise по-прежнему направляются дежурной смене. Сотрудник проверяет влияние и договор, а затем применяет подробные указания по срочному обратному звонку. Перенесённая коммерческая встреча и производственный инцидент обрабатываются по-разному, даже если они появились в одной переписке.\n\nПри передаче смены сообщайте выбранный клиентом канал, подтверждённый часовой пояс и последнее согласованное действие. Списка интервалов без контекста недостаточно, когда делу требуется адаптация общения или присутствие администратора. Если клиент меняет страну во время поездки, подтвердите время его доступности, сохраняя договорный календарь. Физическое местонахождение заявителя само по себе не меняет правил обратных звонков его организации.\n\n[callbacks-fr::chunk-04] Обратные телефонные звонки во Франции — documents/Франция/Rappels et jours fériés.pdf, стр. 1, блок 16; стр. 1, блок 17\nПодготовка обычной встречи\n\nВ подтверждении явно указывайте Europe/Paris рядом со временем. Не ограничивайтесь «завтра утром», если заявитель работает в Монреале или находится в поездке в Лондоне. Доступность клиента и доступность службы — два разных вида сведений. Если эти два интервала не пересекаются, предложите другой доступный интервал или продолжайте письменно. Форма остаётся точкой входа, даже когда обычные обратные звонки закрыты.\n\nПри переносе сохраняются номер запроса и технический контекст. Коллега, принимающий дело, должен видеть причину переноса, уже выполненные проверки и последний ещё открытый вопрос. Передача франкоязычному сотруднику не должна превращать срочный инцидент в простой запрос на встречу. Проверяйте страну договора, а не выводите её из языка сообщения; бельгийская организация тоже может писать по-французски.\n\n[support-calendar-fr::chunk-01] Календарь поддержки во Франции — documents/Франция/organisation/Calendrier support 2026.docx, абзац 2 (w:p, стиль Normal); абзац 3 (w:p, стиль Normal)\nЗаписка Support France по организации календаря на 2026 год, перечитана 1 сентября. Она объясняет, как предложить или перенести обычный обратный звонок, когда договор относится к Франции. Срочные обязательства Enterprise продолжают действовать согласно договору и указаниям для дежурства. Поэтому наличие праздника в этом календаре не означает, что любой запрос или любой инцидент остаётся без маршрута.\n\nПрименимый календарь определяется страной договора, а не только языком, которым пользуется клиент. Бельгийская организация может писать по-французски и должна сохранять свой бельгийский календарь. Прежде чем переносить встречу, проверьте страну договора и фактическую доступность контакта. В подтверждении встречи указывается часовой пояс, чтобы клиент и коллега, который будет звонить, говорили об одном и том же интервале.\n\n[callbacks-fr::chunk-03] Обратные телефонные звонки во Франции — documents/Франция/Rappels et jours fériés.pdf, стр. 1, блок 10; стр. 1, блок 11; стр. 1, блок 12; стр. 1, блок 13; стр. 1, блок 14\nПодготовка\n\nЗаявитель предоставляет рабочий номер и интервал, когда он доступен.\n\nОбратный звонок проводится на французском, если нет явного согласия на английский.\n\nПосле двух неотвеченных звонков с интервалом 10 минут сопровождение продолжается письменно.\n\nСотрудник записывает резюме звонка в существующий запрос.\n\nНикогда не запрашивать пароль или код MFA во время звонка.\n\n[support-calendar-fr::chunk-06] Календарь поддержки во Франции — documents/Франция/organisation/Calendrier support 2026.docx, абзац 22 (w:p, стиль Normal); абзац 23 (w:p, стиль Normal); абзац 24 (w:p, стиль Normal)\nПримеры со встречи по планированию\n\nОбычный запрос был запланирован на 14 июля в общем календаре. Команда перенесла его на ближайший доступный рабочий день с согласия клиента и сохранила тот же запрос. В отчёте не было написано «инцидент закрыт», потому что этим переносом не была завершена никакая техническая диагностика. Клиент получил новое подтверждение с указанием Europe/Paris и темы звонка. Уже выполненные проверки остались в исходном деле.\n\nДругое сообщение, написанное по-французски, относилось к бельгийскому договору. Коллега проверил страну, а не применил автоматически французский календарь. Правильная маршрутизация не позволяет закрыть интервал на основании предположения о языке. Наконец, P1 Enterprise, о котором сообщили в праздничный день, был направлен дежурной смене и не попал в число простых переносов. Подробности исключительного срока приведены в процедуре обратных звонков во Франции; к ней нужно обращаться, когда возникает такой случай.\n\nПеред отпусками каждый ответственный за смену проверяет запросы, которые нужно будет подхватить, и коллегу на замене. Личные заметки могут помочь подготовить передачу, но следующее действие должно быть записано в запросе, доступном команде. Если в календаре клиента осталось старое приглашение, явно исправьте его, чтобы не было двух конкурирующих времён. Сопровождение завершено, когда клиент знает, каким каналом пользоваться и когда ожидать продолжения.",
+ "raw_answer": {
+  "answer": "Обычные обратные звонки во Франции доступны с понедельника по пятницу с 09:00 до 17:00 Europe/Paris, кроме праздников (documents/Франция/Rappels et jours fériés.pdf, стр. 1; documents/Франция/organisation/Calendrier support 2026.docx, раздел «Jours et horaires», абзац 7). Что меняется 14 июля: обычные обратные звонки не проводятся (PDF, стр. 1; DOCX, абзац 5). Праздник действует, даже если приходится на обычный рабочий день; на обычный запрос, полученный 14 июля, нужно объяснить закрытие обычных звонков и предложить ближайшую подходящую доступность, не обещая звонок в тот же день (PDF, стр. 2). Письменная форма в праздничные дни остаётся доступной (DOCX, абзац 8). Исключение — инцидент P1 по договору Enterprise: обратный звонок 14 июля возможен и выполняется не позднее чем через 45 минут после подтверждения контактного номера; время подтверждения нужно сохранить, так как от него отсчитывается срок (PDF, стр. 1–2). Это исключение не распространяется на простой вопрос о настройке или на другой тариф (PDF, стр. 2). Календарь применяется по стране договора, а не по языку клиента (DOCX, введение, абзац 3). Оба документа на французском; оригинальные формулировки приведены в result.",
+  "citations": [
+   {
+    "document_id": "callbacks-fr",
+    "chunk_id": "callbacks-fr::chunk-02",
+    "quote": "Обычные обратные звонки доступны с понедельника по пятницу с 09:00 до 17:00 Europe/Paris."
+   },
+   {
+    "document_id": "support-calendar-fr",
+    "chunk_id": "support-calendar-fr::chunk-02",
+    "quote": "Кроме праздников, обычные обратные звонки проводятся с 09:00 до 17:00 Europe/Paris с понедельника по пятницу."
+   },
+   {
+    "document_id": "callbacks-fr",
+    "chunk_id": "callbacks-fr::chunk-02",
+    "quote": "14 июля обычные обратные звонки не предлагаются."
+   },
+   {
+    "document_id": "support-calendar-fr",
+    "chunk_id": "support-calendar-fr::chunk-02",
+    "quote": "Обычные обратные звонки не проводятся 14 июля."
+   },
+   {
+    "document_id": "callbacks-fr",
+    "chunk_id": "callbacks-fr::chunk-05",
+    "quote": "Для обычного запроса, полученного 14 июля, объясните, что обычные обратные звонки закрыты, и предложите ближайшую подходящую доступность. Не обещайте звонок в тот же день, опираясь только на часы работы с понедельника по пятницу. Национальный праздник действует, даже если он приходится на обычный рабочий день."
+   },
+   {
+    "document_id": "support-calendar-fr",
+    "chunk_id": "support-calendar-fr::chunk-02",
+    "quote": "Форма остаётся доступной в праздничные дни."
+   },
+   {
+    "document_id": "callbacks-fr",
+    "chunk_id": "callbacks-fr::chunk-02",
+    "quote": "Инцидент P1 по договору Enterprise остаётся основанием для обратного звонка 14 июля."
+   },
+   {
+    "document_id": "callbacks-fr",
+    "chunk_id": "callbacks-fr::chunk-02",
+    "quote": "Для этого исключения P1 Enterprise обратный звонок выполняется не позднее чем через 45 минут после подтверждения контактного номера."
+   },
+   {
+    "document_id": "callbacks-fr",
+    "chunk_id": "callbacks-fr::chunk-05",
+    "quote": "Время этого подтверждения нужно сохранить, потому что оно запускает исключительный срок."
+   },
+   {
+    "document_id": "callbacks-fr",
+    "chunk_id": "callbacks-fr::chunk-05",
+    "quote": "Не распространяйте это исключение на простой вопрос о настройке или на другой тариф."
+   },
+   {
+    "document_id": "support-calendar-fr",
+    "chunk_id": "support-calendar-fr::chunk-01",
+    "quote": "Применимый календарь определяется страной договора, а не только языком, которым пользуется клиент."
+   }
+  ],
+  "decision": "answer"
+ },
+ "verification": {
+  "status": "passed",
+  "errors": [],
+  "citations_checked": 11
+ },
+ "result_path": "evidence/result-cap-20261118T220302Z-e86dad.json"
+}

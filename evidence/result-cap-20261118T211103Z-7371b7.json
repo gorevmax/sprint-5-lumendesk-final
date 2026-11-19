@@ -1,0 +1,19 @@
+{
+ "status": "finalized",
+ "capture_id": "cap-20261118T211103Z-7371b7",
+ "created_at": "2026-11-18T21:11:03Z",
+ "question": "Какая погода будет завтра в Париже?",
+ "role": "support_agent",
+ "decision": "refuse",
+ "answer": "В базе LumenDesk нет сведений по этому вопросу: поиск не нашёл подходящих фрагментов (все кандидаты дальше порога 0,20, context_state = empty). Прогноз погоды не относится к тематике помощника — тарифы, рабочие пространства, файлы, восстановление, поддержка, API и настройки доступа.",
+ "citations": [],
+ "context_state": "empty",
+ "policy_version": "v3",
+ "index_id": "idx-20261118T202118Z-d51167",
+ "query_id": "q-20261118T210842Z-4f70fb",
+ "retrieval_path": "evidence/retrieval-b-x01-agent.json",
+ "answer_file": "evidence/answer-b-x01-agent.raw.json",
+ "trace_path": "evidence/trace-cap-20261118T211103Z-7371b7.json",
+ "citation_map_path": "evidence/citation-map-cap-20261118T211103Z-7371b7.json",
+ "checks": "происхождение ссылок подтверждено: ID из текущих hits, document_id совпадает, quote дословна, документ доступен роли, индекс и настройки актуальны. Смысл тезисов проверяет человек."
+}

@@ -1,0 +1,79 @@
+{
+ "status": "retrieval_only",
+ "query_id": "q-20261118T205813Z-923c0c",
+ "created_at": "2026-11-18T20:58:13Z",
+ "index_id": "idx-20261118T202118Z-d51167",
+ "question": "Какая погода будет завтра в Париже?",
+ "question_tokens": 15,
+ "role": "support_agent",
+ "top_k": 8,
+ "policy": {
+  "version": "v2",
+  "retrieval_threshold": 0.2,
+  "authorization_probe_distance": 0.35,
+  "top_k": 8,
+  "config_path": "behavior/v2.json",
+  "config_sha256": "72266e97822de6c04c3d08264ae1a8ffdc2e893faa4a416ba55401c492a1d324",
+  "system_file": "behavior/system-v2.md",
+  "system_sha256": "d01b2da6db28fbaedbee3dc12026806b62168db0be02e9ad5ec693256f195354"
+ },
+ "collection": "lumendesk-support",
+ "metric": "cosine",
+ "context_state": "forbidden",
+ "filtering": {
+  "role": "support_agent",
+  "allowed_documents": 39,
+  "n_results": 8,
+  "candidates": 8,
+  "admitted": 0,
+  "rejected_by_threshold": [
+   {
+    "chunk_id": "french-handoff::chunk-03",
+    "distance": 0.230038
+   },
+   {
+    "chunk_id": "workshop-fr::chunk-02",
+    "distance": 0.231784
+   },
+   {
+    "chunk_id": "support-calendar-fr::chunk-05",
+    "distance": 0.233083
+   },
+   {
+    "chunk_id": "support-calendar-fr::chunk-02",
+    "distance": 0.235538
+   },
+   {
+    "chunk_id": "notification-rules::chunk-38",
+    "distance": 0.239461
+   },
+   {
+    "chunk_id": "callbacks-fr::chunk-04",
+    "distance": 0.239592
+   },
+   {
+    "chunk_id": "notification-rules::chunk-32",
+    "distance": 0.240065
+   },
+   {
+    "chunk_id": "support-calendar-fr::chunk-06",
+    "distance": 0.240333
+   }
+  ],
+  "retrieval_threshold": 0.2,
+  "restricted_probe": {
+   "checked": true,
+   "denied_documents": 3,
+   "nearest_distance": 0.270349,
+   "within_probe": 8,
+   "probe_distance": 0.35,
+   "closer_than_best_admitted": 8
+  },
+  "note": "available не доказывает полноту; empty не является технической ошибкой; forbidden не раскрывает закрытый источник"
+ },
+ "hits": [],
+ "context": "",
+ "context_chunk_ids": [],
+ "retrieval_trace_path": "evidence/retrieval-trace-q-20261118T205813Z-923c0c.json",
+ "output_path": "evidence/retrieval-a-x01-agent.json"
+}

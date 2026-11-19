@@ -2,7 +2,6 @@
 models/
 .cache/
 .rag_store/
-evidence/
 __pycache__/
 *.py[cod]
 .pytest_cache/

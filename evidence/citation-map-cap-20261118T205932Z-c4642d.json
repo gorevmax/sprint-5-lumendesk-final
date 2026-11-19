@@ -1,0 +1,215 @@
+{
+ "capture_id": "cap-20261118T205932Z-c4642d",
+ "question": "Какой максимальный размер вложения у моего рабочего пространства?",
+ "role": "support_agent",
+ "citations": [
+  {
+   "citation_index": 0,
+   "document_id": "file-limits",
+   "chunk_id": "file-limits::chunk-01",
+   "quote": "Сначала уточните тариф рабочего пространства. Размер хранилища и размер одного файла — разные ограничения.",
+   "rank": 1,
+   "distance": 0.136182,
+   "title": "Размер одного вложения",
+   "title_orig": "Размер одного вложения",
+   "source_path": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+   "section": "Тарифы",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Workspace Platform",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "29-002",
+     "location": {
+      "file": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+      "format": "xlsx",
+      "fragment_id": "29-002",
+      "sheet": "Тарифы",
+      "cells": [],
+      "range": "A3:D5",
+      "where": "лист «Тарифы», диапазон A3:D5"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": null,
+     "handling": "Действующий материал.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 1,
+   "document_id": "file-limits",
+   "chunk_id": "file-limits::chunk-49",
+   "quote": "Следующее действие: Уточнить Starter, Team или Enterprise",
+   "rank": 3,
+   "distance": 0.16507,
+   "title": "Размер одного вложения",
+   "title_orig": "Размер одного вложения",
+   "source_path": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+   "section": "Обсуждение",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Workspace Platform",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "29-055",
+     "location": {
+      "file": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+      "format": "xlsx",
+      "fragment_id": "29-055",
+      "sheet": "Обсуждение",
+      "cells": [
+       "C6"
+      ],
+      "range": "A6:C6",
+      "where": "лист «Обсуждение», ячейки C6"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": [
+      {
+       "ref": "C6",
+       "header": "Следующее действие",
+       "value": "Уточнить Starter, Team или Enterprise"
+      }
+     ],
+     "handling": "Действующий материал.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 2,
+   "document_id": "file-limits",
+   "chunk_id": "file-limits::chunk-03",
+   "quote": "Тариф: Team; Предел файла: 100; Единица: MiB; Применение: Один файл",
+   "rank": 5,
+   "distance": 0.167381,
+   "title": "Размер одного вложения",
+   "title_orig": "Размер одного вложения",
+   "source_path": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+   "section": "Тарифы",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Workspace Platform",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "29-005",
+     "location": {
+      "file": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+      "format": "xlsx",
+      "fragment_id": "29-005",
+      "sheet": "Тарифы",
+      "cells": [
+       "A9",
+       "B9",
+       "C9",
+       "D9"
+      ],
+      "range": "A9:D9",
+      "where": "лист «Тарифы», ячейки A9, B9, C9, D9"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": [
+      {
+       "ref": "A9",
+       "header": "Тариф",
+       "value": "Team"
+      },
+      {
+       "ref": "B9",
+       "header": "Предел файла",
+       "value": "100"
+      },
+      {
+       "ref": "C9",
+       "header": "Единица",
+       "value": "MiB"
+      },
+      {
+       "ref": "D9",
+       "header": "Применение",
+       "value": "Один файл"
+      }
+     ],
+     "handling": "Действующий материал.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 3,
+   "document_id": "file-limits",
+   "chunk_id": "file-limits::chunk-04",
+   "quote": "Тариф: Enterprise; Предел файла: 250; Единица: MiB; Применение: Один файл",
+   "rank": 2,
+   "distance": 0.163207,
+   "title": "Размер одного вложения",
+   "title_orig": "Размер одного вложения",
+   "source_path": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+   "section": "Тарифы",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Workspace Platform",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "29-006",
+     "location": {
+      "file": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+      "format": "xlsx",
+      "fragment_id": "29-006",
+      "sheet": "Тарифы",
+      "cells": [
+       "A10",
+       "B10",
+       "C10",
+       "D10"
+      ],
+      "range": "A10:D10",
+      "where": "лист «Тарифы», ячейки A10, B10, C10, D10"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": [
+      {
+       "ref": "A10",
+       "header": "Тариф",
+       "value": "Enterprise"
+      },
+      {
+       "ref": "B10",
+       "header": "Предел файла",
+       "value": "250"
+      },
+      {
+       "ref": "C10",
+       "header": "Единица",
+       "value": "MiB"
+      },
+      {
+       "ref": "D10",
+       "header": "Применение",
+       "value": "Один файл"
+      }
+     ],
+     "handling": "Действующий материал.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  }
+ ]
+}

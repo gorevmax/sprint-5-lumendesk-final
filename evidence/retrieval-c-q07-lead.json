@@ -1,0 +1,214 @@
+{
+ "status": "retrieval_only",
+ "query_id": "q-20261118T211632Z-8da762",
+ "created_at": "2026-11-18T21:16:32Z",
+ "index_id": "idx-20261118T202118Z-d51167",
+ "question": "Какие внутренние пороги используются для проверки злоупотреблений?",
+ "question_tokens": 17,
+ "role": "support_lead",
+ "top_k": 8,
+ "policy": {
+  "version": "v3",
+  "retrieval_threshold": 0.2,
+  "authorization_probe_distance": 0.35,
+  "top_k": 8,
+  "config_path": "behavior/v3.json",
+  "config_sha256": "fb9c58195459e0f13fdcf87b80ce3255c6df888ee819d292a1a1536b6f67d82d",
+  "system_file": "behavior/system-v3.md",
+  "system_sha256": "7bfb0b5462c7c2e7dcab75888f8fd12595cb398932f81bd3fa26eb55ceb4b137",
+  "lexical_extra": 2,
+  "lexical_pool": 40,
+  "lexical_stem": 6,
+  "forbidden_rule": "probe_and_closer_than_allowed"
+ },
+ "collection": "lumendesk-support",
+ "metric": "cosine",
+ "context_state": "empty",
+ "filtering": {
+  "role": "support_lead",
+  "allowed_documents": 42,
+  "n_results": 40,
+  "candidates": 40,
+  "admitted": 0,
+  "rejected_by_threshold": [
+   {
+    "chunk_id": "abuse-review::chunk-01",
+    "distance": 0.202245
+   },
+   {
+    "chunk_id": "abuse-review::chunk-02",
+    "distance": 0.209887
+   },
+   {
+    "chunk_id": "abuse-review::chunk-04",
+    "distance": 0.211967
+   },
+   {
+    "chunk_id": "audit-log-review::chunk-51",
+    "distance": 0.212805
+   },
+   {
+    "chunk_id": "marketplace-catalogue::chunk-38",
+    "distance": 0.216362
+   },
+   {
+    "chunk_id": "marketplace-catalogue::chunk-39",
+    "distance": 0.216649
+   },
+   {
+    "chunk_id": "marketplace-catalogue::chunk-36",
+    "distance": 0.217059
+   },
+   {
+    "chunk_id": "saml-parameters::chunk-02",
+    "distance": 0.218863
+   },
+   {
+    "chunk_id": "audit-log-review::chunk-12",
+    "distance": 0.218883
+   },
+   {
+    "chunk_id": "audit-log-review::chunk-50",
+    "distance": 0.220262
+   },
+   {
+    "chunk_id": "saml-parameters::chunk-06",
+    "distance": 0.220873
+   },
+   {
+    "chunk_id": "audit-log-review::chunk-52",
+    "distance": 0.222388
+   },
+   {
+    "chunk_id": "audit-log-review::chunk-13",
+    "distance": 0.222561
+   },
+   {
+    "chunk_id": "marketplace-catalogue::chunk-37",
+    "distance": 0.222616
+   },
+   {
+    "chunk_id": "audit-log-review::chunk-43",
+    "distance": 0.222967
+   },
+   {
+    "chunk_id": "audit-log-review::chunk-23",
+    "distance": 0.223103
+   },
+   {
+    "chunk_id": "audit-log-review::chunk-33",
+    "distance": 0.223252
+   },
+   {
+    "chunk_id": "marketplace-catalogue::chunk-14",
+    "distance": 0.223497
+   },
+   {
+    "chunk_id": "audit-log-review::chunk-38",
+    "distance": 0.223668
+   },
+   {
+    "chunk_id": "audit-log-review::chunk-28",
+    "distance": 0.223823
+   },
+   {
+    "chunk_id": "marketplace-catalogue::chunk-18",
+    "distance": 0.223851
+   },
+   {
+    "chunk_id": "audit-log-review::chunk-04",
+    "distance": 0.224352
+   },
+   {
+    "chunk_id": "audit-log-review::chunk-18",
+    "distance": 0.224523
+   },
+   {
+    "chunk_id": "marketplace-catalogue::chunk-13",
+    "distance": 0.224796
+   },
+   {
+    "chunk_id": "audit-log-review::chunk-48",
+    "distance": 0.225107
+   },
+   {
+    "chunk_id": "marketplace-catalogue::chunk-19",
+    "distance": 0.22523
+   },
+   {
+    "chunk_id": "saml-parameters::chunk-24",
+    "distance": 0.225233
+   },
+   {
+    "chunk_id": "marketplace-catalogue::chunk-11",
+    "distance": 0.225478
+   },
+   {
+    "chunk_id": "marketplace-catalogue::chunk-40",
+    "distance": 0.225836
+   },
+   {
+    "chunk_id": "saml-parameters::chunk-12",
+    "distance": 0.226038
+   },
+   {
+    "chunk_id": "marketplace-catalogue::chunk-16",
+    "distance": 0.226041
+   },
+   {
+    "chunk_id": "audit-log-review::chunk-10",
+    "distance": 0.226226
+   },
+   {
+    "chunk_id": "audit-log-review::chunk-02",
+    "distance": 0.226283
+   },
+   {
+    "chunk_id": "marketplace-catalogue::chunk-24",
+    "distance": 0.22637
+   },
+   {
+    "chunk_id": "audit-log-review::chunk-03",
+    "distance": 0.226375
+   },
+   {
+    "chunk_id": "audit-log-review::chunk-07",
+    "distance": 0.226764
+   },
+   {
+    "chunk_id": "marketplace-catalogue::chunk-23",
+    "distance": 0.226776
+   },
+   {
+    "chunk_id": "audit-log-review::chunk-15",
+    "distance": 0.227007
+   },
+   {
+    "chunk_id": "audit-log-review::chunk-11",
+    "distance": 0.227128
+   },
+   {
+    "chunk_id": "saml-parameters::chunk-14",
+    "distance": 0.227142
+   }
+  ],
+  "retrieval_threshold": 0.2,
+  "restricted_probe": {
+   "checked": false,
+   "denied_documents": 0,
+   "nearest_distance": null,
+   "within_probe": 0,
+   "probe_distance": 0.35,
+   "rule": "probe_and_closer_than_allowed"
+  },
+  "best_allowed_distance": 0.202245,
+  "lexical_added": [],
+  "within_threshold_not_selected": 0,
+  "note": "available не доказывает полноту; empty не является технической ошибкой; forbidden не раскрывает закрытый источник"
+ },
+ "hits": [],
+ "context": "",
+ "context_chunk_ids": [],
+ "retrieval_trace_path": "evidence/retrieval-trace-q-20261118T211632Z-8da762.json",
+ "output_path": "evidence/retrieval-c-q07-lead.json"
+}

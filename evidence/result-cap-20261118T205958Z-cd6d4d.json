@@ -1,0 +1,116 @@
+{
+ "status": "finalized",
+ "capture_id": "cap-20261118T205958Z-cd6d4d",
+ "created_at": "2026-11-18T20:59:58Z",
+ "question": "Как долго старый и ожидающий SAML-сертификаты принимаются одновременно и в каких случаях нужен руководитель поддержки?",
+ "role": "support_agent",
+ "decision": "answer",
+ "answer": "Руководитель поддержки нужен в двух случаях (documents/Платформа и интеграции/SAML incident handling.docx, раздел «Триггер и маршрут», абзацы 5–6, перевод с английского): если в течение 15 минут произошло 3 неудачных входа, и немедленно — при блокировке привилегированной учётной записи. Длительность одновременного приёма старого и ожидающего сертификатов в найденных фрагментах не указана: runbook отсылает к выгрузке операционных параметров Identity Platform, где содержится окно приёма сертификатов (введение, абзац 3), а записи этого реестра в результатах поиска нет. Число по памяти не подставляется; окно ротации API-ключей вместо окна SAML использовать нельзя. Перед отзывом старого сертификата нужно проверить активацию ожидающего и окно приёма в реестре (абзац 7); если параметр найти не удаётся, сохранить неопределённость и попросить Identity Platform её прояснить (раздел «Закрытие и передача», абзац 31).",
+ "citations": [
+  {
+   "document_id": "saml-incident-escalation",
+   "chunk_id": "saml-incident-escalation::chunk-02",
+   "quote": "Повторяющиеся неудачи. Эскалируйте руководителю поддержки, если в течение 15 минут произошло 3 неудачных входа.",
+   "source_path": "documents/Платформа и интеграции/SAML incident handling.docx",
+   "title": "Эскалация инцидентов SAML",
+   "title_orig": "SAML incident escalation",
+   "section": "Триггер и маршрут",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "en",
+   "where": "раздел «Trigger and route», абзац 5",
+   "original_excerpt": [
+    "Repeated failure. Escalate to support lead when 3 sign-in failures occur within 15 minutes."
+   ]
+  },
+  {
+   "document_id": "saml-incident-escalation",
+   "chunk_id": "saml-incident-escalation::chunk-02",
+   "quote": "Блокировка привилегированной учётной записи. Немедленно эскалируйте руководителю поддержки блокировку привилегированной учётной записи.",
+   "source_path": "documents/Платформа и интеграции/SAML incident handling.docx",
+   "title": "Эскалация инцидентов SAML",
+   "title_orig": "SAML incident escalation",
+   "section": "Триггер и маршрут",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "en",
+   "where": "раздел «Trigger and route», абзац 6",
+   "original_excerpt": [
+    "Privileged lockout. Escalate a privileged-account lockout to support lead immediately."
+   ]
+  },
+  {
+   "document_id": "saml-incident-escalation",
+   "chunk_id": "saml-incident-escalation::chunk-01",
+   "quote": "Выгрузка операционных параметров, которую ведёт Identity Platform, содержит окно приёма сертификатов. Используйте этот реестр для длительности перекрытия старого и ожидающего сертификатов.",
+   "source_path": "documents/Платформа и интеграции/SAML incident handling.docx",
+   "title": "Эскалация инцидентов SAML",
+   "title_orig": "SAML incident escalation",
+   "section": "(введение)",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "en",
+   "where": "введение, абзац 3",
+   "original_excerpt": [
+    "The operating-parameters export maintained by Identity Platform contains the certificate acceptance window. Use that register for the duration of old and pending certificate overlap. This runbook defines the events that need a support lead and the evidence to collect. Do not substitute the ordinary API-key rotation window for a SAML certificate window: they are separate mechanisms, with different participants and different operating instructions."
+   ]
+  },
+  {
+   "document_id": "saml-incident-escalation",
+   "chunk_id": "saml-incident-escalation::chunk-01",
+   "quote": "Не подставляйте обычное окно ротации API-ключей вместо окна сертификата SAML",
+   "source_path": "documents/Платформа и интеграции/SAML incident handling.docx",
+   "title": "Эскалация инцидентов SAML",
+   "title_orig": "SAML incident escalation",
+   "section": "(введение)",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "en",
+   "where": "введение, абзац 3",
+   "original_excerpt": [
+    "The operating-parameters export maintained by Identity Platform contains the certificate acceptance window. Use that register for the duration of old and pending certificate overlap. This runbook defines the events that need a support lead and the evidence to collect. Do not substitute the ordinary API-key rotation window for a SAML certificate window: they are separate mechanisms, with different participants and different operating instructions."
+   ]
+  },
+  {
+   "document_id": "saml-incident-escalation",
+   "chunk_id": "saml-incident-escalation::chunk-02",
+   "quote": "Проверка сертификата. Перед отзывом сертификата проверьте активацию ожидающего сертификата и окно приёма в реестре операционных параметров.",
+   "source_path": "documents/Платформа и интеграции/SAML incident handling.docx",
+   "title": "Эскалация инцидентов SAML",
+   "title_orig": "SAML incident escalation",
+   "section": "Триггер и маршрут",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "en",
+   "where": "раздел «Trigger and route», абзац 7",
+   "original_excerpt": [
+    "Certificate check. Check pending-certificate activation and the acceptance window in the operating parameters register before revoking a certificate."
+   ]
+  },
+  {
+   "document_id": "saml-incident-escalation",
+   "chunk_id": "saml-incident-escalation::chunk-08",
+   "quote": "Если ожидаемый операционный параметр найти не удаётся, сохраните эту неопределённость и попросите Identity Platform её прояснить.",
+   "source_path": "documents/Платформа и интеграции/SAML incident handling.docx",
+   "title": "Эскалация инцидентов SAML",
+   "title_orig": "SAML incident escalation",
+   "section": "Закрытие и передача",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "en",
+   "where": "раздел «Close and hand over», абзац 31",
+   "original_excerpt": [
+    "If the expected operating parameter cannot be found, preserve that uncertainty and ask Identity Platform to clarify it. A personal note, an API-key instruction or a remembered value from another workspace is not an adequate substitute. This is especially important when a certificate is approaching the end of its overlap period. A clear statement of the missing parameter helps the lead coordinate a safe action; an invented deadline can cause an avoidable loss of sign-in access."
+   ]
+  }
+ ],
+ "context_state": "available",
+ "policy_version": "v2",
+ "index_id": "idx-20261118T202118Z-d51167",
+ "query_id": "q-20261118T205750Z-761022",
+ "retrieval_path": "evidence/retrieval-a-q12-agent.json",
+ "answer_file": "evidence/answer-a-q12-agent.raw.json",
+ "trace_path": "evidence/trace-cap-20261118T205958Z-cd6d4d.json",
+ "citation_map_path": "evidence/citation-map-cap-20261118T205958Z-cd6d4d.json",
+ "checks": "происхождение ссылок подтверждено: ID из текущих hits, document_id совпадает, quote дословна, документ доступен роли, индекс и настройки актуальны. Смысл тезисов проверяет человек."
+}

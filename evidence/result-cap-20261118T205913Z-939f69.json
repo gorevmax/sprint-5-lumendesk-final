@@ -1,0 +1,96 @@
+{
+ "status": "finalized",
+ "capture_id": "cap-20261118T205913Z-939f69",
+ "created_at": "2026-11-18T20:59:13Z",
+ "question": "Сколько строк разрешает текущий CSV-экспорт на Team?",
+ "role": "support_agent",
+ "decision": "answer",
+ "answer": "Текущий CSV-экспорт на Team разрешает не более 100000 строк данных в одном задании экспорта; строка заголовка (названия столбцов) в лимит не входит. Разделение готового файла после скачивания допустимый размер задания не увеличивает — при превышении нужно сузить диапазон дат или создать отдельные задания. Источники: documents/Рабочие копии/Downloads/Export security final.pdf, стр. 1 (перевод с английского) и documents/Платформа и интеграции/Выгрузка карточек.md, раздел «Договориться об объёме», строка 9. Это два разных документа, значения совпадают. Старая инструкция 2025 года с другими значениями исключена из поиска.",
+ "citations": [
+  {
+   "document_id": "export-security",
+   "chunk_id": "export-security::chunk-02",
+   "quote": "Задание CSV-экспорта на Team содержит не более 100000 строк данных.",
+   "source_path": "documents/Рабочие копии/Downloads/Export security final.pdf",
+   "title": "Проверки безопасности административного экспорта",
+   "title_orig": "Administrative export security checks",
+   "section": "Подготовка",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "en",
+   "where": "стр. 1",
+   "original_excerpt": [
+    "A Team CSV export job contains at most 100000 data rows."
+   ]
+  },
+  {
+   "document_id": "export-security",
+   "chunk_id": "export-security::chunk-04",
+   "quote": "Для Team текущий лимит — 100000 строк данных на одно задание экспорта; строка заголовка не является строкой данных.",
+   "source_path": "documents/Рабочие копии/Downloads/Export security final.pdf",
+   "title": "Проверки безопасности административного экспорта",
+   "title_orig": "Administrative export security checks",
+   "section": "Определение охвата до формирования",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "en",
+   "where": "стр. 1",
+   "original_excerpt": [
+    "For Team, the current limit is 100000 data rows per export job; the header row is not a data row. Splitting a completed file after downloading it does not increase the permitted size of the job that produced it. Where a selection is too large, narrow the date range or create separate appropriately scoped jobs. At most two export jobs may run concurrently for the workspace. Check the queue before interpreting a waiting job as a failure."
+   ]
+  },
+  {
+   "document_id": "export-security",
+   "chunk_id": "export-security::chunk-04",
+   "quote": "Разделение готового файла после скачивания не увеличивает допустимый размер задания, которое его создало.",
+   "source_path": "documents/Рабочие копии/Downloads/Export security final.pdf",
+   "title": "Проверки безопасности административного экспорта",
+   "title_orig": "Administrative export security checks",
+   "section": "Определение охвата до формирования",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "en",
+   "where": "стр. 1",
+   "original_excerpt": [
+    "For Team, the current limit is 100000 data rows per export job; the header row is not a data row. Splitting a completed file after downloading it does not increase the permitted size of the job that produced it. Where a selection is too large, narrow the date range or create separate appropriately scoped jobs. At most two export jobs may run concurrently for the workspace. Check the queue before interpreting a waiting job as a failure."
+   ]
+  },
+  {
+   "document_id": "card-export",
+   "chunk_id": "card-export::chunk-02",
+   "quote": "На Team — до 100000, на Enterprise — до 500000. Строка с названиями столбцов в этот лимит не входит.",
+   "source_path": "documents/Платформа и интеграции/Выгрузка карточек.md",
+   "title": "Как договориться о большой выгрузке карточек",
+   "title_orig": "Как договориться о большой выгрузке карточек",
+   "section": "Договориться об объёме",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "ru",
+   "where": "раздел «Договориться об объёме», строка 9",
+   "original_excerpt": null
+  },
+  {
+   "document_id": "card-export",
+   "chunk_id": "card-export::chunk-02",
+   "quote": "При превышении лимита сузьте фильтр дат или разделите экспорт на задания.",
+   "source_path": "documents/Платформа и интеграции/Выгрузка карточек.md",
+   "title": "Как договориться о большой выгрузке карточек",
+   "title_orig": "Как договориться о большой выгрузке карточек",
+   "section": "Договориться об объёме",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "ru",
+   "where": "раздел «Договориться об объёме», строка 13",
+   "original_excerpt": null
+  }
+ ],
+ "context_state": "available",
+ "policy_version": "v2",
+ "index_id": "idx-20261118T202118Z-d51167",
+ "query_id": "q-20261118T205453Z-37d2cb",
+ "retrieval_path": "evidence/retrieval-a-q05-agent.json",
+ "answer_file": "evidence/answer-a-q05-agent.raw.json",
+ "trace_path": "evidence/trace-cap-20261118T205913Z-939f69.json",
+ "citation_map_path": "evidence/citation-map-cap-20261118T205913Z-939f69.json",
+ "checks": "происхождение ссылок подтверждено: ID из текущих hits, document_id совпадает, quote дословна, документ доступен роли, индекс и настройки актуальны. Смысл тезисов проверяет человек."
+}

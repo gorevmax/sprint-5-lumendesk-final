@@ -1,0 +1,148 @@
+{
+ "status": "finalized",
+ "capture_id": "cap-20261118T204114Z-ccab1f",
+ "created_at": "2026-11-18T20:41:14Z",
+ "question": "По какому расписанию повторяется доставка вебхука и когда приостанавливается подписка?",
+ "role": "support_agent",
+ "decision": "answer",
+ "answer": "Расписание доставки вебхука (минуты от первоначальной отправки): попытка 1 — 0, попытка 2 — 1, попытка 3 — 5, попытка 4 — 15, попытка 5 — 60, попытка 6 — 240 (последняя отправка). Подписка приостанавливается, если в течение одного часа произошло три события dead_letter; администратор включает её снова после теста с ответом HTTP 2xx. Источник: documents/Выгрузки/webhooks-reprises.csv, строки 2–7 (расписание) и 9–10 (приостановка и возобновление), столбцы «Nature», «Étape ou livraison», «Minutes depuis envoi initial», «Observation». Важно: файл — выгрузка на французском, владелец источника в нём не указан; при сомнении значения стоит подтвердить у владельца API.",
+ "citations": [
+  {
+   "document_id": "webhook-retries",
+   "chunk_id": "webhook-retries::chunk-01",
+   "quote": "Этап или доставка: Попытка 1; Минут с первоначальной отправки: 0",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "title": "webhooks-reprises",
+   "title_orig": "",
+   "section": "(введение)",
+   "version": "",
+   "updated": "",
+   "source_lang": "fr",
+   "where": "строка 2, столбцы: Étape ou livraison (Этап или доставка), Minutes depuis envoi initial (Минут с первоначальной отправки)",
+   "original_excerpt": [
+    "Nature: calendrier; Étape ou livraison: Tentative 1; Minutes depuis envoi initial: 0; Observation: Envoi initial à 0 minute."
+   ]
+  },
+  {
+   "document_id": "webhook-retries",
+   "chunk_id": "webhook-retries::chunk-02",
+   "quote": "Этап или доставка: Попытка 2; Минут с первоначальной отправки: 1",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "title": "webhooks-reprises",
+   "title_orig": "",
+   "section": "(введение)",
+   "version": "",
+   "updated": "",
+   "source_lang": "fr",
+   "where": "строка 3, столбцы: Étape ou livraison (Этап или доставка), Minutes depuis envoi initial (Минут с первоначальной отправки)",
+   "original_excerpt": [
+    "Nature: calendrier; Étape ou livraison: Tentative 2; Minutes depuis envoi initial: 1; Observation: Nouvel envoi à 1 minute."
+   ]
+  },
+  {
+   "document_id": "webhook-retries",
+   "chunk_id": "webhook-retries::chunk-03",
+   "quote": "Этап или доставка: Попытка 3; Минут с первоначальной отправки: 5",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "title": "webhooks-reprises",
+   "title_orig": "",
+   "section": "(введение)",
+   "version": "",
+   "updated": "",
+   "source_lang": "fr",
+   "where": "строка 4, столбцы: Étape ou livraison (Этап или доставка), Minutes depuis envoi initial (Минут с первоначальной отправки)",
+   "original_excerpt": [
+    "Nature: calendrier; Étape ou livraison: Tentative 3; Minutes depuis envoi initial: 5; Observation: Nouvel envoi à 5 minutes."
+   ]
+  },
+  {
+   "document_id": "webhook-retries",
+   "chunk_id": "webhook-retries::chunk-04",
+   "quote": "Этап или доставка: Попытка 4; Минут с первоначальной отправки: 15",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "title": "webhooks-reprises",
+   "title_orig": "",
+   "section": "(введение)",
+   "version": "",
+   "updated": "",
+   "source_lang": "fr",
+   "where": "строка 5, столбцы: Étape ou livraison (Этап или доставка), Minutes depuis envoi initial (Минут с первоначальной отправки)",
+   "original_excerpt": [
+    "Nature: calendrier; Étape ou livraison: Tentative 4; Minutes depuis envoi initial: 15; Observation: Nouvel envoi à 15 minutes."
+   ]
+  },
+  {
+   "document_id": "webhook-retries",
+   "chunk_id": "webhook-retries::chunk-05",
+   "quote": "Этап или доставка: Попытка 5; Минут с первоначальной отправки: 60",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "title": "webhooks-reprises",
+   "title_orig": "",
+   "section": "(введение)",
+   "version": "",
+   "updated": "",
+   "source_lang": "fr",
+   "where": "строка 6, столбцы: Étape ou livraison (Этап или доставка), Minutes depuis envoi initial (Минут с первоначальной отправки)",
+   "original_excerpt": [
+    "Nature: calendrier; Étape ou livraison: Tentative 5; Minutes depuis envoi initial: 60; Observation: Nouvel envoi à 60 minutes."
+   ]
+  },
+  {
+   "document_id": "webhook-retries",
+   "chunk_id": "webhook-retries::chunk-06",
+   "quote": "Этап или доставка: Попытка 6; Минут с первоначальной отправки: 240; Наблюдение: Последняя отправка на 240-й минуте.",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "title": "webhooks-reprises",
+   "title_orig": "",
+   "section": "(введение)",
+   "version": "",
+   "updated": "",
+   "source_lang": "fr",
+   "where": "строка 7, столбцы: Étape ou livraison (Этап или доставка), Minutes depuis envoi initial (Минут с первоначальной отправки), Observation (Наблюдение)",
+   "original_excerpt": [
+    "Nature: calendrier; Étape ou livraison: Tentative 6; Minutes depuis envoi initial: 240; Observation: Dernier envoi à 240 minutes."
+   ]
+  },
+  {
+   "document_id": "webhook-retries",
+   "chunk_id": "webhook-retries::chunk-08",
+   "quote": "Три события dead_letter в течение одного часа приостанавливают подписку.",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "title": "webhooks-reprises",
+   "title_orig": "",
+   "section": "(введение)",
+   "version": "",
+   "updated": "",
+   "source_lang": "fr",
+   "where": "строка 9, столбцы: Observation (Наблюдение)",
+   "original_excerpt": [
+    "Nature: consigne; Étape ou livraison: Suspension; Observation: Trois événements dead_letter en une heure suspendent l’abonnement."
+   ]
+  },
+  {
+   "document_id": "webhook-retries",
+   "chunk_id": "webhook-retries::chunk-09",
+   "quote": "Администратор повторно включает подписку после теста с ответом HTTP 2xx.",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "title": "webhooks-reprises",
+   "title_orig": "",
+   "section": "(введение)",
+   "version": "",
+   "updated": "",
+   "source_lang": "fr",
+   "where": "строка 10, столбцы: Observation (Наблюдение)",
+   "original_excerpt": [
+    "Nature: consigne; Étape ou livraison: Reprise; Observation: Un administrateur réactive l’abonnement après un test HTTP 2xx."
+   ]
+  }
+ ],
+ "context_state": "available",
+ "policy_version": "v2",
+ "index_id": "idx-20261118T202118Z-d51167",
+ "query_id": "q-20261118T203445Z-b56778",
+ "retrieval_path": "evidence/retrieval-q04-agent.json",
+ "answer_file": "evidence/answer-q04-agent.raw.json",
+ "trace_path": "evidence/trace-cap-20261118T204114Z-ccab1f.json",
+ "citation_map_path": "evidence/citation-map-cap-20261118T204114Z-ccab1f.json",
+ "checks": "происхождение ссылок подтверждено: ID из текущих hits, document_id совпадает, quote дословна, документ доступен роли, индекс и настройки актуальны. Смысл тезисов проверяет человек."
+}

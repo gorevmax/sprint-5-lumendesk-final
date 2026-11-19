@@ -1,0 +1,259 @@
+{
+ "capture_id": "cap-20261118T204146Z-c6e2bc",
+ "question": "Что нужно включить в запись о передаче клиента после первоначального подключения?",
+ "role": "support_agent",
+ "citations": [
+  {
+   "citation_index": 0,
+   "document_id": "onboarding-handover",
+   "chunk_id": "onboarding-handover::chunk-01",
+   "quote": "объясните, какой workspace подключён, что проверено, что ещё требует действий и кто может одобрить откат, если изменение не удастся. Используйте выбранные клиентом тариф и регион хостинга.",
+   "rank": 4,
+   "distance": 0.159362,
+   "title": "Запись о передаче онбординга",
+   "title_orig": "Onboarding handover record",
+   "source_path": "documents/Клиентский сервис/Customer handover.docx",
+   "section": "(введение)",
+   "version": "2026-09",
+   "updated": "2026-09",
+   "owner": "Customer Success and Support",
+   "source_lang": "en",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "08-003",
+     "location": {
+      "file": "documents/Клиентский сервис/Customer handover.docx",
+      "format": "docx",
+      "fragment_id": "08-003",
+      "section": "(введение)",
+      "paragraph": 3,
+      "where": "введение, абзац 3"
+     },
+     "translation": "translated",
+     "original_excerpt": "Write for a colleague who was absent from the calls. A list of product names is not enough: explain which workspace was connected, what was checked, what still needs action and who can approve a reversal if the change fails. Use the customer's chosen plan and hosting region. A French-speaking contact does not establish that the workspace is stored in Paris, and a sales conversation about Enterprise does not prove that the chosen plan has already changed.",
+     "original_cells": null,
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 1,
+   "document_id": "onboarding-handover",
+   "chunk_id": "onboarding-handover::chunk-05",
+   "quote": "Перечислите выполненные проверки с их результатами.",
+   "rank": 8,
+   "distance": 0.165085,
+   "title": "Запись о передаче онбординга",
+   "title_orig": "Onboarding handover record",
+   "source_path": "documents/Клиентский сервис/Customer handover.docx",
+   "section": "Ход работ и доказательства",
+   "version": "2026-09",
+   "updated": "2026-09",
+   "owner": "Customer Success and Support",
+   "source_lang": "en",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "08-021",
+     "location": {
+      "file": "documents/Клиентский сервис/Customer handover.docx",
+      "format": "docx",
+      "fragment_id": "08-021",
+      "section": "Progress and evidence",
+      "paragraph": 21,
+      "where": "раздел «Progress and evidence», абзац 21"
+     },
+     "translation": "translated",
+     "original_excerpt": "List completed checks with their results. Do not write all good when only one pilot user was tested. Link safe evidence such as request identifiers, a sanitised log reference or the relevant change record. Remove tokens and other secrets before the evidence is attached. Screenshots should show the state under discussion without exposing unrelated personal information or a full list of private documents. A long attachment is not automatically more convincing than a precise reference to a checked result.",
+     "original_cells": null,
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 2,
+   "document_id": "onboarding-handover",
+   "chunk_id": "onboarding-handover::chunk-05",
+   "quote": "Прикладывайте безопасные доказательства, например идентификаторы запросов, ссылку на очищенный журнал или соответствующую запись об изменении. Удалите токены и другие секреты до прикрепления доказательств.",
+   "rank": 8,
+   "distance": 0.165085,
+   "title": "Запись о передаче онбординга",
+   "title_orig": "Onboarding handover record",
+   "source_path": "documents/Клиентский сервис/Customer handover.docx",
+   "section": "Ход работ и доказательства",
+   "version": "2026-09",
+   "updated": "2026-09",
+   "owner": "Customer Success and Support",
+   "source_lang": "en",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "08-021",
+     "location": {
+      "file": "documents/Клиентский сервис/Customer handover.docx",
+      "format": "docx",
+      "fragment_id": "08-021",
+      "section": "Progress and evidence",
+      "paragraph": 21,
+      "where": "раздел «Progress and evidence», абзац 21"
+     },
+     "translation": "translated",
+     "original_excerpt": "List completed checks with their results. Do not write all good when only one pilot user was tested. Link safe evidence such as request identifiers, a sanitised log reference or the relevant change record. Remove tokens and other secrets before the evidence is attached. Screenshots should show the state under discussion without exposing unrelated personal information or a full list of private documents. A long attachment is not automatically more convincing than a precise reference to a checked result.",
+     "original_cells": null,
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 3,
+   "document_id": "onboarding-handover",
+   "chunk_id": "onboarding-handover::chunk-05",
+   "quote": "Завершите операционную часть следующим согласованным действием и тем, кто за него отвечает.",
+   "rank": 8,
+   "distance": 0.165085,
+   "title": "Запись о передаче онбординга",
+   "title_orig": "Onboarding handover record",
+   "source_path": "documents/Клиентский сервис/Customer handover.docx",
+   "section": "Ход работ и доказательства",
+   "version": "2026-09",
+   "updated": "2026-09",
+   "owner": "Customer Success and Support",
+   "source_lang": "en",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "08-022",
+     "location": {
+      "file": "documents/Клиентский сервис/Customer handover.docx",
+      "format": "docx",
+      "fragment_id": "08-022",
+      "section": "Progress and evidence",
+      "paragraph": 22,
+      "where": "раздел «Progress and evidence», абзац 22"
+     },
+     "translation": "translated",
+     "original_excerpt": "End the operational part with the next agreed action and who owns it. If the customer is expected to supply a mapping file, say so. If the receiving team must book a verification call, say who will arrange it. The outgoing owner should not disappear before the receiving team confirms ownership in the request. During holidays or a shift change, an explicit acknowledgement prevents a task from sitting between two teams while each assumes the other is handling it.",
+     "original_cells": null,
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 4,
+   "document_id": "onboarding-handover",
+   "chunk_id": "onboarding-handover::chunk-07",
+   "quote": "Держите свободный текст, переданный клиентом, отдельно от полей, проверенных ответственным за онбординг.",
+   "rank": 1,
+   "distance": 0.147022,
+   "title": "Запись о передаче онбординга",
+   "title_orig": "Onboarding handover record",
+   "source_path": "documents/Клиентский сервис/Customer handover.docx",
+   "section": "Входящий текст, сохранённый вместе с запросом",
+   "version": "2026-09",
+   "updated": "2026-09",
+   "owner": "Customer Success and Support",
+   "source_lang": "en",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "08-028",
+     "location": {
+      "file": "documents/Клиентский сервис/Customer handover.docx",
+      "format": "docx",
+      "fragment_id": "08-028",
+      "section": "Incoming text retained with the request",
+      "paragraph": 28,
+      "where": "раздел «Incoming text retained with the request», абзац 28"
+     },
+     "translation": "translated",
+     "original_excerpt": "The request also contains text supplied by the customer during testing. It is retained below as part of the conversation history, with the same wording that arrived. It is not a statement by Customer Success about the setup, nor evidence that any product configuration changed. Keep customer-supplied free text separate from the fields that the onboarding owner has checked. The technical handover still needs the workspace, plan, region and other verified operational details.",
+     "original_cells": null,
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 5,
+   "document_id": "onboarding-handover",
+   "chunk_id": "onboarding-handover::chunk-08",
+   "quote": "Может ли коллега определить ответственного со стороны клиента, найти workspace, понять статус SSO, при необходимости связаться с провайдером идентификации и объяснить следующее действие?",
+   "rank": 6,
+   "distance": 0.162544,
+   "title": "Запись о передаче онбординга",
+   "title_orig": "Onboarding handover record",
+   "source_path": "documents/Клиентский сервис/Customer handover.docx",
+   "section": "Как сохранить пользу записи после передачи",
+   "version": "2026-09",
+   "updated": "2026-09",
+   "owner": "Customer Success and Support",
+   "source_lang": "en",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "08-033",
+     "location": {
+      "file": "documents/Клиентский сервис/Customer handover.docx",
+      "format": "docx",
+      "fragment_id": "08-033",
+      "section": "Keeping the record useful after transfer",
+      "paragraph": 33,
+      "where": "раздел «Keeping the record useful after transfer», абзац 33"
+     },
+     "translation": "translated",
+     "original_excerpt": "Before closing onboarding, read the record from the receiving team's point of view. Can the colleague identify the customer owner, find the workspace, understand SSO status, contact the identity provider where needed and explain the next action? Can the colleague locate sanitised evidence without opening credentials? If any of those answers is missing, finish the record before leaving the request. The purpose is continuity for the customer, not a long document that nobody can use during the next incident.",
+     "original_cells": null,
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 6,
+   "document_id": "onboarding-handover",
+   "chunk_id": "onboarding-handover::chunk-01",
+   "quote": "Храните запись в существующем запросе и прикрепляйте туда соответствующие доказательства. Передача завершена, когда принимающая команда подтверждает, что приняла ответственность, а не когда передающий просто отправил сообщение.",
+   "rank": 4,
+   "distance": 0.159362,
+   "title": "Запись о передаче онбординга",
+   "title_orig": "Onboarding handover record",
+   "source_path": "documents/Клиентский сервис/Customer handover.docx",
+   "section": "(введение)",
+   "version": "2026-09",
+   "updated": "2026-09",
+   "owner": "Customer Success and Support",
+   "source_lang": "en",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "08-002",
+     "location": {
+      "file": "documents/Клиентский сервис/Customer handover.docx",
+      "format": "docx",
+      "fragment_id": "08-002",
+      "section": "(введение)",
+      "paragraph": 2,
+      "where": "введение, абзац 2"
+     },
+     "translation": "translated",
+     "original_excerpt": "Customer Success and Support use this handover record from September 2026 when an onboarding request moves into ordinary support. The receiving colleague should be able to continue the customer's next agreed action without asking the customer to repeat the basic setup. Keep the record in the existing request and link the relevant evidence there. A handover is complete when the receiving team acknowledges ownership, rather than when the outgoing person simply sends a message.",
+     "original_cells": null,
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  }
+ ]
+}

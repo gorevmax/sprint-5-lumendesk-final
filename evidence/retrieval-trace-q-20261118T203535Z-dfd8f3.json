@@ -1,0 +1,148 @@
+{
+ "query_id": "q-20261118T203535Z-dfd8f3",
+ "created_at": "2026-11-18T20:35:35Z",
+ "question": "Какая компенсация предусмотрена на Team за подтверждённый инцидент P1 с недоступностью 120 минут?",
+ "role": "support_lead",
+ "top_k": 8,
+ "policy": {
+  "version": "v2",
+  "retrieval_threshold": 0.2,
+  "authorization_probe_distance": 0.35,
+  "top_k": 8,
+  "config_path": "behavior/v2.json",
+  "config_sha256": "72266e97822de6c04c3d08264ae1a8ffdc2e893faa4a416ba55401c492a1d324",
+  "system_file": "behavior/system-v2.md",
+  "system_sha256": "d01b2da6db28fbaedbee3dc12026806b62168db0be02e9ad5ec693256f195354"
+ },
+ "profile": {
+  "model_id": "intfloat/multilingual-e5-base",
+  "dimension": 768,
+  "device": "cpu",
+  "normalize_embeddings": true,
+  "passage_prefix": "passage: ",
+  "query_prefix": "query: ",
+  "embedding_text": "title_ru + '\\n' + chunk text (NFC, пробелы схлопнуты); префикс добавляется один раз при encode",
+  "text_normalization": "NFC + whitespace collapse, только для эмбеддингов",
+  "chunker": "structural-v1",
+  "chunk_rule": "введение и разделы H2 (лист для xlsx), по границам подготовленных фрагментов; строка таблицы — отдельный чанк с названием листа",
+  "chunk_token_limit": 384,
+  "chunk_overlap": 0,
+  "query_token_limit": 512,
+  "metric": "cosine",
+  "collection": "lumendesk-support",
+  "corpus_text": "text_ru из corpus/prepared (русский оригинал или проверенный перевод)"
+ },
+ "index_id": "idx-20261118T202118Z-d51167",
+ "allowed_document_ids": [
+  "abuse-review",
+  "accessibility-fr",
+  "api-errors",
+  "api-key-rotation",
+  "assistant-quota",
+  "audit-log-review",
+  "browser-support",
+  "callbacks-fr",
+  "card-export",
+  "domain-verification",
+  "export-security",
+  "file-limits",
+  "france-data-residency",
+  "french-handoff",
+  "guest-access",
+  "hosting-regions",
+  "incident-priority",
+  "incident-register-2026-09",
+  "invoice-correction",
+  "marketplace-approval-retirement",
+  "marketplace-catalogue",
+  "notification-explainer",
+  "notification-rules",
+  "onboarding-handover",
+  "outage-communication",
+  "password-reset",
+  "plan-capabilities",
+  "privacy-requests",
+  "refund-approval",
+  "response-targets",
+  "retention-reconciliation",
+  "saml-cutover-notes",
+  "saml-incident-escalation",
+  "saml-parameters",
+  "search-notes",
+  "support-calendar-fr",
+  "team-service-credits-finance",
+  "team-service-credits-support",
+  "trash-recovery",
+  "webhook-retries",
+  "workshop-fr",
+  "workspace-ownership-transfer"
+ ],
+ "denied_document_count": 0,
+ "candidates": [
+  {
+   "chunk_id": "team-service-credits-support::chunk-03",
+   "distance": 0.142634,
+   "document_id": "team-service-credits-support",
+   "admitted": true,
+   "text": "Урегулирование\n\nПри подходящем сбое P1 на Team продолжительностью не менее 120 минут подряд сервисный кредит составляет 20 процентов ежемесячной платы за подписку.\n\nОдобренный кредит зачитывается в следующий счёт и не является денежной выплатой.\n\nСумма кредитов за инциденты не может превышать 50 процентов той же ежемесячной платы за подписку.\n\nНеполные или оспариваемые заявки Finance и Support Operations проверяют совместно.\n\nПлановые работы, объявленные не менее чем за 48 часов, под действие этого графика не подпадают."
+  },
+  {
+   "chunk_id": "team-service-credits-finance::chunk-01",
+   "distance": 0.145868,
+   "document_id": "team-service-credits-finance",
+   "admitted": true,
+   "text": "Рассылка Finance, действует с 15 сентября 2026 года. Это операционный график для подтверждённых сбоев сервиса P1 на Team. Расчёты по счетам в этом документе ведёт Finance; Support Operations фиксирует влияние и подтверждает классификацию инцидента. Обе команды используют одну и ту же запись об инциденте. Эта рассылка действует и предназначена для тех, кто готовит или проверяет заявки, а не для автоматического обещания в статусном обновлении.\n\nПроверка кредита начинается с конкретного затронутого workspace и непрерывного интервала недоступности сервиса. Наличие инфраструктурного инцидента — полезное доказательство, но оно не устанавливает, что каждый клиент или каждый workspace испытал одинаковое влияние. Рассматривайте охват инцидента и учётную запись клиента вместе. Приведённые ниже правила применяются к подтверждённому сбою P1 на Team, в том числе к сбою продолжительностью ровно 120 минут подряд."
+  },
+  {
+   "chunk_id": "outage-communication::chunk-05",
+   "distance": 0.151695,
+   "document_id": "outage-communication",
+   "admitted": true,
+   "text": "Сообщения во время расследования\n\nДля P1 обновления публикуют каждые тридцать минут. Если существенных технических изменений нет, сообщите, что расследование продолжается, какое влияние подтверждено и когда ждать следующую связь. Обещание «скоро исправим» без основания создаёт новый вопрос вместо ответа. Дежурный, который принимает смену, проверяет время последней публикации и уже обещанное время следующей, чтобы передача команды не стала причиной тишины.\n\nОбходной путь описывают вместе с ограничениями. Если он помогает только администраторам или требует повторить изменения, это нужно сказать прямо. Не советуйте массово перезагружать страницы с несохранённым текстом только потому, что это удобный универсальный ответ. Перед публикацией координатор сверяет рекомендацию с технической командой. Клиент должен понимать, для какого действия обход применим и какие данные стоит сохранить до его использования."
+  },
+  {
+   "chunk_id": "team-service-credits-finance::chunk-03",
+   "distance": 0.153617,
+   "document_id": "team-service-credits-finance",
+   "admitted": true,
+   "text": "Урегулирование\n\nСтавка. При подходящем сбое P1 на Team продолжительностью не менее 120 минут подряд сервисный кредит составляет 15 процентов ежемесячной платы за подписку.\n\nСпособ. Одобренный кредит зачитывается в следующий счёт и не является денежной выплатой.\n\nПредел. Сумма кредитов за инциденты не может превышать 50 процентов той же ежемесячной платы за подписку.\n\nПроверка. Неполные или оспариваемые заявки Finance и Support Operations проверяют совместно.\n\nИсключения. Плановые работы, объявленные не менее чем за 48 часов, под действие этого графика не подпадают."
+  },
+  {
+   "chunk_id": "team-service-credits-support::chunk-02",
+   "distance": 0.157994,
+   "document_id": "team-service-credits-support",
+   "admitted": true,
+   "text": "Право на кредит\n\nЭтот график применяется к подписке Team при подтверждённом сбое сервиса P1 продолжительностью не менее 120 минут подряд.\n\nПроцент применяется к ежемесячной плате за подписку затронутого workspace без учёта налогов и дополнений за использование.\n\nBilling owner должен подать заявку в течение 10 календарных дней после окончания инцидента.\n\nДля заявки нужны incident ID, workspace ID, интервал влияния в UTC и invoice ID."
+  },
+  {
+   "chunk_id": "team-service-credits-support::chunk-01",
+   "distance": 0.158137,
+   "document_id": "team-service-credits-support",
+   "admitted": true,
+   "text": "Выпуск Support Operations, действует с 15 сентября 2026 года. Это операционный график для подтверждённого сбоя сервиса P1 на Team, утверждённый для процесса проверки в поддержке. Finance и Support Operations совместно отвечают за проверку доказательств по заявке. Проверяющий из поддержки готовит запись о влиянии и расчёт, прежде чем направить полную заявку на совместную проверку. Держите существующий запрос открытым, пока согласованный результат не будет сообщён billing owner.\n\nПрименяйте эту процедуру к затронутому Team workspace, в том числе при сбое продолжительностью ровно 120 минут подряд. Проверка касается непрерывного сбоя, а не суммы не связанных между собой коротких перерывов. Классификация и влияние требуют подтверждения, прежде чем команда поддержки сможет рекомендовать урегулирование. Клиент должен получить понятное объяснение проверки, но сотрудник не должен превращать непроверенную заявку в обещанную выплату."
+  },
+  {
+   "chunk_id": "team-service-credits-finance::chunk-02",
+   "distance": 0.162667,
+   "document_id": "team-service-credits-finance",
+   "admitted": true,
+   "text": "Право на кредит\n\nОхват. Этот график применяется к подписке Team при подтверждённом сбое сервиса P1 продолжительностью не менее 120 минут подряд.\n\nБаза. Процент применяется к ежемесячной плате за подписку затронутого workspace без учёта налогов и дополнений за использование.\n\nЗаявка. Billing owner должен подать заявку в течение 10 календарных дней после окончания инцидента.\n\nДоказательства. Для заявки нужны incident ID, workspace ID, интервал влияния в UTC и invoice ID."
+  },
+  {
+   "chunk_id": "response-targets::chunk-30",
+   "distance": 0.162967,
+   "document_id": "response-targets",
+   "admitted": true,
+   "text": "Лист «Обсуждение смены»: Вопросы со встречи по графику дежурств\n\nТема: Team P1; Согласованное толкование: 60 минут в рабочие часы поддержки"
+  }
+ ],
+ "restricted_probe": {
+  "checked": false,
+  "denied_documents": 0,
+  "nearest_distance": null,
+  "within_probe": 0,
+  "probe_distance": 0.35
+ },
+ "context_state": "available",
+ "result_path": "evidence/retrieval-q06-lead.json"
+}

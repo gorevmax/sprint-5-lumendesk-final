@@ -1,0 +1,417 @@
+{
+ "query_id": "q-20261118T211632Z-8da762",
+ "created_at": "2026-11-18T21:16:32Z",
+ "question": "Какие внутренние пороги используются для проверки злоупотреблений?",
+ "role": "support_lead",
+ "top_k": 8,
+ "policy": {
+  "version": "v3",
+  "retrieval_threshold": 0.2,
+  "authorization_probe_distance": 0.35,
+  "top_k": 8,
+  "config_path": "behavior/v3.json",
+  "config_sha256": "fb9c58195459e0f13fdcf87b80ce3255c6df888ee819d292a1a1536b6f67d82d",
+  "system_file": "behavior/system-v3.md",
+  "system_sha256": "7bfb0b5462c7c2e7dcab75888f8fd12595cb398932f81bd3fa26eb55ceb4b137",
+  "lexical_extra": 2,
+  "lexical_pool": 40,
+  "lexical_stem": 6,
+  "forbidden_rule": "probe_and_closer_than_allowed"
+ },
+ "profile": {
+  "model_id": "intfloat/multilingual-e5-base",
+  "dimension": 768,
+  "device": "cpu",
+  "normalize_embeddings": true,
+  "passage_prefix": "passage: ",
+  "query_prefix": "query: ",
+  "embedding_text": "title_ru + '\\n' + chunk text (NFC, пробелы схлопнуты); префикс добавляется один раз при encode",
+  "text_normalization": "NFC + whitespace collapse, только для эмбеддингов",
+  "chunker": "structural-v1",
+  "chunk_rule": "введение и разделы H2 (лист для xlsx), по границам подготовленных фрагментов; строка таблицы — отдельный чанк с названием листа",
+  "chunk_token_limit": 384,
+  "chunk_overlap": 0,
+  "query_token_limit": 512,
+  "metric": "cosine",
+  "collection": "lumendesk-support",
+  "corpus_text": "text_ru из corpus/prepared (русский оригинал или проверенный перевод)"
+ },
+ "index_id": "idx-20261118T202118Z-d51167",
+ "allowed_document_ids": [
+  "abuse-review",
+  "accessibility-fr",
+  "api-errors",
+  "api-key-rotation",
+  "assistant-quota",
+  "audit-log-review",
+  "browser-support",
+  "callbacks-fr",
+  "card-export",
+  "domain-verification",
+  "export-security",
+  "file-limits",
+  "france-data-residency",
+  "french-handoff",
+  "guest-access",
+  "hosting-regions",
+  "incident-priority",
+  "incident-register-2026-09",
+  "invoice-correction",
+  "marketplace-approval-retirement",
+  "marketplace-catalogue",
+  "notification-explainer",
+  "notification-rules",
+  "onboarding-handover",
+  "outage-communication",
+  "password-reset",
+  "plan-capabilities",
+  "privacy-requests",
+  "refund-approval",
+  "response-targets",
+  "retention-reconciliation",
+  "saml-cutover-notes",
+  "saml-incident-escalation",
+  "saml-parameters",
+  "search-notes",
+  "support-calendar-fr",
+  "team-service-credits-finance",
+  "team-service-credits-support",
+  "trash-recovery",
+  "webhook-retries",
+  "workshop-fr",
+  "workspace-ownership-transfer"
+ ],
+ "denied_document_count": 0,
+ "candidates": [
+  {
+   "chunk_id": "abuse-review::chunk-01",
+   "distance": 0.202245,
+   "document_id": "abuse-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Этот материал Trust Operations обсуждает с руководителями поддержки; актуальные формулировки сверены 1 сентября 2026 года. Он нужен для ручного разбора возможных злоупотреблений. Не пересылайте его клиенту и не вставляйте внутренние пороги в обычную переписку по обращению. Решение о блокировке требует ручной проверки событий и не принимается по одному признаку. Само срабатывание сигнала — начало проверки контекста, а не готовый вывод о намерениях организации или конкретного человека.\n\nКарточку проверки открывает только руководитель поддержки. Это отдельная работа с внутренними событиями; её не стоит превращать в расширенный комментарий в общей переписке клиента. Специалист первой линии может передать обращение руководителю, но содержание этого разбора остаётся в предназначенном для него круге. При обсуждении внутри команды нужно различать известное событие, предположение о его объяснении и действие, которое ещё требуется согласовать. Смесь этих трёх вещей создаёт впечатление уже принятого решения там, где пока идёт проверка."
+  },
+  {
+   "chunk_id": "abuse-review::chunk-02",
+   "distance": 0.209887,
+   "document_id": "abuse-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "## С чем приходят сигналы\n\nПять созданий workspace с одного billing account за 10 минут образуют сигнал для проверки. Важно видеть связь именно с billing account и временным диапазоном, а не просто обнаружить в ленте несколько похожих названий. Запишите агрегированный счётчик и диапазон, с которым работали. Если после передачи коллеге непонятно, какие события были включены, он начнёт разбор заново или, хуже, примет приблизительную оценку за установленный факт.\n\nБолее 200 отклонённых приглашений за час требуют сверки назначения рассылки. Здесь нужно понять, какое действие выполняла организация, и сопоставить объяснение с событиями. Число приглашений не должно автоматически превращаться в характеристику клиента. Не пересказывайте в обычном ответе, сколько отклонений запускает внутреннюю проверку: клиенту называют категорию проверки без внутренних порогов. Внутри разбора точность нужна для принятия решения; снаружи точность не означает раскрытия всей механики наблюдения.\n\nТри отклонённых платежа подряд переводят заявку на ручной разбор. Сохраните последовательность событий в контексте, чтобы слова «подряд» не потерялись при передаче между сменами. Это ещё один повод не судить по одному изолированному признаку. Разговор об оплате может быть эмоциональным, а несколько одинаковых сообщений в истории не всегда описывают разные события. Руководитель должен понимать, на каких внутренних событиях основан сигнал, и отделять их от пересказов в нескольких каналах."
+  },
+  {
+   "chunk_id": "abuse-review::chunk-04",
+   "distance": 0.211967,
+   "document_id": "abuse-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "## Как оформить ручной разбор\n\nФиксируем временной диапазон, агрегированные счётчики и внутренний event ID. Этого набора должно хватать, чтобы другой руководитель понял, какие события смотрели. Лучше связанная заметка с понятным ходом проверки, чем множество снимков без объяснения происхождения. В тексте можно назвать альтернативные объяснения, которые ещё проверяются, но обозначайте их как вопросы. Если предположение попадает в запись без оговорки, на следующей смене его легко принять за доказательство.\n\nВременную приостановку согласуют с Security Operations. Не пишите, что действие согласовано, если вы только отправили вопрос в команду. Отделяйте просьбу о согласовании от полученного решения. Это помогает и в последующем пересмотре: из истории должно быть видно, почему была выбрана мера и какой контекст был известен в тот момент. Само стремление быстрее закончить сложное обращение не заменяет согласование, предусмотренное процедурой.\n\nВ сообщении клиенту называем категорию проверки без внутренних порогов. Можно объяснить, что обращение передано на ручной разбор соответствующей активности, и сохранить деловой тон. Нельзя подкреплять ответ копией внутренних счётчиков и точными значениями сигналов из этой записки. Если клиент просит раскрыть всю логику, руководитель продолжает разговор в пределах допустимого объяснения, а не отправляет эту страницу как наиболее быстрый способ закрыть вопрос."
+  },
+  {
+   "chunk_id": "audit-log-review::chunk-51",
+   "distance": 0.212805,
+   "document_id": "audit-log-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Основания»: Вопросы для согласования доступа\n\nЗапрос: Сбой выгрузки; Диапазон: Время конкретного Job; Почему нужен: Найти запуск экспорта; Решение смены: Не выгружать весь год"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-38",
+   "distance": 0.216362,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: GitHub; Проверка: Ограничение вендора; Условие учётной записи: Права в репозитории проверены; Результат или дальнейшие действия: При временных сбоях вендора применяются повторы"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-39",
+   "distance": 0.216649,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Google Drive; Проверка: Ограничение вендора; Условие учётной записи: Уже имеющийся доступ к Drive; Результат или дальнейшие действия: При временных сбоях вендора применяются повторы"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-36",
+   "distance": 0.217059,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Slack; Проверка: Ограничение вендора; Условие учётной записи: Workspace одобрен; Результат или дальнейшие действия: При временных сбоях вендора применяются повторы"
+  },
+  {
+   "chunk_id": "saml-parameters::chunk-02",
+   "distance": 0.218863,
+   "document_id": "saml-parameters",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Параметр или операция: Проверка цепочки; Значение или результат: Самоподписанный сертификат IdP допускается после проверки отпечатка администратором.; Применение: Enterprise; Запись: Параметры Identity Platform от 1 сентября 2026"
+  },
+  {
+   "chunk_id": "audit-log-review::chunk-12",
+   "distance": 0.218883,
+   "document_id": "audit-log-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations."
+  },
+  {
+   "chunk_id": "audit-log-review::chunk-50",
+   "distance": 0.220262,
+   "document_id": "audit-log-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Основания»: Вопросы для согласования доступа\n\nЗапрос: Запрос внешней стороны; Диапазон: Уточнить; Почему нужен: Передача ещё не согласована; Решение смены: Ожидать Security Operations"
+  },
+  {
+   "chunk_id": "saml-parameters::chunk-06",
+   "distance": 0.220873,
+   "document_id": "saml-parameters",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Параметр или операция: Тест; Значение или результат: Перед принудительным включением нужны 2 успешных тестовых входа.; Применение: Enterprise; Запись: Параметры Identity Platform от 1 сентября 2026"
+  },
+  {
+   "chunk_id": "audit-log-review::chunk-52",
+   "distance": 0.222388,
+   "document_id": "audit-log-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Основания»: Вопросы для согласования доступа\n\nЗапрос: Изменение роли; Диапазон: Время изменения; Почему нужен: Сверить старую и новую роли; Решение смены: Сохранить основание просмотра"
+  },
+  {
+   "chunk_id": "audit-log-review::chunk-13",
+   "distance": 0.222561,
+   "document_id": "audit-log-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «События сентября»: Выборка для внутренней сверки\n\nВремя UTC: 2026-09-02 08:00; Workspace: ws-230; Событие: auth.login; Actor: actor-870; Контекст: Успешный вход"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-37",
+   "distance": 0.222616,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Microsoft Teams; Проверка: Ограничение вендора; Условие учётной записи: Администратор тенанта доступен; Результат или дальнейшие действия: При временных сбоях вендора применяются повторы"
+  },
+  {
+   "chunk_id": "audit-log-review::chunk-43",
+   "distance": 0.222967,
+   "document_id": "audit-log-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «События сентября»: Выборка для внутренней сверки\n\nВремя UTC: 2026-09-08 08:00; Workspace: ws-232; Событие: auth.login; Actor: actor-873; Контекст: Успешный вход"
+  },
+  {
+   "chunk_id": "audit-log-review::chunk-23",
+   "distance": 0.223103,
+   "document_id": "audit-log-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «События сентября»: Выборка для внутренней сверки\n\nВремя UTC: 2026-09-04 08:00; Workspace: ws-233; Событие: auth.login; Actor: actor-871; Контекст: Успешный вход"
+  },
+  {
+   "chunk_id": "audit-log-review::chunk-33",
+   "distance": 0.223252,
+   "document_id": "audit-log-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «События сентября»: Выборка для внутренней сверки\n\nВремя UTC: 2026-09-06 08:00; Workspace: ws-236; Событие: auth.login; Actor: actor-872; Контекст: Успешный вход"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-14",
+   "distance": 0.223497,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Google Drive; Проверка: Одобрение; Условие учётной записи: Уже имеющийся доступ к Drive; Результат или дальнейшие действия: Проверить согласие для запрошенного workspace"
+  },
+  {
+   "chunk_id": "audit-log-review::chunk-38",
+   "distance": 0.223668,
+   "document_id": "audit-log-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «События сентября»: Выборка для внутренней сверки\n\nВремя UTC: 2026-09-07 08:00; Workspace: ws-234; Событие: auth.login; Actor: actor-877; Контекст: Успешный вход"
+  },
+  {
+   "chunk_id": "audit-log-review::chunk-28",
+   "distance": 0.223823,
+   "document_id": "audit-log-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «События сентября»: Выборка для внутренней сверки\n\nВремя UTC: 2026-09-05 08:00; Workspace: ws-231; Событие: auth.login; Actor: actor-876; Контекст: Успешный вход"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-18",
+   "distance": 0.223851,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: GitHub; Проверка: Закрытый ресурс; Условие учётной записи: Права в репозитории проверены; Результат или дальнейшие действия: Опубликованная ссылка доступа не даёт"
+  },
+  {
+   "chunk_id": "audit-log-review::chunk-04",
+   "distance": 0.224352,
+   "document_id": "audit-log-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Обращение»: Проверка административных событий\n\nПредмет: guest.invited; Описание: Приглашение гостя; Вид: событие; Условие: Идентификатор приглашения"
+  },
+  {
+   "chunk_id": "audit-log-review::chunk-18",
+   "distance": 0.224523,
+   "document_id": "audit-log-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «События сентября»: Выборка для внутренней сверки\n\nВремя UTC: 2026-09-03 08:00; Workspace: ws-235; Событие: auth.login; Actor: actor-875; Контекст: Успешный вход"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-13",
+   "distance": 0.224796,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: GitHub; Проверка: Одобрение; Условие учётной записи: Права в репозитории проверены; Результат или дальнейшие действия: Проверить согласие для запрошенного workspace"
+  },
+  {
+   "chunk_id": "audit-log-review::chunk-48",
+   "distance": 0.225107,
+   "document_id": "audit-log-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Основания»: Вопросы для согласования доступа\n\nЗапрос: INC-260903; Диапазон: 08:00–09:00 UTC; Почему нужен: Сопоставить время входа; Решение смены: Только нужные события"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-19",
+   "distance": 0.22523,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Google Drive; Проверка: Закрытый ресурс; Условие учётной записи: Уже имеющийся доступ к Drive; Результат или дальнейшие действия: Опубликованная ссылка доступа не даёт"
+  },
+  {
+   "chunk_id": "saml-parameters::chunk-24",
+   "distance": 0.225233,
+   "document_id": "saml-parameters",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Параметр или операция: Тест входа; Значение или результат: Непривилегированная учётная запись выполнила вход; Применение: план проверки Ателье; Запись: 2026-09-10; запись инженера"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-11",
+   "distance": 0.225478,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Slack; Проверка: Одобрение; Условие учётной записи: Workspace одобрен; Результат или дальнейшие действия: Проверить согласие для запрошенного workspace"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-40",
+   "distance": 0.225836,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Jira Cloud; Проверка: Ограничение вендора; Условие учётной записи: Только односторонняя ссылка; Результат или дальнейшие действия: При временных сбоях вендора применяются повторы"
+  },
+  {
+   "chunk_id": "saml-parameters::chunk-12",
+   "distance": 0.226038,
+   "document_id": "saml-parameters",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Параметр или операция: Тест входа; Значение или результат: Непривилегированная учётная запись выполнила вход; Применение: план проверки Север; Запись: 2026-09-08; запись инженера"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-16",
+   "distance": 0.226041,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Slack; Проверка: Закрытый ресурс; Условие учётной записи: Workspace одобрен; Результат или дальнейшие действия: Опубликованная ссылка доступа не даёт"
+  },
+  {
+   "chunk_id": "audit-log-review::chunk-10",
+   "distance": 0.226226,
+   "document_id": "audit-log-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Обращение»: Проверка административных событий\n\nПредмет: Выгрузка; Описание: Разрешение Security Operations; Вид: согласование; Условие: Перед передачей внешней стороне"
+  },
+  {
+   "chunk_id": "audit-log-review::chunk-02",
+   "distance": 0.226283,
+   "document_id": "audit-log-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Обращение»: Проверка административных событий\n\nПредмет: auth.login; Описание: Вход участника; Вид: событие; Условие: Время UTC и actor ID"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-24",
+   "distance": 0.22637,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Google Drive; Проверка: Изменение scopes; Условие учётной записи: Уже имеющийся доступ к Drive; Результат или дальнейшие действия: Для новых write scopes требуется новое согласие"
+  },
+  {
+   "chunk_id": "audit-log-review::chunk-03",
+   "distance": 0.226375,
+   "document_id": "audit-log-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Обращение»: Проверка административных событий\n\nПредмет: role.changed; Описание: Изменение роли; Вид: событие; Условие: Старая и новая роли"
+  },
+  {
+   "chunk_id": "audit-log-review::chunk-07",
+   "distance": 0.226764,
+   "document_id": "audit-log-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Обращение»: Проверка административных событий\n\nПредмет: Тариф; Описание: Enterprise; Вид: ограничение; Условие: Журнал аудита доступен только на Enterprise"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-23",
+   "distance": 0.226776,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: GitHub; Проверка: Изменение scopes; Условие учётной записи: Права в репозитории проверены; Результат или дальнейшие действия: Для новых write scopes требуется новое согласие"
+  },
+  {
+   "chunk_id": "audit-log-review::chunk-15",
+   "distance": 0.227007,
+   "document_id": "audit-log-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «События сентября»: Выборка для внутренней сверки\n\nВремя UTC: 2026-09-02 08:22; Workspace: ws-232; Событие: guest.invited; Actor: actor-872; Контекст: Приглашение без содержимого письма"
+  },
+  {
+   "chunk_id": "audit-log-review::chunk-11",
+   "distance": 0.227128,
+   "document_id": "audit-log-review",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Обращение»: Проверка административных событий\n\nПредмет: Минимизация; Описание: Только нужный диапазон; Вид: правило; Условие: Не выгружать весь год для одного события"
+  },
+  {
+   "chunk_id": "saml-parameters::chunk-14",
+   "distance": 0.227142,
+   "document_id": "saml-parameters",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Параметр или операция: Проверка времени; Значение или результат: Расхождение часов ниже допустимых 120 секунд; Применение: план проверки Север; Запись: 2026-09-08; запись инженера"
+  }
+ ],
+ "restricted_probe": {
+  "checked": false,
+  "denied_documents": 0,
+  "nearest_distance": null,
+  "within_probe": 0,
+  "probe_distance": 0.35,
+  "rule": "probe_and_closer_than_allowed"
+ },
+ "context_state": "empty",
+ "result_path": "evidence/retrieval-c-q07-lead.json"
+}

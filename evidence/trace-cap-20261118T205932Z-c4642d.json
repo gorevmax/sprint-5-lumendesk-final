@@ -1,0 +1,852 @@
+{
+ "capture_id": "cap-20261118T205932Z-c4642d",
+ "created_at": "2026-11-18T20:59:32Z",
+ "question": "Какой максимальный размер вложения у моего рабочего пространства?",
+ "role": "support_agent",
+ "index_id": "idx-20261118T202118Z-d51167",
+ "policy": {
+  "version": "v2",
+  "retrieval_threshold": 0.2,
+  "authorization_probe_distance": 0.35,
+  "top_k": 8,
+  "config_path": "behavior/v2.json",
+  "config_sha256": "72266e97822de6c04c3d08264ae1a8ffdc2e893faa4a416ba55401c492a1d324",
+  "system_file": "behavior/system-v2.md",
+  "system_sha256": "d01b2da6db28fbaedbee3dc12026806b62168db0be02e9ad5ec693256f195354"
+ },
+ "profile": {
+  "model_id": "intfloat/multilingual-e5-base",
+  "dimension": 768,
+  "device": "cpu",
+  "normalize_embeddings": true,
+  "passage_prefix": "passage: ",
+  "query_prefix": "query: ",
+  "embedding_text": "title_ru + '\\n' + chunk text (NFC, пробелы схлопнуты); префикс добавляется один раз при encode",
+  "text_normalization": "NFC + whitespace collapse, только для эмбеддингов",
+  "chunker": "structural-v1",
+  "chunk_rule": "введение и разделы H2 (лист для xlsx), по границам подготовленных фрагментов; строка таблицы — отдельный чанк с названием листа",
+  "chunk_token_limit": 384,
+  "chunk_overlap": 0,
+  "query_token_limit": 512,
+  "metric": "cosine",
+  "collection": "lumendesk-support",
+  "corpus_text": "text_ru из corpus/prepared (русский оригинал или проверенный перевод)"
+ },
+ "retrieval": {
+  "status": "retrieval_only",
+  "query_id": "q-20261118T205609Z-f995ab",
+  "created_at": "2026-11-18T20:56:09Z",
+  "index_id": "idx-20261118T202118Z-d51167",
+  "question": "Какой максимальный размер вложения у моего рабочего пространства?",
+  "question_tokens": 18,
+  "role": "support_agent",
+  "top_k": 8,
+  "policy": {
+   "version": "v2",
+   "retrieval_threshold": 0.2,
+   "authorization_probe_distance": 0.35,
+   "top_k": 8,
+   "config_path": "behavior/v2.json",
+   "config_sha256": "72266e97822de6c04c3d08264ae1a8ffdc2e893faa4a416ba55401c492a1d324",
+   "system_file": "behavior/system-v2.md",
+   "system_sha256": "d01b2da6db28fbaedbee3dc12026806b62168db0be02e9ad5ec693256f195354"
+  },
+  "collection": "lumendesk-support",
+  "metric": "cosine",
+  "context_state": "available",
+  "filtering": {
+   "role": "support_agent",
+   "allowed_documents": 39,
+   "n_results": 8,
+   "candidates": 8,
+   "admitted": 8,
+   "rejected_by_threshold": [],
+   "retrieval_threshold": 0.2,
+   "restricted_probe": {
+    "checked": true,
+    "denied_documents": 3,
+    "nearest_distance": 0.210232,
+    "within_probe": 8,
+    "probe_distance": 0.35,
+    "closer_than_best_admitted": 0
+   },
+   "note": "available не доказывает полноту; empty не является технической ошибкой; forbidden не раскрывает закрытый источник"
+  },
+  "hits": [
+   {
+    "rank": 1,
+    "chunk_id": "file-limits::chunk-01",
+    "text": "Workspace Platform подтвердил эти значения 1 сентября 2026 года. Сначала уточните тариф рабочего пространства. Размер хранилища и размер одного файла — разные ограничения.",
+    "metadata": {
+     "line_end": 0,
+     "chunk_sha256": "a060401bf173568dcb48bf48ab33f8c240a341554281af7dc345b075a4aff513",
+     "title_orig": "Размер одного вложения",
+     "page_end": 0,
+     "section": "Тарифы",
+     "line_start": 0,
+     "locator": "лист «Тарифы», объединённые ячейки A3:D5",
+     "related": "23 3",
+     "token_count": 41,
+     "format": "xlsx",
+     "conflict_group": "",
+     "is_translation": false,
+     "version": "2026-09-01",
+     "trust": "confirmed",
+     "title_source": "inventory.title",
+     "title": "Размер одного вложения",
+     "updated": "2026-09-01",
+     "page_start": 0,
+     "source_path": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+     "document_sha256": "737b259e9b39a9312331ee1b0d9a9e412d77098276b5ef63f17ab9ff829febac",
+     "source_lang": "ru",
+     "owner": "Workspace Platform",
+     "document_id": "file-limits",
+     "fragment_ids": "29-002"
+    },
+    "distance": 0.136182,
+    "provenance": [
+     {
+      "fragment_id": "29-002",
+      "role": "content",
+      "start": 0,
+      "end": 171,
+      "locator": {
+       "sheet": "Тарифы",
+       "range": "A3:D5"
+      },
+      "locator_text": "лист «Тарифы», объединённые ячейки A3:D5",
+      "section_orig": "Тарифы",
+      "section_ru": "Тарифы",
+      "translation": "original_ru",
+      "handling": "Действующий материал."
+     }
+    ]
+   },
+   {
+    "rank": 2,
+    "chunk_id": "file-limits::chunk-04",
+    "text": "Лист «Тарифы»: Размер одного вложения\n\nТариф: Enterprise; Предел файла: 250; Единица: MiB; Применение: Один файл",
+    "metadata": {
+     "source_path": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+     "title_orig": "Размер одного вложения",
+     "updated": "2026-09-01",
+     "title": "Размер одного вложения",
+     "chunk_sha256": "23e20a570ab9c9c665a1aa493169de6b41d75b13d0f41c1e8d395d6005b9a22c",
+     "token_count": 45,
+     "fragment_ids": "29-001,29-006",
+     "document_sha256": "737b259e9b39a9312331ee1b0d9a9e412d77098276b5ef63f17ab9ff829febac",
+     "line_end": 0,
+     "section": "Тарифы",
+     "title_source": "inventory.title",
+     "trust": "confirmed",
+     "line_start": 0,
+     "page_start": 0,
+     "page_end": 0,
+     "format": "xlsx",
+     "locator": "лист «Тарифы», строка 10, ячейки A10:D10",
+     "document_id": "file-limits",
+     "version": "2026-09-01",
+     "source_lang": "ru",
+     "is_translation": false,
+     "conflict_group": "",
+     "related": "23 3",
+     "owner": "Workspace Platform"
+    },
+    "distance": 0.163207,
+    "provenance": [
+     {
+      "fragment_id": "29-001",
+      "role": "context",
+      "start": 0,
+      "end": 37,
+      "locator": {
+       "sheet": "Тарифы",
+       "range": "A1:D2"
+      },
+      "locator_text": "лист «Тарифы», объединённые ячейки A1:D2",
+      "section_orig": "Тарифы",
+      "section_ru": "Тарифы",
+      "translation": "original_ru",
+      "handling": "Действующий материал."
+     },
+     {
+      "fragment_id": "29-006",
+      "role": "content",
+      "start": 39,
+      "end": 112,
+      "locator": {
+       "sheet": "Тарифы",
+       "row": 10,
+       "range": "A10:D10"
+      },
+      "locator_text": "лист «Тарифы», строка 10, ячейки A10:D10",
+      "section_orig": "Тарифы",
+      "section_ru": "Тарифы",
+      "translation": "original_ru",
+      "cells": [
+       {
+        "ref": "A10",
+        "header": "Тариф",
+        "header_ru": "Тариф",
+        "value": "Enterprise",
+        "value_ru": "Enterprise"
+       },
+       {
+        "ref": "B10",
+        "header": "Предел файла",
+        "header_ru": "Предел файла",
+        "value": "250",
+        "value_ru": "250"
+       },
+       {
+        "ref": "C10",
+        "header": "Единица",
+        "header_ru": "Единица",
+        "value": "MiB",
+        "value_ru": "MiB"
+       },
+       {
+        "ref": "D10",
+        "header": "Применение",
+        "header_ru": "Применение",
+        "value": "Один файл",
+        "value_ru": "Один файл"
+       }
+      ],
+      "handling": "Действующий материал."
+     }
+    ]
+   },
+   {
+    "rank": 3,
+    "chunk_id": "file-limits::chunk-49",
+    "text": "Лист «Обсуждение»: Вопросы из обращений\n\nСитуация: Клиент спросил максимальный размер без тарифа; Что выяснили: Тариф в вопросе не указан; Следующее действие: Уточнить Starter, Team или Enterprise",
+    "metadata": {
+     "document_sha256": "737b259e9b39a9312331ee1b0d9a9e412d77098276b5ef63f17ab9ff829febac",
+     "document_id": "file-limits",
+     "version": "2026-09-01",
+     "format": "xlsx",
+     "conflict_group": "",
+     "line_end": 0,
+     "line_start": 0,
+     "title_source": "inventory.title",
+     "is_translation": false,
+     "title_orig": "Размер одного вложения",
+     "section": "Обсуждение",
+     "related": "23 3",
+     "trust": "confirmed",
+     "updated": "2026-09-01",
+     "page_end": 0,
+     "page_start": 0,
+     "fragment_ids": "29-053,29-055",
+     "locator": "лист «Обсуждение», строка 6, ячейки A6:C6",
+     "source_lang": "ru",
+     "source_path": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+     "title": "Размер одного вложения",
+     "chunk_sha256": "6fe8a6a75cb27993c0fb7613e3efaca451d8e29516225a13b0742f7aa3ac7437",
+     "token_count": 62,
+     "owner": "Workspace Platform"
+    },
+    "distance": 0.16507,
+    "provenance": [
+     {
+      "fragment_id": "29-053",
+      "role": "context",
+      "start": 0,
+      "end": 39,
+      "locator": {
+       "sheet": "Обсуждение",
+       "range": "A1:C2"
+      },
+      "locator_text": "лист «Обсуждение», объединённые ячейки A1:C2",
+      "section_orig": "Обсуждение",
+      "section_ru": "Обсуждение",
+      "translation": "original_ru",
+      "handling": "Действующий материал."
+     },
+     {
+      "fragment_id": "29-055",
+      "role": "content",
+      "start": 41,
+      "end": 196,
+      "locator": {
+       "sheet": "Обсуждение",
+       "row": 6,
+       "range": "A6:C6"
+      },
+      "locator_text": "лист «Обсуждение», строка 6, ячейки A6:C6",
+      "section_orig": "Обсуждение",
+      "section_ru": "Обсуждение",
+      "translation": "original_ru",
+      "cells": [
+       {
+        "ref": "A6",
+        "header": "Ситуация",
+        "header_ru": "Ситуация",
+        "value": "Клиент спросил максимальный размер без тарифа",
+        "value_ru": "Клиент спросил максимальный размер без тарифа"
+       },
+       {
+        "ref": "B6",
+        "header": "Что выяснили",
+        "header_ru": "Что выяснили",
+        "value": "Тариф в вопросе не указан",
+        "value_ru": "Тариф в вопросе не указан"
+       },
+       {
+        "ref": "C6",
+        "header": "Следующее действие",
+        "header_ru": "Следующее действие",
+        "value": "Уточнить Starter, Team или Enterprise",
+        "value_ru": "Уточнить Starter, Team или Enterprise"
+       }
+      ],
+      "handling": "Действующий материал."
+     }
+    ]
+   },
+   {
+    "rank": 4,
+    "chunk_id": "file-limits::chunk-23",
+    "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: сценарий 21.docx; Тариф: Team; Размер MiB: 78; Размер байт: 81788928 (формула =C18*1048576); Результат: Принят после проверки защиты",
+    "metadata": {
+     "locator": "лист «Загрузки», строка 18, ячейки A18:E18",
+     "title": "Размер одного вложения",
+     "format": "xlsx",
+     "line_start": 0,
+     "conflict_group": "",
+     "version": "2026-09-01",
+     "section": "Загрузки",
+     "fragment_ids": "29-014,29-027",
+     "trust": "confirmed",
+     "document_sha256": "737b259e9b39a9312331ee1b0d9a9e412d77098276b5ef63f17ab9ff829febac",
+     "updated": "2026-09-01",
+     "owner": "Workspace Platform",
+     "title_orig": "Размер одного вложения",
+     "is_translation": false,
+     "token_count": 70,
+     "related": "23 3",
+     "chunk_sha256": "302900a20d54ca59ec19a6e84b167ac5862153b5cb64f0d95f3f114d30fc2f49",
+     "page_start": 0,
+     "title_source": "inventory.title",
+     "line_end": 0,
+     "document_id": "file-limits",
+     "page_end": 0,
+     "source_lang": "ru",
+     "source_path": "documents/Платформа и интеграции/Лимиты файлов.xlsx"
+    },
+    "distance": 0.167253,
+    "provenance": [
+     {
+      "fragment_id": "29-014",
+      "role": "context",
+      "start": 0,
+      "end": 47,
+      "locator": {
+       "sheet": "Загрузки",
+       "range": "A1:E2"
+      },
+      "locator_text": "лист «Загрузки», объединённые ячейки A1:E2",
+      "section_orig": "Загрузки",
+      "section_ru": "Загрузки",
+      "translation": "original_ru",
+      "handling": "Действующий материал."
+     },
+     {
+      "fragment_id": "29-027",
+      "role": "content",
+      "start": 49,
+      "end": 187,
+      "locator": {
+       "sheet": "Загрузки",
+       "row": 18,
+       "range": "A18:E18"
+      },
+      "locator_text": "лист «Загрузки», строка 18, ячейки A18:E18",
+      "section_orig": "Загрузки",
+      "section_ru": "Загрузки",
+      "translation": "original_ru",
+      "cells": [
+       {
+        "ref": "A18",
+        "header": "Файл",
+        "header_ru": "Файл",
+        "value": "сценарий 21.docx",
+        "value_ru": "сценарий 21.docx"
+       },
+       {
+        "ref": "B18",
+        "header": "Тариф",
+        "header_ru": "Тариф",
+        "value": "Team",
+        "value_ru": "Team"
+       },
+       {
+        "ref": "C18",
+        "header": "Размер MiB",
+        "header_ru": "Размер MiB",
+        "value": "78",
+        "value_ru": "78"
+       },
+       {
+        "ref": "D18",
+        "header": "Размер байт",
+        "header_ru": "Размер байт",
+        "value": "81788928 (формула =C18*1048576)",
+        "value_ru": "81788928 (формула =C18*1048576)"
+       },
+       {
+        "ref": "E18",
+        "header": "Результат",
+        "header_ru": "Результат",
+        "value": "Принят после проверки защиты",
+        "value_ru": "Принят после проверки защиты"
+       }
+      ],
+      "handling": "Действующий материал."
+     }
+    ]
+   },
+   {
+    "rank": 5,
+    "chunk_id": "file-limits::chunk-03",
+    "text": "Лист «Тарифы»: Размер одного вложения\n\nТариф: Team; Предел файла: 100; Единица: MiB; Применение: Один файл",
+    "metadata": {
+     "source_path": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+     "line_end": 0,
+     "section": "Тарифы",
+     "title_orig": "Размер одного вложения",
+     "updated": "2026-09-01",
+     "token_count": 45,
+     "document_sha256": "737b259e9b39a9312331ee1b0d9a9e412d77098276b5ef63f17ab9ff829febac",
+     "trust": "confirmed",
+     "source_lang": "ru",
+     "owner": "Workspace Platform",
+     "is_translation": false,
+     "related": "23 3",
+     "page_end": 0,
+     "version": "2026-09-01",
+     "format": "xlsx",
+     "document_id": "file-limits",
+     "page_start": 0,
+     "chunk_sha256": "35a6bbfb3162997157c4face1c7e3145e25b94a27d02080abbb43c1c3a594057",
+     "line_start": 0,
+     "fragment_ids": "29-001,29-005",
+     "conflict_group": "",
+     "title": "Размер одного вложения",
+     "locator": "лист «Тарифы», строка 9, ячейки A9:D9",
+     "title_source": "inventory.title"
+    },
+    "distance": 0.167381,
+    "provenance": [
+     {
+      "fragment_id": "29-001",
+      "role": "context",
+      "start": 0,
+      "end": 37,
+      "locator": {
+       "sheet": "Тарифы",
+       "range": "A1:D2"
+      },
+      "locator_text": "лист «Тарифы», объединённые ячейки A1:D2",
+      "section_orig": "Тарифы",
+      "section_ru": "Тарифы",
+      "translation": "original_ru",
+      "handling": "Действующий материал."
+     },
+     {
+      "fragment_id": "29-005",
+      "role": "content",
+      "start": 39,
+      "end": 106,
+      "locator": {
+       "sheet": "Тарифы",
+       "row": 9,
+       "range": "A9:D9"
+      },
+      "locator_text": "лист «Тарифы», строка 9, ячейки A9:D9",
+      "section_orig": "Тарифы",
+      "section_ru": "Тарифы",
+      "translation": "original_ru",
+      "cells": [
+       {
+        "ref": "A9",
+        "header": "Тариф",
+        "header_ru": "Тариф",
+        "value": "Team",
+        "value_ru": "Team"
+       },
+       {
+        "ref": "B9",
+        "header": "Предел файла",
+        "header_ru": "Предел файла",
+        "value": "100",
+        "value_ru": "100"
+       },
+       {
+        "ref": "C9",
+        "header": "Единица",
+        "header_ru": "Единица",
+        "value": "MiB",
+        "value_ru": "MiB"
+       },
+       {
+        "ref": "D9",
+        "header": "Применение",
+        "header_ru": "Применение",
+        "value": "Один файл",
+        "value_ru": "Один файл"
+       }
+      ],
+      "handling": "Действующий материал."
+     }
+    ]
+   },
+   {
+    "rank": 6,
+    "chunk_id": "file-limits::chunk-33",
+    "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: обложка 31.pdf; Тариф: Enterprise; Размер MiB: 199; Размер байт: 208666624 (формула =C28*1048576); Результат: Принят после проверки защиты",
+    "metadata": {
+     "version": "2026-09-01",
+     "source_lang": "ru",
+     "document_sha256": "737b259e9b39a9312331ee1b0d9a9e412d77098276b5ef63f17ab9ff829febac",
+     "owner": "Workspace Platform",
+     "is_translation": false,
+     "section": "Загрузки",
+     "line_end": 0,
+     "source_path": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+     "format": "xlsx",
+     "document_id": "file-limits",
+     "title_orig": "Размер одного вложения",
+     "token_count": 71,
+     "title": "Размер одного вложения",
+     "conflict_group": "",
+     "line_start": 0,
+     "updated": "2026-09-01",
+     "related": "23 3",
+     "chunk_sha256": "8a43255d7714ec4a90beb78505268955e195e04147094460b610d10f02fa2d34",
+     "trust": "confirmed",
+     "fragment_ids": "29-014,29-037",
+     "locator": "лист «Загрузки», строка 28, ячейки A28:E28",
+     "title_source": "inventory.title",
+     "page_start": 0,
+     "page_end": 0
+    },
+    "distance": 0.167726,
+    "provenance": [
+     {
+      "fragment_id": "29-014",
+      "role": "context",
+      "start": 0,
+      "end": 47,
+      "locator": {
+       "sheet": "Загрузки",
+       "range": "A1:E2"
+      },
+      "locator_text": "лист «Загрузки», объединённые ячейки A1:E2",
+      "section_orig": "Загрузки",
+      "section_ru": "Загрузки",
+      "translation": "original_ru",
+      "handling": "Действующий материал."
+     },
+     {
+      "fragment_id": "29-037",
+      "role": "content",
+      "start": 49,
+      "end": 193,
+      "locator": {
+       "sheet": "Загрузки",
+       "row": 28,
+       "range": "A28:E28"
+      },
+      "locator_text": "лист «Загрузки», строка 28, ячейки A28:E28",
+      "section_orig": "Загрузки",
+      "section_ru": "Загрузки",
+      "translation": "original_ru",
+      "cells": [
+       {
+        "ref": "A28",
+        "header": "Файл",
+        "header_ru": "Файл",
+        "value": "обложка 31.pdf",
+        "value_ru": "обложка 31.pdf"
+       },
+       {
+        "ref": "B28",
+        "header": "Тариф",
+        "header_ru": "Тариф",
+        "value": "Enterprise",
+        "value_ru": "Enterprise"
+       },
+       {
+        "ref": "C28",
+        "header": "Размер MiB",
+        "header_ru": "Размер MiB",
+        "value": "199",
+        "value_ru": "199"
+       },
+       {
+        "ref": "D28",
+        "header": "Размер байт",
+        "header_ru": "Размер байт",
+        "value": "208666624 (формула =C28*1048576)",
+        "value_ru": "208666624 (формула =C28*1048576)"
+       },
+       {
+        "ref": "E28",
+        "header": "Результат",
+        "header_ru": "Результат",
+        "value": "Принят после проверки защиты",
+        "value_ru": "Принят после проверки защиты"
+       }
+      ],
+      "handling": "Действующий материал."
+     }
+    ]
+   },
+   {
+    "rank": 7,
+    "chunk_id": "file-limits::chunk-27",
+    "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: обложка 25.docx; Тариф: Enterprise; Размер MiB: 99; Размер байт: 103809024 (формула =C22*1048576); Результат: Принят после проверки защиты",
+    "metadata": {
+     "title": "Размер одного вложения",
+     "page_start": 0,
+     "owner": "Workspace Platform",
+     "document_id": "file-limits",
+     "document_sha256": "737b259e9b39a9312331ee1b0d9a9e412d77098276b5ef63f17ab9ff829febac",
+     "chunk_sha256": "083dd46fb6efec467b478ea0c2b91b202bbdff9ad8923c475afa1c7e368175d8",
+     "page_end": 0,
+     "source_lang": "ru",
+     "token_count": 72,
+     "format": "xlsx",
+     "line_start": 0,
+     "source_path": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+     "is_translation": false,
+     "trust": "confirmed",
+     "title_source": "inventory.title",
+     "fragment_ids": "29-014,29-031",
+     "title_orig": "Размер одного вложения",
+     "version": "2026-09-01",
+     "updated": "2026-09-01",
+     "related": "23 3",
+     "line_end": 0,
+     "section": "Загрузки",
+     "locator": "лист «Загрузки», строка 22, ячейки A22:E22",
+     "conflict_group": ""
+    },
+    "distance": 0.1681,
+    "provenance": [
+     {
+      "fragment_id": "29-014",
+      "role": "context",
+      "start": 0,
+      "end": 47,
+      "locator": {
+       "sheet": "Загрузки",
+       "range": "A1:E2"
+      },
+      "locator_text": "лист «Загрузки», объединённые ячейки A1:E2",
+      "section_orig": "Загрузки",
+      "section_ru": "Загрузки",
+      "translation": "original_ru",
+      "handling": "Действующий материал."
+     },
+     {
+      "fragment_id": "29-031",
+      "role": "content",
+      "start": 49,
+      "end": 193,
+      "locator": {
+       "sheet": "Загрузки",
+       "row": 22,
+       "range": "A22:E22"
+      },
+      "locator_text": "лист «Загрузки», строка 22, ячейки A22:E22",
+      "section_orig": "Загрузки",
+      "section_ru": "Загрузки",
+      "translation": "original_ru",
+      "cells": [
+       {
+        "ref": "A22",
+        "header": "Файл",
+        "header_ru": "Файл",
+        "value": "обложка 25.docx",
+        "value_ru": "обложка 25.docx"
+       },
+       {
+        "ref": "B22",
+        "header": "Тариф",
+        "header_ru": "Тариф",
+        "value": "Enterprise",
+        "value_ru": "Enterprise"
+       },
+       {
+        "ref": "C22",
+        "header": "Размер MiB",
+        "header_ru": "Размер MiB",
+        "value": "99",
+        "value_ru": "99"
+       },
+       {
+        "ref": "D22",
+        "header": "Размер байт",
+        "header_ru": "Размер байт",
+        "value": "103809024 (формула =C22*1048576)",
+        "value_ru": "103809024 (формула =C22*1048576)"
+       },
+       {
+        "ref": "E22",
+        "header": "Результат",
+        "header_ru": "Результат",
+        "value": "Принят после проверки защиты",
+        "value_ru": "Принят после проверки защиты"
+       }
+      ],
+      "handling": "Действующий материал."
+     }
+    ]
+   },
+   {
+    "rank": 8,
+    "chunk_id": "file-limits::chunk-06",
+    "text": "Лист «Тарифы»: Размер одного вложения\n\nТариф: Имя файла; Предел файла: 180; Единица: символов; Применение: Максимальная длина",
+    "metadata": {
+     "format": "xlsx",
+     "line_start": 0,
+     "document_sha256": "737b259e9b39a9312331ee1b0d9a9e412d77098276b5ef63f17ab9ff829febac",
+     "updated": "2026-09-01",
+     "title": "Размер одного вложения",
+     "locator": "лист «Тарифы», строка 12, ячейки A12:D12",
+     "source_path": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+     "source_lang": "ru",
+     "title_orig": "Размер одного вложения",
+     "section": "Тарифы",
+     "related": "23 3",
+     "token_count": 50,
+     "conflict_group": "",
+     "trust": "confirmed",
+     "chunk_sha256": "a7c2011a994ecb6c08dd32d53cb5895bd70a4d5fb25a12cb3e0b0ab684db9e86",
+     "document_id": "file-limits",
+     "owner": "Workspace Platform",
+     "is_translation": false,
+     "version": "2026-09-01",
+     "title_source": "inventory.title",
+     "page_start": 0,
+     "line_end": 0,
+     "page_end": 0,
+     "fragment_ids": "29-001,29-008"
+    },
+    "distance": 0.168401,
+    "provenance": [
+     {
+      "fragment_id": "29-001",
+      "role": "context",
+      "start": 0,
+      "end": 37,
+      "locator": {
+       "sheet": "Тарифы",
+       "range": "A1:D2"
+      },
+      "locator_text": "лист «Тарифы», объединённые ячейки A1:D2",
+      "section_orig": "Тарифы",
+      "section_ru": "Тарифы",
+      "translation": "original_ru",
+      "handling": "Действующий материал."
+     },
+     {
+      "fragment_id": "29-008",
+      "role": "content",
+      "start": 39,
+      "end": 125,
+      "locator": {
+       "sheet": "Тарифы",
+       "row": 12,
+       "range": "A12:D12"
+      },
+      "locator_text": "лист «Тарифы», строка 12, ячейки A12:D12",
+      "section_orig": "Тарифы",
+      "section_ru": "Тарифы",
+      "translation": "original_ru",
+      "cells": [
+       {
+        "ref": "A12",
+        "header": "Тариф",
+        "header_ru": "Тариф",
+        "value": "Имя файла",
+        "value_ru": "Имя файла"
+       },
+       {
+        "ref": "B12",
+        "header": "Предел файла",
+        "header_ru": "Предел файла",
+        "value": "180",
+        "value_ru": "180"
+       },
+       {
+        "ref": "C12",
+        "header": "Единица",
+        "header_ru": "Единица",
+        "value": "символов",
+        "value_ru": "символов"
+       },
+       {
+        "ref": "D12",
+        "header": "Применение",
+        "header_ru": "Применение",
+        "value": "Максимальная длина",
+        "value_ru": "Максимальная длина"
+       }
+      ],
+      "handling": "Действующий материал."
+     }
+    ]
+   }
+  ],
+  "context": "[file-limits::chunk-01] Размер одного вложения — documents/Платформа и интеграции/Лимиты файлов.xlsx, лист «Тарифы», объединённые ячейки A3:D5\nWorkspace Platform подтвердил эти значения 1 сентября 2026 года. Сначала уточните тариф рабочего пространства. Размер хранилища и размер одного файла — разные ограничения.\n\n[file-limits::chunk-04] Размер одного вложения — documents/Платформа и интеграции/Лимиты файлов.xlsx, лист «Тарифы», строка 10, ячейки A10:D10\nЛист «Тарифы»: Размер одного вложения\n\nТариф: Enterprise; Предел файла: 250; Единица: MiB; Применение: Один файл\n\n[file-limits::chunk-49] Размер одного вложения — documents/Платформа и интеграции/Лимиты файлов.xlsx, лист «Обсуждение», строка 6, ячейки A6:C6\nЛист «Обсуждение»: Вопросы из обращений\n\nСитуация: Клиент спросил максимальный размер без тарифа; Что выяснили: Тариф в вопросе не указан; Следующее действие: Уточнить Starter, Team или Enterprise\n\n[file-limits::chunk-23] Размер одного вложения — documents/Платформа и интеграции/Лимиты файлов.xlsx, лист «Загрузки», строка 18, ячейки A18:E18\nЛист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: сценарий 21.docx; Тариф: Team; Размер MiB: 78; Размер байт: 81788928 (формула =C18*1048576); Результат: Принят после проверки защиты\n\n[file-limits::chunk-03] Размер одного вложения — documents/Платформа и интеграции/Лимиты файлов.xlsx, лист «Тарифы», строка 9, ячейки A9:D9\nЛист «Тарифы»: Размер одного вложения\n\nТариф: Team; Предел файла: 100; Единица: MiB; Применение: Один файл\n\n[file-limits::chunk-33] Размер одного вложения — documents/Платформа и интеграции/Лимиты файлов.xlsx, лист «Загрузки», строка 28, ячейки A28:E28\nЛист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: обложка 31.pdf; Тариф: Enterprise; Размер MiB: 199; Размер байт: 208666624 (формула =C28*1048576); Результат: Принят после проверки защиты\n\n[file-limits::chunk-27] Размер одного вложения — documents/Платформа и интеграции/Лимиты файлов.xlsx, лист «Загрузки», строка 22, ячейки A22:E22\nЛист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: обложка 25.docx; Тариф: Enterprise; Размер MiB: 99; Размер байт: 103809024 (формула =C22*1048576); Результат: Принят после проверки защиты\n\n[file-limits::chunk-06] Размер одного вложения — documents/Платформа и интеграции/Лимиты файлов.xlsx, лист «Тарифы», строка 12, ячейки A12:D12\nЛист «Тарифы»: Размер одного вложения\n\nТариф: Имя файла; Предел файла: 180; Единица: символов; Применение: Максимальная длина",
+  "context_chunk_ids": [
+   "file-limits::chunk-01",
+   "file-limits::chunk-04",
+   "file-limits::chunk-49",
+   "file-limits::chunk-23",
+   "file-limits::chunk-03",
+   "file-limits::chunk-33",
+   "file-limits::chunk-27",
+   "file-limits::chunk-06"
+  ],
+  "retrieval_trace_path": "evidence/retrieval-trace-q-20261118T205609Z-f995ab.json",
+  "output_path": "evidence/retrieval-a-q08-agent.json"
+ },
+ "context": "[file-limits::chunk-01] Размер одного вложения — documents/Платформа и интеграции/Лимиты файлов.xlsx, лист «Тарифы», объединённые ячейки A3:D5\nWorkspace Platform подтвердил эти значения 1 сентября 2026 года. Сначала уточните тариф рабочего пространства. Размер хранилища и размер одного файла — разные ограничения.\n\n[file-limits::chunk-04] Размер одного вложения — documents/Платформа и интеграции/Лимиты файлов.xlsx, лист «Тарифы», строка 10, ячейки A10:D10\nЛист «Тарифы»: Размер одного вложения\n\nТариф: Enterprise; Предел файла: 250; Единица: MiB; Применение: Один файл\n\n[file-limits::chunk-49] Размер одного вложения — documents/Платформа и интеграции/Лимиты файлов.xlsx, лист «Обсуждение», строка 6, ячейки A6:C6\nЛист «Обсуждение»: Вопросы из обращений\n\nСитуация: Клиент спросил максимальный размер без тарифа; Что выяснили: Тариф в вопросе не указан; Следующее действие: Уточнить Starter, Team или Enterprise\n\n[file-limits::chunk-23] Размер одного вложения — documents/Платформа и интеграции/Лимиты файлов.xlsx, лист «Загрузки», строка 18, ячейки A18:E18\nЛист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: сценарий 21.docx; Тариф: Team; Размер MiB: 78; Размер байт: 81788928 (формула =C18*1048576); Результат: Принят после проверки защиты\n\n[file-limits::chunk-03] Размер одного вложения — documents/Платформа и интеграции/Лимиты файлов.xlsx, лист «Тарифы», строка 9, ячейки A9:D9\nЛист «Тарифы»: Размер одного вложения\n\nТариф: Team; Предел файла: 100; Единица: MiB; Применение: Один файл\n\n[file-limits::chunk-33] Размер одного вложения — documents/Платформа и интеграции/Лимиты файлов.xlsx, лист «Загрузки», строка 28, ячейки A28:E28\nЛист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: обложка 31.pdf; Тариф: Enterprise; Размер MiB: 199; Размер байт: 208666624 (формула =C28*1048576); Результат: Принят после проверки защиты\n\n[file-limits::chunk-27] Размер одного вложения — documents/Платформа и интеграции/Лимиты файлов.xlsx, лист «Загрузки», строка 22, ячейки A22:E22\nЛист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: обложка 25.docx; Тариф: Enterprise; Размер MiB: 99; Размер байт: 103809024 (формула =C22*1048576); Результат: Принят после проверки защиты\n\n[file-limits::chunk-06] Размер одного вложения — documents/Платформа и интеграции/Лимиты файлов.xlsx, лист «Тарифы», строка 12, ячейки A12:D12\nЛист «Тарифы»: Размер одного вложения\n\nТариф: Имя файла; Предел файла: 180; Единица: символов; Применение: Максимальная длина",
+ "raw_answer": {
+  "answer": "Уточните, пожалуйста, тариф рабочего пространства: предел одного вложения зависит от тарифа, а в вопросе он не указан. По найденным данным (documents/Платформа и интеграции/Лимиты файлов.xlsx, лист «Тарифы») для Team — 100 MiB на один файл (ячейки A9:D9), для Enterprise — 250 MiB на один файл (A10:D10); значение для Starter в найденных фрагментах отсутствует. Таблица прямо требует сначала уточнить тариф (A3:D5), а для обращения без тарифа — уточнить Starter, Team или Enterprise (лист «Обсуждение», A6:C6). Размер хранилища и размер одного файла — разные ограничения.",
+  "citations": [
+   {
+    "document_id": "file-limits",
+    "chunk_id": "file-limits::chunk-01",
+    "quote": "Сначала уточните тариф рабочего пространства. Размер хранилища и размер одного файла — разные ограничения."
+   },
+   {
+    "document_id": "file-limits",
+    "chunk_id": "file-limits::chunk-49",
+    "quote": "Следующее действие: Уточнить Starter, Team или Enterprise"
+   },
+   {
+    "document_id": "file-limits",
+    "chunk_id": "file-limits::chunk-03",
+    "quote": "Тариф: Team; Предел файла: 100; Единица: MiB; Применение: Один файл"
+   },
+   {
+    "document_id": "file-limits",
+    "chunk_id": "file-limits::chunk-04",
+    "quote": "Тариф: Enterprise; Предел файла: 250; Единица: MiB; Применение: Один файл"
+   }
+  ],
+  "decision": "clarify"
+ },
+ "verification": {
+  "status": "passed",
+  "errors": [],
+  "citations_checked": 4
+ },
+ "result_path": "evidence/result-cap-20261118T205932Z-c4642d.json"
+}

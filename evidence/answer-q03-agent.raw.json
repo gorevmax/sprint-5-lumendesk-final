@@ -1,0 +1,13 @@
+{
+ "answer": "Обычные обратные звонки во Франции доступны с понедельника по пятницу с 09:00 до 17:00 Europe/Paris (documents/Франция/Rappels et jours fériés.pdf, стр. 1). 14 июля обычные обратные звонки не проводятся (тот же PDF, стр. 1; documents/Франция/organisation/Calendrier support 2026.docx, раздел «Дни и часы», абзац 5); письменная форма остаётся доступной в праздничные дни (там же, абзац 8). Исключение 14 июля — инцидент P1 по договору Enterprise: обратный звонок остаётся возможным и выполняется не позднее чем через 45 минут после подтверждения контактного номера (PDF, стр. 1). Это исключение не распространяется на простой вопрос о настройке или на другой тариф (PDF, стр. 2). Оба документа переведены с французского; оригинал указанных мест приведён в result.",
+ "citations": [
+  {"document_id": "callbacks-fr", "chunk_id": "callbacks-fr::chunk-02", "quote": "Обычные обратные звонки доступны с понедельника по пятницу с 09:00 до 17:00 Europe/Paris."},
+  {"document_id": "callbacks-fr", "chunk_id": "callbacks-fr::chunk-02", "quote": "14 июля обычные обратные звонки не предлагаются."},
+  {"document_id": "support-calendar-fr", "chunk_id": "support-calendar-fr::chunk-02", "quote": "Обычные обратные звонки не проводятся 14 июля."},
+  {"document_id": "support-calendar-fr", "chunk_id": "support-calendar-fr::chunk-02", "quote": "Форма остаётся доступной в праздничные дни."},
+  {"document_id": "callbacks-fr", "chunk_id": "callbacks-fr::chunk-02", "quote": "Инцидент P1 по договору Enterprise остаётся основанием для обратного звонка 14 июля."},
+  {"document_id": "callbacks-fr", "chunk_id": "callbacks-fr::chunk-02", "quote": "Для этого исключения P1 Enterprise обратный звонок выполняется не позднее чем через 45 минут после подтверждения контактного номера."},
+  {"document_id": "callbacks-fr", "chunk_id": "callbacks-fr::chunk-05", "quote": "Не распространяйте это исключение на простой вопрос о настройке или на другой тариф."}
+ ],
+ "decision": "answer"
+}

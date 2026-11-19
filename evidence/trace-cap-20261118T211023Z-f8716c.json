@@ -1,0 +1,266 @@
+{
+ "capture_id": "cap-20261118T211023Z-f8716c",
+ "created_at": "2026-11-18T21:10:23Z",
+ "question": "Какие внутренние пороги используются для проверки злоупотреблений?",
+ "role": "support_agent",
+ "index_id": "idx-20261118T202118Z-d51167",
+ "policy": {
+  "version": "v3",
+  "retrieval_threshold": 0.2,
+  "authorization_probe_distance": 0.35,
+  "top_k": 8,
+  "config_path": "behavior/v3.json",
+  "config_sha256": "fb9c58195459e0f13fdcf87b80ce3255c6df888ee819d292a1a1536b6f67d82d",
+  "system_file": "behavior/system-v3.md",
+  "system_sha256": "7bfb0b5462c7c2e7dcab75888f8fd12595cb398932f81bd3fa26eb55ceb4b137",
+  "lexical_extra": 2,
+  "lexical_pool": 40,
+  "lexical_stem": 6,
+  "forbidden_rule": "probe_and_closer_than_allowed"
+ },
+ "profile": {
+  "model_id": "intfloat/multilingual-e5-base",
+  "dimension": 768,
+  "device": "cpu",
+  "normalize_embeddings": true,
+  "passage_prefix": "passage: ",
+  "query_prefix": "query: ",
+  "embedding_text": "title_ru + '\\n' + chunk text (NFC, пробелы схлопнуты); префикс добавляется один раз при encode",
+  "text_normalization": "NFC + whitespace collapse, только для эмбеддингов",
+  "chunker": "structural-v1",
+  "chunk_rule": "введение и разделы H2 (лист для xlsx), по границам подготовленных фрагментов; строка таблицы — отдельный чанк с названием листа",
+  "chunk_token_limit": 384,
+  "chunk_overlap": 0,
+  "query_token_limit": 512,
+  "metric": "cosine",
+  "collection": "lumendesk-support",
+  "corpus_text": "text_ru из corpus/prepared (русский оригинал или проверенный перевод)"
+ },
+ "retrieval": {
+  "status": "retrieval_only",
+  "query_id": "q-20261118T210626Z-dbea0b",
+  "created_at": "2026-11-18T21:06:26Z",
+  "index_id": "idx-20261118T202118Z-d51167",
+  "question": "Какие внутренние пороги используются для проверки злоупотреблений?",
+  "question_tokens": 17,
+  "role": "support_agent",
+  "top_k": 8,
+  "policy": {
+   "version": "v3",
+   "retrieval_threshold": 0.2,
+   "authorization_probe_distance": 0.35,
+   "top_k": 8,
+   "config_path": "behavior/v3.json",
+   "config_sha256": "fb9c58195459e0f13fdcf87b80ce3255c6df888ee819d292a1a1536b6f67d82d",
+   "system_file": "behavior/system-v3.md",
+   "system_sha256": "7bfb0b5462c7c2e7dcab75888f8fd12595cb398932f81bd3fa26eb55ceb4b137",
+   "lexical_extra": 2,
+   "lexical_pool": 40,
+   "lexical_stem": 6,
+   "forbidden_rule": "probe_and_closer_than_allowed"
+  },
+  "collection": "lumendesk-support",
+  "metric": "cosine",
+  "context_state": "forbidden",
+  "filtering": {
+   "role": "support_agent",
+   "allowed_documents": 39,
+   "n_results": 40,
+   "candidates": 40,
+   "admitted": 0,
+   "rejected_by_threshold": [
+    {
+     "chunk_id": "marketplace-catalogue::chunk-38",
+     "distance": 0.216362
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-39",
+     "distance": 0.216649
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-36",
+     "distance": 0.217059
+    },
+    {
+     "chunk_id": "saml-parameters::chunk-02",
+     "distance": 0.218863
+    },
+    {
+     "chunk_id": "saml-parameters::chunk-06",
+     "distance": 0.220873
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-37",
+     "distance": 0.222616
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-14",
+     "distance": 0.223497
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-18",
+     "distance": 0.223851
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-13",
+     "distance": 0.224796
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-19",
+     "distance": 0.22523
+    },
+    {
+     "chunk_id": "saml-parameters::chunk-24",
+     "distance": 0.225233
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-11",
+     "distance": 0.225478
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-40",
+     "distance": 0.225836
+    },
+    {
+     "chunk_id": "saml-parameters::chunk-12",
+     "distance": 0.226038
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-16",
+     "distance": 0.226041
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-24",
+     "distance": 0.22637
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-23",
+     "distance": 0.226776
+    },
+    {
+     "chunk_id": "saml-parameters::chunk-14",
+     "distance": 0.227142
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-28",
+     "distance": 0.227676
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-29",
+     "distance": 0.228436
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-21",
+     "distance": 0.228481
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-33",
+     "distance": 0.228859
+    },
+    {
+     "chunk_id": "saml-parameters::chunk-26",
+     "distance": 0.22906
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-34",
+     "distance": 0.229379
+    },
+    {
+     "chunk_id": "saml-parameters::chunk-08",
+     "distance": 0.230073
+    },
+    {
+     "chunk_id": "saml-incident-escalation::chunk-04",
+     "distance": 0.23009
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-26",
+     "distance": 0.230167
+    },
+    {
+     "chunk_id": "saml-parameters::chunk-04",
+     "distance": 0.230389
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-12",
+     "distance": 0.230442
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-22",
+     "distance": 0.231142
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-15",
+     "distance": 0.231298
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-31",
+     "distance": 0.231468
+    },
+    {
+     "chunk_id": "saml-cutover-notes::chunk-04",
+     "distance": 0.23178
+    },
+    {
+     "chunk_id": "saml-parameters::chunk-18",
+     "distance": 0.232037
+    },
+    {
+     "chunk_id": "saml-parameters::chunk-13",
+     "distance": 0.232174
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-17",
+     "distance": 0.2324
+    },
+    {
+     "chunk_id": "api-errors::chunk-01",
+     "distance": 0.232502
+    },
+    {
+     "chunk_id": "saml-parameters::chunk-10",
+     "distance": 0.232606
+    },
+    {
+     "chunk_id": "marketplace-catalogue::chunk-20",
+     "distance": 0.232628
+    },
+    {
+     "chunk_id": "saml-parameters::chunk-11",
+     "distance": 0.232758
+    }
+   ],
+   "retrieval_threshold": 0.2,
+   "restricted_probe": {
+    "checked": true,
+    "denied_documents": 3,
+    "nearest_distance": 0.202245,
+    "within_probe": 8,
+    "probe_distance": 0.35,
+    "closer_than_best_admitted": 8,
+    "rule": "probe_and_closer_than_allowed"
+   },
+   "best_allowed_distance": 0.216362,
+   "lexical_added": [],
+   "within_threshold_not_selected": 0,
+   "note": "available не доказывает полноту; empty не является технической ошибкой; forbidden не раскрывает закрытый источник"
+  },
+  "hits": [],
+  "context": "",
+  "context_chunk_ids": [],
+  "retrieval_trace_path": "evidence/retrieval-trace-q-20261118T210626Z-dbea0b.json",
+  "output_path": "evidence/retrieval-b-q07-agent.json"
+ },
+ "context": "",
+ "raw_answer": {
+  "answer": "Для роли support_agent сведений нет: среди разрешённых этой роли документов поиск не нашёл подходящих фрагментов (все кандидаты дальше порога 0,20), а близкие фрагменты есть только в материалах, закрытых для этой роли (context_state = forbidden). Содержание закрытых материалов не раскрывается. По вопросу о внутренних порогах проверки злоупотреблений обратитесь к руководителю поддержки.",
+  "citations": [],
+  "decision": "refuse"
+ },
+ "verification": {
+  "status": "passed",
+  "errors": [],
+  "citations_checked": 0
+ },
+ "result_path": "evidence/result-cap-20261118T211023Z-f8716c.json"
+}

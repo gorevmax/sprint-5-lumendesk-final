@@ -1,0 +1,11 @@
+{
+ "answer": "Уточните, пожалуйста, тариф рабочего пространства: предел одного вложения зависит от тарифа, а в вопросе он не указан. По documents/Платформа и интеграции/Лимиты файлов.xlsx, лист «Тарифы»: Starter — 25 MiB (ячейки A8:D8), Team — 100 MiB (A9:D9), Enterprise — 250 MiB (A10:D10), во всех случаях на один файл. Таблица прямо требует сначала уточнить тариф (A3:D5), а для обращения без тарифа — уточнить Starter, Team или Enterprise (лист «Обсуждение», C6). Размер хранилища и размер одного файла — разные ограничения.",
+ "citations": [
+  {"document_id": "file-limits", "chunk_id": "file-limits::chunk-01", "quote": "Сначала уточните тариф рабочего пространства. Размер хранилища и размер одного файла — разные ограничения."},
+  {"document_id": "file-limits", "chunk_id": "file-limits::chunk-49", "quote": "Следующее действие: Уточнить Starter, Team или Enterprise"},
+  {"document_id": "file-limits", "chunk_id": "file-limits::chunk-02", "quote": "Тариф: Starter; Предел файла: 25; Единица: MiB; Применение: Один файл"},
+  {"document_id": "file-limits", "chunk_id": "file-limits::chunk-03", "quote": "Тариф: Team; Предел файла: 100; Единица: MiB; Применение: Один файл"},
+  {"document_id": "file-limits", "chunk_id": "file-limits::chunk-04", "quote": "Тариф: Enterprise; Предел файла: 250; Единица: MiB; Применение: Один файл"}
+ ],
+ "decision": "clarify"
+}

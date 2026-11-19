@@ -1,0 +1,274 @@
+{
+ "capture_id": "cap-20261118T205900Z-f4a2ab",
+ "question": "Когда доступен обратный звонок во Франции и что меняется 14 июля?",
+ "role": "support_agent",
+ "citations": [
+  {
+   "citation_index": 0,
+   "document_id": "callbacks-fr",
+   "chunk_id": "callbacks-fr::chunk-02",
+   "quote": "Обычные обратные звонки доступны с понедельника по пятницу с 09:00 до 17:00 Europe/Paris.",
+   "rank": 3,
+   "distance": 0.122268,
+   "title": "Обратные телефонные звонки во Франции",
+   "title_orig": "Rappels téléphoniques en France",
+   "source_path": "documents/Франция/Rappels et jours fériés.pdf",
+   "section": "Доступность",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Support France",
+   "source_lang": "fr",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "49-005",
+     "location": {
+      "file": "documents/Франция/Rappels et jours fériés.pdf",
+      "format": "pdf",
+      "fragment_id": "49-005",
+      "pages": [
+       1
+      ],
+      "block": 5,
+      "where": "стр. 1"
+     },
+     "translation": "translated",
+     "original_excerpt": "Les rappels ordinaires sont disponibles du lundi au vendredi de 09:00 à 17:00 Europe/Paris.",
+     "original_cells": null,
+     "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": [
+      {
+       "fragment_id": "50-007",
+       "jaccard": 0.75
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "citation_index": 1,
+   "document_id": "callbacks-fr",
+   "chunk_id": "callbacks-fr::chunk-02",
+   "quote": "14 июля обычные обратные звонки не предлагаются.",
+   "rank": 3,
+   "distance": 0.122268,
+   "title": "Обратные телефонные звонки во Франции",
+   "title_orig": "Rappels téléphoniques en France",
+   "source_path": "documents/Франция/Rappels et jours fériés.pdf",
+   "section": "Доступность",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Support France",
+   "source_lang": "fr",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "49-006",
+     "location": {
+      "file": "documents/Франция/Rappels et jours fériés.pdf",
+      "format": "pdf",
+      "fragment_id": "49-006",
+      "pages": [
+       1
+      ],
+      "block": 6,
+      "where": "стр. 1"
+     },
+     "translation": "translated",
+     "original_excerpt": "Le 14 juillet, aucun rappel ordinaire n’est proposé.",
+     "original_cells": null,
+     "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 2,
+   "document_id": "support-calendar-fr",
+   "chunk_id": "support-calendar-fr::chunk-02",
+   "quote": "Обычные обратные звонки не проводятся 14 июля.",
+   "rank": 2,
+   "distance": 0.115708,
+   "title": "Календарь поддержки во Франции",
+   "title_orig": "Calendrier du support en France",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "section": "Дни и часы",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Support France",
+   "source_lang": "fr",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "50-005",
+     "location": {
+      "file": "documents/Франция/organisation/Calendrier support 2026.docx",
+      "format": "docx",
+      "fragment_id": "50-005",
+      "section": "Jours et horaires",
+      "paragraph": 5,
+      "where": "раздел «Jours et horaires», абзац 5"
+     },
+     "translation": "translated",
+     "original_excerpt": "Les rappels ordinaires sont fermés le 14 juillet.",
+     "original_cells": null,
+     "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 3,
+   "document_id": "support-calendar-fr",
+   "chunk_id": "support-calendar-fr::chunk-02",
+   "quote": "Форма остаётся доступной в праздничные дни.",
+   "rank": 2,
+   "distance": 0.115708,
+   "title": "Календарь поддержки во Франции",
+   "title_orig": "Calendrier du support en France",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "section": "Дни и часы",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Support France",
+   "source_lang": "fr",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "50-008",
+     "location": {
+      "file": "documents/Франция/organisation/Calendrier support 2026.docx",
+      "format": "docx",
+      "fragment_id": "50-008",
+      "section": "Jours et horaires",
+      "paragraph": 8,
+      "where": "раздел «Jours et horaires», абзац 8"
+     },
+     "translation": "translated",
+     "original_excerpt": "Le formulaire reste accessible pendant les jours fériés.",
+     "original_cells": null,
+     "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 4,
+   "document_id": "callbacks-fr",
+   "chunk_id": "callbacks-fr::chunk-02",
+   "quote": "Инцидент P1 по договору Enterprise остаётся основанием для обратного звонка 14 июля.",
+   "rank": 3,
+   "distance": 0.122268,
+   "title": "Обратные телефонные звонки во Франции",
+   "title_orig": "Rappels téléphoniques en France",
+   "source_path": "documents/Франция/Rappels et jours fériés.pdf",
+   "section": "Доступность",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Support France",
+   "source_lang": "fr",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "49-007",
+     "location": {
+      "file": "documents/Франция/Rappels et jours fériés.pdf",
+      "format": "pdf",
+      "fragment_id": "49-007",
+      "pages": [
+       1
+      ],
+      "block": 7,
+      "where": "стр. 1"
+     },
+     "translation": "translated",
+     "original_excerpt": "Un incident P1 sur un contrat Enterprise reste éligible au rappel le 14 juillet.",
+     "original_cells": null,
+     "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 5,
+   "document_id": "callbacks-fr",
+   "chunk_id": "callbacks-fr::chunk-02",
+   "quote": "Для этого исключения P1 Enterprise обратный звонок выполняется не позднее чем через 45 минут после подтверждения контактного номера.",
+   "rank": 3,
+   "distance": 0.122268,
+   "title": "Обратные телефонные звонки во Франции",
+   "title_orig": "Rappels téléphoniques en France",
+   "source_path": "documents/Франция/Rappels et jours fériés.pdf",
+   "section": "Доступность",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Support France",
+   "source_lang": "fr",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "49-008",
+     "location": {
+      "file": "documents/Франция/Rappels et jours fériés.pdf",
+      "format": "pdf",
+      "fragment_id": "49-008",
+      "pages": [
+       1
+      ],
+      "block": 8,
+      "where": "стр. 1"
+     },
+     "translation": "translated",
+     "original_excerpt": "Pour cette exception P1 Enterprise, le rappel intervient au plus tard 45 minutes après confirmation du numéro de contact.",
+     "original_cells": null,
+     "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 6,
+   "document_id": "callbacks-fr",
+   "chunk_id": "callbacks-fr::chunk-05",
+   "quote": "Не распространяйте это исключение на простой вопрос о настройке или на другой тариф.",
+   "rank": 1,
+   "distance": 0.104027,
+   "title": "Обратные телефонные звонки во Франции",
+   "title_orig": "Rappels téléphoniques en France",
+   "source_path": "documents/Франция/Rappels et jours fériés.pdf",
+   "section": "Случай 14 июля",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Support France",
+   "source_lang": "fr",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "49-020",
+     "location": {
+      "file": "documents/Франция/Rappels et jours fériés.pdf",
+      "format": "pdf",
+      "fragment_id": "49-020",
+      "pages": [
+       2
+      ],
+      "block": 3,
+      "where": "стр. 2"
+     },
+     "translation": "translated",
+     "original_excerpt": "L’exception à traiter séparément est un incident P1 sur un contrat Enterprise. Le rappel reste possible le 14 juillet et intervient au plus tard 45 minutes après la confirmation du numéro de contact. L’heure de cette confirmation doit être conservée, car elle déclenche le délai exceptionnel. Le début du délai n’est ni l’heure d’un premier message dépourvu de numéro, ni l’heure choisie plus tard par l’agent pour compléter sa note. Ne pas étendre cette exception à une simple question de configuration ou à un autre tarif.",
+     "original_cells": null,
+     "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  }
+ ]
+}

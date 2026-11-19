@@ -1,0 +1,415 @@
+{
+ "query_id": "q-20261118T210321Z-1a2c59",
+ "created_at": "2026-11-18T21:03:21Z",
+ "question": "Какие внутренние пороги используются для проверки злоупотреблений?",
+ "role": "support_agent",
+ "top_k": 8,
+ "policy": {
+  "version": "v3",
+  "retrieval_threshold": 0.2,
+  "authorization_probe_distance": 0.35,
+  "top_k": 8,
+  "config_path": "behavior/v3.json",
+  "config_sha256": "fb9c58195459e0f13fdcf87b80ce3255c6df888ee819d292a1a1536b6f67d82d",
+  "system_file": "behavior/system-v3.md",
+  "system_sha256": "7bfb0b5462c7c2e7dcab75888f8fd12595cb398932f81bd3fa26eb55ceb4b137",
+  "lexical_extra": 2,
+  "lexical_pool": 40,
+  "lexical_stem": 6,
+  "forbidden_rule": "probe_and_closer_than_allowed"
+ },
+ "profile": {
+  "model_id": "intfloat/multilingual-e5-base",
+  "dimension": 768,
+  "device": "cpu",
+  "normalize_embeddings": true,
+  "passage_prefix": "passage: ",
+  "query_prefix": "query: ",
+  "embedding_text": "title_ru + '\\n' + chunk text (NFC, пробелы схлопнуты); префикс добавляется один раз при encode",
+  "text_normalization": "NFC + whitespace collapse, только для эмбеддингов",
+  "chunker": "structural-v1",
+  "chunk_rule": "введение и разделы H2 (лист для xlsx), по границам подготовленных фрагментов; строка таблицы — отдельный чанк с названием листа",
+  "chunk_token_limit": 384,
+  "chunk_overlap": 0,
+  "query_token_limit": 512,
+  "metric": "cosine",
+  "collection": "lumendesk-support",
+  "corpus_text": "text_ru из corpus/prepared (русский оригинал или проверенный перевод)"
+ },
+ "index_id": "idx-20261118T202118Z-d51167",
+ "allowed_document_ids": [
+  "accessibility-fr",
+  "api-errors",
+  "api-key-rotation",
+  "assistant-quota",
+  "browser-support",
+  "callbacks-fr",
+  "card-export",
+  "domain-verification",
+  "export-security",
+  "file-limits",
+  "france-data-residency",
+  "french-handoff",
+  "guest-access",
+  "hosting-regions",
+  "incident-priority",
+  "incident-register-2026-09",
+  "invoice-correction",
+  "marketplace-approval-retirement",
+  "marketplace-catalogue",
+  "notification-explainer",
+  "notification-rules",
+  "onboarding-handover",
+  "outage-communication",
+  "password-reset",
+  "plan-capabilities",
+  "privacy-requests",
+  "response-targets",
+  "retention-reconciliation",
+  "saml-cutover-notes",
+  "saml-incident-escalation",
+  "saml-parameters",
+  "search-notes",
+  "support-calendar-fr",
+  "team-service-credits-finance",
+  "team-service-credits-support",
+  "trash-recovery",
+  "webhook-retries",
+  "workshop-fr",
+  "workspace-ownership-transfer"
+ ],
+ "denied_document_count": 3,
+ "candidates": [
+  {
+   "chunk_id": "marketplace-catalogue::chunk-38",
+   "distance": 0.216362,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: GitHub; Проверка: Ограничение вендора; Условие учётной записи: Права в репозитории проверены; Результат или дальнейшие действия: При временных сбоях вендора применяются повторы"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-39",
+   "distance": 0.216649,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Google Drive; Проверка: Ограничение вендора; Условие учётной записи: Уже имеющийся доступ к Drive; Результат или дальнейшие действия: При временных сбоях вендора применяются повторы"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-36",
+   "distance": 0.217059,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Slack; Проверка: Ограничение вендора; Условие учётной записи: Workspace одобрен; Результат или дальнейшие действия: При временных сбоях вендора применяются повторы"
+  },
+  {
+   "chunk_id": "saml-parameters::chunk-02",
+   "distance": 0.218863,
+   "document_id": "saml-parameters",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Параметр или операция: Проверка цепочки; Значение или результат: Самоподписанный сертификат IdP допускается после проверки отпечатка администратором.; Применение: Enterprise; Запись: Параметры Identity Platform от 1 сентября 2026"
+  },
+  {
+   "chunk_id": "saml-parameters::chunk-06",
+   "distance": 0.220873,
+   "document_id": "saml-parameters",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Параметр или операция: Тест; Значение или результат: Перед принудительным включением нужны 2 успешных тестовых входа.; Применение: Enterprise; Запись: Параметры Identity Platform от 1 сентября 2026"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-37",
+   "distance": 0.222616,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Microsoft Teams; Проверка: Ограничение вендора; Условие учётной записи: Администратор тенанта доступен; Результат или дальнейшие действия: При временных сбоях вендора применяются повторы"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-14",
+   "distance": 0.223497,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Google Drive; Проверка: Одобрение; Условие учётной записи: Уже имеющийся доступ к Drive; Результат или дальнейшие действия: Проверить согласие для запрошенного workspace"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-18",
+   "distance": 0.223851,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: GitHub; Проверка: Закрытый ресурс; Условие учётной записи: Права в репозитории проверены; Результат или дальнейшие действия: Опубликованная ссылка доступа не даёт"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-13",
+   "distance": 0.224796,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: GitHub; Проверка: Одобрение; Условие учётной записи: Права в репозитории проверены; Результат или дальнейшие действия: Проверить согласие для запрошенного workspace"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-19",
+   "distance": 0.22523,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Google Drive; Проверка: Закрытый ресурс; Условие учётной записи: Уже имеющийся доступ к Drive; Результат или дальнейшие действия: Опубликованная ссылка доступа не даёт"
+  },
+  {
+   "chunk_id": "saml-parameters::chunk-24",
+   "distance": 0.225233,
+   "document_id": "saml-parameters",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Параметр или операция: Тест входа; Значение или результат: Непривилегированная учётная запись выполнила вход; Применение: план проверки Ателье; Запись: 2026-09-10; запись инженера"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-11",
+   "distance": 0.225478,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Slack; Проверка: Одобрение; Условие учётной записи: Workspace одобрен; Результат или дальнейшие действия: Проверить согласие для запрошенного workspace"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-40",
+   "distance": 0.225836,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Jira Cloud; Проверка: Ограничение вендора; Условие учётной записи: Только односторонняя ссылка; Результат или дальнейшие действия: При временных сбоях вендора применяются повторы"
+  },
+  {
+   "chunk_id": "saml-parameters::chunk-12",
+   "distance": 0.226038,
+   "document_id": "saml-parameters",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Параметр или операция: Тест входа; Значение или результат: Непривилегированная учётная запись выполнила вход; Применение: план проверки Север; Запись: 2026-09-08; запись инженера"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-16",
+   "distance": 0.226041,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Slack; Проверка: Закрытый ресурс; Условие учётной записи: Workspace одобрен; Результат или дальнейшие действия: Опубликованная ссылка доступа не даёт"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-24",
+   "distance": 0.22637,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Google Drive; Проверка: Изменение scopes; Условие учётной записи: Уже имеющийся доступ к Drive; Результат или дальнейшие действия: Для новых write scopes требуется новое согласие"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-23",
+   "distance": 0.226776,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: GitHub; Проверка: Изменение scopes; Условие учётной записи: Права в репозитории проверены; Результат или дальнейшие действия: Для новых write scopes требуется новое согласие"
+  },
+  {
+   "chunk_id": "saml-parameters::chunk-14",
+   "distance": 0.227142,
+   "document_id": "saml-parameters",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Параметр или операция: Проверка времени; Значение или результат: Расхождение часов ниже допустимых 120 секунд; Применение: план проверки Север; Запись: 2026-09-08; запись инженера"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-28",
+   "distance": 0.227676,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: GitHub; Проверка: Открытие ссылки; Условие учётной записи: Права в репозитории проверены; Результат или дальнейшие действия: Открывается с собственными правами получателя"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-29",
+   "distance": 0.228436,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Google Drive; Проверка: Открытие ссылки; Условие учётной записи: Уже имеющийся доступ к Drive; Результат или дальнейшие действия: Открывается с собственными правами получателя"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-21",
+   "distance": 0.228481,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Slack; Проверка: Изменение scopes; Условие учётной записи: Workspace одобрен; Результат или дальнейшие действия: Для новых write scopes требуется новое согласие"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-33",
+   "distance": 0.228859,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: GitHub; Проверка: Очередь при выводе из эксплуатации; Условие учётной записи: Права в репозитории проверены; Результат или дальнейшие действия: Сначала отключить, затем отозвать; дать очереди опустеть — до 15 минут"
+  },
+  {
+   "chunk_id": "saml-parameters::chunk-26",
+   "distance": 0.22906,
+   "document_id": "saml-parameters",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Параметр или операция: Проверка времени; Значение или результат: Расхождение часов ниже допустимых 120 секунд; Применение: план проверки Ателье; Запись: 2026-09-10; запись инженера"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-34",
+   "distance": 0.229379,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Google Drive; Проверка: Очередь при выводе из эксплуатации; Условие учётной записи: Уже имеющийся доступ к Drive; Результат или дальнейшие действия: Сначала отключить, затем отозвать; дать очереди опустеть — до 15 минут"
+  },
+  {
+   "chunk_id": "saml-parameters::chunk-08",
+   "distance": 0.230073,
+   "document_id": "saml-parameters",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Параметр или операция: Маршрут инцидента; Значение или результат: Критерии передачи инцидента руководителю приведены в регламенте SAML incident escalation.; Применение: Enterprise; Запись: Параметры Identity Platform от 1 сентября 2026"
+  },
+  {
+   "chunk_id": "saml-incident-escalation::chunk-04",
+   "distance": 0.23009,
+   "document_id": "saml-incident-escalation",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Установите влияние до изменения настроек\n\nПодтвердите Enterprise workspace и затронутый провайдер идентификации. Спросите, затрагивает ли сбой всех пользователей или конкретную учётную запись, была ли только что смена сертификата и работает ли ещё сессия аварийного администратора. Сохраните исходное сообщение об ошибке клиента и время UTC каждой неудачи. Ошибка, которую видит пользователь, может быть переведена, тогда как исходные идентификаторы issuer и запроса остаются теми же. На одном снимке экрана может не быть отметки времени, нужной для связи сбоя с изменением конфигурации.\n\nТри неудачных входа в течение пятнадцати минут требуют эскалации руководителю поддержки. Блокировка привилегированной учётной записи требует такой эскалации немедленно; в этом случае не ждите трёх неудач или полного пятнадцатиминутного интервала. Точно записывайте наблюдаемые события. Триггер не даёт сотруднику первой линии права самостоятельно отозвать сертификат или отключить принудительный режим. Руководитель поддержки использует доказательства, чтобы согласовать следующее действие с владельцем workspace и контактом у провайдера идентификации.\n\nПовторная проверка может создать новые неудачные входы, не улучшив доказательств. Прежде чем просить клиента попробовать снова, скажите, что установит проверка и какой результат нужен команде. Чётко различайте категории учётных записей, чтобы блокировку привилегированной учётной записи не приняли за обычную проблему пилота. Если клиент сообщает и о блокировке администратора, и о нескольких неудачах обычных пользователей, привилегированное событие уже требует немедленного участия руководителя."
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-26",
+   "distance": 0.230167,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Slack; Проверка: Открытие ссылки; Условие учётной записи: Workspace одобрен; Результат или дальнейшие действия: Открывается с собственными правами получателя"
+  },
+  {
+   "chunk_id": "saml-parameters::chunk-04",
+   "distance": 0.230389,
+   "document_id": "saml-parameters",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Параметр или операция: Замена; Значение или результат: После окончания перекрытия старый сертификат больше не принимается.; Применение: Enterprise; Запись: Параметры Identity Platform от 1 сентября 2026"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-12",
+   "distance": 0.230442,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Microsoft Teams; Проверка: Одобрение; Условие учётной записи: Администратор тенанта доступен; Результат или дальнейшие действия: Проверить согласие для запрошенного workspace"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-22",
+   "distance": 0.231142,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Microsoft Teams; Проверка: Изменение scopes; Условие учётной записи: Администратор тенанта доступен; Результат или дальнейшие действия: Для новых write scopes требуется новое согласие"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-15",
+   "distance": 0.231298,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Jira Cloud; Проверка: Одобрение; Условие учётной записи: Только односторонняя ссылка; Результат или дальнейшие действия: Проверить согласие для запрошенного workspace"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-31",
+   "distance": 0.231468,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Slack; Проверка: Очередь при выводе из эксплуатации; Условие учётной записи: Workspace одобрен; Результат или дальнейшие действия: Сначала отключить, затем отозвать; дать очереди опустеть — до 15 минут"
+  },
+  {
+   "chunk_id": "saml-cutover-notes::chunk-04",
+   "distance": 0.23178,
+   "document_id": "saml-cutover-notes",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "## Пилот до принудительного включения\n\nДо принудительного включения проверьте вход на двух непривилегированных пилотных учётных записях. Две отдельные учётные записи помогают команде обсуждать реальные попытки входа, а не считать существующую сессию администратора успешным пилотом. Тестовые учётные записи должны быть непривилегированными; смысл пилота не в том, чтобы подвергнуть весь привилегированный доступ непроверенной конфигурации. Организуйте пилот с людьми, которые могут описать, что они видят. Расплывчатое сообщение «браузер открылся» менее полезно, чем знание того, какая учётная запись пыталась войти и успешной ли была эта попытка.\n\nОставьте одного зарегистрированного аварийного администратора вне принудительного SAML. Назовите этого человека или учётную запись в административном плане самого клиента, не передавая учётные данные в переписку с поддержкой. «У нас где-то есть ещё один администратор» — не то же самое, что зарегистрированный аварийный администратор, доступный вне принудительного маршрута. Участники звонка должны различать этот механизм восстановления, две пилотные учётные записи и сессию, которую сейчас держат открытой. В одном и том же переходе у них разные назначения."
+  },
+  {
+   "chunk_id": "saml-parameters::chunk-18",
+   "distance": 0.232037,
+   "document_id": "saml-parameters",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Параметр или операция: Тест входа; Значение или результат: Непривилегированная учётная запись выполнила вход; Применение: план проверки Орион; Запись: 2026-09-09; запись инженера"
+  },
+  {
+   "chunk_id": "saml-parameters::chunk-13",
+   "distance": 0.232174,
+   "document_id": "saml-parameters",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Параметр или операция: Окончание совместного приёма; Значение или результат: После 7 календарных дней старый сертификат не принимается; Применение: план проверки Север; Запись: 2026-09-08; запись инженера"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-17",
+   "distance": 0.2324,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Microsoft Teams; Проверка: Закрытый ресурс; Условие учётной записи: Администратор тенанта доступен; Результат или дальнейшие действия: Опубликованная ссылка доступа не даёт"
+  },
+  {
+   "chunk_id": "api-errors::chunk-01",
+   "distance": 0.232502,
+   "document_id": "api-errors",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Код или условие: 400 invalid_filter; Действие: Проверить имена полей и синтаксис фильтра."
+  },
+  {
+   "chunk_id": "saml-parameters::chunk-10",
+   "distance": 0.232606,
+   "document_id": "saml-parameters",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Параметр или операция: Загрузка ожидающего сертификата; Значение или результат: Проверен отпечаток у администратора; Применение: план проверки Север; Запись: 2026-09-08; запись инженера"
+  },
+  {
+   "chunk_id": "marketplace-catalogue::chunk-20",
+   "distance": 0.232628,
+   "document_id": "marketplace-catalogue",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Лист «Проверки вендоров»: Наблюдения по проверке коннекторов\n\nКоннектор: Jira Cloud; Проверка: Закрытый ресурс; Условие учётной записи: Только односторонняя ссылка; Результат или дальнейшие действия: Опубликованная ссылка доступа не даёт"
+  },
+  {
+   "chunk_id": "saml-parameters::chunk-11",
+   "distance": 0.232758,
+   "document_id": "saml-parameters",
+   "admitted": false,
+   "within_threshold": false,
+   "text": "Параметр или операция: Начало совместного приёма; Значение или результат: Старый и ожидающий сертификаты принимаются одновременно 7 календарных дней; Применение: план проверки Север; Запись: 2026-09-08; запись инженера"
+  }
+ ],
+ "restricted_probe": {
+  "checked": true,
+  "denied_documents": 3,
+  "nearest_distance": 0.202245,
+  "within_probe": 8,
+  "probe_distance": 0.35,
+  "closer_than_best_admitted": 8,
+  "rule": "probe_and_closer_than_allowed"
+ },
+ "context_state": "forbidden",
+ "result_path": "C:/Users/gorev/AppData/Local/Temp/pytest-of-gorev/pytest-37/test_v3_forbidden_only_when_re0/lead.json"
+}

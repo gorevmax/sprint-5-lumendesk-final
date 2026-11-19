@@ -1,0 +1,146 @@
+{
+ "query_id": "q-20261118T203357Z-91e6af",
+ "created_at": "2026-11-18T20:33:57Z",
+ "question": "В течение какого срока на тарифе Team можно восстановить удалённый объект?",
+ "role": "support_agent",
+ "top_k": 8,
+ "policy": {
+  "version": "v2",
+  "retrieval_threshold": 0.2,
+  "authorization_probe_distance": 0.35,
+  "top_k": 8,
+  "config_path": "behavior/v2.json",
+  "config_sha256": "72266e97822de6c04c3d08264ae1a8ffdc2e893faa4a416ba55401c492a1d324",
+  "system_file": "behavior/system-v2.md",
+  "system_sha256": "d01b2da6db28fbaedbee3dc12026806b62168db0be02e9ad5ec693256f195354"
+ },
+ "profile": {
+  "model_id": "intfloat/multilingual-e5-base",
+  "dimension": 768,
+  "device": "cpu",
+  "normalize_embeddings": true,
+  "passage_prefix": "passage: ",
+  "query_prefix": "query: ",
+  "embedding_text": "title_ru + '\\n' + chunk text (NFC, пробелы схлопнуты); префикс добавляется один раз при encode",
+  "text_normalization": "NFC + whitespace collapse, только для эмбеддингов",
+  "chunker": "structural-v1",
+  "chunk_rule": "введение и разделы H2 (лист для xlsx), по границам подготовленных фрагментов; строка таблицы — отдельный чанк с названием листа",
+  "chunk_token_limit": 384,
+  "chunk_overlap": 0,
+  "query_token_limit": 512,
+  "metric": "cosine",
+  "collection": "lumendesk-support",
+  "corpus_text": "text_ru из corpus/prepared (русский оригинал или проверенный перевод)"
+ },
+ "index_id": "idx-20261118T202118Z-d51167",
+ "allowed_document_ids": [
+  "accessibility-fr",
+  "api-errors",
+  "api-key-rotation",
+  "assistant-quota",
+  "browser-support",
+  "callbacks-fr",
+  "card-export",
+  "domain-verification",
+  "export-security",
+  "file-limits",
+  "france-data-residency",
+  "french-handoff",
+  "guest-access",
+  "hosting-regions",
+  "incident-priority",
+  "incident-register-2026-09",
+  "invoice-correction",
+  "marketplace-approval-retirement",
+  "marketplace-catalogue",
+  "notification-explainer",
+  "notification-rules",
+  "onboarding-handover",
+  "outage-communication",
+  "password-reset",
+  "plan-capabilities",
+  "privacy-requests",
+  "response-targets",
+  "retention-reconciliation",
+  "saml-cutover-notes",
+  "saml-incident-escalation",
+  "saml-parameters",
+  "search-notes",
+  "support-calendar-fr",
+  "team-service-credits-finance",
+  "team-service-credits-support",
+  "trash-recovery",
+  "webhook-retries",
+  "workshop-fr",
+  "workspace-ownership-transfer"
+ ],
+ "denied_document_count": 3,
+ "candidates": [
+  {
+   "chunk_id": "trash-recovery::chunk-02",
+   "distance": 0.122579,
+   "document_id": "trash-recovery",
+   "admitted": true,
+   "text": "## Как считать оставшееся время\n\nДля Team окно восстановления составляет 30 календарных дней с момента удаления. У Starter оно равно 7 календарным дням, у Enterprise — 90 календарным дням. Это именно календарные дни; выходные не приостанавливают отсчёт. Таймер начинается при удалении объекта. Время хранится в UTC, поэтому в обсуждении нужно отделять сам момент события от того, как он показан человеку в его часовом поясе. Фраза «удалили в понедельник вечером» ещё не позволяет проверить срок.\n\nПопросите клиента указать время удаления, а если он видит местное время — уточните часовой пояс. В заметке по обращению сохраните однозначное время UTC. Два сотрудника из разных офисов могут назвать разные даты одного события, если удаление произошло около полуночи. Это не означает, что у них разные окна восстановления. Они описывают один момент с разных сторон. Не округляйте время до начала дня и не заменяйте момент удаления датой, когда клиент впервые обратился в поддержку.\n\nПолезный способ объяснить правило — сначала назвать тариф, затем срок и только потом обсудить конкретный объект. Например: «Для Team восстановление доступно в течение 30 календарных дней после удаления; проверим время этой карточки». Такой ответ помогает человеку понять, почему у коллеги в другом workspace мог быть другой результат. Само название организации не подсказывает тариф конкретного рабочего пространства, поэтому его нужно проверить отдельно, а не брать из памяти о предыдущем обращении."
+  },
+  {
+   "chunk_id": "retention-reconciliation::chunk-02",
+   "distance": 0.137136,
+   "document_id": "retention-reconciliation",
+   "admitted": true,
+   "text": "Область: Корзина; Тариф или объект: Team; Срок или действие: Восстановление удалённых объектов: 30 дней."
+  },
+  {
+   "chunk_id": "plan-capabilities::chunk-06",
+   "distance": 0.159432,
+   "document_id": "plan-capabilities",
+   "admitted": true,
+   "text": "Лист «Возможности»: Что доступно в тарифах\n\nТариф или предмет: История Team; Возможность: 90; Единица: дней; Граница: Журнал активности"
+  },
+  {
+   "chunk_id": "retention-reconciliation::chunk-03",
+   "distance": 0.16321,
+   "document_id": "retention-reconciliation",
+   "admitted": true,
+   "text": "Область: Корзина; Тариф или объект: Enterprise; Срок или действие: Восстановление удалённых объектов: 90 дней."
+  },
+  {
+   "chunk_id": "trash-recovery::chunk-05",
+   "distance": 0.16383,
+   "document_id": "trash-recovery",
+   "admitted": true,
+   "text": "## Если окно уже закончилось\n\nПосле окончания окна восстановление необратимо недоступно. Поддержка не продлевает срок. Это следует сказать прямо, без обещания «попробовать вернуть через инженеров», которое создаёт ложное ожидание отдельного скрытого способа. Тяжесть ситуации для клиента понятна, но срочность обращения не меняет время удаления и длительность окна. Не предлагайте повторить запрос завтра и не трактуйте обращение руководителя клиента как основание остановить таймер.\n\nВ завершении разговора полезно ещё раз связать ответ с проверенными данными: о каком workspace и объекте говорили, на каком тарифе он находится и какое время удаления использовали. Такой итог помогает избежать следующего обращения с другим объектом, но прежним выводом. Если восстановление доступно, клиент понимает, кому действовать в Корзине. Если срок закончился, он получает определённый ответ без бессрочного ожидания. Смысл этой памятки — дать точную опору разговору, в котором людям обычно хочется услышать обещание раньше, чем установлены факты."
+  },
+  {
+   "chunk_id": "team-service-credits-support::chunk-06",
+   "distance": 0.164655,
+   "document_id": "team-service-credits-support",
+   "admitted": true,
+   "text": "Случаи, обсуждённые на сентябрьской передаче\n\nКлиент сообщил о двух перерывах, между которыми сервис был восстановлен. Проверяющий из поддержки запросил у владельца инцидента подтверждённые непрерывные интервалы, а не стал складывать длительности. Затем доказательства позволили клиенту понять, какой интервал рассматривается. В другом случае был затронут только один регион, тогда как у организации клиента было несколько workspace. Проверяющий ограничил заявку затронутым workspace и не стал намекать, что все подписки автоматически имеют право на кредит.\n\nУведомление о плановых работах тоже требует изучения. Плановые работы, объявленные не менее чем за сорок восемь часов, под действие этого графика не подпадают, но уведомление должно действительно охватывать затронутый сервис и окно. Внутренняя запись в календаре — не обязательно доказательство уведомления клиента. Если клиент оспаривает, относилось ли объявление к его случаю, приложите соответствующее сообщение и направьте вопрос на совместную проверку, а не решайте по одной лишь пометке «плановые работы»."
+  },
+  {
+   "chunk_id": "team-service-credits-support::chunk-02",
+   "distance": 0.164806,
+   "document_id": "team-service-credits-support",
+   "admitted": true,
+   "text": "Право на кредит\n\nЭтот график применяется к подписке Team при подтверждённом сбое сервиса P1 продолжительностью не менее 120 минут подряд.\n\nПроцент применяется к ежемесячной плате за подписку затронутого workspace без учёта налогов и дополнений за использование.\n\nBilling owner должен подать заявку в течение 10 календарных дней после окончания инцидента.\n\nДля заявки нужны incident ID, workspace ID, интервал влияния в UTC и invoice ID."
+  },
+  {
+   "chunk_id": "retention-reconciliation::chunk-01",
+   "distance": 0.165003,
+   "document_id": "retention-reconciliation",
+   "admitted": true,
+   "text": "Область: Корзина; Тариф или объект: Starter; Срок или действие: Восстановление удалённых объектов: 7 дней."
+  }
+ ],
+ "restricted_probe": {
+  "checked": true,
+  "denied_documents": 3,
+  "nearest_distance": 0.174571,
+  "within_probe": 8,
+  "probe_distance": 0.35,
+  "closer_than_best_admitted": 0
+ },
+ "context_state": "available",
+ "result_path": "evidence/retrieval-q02-agent.json"
+}

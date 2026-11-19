@@ -1,0 +1,19 @@
+{
+ "status": "finalized",
+ "capture_id": "cap-20261118T221410Z-982d1a",
+ "created_at": "2026-11-18T22:14:10Z",
+ "question": "Какие внутренние пороги используются для проверки злоупотреблений?",
+ "role": "support_agent",
+ "decision": "refuse",
+ "answer": "Эти сведения недоступны для роли support_agent. Среди материалов, разрешённых этой роли, поиск не нашёл фрагментов о внутренних порогах проверки злоупотреблений (все кандидаты дальше порога 0,20), а подходящие сведения есть только в материалах, закрытых для этой роли (context_state = forbidden). Содержание закрытых материалов не раскрывается. Обратитесь, пожалуйста, к руководителю поддержки (support_lead).",
+ "citations": [],
+ "context_state": "forbidden",
+ "policy_version": "v3",
+ "index_id": "idx-20261118T202118Z-d51167",
+ "query_id": "q-20261118T221354Z-dcec2a",
+ "retrieval_path": "evidence/retrieval-d-q07-agent.json",
+ "answer_file": "evidence/answer-d-q07-agent.raw.json",
+ "trace_path": "evidence/trace-cap-20261118T221410Z-982d1a.json",
+ "citation_map_path": "evidence/citation-map-cap-20261118T221410Z-982d1a.json",
+ "checks": "происхождение ссылок подтверждено: ID из текущих hits, document_id совпадает, quote дословна, документ доступен роли, индекс и настройки актуальны. Смысл тезисов проверяет человек."
+}

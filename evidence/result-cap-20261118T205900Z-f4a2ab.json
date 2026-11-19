@@ -1,0 +1,132 @@
+{
+ "status": "finalized",
+ "capture_id": "cap-20261118T205900Z-f4a2ab",
+ "created_at": "2026-11-18T20:59:00Z",
+ "question": "Когда доступен обратный звонок во Франции и что меняется 14 июля?",
+ "role": "support_agent",
+ "decision": "answer",
+ "answer": "Обычные обратные звонки во Франции доступны с понедельника по пятницу с 09:00 до 17:00 Europe/Paris (documents/Франция/Rappels et jours fériés.pdf, стр. 1). 14 июля обычные обратные звонки не проводятся (тот же PDF, стр. 1; documents/Франция/organisation/Calendrier support 2026.docx, раздел «Дни и часы», абзац 5); письменная форма остаётся доступной в праздничные дни (там же, абзац 8). Исключение 14 июля — инцидент P1 по договору Enterprise: обратный звонок остаётся возможным и выполняется не позднее чем через 45 минут после подтверждения контактного номера (PDF, стр. 1). Это исключение не распространяется на простой вопрос о настройке или на другой тариф (PDF, стр. 2). Оба документа переведены с французского; оригинал указанных мест приведён в result.",
+ "citations": [
+  {
+   "document_id": "callbacks-fr",
+   "chunk_id": "callbacks-fr::chunk-02",
+   "quote": "Обычные обратные звонки доступны с понедельника по пятницу с 09:00 до 17:00 Europe/Paris.",
+   "source_path": "documents/Франция/Rappels et jours fériés.pdf",
+   "title": "Обратные телефонные звонки во Франции",
+   "title_orig": "Rappels téléphoniques en France",
+   "section": "Доступность",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "fr",
+   "where": "стр. 1",
+   "original_excerpt": [
+    "Les rappels ordinaires sont disponibles du lundi au vendredi de 09:00 à 17:00 Europe/Paris."
+   ]
+  },
+  {
+   "document_id": "callbacks-fr",
+   "chunk_id": "callbacks-fr::chunk-02",
+   "quote": "14 июля обычные обратные звонки не предлагаются.",
+   "source_path": "documents/Франция/Rappels et jours fériés.pdf",
+   "title": "Обратные телефонные звонки во Франции",
+   "title_orig": "Rappels téléphoniques en France",
+   "section": "Доступность",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "fr",
+   "where": "стр. 1",
+   "original_excerpt": [
+    "Le 14 juillet, aucun rappel ordinaire n’est proposé."
+   ]
+  },
+  {
+   "document_id": "support-calendar-fr",
+   "chunk_id": "support-calendar-fr::chunk-02",
+   "quote": "Обычные обратные звонки не проводятся 14 июля.",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "title": "Календарь поддержки во Франции",
+   "title_orig": "Calendrier du support en France",
+   "section": "Дни и часы",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "fr",
+   "where": "раздел «Jours et horaires», абзац 5",
+   "original_excerpt": [
+    "Les rappels ordinaires sont fermés le 14 juillet."
+   ]
+  },
+  {
+   "document_id": "support-calendar-fr",
+   "chunk_id": "support-calendar-fr::chunk-02",
+   "quote": "Форма остаётся доступной в праздничные дни.",
+   "source_path": "documents/Франция/organisation/Calendrier support 2026.docx",
+   "title": "Календарь поддержки во Франции",
+   "title_orig": "Calendrier du support en France",
+   "section": "Дни и часы",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "fr",
+   "where": "раздел «Jours et horaires», абзац 8",
+   "original_excerpt": [
+    "Le formulaire reste accessible pendant les jours fériés."
+   ]
+  },
+  {
+   "document_id": "callbacks-fr",
+   "chunk_id": "callbacks-fr::chunk-02",
+   "quote": "Инцидент P1 по договору Enterprise остаётся основанием для обратного звонка 14 июля.",
+   "source_path": "documents/Франция/Rappels et jours fériés.pdf",
+   "title": "Обратные телефонные звонки во Франции",
+   "title_orig": "Rappels téléphoniques en France",
+   "section": "Доступность",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "fr",
+   "where": "стр. 1",
+   "original_excerpt": [
+    "Un incident P1 sur un contrat Enterprise reste éligible au rappel le 14 juillet."
+   ]
+  },
+  {
+   "document_id": "callbacks-fr",
+   "chunk_id": "callbacks-fr::chunk-02",
+   "quote": "Для этого исключения P1 Enterprise обратный звонок выполняется не позднее чем через 45 минут после подтверждения контактного номера.",
+   "source_path": "documents/Франция/Rappels et jours fériés.pdf",
+   "title": "Обратные телефонные звонки во Франции",
+   "title_orig": "Rappels téléphoniques en France",
+   "section": "Доступность",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "fr",
+   "where": "стр. 1",
+   "original_excerpt": [
+    "Pour cette exception P1 Enterprise, le rappel intervient au plus tard 45 minutes après confirmation du numéro de contact."
+   ]
+  },
+  {
+   "document_id": "callbacks-fr",
+   "chunk_id": "callbacks-fr::chunk-05",
+   "quote": "Не распространяйте это исключение на простой вопрос о настройке или на другой тариф.",
+   "source_path": "documents/Франция/Rappels et jours fériés.pdf",
+   "title": "Обратные телефонные звонки во Франции",
+   "title_orig": "Rappels téléphoniques en France",
+   "section": "Случай 14 июля",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "fr",
+   "where": "стр. 2",
+   "original_excerpt": [
+    "L’exception à traiter séparément est un incident P1 sur un contrat Enterprise. Le rappel reste possible le 14 juillet et intervient au plus tard 45 minutes après la confirmation du numéro de contact. L’heure de cette confirmation doit être conservée, car elle déclenche le délai exceptionnel. Le début du délai n’est ni l’heure d’un premier message dépourvu de numéro, ni l’heure choisie plus tard par l’agent pour compléter sa note. Ne pas étendre cette exception à une simple question de configuration ou à un autre tarif."
+   ]
+  }
+ ],
+ "context_state": "available",
+ "policy_version": "v2",
+ "index_id": "idx-20261118T202118Z-d51167",
+ "query_id": "q-20261118T205402Z-55e6a8",
+ "retrieval_path": "evidence/retrieval-a-q03-agent.json",
+ "answer_file": "evidence/answer-a-q03-agent.raw.json",
+ "trace_path": "evidence/trace-cap-20261118T205900Z-f4a2ab.json",
+ "citation_map_path": "evidence/citation-map-cap-20261118T205900Z-f4a2ab.json",
+ "checks": "происхождение ссылок подтверждено: ID из текущих hits, document_id совпадает, quote дословна, документ доступен роли, индекс и настройки актуальны. Смысл тезисов проверяет человек."
+}

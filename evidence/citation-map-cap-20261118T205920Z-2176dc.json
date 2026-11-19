@@ -1,0 +1,446 @@
+{
+ "capture_id": "cap-20261118T205920Z-2176dc",
+ "question": "Какая компенсация предусмотрена на Team за подтверждённый инцидент P1 с недоступностью 120 минут?",
+ "role": "support_lead",
+ "citations": [
+  {
+   "citation_index": 0,
+   "document_id": "team-service-credits-support",
+   "chunk_id": "team-service-credits-support::chunk-03",
+   "quote": "При подходящем сбое P1 на Team продолжительностью не менее 120 минут подряд сервисный кредит составляет 20 процентов ежемесячной платы за подписку.",
+   "rank": 1,
+   "distance": 0.142634,
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "source_path": "documents/Клиентский сервис/Team service credits.docx",
+   "section": "Урегулирование",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "owner": "Support Operations",
+   "source_lang": "en",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "10-010",
+     "location": {
+      "file": "documents/Клиентский сервис/Team service credits.docx",
+      "format": "docx",
+      "fragment_id": "10-010",
+      "section": "Settlement",
+      "paragraph": 10,
+      "where": "раздел «Settlement», абзац 10"
+     },
+     "translation": "translated",
+     "original_excerpt": "For an eligible Team P1 outage lasting at least 120 consecutive minutes, the service credit is 20 percent of the monthly subscription fee.",
+     "original_cells": null,
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": [
+      {
+       "fragment_id": "43-010",
+       "jaccard": 0.87
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "citation_index": 1,
+   "document_id": "team-service-credits-finance",
+   "chunk_id": "team-service-credits-finance::chunk-03",
+   "quote": "Ставка. При подходящем сбое P1 на Team продолжительностью не менее 120 минут подряд сервисный кредит составляет 15 процентов ежемесячной платы за подписку.",
+   "rank": 4,
+   "distance": 0.153617,
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "source_path": "documents/Финансы/Team service credits.pdf",
+   "section": "Урегулирование",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "owner": "Finance",
+   "source_lang": "en",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "43-010",
+     "location": {
+      "file": "documents/Финансы/Team service credits.pdf",
+      "format": "pdf",
+      "fragment_id": "43-010",
+      "pages": [
+       1
+      ],
+      "block": 10,
+      "where": "стр. 1"
+     },
+     "translation": "translated",
+     "original_excerpt": "Rate. For an eligible Team P1 outage lasting at least 120 consecutive minutes, the service credit is 15 percent of the monthly subscription fee.",
+     "original_cells": null,
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №10 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": [
+      {
+       "fragment_id": "10-010",
+       "jaccard": 0.87
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "citation_index": 2,
+   "document_id": "team-service-credits-support",
+   "chunk_id": "team-service-credits-support::chunk-01",
+   "quote": "Выпуск Support Operations, действует с 15 сентября 2026 года.",
+   "rank": 6,
+   "distance": 0.158137,
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "source_path": "documents/Клиентский сервис/Team service credits.docx",
+   "section": "(введение)",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "owner": "Support Operations",
+   "source_lang": "en",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "10-002",
+     "location": {
+      "file": "documents/Клиентский сервис/Team service credits.docx",
+      "format": "docx",
+      "fragment_id": "10-002",
+      "section": "(введение)",
+      "paragraph": 2,
+      "where": "введение, абзац 2"
+     },
+     "translation": "translated",
+     "original_excerpt": "Support Operations issue effective 15 September 2026. This is the operating schedule for a confirmed Team P1 service outage, approved for the support review process. Finance and Support Operations share responsibility for reviewing the claim evidence. The support reviewer prepares the impact record and the calculation before sending a complete claim to the joint review. Keep the existing request open until the agreed outcome has been communicated to the billing owner.",
+     "original_cells": null,
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 3,
+   "document_id": "team-service-credits-finance",
+   "chunk_id": "team-service-credits-finance::chunk-01",
+   "quote": "Рассылка Finance, действует с 15 сентября 2026 года.",
+   "rank": 2,
+   "distance": 0.145868,
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "source_path": "documents/Финансы/Team service credits.pdf",
+   "section": "(введение)",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "owner": "Finance",
+   "source_lang": "en",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "43-002",
+     "location": {
+      "file": "documents/Финансы/Team service credits.pdf",
+      "format": "pdf",
+      "fragment_id": "43-002",
+      "pages": [
+       1
+      ],
+      "block": 2,
+      "where": "стр. 1"
+     },
+     "translation": "translated",
+     "original_excerpt": "Finance circulation, effective 15 September 2026. This is the operating schedule for confirmed Team P1 service outages. Finance maintains the billing treatment in this document; Support Operations records impact and confirms the incident classification. Both teams use the same incident record. This circulation is in force and is intended for the people preparing or reviewing claims, rather than for an automatic promise in a status update.",
+     "original_cells": null,
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №10 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 4,
+   "document_id": "team-service-credits-finance",
+   "chunk_id": "team-service-credits-finance::chunk-01",
+   "quote": "в том числе к сбою продолжительностью ровно 120 минут подряд",
+   "rank": 2,
+   "distance": 0.145868,
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "source_path": "documents/Финансы/Team service credits.pdf",
+   "section": "(введение)",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "owner": "Finance",
+   "source_lang": "en",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "43-003",
+     "location": {
+      "file": "documents/Финансы/Team service credits.pdf",
+      "format": "pdf",
+      "fragment_id": "43-003",
+      "pages": [
+       1
+      ],
+      "block": 3,
+      "where": "стр. 1"
+     },
+     "translation": "translated",
+     "original_excerpt": "A credit review begins with a specific affected workspace and a continuous interval of service unavailability. The existence of an infrastructure incident is useful evidence, but does not establish that every customer or every workspace suffered the same impact. Read the scope of the incident and the customer account together. The rules below apply to a confirmed P1 outage on Team, including an outage lasting exactly 120 consecutive minutes.",
+     "original_cells": null,
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №10 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 5,
+   "document_id": "team-service-credits-support",
+   "chunk_id": "team-service-credits-support::chunk-01",
+   "quote": "в том числе при сбое продолжительностью ровно 120 минут подряд",
+   "rank": 6,
+   "distance": 0.158137,
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "source_path": "documents/Клиентский сервис/Team service credits.docx",
+   "section": "(введение)",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "owner": "Support Operations",
+   "source_lang": "en",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "10-003",
+     "location": {
+      "file": "documents/Клиентский сервис/Team service credits.docx",
+      "format": "docx",
+      "fragment_id": "10-003",
+      "section": "(введение)",
+      "paragraph": 3,
+      "where": "введение, абзац 3"
+     },
+     "translation": "translated",
+     "original_excerpt": "Use this procedure for the affected Team workspace, including an outage lasting exactly 120 consecutive minutes. The review concerns a continuous outage, not the sum of unrelated short interruptions. Classification and impact need confirmation before the support team can recommend settlement. The customer should receive a clear explanation of the review, but an agent must not turn an unreviewed claim into a promised payment.",
+     "original_cells": null,
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 6,
+   "document_id": "team-service-credits-support",
+   "chunk_id": "team-service-credits-support::chunk-03",
+   "quote": "Одобренный кредит зачитывается в следующий счёт и не является денежной выплатой.",
+   "rank": 1,
+   "distance": 0.142634,
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "source_path": "documents/Клиентский сервис/Team service credits.docx",
+   "section": "Урегулирование",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "owner": "Support Operations",
+   "source_lang": "en",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "10-011",
+     "location": {
+      "file": "documents/Клиентский сервис/Team service credits.docx",
+      "format": "docx",
+      "fragment_id": "10-011",
+      "section": "Settlement",
+      "paragraph": 11,
+      "where": "раздел «Settlement», абзац 11"
+     },
+     "translation": "translated",
+     "original_excerpt": "An approved credit offsets the next invoice and is not a cash payment.",
+     "original_cells": null,
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": [
+      {
+       "fragment_id": "43-011",
+       "jaccard": 0.92
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "citation_index": 7,
+   "document_id": "team-service-credits-finance",
+   "chunk_id": "team-service-credits-finance::chunk-03",
+   "quote": "Предел. Сумма кредитов за инциденты не может превышать 50 процентов той же ежемесячной платы за подписку.",
+   "rank": 4,
+   "distance": 0.153617,
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "source_path": "documents/Финансы/Team service credits.pdf",
+   "section": "Урегулирование",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "owner": "Finance",
+   "source_lang": "en",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "43-012",
+     "location": {
+      "file": "documents/Финансы/Team service credits.pdf",
+      "format": "pdf",
+      "fragment_id": "43-012",
+      "pages": [
+       1
+      ],
+      "block": 12,
+      "where": "стр. 1"
+     },
+     "translation": "translated",
+     "original_excerpt": "Cap. Total incident credits cannot exceed 50 percent of the same monthly subscription fee.",
+     "original_cells": null,
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №10 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": [
+      {
+       "fragment_id": "10-012",
+       "jaccard": 0.93
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "citation_index": 8,
+   "document_id": "team-service-credits-support",
+   "chunk_id": "team-service-credits-support::chunk-02",
+   "quote": "Процент применяется к ежемесячной плате за подписку затронутого workspace без учёта налогов и дополнений за использование.",
+   "rank": 5,
+   "distance": 0.157994,
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "source_path": "documents/Клиентский сервис/Team service credits.docx",
+   "section": "Право на кредит",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "owner": "Support Operations",
+   "source_lang": "en",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "10-006",
+     "location": {
+      "file": "documents/Клиентский сервис/Team service credits.docx",
+      "format": "docx",
+      "fragment_id": "10-006",
+      "section": "Eligibility",
+      "paragraph": 6,
+      "where": "раздел «Eligibility», абзац 6"
+     },
+     "translation": "translated",
+     "original_excerpt": "The percentage applies to the monthly subscription fee for the affected workspace, excluding taxes and usage add-ons.",
+     "original_cells": null,
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": [
+      {
+       "fragment_id": "43-006",
+       "jaccard": 0.94
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "citation_index": 9,
+   "document_id": "team-service-credits-support",
+   "chunk_id": "team-service-credits-support::chunk-02",
+   "quote": "Billing owner должен подать заявку в течение 10 календарных дней после окончания инцидента.",
+   "rank": 5,
+   "distance": 0.157994,
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "source_path": "documents/Клиентский сервис/Team service credits.docx",
+   "section": "Право на кредит",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "owner": "Support Operations",
+   "source_lang": "en",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "10-007",
+     "location": {
+      "file": "documents/Клиентский сервис/Team service credits.docx",
+      "format": "docx",
+      "fragment_id": "10-007",
+      "section": "Eligibility",
+      "paragraph": 7,
+      "where": "раздел «Eligibility», абзац 7"
+     },
+     "translation": "translated",
+     "original_excerpt": "The billing owner must submit a claim within 10 calendar days after the incident ends.",
+     "original_cells": null,
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": [
+      {
+       "fragment_id": "43-007",
+       "jaccard": 0.93
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "citation_index": 10,
+   "document_id": "team-service-credits-support",
+   "chunk_id": "team-service-credits-support::chunk-03",
+   "quote": "Неполные или оспариваемые заявки Finance и Support Operations проверяют совместно.",
+   "rank": 1,
+   "distance": 0.142634,
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "source_path": "documents/Клиентский сервис/Team service credits.docx",
+   "section": "Урегулирование",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "owner": "Support Operations",
+   "source_lang": "en",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "10-013",
+     "location": {
+      "file": "documents/Клиентский сервис/Team service credits.docx",
+      "format": "docx",
+      "fragment_id": "10-013",
+      "section": "Settlement",
+      "paragraph": 13,
+      "where": "раздел «Settlement», абзац 13"
+     },
+     "translation": "translated",
+     "original_excerpt": "Finance and Support Operations jointly review incomplete or disputed claims.",
+     "original_cells": null,
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": [
+      {
+       "fragment_id": "43-013",
+       "jaccard": 0.91
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

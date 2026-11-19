@@ -1,0 +1,68 @@
+{
+ "status": "finalized",
+ "capture_id": "cap-20261118T211043Z-d5bb8c",
+ "created_at": "2026-11-18T21:10:43Z",
+ "question": "Какая официальная месячная квота сообщений помощника на тарифе Team?",
+ "role": "support_agent",
+ "decision": "answer",
+ "answer": "Официальная месячная квота сообщений помощника на тарифе Team — 1200 сообщений на workspace в месяц. Шкалу опубликовал Assistant Product, она применяется с 1 сентября 2026 года; квоты действуют на workspace и на месяц, а не на пользователя. Источник: documents/Франция/Assistant abonnement.xlsx (перевод с французского), лист «Abonnement», ячейки A9:D9 и примечание A3:D5; то же значение повторено в том же файле на листе «Questions clients», A6:B6 — это не отдельное подтверждение.",
+ "citations": [
+  {
+   "document_id": "assistant-quota",
+   "chunk_id": "assistant-quota::chunk-03",
+   "quote": "Тариф или предмет: Team; Значение: 1200; Единица: сообщений; Условие: На workspace в месяц",
+   "source_path": "documents/Франция/Assistant abonnement.xlsx",
+   "title": "Messages de l'assistant",
+   "title_orig": "Messages de l'assistant",
+   "section": "Подписка",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "fr",
+   "where": "лист «Abonnement», ячейки A9, B9, C9, D9",
+   "original_excerpt": [
+    "Offre ou sujet: Team; Valeur: 1200; Unité: messages; Condition: Par workspace et par mois"
+   ]
+  },
+  {
+   "document_id": "assistant-quota",
+   "chunk_id": "assistant-quota::chunk-01",
+   "quote": "Шкала, опубликованная Assistant Product для подписок LumenDesk, применяется с 1 сентября 2026 года. Эти квоты действуют на workspace и на месяц, а не на пользователя.",
+   "source_path": "documents/Франция/Assistant abonnement.xlsx",
+   "title": "Messages de l'assistant",
+   "title_orig": "Messages de l'assistant",
+   "section": "Подписка",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "fr",
+   "where": "лист «Abonnement», диапазон A3:D5",
+   "original_excerpt": [
+    "Barème publié par Assistant Product pour les abonnements LumenDesk, applicable depuis le 1er septembre 2026. Ces quotas sont par workspace et par mois, et non par utilisateur."
+   ]
+  },
+  {
+   "document_id": "assistant-quota",
+   "chunk_id": "assistant-quota::chunk-41",
+   "quote": "Ответ: 1200 сообщений на workspace в месяц",
+   "source_path": "documents/Франция/Assistant abonnement.xlsx",
+   "title": "Messages de l'assistant",
+   "title_orig": "Messages de l'assistant",
+   "section": "Вопросы клиентов",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "fr",
+   "where": "лист «Questions clients», ячейки B6",
+   "original_excerpt": [
+    "Question: Combien pour Team ?; Réponse: 1200 messages par workspace et par mois"
+   ]
+  }
+ ],
+ "context_state": "available",
+ "policy_version": "v3",
+ "index_id": "idx-20261118T202118Z-d51167",
+ "query_id": "q-20261118T210734Z-a5bacf",
+ "retrieval_path": "evidence/retrieval-b-q10-agent.json",
+ "answer_file": "evidence/answer-b-q10-agent.raw.json",
+ "trace_path": "evidence/trace-cap-20261118T211043Z-d5bb8c.json",
+ "citation_map_path": "evidence/citation-map-cap-20261118T211043Z-d5bb8c.json",
+ "checks": "происхождение ссылок подтверждено: ID из текущих hits, document_id совпадает, quote дословна, документ доступен роли, индекс и настройки актуальны. Смысл тезисов проверяет человек."
+}

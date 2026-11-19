@@ -1,0 +1,146 @@
+{
+ "query_id": "q-20261118T202519Z-9f642f",
+ "created_at": "2026-11-18T20:25:19Z",
+ "question": "Какой предел одного вложения на Team?",
+ "role": "support_agent",
+ "top_k": 8,
+ "policy": {
+  "version": "v2",
+  "retrieval_threshold": 0.2,
+  "authorization_probe_distance": 0.35,
+  "top_k": 8,
+  "config_path": "behavior/v2.json",
+  "config_sha256": "72266e97822de6c04c3d08264ae1a8ffdc2e893faa4a416ba55401c492a1d324",
+  "system_file": "behavior/system-v2.md",
+  "system_sha256": "d01b2da6db28fbaedbee3dc12026806b62168db0be02e9ad5ec693256f195354"
+ },
+ "profile": {
+  "model_id": "intfloat/multilingual-e5-base",
+  "dimension": 768,
+  "device": "cpu",
+  "normalize_embeddings": true,
+  "passage_prefix": "passage: ",
+  "query_prefix": "query: ",
+  "embedding_text": "title_ru + '\\n' + chunk text (NFC, пробелы схлопнуты); префикс добавляется один раз при encode",
+  "text_normalization": "NFC + whitespace collapse, только для эмбеддингов",
+  "chunker": "structural-v1",
+  "chunk_rule": "введение и разделы H2 (лист для xlsx), по границам подготовленных фрагментов; строка таблицы — отдельный чанк с названием листа",
+  "chunk_token_limit": 384,
+  "chunk_overlap": 0,
+  "query_token_limit": 512,
+  "metric": "cosine",
+  "collection": "lumendesk-support",
+  "corpus_text": "text_ru из corpus/prepared (русский оригинал или проверенный перевод)"
+ },
+ "index_id": "idx-20261118T202118Z-d51167",
+ "allowed_document_ids": [
+  "accessibility-fr",
+  "api-errors",
+  "api-key-rotation",
+  "assistant-quota",
+  "browser-support",
+  "callbacks-fr",
+  "card-export",
+  "domain-verification",
+  "export-security",
+  "file-limits",
+  "france-data-residency",
+  "french-handoff",
+  "guest-access",
+  "hosting-regions",
+  "incident-priority",
+  "incident-register-2026-09",
+  "invoice-correction",
+  "marketplace-approval-retirement",
+  "marketplace-catalogue",
+  "notification-explainer",
+  "notification-rules",
+  "onboarding-handover",
+  "outage-communication",
+  "password-reset",
+  "plan-capabilities",
+  "privacy-requests",
+  "response-targets",
+  "retention-reconciliation",
+  "saml-cutover-notes",
+  "saml-incident-escalation",
+  "saml-parameters",
+  "search-notes",
+  "support-calendar-fr",
+  "team-service-credits-finance",
+  "team-service-credits-support",
+  "trash-recovery",
+  "webhook-retries",
+  "workshop-fr",
+  "workspace-ownership-transfer"
+ ],
+ "denied_document_count": 3,
+ "candidates": [
+  {
+   "chunk_id": "file-limits::chunk-03",
+   "distance": 0.121311,
+   "document_id": "file-limits",
+   "admitted": true,
+   "text": "Лист «Тарифы»: Размер одного вложения\n\nТариф: Team; Предел файла: 100; Единица: MiB; Применение: Один файл"
+  },
+  {
+   "chunk_id": "file-limits::chunk-07",
+   "distance": 0.147159,
+   "document_id": "file-limits",
+   "admitted": true,
+   "text": "Лист «Тарифы»: Размер одного вложения\n\nТариф: Одно действие; Предел файла: 10; Единица: файлов; Применение: Одновременная загрузка"
+  },
+  {
+   "chunk_id": "file-limits::chunk-04",
+   "distance": 0.15064,
+   "document_id": "file-limits",
+   "admitted": true,
+   "text": "Лист «Тарифы»: Размер одного вложения\n\nТариф: Enterprise; Предел файла: 250; Единица: MiB; Применение: Один файл"
+  },
+  {
+   "chunk_id": "file-limits::chunk-49",
+   "distance": 0.150683,
+   "document_id": "file-limits",
+   "admitted": true,
+   "text": "Лист «Обсуждение»: Вопросы из обращений\n\nСитуация: Клиент спросил максимальный размер без тарифа; Что выяснили: Тариф в вопросе не указан; Следующее действие: Уточнить Starter, Team или Enterprise"
+  },
+  {
+   "chunk_id": "file-limits::chunk-23",
+   "distance": 0.151365,
+   "document_id": "file-limits",
+   "admitted": true,
+   "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: сценарий 21.docx; Тариф: Team; Размер MiB: 78; Размер байт: 81788928 (формула =C18*1048576); Результат: Принят после проверки защиты"
+  },
+  {
+   "chunk_id": "file-limits::chunk-17",
+   "distance": 0.151427,
+   "document_id": "file-limits",
+   "admitted": true,
+   "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: сценарий 15.pdf; Тариф: Team; Размер MiB: 24; Размер байт: 25165824 (формула =C12*1048576); Результат: Принят после проверки защиты"
+  },
+  {
+   "chunk_id": "file-limits::chunk-20",
+   "distance": 0.1518,
+   "document_id": "file-limits",
+   "admitted": true,
+   "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: смета 18.zip; Тариф: Team; Размер MiB: 26; Размер байт: 27262976 (формула =C15*1048576); Результат: Принят после проверки защиты"
+  },
+  {
+   "chunk_id": "file-limits::chunk-26",
+   "distance": 0.151825,
+   "document_id": "file-limits",
+   "admitted": true,
+   "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: смета 24.xlsx; Тариф: Team; Размер MiB: 99; Размер байт: 103809024 (формула =C21*1048576); Результат: Принят после проверки защиты"
+  }
+ ],
+ "restricted_probe": {
+  "checked": true,
+  "denied_documents": 3,
+  "nearest_distance": 0.19907,
+  "within_probe": 8,
+  "probe_distance": 0.35,
+  "closer_than_best_admitted": 0
+ },
+ "context_state": "available",
+ "result_path": "C:/Users/gorev/AppData/Local/Temp/pytest-of-gorev/pytest-35/r0/retrieval.json"
+}

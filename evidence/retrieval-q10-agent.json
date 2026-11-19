@@ -1,0 +1,975 @@
+{
+ "status": "retrieval_only",
+ "query_id": "q-20261118T203710Z-1e8c2b",
+ "created_at": "2026-11-18T20:37:10Z",
+ "index_id": "idx-20261118T202118Z-d51167",
+ "question": "Какая официальная месячная квота сообщений помощника на тарифе Team?",
+ "question_tokens": 25,
+ "role": "support_agent",
+ "top_k": 8,
+ "policy": {
+  "version": "v2",
+  "retrieval_threshold": 0.2,
+  "authorization_probe_distance": 0.35,
+  "top_k": 8,
+  "config_path": "behavior/v2.json",
+  "config_sha256": "72266e97822de6c04c3d08264ae1a8ffdc2e893faa4a416ba55401c492a1d324",
+  "system_file": "behavior/system-v2.md",
+  "system_sha256": "d01b2da6db28fbaedbee3dc12026806b62168db0be02e9ad5ec693256f195354"
+ },
+ "collection": "lumendesk-support",
+ "metric": "cosine",
+ "context_state": "available",
+ "filtering": {
+  "role": "support_agent",
+  "allowed_documents": 39,
+  "n_results": 8,
+  "candidates": 8,
+  "admitted": 8,
+  "rejected_by_threshold": [],
+  "retrieval_threshold": 0.2,
+  "restricted_probe": {
+   "checked": true,
+   "denied_documents": 3,
+   "nearest_distance": 0.191213,
+   "within_probe": 8,
+   "probe_distance": 0.35,
+   "closer_than_best_admitted": 0
+  },
+  "note": "available не доказывает полноту; empty не является технической ошибкой; forbidden не раскрывает закрытый источник"
+ },
+ "hits": [
+  {
+   "rank": 1,
+   "chunk_id": "assistant-quota::chunk-03",
+   "text": "Лист «Подписка»: Сообщения ассистента\n\nТариф или предмет: Team; Значение: 1200; Единица: сообщений; Условие: На workspace в месяц",
+   "metadata": {
+    "line_start": 0,
+    "version": "2026-09-01",
+    "updated": "2026-09-01",
+    "source_lang": "fr",
+    "trust": "confirmed",
+    "fragment_ids": "47-001,47-005",
+    "related": "20",
+    "page_end": 0,
+    "locator": "лист «Abonnement», строка 9, ячейки A9:D9",
+    "title_orig": "Messages de l'assistant",
+    "line_end": 0,
+    "document_sha256": "a77d2d9dbdd1a09accbd0d6003ae19454ae15edc338b8730f732522f76945747",
+    "owner": "Assistant Product",
+    "is_translation": true,
+    "title_source": "inventory.title",
+    "source_path": "documents/Франция/Assistant abonnement.xlsx",
+    "chunk_sha256": "9a479c013d3af9e4435a3bb807429ff1363094bdbea6e4c67897953aa28924cd",
+    "title": "Messages de l'assistant",
+    "conflict_group": "",
+    "page_start": 0,
+    "format": "xlsx",
+    "section": "Подписка",
+    "token_count": 51,
+    "document_id": "assistant-quota"
+   },
+   "distance": 0.140281,
+   "provenance": [
+    {
+     "fragment_id": "47-001",
+     "role": "context",
+     "start": 0,
+     "end": 37,
+     "locator": {
+      "sheet": "Abonnement",
+      "range": "A1:D2"
+     },
+     "locator_text": "лист «Abonnement», объединённые ячейки A1:D2",
+     "section_orig": "Abonnement",
+     "section_ru": "Подписка",
+     "translation": "translated",
+     "text_orig": "Messages de l’assistant",
+     "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "47-005",
+     "role": "content",
+     "start": 39,
+     "end": 129,
+     "locator": {
+      "sheet": "Abonnement",
+      "row": 9,
+      "range": "A9:D9"
+     },
+     "locator_text": "лист «Abonnement», строка 9, ячейки A9:D9",
+     "section_orig": "Abonnement",
+     "section_ru": "Подписка",
+     "translation": "translated",
+     "text_orig": "Offre ou sujet: Team; Valeur: 1200; Unité: messages; Condition: Par workspace et par mois",
+     "cells": [
+      {
+       "ref": "A9",
+       "header": "Offre ou sujet",
+       "header_ru": "Тариф или предмет",
+       "value": "Team",
+       "value_ru": "Team"
+      },
+      {
+       "ref": "B9",
+       "header": "Valeur",
+       "header_ru": "Значение",
+       "value": "1200",
+       "value_ru": "1200"
+      },
+      {
+       "ref": "C9",
+       "header": "Unité",
+       "header_ru": "Единица",
+       "value": "messages",
+       "value_ru": "сообщений"
+      },
+      {
+       "ref": "D9",
+       "header": "Condition",
+       "header_ru": "Условие",
+       "value": "Par workspace et par mois",
+       "value_ru": "На workspace в месяц"
+      }
+     ],
+     "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 2,
+   "chunk_id": "assistant-quota::chunk-41",
+   "text": "Лист «Вопросы клиентов»: Ответы, утверждённые на ревью\n\nВопрос: Сколько для Team?; Ответ: 1200 сообщений на workspace в месяц",
+   "metadata": {
+    "format": "xlsx",
+    "title_source": "inventory.title",
+    "locator": "лист «Questions clients», строка 6, ячейки A6:B6",
+    "line_end": 0,
+    "updated": "2026-09-01",
+    "line_start": 0,
+    "source_path": "documents/Франция/Assistant abonnement.xlsx",
+    "is_translation": true,
+    "trust": "confirmed",
+    "version": "2026-09-01",
+    "document_sha256": "a77d2d9dbdd1a09accbd0d6003ae19454ae15edc338b8730f732522f76945747",
+    "conflict_group": "",
+    "page_start": 0,
+    "owner": "Assistant Product",
+    "fragment_ids": "47-045,47-047",
+    "document_id": "assistant-quota",
+    "chunk_sha256": "c40881b931081c84d713dbd234e183bd5b3660ec48e761c1a50b33d69d229963",
+    "page_end": 0,
+    "related": "20",
+    "title": "Messages de l'assistant",
+    "source_lang": "fr",
+    "section": "Вопросы клиентов",
+    "title_orig": "Messages de l'assistant",
+    "token_count": 47
+   },
+   "distance": 0.146374,
+   "provenance": [
+    {
+     "fragment_id": "47-045",
+     "role": "context",
+     "start": 0,
+     "end": 54,
+     "locator": {
+      "sheet": "Questions clients",
+      "range": "A1:B2"
+     },
+     "locator_text": "лист «Questions clients», объединённые ячейки A1:B2",
+     "section_orig": "Questions clients",
+     "section_ru": "Вопросы клиентов",
+     "translation": "translated",
+     "text_orig": "Réponses validées lors de la revue",
+     "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "47-047",
+     "role": "content",
+     "start": 56,
+     "end": 125,
+     "locator": {
+      "sheet": "Questions clients",
+      "row": 6,
+      "range": "A6:B6"
+     },
+     "locator_text": "лист «Questions clients», строка 6, ячейки A6:B6",
+     "section_orig": "Questions clients",
+     "section_ru": "Вопросы клиентов",
+     "translation": "translated",
+     "text_orig": "Question: Combien pour Team ?; Réponse: 1200 messages par workspace et par mois",
+     "cells": [
+      {
+       "ref": "A6",
+       "header": "Question",
+       "header_ru": "Вопрос",
+       "value": "Combien pour Team ?",
+       "value_ru": "Сколько для Team?"
+      },
+      {
+       "ref": "B6",
+       "header": "Réponse",
+       "header_ru": "Ответ",
+       "value": "1200 messages par workspace et par mois",
+       "value_ru": "1200 сообщений на workspace в месяц"
+      }
+     ],
+     "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "chunk_id": "team-service-credits-support::chunk-03",
+   "text": "Урегулирование\n\nПри подходящем сбое P1 на Team продолжительностью не менее 120 минут подряд сервисный кредит составляет 20 процентов ежемесячной платы за подписку.\n\nОдобренный кредит зачитывается в следующий счёт и не является денежной выплатой.\n\nСумма кредитов за инциденты не может превышать 50 процентов той же ежемесячной платы за подписку.\n\nНеполные или оспариваемые заявки Finance и Support Operations проверяют совместно.\n\nПлановые работы, объявленные не менее чем за 48 часов, под действие этого графика не подпадают.",
+   "metadata": {
+    "title_source": "registry.title_ru",
+    "page_start": 0,
+    "document_id": "team-service-credits-support",
+    "document_sha256": "091f85550fa9c189884d324dfcc1e1824229c090593ea8a29f3ceea5dd549a18",
+    "chunk_sha256": "79683c6d95e57814c85524d866d8615f40b3b05cbbb4ad005d0dabb3db91e55a",
+    "locator": "абзац 10 (w:p, стиль Normal); абзац 11 (w:p, стиль Normal); абзац 12 (w:p, стиль Normal); абзац 13 (w:p, стиль Normal); абзац 14 (w:p, стиль Normal)",
+    "section": "Урегулирование",
+    "page_end": 0,
+    "line_start": 0,
+    "version": "2026-09-15",
+    "trust": "confirmed",
+    "source_lang": "en",
+    "owner": "Support Operations",
+    "fragment_ids": "10-009,10-010,10-011,10-012,10-013,10-014",
+    "conflict_group": "CONF-team-credit-rate",
+    "format": "docx",
+    "title_orig": "Team service credit schedule",
+    "line_end": 0,
+    "is_translation": true,
+    "token_count": 128,
+    "related": "43 15 45",
+    "updated": "2026-09-15",
+    "source_path": "documents/Клиентский сервис/Team service credits.docx",
+    "title": "График сервисных кредитов для Team"
+   },
+   "distance": 0.152023,
+   "provenance": [
+    {
+     "fragment_id": "10-009",
+     "role": "heading",
+     "start": 0,
+     "end": 14,
+     "locator": {
+      "paragraph": 9,
+      "style": "Heading1"
+     },
+     "locator_text": "абзац 9 (w:p, стиль Heading1)",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Settlement",
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "10-010",
+     "role": "content",
+     "start": 16,
+     "end": 163,
+     "locator": {
+      "paragraph": 10,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 10 (w:p, стиль Normal)",
+     "section_orig": "Settlement",
+     "section_ru": "Урегулирование",
+     "translation": "translated",
+     "text_orig": "For an eligible Team P1 outage lasting at least 120 consecutive minutes, the service credit is 20 percent of the monthly subscription fee.",
+     "similar_to": [
+      {
+       "fragment_id": "43-010",
+       "jaccard": 0.87
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "10-011",
+     "role": "content",
+     "start": 165,
+     "end": 245,
+     "locator": {
+      "paragraph": 11,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 11 (w:p, стиль Normal)",
+     "section_orig": "Settlement",
+     "section_ru": "Урегулирование",
+     "translation": "translated",
+     "text_orig": "An approved credit offsets the next invoice and is not a cash payment.",
+     "similar_to": [
+      {
+       "fragment_id": "43-011",
+       "jaccard": 0.92
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "10-012",
+     "role": "content",
+     "start": 247,
+     "end": 344,
+     "locator": {
+      "paragraph": 12,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 12 (w:p, стиль Normal)",
+     "section_orig": "Settlement",
+     "section_ru": "Урегулирование",
+     "translation": "translated",
+     "text_orig": "Total incident credits cannot exceed 50 percent of the same monthly subscription fee.",
+     "similar_to": [
+      {
+       "fragment_id": "43-012",
+       "jaccard": 0.93
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "10-013",
+     "role": "content",
+     "start": 346,
+     "end": 428,
+     "locator": {
+      "paragraph": 13,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 13 (w:p, стиль Normal)",
+     "section_orig": "Settlement",
+     "section_ru": "Урегулирование",
+     "translation": "translated",
+     "text_orig": "Finance and Support Operations jointly review incomplete or disputed claims.",
+     "similar_to": [
+      {
+       "fragment_id": "43-013",
+       "jaccard": 0.91
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "10-014",
+     "role": "content",
+     "start": 430,
+     "end": 525,
+     "locator": {
+      "paragraph": 14,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 14 (w:p, стиль Normal)",
+     "section_orig": "Settlement",
+     "section_ru": "Урегулирование",
+     "translation": "translated",
+     "text_orig": "Scheduled maintenance announced at least 48 hours in advance is outside this schedule.",
+     "similar_to": [
+      {
+       "fragment_id": "43-014",
+       "jaccard": 0.93
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "chunk_id": "team-service-credits-support::chunk-05",
+   "text": "Расчёт подходящей заявки\n\nПри ежемесячной плате за подписку Team 400 EUR без налога этот график Support Operations рассчитывает подходящий сервисный кредит по ставке 20 процентов, что даёт 80 EUR. База не включает налог и дополнения за использование. Та же база используется при проверке месячного предела. Записывайте базу, процент и результат отдельно, чтобы проверяющий видел, вызвана ли разница выбранной платой или применённой ставкой. Округление или отображение в счёте никогда не должны скрывать исходный процент.\n\nЕсли для той же ежемесячной платы уже одобрен другой кредит, учтите его при проверке предела. Сумма кредитов за инциденты не может превышать половины этой ежемесячной платы за подписку. Держите прежнее одобрение связанным с проверкой, чтобы было ясно, идёт ли речь о другом подходящем инциденте или о той же заявке, поданной повторно. Второе письмо клиента — не новый инцидент. Исправления заявки должны сохранять прежний расчёт и объяснять, что изменилось.",
+   "metadata": {
+    "trust": "confirmed",
+    "updated": "2026-09-15",
+    "title_orig": "Team service credit schedule",
+    "page_end": 0,
+    "line_end": 0,
+    "format": "docx",
+    "title": "График сервисных кредитов для Team",
+    "owner": "Support Operations",
+    "token_count": 246,
+    "source_path": "documents/Клиентский сервис/Team service credits.docx",
+    "locator": "абзац 19 (w:p, стиль Normal); абзац 20 (w:p, стиль Normal)",
+    "title_source": "registry.title_ru",
+    "section": "Расчёт подходящей заявки",
+    "related": "43 15 45",
+    "version": "2026-09-15",
+    "document_id": "team-service-credits-support",
+    "document_sha256": "091f85550fa9c189884d324dfcc1e1824229c090593ea8a29f3ceea5dd549a18",
+    "is_translation": true,
+    "chunk_sha256": "fe7ce4c314ea2c9d77874ba9f3b45eb9786010cc712318971af341b960aa46ed",
+    "source_lang": "en",
+    "conflict_group": "CONF-team-credit-rate",
+    "fragment_ids": "10-018,10-019,10-020",
+    "line_start": 0,
+    "page_start": 0
+   },
+   "distance": 0.155783,
+   "provenance": [
+    {
+     "fragment_id": "10-018",
+     "role": "heading",
+     "start": 0,
+     "end": 24,
+     "locator": {
+      "paragraph": 18,
+      "style": "Heading1"
+     },
+     "locator_text": "абзац 18 (w:p, стиль Heading1)",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Calculating an eligible claim",
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "10-019",
+     "role": "content",
+     "start": 26,
+     "end": 520,
+     "locator": {
+      "paragraph": 19,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 19 (w:p, стиль Normal)",
+     "section_orig": "Calculating an eligible claim",
+     "section_ru": "Расчёт подходящей заявки",
+     "translation": "translated",
+     "text_orig": "For a monthly Team subscription fee of 400 EUR before tax, this Support Operations schedule calculates an eligible service credit at 20 percent, giving 80 EUR. The base excludes tax and usage add-ons. The same base is used when testing the monthly cap. Record the base, percentage and result separately so that a reviewer can see whether a difference came from the chosen fee or from the applied rate. Rounding or invoice display should never conceal the underlying percentage.",
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "10-020",
+     "role": "content",
+     "start": 522,
+     "end": 979,
+     "locator": {
+      "paragraph": 20,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 20 (w:p, стиль Normal)",
+     "section_orig": "Calculating an eligible claim",
+     "section_ru": "Расчёт подходящей заявки",
+     "translation": "translated",
+     "text_orig": "If another credit has already been approved for the same monthly fee, include it in the cap review. The total incident credits cannot exceed half of that monthly subscription fee. Keep the earlier approval linked to the review so it is clear whether this is another eligible incident or the same request submitted again. A second email from the customer is not a new incident. Corrections to a claim should retain the earlier calculation and explain what changed.",
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "chunk_id": "team-service-credits-finance::chunk-03",
+   "text": "Урегулирование\n\nСтавка. При подходящем сбое P1 на Team продолжительностью не менее 120 минут подряд сервисный кредит составляет 15 процентов ежемесячной платы за подписку.\n\nСпособ. Одобренный кредит зачитывается в следующий счёт и не является денежной выплатой.\n\nПредел. Сумма кредитов за инциденты не может превышать 50 процентов той же ежемесячной платы за подписку.\n\nПроверка. Неполные или оспариваемые заявки Finance и Support Operations проверяют совместно.\n\nИсключения. Плановые работы, объявленные не менее чем за 48 часов, под действие этого графика не подпадают.",
+   "metadata": {
+    "line_start": 0,
+    "fragment_ids": "43-009,43-010,43-011,43-012,43-013,43-014",
+    "title_orig": "Team service credit schedule",
+    "document_id": "team-service-credits-finance",
+    "version": "2026-09-15",
+    "page_end": 1,
+    "owner": "Finance",
+    "locator": "стр. 1, блок 10; стр. 1, блок 11; стр. 1, блок 12; стр. 1, блок 13; стр. 1, блок 14",
+    "format": "pdf",
+    "page_start": 1,
+    "conflict_group": "CONF-team-credit-rate",
+    "token_count": 144,
+    "chunk_sha256": "a403731b380ee46346f24f3fd644c0a992baddbc9c881b4b03ca22b0b9de4402",
+    "related": "10 15 45",
+    "title": "График сервисных кредитов для Team",
+    "trust": "confirmed",
+    "is_translation": true,
+    "line_end": 0,
+    "section": "Урегулирование",
+    "document_sha256": "ae701dbff1b426c42862300bff1a6fc190ed4a316b732347c48580ac66627dc0",
+    "source_lang": "en",
+    "updated": "2026-09-15",
+    "source_path": "documents/Финансы/Team service credits.pdf",
+    "title_source": "registry.title_ru"
+   },
+   "distance": 0.158325,
+   "provenance": [
+    {
+     "fragment_id": "43-009",
+     "role": "heading",
+     "start": 0,
+     "end": 14,
+     "locator": {
+      "page": 1,
+      "page_end": 1,
+      "block": 9
+     },
+     "locator_text": "стр. 1, блок 9",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Settlement",
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №10 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "43-010",
+     "role": "content",
+     "start": 16,
+     "end": 171,
+     "locator": {
+      "page": 1,
+      "page_end": 1,
+      "block": 10
+     },
+     "locator_text": "стр. 1, блок 10",
+     "section_orig": "Settlement",
+     "section_ru": "Урегулирование",
+     "translation": "translated",
+     "text_orig": "Rate. For an eligible Team P1 outage lasting at least 120 consecutive minutes, the service credit is 15 percent of the monthly subscription fee.",
+     "similar_to": [
+      {
+       "fragment_id": "10-010",
+       "jaccard": 0.87
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №10 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "43-011",
+     "role": "content",
+     "start": 173,
+     "end": 261,
+     "locator": {
+      "page": 1,
+      "page_end": 1,
+      "block": 11
+     },
+     "locator_text": "стр. 1, блок 11",
+     "section_orig": "Settlement",
+     "section_ru": "Урегулирование",
+     "translation": "translated",
+     "text_orig": "Method. An approved credit offsets the next invoice and is not a cash payment.",
+     "similar_to": [
+      {
+       "fragment_id": "10-011",
+       "jaccard": 0.92
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №10 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "43-012",
+     "role": "content",
+     "start": 263,
+     "end": 368,
+     "locator": {
+      "page": 1,
+      "page_end": 1,
+      "block": 12
+     },
+     "locator_text": "стр. 1, блок 12",
+     "section_orig": "Settlement",
+     "section_ru": "Урегулирование",
+     "translation": "translated",
+     "text_orig": "Cap. Total incident credits cannot exceed 50 percent of the same monthly subscription fee.",
+     "similar_to": [
+      {
+       "fragment_id": "10-012",
+       "jaccard": 0.93
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №10 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "43-013",
+     "role": "content",
+     "start": 370,
+     "end": 462,
+     "locator": {
+      "page": 1,
+      "page_end": 1,
+      "block": 13
+     },
+     "locator_text": "стр. 1, блок 13",
+     "section_orig": "Settlement",
+     "section_ru": "Урегулирование",
+     "translation": "translated",
+     "text_orig": "Review. Finance and Support Operations jointly review incomplete or disputed claims.",
+     "similar_to": [
+      {
+       "fragment_id": "10-013",
+       "jaccard": 0.91
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №10 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "43-014",
+     "role": "content",
+     "start": 464,
+     "end": 571,
+     "locator": {
+      "page": 1,
+      "page_end": 1,
+      "block": 14
+     },
+     "locator_text": "стр. 1, блок 14",
+     "section_orig": "Settlement",
+     "section_ru": "Урегулирование",
+     "translation": "translated",
+     "text_orig": "Exclusions. Scheduled maintenance announced at least 48 hours in advance is outside this schedule.",
+     "similar_to": [
+      {
+       "fragment_id": "10-014",
+       "jaccard": 0.93
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №10 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "chunk_id": "team-service-credits-support::chunk-02",
+   "text": "Право на кредит\n\nЭтот график применяется к подписке Team при подтверждённом сбое сервиса P1 продолжительностью не менее 120 минут подряд.\n\nПроцент применяется к ежемесячной плате за подписку затронутого workspace без учёта налогов и дополнений за использование.\n\nBilling owner должен подать заявку в течение 10 календарных дней после окончания инцидента.\n\nДля заявки нужны incident ID, workspace ID, интервал влияния в UTC и invoice ID.",
+   "metadata": {
+    "related": "43 15 45",
+    "document_id": "team-service-credits-support",
+    "format": "docx",
+    "line_end": 0,
+    "token_count": 115,
+    "title_orig": "Team service credit schedule",
+    "trust": "confirmed",
+    "conflict_group": "CONF-team-credit-rate",
+    "version": "2026-09-15",
+    "page_end": 0,
+    "fragment_ids": "10-004,10-005,10-006,10-007,10-008",
+    "chunk_sha256": "41c93d6f0de942c08fc56d0f849eab0772b765a31fbe6ab1af7628a790e0c3f1",
+    "page_start": 0,
+    "updated": "2026-09-15",
+    "is_translation": true,
+    "owner": "Support Operations",
+    "title": "График сервисных кредитов для Team",
+    "line_start": 0,
+    "source_path": "documents/Клиентский сервис/Team service credits.docx",
+    "section": "Право на кредит",
+    "source_lang": "en",
+    "document_sha256": "091f85550fa9c189884d324dfcc1e1824229c090593ea8a29f3ceea5dd549a18",
+    "locator": "абзац 5 (w:p, стиль Normal); абзац 6 (w:p, стиль Normal); абзац 7 (w:p, стиль Normal); абзац 8 (w:p, стиль Normal)",
+    "title_source": "registry.title_ru"
+   },
+   "distance": 0.158797,
+   "provenance": [
+    {
+     "fragment_id": "10-004",
+     "role": "heading",
+     "start": 0,
+     "end": 15,
+     "locator": {
+      "paragraph": 4,
+      "style": "Heading1"
+     },
+     "locator_text": "абзац 4 (w:p, стиль Heading1)",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Eligibility",
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "10-005",
+     "role": "content",
+     "start": 17,
+     "end": 137,
+     "locator": {
+      "paragraph": 5,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 5 (w:p, стиль Normal)",
+     "section_orig": "Eligibility",
+     "section_ru": "Право на кредит",
+     "translation": "translated",
+     "text_orig": "This schedule applies to a Team subscription with a confirmed P1 service outage lasting at least 120 consecutive minutes.",
+     "similar_to": [
+      {
+       "fragment_id": "43-005",
+       "jaccard": 0.94
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "10-006",
+     "role": "content",
+     "start": 139,
+     "end": 261,
+     "locator": {
+      "paragraph": 6,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 6 (w:p, стиль Normal)",
+     "section_orig": "Eligibility",
+     "section_ru": "Право на кредит",
+     "translation": "translated",
+     "text_orig": "The percentage applies to the monthly subscription fee for the affected workspace, excluding taxes and usage add-ons.",
+     "similar_to": [
+      {
+       "fragment_id": "43-006",
+       "jaccard": 0.94
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "10-007",
+     "role": "content",
+     "start": 263,
+     "end": 354,
+     "locator": {
+      "paragraph": 7,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 7 (w:p, стиль Normal)",
+     "section_orig": "Eligibility",
+     "section_ru": "Право на кредит",
+     "translation": "translated",
+     "text_orig": "The billing owner must submit a claim within 10 calendar days after the incident ends.",
+     "similar_to": [
+      {
+       "fragment_id": "43-007",
+       "jaccard": 0.93
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "10-008",
+     "role": "content",
+     "start": 356,
+     "end": 436,
+     "locator": {
+      "paragraph": 8,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 8 (w:p, стиль Normal)",
+     "section_orig": "Eligibility",
+     "section_ru": "Право на кредит",
+     "translation": "translated",
+     "text_orig": "A claim needs incident ID, workspace ID, impact interval in UTC and invoice ID.",
+     "similar_to": [
+      {
+       "fragment_id": "43-008",
+       "jaccard": 0.92
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "chunk_id": "team-service-credits-finance::chunk-02",
+   "text": "Право на кредит\n\nОхват. Этот график применяется к подписке Team при подтверждённом сбое сервиса P1 продолжительностью не менее 120 минут подряд.\n\nБаза. Процент применяется к ежемесячной плате за подписку затронутого workspace без учёта налогов и дополнений за использование.\n\nЗаявка. Billing owner должен подать заявку в течение 10 календарных дней после окончания инцидента.\n\nДоказательства. Для заявки нужны incident ID, workspace ID, интервал влияния в UTC и invoice ID.",
+   "metadata": {
+    "source_path": "documents/Финансы/Team service credits.pdf",
+    "is_translation": true,
+    "related": "10 15 45",
+    "line_end": 0,
+    "document_sha256": "ae701dbff1b426c42862300bff1a6fc190ed4a316b732347c48580ac66627dc0",
+    "locator": "стр. 1, блок 5; стр. 1, блок 6; стр. 1, блок 7; стр. 1, блок 8",
+    "document_id": "team-service-credits-finance",
+    "title_source": "registry.title_ru",
+    "owner": "Finance",
+    "source_lang": "en",
+    "title": "График сервисных кредитов для Team",
+    "page_start": 1,
+    "page_end": 1,
+    "format": "pdf",
+    "title_orig": "Team service credit schedule",
+    "trust": "confirmed",
+    "chunk_sha256": "647f2d1f50dae9c773e9aba150963a1a0647836e94e98dd2042d918278ad6845",
+    "section": "Право на кредит",
+    "line_start": 0,
+    "version": "2026-09-15",
+    "updated": "2026-09-15",
+    "token_count": 130,
+    "fragment_ids": "43-004,43-005,43-006,43-007,43-008",
+    "conflict_group": "CONF-team-credit-rate"
+   },
+   "distance": 0.160878,
+   "provenance": [
+    {
+     "fragment_id": "43-004",
+     "role": "heading",
+     "start": 0,
+     "end": 15,
+     "locator": {
+      "page": 1,
+      "page_end": 1,
+      "block": 4
+     },
+     "locator_text": "стр. 1, блок 4",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Eligibility",
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №10 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "43-005",
+     "role": "content",
+     "start": 17,
+     "end": 144,
+     "locator": {
+      "page": 1,
+      "page_end": 1,
+      "block": 5
+     },
+     "locator_text": "стр. 1, блок 5",
+     "section_orig": "Eligibility",
+     "section_ru": "Право на кредит",
+     "translation": "translated",
+     "text_orig": "Scope. This schedule applies to a Team subscription with a confirmed P1 service outage lasting at least 120 consecutive minutes.",
+     "similar_to": [
+      {
+       "fragment_id": "10-005",
+       "jaccard": 0.94
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №10 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "43-006",
+     "role": "content",
+     "start": 146,
+     "end": 274,
+     "locator": {
+      "page": 1,
+      "page_end": 1,
+      "block": 6
+     },
+     "locator_text": "стр. 1, блок 6",
+     "section_orig": "Eligibility",
+     "section_ru": "Право на кредит",
+     "translation": "translated",
+     "text_orig": "Base. The percentage applies to the monthly subscription fee for the affected workspace, excluding taxes and usage add-ons.",
+     "similar_to": [
+      {
+       "fragment_id": "10-006",
+       "jaccard": 0.94
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №10 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "43-007",
+     "role": "content",
+     "start": 276,
+     "end": 375,
+     "locator": {
+      "page": 1,
+      "page_end": 1,
+      "block": 7
+     },
+     "locator_text": "стр. 1, блок 7",
+     "section_orig": "Eligibility",
+     "section_ru": "Право на кредит",
+     "translation": "translated",
+     "text_orig": "Claim. The billing owner must submit a claim within 10 calendar days after the incident ends.",
+     "similar_to": [
+      {
+       "fragment_id": "10-007",
+       "jaccard": 0.93
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №10 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "43-008",
+     "role": "content",
+     "start": 377,
+     "end": 473,
+     "locator": {
+      "page": 1,
+      "page_end": 1,
+      "block": 8
+     },
+     "locator_text": "стр. 1, блок 8",
+     "section_orig": "Eligibility",
+     "section_ru": "Право на кредит",
+     "translation": "translated",
+     "text_orig": "Evidence. A claim needs incident ID, workspace ID, impact interval in UTC and invoice ID.",
+     "similar_to": [
+      {
+       "fragment_id": "10-008",
+       "jaccard": 0.92
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №10 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "chunk_id": "assistant-quota::chunk-01",
+   "text": "Шкала, опубликованная Assistant Product для подписок LumenDesk, применяется с 1 сентября 2026 года. Эти квоты действуют на workspace и на месяц, а не на пользователя.",
+   "metadata": {
+    "page_start": 0,
+    "trust": "confirmed",
+    "title_orig": "Messages de l'assistant",
+    "is_translation": true,
+    "page_end": 0,
+    "section": "Подписка",
+    "token_count": 52,
+    "document_id": "assistant-quota",
+    "title_source": "inventory.title",
+    "title": "Messages de l'assistant",
+    "format": "xlsx",
+    "related": "20",
+    "chunk_sha256": "2adc08534b0c236481136eb1e0ee2bdfa795ed8f4f3b36b6982fba05d2793f36",
+    "updated": "2026-09-01",
+    "source_lang": "fr",
+    "fragment_ids": "47-002",
+    "source_path": "documents/Франция/Assistant abonnement.xlsx",
+    "line_end": 0,
+    "line_start": 0,
+    "document_sha256": "a77d2d9dbdd1a09accbd0d6003ae19454ae15edc338b8730f732522f76945747",
+    "owner": "Assistant Product",
+    "conflict_group": "",
+    "locator": "лист «Abonnement», объединённые ячейки A3:D5",
+    "version": "2026-09-01"
+   },
+   "distance": 0.161396,
+   "provenance": [
+    {
+     "fragment_id": "47-002",
+     "role": "content",
+     "start": 0,
+     "end": 166,
+     "locator": {
+      "sheet": "Abonnement",
+      "range": "A3:D5"
+     },
+     "locator_text": "лист «Abonnement», объединённые ячейки A3:D5",
+     "section_orig": "Abonnement",
+     "section_ru": "Подписка",
+     "translation": "translated",
+     "text_orig": "Barème publié par Assistant Product pour les abonnements LumenDesk, applicable depuis le 1er septembre 2026. Ces quotas sont par workspace et par mois, et non par utilisateur.",
+     "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+    }
+   ]
+  }
+ ],
+ "context": "[assistant-quota::chunk-03] Messages de l'assistant — documents/Франция/Assistant abonnement.xlsx, лист «Abonnement», строка 9, ячейки A9:D9\nЛист «Подписка»: Сообщения ассистента\n\nТариф или предмет: Team; Значение: 1200; Единица: сообщений; Условие: На workspace в месяц\n\n[assistant-quota::chunk-41] Messages de l'assistant — documents/Франция/Assistant abonnement.xlsx, лист «Questions clients», строка 6, ячейки A6:B6\nЛист «Вопросы клиентов»: Ответы, утверждённые на ревью\n\nВопрос: Сколько для Team?; Ответ: 1200 сообщений на workspace в месяц\n\n[team-service-credits-support::chunk-03] График сервисных кредитов для Team — documents/Клиентский сервис/Team service credits.docx, абзац 10 (w:p, стиль Normal); абзац 11 (w:p, стиль Normal); абзац 12 (w:p, стиль Normal); абзац 13 (w:p, стиль Normal); абзац 14 (w:p, стиль Normal)\nУрегулирование\n\nПри подходящем сбое P1 на Team продолжительностью не менее 120 минут подряд сервисный кредит составляет 20 процентов ежемесячной платы за подписку.\n\nОдобренный кредит зачитывается в следующий счёт и не является денежной выплатой.\n\nСумма кредитов за инциденты не может превышать 50 процентов той же ежемесячной платы за подписку.\n\nНеполные или оспариваемые заявки Finance и Support Operations проверяют совместно.\n\nПлановые работы, объявленные не менее чем за 48 часов, под действие этого графика не подпадают.\n\n[team-service-credits-support::chunk-05] График сервисных кредитов для Team — documents/Клиентский сервис/Team service credits.docx, абзац 19 (w:p, стиль Normal); абзац 20 (w:p, стиль Normal)\nРасчёт подходящей заявки\n\nПри ежемесячной плате за подписку Team 400 EUR без налога этот график Support Operations рассчитывает подходящий сервисный кредит по ставке 20 процентов, что даёт 80 EUR. База не включает налог и дополнения за использование. Та же база используется при проверке месячного предела. Записывайте базу, процент и результат отдельно, чтобы проверяющий видел, вызвана ли разница выбранной платой или применённой ставкой. Округление или отображение в счёте никогда не должны скрывать исходный процент.\n\nЕсли для той же ежемесячной платы уже одобрен другой кредит, учтите его при проверке предела. Сумма кредитов за инциденты не может превышать половины этой ежемесячной платы за подписку. Держите прежнее одобрение связанным с проверкой, чтобы было ясно, идёт ли речь о другом подходящем инциденте или о той же заявке, поданной повторно. Второе письмо клиента — не новый инцидент. Исправления заявки должны сохранять прежний расчёт и объяснять, что изменилось.\n\n[team-service-credits-finance::chunk-03] График сервисных кредитов для Team — documents/Финансы/Team service credits.pdf, стр. 1, блок 10; стр. 1, блок 11; стр. 1, блок 12; стр. 1, блок 13; стр. 1, блок 14\nУрегулирование\n\nСтавка. При подходящем сбое P1 на Team продолжительностью не менее 120 минут подряд сервисный кредит составляет 15 процентов ежемесячной платы за подписку.\n\nСпособ. Одобренный кредит зачитывается в следующий счёт и не является денежной выплатой.\n\nПредел. Сумма кредитов за инциденты не может превышать 50 процентов той же ежемесячной платы за подписку.\n\nПроверка. Неполные или оспариваемые заявки Finance и Support Operations проверяют совместно.\n\nИсключения. Плановые работы, объявленные не менее чем за 48 часов, под действие этого графика не подпадают.\n\n[team-service-credits-support::chunk-02] График сервисных кредитов для Team — documents/Клиентский сервис/Team service credits.docx, абзац 5 (w:p, стиль Normal); абзац 6 (w:p, стиль Normal); абзац 7 (w:p, стиль Normal); абзац 8 (w:p, стиль Normal)\nПраво на кредит\n\nЭтот график применяется к подписке Team при подтверждённом сбое сервиса P1 продолжительностью не менее 120 минут подряд.\n\nПроцент применяется к ежемесячной плате за подписку затронутого workspace без учёта налогов и дополнений за использование.\n\nBilling owner должен подать заявку в течение 10 календарных дней после окончания инцидента.\n\nДля заявки нужны incident ID, workspace ID, интервал влияния в UTC и invoice ID.\n\n[team-service-credits-finance::chunk-02] График сервисных кредитов для Team — documents/Финансы/Team service credits.pdf, стр. 1, блок 5; стр. 1, блок 6; стр. 1, блок 7; стр. 1, блок 8\nПраво на кредит\n\nОхват. Этот график применяется к подписке Team при подтверждённом сбое сервиса P1 продолжительностью не менее 120 минут подряд.\n\nБаза. Процент применяется к ежемесячной плате за подписку затронутого workspace без учёта налогов и дополнений за использование.\n\nЗаявка. Billing owner должен подать заявку в течение 10 календарных дней после окончания инцидента.\n\nДоказательства. Для заявки нужны incident ID, workspace ID, интервал влияния в UTC и invoice ID.\n\n[assistant-quota::chunk-01] Messages de l'assistant — documents/Франция/Assistant abonnement.xlsx, лист «Abonnement», объединённые ячейки A3:D5\nШкала, опубликованная Assistant Product для подписок LumenDesk, применяется с 1 сентября 2026 года. Эти квоты действуют на workspace и на месяц, а не на пользователя.",
+ "context_chunk_ids": [
+  "assistant-quota::chunk-03",
+  "assistant-quota::chunk-41",
+  "team-service-credits-support::chunk-03",
+  "team-service-credits-support::chunk-05",
+  "team-service-credits-finance::chunk-03",
+  "team-service-credits-support::chunk-02",
+  "team-service-credits-finance::chunk-02",
+  "assistant-quota::chunk-01"
+ ],
+ "retrieval_trace_path": "evidence/retrieval-trace-q-20261118T203710Z-1e8c2b.json",
+ "output_path": "evidence/retrieval-q10-agent.json"
+}

@@ -1,0 +1,811 @@
+{
+ "status": "retrieval_only",
+ "query_id": "q-20261118T205337Z-a9ae78",
+ "created_at": "2026-11-18T20:53:37Z",
+ "index_id": "idx-20261118T202118Z-d51167",
+ "question": "В течение какого срока на тарифе Team можно восстановить удалённый объект?",
+ "question_tokens": 20,
+ "role": "support_agent",
+ "top_k": 8,
+ "policy": {
+  "version": "v2",
+  "retrieval_threshold": 0.2,
+  "authorization_probe_distance": 0.35,
+  "top_k": 8,
+  "config_path": "behavior/v2.json",
+  "config_sha256": "72266e97822de6c04c3d08264ae1a8ffdc2e893faa4a416ba55401c492a1d324",
+  "system_file": "behavior/system-v2.md",
+  "system_sha256": "d01b2da6db28fbaedbee3dc12026806b62168db0be02e9ad5ec693256f195354"
+ },
+ "collection": "lumendesk-support",
+ "metric": "cosine",
+ "context_state": "available",
+ "filtering": {
+  "role": "support_agent",
+  "allowed_documents": 39,
+  "n_results": 8,
+  "candidates": 8,
+  "admitted": 8,
+  "rejected_by_threshold": [],
+  "retrieval_threshold": 0.2,
+  "restricted_probe": {
+   "checked": true,
+   "denied_documents": 3,
+   "nearest_distance": 0.174571,
+   "within_probe": 8,
+   "probe_distance": 0.35,
+   "closer_than_best_admitted": 0
+  },
+  "note": "available не доказывает полноту; empty не является технической ошибкой; forbidden не раскрывает закрытый источник"
+ },
+ "hits": [
+  {
+   "rank": 1,
+   "chunk_id": "trash-recovery::chunk-02",
+   "text": "## Как считать оставшееся время\n\nДля Team окно восстановления составляет 30 календарных дней с момента удаления. У Starter оно равно 7 календарным дням, у Enterprise — 90 календарным дням. Это именно календарные дни; выходные не приостанавливают отсчёт. Таймер начинается при удалении объекта. Время хранится в UTC, поэтому в обсуждении нужно отделять сам момент события от того, как он показан человеку в его часовом поясе. Фраза «удалили в понедельник вечером» ещё не позволяет проверить срок.\n\nПопросите клиента указать время удаления, а если он видит местное время — уточните часовой пояс. В заметке по обращению сохраните однозначное время UTC. Два сотрудника из разных офисов могут назвать разные даты одного события, если удаление произошло около полуночи. Это не означает, что у них разные окна восстановления. Они описывают один момент с разных сторон. Не округляйте время до начала дня и не заменяйте момент удаления датой, когда клиент впервые обратился в поддержку.\n\nПолезный способ объяснить правило — сначала назвать тариф, затем срок и только потом обсудить конкретный объект. Например: «Для Team восстановление доступно в течение 30 календарных дней после удаления; проверим время этой карточки». Такой ответ помогает человеку понять, почему у коллеги в другом workspace мог быть другой результат. Само название организации не подсказывает тариф конкретного рабочего пространства, поэтому его нужно проверить отдельно, а не брать из памяти о предыдущем обращении.",
+   "metadata": {
+    "document_id": "trash-recovery",
+    "owner": "Workspace Platform",
+    "page_end": 0,
+    "line_start": 9,
+    "related": "17",
+    "chunk_sha256": "11ed3ae7c7e437d2735095577a69b86bf5064b001758acabd4ad97b391205c39",
+    "version": "2026-09-01",
+    "fragment_ids": "13-004,13-005,13-006,13-007",
+    "title_source": "registry.title_ru",
+    "title": "Корзина: разговор с клиентом и восстановление",
+    "line_end": 13,
+    "token_count": 334,
+    "format": "md",
+    "trust": "confirmed",
+    "conflict_group": "",
+    "source_path": "documents/Клиентский сервис/Корзина и восстановление.md",
+    "title_orig": "Корзина: разговор с клиентом и восстановление",
+    "document_sha256": "82f502144cfaf2925f8ebd9dfe4fc04e056dccf07851b95c485e2bac81b8663e",
+    "updated": "2026-09-01",
+    "section": "Как считать оставшееся время",
+    "locator": "строка 9; строка 11; строка 13",
+    "is_translation": false,
+    "page_start": 0,
+    "source_lang": "ru"
+   },
+   "distance": 0.122579,
+   "provenance": [
+    {
+     "fragment_id": "13-004",
+     "role": "heading",
+     "start": 0,
+     "end": 31,
+     "locator": {
+      "lines": [
+       7,
+       7
+      ]
+     },
+     "locator_text": "строка 7",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "13-005",
+     "role": "content",
+     "start": 33,
+     "end": 495,
+     "locator": {
+      "lines": [
+       9,
+       9
+      ]
+     },
+     "locator_text": "строка 9",
+     "section_orig": "Как считать оставшееся время",
+     "section_ru": "Как считать оставшееся время",
+     "translation": "original_ru",
+     "also_in": [
+      {
+       "fragment_id": "37-005",
+       "source_path": "documents/Рабочие копии/recovery-notes.txt",
+       "locator_text": "строка 9",
+       "source_lang": "en"
+      }
+     ],
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "13-006",
+     "role": "content",
+     "start": 497,
+     "end": 977,
+     "locator": {
+      "lines": [
+       11,
+       11
+      ]
+     },
+     "locator_text": "строка 11",
+     "section_orig": "Как считать оставшееся время",
+     "section_ru": "Как считать оставшееся время",
+     "translation": "original_ru",
+     "also_in": [
+      {
+       "fragment_id": "37-006",
+       "source_path": "documents/Рабочие копии/recovery-notes.txt",
+       "locator_text": "строка 11",
+       "source_lang": "en"
+      }
+     ],
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "13-007",
+     "role": "content",
+     "start": 979,
+     "end": 1479,
+     "locator": {
+      "lines": [
+       13,
+       13
+      ]
+     },
+     "locator_text": "строка 13",
+     "section_orig": "Как считать оставшееся время",
+     "section_ru": "Как считать оставшееся время",
+     "translation": "original_ru",
+     "also_in": [
+      {
+       "fragment_id": "37-007",
+       "source_path": "documents/Рабочие копии/recovery-notes.txt",
+       "locator_text": "строка 13",
+       "source_lang": "en"
+      }
+     ],
+     "handling": "Действующий материал."
+    }
+   ]
+  },
+  {
+   "rank": 2,
+   "chunk_id": "retention-reconciliation::chunk-02",
+   "text": "Область: Корзина; Тариф или объект: Team; Срок или действие: Восстановление удалённых объектов: 30 дней.",
+   "metadata": {
+    "chunk_sha256": "fdb07acea8fec99d5c56231ecff7351feca1825227f05d9221681b2a6d5f546e",
+    "section": "(введение)",
+    "title_orig": "",
+    "version": "2026-09-01",
+    "locator": "строка 3",
+    "document_id": "retention-reconciliation",
+    "updated": "2026-09-30",
+    "format": "csv",
+    "line_end": 3,
+    "title_source": "имя файла",
+    "conflict_group": "",
+    "related": "13 22 28 44",
+    "document_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "fragment_ids": "17-003",
+    "is_translation": false,
+    "owner": "",
+    "source_lang": "ru",
+    "page_end": 0,
+    "token_count": 40,
+    "title": "хранение - сверка сентября",
+    "page_start": 0,
+    "trust": "unconfirmed_origin",
+    "line_start": 3,
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv"
+   },
+   "distance": 0.137136,
+   "provenance": [
+    {
+     "fragment_id": "17-003",
+     "role": "content",
+     "start": 0,
+     "end": 104,
+     "locator": {
+      "csv_row": 3
+     },
+     "locator_text": "строка 3",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "original_ru",
+     "cells": [
+      {
+       "col": 1,
+       "header": "Область",
+       "header_ru": "Область",
+       "value": "Корзина",
+       "value_ru": "Корзина"
+      },
+      {
+       "col": 2,
+       "header": "Тариф или объект",
+       "header_ru": "Тариф или объект",
+       "value": "Team",
+       "value_ru": "Team"
+      },
+      {
+       "col": 3,
+       "header": "Срок или действие",
+       "header_ru": "Срок или действие",
+       "value": "Восстановление удалённых объектов: 30 дней.",
+       "value_ru": "Восстановление удалённых объектов: 30 дней."
+      }
+     ],
+     "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "chunk_id": "plan-capabilities::chunk-06",
+   "text": "Лист «Возможности»: Что доступно в тарифах\n\nТариф или предмет: История Team; Возможность: 90; Единица: дней; Граница: Журнал активности",
+   "metadata": {
+    "version": "2026-09-01",
+    "line_end": 0,
+    "title_source": "inventory.title",
+    "related": "17 21 28",
+    "token_count": 47,
+    "owner": "",
+    "updated": "2026-09-09",
+    "page_start": 0,
+    "is_translation": false,
+    "title_orig": "Что доступно в тарифах",
+    "chunk_sha256": "11bdd6cf5da1bb31ebc7c0c4d61eca8e241785886717eca15ffc3d5d9d11164e",
+    "section": "Возможности",
+    "source_path": "documents/Планирование/Тарифы новый.xlsx",
+    "document_id": "plan-capabilities",
+    "document_sha256": "980b77991fdf29de91b82c2c597ffef864a12201368353e5c9f4a786cd28912c",
+    "trust": "confirmed",
+    "page_end": 0,
+    "format": "xlsx",
+    "source_lang": "ru",
+    "conflict_group": "",
+    "title": "Что доступно в тарифах",
+    "fragment_ids": "22-001,22-008",
+    "line_start": 0,
+    "locator": "лист «Возможности», строка 12, ячейки A12:D12"
+   },
+   "distance": 0.159432,
+   "provenance": [
+    {
+     "fragment_id": "22-001",
+     "role": "context",
+     "start": 0,
+     "end": 42,
+     "locator": {
+      "sheet": "Возможности",
+      "range": "A1:D2"
+     },
+     "locator_text": "лист «Возможности», объединённые ячейки A1:D2",
+     "section_orig": "Возможности",
+     "section_ru": "Возможности",
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "22-008",
+     "role": "content",
+     "start": 44,
+     "end": 135,
+     "locator": {
+      "sheet": "Возможности",
+      "row": 12,
+      "range": "A12:D12"
+     },
+     "locator_text": "лист «Возможности», строка 12, ячейки A12:D12",
+     "section_orig": "Возможности",
+     "section_ru": "Возможности",
+     "translation": "original_ru",
+     "cells": [
+      {
+       "ref": "A12",
+       "header": "Тариф или предмет",
+       "header_ru": "Тариф или предмет",
+       "value": "История Team",
+       "value_ru": "История Team"
+      },
+      {
+       "ref": "B12",
+       "header": "Возможность",
+       "header_ru": "Возможность",
+       "value": "90",
+       "value_ru": "90"
+      },
+      {
+       "ref": "C12",
+       "header": "Единица",
+       "header_ru": "Единица",
+       "value": "дней",
+       "value_ru": "дней"
+      },
+      {
+       "ref": "D12",
+       "header": "Граница",
+       "header_ru": "Граница",
+       "value": "Журнал активности",
+       "value_ru": "Журнал активности"
+      }
+     ],
+     "handling": "Действующий материал."
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "chunk_id": "retention-reconciliation::chunk-03",
+   "text": "Область: Корзина; Тариф или объект: Enterprise; Срок или действие: Восстановление удалённых объектов: 90 дней.",
+   "metadata": {
+    "title_source": "имя файла",
+    "page_end": 0,
+    "chunk_sha256": "8aa59fe9e1d12f18653ba8e57676f912ccb9414eafee30613bc6a053d245f4fd",
+    "source_lang": "ru",
+    "conflict_group": "",
+    "section": "(введение)",
+    "title": "хранение - сверка сентября",
+    "title_orig": "",
+    "document_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "owner": "",
+    "document_id": "retention-reconciliation",
+    "locator": "строка 4",
+    "line_start": 4,
+    "format": "csv",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "is_translation": false,
+    "trust": "unconfirmed_origin",
+    "line_end": 4,
+    "related": "13 22 28 44",
+    "token_count": 40,
+    "version": "2026-09-01",
+    "updated": "2026-09-30",
+    "page_start": 0,
+    "fragment_ids": "17-004"
+   },
+   "distance": 0.16321,
+   "provenance": [
+    {
+     "fragment_id": "17-004",
+     "role": "content",
+     "start": 0,
+     "end": 110,
+     "locator": {
+      "csv_row": 4
+     },
+     "locator_text": "строка 4",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "original_ru",
+     "cells": [
+      {
+       "col": 1,
+       "header": "Область",
+       "header_ru": "Область",
+       "value": "Корзина",
+       "value_ru": "Корзина"
+      },
+      {
+       "col": 2,
+       "header": "Тариф или объект",
+       "header_ru": "Тариф или объект",
+       "value": "Enterprise",
+       "value_ru": "Enterprise"
+      },
+      {
+       "col": 3,
+       "header": "Срок или действие",
+       "header_ru": "Срок или действие",
+       "value": "Восстановление удалённых объектов: 90 дней.",
+       "value_ru": "Восстановление удалённых объектов: 90 дней."
+      }
+     ],
+     "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "chunk_id": "trash-recovery::chunk-05",
+   "text": "## Если окно уже закончилось\n\nПосле окончания окна восстановление необратимо недоступно. Поддержка не продлевает срок. Это следует сказать прямо, без обещания «попробовать вернуть через инженеров», которое создаёт ложное ожидание отдельного скрытого способа. Тяжесть ситуации для клиента понятна, но срочность обращения не меняет время удаления и длительность окна. Не предлагайте повторить запрос завтра и не трактуйте обращение руководителя клиента как основание остановить таймер.\n\nВ завершении разговора полезно ещё раз связать ответ с проверенными данными: о каком workspace и объекте говорили, на каком тарифе он находится и какое время удаления использовали. Такой итог помогает избежать следующего обращения с другим объектом, но прежним выводом. Если восстановление доступно, клиент понимает, кому действовать в Корзине. Если срок закончился, он получает определённый ответ без бессрочного ожидания. Смысл этой памятки — дать точную опору разговору, в котором людям обычно хочется услышать обещание раньше, чем установлены факты.",
+   "metadata": {
+    "source_path": "documents/Клиентский сервис/Корзина и восстановление.md",
+    "title_source": "registry.title_ru",
+    "token_count": 242,
+    "version": "2026-09-01",
+    "source_lang": "ru",
+    "is_translation": false,
+    "related": "17",
+    "page_end": 0,
+    "title_orig": "Корзина: разговор с клиентом и восстановление",
+    "updated": "2026-09-01",
+    "conflict_group": "",
+    "title": "Корзина: разговор с клиентом и восстановление",
+    "owner": "Workspace Platform",
+    "line_end": 33,
+    "format": "md",
+    "locator": "строка 31; строка 33",
+    "document_sha256": "82f502144cfaf2925f8ebd9dfe4fc04e056dccf07851b95c485e2bac81b8663e",
+    "section": "Если окно уже закончилось",
+    "trust": "confirmed",
+    "page_start": 0,
+    "line_start": 31,
+    "chunk_sha256": "590e9e5e66abaab151ef7647e532725e8143aea11afee804b4d82b5a056e683c",
+    "document_id": "trash-recovery",
+    "fragment_ids": "13-015,13-016,13-017"
+   },
+   "distance": 0.16383,
+   "provenance": [
+    {
+     "fragment_id": "13-015",
+     "role": "heading",
+     "start": 0,
+     "end": 28,
+     "locator": {
+      "lines": [
+       29,
+       29
+      ]
+     },
+     "locator_text": "строка 29",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "13-016",
+     "role": "content",
+     "start": 30,
+     "end": 483,
+     "locator": {
+      "lines": [
+       31,
+       31
+      ]
+     },
+     "locator_text": "строка 31",
+     "section_orig": "Если окно уже закончилось",
+     "section_ru": "Если окно уже закончилось",
+     "translation": "original_ru",
+     "also_in": [
+      {
+       "fragment_id": "37-016",
+       "source_path": "documents/Рабочие копии/recovery-notes.txt",
+       "locator_text": "строка 31",
+       "source_lang": "en"
+      }
+     ],
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "13-017",
+     "role": "content",
+     "start": 485,
+     "end": 1038,
+     "locator": {
+      "lines": [
+       33,
+       33
+      ]
+     },
+     "locator_text": "строка 33",
+     "section_orig": "Если окно уже закончилось",
+     "section_ru": "Если окно уже закончилось",
+     "translation": "original_ru",
+     "also_in": [
+      {
+       "fragment_id": "37-017",
+       "source_path": "documents/Рабочие копии/recovery-notes.txt",
+       "locator_text": "строка 33",
+       "source_lang": "en"
+      }
+     ],
+     "handling": "Действующий материал."
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "chunk_id": "team-service-credits-support::chunk-06",
+   "text": "Случаи, обсуждённые на сентябрьской передаче\n\nКлиент сообщил о двух перерывах, между которыми сервис был восстановлен. Проверяющий из поддержки запросил у владельца инцидента подтверждённые непрерывные интервалы, а не стал складывать длительности. Затем доказательства позволили клиенту понять, какой интервал рассматривается. В другом случае был затронут только один регион, тогда как у организации клиента было несколько workspace. Проверяющий ограничил заявку затронутым workspace и не стал намекать, что все подписки автоматически имеют право на кредит.\n\nУведомление о плановых работах тоже требует изучения. Плановые работы, объявленные не менее чем за сорок восемь часов, под действие этого графика не подпадают, но уведомление должно действительно охватывать затронутый сервис и окно. Внутренняя запись в календаре — не обязательно доказательство уведомления клиента. Если клиент оспаривает, относилось ли объявление к его случаю, приложите соответствующее сообщение и направьте вопрос на совместную проверку, а не решайте по одной лишь пометке «плановые работы».",
+   "metadata": {
+    "version": "2026-09-15",
+    "source_path": "documents/Клиентский сервис/Team service credits.docx",
+    "line_start": 0,
+    "is_translation": true,
+    "updated": "2026-09-15",
+    "related": "43 15 45",
+    "token_count": 257,
+    "fragment_ids": "10-021,10-022,10-023",
+    "document_id": "team-service-credits-support",
+    "document_sha256": "091f85550fa9c189884d324dfcc1e1824229c090593ea8a29f3ceea5dd549a18",
+    "section": "Случаи, обсуждённые на сентябрьской передаче",
+    "owner": "Support Operations",
+    "title_source": "registry.title_ru",
+    "conflict_group": "CONF-team-credit-rate",
+    "locator": "абзац 22 (w:p, стиль Normal); абзац 23 (w:p, стиль Normal)",
+    "title": "График сервисных кредитов для Team",
+    "line_end": 0,
+    "page_end": 0,
+    "title_orig": "Team service credit schedule",
+    "source_lang": "en",
+    "page_start": 0,
+    "chunk_sha256": "5b00666b7c0aab0bcc1127186e323a285ce97e9ae35ad170d343cc7a9bc55876",
+    "format": "docx",
+    "trust": "confirmed"
+   },
+   "distance": 0.164655,
+   "provenance": [
+    {
+     "fragment_id": "10-021",
+     "role": "heading",
+     "start": 0,
+     "end": 44,
+     "locator": {
+      "paragraph": 21,
+      "style": "Heading1"
+     },
+     "locator_text": "абзац 21 (w:p, стиль Heading1)",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Cases discussed at the September handover",
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "10-022",
+     "role": "content",
+     "start": 46,
+     "end": 557,
+     "locator": {
+      "paragraph": 22,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 22 (w:p, стиль Normal)",
+     "section_orig": "Cases discussed at the September handover",
+     "section_ru": "Случаи, обсуждённые на сентябрьской передаче",
+     "translation": "translated",
+     "text_orig": "A customer reported two interruptions separated by restored service. The support reviewer asked the incident owner for the confirmed continuous intervals rather than adding the durations together. The evidence then allowed the customer to understand which interval was under review. In another case only one region was affected, while the customer's organisation operated several workspaces. The reviewer limited the claim to the affected workspace and did not imply that all subscriptions were automatically eligible.",
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "10-023",
+     "role": "content",
+     "start": 559,
+     "end": 1070,
+     "locator": {
+      "paragraph": 23,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 23 (w:p, стиль Normal)",
+     "section_orig": "Cases discussed at the September handover",
+     "section_ru": "Случаи, обсуждённые на сентябрьской передаче",
+     "translation": "translated",
+     "text_orig": "A planned maintenance notice also requires examination. Scheduled maintenance announced at least forty-eight hours beforehand is outside this schedule, but the notice must actually cover the affected service and window. An internal calendar entry is not necessarily evidence of customer notice. If the customer disputes whether the announcement applied, attach the relevant communication and send the question to the joint review rather than deciding from the label maintenance alone.",
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "chunk_id": "team-service-credits-support::chunk-02",
+   "text": "Право на кредит\n\nЭтот график применяется к подписке Team при подтверждённом сбое сервиса P1 продолжительностью не менее 120 минут подряд.\n\nПроцент применяется к ежемесячной плате за подписку затронутого workspace без учёта налогов и дополнений за использование.\n\nBilling owner должен подать заявку в течение 10 календарных дней после окончания инцидента.\n\nДля заявки нужны incident ID, workspace ID, интервал влияния в UTC и invoice ID.",
+   "metadata": {
+    "owner": "Support Operations",
+    "related": "43 15 45",
+    "source_lang": "en",
+    "fragment_ids": "10-004,10-005,10-006,10-007,10-008",
+    "title_source": "registry.title_ru",
+    "line_start": 0,
+    "conflict_group": "CONF-team-credit-rate",
+    "page_start": 0,
+    "source_path": "documents/Клиентский сервис/Team service credits.docx",
+    "section": "Право на кредит",
+    "format": "docx",
+    "document_sha256": "091f85550fa9c189884d324dfcc1e1824229c090593ea8a29f3ceea5dd549a18",
+    "updated": "2026-09-15",
+    "page_end": 0,
+    "line_end": 0,
+    "locator": "абзац 5 (w:p, стиль Normal); абзац 6 (w:p, стиль Normal); абзац 7 (w:p, стиль Normal); абзац 8 (w:p, стиль Normal)",
+    "title_orig": "Team service credit schedule",
+    "document_id": "team-service-credits-support",
+    "chunk_sha256": "41c93d6f0de942c08fc56d0f849eab0772b765a31fbe6ab1af7628a790e0c3f1",
+    "token_count": 115,
+    "title": "График сервисных кредитов для Team",
+    "version": "2026-09-15",
+    "trust": "confirmed",
+    "is_translation": true
+   },
+   "distance": 0.164806,
+   "provenance": [
+    {
+     "fragment_id": "10-004",
+     "role": "heading",
+     "start": 0,
+     "end": 15,
+     "locator": {
+      "paragraph": 4,
+      "style": "Heading1"
+     },
+     "locator_text": "абзац 4 (w:p, стиль Heading1)",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Eligibility",
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "10-005",
+     "role": "content",
+     "start": 17,
+     "end": 137,
+     "locator": {
+      "paragraph": 5,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 5 (w:p, стиль Normal)",
+     "section_orig": "Eligibility",
+     "section_ru": "Право на кредит",
+     "translation": "translated",
+     "text_orig": "This schedule applies to a Team subscription with a confirmed P1 service outage lasting at least 120 consecutive minutes.",
+     "similar_to": [
+      {
+       "fragment_id": "43-005",
+       "jaccard": 0.94
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "10-006",
+     "role": "content",
+     "start": 139,
+     "end": 261,
+     "locator": {
+      "paragraph": 6,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 6 (w:p, стиль Normal)",
+     "section_orig": "Eligibility",
+     "section_ru": "Право на кредит",
+     "translation": "translated",
+     "text_orig": "The percentage applies to the monthly subscription fee for the affected workspace, excluding taxes and usage add-ons.",
+     "similar_to": [
+      {
+       "fragment_id": "43-006",
+       "jaccard": 0.94
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "10-007",
+     "role": "content",
+     "start": 263,
+     "end": 354,
+     "locator": {
+      "paragraph": 7,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 7 (w:p, стиль Normal)",
+     "section_orig": "Eligibility",
+     "section_ru": "Право на кредит",
+     "translation": "translated",
+     "text_orig": "The billing owner must submit a claim within 10 calendar days after the incident ends.",
+     "similar_to": [
+      {
+       "fragment_id": "43-007",
+       "jaccard": 0.93
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "10-008",
+     "role": "content",
+     "start": 356,
+     "end": 436,
+     "locator": {
+      "paragraph": 8,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 8 (w:p, стиль Normal)",
+     "section_orig": "Eligibility",
+     "section_ru": "Право на кредит",
+     "translation": "translated",
+     "text_orig": "A claim needs incident ID, workspace ID, impact interval in UTC and invoice ID.",
+     "similar_to": [
+      {
+       "fragment_id": "43-008",
+       "jaccard": 0.92
+      }
+     ],
+     "handling": "Действующий материал. Противоречие CONF-team-credit-rate: показывать вместе с №43 и предлагать эскалацию в Finance и Support Operations. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "chunk_id": "retention-reconciliation::chunk-01",
+   "text": "Область: Корзина; Тариф или объект: Starter; Срок или действие: Восстановление удалённых объектов: 7 дней.",
+   "metadata": {
+    "token_count": 41,
+    "line_end": 2,
+    "title_orig": "",
+    "version": "2026-09-01",
+    "page_start": 0,
+    "owner": "",
+    "conflict_group": "",
+    "trust": "unconfirmed_origin",
+    "source_lang": "ru",
+    "chunk_sha256": "12252b71e328e574f73c72a2633c0e36d68a7bcdb46891cf3222f8d51ce8ada5",
+    "locator": "строка 2",
+    "document_id": "retention-reconciliation",
+    "format": "csv",
+    "related": "13 22 28 44",
+    "title": "хранение - сверка сентября",
+    "document_sha256": "0153ab9f923c61b5ffc41127aba674ea8c67543a8eccd481a8f49756af62d6a8",
+    "fragment_ids": "17-002",
+    "updated": "2026-09-30",
+    "is_translation": false,
+    "title_source": "имя файла",
+    "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "section": "(введение)",
+    "line_start": 2,
+    "page_end": 0
+   },
+   "distance": 0.165003,
+   "provenance": [
+    {
+     "fragment_id": "17-002",
+     "role": "content",
+     "start": 0,
+     "end": 106,
+     "locator": {
+      "csv_row": 2
+     },
+     "locator_text": "строка 2",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "original_ru",
+     "cells": [
+      {
+       "col": 1,
+       "header": "Область",
+       "header_ru": "Область",
+       "value": "Корзина",
+       "value_ru": "Корзина"
+      },
+      {
+       "col": 2,
+       "header": "Тариф или объект",
+       "header_ru": "Тариф или объект",
+       "value": "Starter",
+       "value_ru": "Starter"
+      },
+      {
+       "col": 3,
+       "header": "Срок или действие",
+       "header_ru": "Срок или действие",
+       "value": "Восстановление удалённых объектов: 7 дней.",
+       "value_ru": "Восстановление удалённых объектов: 7 дней."
+      }
+     ],
+     "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе."
+    }
+   ]
+  }
+ ],
+ "context": "[trash-recovery::chunk-02] Корзина: разговор с клиентом и восстановление — documents/Клиентский сервис/Корзина и восстановление.md, строка 9; строка 11; строка 13\n## Как считать оставшееся время\n\nДля Team окно восстановления составляет 30 календарных дней с момента удаления. У Starter оно равно 7 календарным дням, у Enterprise — 90 календарным дням. Это именно календарные дни; выходные не приостанавливают отсчёт. Таймер начинается при удалении объекта. Время хранится в UTC, поэтому в обсуждении нужно отделять сам момент события от того, как он показан человеку в его часовом поясе. Фраза «удалили в понедельник вечером» ещё не позволяет проверить срок.\n\nПопросите клиента указать время удаления, а если он видит местное время — уточните часовой пояс. В заметке по обращению сохраните однозначное время UTC. Два сотрудника из разных офисов могут назвать разные даты одного события, если удаление произошло около полуночи. Это не означает, что у них разные окна восстановления. Они описывают один момент с разных сторон. Не округляйте время до начала дня и не заменяйте момент удаления датой, когда клиент впервые обратился в поддержку.\n\nПолезный способ объяснить правило — сначала назвать тариф, затем срок и только потом обсудить конкретный объект. Например: «Для Team восстановление доступно в течение 30 календарных дней после удаления; проверим время этой карточки». Такой ответ помогает человеку понять, почему у коллеги в другом workspace мог быть другой результат. Само название организации не подсказывает тариф конкретного рабочего пространства, поэтому его нужно проверить отдельно, а не брать из памяти о предыдущем обращении.\n\n[retention-reconciliation::chunk-02] хранение - сверка сентября — documents/Клиентский сервис/хранение - сверка сентября.csv, строка 3\nОбласть: Корзина; Тариф или объект: Team; Срок или действие: Восстановление удалённых объектов: 30 дней.\n\n[plan-capabilities::chunk-06] Что доступно в тарифах — documents/Планирование/Тарифы новый.xlsx, лист «Возможности», строка 12, ячейки A12:D12\nЛист «Возможности»: Что доступно в тарифах\n\nТариф или предмет: История Team; Возможность: 90; Единица: дней; Граница: Журнал активности\n\n[retention-reconciliation::chunk-03] хранение - сверка сентября — documents/Клиентский сервис/хранение - сверка сентября.csv, строка 4\nОбласть: Корзина; Тариф или объект: Enterprise; Срок или действие: Восстановление удалённых объектов: 90 дней.\n\n[trash-recovery::chunk-05] Корзина: разговор с клиентом и восстановление — documents/Клиентский сервис/Корзина и восстановление.md, строка 31; строка 33\n## Если окно уже закончилось\n\nПосле окончания окна восстановление необратимо недоступно. Поддержка не продлевает срок. Это следует сказать прямо, без обещания «попробовать вернуть через инженеров», которое создаёт ложное ожидание отдельного скрытого способа. Тяжесть ситуации для клиента понятна, но срочность обращения не меняет время удаления и длительность окна. Не предлагайте повторить запрос завтра и не трактуйте обращение руководителя клиента как основание остановить таймер.\n\nВ завершении разговора полезно ещё раз связать ответ с проверенными данными: о каком workspace и объекте говорили, на каком тарифе он находится и какое время удаления использовали. Такой итог помогает избежать следующего обращения с другим объектом, но прежним выводом. Если восстановление доступно, клиент понимает, кому действовать в Корзине. Если срок закончился, он получает определённый ответ без бессрочного ожидания. Смысл этой памятки — дать точную опору разговору, в котором людям обычно хочется услышать обещание раньше, чем установлены факты.\n\n[team-service-credits-support::chunk-06] График сервисных кредитов для Team — documents/Клиентский сервис/Team service credits.docx, абзац 22 (w:p, стиль Normal); абзац 23 (w:p, стиль Normal)\nСлучаи, обсуждённые на сентябрьской передаче\n\nКлиент сообщил о двух перерывах, между которыми сервис был восстановлен. Проверяющий из поддержки запросил у владельца инцидента подтверждённые непрерывные интервалы, а не стал складывать длительности. Затем доказательства позволили клиенту понять, какой интервал рассматривается. В другом случае был затронут только один регион, тогда как у организации клиента было несколько workspace. Проверяющий ограничил заявку затронутым workspace и не стал намекать, что все подписки автоматически имеют право на кредит.\n\nУведомление о плановых работах тоже требует изучения. Плановые работы, объявленные не менее чем за сорок восемь часов, под действие этого графика не подпадают, но уведомление должно действительно охватывать затронутый сервис и окно. Внутренняя запись в календаре — не обязательно доказательство уведомления клиента. Если клиент оспаривает, относилось ли объявление к его случаю, приложите соответствующее сообщение и направьте вопрос на совместную проверку, а не решайте по одной лишь пометке «плановые работы».\n\n[team-service-credits-support::chunk-02] График сервисных кредитов для Team — documents/Клиентский сервис/Team service credits.docx, абзац 5 (w:p, стиль Normal); абзац 6 (w:p, стиль Normal); абзац 7 (w:p, стиль Normal); абзац 8 (w:p, стиль Normal)\nПраво на кредит\n\nЭтот график применяется к подписке Team при подтверждённом сбое сервиса P1 продолжительностью не менее 120 минут подряд.\n\nПроцент применяется к ежемесячной плате за подписку затронутого workspace без учёта налогов и дополнений за использование.\n\nBilling owner должен подать заявку в течение 10 календарных дней после окончания инцидента.\n\nДля заявки нужны incident ID, workspace ID, интервал влияния в UTC и invoice ID.\n\n[retention-reconciliation::chunk-01] хранение - сверка сентября — documents/Клиентский сервис/хранение - сверка сентября.csv, строка 2\nОбласть: Корзина; Тариф или объект: Starter; Срок или действие: Восстановление удалённых объектов: 7 дней.",
+ "context_chunk_ids": [
+  "trash-recovery::chunk-02",
+  "retention-reconciliation::chunk-02",
+  "plan-capabilities::chunk-06",
+  "retention-reconciliation::chunk-03",
+  "trash-recovery::chunk-05",
+  "team-service-credits-support::chunk-06",
+  "team-service-credits-support::chunk-02",
+  "retention-reconciliation::chunk-01"
+ ],
+ "retrieval_trace_path": "evidence/retrieval-trace-q-20261118T205337Z-a9ae78.json",
+ "output_path": "evidence/retrieval-a-q02-agent.json"
+}

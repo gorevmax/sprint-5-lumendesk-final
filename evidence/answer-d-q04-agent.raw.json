@@ -1,0 +1,15 @@
+{
+ "answer": "Расписание доставки вебхука (минуты от первоначальной отправки): попытка 1 — 0 (первоначальная отправка), попытка 2 — 1, попытка 3 — 5, попытка 4 — 15, попытка 5 — 60, попытка 6 — 240 (последняя отправка). Event ID во всех попытках остаётся одним и тем же. Подписка приостанавливается, если в течение одного часа произошло три события dead_letter; повторно её включает администратор после теста с ответом HTTP 2xx. Источник: documents/Выгрузки/webhooks-reprises.csv (оригинал на французском), строки 2–7 — расписание (столбцы «Étape ou livraison», «Minutes depuis envoi initial», «Observation»), строки 9–11 — приостановка, возобновление и event ID (столбец «Observation»). Важно: владелец этой выгрузки в файле не указан, поэтому происхождение значений не подтверждено; при споре с клиентом их стоит сверить с владельцем API. Когда именно событие получает состояние dead_letter, в найденных фрагментах не сказано.",
+ "citations": [
+  {"document_id": "webhook-retries", "chunk_id": "webhook-retries::chunk-01", "quote": "Этап или доставка: Попытка 1; Минут с первоначальной отправки: 0; Наблюдение: Первоначальная отправка на 0-й минуте."},
+  {"document_id": "webhook-retries", "chunk_id": "webhook-retries::chunk-02", "quote": "Этап или доставка: Попытка 2; Минут с первоначальной отправки: 1"},
+  {"document_id": "webhook-retries", "chunk_id": "webhook-retries::chunk-03", "quote": "Этап или доставка: Попытка 3; Минут с первоначальной отправки: 5"},
+  {"document_id": "webhook-retries", "chunk_id": "webhook-retries::chunk-04", "quote": "Этап или доставка: Попытка 4; Минут с первоначальной отправки: 15"},
+  {"document_id": "webhook-retries", "chunk_id": "webhook-retries::chunk-05", "quote": "Этап или доставка: Попытка 5; Минут с первоначальной отправки: 60"},
+  {"document_id": "webhook-retries", "chunk_id": "webhook-retries::chunk-06", "quote": "Этап или доставка: Попытка 6; Минут с первоначальной отправки: 240; Наблюдение: Последняя отправка на 240-й минуте."},
+  {"document_id": "webhook-retries", "chunk_id": "webhook-retries::chunk-10", "quote": "Event ID остаётся одинаковым во всех попытках."},
+  {"document_id": "webhook-retries", "chunk_id": "webhook-retries::chunk-08", "quote": "Три события dead_letter в течение одного часа приостанавливают подписку."},
+  {"document_id": "webhook-retries", "chunk_id": "webhook-retries::chunk-09", "quote": "Администратор повторно включает подписку после теста с ответом HTTP 2xx."}
+ ],
+ "decision": "answer"
+}

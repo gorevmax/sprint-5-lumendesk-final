@@ -1,0 +1,197 @@
+{
+ "capture_id": "cap-20261118T205854Z-f3ac7e",
+ "question": "В течение какого срока на тарифе Team можно восстановить удалённый объект?",
+ "role": "support_agent",
+ "citations": [
+  {
+   "citation_index": 0,
+   "document_id": "trash-recovery",
+   "chunk_id": "trash-recovery::chunk-02",
+   "quote": "Для Team окно восстановления составляет 30 календарных дней с момента удаления.",
+   "rank": 1,
+   "distance": 0.122579,
+   "title": "Корзина: разговор с клиентом и восстановление",
+   "title_orig": "Корзина: разговор с клиентом и восстановление",
+   "source_path": "documents/Клиентский сервис/Корзина и восстановление.md",
+   "section": "Как считать оставшееся время",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Workspace Platform",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "13-005",
+     "location": {
+      "file": "documents/Клиентский сервис/Корзина и восстановление.md",
+      "format": "md",
+      "fragment_id": "13-005",
+      "section": "Как считать оставшееся время",
+      "lines": [
+       9,
+       9
+      ],
+      "where": "раздел «Как считать оставшееся время», строка 9"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": null,
+     "handling": "Действующий материал.",
+     "also_in": [
+      {
+       "fragment_id": "37-005",
+       "source_path": "documents/Рабочие копии/recovery-notes.txt",
+       "locator_text": "строка 9",
+       "source_lang": "en"
+      }
+     ],
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 1,
+   "document_id": "trash-recovery",
+   "chunk_id": "trash-recovery::chunk-02",
+   "quote": "Это именно календарные дни; выходные не приостанавливают отсчёт. Таймер начинается при удалении объекта.",
+   "rank": 1,
+   "distance": 0.122579,
+   "title": "Корзина: разговор с клиентом и восстановление",
+   "title_orig": "Корзина: разговор с клиентом и восстановление",
+   "source_path": "documents/Клиентский сервис/Корзина и восстановление.md",
+   "section": "Как считать оставшееся время",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Workspace Platform",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "13-005",
+     "location": {
+      "file": "documents/Клиентский сервис/Корзина и восстановление.md",
+      "format": "md",
+      "fragment_id": "13-005",
+      "section": "Как считать оставшееся время",
+      "lines": [
+       9,
+       9
+      ],
+      "where": "раздел «Как считать оставшееся время», строка 9"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": null,
+     "handling": "Действующий материал.",
+     "also_in": [
+      {
+       "fragment_id": "37-005",
+       "source_path": "documents/Рабочие копии/recovery-notes.txt",
+       "locator_text": "строка 9",
+       "source_lang": "en"
+      }
+     ],
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 2,
+   "document_id": "trash-recovery",
+   "chunk_id": "trash-recovery::chunk-05",
+   "quote": "После окончания окна восстановление необратимо недоступно. Поддержка не продлевает срок.",
+   "rank": 5,
+   "distance": 0.16383,
+   "title": "Корзина: разговор с клиентом и восстановление",
+   "title_orig": "Корзина: разговор с клиентом и восстановление",
+   "source_path": "documents/Клиентский сервис/Корзина и восстановление.md",
+   "section": "Если окно уже закончилось",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Workspace Platform",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "13-016",
+     "location": {
+      "file": "documents/Клиентский сервис/Корзина и восстановление.md",
+      "format": "md",
+      "fragment_id": "13-016",
+      "section": "Если окно уже закончилось",
+      "lines": [
+       31,
+       31
+      ],
+      "where": "раздел «Если окно уже закончилось», строка 31"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": null,
+     "handling": "Действующий материал.",
+     "also_in": [
+      {
+       "fragment_id": "37-016",
+       "source_path": "documents/Рабочие копии/recovery-notes.txt",
+       "locator_text": "строка 31",
+       "source_lang": "en"
+      }
+     ],
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 3,
+   "document_id": "retention-reconciliation",
+   "chunk_id": "retention-reconciliation::chunk-02",
+   "quote": "Тариф или объект: Team; Срок или действие: Восстановление удалённых объектов: 30 дней.",
+   "rank": 2,
+   "distance": 0.137136,
+   "title": "хранение - сверка сентября",
+   "title_orig": "",
+   "source_path": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+   "section": "(введение)",
+   "version": "2026-09-01",
+   "updated": "2026-09-30",
+   "owner": "",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "17-003",
+     "location": {
+      "file": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+      "format": "csv",
+      "fragment_id": "17-003",
+      "rows": [
+       3
+      ],
+      "columns": [
+       "Тариф или объект",
+       "Срок или действие"
+      ],
+      "where": "строка 3, столбцы: Тариф или объект, Срок или действие"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": [
+      {
+       "col": 2,
+       "header": "Тариф или объект",
+       "value": "Team"
+      },
+      {
+       "col": 3,
+       "header": "Срок или действие",
+       "value": "Восстановление удалённых объектов: 30 дней."
+      }
+     ],
+     "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  }
+ ]
+}

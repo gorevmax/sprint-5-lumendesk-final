@@ -1,0 +1,417 @@
+{
+ "capture_id": "cap-20261118T204114Z-ccab1f",
+ "question": "По какому расписанию повторяется доставка вебхука и когда приостанавливается подписка?",
+ "role": "support_agent",
+ "citations": [
+  {
+   "citation_index": 0,
+   "document_id": "webhook-retries",
+   "chunk_id": "webhook-retries::chunk-01",
+   "quote": "Этап или доставка: Попытка 1; Минут с первоначальной отправки: 0",
+   "rank": 8,
+   "distance": 0.145415,
+   "title": "webhooks-reprises",
+   "title_orig": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "section": "(введение)",
+   "version": "",
+   "updated": "",
+   "owner": "",
+   "source_lang": "fr",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "06-002",
+     "location": {
+      "file": "documents/Выгрузки/webhooks-reprises.csv",
+      "format": "csv",
+      "fragment_id": "06-002",
+      "rows": [
+       2
+      ],
+      "columns": [
+       "Étape ou livraison (Этап или доставка)",
+       "Minutes depuis envoi initial (Минут с первоначальной отправки)"
+      ],
+      "where": "строка 2, столбцы: Étape ou livraison (Этап или доставка), Minutes depuis envoi initial (Минут с первоначальной отправки)"
+     },
+     "translation": "translated",
+     "original_excerpt": "Nature: calendrier; Étape ou livraison: Tentative 1; Minutes depuis envoi initial: 0; Observation: Envoi initial à 0 minute.",
+     "original_cells": [
+      {
+       "col": 2,
+       "header": "Étape ou livraison",
+       "value": "Tentative 1"
+      },
+      {
+       "col": 3,
+       "header": "Minutes depuis envoi initial",
+       "value": "0"
+      }
+     ],
+     "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 1,
+   "document_id": "webhook-retries",
+   "chunk_id": "webhook-retries::chunk-02",
+   "quote": "Этап или доставка: Попытка 2; Минут с первоначальной отправки: 1",
+   "rank": 7,
+   "distance": 0.140318,
+   "title": "webhooks-reprises",
+   "title_orig": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "section": "(введение)",
+   "version": "",
+   "updated": "",
+   "owner": "",
+   "source_lang": "fr",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "06-003",
+     "location": {
+      "file": "documents/Выгрузки/webhooks-reprises.csv",
+      "format": "csv",
+      "fragment_id": "06-003",
+      "rows": [
+       3
+      ],
+      "columns": [
+       "Étape ou livraison (Этап или доставка)",
+       "Minutes depuis envoi initial (Минут с первоначальной отправки)"
+      ],
+      "where": "строка 3, столбцы: Étape ou livraison (Этап или доставка), Minutes depuis envoi initial (Минут с первоначальной отправки)"
+     },
+     "translation": "translated",
+     "original_excerpt": "Nature: calendrier; Étape ou livraison: Tentative 2; Minutes depuis envoi initial: 1; Observation: Nouvel envoi à 1 minute.",
+     "original_cells": [
+      {
+       "col": 2,
+       "header": "Étape ou livraison",
+       "value": "Tentative 2"
+      },
+      {
+       "col": 3,
+       "header": "Minutes depuis envoi initial",
+       "value": "1"
+      }
+     ],
+     "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 2,
+   "document_id": "webhook-retries",
+   "chunk_id": "webhook-retries::chunk-03",
+   "quote": "Этап или доставка: Попытка 3; Минут с первоначальной отправки: 5",
+   "rank": 3,
+   "distance": 0.133423,
+   "title": "webhooks-reprises",
+   "title_orig": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "section": "(введение)",
+   "version": "",
+   "updated": "",
+   "owner": "",
+   "source_lang": "fr",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "06-004",
+     "location": {
+      "file": "documents/Выгрузки/webhooks-reprises.csv",
+      "format": "csv",
+      "fragment_id": "06-004",
+      "rows": [
+       4
+      ],
+      "columns": [
+       "Étape ou livraison (Этап или доставка)",
+       "Minutes depuis envoi initial (Минут с первоначальной отправки)"
+      ],
+      "where": "строка 4, столбцы: Étape ou livraison (Этап или доставка), Minutes depuis envoi initial (Минут с первоначальной отправки)"
+     },
+     "translation": "translated",
+     "original_excerpt": "Nature: calendrier; Étape ou livraison: Tentative 3; Minutes depuis envoi initial: 5; Observation: Nouvel envoi à 5 minutes.",
+     "original_cells": [
+      {
+       "col": 2,
+       "header": "Étape ou livraison",
+       "value": "Tentative 3"
+      },
+      {
+       "col": 3,
+       "header": "Minutes depuis envoi initial",
+       "value": "5"
+      }
+     ],
+     "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 3,
+   "document_id": "webhook-retries",
+   "chunk_id": "webhook-retries::chunk-04",
+   "quote": "Этап или доставка: Попытка 4; Минут с первоначальной отправки: 15",
+   "rank": 2,
+   "distance": 0.133313,
+   "title": "webhooks-reprises",
+   "title_orig": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "section": "(введение)",
+   "version": "",
+   "updated": "",
+   "owner": "",
+   "source_lang": "fr",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "06-005",
+     "location": {
+      "file": "documents/Выгрузки/webhooks-reprises.csv",
+      "format": "csv",
+      "fragment_id": "06-005",
+      "rows": [
+       5
+      ],
+      "columns": [
+       "Étape ou livraison (Этап или доставка)",
+       "Minutes depuis envoi initial (Минут с первоначальной отправки)"
+      ],
+      "where": "строка 5, столбцы: Étape ou livraison (Этап или доставка), Minutes depuis envoi initial (Минут с первоначальной отправки)"
+     },
+     "translation": "translated",
+     "original_excerpt": "Nature: calendrier; Étape ou livraison: Tentative 4; Minutes depuis envoi initial: 15; Observation: Nouvel envoi à 15 minutes.",
+     "original_cells": [
+      {
+       "col": 2,
+       "header": "Étape ou livraison",
+       "value": "Tentative 4"
+      },
+      {
+       "col": 3,
+       "header": "Minutes depuis envoi initial",
+       "value": "15"
+      }
+     ],
+     "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 4,
+   "document_id": "webhook-retries",
+   "chunk_id": "webhook-retries::chunk-05",
+   "quote": "Этап или доставка: Попытка 5; Минут с первоначальной отправки: 60",
+   "rank": 4,
+   "distance": 0.133604,
+   "title": "webhooks-reprises",
+   "title_orig": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "section": "(введение)",
+   "version": "",
+   "updated": "",
+   "owner": "",
+   "source_lang": "fr",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "06-006",
+     "location": {
+      "file": "documents/Выгрузки/webhooks-reprises.csv",
+      "format": "csv",
+      "fragment_id": "06-006",
+      "rows": [
+       6
+      ],
+      "columns": [
+       "Étape ou livraison (Этап или доставка)",
+       "Minutes depuis envoi initial (Минут с первоначальной отправки)"
+      ],
+      "where": "строка 6, столбцы: Étape ou livraison (Этап или доставка), Minutes depuis envoi initial (Минут с первоначальной отправки)"
+     },
+     "translation": "translated",
+     "original_excerpt": "Nature: calendrier; Étape ou livraison: Tentative 5; Minutes depuis envoi initial: 60; Observation: Nouvel envoi à 60 minutes.",
+     "original_cells": [
+      {
+       "col": 2,
+       "header": "Étape ou livraison",
+       "value": "Tentative 5"
+      },
+      {
+       "col": 3,
+       "header": "Minutes depuis envoi initial",
+       "value": "60"
+      }
+     ],
+     "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 5,
+   "document_id": "webhook-retries",
+   "chunk_id": "webhook-retries::chunk-06",
+   "quote": "Этап или доставка: Попытка 6; Минут с первоначальной отправки: 240; Наблюдение: Последняя отправка на 240-й минуте.",
+   "rank": 5,
+   "distance": 0.13495,
+   "title": "webhooks-reprises",
+   "title_orig": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "section": "(введение)",
+   "version": "",
+   "updated": "",
+   "owner": "",
+   "source_lang": "fr",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "06-007",
+     "location": {
+      "file": "documents/Выгрузки/webhooks-reprises.csv",
+      "format": "csv",
+      "fragment_id": "06-007",
+      "rows": [
+       7
+      ],
+      "columns": [
+       "Étape ou livraison (Этап или доставка)",
+       "Minutes depuis envoi initial (Минут с первоначальной отправки)",
+       "Observation (Наблюдение)"
+      ],
+      "where": "строка 7, столбцы: Étape ou livraison (Этап или доставка), Minutes depuis envoi initial (Минут с первоначальной отправки), Observation (Наблюдение)"
+     },
+     "translation": "translated",
+     "original_excerpt": "Nature: calendrier; Étape ou livraison: Tentative 6; Minutes depuis envoi initial: 240; Observation: Dernier envoi à 240 minutes.",
+     "original_cells": [
+      {
+       "col": 2,
+       "header": "Étape ou livraison",
+       "value": "Tentative 6"
+      },
+      {
+       "col": 3,
+       "header": "Minutes depuis envoi initial",
+       "value": "240"
+      },
+      {
+       "col": 6,
+       "header": "Observation",
+       "value": "Dernier envoi à 240 minutes."
+      }
+     ],
+     "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 6,
+   "document_id": "webhook-retries",
+   "chunk_id": "webhook-retries::chunk-08",
+   "quote": "Три события dead_letter в течение одного часа приостанавливают подписку.",
+   "rank": 1,
+   "distance": 0.127655,
+   "title": "webhooks-reprises",
+   "title_orig": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "section": "(введение)",
+   "version": "",
+   "updated": "",
+   "owner": "",
+   "source_lang": "fr",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "06-009",
+     "location": {
+      "file": "documents/Выгрузки/webhooks-reprises.csv",
+      "format": "csv",
+      "fragment_id": "06-009",
+      "rows": [
+       9
+      ],
+      "columns": [
+       "Observation (Наблюдение)"
+      ],
+      "where": "строка 9, столбцы: Observation (Наблюдение)"
+     },
+     "translation": "translated",
+     "original_excerpt": "Nature: consigne; Étape ou livraison: Suspension; Observation: Trois événements dead_letter en une heure suspendent l’abonnement.",
+     "original_cells": [
+      {
+       "col": 6,
+       "header": "Observation",
+       "value": "Trois événements dead_letter en une heure suspendent l’abonnement."
+      }
+     ],
+     "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 7,
+   "document_id": "webhook-retries",
+   "chunk_id": "webhook-retries::chunk-09",
+   "quote": "Администратор повторно включает подписку после теста с ответом HTTP 2xx.",
+   "rank": 6,
+   "distance": 0.135744,
+   "title": "webhooks-reprises",
+   "title_orig": "",
+   "source_path": "documents/Выгрузки/webhooks-reprises.csv",
+   "section": "(введение)",
+   "version": "",
+   "updated": "",
+   "owner": "",
+   "source_lang": "fr",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "06-010",
+     "location": {
+      "file": "documents/Выгрузки/webhooks-reprises.csv",
+      "format": "csv",
+      "fragment_id": "06-010",
+      "rows": [
+       10
+      ],
+      "columns": [
+       "Observation (Наблюдение)"
+      ],
+      "where": "строка 10, столбцы: Observation (Наблюдение)"
+     },
+     "translation": "translated",
+     "original_excerpt": "Nature: consigne; Étape ou livraison: Reprise; Observation: Un administrateur réactive l’abonnement après un test HTTP 2xx.",
+     "original_cells": [
+      {
+       "col": 6,
+       "header": "Observation",
+       "value": "Un administrateur réactive l’abonnement après un test HTTP 2xx."
+      }
+     ],
+     "handling": "Действующий материал. Владелец источника не указан — упоминать это в ответе. Перевод с FR; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  }
+ ]
+}

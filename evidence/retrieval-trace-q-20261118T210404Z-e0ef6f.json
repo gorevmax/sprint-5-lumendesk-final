@@ -1,0 +1,415 @@
+{
+ "query_id": "q-20261118T210404Z-e0ef6f",
+ "created_at": "2026-11-18T21:04:04Z",
+ "question": "Какой предел одного вложения на Team?",
+ "role": "support_agent",
+ "top_k": 8,
+ "policy": {
+  "version": "v3",
+  "retrieval_threshold": 0.2,
+  "authorization_probe_distance": 0.35,
+  "top_k": 8,
+  "config_path": "behavior/v3.json",
+  "config_sha256": "fb9c58195459e0f13fdcf87b80ce3255c6df888ee819d292a1a1536b6f67d82d",
+  "system_file": "behavior/system-v3.md",
+  "system_sha256": "7bfb0b5462c7c2e7dcab75888f8fd12595cb398932f81bd3fa26eb55ceb4b137",
+  "lexical_extra": 2,
+  "lexical_pool": 40,
+  "lexical_stem": 6,
+  "forbidden_rule": "probe_and_closer_than_allowed"
+ },
+ "profile": {
+  "model_id": "intfloat/multilingual-e5-base",
+  "dimension": 768,
+  "device": "cpu",
+  "normalize_embeddings": true,
+  "passage_prefix": "passage: ",
+  "query_prefix": "query: ",
+  "embedding_text": "title_ru + '\\n' + chunk text (NFC, пробелы схлопнуты); префикс добавляется один раз при encode",
+  "text_normalization": "NFC + whitespace collapse, только для эмбеддингов",
+  "chunker": "structural-v1",
+  "chunk_rule": "введение и разделы H2 (лист для xlsx), по границам подготовленных фрагментов; строка таблицы — отдельный чанк с названием листа",
+  "chunk_token_limit": 384,
+  "chunk_overlap": 0,
+  "query_token_limit": 512,
+  "metric": "cosine",
+  "collection": "lumendesk-support",
+  "corpus_text": "text_ru из corpus/prepared (русский оригинал или проверенный перевод)"
+ },
+ "index_id": "idx-20261118T202118Z-d51167",
+ "allowed_document_ids": [
+  "accessibility-fr",
+  "api-errors",
+  "api-key-rotation",
+  "assistant-quota",
+  "browser-support",
+  "callbacks-fr",
+  "card-export",
+  "domain-verification",
+  "export-security",
+  "file-limits",
+  "france-data-residency",
+  "french-handoff",
+  "guest-access",
+  "hosting-regions",
+  "incident-priority",
+  "incident-register-2026-09",
+  "invoice-correction",
+  "marketplace-approval-retirement",
+  "marketplace-catalogue",
+  "notification-explainer",
+  "notification-rules",
+  "onboarding-handover",
+  "outage-communication",
+  "password-reset",
+  "plan-capabilities",
+  "privacy-requests",
+  "response-targets",
+  "retention-reconciliation",
+  "saml-cutover-notes",
+  "saml-incident-escalation",
+  "saml-parameters",
+  "search-notes",
+  "support-calendar-fr",
+  "team-service-credits-finance",
+  "team-service-credits-support",
+  "trash-recovery",
+  "webhook-retries",
+  "workshop-fr",
+  "workspace-ownership-transfer"
+ ],
+ "denied_document_count": 3,
+ "candidates": [
+  {
+   "chunk_id": "file-limits::chunk-03",
+   "distance": 0.121311,
+   "document_id": "file-limits",
+   "admitted": true,
+   "within_threshold": true,
+   "text": "Лист «Тарифы»: Размер одного вложения\n\nТариф: Team; Предел файла: 100; Единица: MiB; Применение: Один файл"
+  },
+  {
+   "chunk_id": "file-limits::chunk-07",
+   "distance": 0.147159,
+   "document_id": "file-limits",
+   "admitted": true,
+   "within_threshold": true,
+   "text": "Лист «Тарифы»: Размер одного вложения\n\nТариф: Одно действие; Предел файла: 10; Единица: файлов; Применение: Одновременная загрузка"
+  },
+  {
+   "chunk_id": "file-limits::chunk-04",
+   "distance": 0.15064,
+   "document_id": "file-limits",
+   "admitted": true,
+   "within_threshold": true,
+   "text": "Лист «Тарифы»: Размер одного вложения\n\nТариф: Enterprise; Предел файла: 250; Единица: MiB; Применение: Один файл"
+  },
+  {
+   "chunk_id": "file-limits::chunk-49",
+   "distance": 0.150683,
+   "document_id": "file-limits",
+   "admitted": true,
+   "within_threshold": true,
+   "text": "Лист «Обсуждение»: Вопросы из обращений\n\nСитуация: Клиент спросил максимальный размер без тарифа; Что выяснили: Тариф в вопросе не указан; Следующее действие: Уточнить Starter, Team или Enterprise"
+  },
+  {
+   "chunk_id": "file-limits::chunk-23",
+   "distance": 0.151365,
+   "document_id": "file-limits",
+   "admitted": true,
+   "within_threshold": true,
+   "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: сценарий 21.docx; Тариф: Team; Размер MiB: 78; Размер байт: 81788928 (формула =C18*1048576); Результат: Принят после проверки защиты"
+  },
+  {
+   "chunk_id": "file-limits::chunk-17",
+   "distance": 0.151427,
+   "document_id": "file-limits",
+   "admitted": true,
+   "within_threshold": true,
+   "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: сценарий 15.pdf; Тариф: Team; Размер MiB: 24; Размер байт: 25165824 (формула =C12*1048576); Результат: Принят после проверки защиты"
+  },
+  {
+   "chunk_id": "file-limits::chunk-20",
+   "distance": 0.1518,
+   "document_id": "file-limits",
+   "admitted": true,
+   "within_threshold": true,
+   "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: смета 18.zip; Тариф: Team; Размер MiB: 26; Размер байт: 27262976 (формула =C15*1048576); Результат: Принят после проверки защиты"
+  },
+  {
+   "chunk_id": "file-limits::chunk-26",
+   "distance": 0.151825,
+   "document_id": "file-limits",
+   "admitted": true,
+   "within_threshold": true,
+   "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: смета 24.xlsx; Тариф: Team; Размер MiB: 99; Размер байт: 103809024 (формула =C21*1048576); Результат: Принят после проверки защиты"
+  },
+  {
+   "chunk_id": "file-limits::chunk-47",
+   "distance": 0.151927,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: сценарий 45.docx; Тариф: Team; Размер MiB: 87; Размер байт: 91226112 (формула =C42*1048576); Результат: Принят после проверки защиты"
+  },
+  {
+   "chunk_id": "file-limits::chunk-44",
+   "distance": 0.153057,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: смета 42.zip; Тариф: Team; Размер MiB: 18; Размер байт: 18874368 (формула =C39*1048576); Результат: Принят после проверки защиты"
+  },
+  {
+   "chunk_id": "file-limits::chunk-14",
+   "distance": 0.153436,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: смета 12.xlsx; Тариф: Team; Размер MiB: 12; Размер байт: 12582912 (формула =C9*1048576); Результат: Принят после проверки защиты"
+  },
+  {
+   "chunk_id": "file-limits::chunk-38",
+   "distance": 0.154608,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: смета 36.xlsx; Тариф: Team; Размер MiB: 251; Размер байт: 263192576 (формула =C33*1048576); Результат: Отклонён по размеру одного файла"
+  },
+  {
+   "chunk_id": "file-limits::chunk-29",
+   "distance": 0.155292,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: сценарий 27.pdf; Тариф: Team; Размер MiB: 101; Размер байт: 105906176 (формула =C24*1048576); Результат: Отклонён по размеру одного файла"
+  },
+  {
+   "chunk_id": "file-limits::chunk-11",
+   "distance": 0.155873,
+   "document_id": "file-limits",
+   "admitted": true,
+   "within_threshold": true,
+   "text": "Лист «Тарифы»: Размер одного вложения\n\nТариф: Тариф не указан; Предел файла: Уточнить; Единица: действие; Применение: Не выбирать предел предположительно"
+  },
+  {
+   "chunk_id": "file-limits::chunk-02",
+   "distance": 0.156197,
+   "document_id": "file-limits",
+   "admitted": true,
+   "within_threshold": true,
+   "text": "Лист «Тарифы»: Размер одного вложения\n\nТариф: Starter; Предел файла: 25; Единица: MiB; Применение: Один файл"
+  },
+  {
+   "chunk_id": "file-limits::chunk-32",
+   "distance": 0.157133,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: смета 30.zip; Тариф: Team; Размер MiB: 199; Размер байт: 208666624 (формула =C27*1048576); Результат: Отклонён по размеру одного файла"
+  },
+  {
+   "chunk_id": "file-limits::chunk-06",
+   "distance": 0.157279,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Тарифы»: Размер одного вложения\n\nТариф: Имя файла; Предел файла: 180; Единица: символов; Применение: Максимальная длина"
+  },
+  {
+   "chunk_id": "file-limits::chunk-41",
+   "distance": 0.157872,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: сценарий 39.pdf; Тариф: Team; Размер MiB: 8; Размер байт: 8388608 (формула =C36*1048576); Результат: Принят после проверки защиты"
+  },
+  {
+   "chunk_id": "file-limits::chunk-35",
+   "distance": 0.158787,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: сценарий 33.docx; Тариф: Team; Размер MiB: 249; Размер байт: 261095424 (формула =C30*1048576); Результат: Отклонён по размеру одного файла"
+  },
+  {
+   "chunk_id": "file-limits::chunk-05",
+   "distance": 0.15909,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Тарифы»: Размер одного вложения\n\nТариф: Единица MiB; Предел файла: 1048576; Единица: байт; Применение: Так определяется 1 MiB"
+  },
+  {
+   "chunk_id": "file-limits::chunk-09",
+   "distance": 0.16208,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Тарифы»: Размер одного вложения\n\nТариф: EXE и SCR; Предел файла: Не принимаются; Единица: правило; Применение: Опасные расширения запрещены"
+  },
+  {
+   "chunk_id": "file-limits::chunk-54",
+   "distance": 0.16533,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Обсуждение»: Вопросы из обращений\n\nСитуация: За раз отправили много файлов; Что выяснили: Есть предел числа файлов в одном действии; Следующее действие: Разделить действия без изменения предела файла"
+  },
+  {
+   "chunk_id": "file-limits::chunk-10",
+   "distance": 0.165706,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Тарифы»: Размер одного вложения\n\nТариф: Защита; Предел файла: Проверка обязательна; Единица: правило; Применение: Доступ после антивирусной проверки"
+  },
+  {
+   "chunk_id": "file-limits::chunk-01",
+   "distance": 0.168107,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Workspace Platform подтвердил эти значения 1 сентября 2026 года. Сначала уточните тариф рабочего пространства. Размер хранилища и размер одного файла — разные ограничения."
+  },
+  {
+   "chunk_id": "team-service-credits-support::chunk-03",
+   "distance": 0.171457,
+   "document_id": "team-service-credits-support",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Урегулирование\n\nПри подходящем сбое P1 на Team продолжительностью не менее 120 минут подряд сервисный кредит составляет 20 процентов ежемесячной платы за подписку.\n\nОдобренный кредит зачитывается в следующий счёт и не является денежной выплатой.\n\nСумма кредитов за инциденты не может превышать 50 процентов той же ежемесячной платы за подписку.\n\nНеполные или оспариваемые заявки Finance и Support Operations проверяют совместно.\n\nПлановые работы, объявленные не менее чем за 48 часов, под действие этого графика не подпадают."
+  },
+  {
+   "chunk_id": "file-limits::chunk-08",
+   "distance": 0.17163,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Тарифы»: Размер одного вложения\n\nТариф: ZIP; Предел файла: Как один файл; Единица: правило; Применение: Проверяется размер архива"
+  },
+  {
+   "chunk_id": "team-service-credits-finance::chunk-03",
+   "distance": 0.172579,
+   "document_id": "team-service-credits-finance",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Урегулирование\n\nСтавка. При подходящем сбое P1 на Team продолжительностью не менее 120 минут подряд сервисный кредит составляет 15 процентов ежемесячной платы за подписку.\n\nСпособ. Одобренный кредит зачитывается в следующий счёт и не является денежной выплатой.\n\nПредел. Сумма кредитов за инциденты не может превышать 50 процентов той же ежемесячной платы за подписку.\n\nПроверка. Неполные или оспариваемые заявки Finance и Support Operations проверяют совместно.\n\nИсключения. Плановые работы, объявленные не менее чем за 48 часов, под действие этого графика не подпадают."
+  },
+  {
+   "chunk_id": "team-service-credits-finance::chunk-02",
+   "distance": 0.173057,
+   "document_id": "team-service-credits-finance",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Право на кредит\n\nОхват. Этот график применяется к подписке Team при подтверждённом сбое сервиса P1 продолжительностью не менее 120 минут подряд.\n\nБаза. Процент применяется к ежемесячной плате за подписку затронутого workspace без учёта налогов и дополнений за использование.\n\nЗаявка. Billing owner должен подать заявку в течение 10 календарных дней после окончания инцидента.\n\nДоказательства. Для заявки нужны incident ID, workspace ID, интервал влияния в UTC и invoice ID."
+  },
+  {
+   "chunk_id": "team-service-credits-support::chunk-05",
+   "distance": 0.173435,
+   "document_id": "team-service-credits-support",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Расчёт подходящей заявки\n\nПри ежемесячной плате за подписку Team 400 EUR без налога этот график Support Operations рассчитывает подходящий сервисный кредит по ставке 20 процентов, что даёт 80 EUR. База не включает налог и дополнения за использование. Та же база используется при проверке месячного предела. Записывайте базу, процент и результат отдельно, чтобы проверяющий видел, вызвана ли разница выбранной платой или применённой ставкой. Округление или отображение в счёте никогда не должны скрывать исходный процент.\n\nЕсли для той же ежемесячной платы уже одобрен другой кредит, учтите его при проверке предела. Сумма кредитов за инциденты не может превышать половины этой ежемесячной платы за подписку. Держите прежнее одобрение связанным с проверкой, чтобы было ясно, идёт ли речь о другом подходящем инциденте или о той же заявке, поданной повторно. Второе письмо клиента — не новый инцидент. Исправления заявки должны сохранять прежний расчёт и объяснять, что изменилось."
+  },
+  {
+   "chunk_id": "team-service-credits-support::chunk-02",
+   "distance": 0.174494,
+   "document_id": "team-service-credits-support",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Право на кредит\n\nЭтот график применяется к подписке Team при подтверждённом сбое сервиса P1 продолжительностью не менее 120 минут подряд.\n\nПроцент применяется к ежемесячной плате за подписку затронутого workspace без учёта налогов и дополнений за использование.\n\nBilling owner должен подать заявку в течение 10 календарных дней после окончания инцидента.\n\nДля заявки нужны incident ID, workspace ID, интервал влияния в UTC и invoice ID."
+  },
+  {
+   "chunk_id": "file-limits::chunk-12",
+   "distance": 0.174506,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Журнал безопасных примеров команды поддержки. Значение в байтах рассчитывается из размера в MiB; это размер отдельного файла."
+  },
+  {
+   "chunk_id": "file-limits::chunk-52",
+   "distance": 0.178202,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Обсуждение»: Вопросы из обращений\n\nСитуация: Файл ещё обрабатывается; Что выяснили: Проверка защиты не завершена; Следующее действие: Не считать ожидание отказом по размеру"
+  },
+  {
+   "chunk_id": "team-service-credits-finance::chunk-01",
+   "distance": 0.178447,
+   "document_id": "team-service-credits-finance",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Рассылка Finance, действует с 15 сентября 2026 года. Это операционный график для подтверждённых сбоев сервиса P1 на Team. Расчёты по счетам в этом документе ведёт Finance; Support Operations фиксирует влияние и подтверждает классификацию инцидента. Обе команды используют одну и ту же запись об инциденте. Эта рассылка действует и предназначена для тех, кто готовит или проверяет заявки, а не для автоматического обещания в статусном обновлении.\n\nПроверка кредита начинается с конкретного затронутого workspace и непрерывного интервала недоступности сервиса. Наличие инфраструктурного инцидента — полезное доказательство, но оно не устанавливает, что каждый клиент или каждый workspace испытал одинаковое влияние. Рассматривайте охват инцидента и учётную запись клиента вместе. Приведённые ниже правила применяются к подтверждённому сбою P1 на Team, в том числе к сбою продолжительностью ровно 120 минут подряд."
+  },
+  {
+   "chunk_id": "file-limits::chunk-30",
+   "distance": 0.178457,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: выгрузка 28.xlsx; Тариф: Enterprise; Размер MiB: 101; Размер байт: 105906176 (формула =C25*1048576); Результат: Принят после проверки защиты"
+  },
+  {
+   "chunk_id": "file-limits::chunk-24",
+   "distance": 0.178673,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: выгрузка 22.zip; Тариф: Enterprise; Размер MiB: 78; Размер байт: 81788928 (формула =C19*1048576); Результат: Принят после проверки защиты"
+  },
+  {
+   "chunk_id": "file-limits::chunk-36",
+   "distance": 0.178752,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: выгрузка 34.zip; Тариф: Enterprise; Размер MiB: 249; Размер байт: 261095424 (формула =C31*1048576); Результат: Принят после проверки защиты"
+  },
+  {
+   "chunk_id": "file-limits::chunk-33",
+   "distance": 0.179413,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: обложка 31.pdf; Тариф: Enterprise; Размер MiB: 199; Размер байт: 208666624 (формула =C28*1048576); Результат: Принят после проверки защиты"
+  },
+  {
+   "chunk_id": "file-limits::chunk-53",
+   "distance": 0.179623,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Обсуждение»: Вопросы из обращений\n\nСитуация: Нужен файл с длинным названием; Что выяснили: Длина имени ограничена отдельно; Следующее действие: Сократить имя до допустимой длины"
+  },
+  {
+   "chunk_id": "plan-capabilities::chunk-06",
+   "distance": 0.179886,
+   "document_id": "plan-capabilities",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Возможности»: Что доступно в тарифах\n\nТариф или предмет: История Team; Возможность: 90; Единица: дней; Граница: Журнал активности"
+  },
+  {
+   "chunk_id": "file-limits::chunk-27",
+   "distance": 0.179894,
+   "document_id": "file-limits",
+   "admitted": false,
+   "within_threshold": true,
+   "text": "Лист «Загрузки»: Проверка обращений за сентябрь\n\nФайл: обложка 25.docx; Тариф: Enterprise; Размер MiB: 99; Размер байт: 103809024 (формула =C22*1048576); Результат: Принят после проверки защиты"
+  }
+ ],
+ "restricted_probe": {
+  "checked": true,
+  "denied_documents": 3,
+  "nearest_distance": 0.19907,
+  "within_probe": 8,
+  "probe_distance": 0.35,
+  "closer_than_best_admitted": 0,
+  "rule": "probe_and_closer_than_allowed"
+ },
+ "context_state": "available",
+ "result_path": "evidence/retrieval-b-q01-agent.json"
+}

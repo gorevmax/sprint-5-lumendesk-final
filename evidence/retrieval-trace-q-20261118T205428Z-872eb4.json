@@ -1,0 +1,146 @@
+{
+ "query_id": "q-20261118T205428Z-872eb4",
+ "created_at": "2026-11-18T20:54:28Z",
+ "question": "По какому расписанию повторяется доставка вебхука и когда приостанавливается подписка?",
+ "role": "support_agent",
+ "top_k": 8,
+ "policy": {
+  "version": "v2",
+  "retrieval_threshold": 0.2,
+  "authorization_probe_distance": 0.35,
+  "top_k": 8,
+  "config_path": "behavior/v2.json",
+  "config_sha256": "72266e97822de6c04c3d08264ae1a8ffdc2e893faa4a416ba55401c492a1d324",
+  "system_file": "behavior/system-v2.md",
+  "system_sha256": "d01b2da6db28fbaedbee3dc12026806b62168db0be02e9ad5ec693256f195354"
+ },
+ "profile": {
+  "model_id": "intfloat/multilingual-e5-base",
+  "dimension": 768,
+  "device": "cpu",
+  "normalize_embeddings": true,
+  "passage_prefix": "passage: ",
+  "query_prefix": "query: ",
+  "embedding_text": "title_ru + '\\n' + chunk text (NFC, пробелы схлопнуты); префикс добавляется один раз при encode",
+  "text_normalization": "NFC + whitespace collapse, только для эмбеддингов",
+  "chunker": "structural-v1",
+  "chunk_rule": "введение и разделы H2 (лист для xlsx), по границам подготовленных фрагментов; строка таблицы — отдельный чанк с названием листа",
+  "chunk_token_limit": 384,
+  "chunk_overlap": 0,
+  "query_token_limit": 512,
+  "metric": "cosine",
+  "collection": "lumendesk-support",
+  "corpus_text": "text_ru из corpus/prepared (русский оригинал или проверенный перевод)"
+ },
+ "index_id": "idx-20261118T202118Z-d51167",
+ "allowed_document_ids": [
+  "accessibility-fr",
+  "api-errors",
+  "api-key-rotation",
+  "assistant-quota",
+  "browser-support",
+  "callbacks-fr",
+  "card-export",
+  "domain-verification",
+  "export-security",
+  "file-limits",
+  "france-data-residency",
+  "french-handoff",
+  "guest-access",
+  "hosting-regions",
+  "incident-priority",
+  "incident-register-2026-09",
+  "invoice-correction",
+  "marketplace-approval-retirement",
+  "marketplace-catalogue",
+  "notification-explainer",
+  "notification-rules",
+  "onboarding-handover",
+  "outage-communication",
+  "password-reset",
+  "plan-capabilities",
+  "privacy-requests",
+  "response-targets",
+  "retention-reconciliation",
+  "saml-cutover-notes",
+  "saml-incident-escalation",
+  "saml-parameters",
+  "search-notes",
+  "support-calendar-fr",
+  "team-service-credits-finance",
+  "team-service-credits-support",
+  "trash-recovery",
+  "webhook-retries",
+  "workshop-fr",
+  "workspace-ownership-transfer"
+ ],
+ "denied_document_count": 3,
+ "candidates": [
+  {
+   "chunk_id": "webhook-retries::chunk-08",
+   "distance": 0.127655,
+   "document_id": "webhook-retries",
+   "admitted": true,
+   "text": "Вид: правило; Этап или доставка: Приостановка; Наблюдение: Три события dead_letter в течение одного часа приостанавливают подписку."
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-04",
+   "distance": 0.133313,
+   "document_id": "webhook-retries",
+   "admitted": true,
+   "text": "Вид: расписание; Этап или доставка: Попытка 4; Минут с первоначальной отправки: 15; Наблюдение: Повторная отправка на 15-й минуте."
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-03",
+   "distance": 0.133423,
+   "document_id": "webhook-retries",
+   "admitted": true,
+   "text": "Вид: расписание; Этап или доставка: Попытка 3; Минут с первоначальной отправки: 5; Наблюдение: Повторная отправка на 5-й минуте."
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-05",
+   "distance": 0.133604,
+   "document_id": "webhook-retries",
+   "admitted": true,
+   "text": "Вид: расписание; Этап или доставка: Попытка 5; Минут с первоначальной отправки: 60; Наблюдение: Повторная отправка на 60-й минуте."
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-06",
+   "distance": 0.13495,
+   "document_id": "webhook-retries",
+   "admitted": true,
+   "text": "Вид: расписание; Этап или доставка: Попытка 6; Минут с первоначальной отправки: 240; Наблюдение: Последняя отправка на 240-й минуте."
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-09",
+   "distance": 0.135744,
+   "document_id": "webhook-retries",
+   "admitted": true,
+   "text": "Вид: правило; Этап или доставка: Возобновление; Наблюдение: Администратор повторно включает подписку после теста с ответом HTTP 2xx."
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-02",
+   "distance": 0.140318,
+   "document_id": "webhook-retries",
+   "admitted": true,
+   "text": "Вид: расписание; Этап или доставка: Попытка 2; Минут с первоначальной отправки: 1; Наблюдение: Повторная отправка на 1-й минуте."
+  },
+  {
+   "chunk_id": "webhook-retries::chunk-01",
+   "distance": 0.145415,
+   "document_id": "webhook-retries",
+   "admitted": true,
+   "text": "Вид: расписание; Этап или доставка: Попытка 1; Минут с первоначальной отправки: 0; Наблюдение: Первоначальная отправка на 0-й минуте."
+  }
+ ],
+ "restricted_probe": {
+  "checked": true,
+  "denied_documents": 3,
+  "nearest_distance": 0.210984,
+  "within_probe": 8,
+  "probe_distance": 0.35,
+  "closer_than_best_admitted": 0
+ },
+ "context_state": "available",
+ "result_path": "evidence/retrieval-a-q04-agent.json"
+}

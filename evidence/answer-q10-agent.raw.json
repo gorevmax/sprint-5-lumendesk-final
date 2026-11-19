@@ -1,0 +1,9 @@
+{
+ "answer": "Официальная месячная квота сообщений помощника на тарифе Team — 1200 сообщений на workspace в месяц. Шкалу опубликовал Assistant Product, она применяется с 1 сентября 2026 года; квоты действуют на workspace и на месяц, а не на пользователя. Источник: documents/Франция/Assistant abonnement.xlsx (перевод с французского), лист «Abonnement», ячейки A9:D9 и примечание A3:D5; то же значение повторено в том же файле на листе «Questions clients», A6:B6 — это не отдельное подтверждение.",
+ "citations": [
+  {"document_id": "assistant-quota", "chunk_id": "assistant-quota::chunk-03", "quote": "Тариф или предмет: Team; Значение: 1200; Единица: сообщений; Условие: На workspace в месяц"},
+  {"document_id": "assistant-quota", "chunk_id": "assistant-quota::chunk-01", "quote": "Шкала, опубликованная Assistant Product для подписок LumenDesk, применяется с 1 сентября 2026 года. Эти квоты действуют на workspace и на месяц, а не на пользователя."},
+  {"document_id": "assistant-quota", "chunk_id": "assistant-quota::chunk-41", "quote": "Ответ: 1200 сообщений на workspace в месяц"}
+ ],
+ "decision": "answer"
+}

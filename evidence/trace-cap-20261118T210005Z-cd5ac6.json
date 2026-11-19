@@ -1,0 +1,126 @@
+{
+ "capture_id": "cap-20261118T210005Z-cd5ac6",
+ "created_at": "2026-11-18T21:00:05Z",
+ "question": "Какая погода будет завтра в Париже?",
+ "role": "support_agent",
+ "index_id": "idx-20261118T202118Z-d51167",
+ "policy": {
+  "version": "v2",
+  "retrieval_threshold": 0.2,
+  "authorization_probe_distance": 0.35,
+  "top_k": 8,
+  "config_path": "behavior/v2.json",
+  "config_sha256": "72266e97822de6c04c3d08264ae1a8ffdc2e893faa4a416ba55401c492a1d324",
+  "system_file": "behavior/system-v2.md",
+  "system_sha256": "d01b2da6db28fbaedbee3dc12026806b62168db0be02e9ad5ec693256f195354"
+ },
+ "profile": {
+  "model_id": "intfloat/multilingual-e5-base",
+  "dimension": 768,
+  "device": "cpu",
+  "normalize_embeddings": true,
+  "passage_prefix": "passage: ",
+  "query_prefix": "query: ",
+  "embedding_text": "title_ru + '\\n' + chunk text (NFC, пробелы схлопнуты); префикс добавляется один раз при encode",
+  "text_normalization": "NFC + whitespace collapse, только для эмбеддингов",
+  "chunker": "structural-v1",
+  "chunk_rule": "введение и разделы H2 (лист для xlsx), по границам подготовленных фрагментов; строка таблицы — отдельный чанк с названием листа",
+  "chunk_token_limit": 384,
+  "chunk_overlap": 0,
+  "query_token_limit": 512,
+  "metric": "cosine",
+  "collection": "lumendesk-support",
+  "corpus_text": "text_ru из corpus/prepared (русский оригинал или проверенный перевод)"
+ },
+ "retrieval": {
+  "status": "retrieval_only",
+  "query_id": "q-20261118T205813Z-923c0c",
+  "created_at": "2026-11-18T20:58:13Z",
+  "index_id": "idx-20261118T202118Z-d51167",
+  "question": "Какая погода будет завтра в Париже?",
+  "question_tokens": 15,
+  "role": "support_agent",
+  "top_k": 8,
+  "policy": {
+   "version": "v2",
+   "retrieval_threshold": 0.2,
+   "authorization_probe_distance": 0.35,
+   "top_k": 8,
+   "config_path": "behavior/v2.json",
+   "config_sha256": "72266e97822de6c04c3d08264ae1a8ffdc2e893faa4a416ba55401c492a1d324",
+   "system_file": "behavior/system-v2.md",
+   "system_sha256": "d01b2da6db28fbaedbee3dc12026806b62168db0be02e9ad5ec693256f195354"
+  },
+  "collection": "lumendesk-support",
+  "metric": "cosine",
+  "context_state": "forbidden",
+  "filtering": {
+   "role": "support_agent",
+   "allowed_documents": 39,
+   "n_results": 8,
+   "candidates": 8,
+   "admitted": 0,
+   "rejected_by_threshold": [
+    {
+     "chunk_id": "french-handoff::chunk-03",
+     "distance": 0.230038
+    },
+    {
+     "chunk_id": "workshop-fr::chunk-02",
+     "distance": 0.231784
+    },
+    {
+     "chunk_id": "support-calendar-fr::chunk-05",
+     "distance": 0.233083
+    },
+    {
+     "chunk_id": "support-calendar-fr::chunk-02",
+     "distance": 0.235538
+    },
+    {
+     "chunk_id": "notification-rules::chunk-38",
+     "distance": 0.239461
+    },
+    {
+     "chunk_id": "callbacks-fr::chunk-04",
+     "distance": 0.239592
+    },
+    {
+     "chunk_id": "notification-rules::chunk-32",
+     "distance": 0.240065
+    },
+    {
+     "chunk_id": "support-calendar-fr::chunk-06",
+     "distance": 0.240333
+    }
+   ],
+   "retrieval_threshold": 0.2,
+   "restricted_probe": {
+    "checked": true,
+    "denied_documents": 3,
+    "nearest_distance": 0.270349,
+    "within_probe": 8,
+    "probe_distance": 0.35,
+    "closer_than_best_admitted": 8
+   },
+   "note": "available не доказывает полноту; empty не является технической ошибкой; forbidden не раскрывает закрытый источник"
+  },
+  "hits": [],
+  "context": "",
+  "context_chunk_ids": [],
+  "retrieval_trace_path": "evidence/retrieval-trace-q-20261118T205813Z-923c0c.json",
+  "output_path": "evidence/retrieval-a-x01-agent.json"
+ },
+ "context": "",
+ "raw_answer": {
+  "answer": "Для роли support_agent сведений нет: среди разрешённых документов подходящих фрагментов не найдено (все кандидаты дальше порога 0,20), а поиск отметил близкие фрагменты только в материалах, закрытых для этой роли (context_state = forbidden). Обратитесь к руководителю поддержки.",
+  "citations": [],
+  "decision": "refuse"
+ },
+ "verification": {
+  "status": "passed",
+  "errors": [],
+  "citations_checked": 0
+ },
+ "result_path": "evidence/result-cap-20261118T210005Z-cd5ac6.json"
+}

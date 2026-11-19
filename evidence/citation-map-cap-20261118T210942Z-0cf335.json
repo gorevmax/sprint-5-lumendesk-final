@@ -1,0 +1,170 @@
+{
+ "capture_id": "cap-20261118T210942Z-0cf335",
+ "question": "Какой предел одного вложения на Team?",
+ "role": "support_agent",
+ "citations": [
+  {
+   "citation_index": 0,
+   "document_id": "file-limits",
+   "chunk_id": "file-limits::chunk-03",
+   "quote": "Тариф: Team; Предел файла: 100; Единица: MiB; Применение: Один файл",
+   "rank": 1,
+   "distance": 0.121311,
+   "title": "Размер одного вложения",
+   "title_orig": "Размер одного вложения",
+   "source_path": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+   "section": "Тарифы",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Workspace Platform",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "29-005",
+     "location": {
+      "file": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+      "format": "xlsx",
+      "fragment_id": "29-005",
+      "sheet": "Тарифы",
+      "cells": [
+       "A9",
+       "B9",
+       "C9",
+       "D9"
+      ],
+      "range": "A9:D9",
+      "where": "лист «Тарифы», ячейки A9, B9, C9, D9"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": [
+      {
+       "ref": "A9",
+       "header": "Тариф",
+       "value": "Team"
+      },
+      {
+       "ref": "B9",
+       "header": "Предел файла",
+       "value": "100"
+      },
+      {
+       "ref": "C9",
+       "header": "Единица",
+       "value": "MiB"
+      },
+      {
+       "ref": "D9",
+       "header": "Применение",
+       "value": "Один файл"
+      }
+     ],
+     "handling": "Действующий материал.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 1,
+   "document_id": "file-limits",
+   "chunk_id": "file-limits::chunk-03",
+   "quote": "Лист «Тарифы»: Размер одного вложения",
+   "rank": 1,
+   "distance": 0.121311,
+   "title": "Размер одного вложения",
+   "title_orig": "Размер одного вложения",
+   "source_path": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+   "section": "Тарифы",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Workspace Platform",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "29-001",
+     "location": {
+      "file": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+      "format": "xlsx",
+      "fragment_id": "29-001",
+      "sheet": "Тарифы",
+      "cells": [],
+      "range": "A1:D2",
+      "where": "лист «Тарифы», диапазон A1:D2"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": null,
+     "handling": "Действующий материал.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 2,
+   "document_id": "file-limits",
+   "chunk_id": "file-limits::chunk-07",
+   "quote": "Тариф: Одно действие; Предел файла: 10; Единица: файлов; Применение: Одновременная загрузка",
+   "rank": 2,
+   "distance": 0.147159,
+   "title": "Размер одного вложения",
+   "title_orig": "Размер одного вложения",
+   "source_path": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+   "section": "Тарифы",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Workspace Platform",
+   "source_lang": "ru",
+   "is_translation": false,
+   "fragments": [
+    {
+     "fragment_id": "29-009",
+     "location": {
+      "file": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+      "format": "xlsx",
+      "fragment_id": "29-009",
+      "sheet": "Тарифы",
+      "cells": [
+       "A13",
+       "B13",
+       "C13",
+       "D13"
+      ],
+      "range": "A13:D13",
+      "where": "лист «Тарифы», ячейки A13, B13, C13, D13"
+     },
+     "translation": "original_ru",
+     "original_excerpt": null,
+     "original_cells": [
+      {
+       "ref": "A13",
+       "header": "Тариф",
+       "value": "Одно действие"
+      },
+      {
+       "ref": "B13",
+       "header": "Предел файла",
+       "value": "10"
+      },
+      {
+       "ref": "C13",
+       "header": "Единица",
+       "value": "файлов"
+      },
+      {
+       "ref": "D13",
+       "header": "Применение",
+       "value": "Одновременная загрузка"
+      }
+     ],
+     "handling": "Действующий материал.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  }
+ ]
+}

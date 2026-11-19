@@ -1,0 +1,152 @@
+{
+ "capture_id": "cap-20261118T211043Z-d5bb8c",
+ "question": "Какая официальная месячная квота сообщений помощника на тарифе Team?",
+ "role": "support_agent",
+ "citations": [
+  {
+   "citation_index": 0,
+   "document_id": "assistant-quota",
+   "chunk_id": "assistant-quota::chunk-03",
+   "quote": "Тариф или предмет: Team; Значение: 1200; Единица: сообщений; Условие: На workspace в месяц",
+   "rank": 1,
+   "distance": 0.140281,
+   "title": "Messages de l'assistant",
+   "title_orig": "Messages de l'assistant",
+   "source_path": "documents/Франция/Assistant abonnement.xlsx",
+   "section": "Подписка",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Assistant Product",
+   "source_lang": "fr",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "47-005",
+     "location": {
+      "file": "documents/Франция/Assistant abonnement.xlsx",
+      "format": "xlsx",
+      "fragment_id": "47-005",
+      "sheet": "Abonnement",
+      "cells": [
+       "A9",
+       "B9",
+       "C9",
+       "D9"
+      ],
+      "range": "A9:D9",
+      "where": "лист «Abonnement», ячейки A9, B9, C9, D9"
+     },
+     "translation": "translated",
+     "original_excerpt": "Offre ou sujet: Team; Valeur: 1200; Unité: messages; Condition: Par workspace et par mois",
+     "original_cells": [
+      {
+       "ref": "A9",
+       "header": "Offre ou sujet",
+       "value": "Team"
+      },
+      {
+       "ref": "B9",
+       "header": "Valeur",
+       "value": "1200"
+      },
+      {
+       "ref": "C9",
+       "header": "Unité",
+       "value": "messages"
+      },
+      {
+       "ref": "D9",
+       "header": "Condition",
+       "value": "Par workspace et par mois"
+      }
+     ],
+     "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 1,
+   "document_id": "assistant-quota",
+   "chunk_id": "assistant-quota::chunk-01",
+   "quote": "Шкала, опубликованная Assistant Product для подписок LumenDesk, применяется с 1 сентября 2026 года. Эти квоты действуют на workspace и на месяц, а не на пользователя.",
+   "rank": 8,
+   "distance": 0.161396,
+   "title": "Messages de l'assistant",
+   "title_orig": "Messages de l'assistant",
+   "source_path": "documents/Франция/Assistant abonnement.xlsx",
+   "section": "Подписка",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Assistant Product",
+   "source_lang": "fr",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "47-002",
+     "location": {
+      "file": "documents/Франция/Assistant abonnement.xlsx",
+      "format": "xlsx",
+      "fragment_id": "47-002",
+      "sheet": "Abonnement",
+      "cells": [],
+      "range": "A3:D5",
+      "where": "лист «Abonnement», диапазон A3:D5"
+     },
+     "translation": "translated",
+     "original_excerpt": "Barème publié par Assistant Product pour les abonnements LumenDesk, applicable depuis le 1er septembre 2026. Ces quotas sont par workspace et par mois, et non par utilisateur.",
+     "original_cells": null,
+     "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  },
+  {
+   "citation_index": 2,
+   "document_id": "assistant-quota",
+   "chunk_id": "assistant-quota::chunk-41",
+   "quote": "Ответ: 1200 сообщений на workspace в месяц",
+   "rank": 2,
+   "distance": 0.146374,
+   "title": "Messages de l'assistant",
+   "title_orig": "Messages de l'assistant",
+   "source_path": "documents/Франция/Assistant abonnement.xlsx",
+   "section": "Вопросы клиентов",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "owner": "Assistant Product",
+   "source_lang": "fr",
+   "is_translation": true,
+   "fragments": [
+    {
+     "fragment_id": "47-047",
+     "location": {
+      "file": "documents/Франция/Assistant abonnement.xlsx",
+      "format": "xlsx",
+      "fragment_id": "47-047",
+      "sheet": "Questions clients",
+      "cells": [
+       "B6"
+      ],
+      "range": "A6:B6",
+      "where": "лист «Questions clients», ячейки B6"
+     },
+     "translation": "translated",
+     "original_excerpt": "Question: Combien pour Team ?; Réponse: 1200 messages par workspace et par mois",
+     "original_cells": [
+      {
+       "ref": "B6",
+       "header": "Réponse",
+       "value": "1200 messages par workspace et par mois"
+      }
+     ],
+     "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту.",
+     "also_in": null,
+     "similar_to": null
+    }
+   ]
+  }
+ ]
+}

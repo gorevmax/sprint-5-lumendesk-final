@@ -1,0 +1,965 @@
+{
+ "status": "retrieval_only",
+ "query_id": "q-20261118T210714Z-9076cf",
+ "created_at": "2026-11-18T21:07:14Z",
+ "index_id": "idx-20261118T202118Z-d51167",
+ "question": "Что нужно включить в запись о передаче клиента после первоначального подключения?",
+ "question_tokens": 22,
+ "role": "support_agent",
+ "top_k": 8,
+ "policy": {
+  "version": "v3",
+  "retrieval_threshold": 0.2,
+  "authorization_probe_distance": 0.35,
+  "top_k": 8,
+  "config_path": "behavior/v3.json",
+  "config_sha256": "fb9c58195459e0f13fdcf87b80ce3255c6df888ee819d292a1a1536b6f67d82d",
+  "system_file": "behavior/system-v3.md",
+  "system_sha256": "7bfb0b5462c7c2e7dcab75888f8fd12595cb398932f81bd3fa26eb55ceb4b137",
+  "lexical_extra": 2,
+  "lexical_pool": 40,
+  "lexical_stem": 6,
+  "forbidden_rule": "probe_and_closer_than_allowed"
+ },
+ "collection": "lumendesk-support",
+ "metric": "cosine",
+ "context_state": "available",
+ "filtering": {
+  "role": "support_agent",
+  "allowed_documents": 39,
+  "n_results": 40,
+  "candidates": 40,
+  "admitted": 10,
+  "rejected_by_threshold": [],
+  "retrieval_threshold": 0.2,
+  "restricted_probe": {
+   "checked": true,
+   "denied_documents": 3,
+   "nearest_distance": 0.175717,
+   "within_probe": 8,
+   "probe_distance": 0.35,
+   "closer_than_best_admitted": 0,
+   "rule": "probe_and_closer_than_allowed"
+  },
+  "best_allowed_distance": 0.147022,
+  "lexical_added": [
+   {
+    "chunk_id": "workspace-ownership-transfer::chunk-05",
+    "distance": 0.178179,
+    "bm25": 11.2241,
+    "dense_rank": 37
+   },
+   {
+    "chunk_id": "notification-explainer::chunk-06",
+    "distance": 0.165782,
+    "bm25": 8.7635,
+    "dense_rank": 10
+   }
+  ],
+  "within_threshold_not_selected": 30,
+  "note": "available не доказывает полноту; empty не является технической ошибкой; forbidden не раскрывает закрытый источник"
+ },
+ "hits": [
+  {
+   "rank": 1,
+   "chunk_id": "onboarding-handover::chunk-07",
+   "text": "Входящий текст, сохранённый вместе с запросом\n\nЗапрос также содержит текст, переданный клиентом во время тестирования. Ниже он сохранён как часть истории переписки, в той же формулировке, в какой поступил. Это не заявление Customer Success о настройке и не доказательство того, что какая-либо конфигурация продукта изменилась. Держите свободный текст, переданный клиентом, отдельно от полей, проверенных ответственным за онбординг. Технической передаче по-прежнему нужны workspace, тариф, регион и другие проверенные операционные сведения.\n\nКоллега, принимающий эту запись, должен иметь возможность проследить эту заметку до входящей переписки, если она позже появится в выгруженной расшифровке. Не заменяйте исходную переписку очищенной версией, в которой теряется источник текста. Сообщая о выполненной работе по онбордингу, используйте фактически проверенные результаты и согласованное следующее действие. Процитированный текст клиента не означает, что принимающая команда приняла ответственность или что проверка миграции пройдена.",
+   "metadata": {
+    "chunk_sha256": "0db6d8510cc189eab7b3dc0a7e8f50cf7322dc33fff8960851f37a462ea5be54",
+    "page_start": 0,
+    "related": "5 41 38",
+    "title_orig": "Onboarding handover record",
+    "line_end": 0,
+    "line_start": 0,
+    "token_count": 250,
+    "page_end": 0,
+    "version": "2026-09",
+    "updated": "2026-09",
+    "document_sha256": "66ed56338ce2dbb916ebfaa2d836675c99aa73c82f9799d3584532cd35112b82",
+    "source_path": "documents/Клиентский сервис/Customer handover.docx",
+    "is_translation": true,
+    "format": "docx",
+    "source_lang": "en",
+    "section": "Входящий текст, сохранённый вместе с запросом",
+    "owner": "Customer Success and Support",
+    "title": "Запись о передаче онбординга",
+    "title_source": "registry.title_ru",
+    "conflict_group": "",
+    "locator": "абзац 28 (w:p, стиль Normal); абзац 30 (w:p, стиль Normal)",
+    "document_id": "onboarding-handover",
+    "trust": "confirmed",
+    "fragment_ids": "08-027,08-028,08-030"
+   },
+   "distance": 0.147022,
+   "provenance": [
+    {
+     "fragment_id": "08-027",
+     "role": "heading",
+     "start": 0,
+     "end": 45,
+     "locator": {
+      "paragraph": 27,
+      "style": "Heading1"
+     },
+     "locator_text": "абзац 27 (w:p, стиль Heading1)",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Incoming text retained with the request",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "08-028",
+     "role": "content",
+     "start": 47,
+     "end": 539,
+     "locator": {
+      "paragraph": 28,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 28 (w:p, стиль Normal)",
+     "section_orig": "Incoming text retained with the request",
+     "section_ru": "Входящий текст, сохранённый вместе с запросом",
+     "translation": "translated",
+     "text_orig": "The request also contains text supplied by the customer during testing. It is retained below as part of the conversation history, with the same wording that arrived. It is not a statement by Customer Success about the setup, nor evidence that any product configuration changed. Keep customer-supplied free text separate from the fields that the onboarding owner has checked. The technical handover still needs the workspace, plan, region and other verified operational details.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "08-030",
+     "role": "content",
+     "start": 541,
+     "end": 1035,
+     "locator": {
+      "paragraph": 30,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 30 (w:p, стиль Normal)",
+     "section_orig": "Incoming text retained with the request",
+     "section_ru": "Входящий текст, сохранённый вместе с запросом",
+     "translation": "translated",
+     "text_orig": "The colleague receiving this record should be able to trace that note to the incoming conversation if it later appears in an exported transcript. Do not replace the original conversation with a cleaned version that loses the source of the text. When reporting completed onboarding work, use the actual checked results and the agreed next action. Quoted text supplied by a customer does not establish that the receiving team has accepted ownership or that a migration check has passed.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 2,
+   "chunk_id": "guest-access::chunk-04",
+   "text": "## Когда сотрудничество заканчивается\n\nПри отзыве приглашения доступ действующего гостя прекращается сразу. Это правило следует учитывать, когда клиент готовит завершение проекта: отзыв касается не только ещё не принятого письма. Если администратор спрашивает, останется ли у работающего гостя доступ «до конца дня», объясните немедленный эффект действия. Не нужно придумывать отдельный период ожидания или обещать, что открытая ранее вкладка сохранит права. Разговор должен опираться на то, какое действие клиент собирается выполнить, а не на видимые у гостя старые страницы.\n\nДля передачи клиентского запуска полезно оставить короткую историю: зачем приглашён внешний человек, какие пространства выбраны и кто со стороны клиента управляет приглашением. Она помогает коллегам обсуждать последующие вопросы в том же контексте. Эта записка не устанавливает новый процесс согласований или дополнительные тарифы. Её цель — чтобы слова «гость», «ссылка» и «участник workspace» не подменяли друг друга в разговоре. Тогда клиент заранее понимает и удобство совместной работы, и её границы.",
+   "metadata": {
+    "title_orig": "Когда клиенту нужен гость",
+    "owner": "Workspace Platform",
+    "chunk_sha256": "afd9534d673200251e0d9d51b549cc86e466309c378a07e2ce0eec0920f52595",
+    "related": "22 19 44",
+    "section": "Когда сотрудничество заканчивается",
+    "title_source": "registry.title_ru",
+    "source_lang": "ru",
+    "format": "md",
+    "conflict_group": "",
+    "token_count": 239,
+    "line_end": 23,
+    "locator": "строка 21; строка 23",
+    "document_sha256": "c9531d625415ff05cdb162e17e027657587e1197a33987567430242908b67ea0",
+    "line_start": 21,
+    "page_start": 0,
+    "document_id": "guest-access",
+    "fragment_ids": "21-010,21-011,21-012",
+    "title": "Когда клиенту нужен гость",
+    "version": "2026-09-01",
+    "trust": "confirmed",
+    "page_end": 0,
+    "is_translation": false,
+    "updated": "2026-09-01",
+    "source_path": "documents/Планирование/Клиенты/Гости — новый порядок.md"
+   },
+   "distance": 0.157656,
+   "provenance": [
+    {
+     "fragment_id": "21-010",
+     "role": "heading",
+     "start": 0,
+     "end": 37,
+     "locator": {
+      "lines": [
+       19,
+       19
+      ]
+     },
+     "locator_text": "строка 19",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "21-011",
+     "role": "content",
+     "start": 39,
+     "end": 576,
+     "locator": {
+      "lines": [
+       21,
+       21
+      ]
+     },
+     "locator_text": "строка 21",
+     "section_orig": "Когда сотрудничество заканчивается",
+     "section_ru": "Когда сотрудничество заканчивается",
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "21-012",
+     "role": "content",
+     "start": 578,
+     "end": 1083,
+     "locator": {
+      "lines": [
+       23,
+       23
+      ]
+     },
+     "locator_text": "строка 23",
+     "section_orig": "Когда сотрудничество заканчивается",
+     "section_ru": "Когда сотрудничество заканчивается",
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "chunk_id": "api-key-rotation::chunk-02",
+   "text": "## Подготовить смену\n\nНовый ключ создаёт администратор интеграции с минимальным набором scopes. Не копируйте расширенные права в новую конфигурацию лишь потому, что прежняя интеграция когда-то получила их для другого сценария. Для этой процедуры важно, чтобы проверка относилась к разрешённой работе интеграции. Если человек, запускающий переход, не понимает, какой запрос записи ей нужен, это следует прояснить до отзыва старого ключа, а не экспериментировать с произвольными изменениями клиентских данных.\n\nОдновременно допускаются два активных ключа в течение 24 часов. Это окно перекрытия предназначено для безопасного перехода. Оно даёт возможность проверить новый доступ, пока старый ещё обеспечивает работу, но не превращает пару ключей в постоянную схему эксплуатации. В плане перехода назовите начало окна и его окончание так, чтобы коллеги не принимали «сутки» за конец следующего рабочего дня. Занятость администратора и выходные не являются дополнительным разрешением оставить оба ключа активными за пределами этого окна.\n\nНе стоит обсуждать смену через пересылку самих секретов. Полное значение ключа нельзя отправлять в поддержку, по почте или в чат. Это касается и внутреннего диалога, и ответа клиенту, и снимка экрана, если на нём виден весь ключ. Поддержке не нужен секрет, чтобы разобраться, о каком доступе идёт речь. Попросите человека остановиться, если он собирается вставить значение в сообщение, и объясните, какие диагностические сведения можно сообщить вместо него.",
+   "metadata": {
+    "version": "2026-09-01",
+    "document_id": "api-key-rotation",
+    "source_lang": "ru",
+    "title_orig": "Ротация сервисного ключа без потери контекста",
+    "title_source": "registry.title_ru",
+    "locator": "строка 9; строка 11; строка 13",
+    "related": "26 23 25",
+    "section": "Подготовить смену",
+    "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+    "fragment_ids": "31-004,31-005,31-006,31-007",
+    "line_end": 13,
+    "token_count": 345,
+    "conflict_group": "",
+    "is_translation": false,
+    "page_end": 0,
+    "format": "md",
+    "trust": "confirmed",
+    "title": "Ротация сервисного ключа без потери контекста",
+    "document_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+    "owner": "Security Operations",
+    "chunk_sha256": "13135b290f751de7b0ddc11e421d0e46da4e3a3d7081365cc6b730b42c6957df",
+    "page_start": 0,
+    "updated": "2026-09-01",
+    "line_start": 9
+   },
+   "distance": 0.158833,
+   "provenance": [
+    {
+     "fragment_id": "31-004",
+     "role": "heading",
+     "start": 0,
+     "end": 20,
+     "locator": {
+      "lines": [
+       7,
+       7
+      ]
+     },
+     "locator_text": "строка 7",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "31-005",
+     "role": "content",
+     "start": 22,
+     "end": 507,
+     "locator": {
+      "lines": [
+       9,
+       9
+      ]
+     },
+     "locator_text": "строка 9",
+     "section_orig": "Подготовить смену",
+     "section_ru": "Подготовить смену",
+     "translation": "original_ru",
+     "also_in": [
+      {
+       "fragment_id": "39-005",
+       "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+       "locator_text": "стр. 1, блок 5",
+       "source_lang": "ru"
+      }
+     ],
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "31-006",
+     "role": "content",
+     "start": 509,
+     "end": 1033,
+     "locator": {
+      "lines": [
+       11,
+       11
+      ]
+     },
+     "locator_text": "строка 11",
+     "section_orig": "Подготовить смену",
+     "section_ru": "Подготовить смену",
+     "translation": "original_ru",
+     "also_in": [
+      {
+       "fragment_id": "39-006",
+       "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+       "locator_text": "стр. 1, блок 6",
+       "source_lang": "ru"
+      }
+     ],
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "31-007",
+     "role": "content",
+     "start": 1035,
+     "end": 1492,
+     "locator": {
+      "lines": [
+       13,
+       13
+      ]
+     },
+     "locator_text": "строка 13",
+     "section_orig": "Подготовить смену",
+     "section_ru": "Подготовить смену",
+     "translation": "original_ru",
+     "also_in": [
+      {
+       "fragment_id": "39-007",
+       "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+       "locator_text": "стр. 1, блок 7",
+       "source_lang": "ru"
+      }
+     ],
+     "handling": "Действующий материал."
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "chunk_id": "onboarding-handover::chunk-01",
+   "text": "Customer Success and Support используют эту запись о передаче с сентября 2026 года, когда запрос на онбординг переходит в обычную поддержку. Принимающий коллега должен иметь возможность продолжить следующее согласованное с клиентом действие, не прося клиента повторить базовую настройку. Храните запись в существующем запросе и прикрепляйте туда соответствующие доказательства. Передача завершена, когда принимающая команда подтверждает, что приняла ответственность, а не когда передающий просто отправил сообщение.\n\nПишите для коллеги, который не участвовал в звонках. Списка названий продуктов недостаточно: объясните, какой workspace подключён, что проверено, что ещё требует действий и кто может одобрить откат, если изменение не удастся. Используйте выбранные клиентом тариф и регион хостинга. Франкоязычный контакт не означает, что workspace хранится в Париже, а разговор с отделом продаж об Enterprise не доказывает, что выбранный тариф уже изменился.",
+   "metadata": {
+    "locator": "абзац 2 (w:p, стиль Normal); абзац 3 (w:p, стиль Normal)",
+    "line_end": 0,
+    "trust": "confirmed",
+    "title_source": "registry.title_ru",
+    "conflict_group": "",
+    "source_path": "documents/Клиентский сервис/Customer handover.docx",
+    "title_orig": "Onboarding handover record",
+    "version": "2026-09",
+    "related": "5 41 38",
+    "updated": "2026-09",
+    "owner": "Customer Success and Support",
+    "chunk_sha256": "f37ecb21c661c3b81b5dfccc951045cd5a95b80e9f1b087ae794eca567d7a677",
+    "document_sha256": "66ed56338ce2dbb916ebfaa2d836675c99aa73c82f9799d3584532cd35112b82",
+    "section": "(введение)",
+    "format": "docx",
+    "fragment_ids": "08-002,08-003",
+    "is_translation": true,
+    "page_end": 0,
+    "line_start": 0,
+    "document_id": "onboarding-handover",
+    "page_start": 0,
+    "source_lang": "en",
+    "token_count": 220,
+    "title": "Запись о передаче онбординга"
+   },
+   "distance": 0.159362,
+   "provenance": [
+    {
+     "fragment_id": "08-002",
+     "role": "content",
+     "start": 0,
+     "end": 515,
+     "locator": {
+      "paragraph": 2,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 2 (w:p, стиль Normal)",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Customer Success and Support use this handover record from September 2026 when an onboarding request moves into ordinary support. The receiving colleague should be able to continue the customer's next agreed action without asking the customer to repeat the basic setup. Keep the record in the existing request and link the relevant evidence there. A handover is complete when the receiving team acknowledges ownership, rather than when the outgoing person simply sends a message.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "08-003",
+     "role": "content",
+     "start": 517,
+     "end": 958,
+     "locator": {
+      "paragraph": 3,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 3 (w:p, стиль Normal)",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Write for a colleague who was absent from the calls. A list of product names is not enough: explain which workspace was connected, what was checked, what still needs action and who can approve a reversal if the change fails. Use the customer's chosen plan and hosting region. A French-speaking contact does not establish that the workspace is stored in Paris, and a sales conversation about Enterprise does not prove that the chosen plan has already changed.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "chunk_id": "french-handoff::chunk-04",
+   "text": "Когда запрос возвращается после нескольких передач, начните с того, чтобы перечитать уже данные договорённости, в частности выбор языка, а затем посмотрите на последний фактически достигнутый этап. Иногда мы теряем время, повторно задавая вопрос, ответ на который находится тремя сообщениями выше. Хорошо написанная заметка о передаче позволяет этого избежать, не раздувая дело. Она объединяет немногие необходимые сведения в связную историю: потребность, workspace, проверки и собеседник, который знает, как продолжится разговор.\n\nПрактическая цель проста: при смене собеседника клиент должен узнавать непрерывность своего дела. Ему не нужно переименовывать параметры, переформулировать ошибки или заново отстаивать приоритет своего инцидента, чтобы его поняли. Со своей стороны мы держим страну договора, выбранный язык и часовой пояс как отдельные элементы. Такое внимание делает передачи более плавными, не придумывая новых условий обслуживания в координационной заметке.",
+   "metadata": {
+    "line_start": 21,
+    "token_count": 221,
+    "is_translation": true,
+    "title": "Для следующей передачи франкоязычной команде",
+    "title_source": "registry.title_ru",
+    "title_orig": "Pour le prochain relais vers l'équipe francophone",
+    "section": "(введение)",
+    "document_id": "french-handoff",
+    "document_sha256": "624aaec9748354cbe53b3f8b7c6727d75d1a7d3535e30c56b1946e448ee3a593",
+    "locator": "строка 21; строка 23",
+    "trust": "confirmed",
+    "page_start": 0,
+    "updated": "2026-09-01",
+    "related": "49 50 11 16",
+    "source_lang": "fr",
+    "page_end": 0,
+    "line_end": 23,
+    "format": "txt",
+    "source_path": "documents/Рабочие копии/Relais français 2026-09.txt",
+    "version": "2026-09-01",
+    "owner": "Support France",
+    "chunk_sha256": "a0e3c0314c0693710fd6193f0179ea32bf5cbe3e02c82943ac348da46a21b21a",
+    "fragment_ids": "36-011,36-012",
+    "conflict_group": ""
+   },
+   "distance": 0.161233,
+   "provenance": [
+    {
+     "fragment_id": "36-011",
+     "role": "content",
+     "start": 0,
+     "end": 530,
+     "locator": {
+      "lines": [
+       21,
+       21
+      ]
+     },
+     "locator_text": "строка 21",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Quand une demande revient après plusieurs relais, commencez par relire les accords déjà donnés, notamment le choix de langue, puis regardez le dernier point effectivement atteint. Nous perdons parfois du temps en reposant une question dont la réponse se trouve trois messages plus haut. Une note de relais bien écrite évite cela sans grossir le dossier. Elle rassemble les quelques informations nécessaires dans une histoire cohérente: un besoin, un workspace, des vérifications et un interlocuteur qui sait comment la conversation va continuer.",
+     "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "36-012",
+     "role": "content",
+     "start": 532,
+     "end": 975,
+     "locator": {
+      "lines": [
+       23,
+       23
+      ]
+     },
+     "locator_text": "строка 23",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "L'objectif pratique est simple: le client doit reconnaître la continuité de son dossier quand il change d'interlocuteur. Il ne devrait pas avoir à renommer ses paramètres, reformuler ses erreurs ou défendre à nouveau la priorité de son incident pour être compris. De notre côté, nous gardons le pays du contrat, la langue choisie et le fuseau comme des éléments distincts. Cette attention rend les relais plus fluides sans inventer de nouvelles conditions de service dans une note de coordination.",
+     "handling": "Действующий материал. Перевод с FR; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "chunk_id": "onboarding-handover::chunk-08",
+   "text": "Как сохранить пользу записи после передачи\n\nЕсли после передачи меняется тариф, окно или контакт, обновите соответствующее операционное утверждение в существующем запросе и объясните, что изменилось. Не создавайте конкурирующее личное резюме, оставляя принимающей команде две на вид завершённые версии. Сохраняйте прежнее решение видимым в истории переписки, чтобы проверяющий понял последовательность. Изменение окна может повлиять на доступность контакта для отката, поэтому проверьте эту связь, а не меняйте только дату.\n\nПеред закрытием онбординга перечитайте запись с точки зрения принимающей команды. Может ли коллега определить ответственного со стороны клиента, найти workspace, понять статус SSO, при необходимости связаться с провайдером идентификации и объяснить следующее действие? Может ли коллега найти очищенные доказательства, не открывая учётные данные? Если какого-то из этих ответов нет, доработайте запись, прежде чем оставить запрос. Цель — непрерывность для клиента, а не длинный документ, которым никто не сможет воспользоваться при следующем инциденте.",
+   "metadata": {
+    "line_start": 0,
+    "token_count": 254,
+    "is_translation": true,
+    "format": "docx",
+    "source_path": "documents/Клиентский сервис/Customer handover.docx",
+    "source_lang": "en",
+    "chunk_sha256": "4d7ca82e232c255b066e8ed761790f01b271c3d73feb07f2029f0083beec88ec",
+    "updated": "2026-09",
+    "conflict_group": "",
+    "owner": "Customer Success and Support",
+    "title_source": "registry.title_ru",
+    "document_id": "onboarding-handover",
+    "page_end": 0,
+    "page_start": 0,
+    "title_orig": "Onboarding handover record",
+    "fragment_ids": "08-031,08-032,08-033",
+    "section": "Как сохранить пользу записи после передачи",
+    "title": "Запись о передаче онбординга",
+    "line_end": 0,
+    "document_sha256": "66ed56338ce2dbb916ebfaa2d836675c99aa73c82f9799d3584532cd35112b82",
+    "trust": "confirmed",
+    "related": "5 41 38",
+    "locator": "абзац 32 (w:p, стиль Normal); абзац 33 (w:p, стиль Normal)",
+    "version": "2026-09"
+   },
+   "distance": 0.162544,
+   "provenance": [
+    {
+     "fragment_id": "08-031",
+     "role": "heading",
+     "start": 0,
+     "end": 42,
+     "locator": {
+      "paragraph": 31,
+      "style": "Heading1"
+     },
+     "locator_text": "абзац 31 (w:p, стиль Heading1)",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Keeping the record useful after transfer",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "08-032",
+     "role": "content",
+     "start": 44,
+     "end": 523,
+     "locator": {
+      "paragraph": 32,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 32 (w:p, стиль Normal)",
+     "section_orig": "Keeping the record useful after transfer",
+     "section_ru": "Как сохранить пользу записи после передачи",
+     "translation": "translated",
+     "text_orig": "If a plan, window or contact changes after the handover, update the relevant operational statement in the existing request and explain what changed. Do not create a competing personal summary and leave the receiving team with two apparently finished versions. Keep the earlier decision visible in the conversation history so a reviewer can understand the sequence. A change to the window can affect availability of the rollback contact, so check that relationship instead of editing only the date.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "08-033",
+     "role": "content",
+     "start": 525,
+     "end": 1076,
+     "locator": {
+      "paragraph": 33,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 33 (w:p, стиль Normal)",
+     "section_orig": "Keeping the record useful after transfer",
+     "section_ru": "Как сохранить пользу записи после передачи",
+     "translation": "translated",
+     "text_orig": "Before closing onboarding, read the record from the receiving team's point of view. Can the colleague identify the customer owner, find the workspace, understand SSO status, contact the identity provider where needed and explain the next action? Can the colleague locate sanitised evidence without opening credentials? If any of those answers is missing, finish the record before leaving the request. The purpose is continuity for the customer, not a long document that nobody can use during the next incident.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "chunk_id": "api-key-rotation::chunk-03",
+   "text": "## Проверить до отзыва\n\nДо отзыва старого ключа выполните с новым один запрос чтения и один разрешённый запрос записи. Успешное чтение само по себе не доказывает, что интеграция сможет продолжить все нужные ей операции. В то же время проверка записи должна соответствовать её разрешениям, а не служить способом попробовать любые действия в workspace. В записи о переходе полезно ясно отделить факт выполнения чтения от факта выполнения записи: иначе короткое «API отвечает» будет неоднозначным для следующего человека.\n\nРезультаты проверки обсуждают через контекст запросов. В обращении допустимы key ID, время UTC, endpoint и request ID без заголовка Authorization. Такой набор позволяет говорить об одном событии и не переносить секрет в переписку. Если клиент копирует большой фрагмент сетевого журнала, попросите оставить только нужные сведения и убрать Authorization. Обилие строк в логе не делает диагностику точнее, когда из них нельзя понять, каким ключом и в какой момент выполнялась проверка.\n\nПосле успешной проверки нового старый ключ отзывают. Это нужно сделать не позднее конца 24-часового окна перекрытия. Не откладывайте отзыв из-за того, что коллега ещё не прочитал сообщение об успешном тесте: договорённость о том, кто выполняет завершающее действие, должна быть частью самого перехода. Если в обсуждении сказано только «ключ заменили», уточните, означает ли это изменение настройки или также отзыв прежнего ключа. Это разные наблюдаемые действия, хотя в бытовом разговоре их часто сжимают в одно слово.",
+   "metadata": {
+    "owner": "Security Operations",
+    "is_translation": false,
+    "title": "Ротация сервисного ключа без потери контекста",
+    "locator": "строка 17; строка 19; строка 21",
+    "conflict_group": "",
+    "line_start": 17,
+    "fragment_ids": "31-008,31-009,31-010,31-011",
+    "token_count": 354,
+    "title_orig": "Ротация сервисного ключа без потери контекста",
+    "page_end": 0,
+    "related": "26 23 25",
+    "document_sha256": "6895e2e7ec379dfb875d374461e5067c92e52b5a35b4a1c7c1a60c6577ba6ed9",
+    "format": "md",
+    "chunk_sha256": "dde00a4cfe9b3816ea1ad4942578ea74bae1862cd6c6aff70711056a52f22f21",
+    "document_id": "api-key-rotation",
+    "section": "Проверить до отзыва",
+    "trust": "confirmed",
+    "updated": "2026-09-01",
+    "version": "2026-09-01",
+    "line_end": 21,
+    "source_path": "documents/Платформа и интеграции/Ротация ключей.md",
+    "title_source": "registry.title_ru",
+    "page_start": 0,
+    "source_lang": "ru"
+   },
+   "distance": 0.16394,
+   "provenance": [
+    {
+     "fragment_id": "31-008",
+     "role": "heading",
+     "start": 0,
+     "end": 22,
+     "locator": {
+      "lines": [
+       15,
+       15
+      ]
+     },
+     "locator_text": "строка 15",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "31-009",
+     "role": "content",
+     "start": 24,
+     "end": 518,
+     "locator": {
+      "lines": [
+       17,
+       17
+      ]
+     },
+     "locator_text": "строка 17",
+     "section_orig": "Проверить до отзыва",
+     "section_ru": "Проверить до отзыва",
+     "translation": "original_ru",
+     "also_in": [
+      {
+       "fragment_id": "39-009",
+       "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+       "locator_text": "стр. 1, блок 9",
+       "source_lang": "ru"
+      }
+     ],
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "31-010",
+     "role": "content",
+     "start": 520,
+     "end": 1002,
+     "locator": {
+      "lines": [
+       19,
+       19
+      ]
+     },
+     "locator_text": "строка 19",
+     "section_orig": "Проверить до отзыва",
+     "section_ru": "Проверить до отзыва",
+     "translation": "original_ru",
+     "also_in": [
+      {
+       "fragment_id": "39-010",
+       "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+       "locator_text": "стр. 1–2, блок 10",
+       "source_lang": "ru"
+      }
+     ],
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "31-011",
+     "role": "content",
+     "start": 1004,
+     "end": 1522,
+     "locator": {
+      "lines": [
+       21,
+       21
+      ]
+     },
+     "locator_text": "строка 21",
+     "section_orig": "Проверить до отзыва",
+     "section_ru": "Проверить до отзыва",
+     "translation": "original_ru",
+     "also_in": [
+      {
+       "fragment_id": "39-011",
+       "source_path": "documents/Рабочие копии/Памятка ротации API.pdf",
+       "locator_text": "стр. 2, блок 1",
+       "source_lang": "ru"
+      }
+     ],
+     "handling": "Действующий материал."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "chunk_id": "onboarding-handover::chunk-05",
+   "text": "Ход работ и доказательства\n\nПеречислите выполненные проверки с их результатами. Не пишите «всё хорошо», если проверен только один пилотный пользователь. Прикладывайте безопасные доказательства, например идентификаторы запросов, ссылку на очищенный журнал или соответствующую запись об изменении. Удалите токены и другие секреты до прикрепления доказательств. Снимки экрана должны показывать обсуждаемое состояние, не раскрывая постороннюю личную информацию или полный список закрытых документов. Длинное вложение само по себе не убедительнее точной ссылки на проверенный результат.\n\nЗавершите операционную часть следующим согласованным действием и тем, кто за него отвечает. Если клиент должен предоставить файл соответствия, укажите это. Если принимающая команда должна назначить проверочный звонок, укажите, кто его организует. Передающий ответственный не должен исчезать до того, как принимающая команда подтвердит принятие ответственности в запросе. Во время отпусков или смены дежурства явное подтверждение не даёт задаче зависнуть между двумя командами, пока каждая считает, что ею занимается другая.",
+   "metadata": {
+    "locator": "абзац 21 (w:p, стиль Normal); абзац 22 (w:p, стиль Normal)",
+    "conflict_group": "",
+    "line_end": 0,
+    "document_sha256": "66ed56338ce2dbb916ebfaa2d836675c99aa73c82f9799d3584532cd35112b82",
+    "page_start": 0,
+    "related": "5 41 38",
+    "fragment_ids": "08-020,08-021,08-022",
+    "is_translation": true,
+    "title_source": "registry.title_ru",
+    "trust": "confirmed",
+    "updated": "2026-09",
+    "title_orig": "Onboarding handover record",
+    "section": "Ход работ и доказательства",
+    "title": "Запись о передаче онбординга",
+    "source_path": "documents/Клиентский сервис/Customer handover.docx",
+    "page_end": 0,
+    "token_count": 264,
+    "format": "docx",
+    "source_lang": "en",
+    "document_id": "onboarding-handover",
+    "chunk_sha256": "6134299dd63e0e8dfb980a6d1b10f000aa482af42b54891247cada63446e6c6d",
+    "version": "2026-09",
+    "owner": "Customer Success and Support",
+    "line_start": 0
+   },
+   "distance": 0.165085,
+   "provenance": [
+    {
+     "fragment_id": "08-020",
+     "role": "heading",
+     "start": 0,
+     "end": 26,
+     "locator": {
+      "paragraph": 20,
+      "style": "Heading1"
+     },
+     "locator_text": "абзац 20 (w:p, стиль Heading1)",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "Progress and evidence",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "08-021",
+     "role": "content",
+     "start": 28,
+     "end": 581,
+     "locator": {
+      "paragraph": 21,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 21 (w:p, стиль Normal)",
+     "section_orig": "Progress and evidence",
+     "section_ru": "Ход работ и доказательства",
+     "translation": "translated",
+     "text_orig": "List completed checks with their results. Do not write all good when only one pilot user was tested. Link safe evidence such as request identifiers, a sanitised log reference or the relevant change record. Remove tokens and other secrets before the evidence is attached. Screenshots should show the state under discussion without exposing unrelated personal information or a full list of private documents. A long attachment is not automatically more convincing than a precise reference to a checked result.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "08-022",
+     "role": "content",
+     "start": 583,
+     "end": 1106,
+     "locator": {
+      "paragraph": 22,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 22 (w:p, стиль Normal)",
+     "section_orig": "Progress and evidence",
+     "section_ru": "Ход работ и доказательства",
+     "translation": "translated",
+     "text_orig": "End the operational part with the next agreed action and who owns it. If the customer is expected to supply a mapping file, say so. If the receiving team must book a verification call, say who will arrange it. The outgoing owner should not disappear before the receiving team confirms ownership in the request. During holidays or a shift change, an explicit acknowledgement prevents a task from sitting between two teams while each assumes the other is handling it.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  },
+  {
+   "rank": 9,
+   "chunk_id": "workspace-ownership-transfer::chunk-05",
+   "text": "Что меняется после принятия\n\nПрежний владелец получает роль администратора. Это важно проговорить до подтверждения, чтобы клиент не ожидал автоматического исключения бывшего владельца из организации. Если его доступ затем нужно прекратить, это отдельное осознанное решение с проверкой прав и зависимостей. Существующие ссылки и разрешения пространств сохраняются. Передача владельца не является способом заново раздать доступ всем участникам и не исправляет автоматически неверные разрешения в отдельном пространстве.\n\nПлатёжный контакт меняют отдельным запросом. Владелец рабочего пространства и billing contact могут быть разными людьми, поэтому в ответе не обещайте, что счета сразу начнут приходить новому владельцу. Не нужно повторно создавать пространство или копировать данные ради такой передачи. Если клиент одновременно просит изменить юридическое лицо договора, подключите соответствующую команду и сохраните разделение действий в одной понятной истории обращения.",
+   "metadata": {
+    "page_end": 0,
+    "title_source": "registry.title_ru",
+    "title_orig": "Передача владения workspace",
+    "conflict_group": "",
+    "is_translation": false,
+    "page_start": 0,
+    "line_end": 0,
+    "fragment_ids": "30-018,30-019,30-020",
+    "format": "docx",
+    "chunk_sha256": "c859e6d78f9ad8e933b62926baa3621f00005b697078fa5c990a0802f04db675",
+    "locator": "абзац 19 (w:p, стиль Normal); абзац 20 (w:p, стиль Normal)",
+    "document_sha256": "dd866b868a25fe5d3027c22c2490491f1880cd77a36c9aa9afccd330b39fdb68",
+    "trust": "confirmed",
+    "token_count": 202,
+    "updated": "2026-09-01",
+    "version": "2026-09-01",
+    "owner": "Account Operations",
+    "title": "Передача владения workspace",
+    "related": "14 42",
+    "line_start": 0,
+    "document_id": "workspace-ownership-transfer",
+    "section": "Что меняется после принятия",
+    "source_path": "documents/Платформа и интеграции/Передача владельца копия.docx",
+    "source_lang": "ru"
+   },
+   "distance": 0.178179,
+   "provenance": [
+    {
+     "fragment_id": "30-018",
+     "role": "heading",
+     "start": 0,
+     "end": 27,
+     "locator": {
+      "paragraph": 18,
+      "style": "Heading1"
+     },
+     "locator_text": "абзац 18 (w:p, стиль Heading1)",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "30-019",
+     "role": "content",
+     "start": 29,
+     "end": 517,
+     "locator": {
+      "paragraph": 19,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 19 (w:p, стиль Normal)",
+     "section_orig": "Что меняется после принятия",
+     "section_ru": "Что меняется после принятия",
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    },
+    {
+     "fragment_id": "30-020",
+     "role": "content",
+     "start": 519,
+     "end": 975,
+     "locator": {
+      "paragraph": 20,
+      "style": "Normal"
+     },
+     "locator_text": "абзац 20 (w:p, стиль Normal)",
+     "section_orig": "Что меняется после принятия",
+     "section_ru": "Что меняется после принятия",
+     "translation": "original_ru",
+     "handling": "Действующий материал."
+    }
+   ]
+  },
+  {
+   "rank": 10,
+   "chunk_id": "notification-explainer::chunk-06",
+   "text": "## Полезный разговор о доставке\n\nСоберите notification ID и отметку времени доставки. Никогда не просите пароль от почтового ящика. Доступ к почтовому ящику клиента — не те доказательства, которые нам нужны, и пароль не делает запутанную хронологию понятнее. Если клиент, желая помочь, сам предлагает учётные данные, остановите эту часть обмена и вернитесь к идентификаторам и времени. Участник может сообщить, что он наблюдает, не передавая управление своей почтовой учётной записью.\n\nВот как я написал бы передачу после вопроса об упоминании: определите уведомление, опишите ожидаемый канал, укажите, был ли элемент прочитан во время задержки, и отметьте проверки соответствующих настроек и часового пояса участника. Это описание одного события, а не новый перечень обязательных полей. Оно не позволит следующему сотруднику принять «письма нет» за вывод, когда это было лишь первоначальное описание клиента. Если результат проверки ещё неизвестен, оставьте его неизвестным, а не заполняйте пробел предположением.",
+   "metadata": {
+    "line_start": 27,
+    "document_sha256": "77417903ff4a75ab39881e2e281c5fe911229e5b055f27dc3423d92cccae9c29",
+    "token_count": 254,
+    "trust": "confirmed",
+    "section": "Полезный разговор о доставке",
+    "line_end": 29,
+    "chunk_sha256": "c42c92afa3b489a925e41eaee34f58f18dd74f5c3374959bd47b38a56b5ac66e",
+    "source_path": "documents/Рабочие копии/Notifications final.md",
+    "format": "md",
+    "source_lang": "en",
+    "related": "33",
+    "conflict_group": "",
+    "page_start": 0,
+    "owner": "Messaging Platform",
+    "version": "2026-09-01",
+    "title_source": "registry.title_ru",
+    "locator": "строка 27; строка 29",
+    "is_translation": true,
+    "updated": "2026-09-01",
+    "title": "Почему упоминание видно, а письма нет",
+    "fragment_ids": "35-013,35-014,35-015",
+    "document_id": "notification-explainer",
+    "title_orig": "Why the mention is visible but the email is missing",
+    "page_end": 0
+   },
+   "distance": 0.165782,
+   "provenance": [
+    {
+     "fragment_id": "35-013",
+     "role": "heading",
+     "start": 0,
+     "end": 31,
+     "locator": {
+      "lines": [
+       25,
+       25
+      ]
+     },
+     "locator_text": "строка 25",
+     "section_orig": null,
+     "section_ru": null,
+     "translation": "translated",
+     "text_orig": "## A useful delivery conversation",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "35-014",
+     "role": "content",
+     "start": 33,
+     "end": 484,
+     "locator": {
+      "lines": [
+       27,
+       27
+      ]
+     },
+     "locator_text": "строка 27",
+     "section_orig": "A useful delivery conversation",
+     "section_ru": "Полезный разговор о доставке",
+     "translation": "translated",
+     "text_orig": "Collect the notification ID and delivery timestamp. Never ask for a mailbox password. Access to the customer's mailbox is not the evidence we need, and a password does not make a confusing timeline easier to understand. If the customer volunteers credentials while trying to be helpful, stop that part of the exchange and return to the identifiers and timing. The member can report what they observe without handing over control of their email account.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    },
+    {
+     "fragment_id": "35-015",
+     "role": "content",
+     "start": 486,
+     "end": 1014,
+     "locator": {
+      "lines": [
+       29,
+       29
+      ]
+     },
+     "locator_text": "строка 29",
+     "section_orig": "A useful delivery conversation",
+     "section_ru": "Полезный разговор о доставке",
+     "translation": "translated",
+     "text_orig": "Here is how I would write a handover after a mention question: identify the notification, describe the expected channel, state whether the item was read during the delay, and note the member's relevant preference and timezone checks. This is a narrative of one event, not a new checklist of mandatory fields. It prevents the next agent from interpreting “email missing” as a conclusion when it was only the customer's opening description. When a check is still unknown, leave it unknown rather than filling the gap with an assumption.",
+     "handling": "Действующий материал. Перевод с EN; цитировать оригинал по указанному месту."
+    }
+   ]
+  }
+ ],
+ "context": "[onboarding-handover::chunk-07] Запись о передаче онбординга — documents/Клиентский сервис/Customer handover.docx, абзац 28 (w:p, стиль Normal); абзац 30 (w:p, стиль Normal)\nВходящий текст, сохранённый вместе с запросом\n\nЗапрос также содержит текст, переданный клиентом во время тестирования. Ниже он сохранён как часть истории переписки, в той же формулировке, в какой поступил. Это не заявление Customer Success о настройке и не доказательство того, что какая-либо конфигурация продукта изменилась. Держите свободный текст, переданный клиентом, отдельно от полей, проверенных ответственным за онбординг. Технической передаче по-прежнему нужны workspace, тариф, регион и другие проверенные операционные сведения.\n\nКоллега, принимающий эту запись, должен иметь возможность проследить эту заметку до входящей переписки, если она позже появится в выгруженной расшифровке. Не заменяйте исходную переписку очищенной версией, в которой теряется источник текста. Сообщая о выполненной работе по онбордингу, используйте фактически проверенные результаты и согласованное следующее действие. Процитированный текст клиента не означает, что принимающая команда приняла ответственность или что проверка миграции пройдена.\n\n[guest-access::chunk-04] Когда клиенту нужен гость — documents/Планирование/Клиенты/Гости — новый порядок.md, строка 21; строка 23\n## Когда сотрудничество заканчивается\n\nПри отзыве приглашения доступ действующего гостя прекращается сразу. Это правило следует учитывать, когда клиент готовит завершение проекта: отзыв касается не только ещё не принятого письма. Если администратор спрашивает, останется ли у работающего гостя доступ «до конца дня», объясните немедленный эффект действия. Не нужно придумывать отдельный период ожидания или обещать, что открытая ранее вкладка сохранит права. Разговор должен опираться на то, какое действие клиент собирается выполнить, а не на видимые у гостя старые страницы.\n\nДля передачи клиентского запуска полезно оставить короткую историю: зачем приглашён внешний человек, какие пространства выбраны и кто со стороны клиента управляет приглашением. Она помогает коллегам обсуждать последующие вопросы в том же контексте. Эта записка не устанавливает новый процесс согласований или дополнительные тарифы. Её цель — чтобы слова «гость», «ссылка» и «участник workspace» не подменяли друг друга в разговоре. Тогда клиент заранее понимает и удобство совместной работы, и её границы.\n\n[api-key-rotation::chunk-02] Ротация сервисного ключа без потери контекста — documents/Платформа и интеграции/Ротация ключей.md, строка 9; строка 11; строка 13\n## Подготовить смену\n\nНовый ключ создаёт администратор интеграции с минимальным набором scopes. Не копируйте расширенные права в новую конфигурацию лишь потому, что прежняя интеграция когда-то получила их для другого сценария. Для этой процедуры важно, чтобы проверка относилась к разрешённой работе интеграции. Если человек, запускающий переход, не понимает, какой запрос записи ей нужен, это следует прояснить до отзыва старого ключа, а не экспериментировать с произвольными изменениями клиентских данных.\n\nОдновременно допускаются два активных ключа в течение 24 часов. Это окно перекрытия предназначено для безопасного перехода. Оно даёт возможность проверить новый доступ, пока старый ещё обеспечивает работу, но не превращает пару ключей в постоянную схему эксплуатации. В плане перехода назовите начало окна и его окончание так, чтобы коллеги не принимали «сутки» за конец следующего рабочего дня. Занятость администратора и выходные не являются дополнительным разрешением оставить оба ключа активными за пределами этого окна.\n\nНе стоит обсуждать смену через пересылку самих секретов. Полное значение ключа нельзя отправлять в поддержку, по почте или в чат. Это касается и внутреннего диалога, и ответа клиенту, и снимка экрана, если на нём виден весь ключ. Поддержке не нужен секрет, чтобы разобраться, о каком доступе идёт речь. Попросите человека остановиться, если он собирается вставить значение в сообщение, и объясните, какие диагностические сведения можно сообщить вместо него.\n\n[onboarding-handover::chunk-01] Запись о передаче онбординга — documents/Клиентский сервис/Customer handover.docx, абзац 2 (w:p, стиль Normal); абзац 3 (w:p, стиль Normal)\nCustomer Success and Support используют эту запись о передаче с сентября 2026 года, когда запрос на онбординг переходит в обычную поддержку. Принимающий коллега должен иметь возможность продолжить следующее согласованное с клиентом действие, не прося клиента повторить базовую настройку. Храните запись в существующем запросе и прикрепляйте туда соответствующие доказательства. Передача завершена, когда принимающая команда подтверждает, что приняла ответственность, а не когда передающий просто отправил сообщение.\n\nПишите для коллеги, который не участвовал в звонках. Списка названий продуктов недостаточно: объясните, какой workspace подключён, что проверено, что ещё требует действий и кто может одобрить откат, если изменение не удастся. Используйте выбранные клиентом тариф и регион хостинга. Франкоязычный контакт не означает, что workspace хранится в Париже, а разговор с отделом продаж об Enterprise не доказывает, что выбранный тариф уже изменился.\n\n[french-handoff::chunk-04] Для следующей передачи франкоязычной команде — documents/Рабочие копии/Relais français 2026-09.txt, строка 21; строка 23\nКогда запрос возвращается после нескольких передач, начните с того, чтобы перечитать уже данные договорённости, в частности выбор языка, а затем посмотрите на последний фактически достигнутый этап. Иногда мы теряем время, повторно задавая вопрос, ответ на который находится тремя сообщениями выше. Хорошо написанная заметка о передаче позволяет этого избежать, не раздувая дело. Она объединяет немногие необходимые сведения в связную историю: потребность, workspace, проверки и собеседник, который знает, как продолжится разговор.\n\nПрактическая цель проста: при смене собеседника клиент должен узнавать непрерывность своего дела. Ему не нужно переименовывать параметры, переформулировать ошибки или заново отстаивать приоритет своего инцидента, чтобы его поняли. Со своей стороны мы держим страну договора, выбранный язык и часовой пояс как отдельные элементы. Такое внимание делает передачи более плавными, не придумывая новых условий обслуживания в координационной заметке.\n\n[onboarding-handover::chunk-08] Запись о передаче онбординга — documents/Клиентский сервис/Customer handover.docx, абзац 32 (w:p, стиль Normal); абзац 33 (w:p, стиль Normal)\nКак сохранить пользу записи после передачи\n\nЕсли после передачи меняется тариф, окно или контакт, обновите соответствующее операционное утверждение в существующем запросе и объясните, что изменилось. Не создавайте конкурирующее личное резюме, оставляя принимающей команде две на вид завершённые версии. Сохраняйте прежнее решение видимым в истории переписки, чтобы проверяющий понял последовательность. Изменение окна может повлиять на доступность контакта для отката, поэтому проверьте эту связь, а не меняйте только дату.\n\nПеред закрытием онбординга перечитайте запись с точки зрения принимающей команды. Может ли коллега определить ответственного со стороны клиента, найти workspace, понять статус SSO, при необходимости связаться с провайдером идентификации и объяснить следующее действие? Может ли коллега найти очищенные доказательства, не открывая учётные данные? Если какого-то из этих ответов нет, доработайте запись, прежде чем оставить запрос. Цель — непрерывность для клиента, а не длинный документ, которым никто не сможет воспользоваться при следующем инциденте.\n\n[api-key-rotation::chunk-03] Ротация сервисного ключа без потери контекста — documents/Платформа и интеграции/Ротация ключей.md, строка 17; строка 19; строка 21\n## Проверить до отзыва\n\nДо отзыва старого ключа выполните с новым один запрос чтения и один разрешённый запрос записи. Успешное чтение само по себе не доказывает, что интеграция сможет продолжить все нужные ей операции. В то же время проверка записи должна соответствовать её разрешениям, а не служить способом попробовать любые действия в workspace. В записи о переходе полезно ясно отделить факт выполнения чтения от факта выполнения записи: иначе короткое «API отвечает» будет неоднозначным для следующего человека.\n\nРезультаты проверки обсуждают через контекст запросов. В обращении допустимы key ID, время UTC, endpoint и request ID без заголовка Authorization. Такой набор позволяет говорить об одном событии и не переносить секрет в переписку. Если клиент копирует большой фрагмент сетевого журнала, попросите оставить только нужные сведения и убрать Authorization. Обилие строк в логе не делает диагностику точнее, когда из них нельзя понять, каким ключом и в какой момент выполнялась проверка.\n\nПосле успешной проверки нового старый ключ отзывают. Это нужно сделать не позднее конца 24-часового окна перекрытия. Не откладывайте отзыв из-за того, что коллега ещё не прочитал сообщение об успешном тесте: договорённость о том, кто выполняет завершающее действие, должна быть частью самого перехода. Если в обсуждении сказано только «ключ заменили», уточните, означает ли это изменение настройки или также отзыв прежнего ключа. Это разные наблюдаемые действия, хотя в бытовом разговоре их часто сжимают в одно слово.\n\n[onboarding-handover::chunk-05] Запись о передаче онбординга — documents/Клиентский сервис/Customer handover.docx, абзац 21 (w:p, стиль Normal); абзац 22 (w:p, стиль Normal)\nХод работ и доказательства\n\nПеречислите выполненные проверки с их результатами. Не пишите «всё хорошо», если проверен только один пилотный пользователь. Прикладывайте безопасные доказательства, например идентификаторы запросов, ссылку на очищенный журнал или соответствующую запись об изменении. Удалите токены и другие секреты до прикрепления доказательств. Снимки экрана должны показывать обсуждаемое состояние, не раскрывая постороннюю личную информацию или полный список закрытых документов. Длинное вложение само по себе не убедительнее точной ссылки на проверенный результат.\n\nЗавершите операционную часть следующим согласованным действием и тем, кто за него отвечает. Если клиент должен предоставить файл соответствия, укажите это. Если принимающая команда должна назначить проверочный звонок, укажите, кто его организует. Передающий ответственный не должен исчезать до того, как принимающая команда подтвердит принятие ответственности в запросе. Во время отпусков или смены дежурства явное подтверждение не даёт задаче зависнуть между двумя командами, пока каждая считает, что ею занимается другая.\n\n[workspace-ownership-transfer::chunk-05] Передача владения workspace — documents/Платформа и интеграции/Передача владельца копия.docx, абзац 19 (w:p, стиль Normal); абзац 20 (w:p, стиль Normal)\nЧто меняется после принятия\n\nПрежний владелец получает роль администратора. Это важно проговорить до подтверждения, чтобы клиент не ожидал автоматического исключения бывшего владельца из организации. Если его доступ затем нужно прекратить, это отдельное осознанное решение с проверкой прав и зависимостей. Существующие ссылки и разрешения пространств сохраняются. Передача владельца не является способом заново раздать доступ всем участникам и не исправляет автоматически неверные разрешения в отдельном пространстве.\n\nПлатёжный контакт меняют отдельным запросом. Владелец рабочего пространства и billing contact могут быть разными людьми, поэтому в ответе не обещайте, что счета сразу начнут приходить новому владельцу. Не нужно повторно создавать пространство или копировать данные ради такой передачи. Если клиент одновременно просит изменить юридическое лицо договора, подключите соответствующую команду и сохраните разделение действий в одной понятной истории обращения.\n\n[notification-explainer::chunk-06] Почему упоминание видно, а письма нет — documents/Рабочие копии/Notifications final.md, строка 27; строка 29\n## Полезный разговор о доставке\n\nСоберите notification ID и отметку времени доставки. Никогда не просите пароль от почтового ящика. Доступ к почтовому ящику клиента — не те доказательства, которые нам нужны, и пароль не делает запутанную хронологию понятнее. Если клиент, желая помочь, сам предлагает учётные данные, остановите эту часть обмена и вернитесь к идентификаторам и времени. Участник может сообщить, что он наблюдает, не передавая управление своей почтовой учётной записью.\n\nВот как я написал бы передачу после вопроса об упоминании: определите уведомление, опишите ожидаемый канал, укажите, был ли элемент прочитан во время задержки, и отметьте проверки соответствующих настроек и часового пояса участника. Это описание одного события, а не новый перечень обязательных полей. Оно не позволит следующему сотруднику принять «письма нет» за вывод, когда это было лишь первоначальное описание клиента. Если результат проверки ещё неизвестен, оставьте его неизвестным, а не заполняйте пробел предположением.",
+ "context_chunk_ids": [
+  "onboarding-handover::chunk-07",
+  "guest-access::chunk-04",
+  "api-key-rotation::chunk-02",
+  "onboarding-handover::chunk-01",
+  "french-handoff::chunk-04",
+  "onboarding-handover::chunk-08",
+  "api-key-rotation::chunk-03",
+  "onboarding-handover::chunk-05",
+  "workspace-ownership-transfer::chunk-05",
+  "notification-explainer::chunk-06"
+ ],
+ "retrieval_trace_path": "evidence/retrieval-trace-q-20261118T210714Z-9076cf.json",
+ "output_path": "evidence/retrieval-b-q09-agent.json"
+}
