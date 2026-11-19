@@ -1,0 +1,224 @@
+{
+ "status": "finalized",
+ "capture_id": "cap-20261119T082930Z-92a9b0",
+ "created_at": "2026-11-19T08:29:30Z",
+ "question": "Какая компенсация предусмотрена на Team за подтверждённый инцидент P1 с недоступностью 120 минут?",
+ "role": "support_lead",
+ "decision": "escalate",
+ "answer": "Компенсация — сервисный кредит, но действующие источники расходятся в ставке, поэтому вопрос нужно передать в Finance и Support Operations.\n\n1. Условие выполнено: оба графика применяются к Team при подтверждённом сбое P1 не менее 120 минут подряд, в том числе ровно 120 минут («Team service credits.docx», введение, абзац 3, и раздел Eligibility, абзац 5; «Team service credits.pdf», стр. 1, блок 3).\n2. Противоречие в ставке (оба документа действуют с 15 сентября 2026 года):\n   — «Клиентский сервис/Team service credits.docx» (Support Operations), раздел Settlement, абзац 10: 20 процентов ежемесячной платы за подписку (оригинал: «the service credit is 20 percent of the monthly subscription fee»);\n   — «Финансы/Team service credits.pdf» (Finance), стр. 1, блок 10: 15 процентов (оригинал: «the service credit is 15 percent of the monthly subscription fee»).\n   Какой источник главнее, в найденных фрагментах не указано. По рассылке о сбоях при разных действующих правилах компенсации нужно сохранить оба источника и передать вопрос Finance и Support Operations («Сбой сервиса - рассылка.pdf», стр. 2, блок 7).\n3. В остальном источники совпадают: процент берётся от ежемесячной платы за подписку затронутого workspace без налогов и дополнений за использование; кредит зачитывается в следующий счёт и не является денежной выплатой; сумма кредитов не более 50 процентов той же платы; billing owner подаёт заявку в течение 10 календарных дней после окончания инцидента с incident ID, workspace ID, интервалом влияния в UTC и invoice ID (docx, абзацы 6–8, 11–12; pdf, стр. 1, блоки 6–8, 11–12).\n4. Клиенту сумму не обещать: компенсация требует отдельной проверки условий и не обещается в статусном сообщении («Сбой сервиса - рассылка.pdf»).",
+ "citations": [
+  {
+   "document_id": "team-service-credits-support",
+   "chunk_id": "team-service-credits-support::chunk-03",
+   "quote": "При подходящем сбое P1 на Team продолжительностью не менее 120 минут подряд сервисный кредит составляет 20 процентов ежемесячной платы за подписку.",
+   "source_path": "documents/Клиентский сервис/Team service credits.docx",
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "section": "Урегулирование",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "source_lang": "en",
+   "where": "раздел «Settlement», абзац 10",
+   "original_excerpt": [
+    "For an eligible Team P1 outage lasting at least 120 consecutive minutes, the service credit is 20 percent of the monthly subscription fee."
+   ]
+  },
+  {
+   "document_id": "team-service-credits-finance",
+   "chunk_id": "team-service-credits-finance::chunk-03",
+   "quote": "Ставка. При подходящем сбое P1 на Team продолжительностью не менее 120 минут подряд сервисный кредит составляет 15 процентов ежемесячной платы за подписку.",
+   "source_path": "documents/Финансы/Team service credits.pdf",
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "section": "Урегулирование",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "source_lang": "en",
+   "where": "стр. 1",
+   "original_excerpt": [
+    "Rate. For an eligible Team P1 outage lasting at least 120 consecutive minutes, the service credit is 15 percent of the monthly subscription fee."
+   ]
+  },
+  {
+   "document_id": "team-service-credits-support",
+   "chunk_id": "team-service-credits-support::chunk-02",
+   "quote": "Этот график применяется к подписке Team при подтверждённом сбое сервиса P1 продолжительностью не менее 120 минут подряд.",
+   "source_path": "documents/Клиентский сервис/Team service credits.docx",
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "section": "Право на кредит",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "source_lang": "en",
+   "where": "раздел «Eligibility», абзац 5",
+   "original_excerpt": [
+    "This schedule applies to a Team subscription with a confirmed P1 service outage lasting at least 120 consecutive minutes."
+   ]
+  },
+  {
+   "document_id": "team-service-credits-finance",
+   "chunk_id": "team-service-credits-finance::chunk-01",
+   "quote": "Приведённые ниже правила применяются к подтверждённому сбою P1 на Team, в том числе к сбою продолжительностью ровно 120 минут подряд.",
+   "source_path": "documents/Финансы/Team service credits.pdf",
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "section": "(введение)",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "source_lang": "en",
+   "where": "стр. 1",
+   "original_excerpt": [
+    "A credit review begins with a specific affected workspace and a continuous interval of service unavailability. The existence of an infrastructure incident is useful evidence, but does not establish that every customer or every workspace suffered the same impact. Read the scope of the incident and the customer account together. The rules below apply to a confirmed P1 outage on Team, including an outage lasting exactly 120 consecutive minutes."
+   ]
+  },
+  {
+   "document_id": "team-service-credits-support",
+   "chunk_id": "team-service-credits-support::chunk-01",
+   "quote": "Выпуск Support Operations, действует с 15 сентября 2026 года.",
+   "source_path": "documents/Клиентский сервис/Team service credits.docx",
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "section": "(введение)",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "source_lang": "en",
+   "where": "введение, абзац 2",
+   "original_excerpt": [
+    "Support Operations issue effective 15 September 2026. This is the operating schedule for a confirmed Team P1 service outage, approved for the support review process. Finance and Support Operations share responsibility for reviewing the claim evidence. The support reviewer prepares the impact record and the calculation before sending a complete claim to the joint review. Keep the existing request open until the agreed outcome has been communicated to the billing owner."
+   ]
+  },
+  {
+   "document_id": "team-service-credits-finance",
+   "chunk_id": "team-service-credits-finance::chunk-01",
+   "quote": "Рассылка Finance, действует с 15 сентября 2026 года.",
+   "source_path": "documents/Финансы/Team service credits.pdf",
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "section": "(введение)",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "source_lang": "en",
+   "where": "стр. 1",
+   "original_excerpt": [
+    "Finance circulation, effective 15 September 2026. This is the operating schedule for confirmed Team P1 service outages. Finance maintains the billing treatment in this document; Support Operations records impact and confirms the incident classification. Both teams use the same incident record. This circulation is in force and is intended for the people preparing or reviewing claims, rather than for an automatic promise in a status update."
+   ]
+  },
+  {
+   "document_id": "team-service-credits-support",
+   "chunk_id": "team-service-credits-support::chunk-02",
+   "quote": "Процент применяется к ежемесячной плате за подписку затронутого workspace без учёта налогов и дополнений за использование.",
+   "source_path": "documents/Клиентский сервис/Team service credits.docx",
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "section": "Право на кредит",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "source_lang": "en",
+   "where": "раздел «Eligibility», абзац 6",
+   "original_excerpt": [
+    "The percentage applies to the monthly subscription fee for the affected workspace, excluding taxes and usage add-ons."
+   ]
+  },
+  {
+   "document_id": "team-service-credits-support",
+   "chunk_id": "team-service-credits-support::chunk-03",
+   "quote": "Одобренный кредит зачитывается в следующий счёт и не является денежной выплатой.",
+   "source_path": "documents/Клиентский сервис/Team service credits.docx",
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "section": "Урегулирование",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "source_lang": "en",
+   "where": "раздел «Settlement», абзац 11",
+   "original_excerpt": [
+    "An approved credit offsets the next invoice and is not a cash payment."
+   ]
+  },
+  {
+   "document_id": "team-service-credits-support",
+   "chunk_id": "team-service-credits-support::chunk-03",
+   "quote": "Сумма кредитов за инциденты не может превышать 50 процентов той же ежемесячной платы за подписку.",
+   "source_path": "documents/Клиентский сервис/Team service credits.docx",
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "section": "Урегулирование",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "source_lang": "en",
+   "where": "раздел «Settlement», абзац 12",
+   "original_excerpt": [
+    "Total incident credits cannot exceed 50 percent of the same monthly subscription fee."
+   ]
+  },
+  {
+   "document_id": "team-service-credits-support",
+   "chunk_id": "team-service-credits-support::chunk-02",
+   "quote": "Billing owner должен подать заявку в течение 10 календарных дней после окончания инцидента.",
+   "source_path": "documents/Клиентский сервис/Team service credits.docx",
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "section": "Право на кредит",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "source_lang": "en",
+   "where": "раздел «Eligibility», абзац 7",
+   "original_excerpt": [
+    "The billing owner must submit a claim within 10 calendar days after the incident ends."
+   ]
+  },
+  {
+   "document_id": "team-service-credits-support",
+   "chunk_id": "team-service-credits-support::chunk-02",
+   "quote": "Для заявки нужны incident ID, workspace ID, интервал влияния в UTC и invoice ID.",
+   "source_path": "documents/Клиентский сервис/Team service credits.docx",
+   "title": "График сервисных кредитов для Team",
+   "title_orig": "Team service credit schedule",
+   "section": "Право на кредит",
+   "version": "2026-09-15",
+   "updated": "2026-09-15",
+   "source_lang": "en",
+   "where": "раздел «Eligibility», абзац 8",
+   "original_excerpt": [
+    "A claim needs incident ID, workspace ID, impact interval in UTC and invoice ID."
+   ]
+  },
+  {
+   "document_id": "outage-communication",
+   "chunk_id": "outage-communication::chunk-06",
+   "quote": "Если обнаружены разные действующие правила компенсации, сохраните оба источника и передайте вопрос Finance и Support Operations.",
+   "source_path": "documents/Клиентский сервис/Сбой сервиса - рассылка.pdf",
+   "title": "Коммуникация при недоступности сервиса",
+   "title_orig": "Коммуникация при недоступности сервиса",
+   "section": "Пример передачи между сменами",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "ru",
+   "where": "стр. 2",
+   "original_excerpt": null
+  },
+  {
+   "document_id": "outage-communication",
+   "chunk_id": "outage-communication::chunk-03",
+   "quote": "Компенсация требует отдельной проверки условий и не обещается в статусном сообщении.",
+   "source_path": "documents/Клиентский сервис/Сбой сервиса - рассылка.pdf",
+   "title": "Коммуникация при недоступности сервиса",
+   "title_orig": "Коммуникация при недоступности сервиса",
+   "section": "Обновления",
+   "version": "2026-09-01",
+   "updated": "2026-09-01",
+   "source_lang": "ru",
+   "where": "стр. 1",
+   "original_excerpt": null
+  }
+ ],
+ "context_state": "available",
+ "policy_version": "v3",
+ "index_id": "idx-20261118T202118Z-d51167",
+ "query_id": "q-20261119T082839Z-6112b7",
+ "retrieval_path": "evidence/retrieval-team-p1-credit-lead.json",
+ "answer_file": "evidence/answer-team-p1-credit-lead-v2.raw.json",
+ "trace_path": "evidence/trace-cap-20261119T082930Z-92a9b0.json",
+ "citation_map_path": "evidence/citation-map-cap-20261119T082930Z-92a9b0.json",
+ "checks": "происхождение ссылок подтверждено: ID из текущих hits, document_id совпадает, quote дословна, документ доступен роли, индекс и настройки актуальны. Смысл тезисов проверяет человек."
+}

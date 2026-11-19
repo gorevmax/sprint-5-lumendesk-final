@@ -1,0 +1,71 @@
+{
+  "answer": "Компенсация — сервисный кредит, но действующие источники расходятся в ставке, поэтому вопрос нужно передать в Finance и Support Operations.\n\n1. Условие выполнено: оба графика применяются к Team при подтверждённом сбое P1 не менее 120 минут подряд, в том числе ровно 120 минут («Team service credits.docx», введение, абзац 3, и раздел Eligibility, абзац 5; «Team service credits.pdf», стр. 1, блок 3).\n2. Противоречие в ставке (оба документа действуют с 15 сентября 2026 года):\n   — «Клиентский сервис/Team service credits.docx» (Support Operations), раздел Settlement, абзац 10: 20 процентов ежемесячной платы за подписку (оригинал: «the service credit is 20 percent of the monthly subscription fee»);\n   — «Финансы/Team service credits.pdf» (Finance), стр. 1, блок 10: 15 процентов (оригинал: «the service credit is 15 percent of the monthly subscription fee»).\n   Какой источник главнее, в найденных фрагментах не указано. По рассылке о сбоях при разных действующих правилах компенсации нужно сохранить оба источника и передать вопрос Finance и Support Operations («Сбой сервиса - рассылка.pdf», стр. 2, блок 7).\n3. В остальном источники совпадают: процент берётся от ежемесячной платы за подписку затронутого workspace без налогов и дополнений за использование; кредит зачитывается в следующий счёт и не является денежной выплатой; сумма кредитов не более 50 процентов той же платы; billing owner подаёт заявку в течение 10 календарных дней после окончания инцидента с incident ID, workspace ID, интервалом влияния в UTC и invoice ID (docx, абзацы 6–8, 11–12; pdf, стр. 1, блоки 6–8, 11–12).\n4. Клиенту сумму не обещать: компенсация требует отдельной проверки условий и не обещается в статусном сообщении («Сбой сервиса - рассылка.pdf»).",
+  "citations": [
+    {
+      "document_id": "team-service-credits-support",
+      "chunk_id": "team-service-credits-support::chunk-03",
+      "quote": "При подходящем сбое P1 на Team продолжительностью не менее 120 минут подряд сервисный кредит составляет 20 процентов ежемесячной платы за подписку."
+    },
+    {
+      "document_id": "team-service-credits-finance",
+      "chunk_id": "team-service-credits-finance::chunk-03",
+      "quote": "Ставка. При подходящем сбое P1 на Team продолжительностью не менее 120 минут подряд сервисный кредит составляет 15 процентов ежемесячной платы за подписку."
+    },
+    {
+      "document_id": "team-service-credits-support",
+      "chunk_id": "team-service-credits-support::chunk-02",
+      "quote": "Этот график применяется к подписке Team при подтверждённом сбое сервиса P1 продолжительностью не менее 120 минут подряд."
+    },
+    {
+      "document_id": "team-service-credits-finance",
+      "chunk_id": "team-service-credits-finance::chunk-01",
+      "quote": "Приведённые ниже правила применяются к подтверждённому сбою P1 на Team, в том числе к сбою продолжительностью ровно 120 минут подряд."
+    },
+    {
+      "document_id": "team-service-credits-support",
+      "chunk_id": "team-service-credits-support::chunk-01",
+      "quote": "Выпуск Support Operations, действует с 15 сентября 2026 года."
+    },
+    {
+      "document_id": "team-service-credits-finance",
+      "chunk_id": "team-service-credits-finance::chunk-01",
+      "quote": "Рассылка Finance, действует с 15 сентября 2026 года."
+    },
+    {
+      "document_id": "team-service-credits-support",
+      "chunk_id": "team-service-credits-support::chunk-02",
+      "quote": "Процент применяется к ежемесячной плате за подписку затронутого workspace без учёта налогов и дополнений за использование."
+    },
+    {
+      "document_id": "team-service-credits-support",
+      "chunk_id": "team-service-credits-support::chunk-03",
+      "quote": "Одобренный кредит зачитывается в следующий счёт и не является денежной выплатой."
+    },
+    {
+      "document_id": "team-service-credits-support",
+      "chunk_id": "team-service-credits-support::chunk-03",
+      "quote": "Сумма кредитов за инциденты не может превышать 50 процентов той же ежемесячной платы за подписку."
+    },
+    {
+      "document_id": "team-service-credits-support",
+      "chunk_id": "team-service-credits-support::chunk-02",
+      "quote": "Billing owner должен подать заявку в течение 10 календарных дней после окончания инцидента."
+    },
+    {
+      "document_id": "team-service-credits-support",
+      "chunk_id": "team-service-credits-support::chunk-02",
+      "quote": "Для заявки нужны incident ID, workspace ID, интервал влияния в UTC и invoice ID."
+    },
+    {
+      "document_id": "outage-communication",
+      "chunk_id": "outage-communication::chunk-06",
+      "quote": "Если обнаружены разные действующие правила компенсации, сохраните оба источника и передайте вопрос Finance и Support Operations."
+    },
+    {
+      "document_id": "outage-communication",
+      "chunk_id": "outage-communication::chunk-03",
+      "quote": "Компенсация требует отдельной проверки условий и не обещается в статусном сообщении."
+    }
+  ],
+  "decision": "escalate"
+}
